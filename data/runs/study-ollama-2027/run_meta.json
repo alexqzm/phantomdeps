@@ -1,0 +1,4937 @@
+{
+ "invocations": [
+  {
+   "concurrency": 1,
+   "config": {
+    "_path": "config/run_study_ollama.yaml",
+    "endpoint": "http://127.0.0.1:11434",
+    "families": [
+     "F1",
+     "F2"
+    ],
+    "models": [
+     {
+      "endpoint_model": "pdcps-qwen2.5-coder-1.5b",
+      "family_name": "Qwen2.5-Coder",
+      "gguf_file": "qwen2.5-coder-1.5b-instruct-q4_k_m.gguf",
+      "gguf_repo": "Qwen/Qwen2.5-Coder-1.5B-Instruct-GGUF",
+      "gguf_revision": "f86cb2c1fa58255f8052cc32aeede1b7482d4361",
+      "horizon": "2024-09-18T09:41:47Z",
+      "horizon_source": "HF createdAt Qwen/Qwen2.5-Coder-1.5B-Instruct",
+      "id": "qwen2.5-coder-1.5b",
+      "library_tag": "qwen2.5-coder:1.5b",
+      "params_b": 1.54,
+      "quant": "Q4_K_M",
+      "sha256": "cc324af070c2ecbfd324a30884d2f951a7ff756aba85cb811a6ec436933bb046",
+      "size": 1117320768,
+      "source_repo": "Qwen/Qwen2.5-Coder-1.5B-Instruct"
+     },
+     {
+      "endpoint_model": "pdcps-llama3.2-3b",
+      "family_name": "Llama-3.2",
+      "gguf_file": "Llama-3.2-3B-Instruct-Q4_K_M.gguf",
+      "gguf_repo": "bartowski/Llama-3.2-3B-Instruct-GGUF",
+      "gguf_revision": "5ab33fa94d1d04e903623ae72c95d1696f09f9e8",
+      "horizon": "2024-09-18T15:19:20Z",
+      "horizon_source": "HF createdAt meta-llama/Llama-3.2-3B-Instruct",
+      "id": "llama3.2-3b",
+      "library_tag": "llama3.2:3b",
+      "params_b": 3.21,
+      "quant": "Q4_K_M",
+      "sha256": "6c1a2b41161032677be168d354123594c0e6e67d2b9227c84f296ad037c728ff",
+      "size": 2019377696,
+      "source_repo": "meta-llama/Llama-3.2-3B-Instruct"
+     },
+     {
+      "endpoint_model": "pdcps-qwen2.5-coder-7b",
+      "family_name": "Qwen2.5-Coder",
+      "gguf_file": "qwen2.5-coder-7b-instruct-q4_k_m.gguf",
+      "gguf_repo": "Qwen/Qwen2.5-Coder-7B-Instruct-GGUF",
+      "gguf_revision": "13fb94bfda8c8cf22497dc57b78f391a9acb426a",
+      "horizon": "2024-09-17T13:38:49Z",
+      "horizon_source": "HF createdAt Qwen/Qwen2.5-Coder-7B-Instruct",
+      "id": "qwen2.5-coder-7b",
+      "library_tag": "qwen2.5-coder:7b",
+      "params_b": 7.62,
+      "quant": "Q4_K_M",
+      "sha256": "509287f78cb4d4cf6b3843734733b914b2c158e43e22a7f4bf5e963800894d3c",
+      "size": 4683073536,
+      "source_repo": "Qwen/Qwen2.5-Coder-7B-Instruct"
+     },
+     {
+      "endpoint_model": "pdcps-deepseek-coder-6.7b",
+      "family_name": "DeepSeek-Coder",
+      "gguf_file": "deepseek-coder-6.7b-instruct.Q4_0.gguf",
+      "gguf_repo": "TheBloke/deepseek-coder-6.7B-instruct-GGUF",
+      "gguf_revision": "9e221e6b41cb1bf1c5d8f9718e81e3dc781f7557",
+      "horizon": "2023-10-29T11:01:36Z",
+      "horizon_source": "HF createdAt deepseek-ai/deepseek-coder-6.7b-instruct",
+      "id": "deepseek-coder-6.7b",
+      "library_tag": "deepseek-coder:6.7b",
+      "params_b": 6.74,
+      "quant": "Q4_0",
+      "sha256": "0c7cf89d9b2dc8671bfade603181aaa18b3dfd93e1b6a2c569a9807c65d4d438",
+      "size": 3827818720,
+      "source_repo": "deepseek-ai/deepseek-coder-6.7b-instruct"
+     },
+     {
+      "endpoint_model": "pdcps-llama3.1-8b",
+      "family_name": "Llama-3.1",
+      "gguf_file": "Meta-Llama-3.1-8B-Instruct-Q4_K_M.gguf",
+      "gguf_repo": "bartowski/Meta-Llama-3.1-8B-Instruct-GGUF",
+      "gguf_revision": "bf5b95e96dac0462e2a09145ec66cae9a3f12067",
+      "horizon": "2024-07-18T08:56:00Z",
+      "horizon_source": "HF createdAt meta-llama/Llama-3.1-8B-Instruct",
+      "id": "llama3.1-8b",
+      "library_tag": "llama3.1:8b",
+      "params_b": 8.03,
+      "quant": "Q4_K_M",
+      "sha256": "7b064f5842bf9532c91456deda288a1b672397a54fa729aa665952863033557c",
+      "size": 4920739232,
+      "source_repo": "meta-llama/Llama-3.1-8B-Instruct"
+     },
+     {
+      "endpoint_model": "pdcps-qwen3-8b",
+      "family_name": "Qwen3",
+      "gguf_file": "Qwen3-8B-Q4_K_M.gguf",
+      "gguf_repo": "Qwen/Qwen3-8B-GGUF",
+      "gguf_revision": "7c41481f57cb95916b40956ab2f0b139b296d974",
+      "horizon": "2025-04-27T03:42:21Z",
+      "horizon_source": "HF createdAt Qwen/Qwen3-8B",
+      "id": "qwen3-8b",
+      "library_tag": "qwen3:8b",
+      "params": {
+       "max_tokens": {
+        "F1": 4096,
+        "F2": 4096
+       }
+      },
+      "params_b": 8.19,
+      "quant": "Q4_K_M",
+      "sha256": "d98cdcbd03e17ce47681435b5150e34c1417f50b5c0019dd560e4882c5745785",
+      "size": 5027783488,
+      "source_repo": "Qwen/Qwen3-8B"
+     },
+     {
+      "endpoint_model": "pdcps-granite3.3-8b",
+      "family_name": "Granite-3.3",
+      "gguf_file": "granite-3.3-8b-instruct-Q4_K_M.gguf",
+      "gguf_repo": "ibm-granite/granite-3.3-8b-instruct-GGUF",
+      "gguf_revision": "e40e9dd739c7be00fa965c16ce167088190ce114",
+      "horizon": "2025-04-09T11:41:39Z",
+      "horizon_source": "HF createdAt ibm-granite/granite-3.3-8b-instruct",
+      "id": "granite3.3-8b",
+      "library_tag": "granite3.3:8b",
+      "params_b": 8.17,
+      "quant": "Q4_K_M",
+      "sha256": "77bcee066a76dcdd10d0d123c87e32c8ec2c74e31b6ffd87ebee49c9ac215dca",
+      "size": 4942873344,
+      "source_repo": "ibm-granite/granite-3.3-8b-instruct"
+     },
+     {
+      "endpoint_model": "pdcps-gemma3-12b",
+      "family_name": "Gemma-3",
+      "gguf_file": "gemma-3-12b-it-Q4_K_M.gguf",
+      "gguf_repo": "ggml-org/gemma-3-12b-it-GGUF",
+      "gguf_revision": "ec0cbabd8dbff316f659876a50202295c3c4a314",
+      "horizon": "2025-03-01T19:11:34Z",
+      "horizon_source": "HF createdAt google/gemma-3-12b-it",
+      "id": "gemma3-12b",
+      "library_tag": "gemma3:12b",
+      "params_b": 12.19,
+      "quant": "Q4_K_M",
+      "sha256": "7bb69bff3f48a7b642355d64a90e481182a7794707b3133890646b1efa778ff5",
+      "size": 7300574976,
+      "source_repo": "google/gemma-3-12b-it"
+     },
+     {
+      "endpoint_model": "pdcps-qwen2.5-coder-14b",
+      "family_name": "Qwen2.5-Coder",
+      "gguf_file": "qwen2.5-coder-14b-instruct-q4_k_m.gguf",
+      "gguf_repo": "Qwen/Qwen2.5-Coder-14B-Instruct-GGUF",
+      "gguf_revision": "d0a692ef765eefbf2fabb130b3cb2e8917e3d225",
+      "horizon": "2024-11-06T07:49:46Z",
+      "horizon_source": "HF createdAt Qwen/Qwen2.5-Coder-14B-Instruct",
+      "id": "qwen2.5-coder-14b",
+      "library_tag": "qwen2.5-coder:14b",
+      "params_b": 14.77,
+      "quant": "Q4_K_M",
+      "sha256": "c1e659736d89ac1065fb495330fb824d94001974a4bfa78e7270e43476a8d940",
+      "size": 8988110272,
+      "source_repo": "Qwen/Qwen2.5-Coder-14B-Instruct"
+     },
+     {
+      "endpoint_model": "pdcps-phi4-14b",
+      "family_name": "Phi-4",
+      "gguf_file": "phi-4-Q4_K.gguf",
+      "gguf_repo": "microsoft/phi-4-gguf",
+      "gguf_revision": "6edc2ef6664b739a8e11e62f2672ff6afe0c15ac",
+      "horizon": "2024-12-11T11:47:29Z",
+      "horizon_source": "HF createdAt microsoft/phi-4",
+      "id": "phi4-14b",
+      "library_tag": "phi4:14b",
+      "params_b": 14.66,
+      "quant": "Q4_K (Q4_K_M)",
+      "sha256": "5652b9be0ea4ae2842130d04fe31bc869fcb99a2b7106c53b4e754a343fd688f",
+      "size": 9053114560,
+      "source_repo": "microsoft/phi-4"
+     },
+     {
+      "endpoint_model": "pdcps-deepseek-coder-v2-16b",
+      "family_name": "DeepSeek-Coder-V2",
+      "gguf_file": "DeepSeek-Coder-V2-Lite-Instruct-Q4_0.gguf",
+      "gguf_repo": "second-state/DeepSeek-Coder-V2-Lite-Instruct-GGUF",
+      "gguf_revision": "c5d2f88d5ce17a690328cea5e01657c4f6d474ee",
+      "horizon": "2024-06-14T06:23:33Z",
+      "horizon_source": "HF createdAt deepseek-ai/DeepSeek-Coder-V2-Lite-Instruct",
+      "id": "deepseek-coder-v2-16b",
+      "library_tag": "deepseek-coder-v2:16b",
+      "params_b": 15.71,
+      "quant": "Q4_0",
+      "sha256": "7d932d742f5e09b66cf017bb0e27bf5acf1d0a12d0e65bcc4561528020c4b56c",
+      "size": 8905109984,
+      "source_repo": "deepseek-ai/DeepSeek-Coder-V2-Lite-Instruct"
+     },
+     {
+      "endpoint_model": "pdcps-gpt-oss-20b",
+      "family_name": "gpt-oss",
+      "gguf_file": "gpt-oss-20b-MXFP4.gguf",
+      "gguf_repo": "ggml-org/gpt-oss-20b-GGUF",
+      "gguf_revision": "15dcfc7e7c608c6161507211ed43c5b590801b4b",
+      "horizon": "2025-08-04T22:33:29Z",
+      "horizon_source": "HF createdAt openai/gpt-oss-20b",
+      "id": "gpt-oss-20b",
+      "library_tag": "gpt-oss:20b",
+      "params": {
+       "max_tokens": {
+        "F1": 4096,
+        "F2": 4096
+       }
+      },
+      "params_b": 20.91,
+      "quant": "MXFP4",
+      "sha256": "27cd6c432c7672cb812a92f611cf3ba7bbc35928262bb1e1253ff4ee6ae35901",
+      "size": 12109566624,
+      "source_repo": "openai/gpt-oss-20b"
+     },
+     {
+      "endpoint_model": "pdcps-qwen2.5-coder-32b",
+      "family_name": "Qwen2.5-Coder",
+      "gguf_file": "qwen2.5-coder-32b-instruct-q4_k_m.gguf",
+      "gguf_repo": "Qwen/Qwen2.5-Coder-32B-Instruct-GGUF",
+      "gguf_revision": "9d3053fce650fe1cdbdb75998c2a87add9d178ef",
+      "horizon": "2024-11-06T07:49:50Z",
+      "horizon_source": "HF createdAt Qwen/Qwen2.5-Coder-32B-Instruct",
+      "id": "qwen2.5-coder-32b",
+      "library_tag": "qwen2.5-coder:32b",
+      "params_b": 32.76,
+      "quant": "Q4_K_M",
+      "sha256": "4d64b316b5e6319d9613e0d97935d9ebd631fc7e334da400d00085eca749d085",
+      "size": 19851335872,
+      "source_repo": "Qwen/Qwen2.5-Coder-32B-Instruct"
+     }
+    ],
+    "params": {
+     "max_tokens": {
+      "F1": 1536,
+      "F2": 1536
+     },
+     "top_p": 0.95
+    },
+    "resample": {
+     "concurrency": 1,
+     "n": 5,
+     "seeds_from": 1,
+     "temperature": 0.7
+    },
+    "run_id": "study-ollama-2027",
+    "samples": [
+     {
+      "idx": 0,
+      "seed": 20240628,
+      "temperature": 0.0
+     }
+    ],
+    "server": "ollama"
+   },
+   "corpus_sha256": "d113553800885a887a870abfdd43c5e596a1a368ba98727adf4970eb428eb6cc",
+   "finished_at": "2026-10-25T15:09:01Z",
+   "host": "host-12f82d2010",
+   "n_todo": {
+    "qwen2.5-coder-1.5b": 4
+   },
+   "pass": "generate",
+   "platform": "Windows-11-10.0.26300-SP0",
+   "python": "3.12.10",
+   "run_id": "study-ollama-2027",
+   "served": {
+    "qwen2.5-coder-1.5b": {
+     "capabilities": [
+      "completion",
+      "tools",
+      "insert"
+     ],
+     "details": {
+      "families": [
+       "qwen2"
+      ],
+      "family": "qwen2",
+      "format": "gguf",
+      "parameter_size": "1.8B",
+      "parent_model": "pdcps-qwen2.5-coder-1.5b:latest",
+      "quantization_level": "Q4_K_M",
+      "runner": "llamacpp"
+     },
+     "digest": "204f308e5418eb1360fa67d92a36c787056e3ad450555c14fb48903e2b7bb2c3",
+     "modified_at": "2026-10-25T15:08:22Z",
+     "ollama_version": "0.40.11",
+     "parameters": null,
+     "size": 1117322566,
+     "system_sha256": "66b9ea09bd5b7099cbb4fc820f31b575c0366fa439b08245566692c6784e281e",
+     "template_sha256": "1e65450c30670713aa47fe23e8b9662bdf4065e81cc8e3cbfaa98924fcc0d320",
+     "weights_sha256": "cc324af070c2ecbfd324a30884d2f951a7ff756aba85cb811a6ec436933bb046"
+    }
+   },
+   "started_at": "2026-10-25T15:08:22Z"
+  },
+  {
+   "concurrency": 1,
+   "config": {
+    "_path": "config/run_study_ollama.yaml",
+    "endpoint": "http://127.0.0.1:11434",
+    "families": [
+     "F1",
+     "F2"
+    ],
+    "models": [
+     {
+      "endpoint_model": "pdcps-qwen2.5-coder-1.5b",
+      "family_name": "Qwen2.5-Coder",
+      "gguf_file": "qwen2.5-coder-1.5b-instruct-q4_k_m.gguf",
+      "gguf_repo": "Qwen/Qwen2.5-Coder-1.5B-Instruct-GGUF",
+      "gguf_revision": "f86cb2c1fa58255f8052cc32aeede1b7482d4361",
+      "horizon": "2024-09-18T09:41:47Z",
+      "horizon_source": "HF createdAt Qwen/Qwen2.5-Coder-1.5B-Instruct",
+      "id": "qwen2.5-coder-1.5b",
+      "library_tag": "qwen2.5-coder:1.5b",
+      "params_b": 1.54,
+      "quant": "Q4_K_M",
+      "sha256": "cc324af070c2ecbfd324a30884d2f951a7ff756aba85cb811a6ec436933bb046",
+      "size": 1117320768,
+      "source_repo": "Qwen/Qwen2.5-Coder-1.5B-Instruct"
+     },
+     {
+      "endpoint_model": "pdcps-llama3.2-3b",
+      "family_name": "Llama-3.2",
+      "gguf_file": "Llama-3.2-3B-Instruct-Q4_K_M.gguf",
+      "gguf_repo": "bartowski/Llama-3.2-3B-Instruct-GGUF",
+      "gguf_revision": "5ab33fa94d1d04e903623ae72c95d1696f09f9e8",
+      "horizon": "2024-09-18T15:19:20Z",
+      "horizon_source": "HF createdAt meta-llama/Llama-3.2-3B-Instruct",
+      "id": "llama3.2-3b",
+      "library_tag": "llama3.2:3b",
+      "params_b": 3.21,
+      "quant": "Q4_K_M",
+      "sha256": "6c1a2b41161032677be168d354123594c0e6e67d2b9227c84f296ad037c728ff",
+      "size": 2019377696,
+      "source_repo": "meta-llama/Llama-3.2-3B-Instruct"
+     },
+     {
+      "endpoint_model": "pdcps-qwen2.5-coder-7b",
+      "family_name": "Qwen2.5-Coder",
+      "gguf_file": "qwen2.5-coder-7b-instruct-q4_k_m.gguf",
+      "gguf_repo": "Qwen/Qwen2.5-Coder-7B-Instruct-GGUF",
+      "gguf_revision": "13fb94bfda8c8cf22497dc57b78f391a9acb426a",
+      "horizon": "2024-09-17T13:38:49Z",
+      "horizon_source": "HF createdAt Qwen/Qwen2.5-Coder-7B-Instruct",
+      "id": "qwen2.5-coder-7b",
+      "library_tag": "qwen2.5-coder:7b",
+      "params_b": 7.62,
+      "quant": "Q4_K_M",
+      "sha256": "509287f78cb4d4cf6b3843734733b914b2c158e43e22a7f4bf5e963800894d3c",
+      "size": 4683073536,
+      "source_repo": "Qwen/Qwen2.5-Coder-7B-Instruct"
+     },
+     {
+      "endpoint_model": "pdcps-deepseek-coder-6.7b",
+      "family_name": "DeepSeek-Coder",
+      "gguf_file": "deepseek-coder-6.7b-instruct.Q4_0.gguf",
+      "gguf_repo": "TheBloke/deepseek-coder-6.7B-instruct-GGUF",
+      "gguf_revision": "9e221e6b41cb1bf1c5d8f9718e81e3dc781f7557",
+      "horizon": "2023-10-29T11:01:36Z",
+      "horizon_source": "HF createdAt deepseek-ai/deepseek-coder-6.7b-instruct",
+      "id": "deepseek-coder-6.7b",
+      "library_tag": "deepseek-coder:6.7b",
+      "params_b": 6.74,
+      "quant": "Q4_0",
+      "sha256": "0c7cf89d9b2dc8671bfade603181aaa18b3dfd93e1b6a2c569a9807c65d4d438",
+      "size": 3827818720,
+      "source_repo": "deepseek-ai/deepseek-coder-6.7b-instruct"
+     },
+     {
+      "endpoint_model": "pdcps-llama3.1-8b",
+      "family_name": "Llama-3.1",
+      "gguf_file": "Meta-Llama-3.1-8B-Instruct-Q4_K_M.gguf",
+      "gguf_repo": "bartowski/Meta-Llama-3.1-8B-Instruct-GGUF",
+      "gguf_revision": "bf5b95e96dac0462e2a09145ec66cae9a3f12067",
+      "horizon": "2024-07-18T08:56:00Z",
+      "horizon_source": "HF createdAt meta-llama/Llama-3.1-8B-Instruct",
+      "id": "llama3.1-8b",
+      "library_tag": "llama3.1:8b",
+      "params_b": 8.03,
+      "quant": "Q4_K_M",
+      "sha256": "7b064f5842bf9532c91456deda288a1b672397a54fa729aa665952863033557c",
+      "size": 4920739232,
+      "source_repo": "meta-llama/Llama-3.1-8B-Instruct"
+     },
+     {
+      "endpoint_model": "pdcps-qwen3-8b",
+      "family_name": "Qwen3",
+      "gguf_file": "Qwen3-8B-Q4_K_M.gguf",
+      "gguf_repo": "Qwen/Qwen3-8B-GGUF",
+      "gguf_revision": "7c41481f57cb95916b40956ab2f0b139b296d974",
+      "horizon": "2025-04-27T03:42:21Z",
+      "horizon_source": "HF createdAt Qwen/Qwen3-8B",
+      "id": "qwen3-8b",
+      "library_tag": "qwen3:8b",
+      "params": {
+       "max_tokens": {
+        "F1": 4096,
+        "F2": 4096
+       }
+      },
+      "params_b": 8.19,
+      "quant": "Q4_K_M",
+      "sha256": "d98cdcbd03e17ce47681435b5150e34c1417f50b5c0019dd560e4882c5745785",
+      "size": 5027783488,
+      "source_repo": "Qwen/Qwen3-8B"
+     },
+     {
+      "endpoint_model": "pdcps-granite3.3-8b",
+      "family_name": "Granite-3.3",
+      "gguf_file": "granite-3.3-8b-instruct-Q4_K_M.gguf",
+      "gguf_repo": "ibm-granite/granite-3.3-8b-instruct-GGUF",
+      "gguf_revision": "e40e9dd739c7be00fa965c16ce167088190ce114",
+      "horizon": "2025-04-09T11:41:39Z",
+      "horizon_source": "HF createdAt ibm-granite/granite-3.3-8b-instruct",
+      "id": "granite3.3-8b",
+      "library_tag": "granite3.3:8b",
+      "params_b": 8.17,
+      "quant": "Q4_K_M",
+      "sha256": "77bcee066a76dcdd10d0d123c87e32c8ec2c74e31b6ffd87ebee49c9ac215dca",
+      "size": 4942873344,
+      "source_repo": "ibm-granite/granite-3.3-8b-instruct"
+     },
+     {
+      "endpoint_model": "pdcps-gemma3-12b",
+      "family_name": "Gemma-3",
+      "gguf_file": "gemma-3-12b-it-Q4_K_M.gguf",
+      "gguf_repo": "ggml-org/gemma-3-12b-it-GGUF",
+      "gguf_revision": "ec0cbabd8dbff316f659876a50202295c3c4a314",
+      "horizon": "2025-03-01T19:11:34Z",
+      "horizon_source": "HF createdAt google/gemma-3-12b-it",
+      "id": "gemma3-12b",
+      "library_tag": "gemma3:12b",
+      "params_b": 12.19,
+      "quant": "Q4_K_M",
+      "sha256": "7bb69bff3f48a7b642355d64a90e481182a7794707b3133890646b1efa778ff5",
+      "size": 7300574976,
+      "source_repo": "google/gemma-3-12b-it"
+     },
+     {
+      "endpoint_model": "pdcps-qwen2.5-coder-14b",
+      "family_name": "Qwen2.5-Coder",
+      "gguf_file": "qwen2.5-coder-14b-instruct-q4_k_m.gguf",
+      "gguf_repo": "Qwen/Qwen2.5-Coder-14B-Instruct-GGUF",
+      "gguf_revision": "d0a692ef765eefbf2fabb130b3cb2e8917e3d225",
+      "horizon": "2024-11-06T07:49:46Z",
+      "horizon_source": "HF createdAt Qwen/Qwen2.5-Coder-14B-Instruct",
+      "id": "qwen2.5-coder-14b",
+      "library_tag": "qwen2.5-coder:14b",
+      "params_b": 14.77,
+      "quant": "Q4_K_M",
+      "sha256": "c1e659736d89ac1065fb495330fb824d94001974a4bfa78e7270e43476a8d940",
+      "size": 8988110272,
+      "source_repo": "Qwen/Qwen2.5-Coder-14B-Instruct"
+     },
+     {
+      "endpoint_model": "pdcps-phi4-14b",
+      "family_name": "Phi-4",
+      "gguf_file": "phi-4-Q4_K.gguf",
+      "gguf_repo": "microsoft/phi-4-gguf",
+      "gguf_revision": "6edc2ef6664b739a8e11e62f2672ff6afe0c15ac",
+      "horizon": "2024-12-11T11:47:29Z",
+      "horizon_source": "HF createdAt microsoft/phi-4",
+      "id": "phi4-14b",
+      "library_tag": "phi4:14b",
+      "params_b": 14.66,
+      "quant": "Q4_K (Q4_K_M)",
+      "sha256": "5652b9be0ea4ae2842130d04fe31bc869fcb99a2b7106c53b4e754a343fd688f",
+      "size": 9053114560,
+      "source_repo": "microsoft/phi-4"
+     },
+     {
+      "endpoint_model": "pdcps-deepseek-coder-v2-16b",
+      "family_name": "DeepSeek-Coder-V2",
+      "gguf_file": "DeepSeek-Coder-V2-Lite-Instruct-Q4_0.gguf",
+      "gguf_repo": "second-state/DeepSeek-Coder-V2-Lite-Instruct-GGUF",
+      "gguf_revision": "c5d2f88d5ce17a690328cea5e01657c4f6d474ee",
+      "horizon": "2024-06-14T06:23:33Z",
+      "horizon_source": "HF createdAt deepseek-ai/DeepSeek-Coder-V2-Lite-Instruct",
+      "id": "deepseek-coder-v2-16b",
+      "library_tag": "deepseek-coder-v2:16b",
+      "params_b": 15.71,
+      "quant": "Q4_0",
+      "sha256": "7d932d742f5e09b66cf017bb0e27bf5acf1d0a12d0e65bcc4561528020c4b56c",
+      "size": 8905109984,
+      "source_repo": "deepseek-ai/DeepSeek-Coder-V2-Lite-Instruct"
+     },
+     {
+      "endpoint_model": "pdcps-gpt-oss-20b",
+      "family_name": "gpt-oss",
+      "gguf_file": "gpt-oss-20b-MXFP4.gguf",
+      "gguf_repo": "ggml-org/gpt-oss-20b-GGUF",
+      "gguf_revision": "15dcfc7e7c608c6161507211ed43c5b590801b4b",
+      "horizon": "2025-08-04T22:33:29Z",
+      "horizon_source": "HF createdAt openai/gpt-oss-20b",
+      "id": "gpt-oss-20b",
+      "library_tag": "gpt-oss:20b",
+      "params": {
+       "max_tokens": {
+        "F1": 4096,
+        "F2": 4096
+       }
+      },
+      "params_b": 20.91,
+      "quant": "MXFP4",
+      "sha256": "27cd6c432c7672cb812a92f611cf3ba7bbc35928262bb1e1253ff4ee6ae35901",
+      "size": 12109566624,
+      "source_repo": "openai/gpt-oss-20b"
+     },
+     {
+      "endpoint_model": "pdcps-qwen2.5-coder-32b",
+      "family_name": "Qwen2.5-Coder",
+      "gguf_file": "qwen2.5-coder-32b-instruct-q4_k_m.gguf",
+      "gguf_repo": "Qwen/Qwen2.5-Coder-32B-Instruct-GGUF",
+      "gguf_revision": "9d3053fce650fe1cdbdb75998c2a87add9d178ef",
+      "horizon": "2024-11-06T07:49:50Z",
+      "horizon_source": "HF createdAt Qwen/Qwen2.5-Coder-32B-Instruct",
+      "id": "qwen2.5-coder-32b",
+      "library_tag": "qwen2.5-coder:32b",
+      "params_b": 32.76,
+      "quant": "Q4_K_M",
+      "sha256": "4d64b316b5e6319d9613e0d97935d9ebd631fc7e334da400d00085eca749d085",
+      "size": 19851335872,
+      "source_repo": "Qwen/Qwen2.5-Coder-32B-Instruct"
+     }
+    ],
+    "params": {
+     "max_tokens": {
+      "F1": 1536,
+      "F2": 1536
+     },
+     "top_p": 0.95
+    },
+    "resample": {
+     "concurrency": 1,
+     "n": 5,
+     "seeds_from": 1,
+     "temperature": 0.7
+    },
+    "run_id": "study-ollama-2027",
+    "samples": [
+     {
+      "idx": 0,
+      "seed": 20240628,
+      "temperature": 0.0
+     }
+    ],
+    "server": "ollama"
+   },
+   "corpus_sha256": "d113553800885a887a870abfdd43c5e596a1a368ba98727adf4970eb428eb6cc",
+   "finished_at": "2026-10-25T15:09:28Z",
+   "host": "host-12f82d2010",
+   "n_todo": {
+    "llama3.2-3b": 4
+   },
+   "pass": "generate",
+   "platform": "Windows-11-10.0.26300-SP0",
+   "python": "3.12.10",
+   "run_id": "study-ollama-2027",
+   "served": {
+    "llama3.2-3b": {
+     "capabilities": [
+      "completion",
+      "tools"
+     ],
+     "details": {
+      "families": [
+       "llama"
+      ],
+      "family": "llama",
+      "format": "gguf",
+      "parameter_size": "3.2B",
+      "parent_model": "pdcps-llama3.2-3b:latest",
+      "quantization_level": "Q4_K_M",
+      "runner": "llamacpp"
+     },
+     "digest": "0a7012f1f5b43b1d96193c8f2c11a833ea6f9d1cdaa31242e422fc0b1dcda75d",
+     "modified_at": "2026-10-25T15:09:01Z",
+     "ollama_version": "0.40.11",
+     "parameters": "stop                           \"<|start_header_id|>\"\nstop                           \"<|end_header_id|>\"\nstop                           \"<|eot_id|>\"",
+     "size": 2019379336,
+     "system_sha256": null,
+     "template_sha256": "966de95ca8a62200913e3f8bfbf84c8494536f1b94b49166851e76644e966396",
+     "weights_sha256": "6c1a2b41161032677be168d354123594c0e6e67d2b9227c84f296ad037c728ff"
+    }
+   },
+   "started_at": "2026-10-25T15:09:02Z"
+  },
+  {
+   "concurrency": 1,
+   "config": {
+    "_path": "config/run_study_ollama.yaml",
+    "endpoint": "http://127.0.0.1:11434",
+    "families": [
+     "F1",
+     "F2"
+    ],
+    "models": [
+     {
+      "endpoint_model": "pdcps-qwen2.5-coder-1.5b",
+      "family_name": "Qwen2.5-Coder",
+      "gguf_file": "qwen2.5-coder-1.5b-instruct-q4_k_m.gguf",
+      "gguf_repo": "Qwen/Qwen2.5-Coder-1.5B-Instruct-GGUF",
+      "gguf_revision": "f86cb2c1fa58255f8052cc32aeede1b7482d4361",
+      "horizon": "2024-09-18T09:41:47Z",
+      "horizon_source": "HF createdAt Qwen/Qwen2.5-Coder-1.5B-Instruct",
+      "id": "qwen2.5-coder-1.5b",
+      "library_tag": "qwen2.5-coder:1.5b",
+      "params_b": 1.54,
+      "quant": "Q4_K_M",
+      "sha256": "cc324af070c2ecbfd324a30884d2f951a7ff756aba85cb811a6ec436933bb046",
+      "size": 1117320768,
+      "source_repo": "Qwen/Qwen2.5-Coder-1.5B-Instruct"
+     },
+     {
+      "endpoint_model": "pdcps-llama3.2-3b",
+      "family_name": "Llama-3.2",
+      "gguf_file": "Llama-3.2-3B-Instruct-Q4_K_M.gguf",
+      "gguf_repo": "bartowski/Llama-3.2-3B-Instruct-GGUF",
+      "gguf_revision": "5ab33fa94d1d04e903623ae72c95d1696f09f9e8",
+      "horizon": "2024-09-18T15:19:20Z",
+      "horizon_source": "HF createdAt meta-llama/Llama-3.2-3B-Instruct",
+      "id": "llama3.2-3b",
+      "library_tag": "llama3.2:3b",
+      "params_b": 3.21,
+      "quant": "Q4_K_M",
+      "sha256": "6c1a2b41161032677be168d354123594c0e6e67d2b9227c84f296ad037c728ff",
+      "size": 2019377696,
+      "source_repo": "meta-llama/Llama-3.2-3B-Instruct"
+     },
+     {
+      "endpoint_model": "pdcps-qwen2.5-coder-7b",
+      "family_name": "Qwen2.5-Coder",
+      "gguf_file": "qwen2.5-coder-7b-instruct-q4_k_m.gguf",
+      "gguf_repo": "Qwen/Qwen2.5-Coder-7B-Instruct-GGUF",
+      "gguf_revision": "13fb94bfda8c8cf22497dc57b78f391a9acb426a",
+      "horizon": "2024-09-17T13:38:49Z",
+      "horizon_source": "HF createdAt Qwen/Qwen2.5-Coder-7B-Instruct",
+      "id": "qwen2.5-coder-7b",
+      "library_tag": "qwen2.5-coder:7b",
+      "params_b": 7.62,
+      "quant": "Q4_K_M",
+      "sha256": "509287f78cb4d4cf6b3843734733b914b2c158e43e22a7f4bf5e963800894d3c",
+      "size": 4683073536,
+      "source_repo": "Qwen/Qwen2.5-Coder-7B-Instruct"
+     },
+     {
+      "endpoint_model": "pdcps-deepseek-coder-6.7b",
+      "family_name": "DeepSeek-Coder",
+      "gguf_file": "deepseek-coder-6.7b-instruct.Q4_0.gguf",
+      "gguf_repo": "TheBloke/deepseek-coder-6.7B-instruct-GGUF",
+      "gguf_revision": "9e221e6b41cb1bf1c5d8f9718e81e3dc781f7557",
+      "horizon": "2023-10-29T11:01:36Z",
+      "horizon_source": "HF createdAt deepseek-ai/deepseek-coder-6.7b-instruct",
+      "id": "deepseek-coder-6.7b",
+      "library_tag": "deepseek-coder:6.7b",
+      "params_b": 6.74,
+      "quant": "Q4_0",
+      "sha256": "0c7cf89d9b2dc8671bfade603181aaa18b3dfd93e1b6a2c569a9807c65d4d438",
+      "size": 3827818720,
+      "source_repo": "deepseek-ai/deepseek-coder-6.7b-instruct"
+     },
+     {
+      "endpoint_model": "pdcps-llama3.1-8b",
+      "family_name": "Llama-3.1",
+      "gguf_file": "Meta-Llama-3.1-8B-Instruct-Q4_K_M.gguf",
+      "gguf_repo": "bartowski/Meta-Llama-3.1-8B-Instruct-GGUF",
+      "gguf_revision": "bf5b95e96dac0462e2a09145ec66cae9a3f12067",
+      "horizon": "2024-07-18T08:56:00Z",
+      "horizon_source": "HF createdAt meta-llama/Llama-3.1-8B-Instruct",
+      "id": "llama3.1-8b",
+      "library_tag": "llama3.1:8b",
+      "params_b": 8.03,
+      "quant": "Q4_K_M",
+      "sha256": "7b064f5842bf9532c91456deda288a1b672397a54fa729aa665952863033557c",
+      "size": 4920739232,
+      "source_repo": "meta-llama/Llama-3.1-8B-Instruct"
+     },
+     {
+      "endpoint_model": "pdcps-qwen3-8b",
+      "family_name": "Qwen3",
+      "gguf_file": "Qwen3-8B-Q4_K_M.gguf",
+      "gguf_repo": "Qwen/Qwen3-8B-GGUF",
+      "gguf_revision": "7c41481f57cb95916b40956ab2f0b139b296d974",
+      "horizon": "2025-04-27T03:42:21Z",
+      "horizon_source": "HF createdAt Qwen/Qwen3-8B",
+      "id": "qwen3-8b",
+      "library_tag": "qwen3:8b",
+      "params": {
+       "max_tokens": {
+        "F1": 4096,
+        "F2": 4096
+       }
+      },
+      "params_b": 8.19,
+      "quant": "Q4_K_M",
+      "sha256": "d98cdcbd03e17ce47681435b5150e34c1417f50b5c0019dd560e4882c5745785",
+      "size": 5027783488,
+      "source_repo": "Qwen/Qwen3-8B"
+     },
+     {
+      "endpoint_model": "pdcps-granite3.3-8b",
+      "family_name": "Granite-3.3",
+      "gguf_file": "granite-3.3-8b-instruct-Q4_K_M.gguf",
+      "gguf_repo": "ibm-granite/granite-3.3-8b-instruct-GGUF",
+      "gguf_revision": "e40e9dd739c7be00fa965c16ce167088190ce114",
+      "horizon": "2025-04-09T11:41:39Z",
+      "horizon_source": "HF createdAt ibm-granite/granite-3.3-8b-instruct",
+      "id": "granite3.3-8b",
+      "library_tag": "granite3.3:8b",
+      "params_b": 8.17,
+      "quant": "Q4_K_M",
+      "sha256": "77bcee066a76dcdd10d0d123c87e32c8ec2c74e31b6ffd87ebee49c9ac215dca",
+      "size": 4942873344,
+      "source_repo": "ibm-granite/granite-3.3-8b-instruct"
+     },
+     {
+      "endpoint_model": "pdcps-gemma3-12b",
+      "family_name": "Gemma-3",
+      "gguf_file": "gemma-3-12b-it-Q4_K_M.gguf",
+      "gguf_repo": "ggml-org/gemma-3-12b-it-GGUF",
+      "gguf_revision": "ec0cbabd8dbff316f659876a50202295c3c4a314",
+      "horizon": "2025-03-01T19:11:34Z",
+      "horizon_source": "HF createdAt google/gemma-3-12b-it",
+      "id": "gemma3-12b",
+      "library_tag": "gemma3:12b",
+      "params_b": 12.19,
+      "quant": "Q4_K_M",
+      "sha256": "7bb69bff3f48a7b642355d64a90e481182a7794707b3133890646b1efa778ff5",
+      "size": 7300574976,
+      "source_repo": "google/gemma-3-12b-it"
+     },
+     {
+      "endpoint_model": "pdcps-qwen2.5-coder-14b",
+      "family_name": "Qwen2.5-Coder",
+      "gguf_file": "qwen2.5-coder-14b-instruct-q4_k_m.gguf",
+      "gguf_repo": "Qwen/Qwen2.5-Coder-14B-Instruct-GGUF",
+      "gguf_revision": "d0a692ef765eefbf2fabb130b3cb2e8917e3d225",
+      "horizon": "2024-11-06T07:49:46Z",
+      "horizon_source": "HF createdAt Qwen/Qwen2.5-Coder-14B-Instruct",
+      "id": "qwen2.5-coder-14b",
+      "library_tag": "qwen2.5-coder:14b",
+      "params_b": 14.77,
+      "quant": "Q4_K_M",
+      "sha256": "c1e659736d89ac1065fb495330fb824d94001974a4bfa78e7270e43476a8d940",
+      "size": 8988110272,
+      "source_repo": "Qwen/Qwen2.5-Coder-14B-Instruct"
+     },
+     {
+      "endpoint_model": "pdcps-phi4-14b",
+      "family_name": "Phi-4",
+      "gguf_file": "phi-4-Q4_K.gguf",
+      "gguf_repo": "microsoft/phi-4-gguf",
+      "gguf_revision": "6edc2ef6664b739a8e11e62f2672ff6afe0c15ac",
+      "horizon": "2024-12-11T11:47:29Z",
+      "horizon_source": "HF createdAt microsoft/phi-4",
+      "id": "phi4-14b",
+      "library_tag": "phi4:14b",
+      "params_b": 14.66,
+      "quant": "Q4_K (Q4_K_M)",
+      "sha256": "5652b9be0ea4ae2842130d04fe31bc869fcb99a2b7106c53b4e754a343fd688f",
+      "size": 9053114560,
+      "source_repo": "microsoft/phi-4"
+     },
+     {
+      "endpoint_model": "pdcps-deepseek-coder-v2-16b",
+      "family_name": "DeepSeek-Coder-V2",
+      "gguf_file": "DeepSeek-Coder-V2-Lite-Instruct-Q4_0.gguf",
+      "gguf_repo": "second-state/DeepSeek-Coder-V2-Lite-Instruct-GGUF",
+      "gguf_revision": "c5d2f88d5ce17a690328cea5e01657c4f6d474ee",
+      "horizon": "2024-06-14T06:23:33Z",
+      "horizon_source": "HF createdAt deepseek-ai/DeepSeek-Coder-V2-Lite-Instruct",
+      "id": "deepseek-coder-v2-16b",
+      "library_tag": "deepseek-coder-v2:16b",
+      "params_b": 15.71,
+      "quant": "Q4_0",
+      "sha256": "7d932d742f5e09b66cf017bb0e27bf5acf1d0a12d0e65bcc4561528020c4b56c",
+      "size": 8905109984,
+      "source_repo": "deepseek-ai/DeepSeek-Coder-V2-Lite-Instruct"
+     },
+     {
+      "endpoint_model": "pdcps-gpt-oss-20b",
+      "family_name": "gpt-oss",
+      "gguf_file": "gpt-oss-20b-MXFP4.gguf",
+      "gguf_repo": "ggml-org/gpt-oss-20b-GGUF",
+      "gguf_revision": "15dcfc7e7c608c6161507211ed43c5b590801b4b",
+      "horizon": "2025-08-04T22:33:29Z",
+      "horizon_source": "HF createdAt openai/gpt-oss-20b",
+      "id": "gpt-oss-20b",
+      "library_tag": "gpt-oss:20b",
+      "params": {
+       "max_tokens": {
+        "F1": 4096,
+        "F2": 4096
+       }
+      },
+      "params_b": 20.91,
+      "quant": "MXFP4",
+      "sha256": "27cd6c432c7672cb812a92f611cf3ba7bbc35928262bb1e1253ff4ee6ae35901",
+      "size": 12109566624,
+      "source_repo": "openai/gpt-oss-20b"
+     },
+     {
+      "endpoint_model": "pdcps-qwen2.5-coder-32b",
+      "family_name": "Qwen2.5-Coder",
+      "gguf_file": "qwen2.5-coder-32b-instruct-q4_k_m.gguf",
+      "gguf_repo": "Qwen/Qwen2.5-Coder-32B-Instruct-GGUF",
+      "gguf_revision": "9d3053fce650fe1cdbdb75998c2a87add9d178ef",
+      "horizon": "2024-11-06T07:49:50Z",
+      "horizon_source": "HF createdAt Qwen/Qwen2.5-Coder-32B-Instruct",
+      "id": "qwen2.5-coder-32b",
+      "library_tag": "qwen2.5-coder:32b",
+      "params_b": 32.76,
+      "quant": "Q4_K_M",
+      "sha256": "4d64b316b5e6319d9613e0d97935d9ebd631fc7e334da400d00085eca749d085",
+      "size": 19851335872,
+      "source_repo": "Qwen/Qwen2.5-Coder-32B-Instruct"
+     }
+    ],
+    "params": {
+     "max_tokens": {
+      "F1": 1536,
+      "F2": 1536
+     },
+     "top_p": 0.95
+    },
+    "resample": {
+     "concurrency": 1,
+     "n": 5,
+     "seeds_from": 1,
+     "temperature": 0.7
+    },
+    "run_id": "study-ollama-2027",
+    "samples": [
+     {
+      "idx": 0,
+      "seed": 20240628,
+      "temperature": 0.0
+     }
+    ],
+    "server": "ollama"
+   },
+   "corpus_sha256": "d113553800885a887a870abfdd43c5e596a1a368ba98727adf4970eb428eb6cc",
+   "finished_at": "2026-10-25T15:09:50Z",
+   "host": "host-12f82d2010",
+   "n_todo": {
+    "qwen2.5-coder-7b": 4
+   },
+   "pass": "generate",
+   "platform": "Windows-11-10.0.26300-SP0",
+   "python": "3.12.10",
+   "run_id": "study-ollama-2027",
+   "served": {
+    "qwen2.5-coder-7b": {
+     "capabilities": [
+      "completion",
+      "tools",
+      "insert"
+     ],
+     "details": {
+      "families": [
+       "qwen2"
+      ],
+      "family": "qwen2",
+      "format": "gguf",
+      "parameter_size": "7.6B",
+      "parent_model": "pdcps-qwen2.5-coder-7b:latest",
+      "quantization_level": "Q4_K_M",
+      "runner": "llamacpp"
+     },
+     "digest": "16c6c7b0c815c04599910627e6d5845a2eb9e59fde62e612fdd38c5c2cbb3a9a",
+     "modified_at": "2026-10-25T15:09:29Z",
+     "ollama_version": "0.40.11",
+     "parameters": null,
+     "size": 4683075334,
+     "system_sha256": "66b9ea09bd5b7099cbb4fc820f31b575c0366fa439b08245566692c6784e281e",
+     "template_sha256": "1e65450c30670713aa47fe23e8b9662bdf4065e81cc8e3cbfaa98924fcc0d320",
+     "weights_sha256": "509287f78cb4d4cf6b3843734733b914b2c158e43e22a7f4bf5e963800894d3c"
+    }
+   },
+   "started_at": "2026-10-25T15:09:29Z"
+  },
+  {
+   "concurrency": 1,
+   "config": {
+    "_path": "config/run_study_ollama.yaml",
+    "endpoint": "http://127.0.0.1:11434",
+    "families": [
+     "F1",
+     "F2"
+    ],
+    "models": [
+     {
+      "endpoint_model": "pdcps-qwen2.5-coder-1.5b",
+      "family_name": "Qwen2.5-Coder",
+      "gguf_file": "qwen2.5-coder-1.5b-instruct-q4_k_m.gguf",
+      "gguf_repo": "Qwen/Qwen2.5-Coder-1.5B-Instruct-GGUF",
+      "gguf_revision": "f86cb2c1fa58255f8052cc32aeede1b7482d4361",
+      "horizon": "2024-09-18T09:41:47Z",
+      "horizon_source": "HF createdAt Qwen/Qwen2.5-Coder-1.5B-Instruct",
+      "id": "qwen2.5-coder-1.5b",
+      "library_tag": "qwen2.5-coder:1.5b",
+      "params_b": 1.54,
+      "quant": "Q4_K_M",
+      "sha256": "cc324af070c2ecbfd324a30884d2f951a7ff756aba85cb811a6ec436933bb046",
+      "size": 1117320768,
+      "source_repo": "Qwen/Qwen2.5-Coder-1.5B-Instruct"
+     },
+     {
+      "endpoint_model": "pdcps-llama3.2-3b",
+      "family_name": "Llama-3.2",
+      "gguf_file": "Llama-3.2-3B-Instruct-Q4_K_M.gguf",
+      "gguf_repo": "bartowski/Llama-3.2-3B-Instruct-GGUF",
+      "gguf_revision": "5ab33fa94d1d04e903623ae72c95d1696f09f9e8",
+      "horizon": "2024-09-18T15:19:20Z",
+      "horizon_source": "HF createdAt meta-llama/Llama-3.2-3B-Instruct",
+      "id": "llama3.2-3b",
+      "library_tag": "llama3.2:3b",
+      "params_b": 3.21,
+      "quant": "Q4_K_M",
+      "sha256": "6c1a2b41161032677be168d354123594c0e6e67d2b9227c84f296ad037c728ff",
+      "size": 2019377696,
+      "source_repo": "meta-llama/Llama-3.2-3B-Instruct"
+     },
+     {
+      "endpoint_model": "pdcps-qwen2.5-coder-7b",
+      "family_name": "Qwen2.5-Coder",
+      "gguf_file": "qwen2.5-coder-7b-instruct-q4_k_m.gguf",
+      "gguf_repo": "Qwen/Qwen2.5-Coder-7B-Instruct-GGUF",
+      "gguf_revision": "13fb94bfda8c8cf22497dc57b78f391a9acb426a",
+      "horizon": "2024-09-17T13:38:49Z",
+      "horizon_source": "HF createdAt Qwen/Qwen2.5-Coder-7B-Instruct",
+      "id": "qwen2.5-coder-7b",
+      "library_tag": "qwen2.5-coder:7b",
+      "params_b": 7.62,
+      "quant": "Q4_K_M",
+      "sha256": "509287f78cb4d4cf6b3843734733b914b2c158e43e22a7f4bf5e963800894d3c",
+      "size": 4683073536,
+      "source_repo": "Qwen/Qwen2.5-Coder-7B-Instruct"
+     },
+     {
+      "endpoint_model": "pdcps-deepseek-coder-6.7b",
+      "family_name": "DeepSeek-Coder",
+      "gguf_file": "deepseek-coder-6.7b-instruct.Q4_0.gguf",
+      "gguf_repo": "TheBloke/deepseek-coder-6.7B-instruct-GGUF",
+      "gguf_revision": "9e221e6b41cb1bf1c5d8f9718e81e3dc781f7557",
+      "horizon": "2023-10-29T11:01:36Z",
+      "horizon_source": "HF createdAt deepseek-ai/deepseek-coder-6.7b-instruct",
+      "id": "deepseek-coder-6.7b",
+      "library_tag": "deepseek-coder:6.7b",
+      "params_b": 6.74,
+      "quant": "Q4_0",
+      "sha256": "0c7cf89d9b2dc8671bfade603181aaa18b3dfd93e1b6a2c569a9807c65d4d438",
+      "size": 3827818720,
+      "source_repo": "deepseek-ai/deepseek-coder-6.7b-instruct"
+     },
+     {
+      "endpoint_model": "pdcps-llama3.1-8b",
+      "family_name": "Llama-3.1",
+      "gguf_file": "Meta-Llama-3.1-8B-Instruct-Q4_K_M.gguf",
+      "gguf_repo": "bartowski/Meta-Llama-3.1-8B-Instruct-GGUF",
+      "gguf_revision": "bf5b95e96dac0462e2a09145ec66cae9a3f12067",
+      "horizon": "2024-07-18T08:56:00Z",
+      "horizon_source": "HF createdAt meta-llama/Llama-3.1-8B-Instruct",
+      "id": "llama3.1-8b",
+      "library_tag": "llama3.1:8b",
+      "params_b": 8.03,
+      "quant": "Q4_K_M",
+      "sha256": "7b064f5842bf9532c91456deda288a1b672397a54fa729aa665952863033557c",
+      "size": 4920739232,
+      "source_repo": "meta-llama/Llama-3.1-8B-Instruct"
+     },
+     {
+      "endpoint_model": "pdcps-qwen3-8b",
+      "family_name": "Qwen3",
+      "gguf_file": "Qwen3-8B-Q4_K_M.gguf",
+      "gguf_repo": "Qwen/Qwen3-8B-GGUF",
+      "gguf_revision": "7c41481f57cb95916b40956ab2f0b139b296d974",
+      "horizon": "2025-04-27T03:42:21Z",
+      "horizon_source": "HF createdAt Qwen/Qwen3-8B",
+      "id": "qwen3-8b",
+      "library_tag": "qwen3:8b",
+      "params": {
+       "max_tokens": {
+        "F1": 4096,
+        "F2": 4096
+       }
+      },
+      "params_b": 8.19,
+      "quant": "Q4_K_M",
+      "sha256": "d98cdcbd03e17ce47681435b5150e34c1417f50b5c0019dd560e4882c5745785",
+      "size": 5027783488,
+      "source_repo": "Qwen/Qwen3-8B"
+     },
+     {
+      "endpoint_model": "pdcps-granite3.3-8b",
+      "family_name": "Granite-3.3",
+      "gguf_file": "granite-3.3-8b-instruct-Q4_K_M.gguf",
+      "gguf_repo": "ibm-granite/granite-3.3-8b-instruct-GGUF",
+      "gguf_revision": "e40e9dd739c7be00fa965c16ce167088190ce114",
+      "horizon": "2025-04-09T11:41:39Z",
+      "horizon_source": "HF createdAt ibm-granite/granite-3.3-8b-instruct",
+      "id": "granite3.3-8b",
+      "library_tag": "granite3.3:8b",
+      "params_b": 8.17,
+      "quant": "Q4_K_M",
+      "sha256": "77bcee066a76dcdd10d0d123c87e32c8ec2c74e31b6ffd87ebee49c9ac215dca",
+      "size": 4942873344,
+      "source_repo": "ibm-granite/granite-3.3-8b-instruct"
+     },
+     {
+      "endpoint_model": "pdcps-gemma3-12b",
+      "family_name": "Gemma-3",
+      "gguf_file": "gemma-3-12b-it-Q4_K_M.gguf",
+      "gguf_repo": "ggml-org/gemma-3-12b-it-GGUF",
+      "gguf_revision": "ec0cbabd8dbff316f659876a50202295c3c4a314",
+      "horizon": "2025-03-01T19:11:34Z",
+      "horizon_source": "HF createdAt google/gemma-3-12b-it",
+      "id": "gemma3-12b",
+      "library_tag": "gemma3:12b",
+      "params_b": 12.19,
+      "quant": "Q4_K_M",
+      "sha256": "7bb69bff3f48a7b642355d64a90e481182a7794707b3133890646b1efa778ff5",
+      "size": 7300574976,
+      "source_repo": "google/gemma-3-12b-it"
+     },
+     {
+      "endpoint_model": "pdcps-qwen2.5-coder-14b",
+      "family_name": "Qwen2.5-Coder",
+      "gguf_file": "qwen2.5-coder-14b-instruct-q4_k_m.gguf",
+      "gguf_repo": "Qwen/Qwen2.5-Coder-14B-Instruct-GGUF",
+      "gguf_revision": "d0a692ef765eefbf2fabb130b3cb2e8917e3d225",
+      "horizon": "2024-11-06T07:49:46Z",
+      "horizon_source": "HF createdAt Qwen/Qwen2.5-Coder-14B-Instruct",
+      "id": "qwen2.5-coder-14b",
+      "library_tag": "qwen2.5-coder:14b",
+      "params_b": 14.77,
+      "quant": "Q4_K_M",
+      "sha256": "c1e659736d89ac1065fb495330fb824d94001974a4bfa78e7270e43476a8d940",
+      "size": 8988110272,
+      "source_repo": "Qwen/Qwen2.5-Coder-14B-Instruct"
+     },
+     {
+      "endpoint_model": "pdcps-phi4-14b",
+      "family_name": "Phi-4",
+      "gguf_file": "phi-4-Q4_K.gguf",
+      "gguf_repo": "microsoft/phi-4-gguf",
+      "gguf_revision": "6edc2ef6664b739a8e11e62f2672ff6afe0c15ac",
+      "horizon": "2024-12-11T11:47:29Z",
+      "horizon_source": "HF createdAt microsoft/phi-4",
+      "id": "phi4-14b",
+      "library_tag": "phi4:14b",
+      "params_b": 14.66,
+      "quant": "Q4_K (Q4_K_M)",
+      "sha256": "5652b9be0ea4ae2842130d04fe31bc869fcb99a2b7106c53b4e754a343fd688f",
+      "size": 9053114560,
+      "source_repo": "microsoft/phi-4"
+     },
+     {
+      "endpoint_model": "pdcps-deepseek-coder-v2-16b",
+      "family_name": "DeepSeek-Coder-V2",
+      "gguf_file": "DeepSeek-Coder-V2-Lite-Instruct-Q4_0.gguf",
+      "gguf_repo": "second-state/DeepSeek-Coder-V2-Lite-Instruct-GGUF",
+      "gguf_revision": "c5d2f88d5ce17a690328cea5e01657c4f6d474ee",
+      "horizon": "2024-06-14T06:23:33Z",
+      "horizon_source": "HF createdAt deepseek-ai/DeepSeek-Coder-V2-Lite-Instruct",
+      "id": "deepseek-coder-v2-16b",
+      "library_tag": "deepseek-coder-v2:16b",
+      "params_b": 15.71,
+      "quant": "Q4_0",
+      "sha256": "7d932d742f5e09b66cf017bb0e27bf5acf1d0a12d0e65bcc4561528020c4b56c",
+      "size": 8905109984,
+      "source_repo": "deepseek-ai/DeepSeek-Coder-V2-Lite-Instruct"
+     },
+     {
+      "endpoint_model": "pdcps-gpt-oss-20b",
+      "family_name": "gpt-oss",
+      "gguf_file": "gpt-oss-20b-MXFP4.gguf",
+      "gguf_repo": "ggml-org/gpt-oss-20b-GGUF",
+      "gguf_revision": "15dcfc7e7c608c6161507211ed43c5b590801b4b",
+      "horizon": "2025-08-04T22:33:29Z",
+      "horizon_source": "HF createdAt openai/gpt-oss-20b",
+      "id": "gpt-oss-20b",
+      "library_tag": "gpt-oss:20b",
+      "params": {
+       "max_tokens": {
+        "F1": 4096,
+        "F2": 4096
+       }
+      },
+      "params_b": 20.91,
+      "quant": "MXFP4",
+      "sha256": "27cd6c432c7672cb812a92f611cf3ba7bbc35928262bb1e1253ff4ee6ae35901",
+      "size": 12109566624,
+      "source_repo": "openai/gpt-oss-20b"
+     },
+     {
+      "endpoint_model": "pdcps-qwen2.5-coder-32b",
+      "family_name": "Qwen2.5-Coder",
+      "gguf_file": "qwen2.5-coder-32b-instruct-q4_k_m.gguf",
+      "gguf_repo": "Qwen/Qwen2.5-Coder-32B-Instruct-GGUF",
+      "gguf_revision": "9d3053fce650fe1cdbdb75998c2a87add9d178ef",
+      "horizon": "2024-11-06T07:49:50Z",
+      "horizon_source": "HF createdAt Qwen/Qwen2.5-Coder-32B-Instruct",
+      "id": "qwen2.5-coder-32b",
+      "library_tag": "qwen2.5-coder:32b",
+      "params_b": 32.76,
+      "quant": "Q4_K_M",
+      "sha256": "4d64b316b5e6319d9613e0d97935d9ebd631fc7e334da400d00085eca749d085",
+      "size": 19851335872,
+      "source_repo": "Qwen/Qwen2.5-Coder-32B-Instruct"
+     }
+    ],
+    "params": {
+     "max_tokens": {
+      "F1": 1536,
+      "F2": 1536
+     },
+     "top_p": 0.95
+    },
+    "resample": {
+     "concurrency": 1,
+     "n": 5,
+     "seeds_from": 1,
+     "temperature": 0.7
+    },
+    "run_id": "study-ollama-2027",
+    "samples": [
+     {
+      "idx": 0,
+      "seed": 20240628,
+      "temperature": 0.0
+     }
+    ],
+    "server": "ollama"
+   },
+   "corpus_sha256": "d113553800885a887a870abfdd43c5e596a1a368ba98727adf4970eb428eb6cc",
+   "finished_at": "2026-10-25T15:10:37Z",
+   "host": "host-12f82d2010",
+   "n_todo": {
+    "deepseek-coder-6.7b": 4
+   },
+   "pass": "generate",
+   "platform": "Windows-11-10.0.26300-SP0",
+   "python": "3.12.10",
+   "run_id": "study-ollama-2027",
+   "served": {
+    "deepseek-coder-6.7b": {
+     "capabilities": [
+      "completion"
+     ],
+     "details": {
+      "families": [
+       "llama"
+      ],
+      "family": "llama",
+      "format": "gguf",
+      "parameter_size": "6.7B",
+      "parent_model": "pdcps-deepseek-coder-6.7b:latest",
+      "quantization_level": "Q4_0",
+      "runner": "llamacpp"
+     },
+     "digest": "5162bd83cea6c65d120714d7fac99b4c7f2ac22c7701a784f8de1f701af88db5",
+     "modified_at": "2026-10-25T15:09:51Z",
+     "ollama_version": "0.40.11",
+     "parameters": null,
+     "size": 3827819189,
+     "system_sha256": "8972a96b8ff1957ca24ff839aeb54411e6849de68609857a3fa17a4e78114247",
+     "template_sha256": "8893e08fa9f91f7dc39e24d27bdfaece4e9c86bb3269293ff8cea6cba98c872d",
+     "weights_sha256": "0c7cf89d9b2dc8671bfade603181aaa18b3dfd93e1b6a2c569a9807c65d4d438"
+    }
+   },
+   "started_at": "2026-10-25T15:09:51Z"
+  },
+  {
+   "concurrency": 1,
+   "config": {
+    "_path": "config/run_study_ollama.yaml",
+    "endpoint": "http://127.0.0.1:11434",
+    "families": [
+     "F1",
+     "F2"
+    ],
+    "models": [
+     {
+      "endpoint_model": "pdcps-qwen2.5-coder-1.5b",
+      "family_name": "Qwen2.5-Coder",
+      "gguf_file": "qwen2.5-coder-1.5b-instruct-q4_k_m.gguf",
+      "gguf_repo": "Qwen/Qwen2.5-Coder-1.5B-Instruct-GGUF",
+      "gguf_revision": "f86cb2c1fa58255f8052cc32aeede1b7482d4361",
+      "horizon": "2024-09-18T09:41:47Z",
+      "horizon_source": "HF createdAt Qwen/Qwen2.5-Coder-1.5B-Instruct",
+      "id": "qwen2.5-coder-1.5b",
+      "library_tag": "qwen2.5-coder:1.5b",
+      "params_b": 1.54,
+      "quant": "Q4_K_M",
+      "sha256": "cc324af070c2ecbfd324a30884d2f951a7ff756aba85cb811a6ec436933bb046",
+      "size": 1117320768,
+      "source_repo": "Qwen/Qwen2.5-Coder-1.5B-Instruct"
+     },
+     {
+      "endpoint_model": "pdcps-llama3.2-3b",
+      "family_name": "Llama-3.2",
+      "gguf_file": "Llama-3.2-3B-Instruct-Q4_K_M.gguf",
+      "gguf_repo": "bartowski/Llama-3.2-3B-Instruct-GGUF",
+      "gguf_revision": "5ab33fa94d1d04e903623ae72c95d1696f09f9e8",
+      "horizon": "2024-09-18T15:19:20Z",
+      "horizon_source": "HF createdAt meta-llama/Llama-3.2-3B-Instruct",
+      "id": "llama3.2-3b",
+      "library_tag": "llama3.2:3b",
+      "params_b": 3.21,
+      "quant": "Q4_K_M",
+      "sha256": "6c1a2b41161032677be168d354123594c0e6e67d2b9227c84f296ad037c728ff",
+      "size": 2019377696,
+      "source_repo": "meta-llama/Llama-3.2-3B-Instruct"
+     },
+     {
+      "endpoint_model": "pdcps-qwen2.5-coder-7b",
+      "family_name": "Qwen2.5-Coder",
+      "gguf_file": "qwen2.5-coder-7b-instruct-q4_k_m.gguf",
+      "gguf_repo": "Qwen/Qwen2.5-Coder-7B-Instruct-GGUF",
+      "gguf_revision": "13fb94bfda8c8cf22497dc57b78f391a9acb426a",
+      "horizon": "2024-09-17T13:38:49Z",
+      "horizon_source": "HF createdAt Qwen/Qwen2.5-Coder-7B-Instruct",
+      "id": "qwen2.5-coder-7b",
+      "library_tag": "qwen2.5-coder:7b",
+      "params_b": 7.62,
+      "quant": "Q4_K_M",
+      "sha256": "509287f78cb4d4cf6b3843734733b914b2c158e43e22a7f4bf5e963800894d3c",
+      "size": 4683073536,
+      "source_repo": "Qwen/Qwen2.5-Coder-7B-Instruct"
+     },
+     {
+      "endpoint_model": "pdcps-deepseek-coder-6.7b",
+      "family_name": "DeepSeek-Coder",
+      "gguf_file": "deepseek-coder-6.7b-instruct.Q4_0.gguf",
+      "gguf_repo": "TheBloke/deepseek-coder-6.7B-instruct-GGUF",
+      "gguf_revision": "9e221e6b41cb1bf1c5d8f9718e81e3dc781f7557",
+      "horizon": "2023-10-29T11:01:36Z",
+      "horizon_source": "HF createdAt deepseek-ai/deepseek-coder-6.7b-instruct",
+      "id": "deepseek-coder-6.7b",
+      "library_tag": "deepseek-coder:6.7b",
+      "params_b": 6.74,
+      "quant": "Q4_0",
+      "sha256": "0c7cf89d9b2dc8671bfade603181aaa18b3dfd93e1b6a2c569a9807c65d4d438",
+      "size": 3827818720,
+      "source_repo": "deepseek-ai/deepseek-coder-6.7b-instruct"
+     },
+     {
+      "endpoint_model": "pdcps-llama3.1-8b",
+      "family_name": "Llama-3.1",
+      "gguf_file": "Meta-Llama-3.1-8B-Instruct-Q4_K_M.gguf",
+      "gguf_repo": "bartowski/Meta-Llama-3.1-8B-Instruct-GGUF",
+      "gguf_revision": "bf5b95e96dac0462e2a09145ec66cae9a3f12067",
+      "horizon": "2024-07-18T08:56:00Z",
+      "horizon_source": "HF createdAt meta-llama/Llama-3.1-8B-Instruct",
+      "id": "llama3.1-8b",
+      "library_tag": "llama3.1:8b",
+      "params_b": 8.03,
+      "quant": "Q4_K_M",
+      "sha256": "7b064f5842bf9532c91456deda288a1b672397a54fa729aa665952863033557c",
+      "size": 4920739232,
+      "source_repo": "meta-llama/Llama-3.1-8B-Instruct"
+     },
+     {
+      "endpoint_model": "pdcps-qwen3-8b",
+      "family_name": "Qwen3",
+      "gguf_file": "Qwen3-8B-Q4_K_M.gguf",
+      "gguf_repo": "Qwen/Qwen3-8B-GGUF",
+      "gguf_revision": "7c41481f57cb95916b40956ab2f0b139b296d974",
+      "horizon": "2025-04-27T03:42:21Z",
+      "horizon_source": "HF createdAt Qwen/Qwen3-8B",
+      "id": "qwen3-8b",
+      "library_tag": "qwen3:8b",
+      "params": {
+       "max_tokens": {
+        "F1": 4096,
+        "F2": 4096
+       }
+      },
+      "params_b": 8.19,
+      "quant": "Q4_K_M",
+      "sha256": "d98cdcbd03e17ce47681435b5150e34c1417f50b5c0019dd560e4882c5745785",
+      "size": 5027783488,
+      "source_repo": "Qwen/Qwen3-8B"
+     },
+     {
+      "endpoint_model": "pdcps-granite3.3-8b",
+      "family_name": "Granite-3.3",
+      "gguf_file": "granite-3.3-8b-instruct-Q4_K_M.gguf",
+      "gguf_repo": "ibm-granite/granite-3.3-8b-instruct-GGUF",
+      "gguf_revision": "e40e9dd739c7be00fa965c16ce167088190ce114",
+      "horizon": "2025-04-09T11:41:39Z",
+      "horizon_source": "HF createdAt ibm-granite/granite-3.3-8b-instruct",
+      "id": "granite3.3-8b",
+      "library_tag": "granite3.3:8b",
+      "params_b": 8.17,
+      "quant": "Q4_K_M",
+      "sha256": "77bcee066a76dcdd10d0d123c87e32c8ec2c74e31b6ffd87ebee49c9ac215dca",
+      "size": 4942873344,
+      "source_repo": "ibm-granite/granite-3.3-8b-instruct"
+     },
+     {
+      "endpoint_model": "pdcps-gemma3-12b",
+      "family_name": "Gemma-3",
+      "gguf_file": "gemma-3-12b-it-Q4_K_M.gguf",
+      "gguf_repo": "ggml-org/gemma-3-12b-it-GGUF",
+      "gguf_revision": "ec0cbabd8dbff316f659876a50202295c3c4a314",
+      "horizon": "2025-03-01T19:11:34Z",
+      "horizon_source": "HF createdAt google/gemma-3-12b-it",
+      "id": "gemma3-12b",
+      "library_tag": "gemma3:12b",
+      "params_b": 12.19,
+      "quant": "Q4_K_M",
+      "sha256": "7bb69bff3f48a7b642355d64a90e481182a7794707b3133890646b1efa778ff5",
+      "size": 7300574976,
+      "source_repo": "google/gemma-3-12b-it"
+     },
+     {
+      "endpoint_model": "pdcps-qwen2.5-coder-14b",
+      "family_name": "Qwen2.5-Coder",
+      "gguf_file": "qwen2.5-coder-14b-instruct-q4_k_m.gguf",
+      "gguf_repo": "Qwen/Qwen2.5-Coder-14B-Instruct-GGUF",
+      "gguf_revision": "d0a692ef765eefbf2fabb130b3cb2e8917e3d225",
+      "horizon": "2024-11-06T07:49:46Z",
+      "horizon_source": "HF createdAt Qwen/Qwen2.5-Coder-14B-Instruct",
+      "id": "qwen2.5-coder-14b",
+      "library_tag": "qwen2.5-coder:14b",
+      "params_b": 14.77,
+      "quant": "Q4_K_M",
+      "sha256": "c1e659736d89ac1065fb495330fb824d94001974a4bfa78e7270e43476a8d940",
+      "size": 8988110272,
+      "source_repo": "Qwen/Qwen2.5-Coder-14B-Instruct"
+     },
+     {
+      "endpoint_model": "pdcps-phi4-14b",
+      "family_name": "Phi-4",
+      "gguf_file": "phi-4-Q4_K.gguf",
+      "gguf_repo": "microsoft/phi-4-gguf",
+      "gguf_revision": "6edc2ef6664b739a8e11e62f2672ff6afe0c15ac",
+      "horizon": "2024-12-11T11:47:29Z",
+      "horizon_source": "HF createdAt microsoft/phi-4",
+      "id": "phi4-14b",
+      "library_tag": "phi4:14b",
+      "params_b": 14.66,
+      "quant": "Q4_K (Q4_K_M)",
+      "sha256": "5652b9be0ea4ae2842130d04fe31bc869fcb99a2b7106c53b4e754a343fd688f",
+      "size": 9053114560,
+      "source_repo": "microsoft/phi-4"
+     },
+     {
+      "endpoint_model": "pdcps-deepseek-coder-v2-16b",
+      "family_name": "DeepSeek-Coder-V2",
+      "gguf_file": "DeepSeek-Coder-V2-Lite-Instruct-Q4_0.gguf",
+      "gguf_repo": "second-state/DeepSeek-Coder-V2-Lite-Instruct-GGUF",
+      "gguf_revision": "c5d2f88d5ce17a690328cea5e01657c4f6d474ee",
+      "horizon": "2024-06-14T06:23:33Z",
+      "horizon_source": "HF createdAt deepseek-ai/DeepSeek-Coder-V2-Lite-Instruct",
+      "id": "deepseek-coder-v2-16b",
+      "library_tag": "deepseek-coder-v2:16b",
+      "params_b": 15.71,
+      "quant": "Q4_0",
+      "sha256": "7d932d742f5e09b66cf017bb0e27bf5acf1d0a12d0e65bcc4561528020c4b56c",
+      "size": 8905109984,
+      "source_repo": "deepseek-ai/DeepSeek-Coder-V2-Lite-Instruct"
+     },
+     {
+      "endpoint_model": "pdcps-gpt-oss-20b",
+      "family_name": "gpt-oss",
+      "gguf_file": "gpt-oss-20b-MXFP4.gguf",
+      "gguf_repo": "ggml-org/gpt-oss-20b-GGUF",
+      "gguf_revision": "15dcfc7e7c608c6161507211ed43c5b590801b4b",
+      "horizon": "2025-08-04T22:33:29Z",
+      "horizon_source": "HF createdAt openai/gpt-oss-20b",
+      "id": "gpt-oss-20b",
+      "library_tag": "gpt-oss:20b",
+      "params": {
+       "max_tokens": {
+        "F1": 4096,
+        "F2": 4096
+       }
+      },
+      "params_b": 20.91,
+      "quant": "MXFP4",
+      "sha256": "27cd6c432c7672cb812a92f611cf3ba7bbc35928262bb1e1253ff4ee6ae35901",
+      "size": 12109566624,
+      "source_repo": "openai/gpt-oss-20b"
+     },
+     {
+      "endpoint_model": "pdcps-qwen2.5-coder-32b",
+      "family_name": "Qwen2.5-Coder",
+      "gguf_file": "qwen2.5-coder-32b-instruct-q4_k_m.gguf",
+      "gguf_repo": "Qwen/Qwen2.5-Coder-32B-Instruct-GGUF",
+      "gguf_revision": "9d3053fce650fe1cdbdb75998c2a87add9d178ef",
+      "horizon": "2024-11-06T07:49:50Z",
+      "horizon_source": "HF createdAt Qwen/Qwen2.5-Coder-32B-Instruct",
+      "id": "qwen2.5-coder-32b",
+      "library_tag": "qwen2.5-coder:32b",
+      "params_b": 32.76,
+      "quant": "Q4_K_M",
+      "sha256": "4d64b316b5e6319d9613e0d97935d9ebd631fc7e334da400d00085eca749d085",
+      "size": 19851335872,
+      "source_repo": "Qwen/Qwen2.5-Coder-32B-Instruct"
+     }
+    ],
+    "params": {
+     "max_tokens": {
+      "F1": 1536,
+      "F2": 1536
+     },
+     "top_p": 0.95
+    },
+    "resample": {
+     "concurrency": 1,
+     "n": 5,
+     "seeds_from": 1,
+     "temperature": 0.7
+    },
+    "run_id": "study-ollama-2027",
+    "samples": [
+     {
+      "idx": 0,
+      "seed": 20240628,
+      "temperature": 0.0
+     }
+    ],
+    "server": "ollama"
+   },
+   "corpus_sha256": "d113553800885a887a870abfdd43c5e596a1a368ba98727adf4970eb428eb6cc",
+   "finished_at": "2026-10-25T15:11:00Z",
+   "host": "host-12f82d2010",
+   "n_todo": {
+    "llama3.1-8b": 4
+   },
+   "pass": "generate",
+   "platform": "Windows-11-10.0.26300-SP0",
+   "python": "3.12.10",
+   "run_id": "study-ollama-2027",
+   "served": {
+    "llama3.1-8b": {
+     "capabilities": [
+      "completion",
+      "tools"
+     ],
+     "details": {
+      "families": [
+       "llama"
+      ],
+      "family": "llama",
+      "format": "gguf",
+      "parameter_size": "8.0B",
+      "parent_model": "pdcps-llama3.1-8b:latest",
+      "quantization_level": "Q4_K_M",
+      "runner": "llamacpp"
+     },
+     "digest": "81d00cf8cf17745bdbc0e6f53c01fba583205af522610a0bb19edc0758056910",
+     "modified_at": "2026-10-25T15:10:37Z",
+     "ollama_version": "0.40.11",
+     "parameters": "stop                           \"<|start_header_id|>\"\nstop                           \"<|end_header_id|>\"\nstop                           \"<|eot_id|>\"",
+     "size": 4920740924,
+     "system_sha256": null,
+     "template_sha256": "948af2743fc78a328dcb3b0f5a31b3d75f415840fdb699e8b1235978392ecf85",
+     "weights_sha256": "7b064f5842bf9532c91456deda288a1b672397a54fa729aa665952863033557c"
+    }
+   },
+   "started_at": "2026-10-25T15:10:37Z"
+  },
+  {
+   "concurrency": 1,
+   "config": {
+    "_path": "config/run_study_ollama.yaml",
+    "endpoint": "http://127.0.0.1:11434",
+    "families": [
+     "F1",
+     "F2"
+    ],
+    "models": [
+     {
+      "endpoint_model": "pdcps-qwen2.5-coder-1.5b",
+      "family_name": "Qwen2.5-Coder",
+      "gguf_file": "qwen2.5-coder-1.5b-instruct-q4_k_m.gguf",
+      "gguf_repo": "Qwen/Qwen2.5-Coder-1.5B-Instruct-GGUF",
+      "gguf_revision": "f86cb2c1fa58255f8052cc32aeede1b7482d4361",
+      "horizon": "2024-09-18T09:41:47Z",
+      "horizon_source": "HF createdAt Qwen/Qwen2.5-Coder-1.5B-Instruct",
+      "id": "qwen2.5-coder-1.5b",
+      "library_tag": "qwen2.5-coder:1.5b",
+      "params_b": 1.54,
+      "quant": "Q4_K_M",
+      "sha256": "cc324af070c2ecbfd324a30884d2f951a7ff756aba85cb811a6ec436933bb046",
+      "size": 1117320768,
+      "source_repo": "Qwen/Qwen2.5-Coder-1.5B-Instruct"
+     },
+     {
+      "endpoint_model": "pdcps-llama3.2-3b",
+      "family_name": "Llama-3.2",
+      "gguf_file": "Llama-3.2-3B-Instruct-Q4_K_M.gguf",
+      "gguf_repo": "bartowski/Llama-3.2-3B-Instruct-GGUF",
+      "gguf_revision": "5ab33fa94d1d04e903623ae72c95d1696f09f9e8",
+      "horizon": "2024-09-18T15:19:20Z",
+      "horizon_source": "HF createdAt meta-llama/Llama-3.2-3B-Instruct",
+      "id": "llama3.2-3b",
+      "library_tag": "llama3.2:3b",
+      "params_b": 3.21,
+      "quant": "Q4_K_M",
+      "sha256": "6c1a2b41161032677be168d354123594c0e6e67d2b9227c84f296ad037c728ff",
+      "size": 2019377696,
+      "source_repo": "meta-llama/Llama-3.2-3B-Instruct"
+     },
+     {
+      "endpoint_model": "pdcps-qwen2.5-coder-7b",
+      "family_name": "Qwen2.5-Coder",
+      "gguf_file": "qwen2.5-coder-7b-instruct-q4_k_m.gguf",
+      "gguf_repo": "Qwen/Qwen2.5-Coder-7B-Instruct-GGUF",
+      "gguf_revision": "13fb94bfda8c8cf22497dc57b78f391a9acb426a",
+      "horizon": "2024-09-17T13:38:49Z",
+      "horizon_source": "HF createdAt Qwen/Qwen2.5-Coder-7B-Instruct",
+      "id": "qwen2.5-coder-7b",
+      "library_tag": "qwen2.5-coder:7b",
+      "params_b": 7.62,
+      "quant": "Q4_K_M",
+      "sha256": "509287f78cb4d4cf6b3843734733b914b2c158e43e22a7f4bf5e963800894d3c",
+      "size": 4683073536,
+      "source_repo": "Qwen/Qwen2.5-Coder-7B-Instruct"
+     },
+     {
+      "endpoint_model": "pdcps-deepseek-coder-6.7b",
+      "family_name": "DeepSeek-Coder",
+      "gguf_file": "deepseek-coder-6.7b-instruct.Q4_0.gguf",
+      "gguf_repo": "TheBloke/deepseek-coder-6.7B-instruct-GGUF",
+      "gguf_revision": "9e221e6b41cb1bf1c5d8f9718e81e3dc781f7557",
+      "horizon": "2023-10-29T11:01:36Z",
+      "horizon_source": "HF createdAt deepseek-ai/deepseek-coder-6.7b-instruct",
+      "id": "deepseek-coder-6.7b",
+      "library_tag": "deepseek-coder:6.7b",
+      "params_b": 6.74,
+      "quant": "Q4_0",
+      "sha256": "0c7cf89d9b2dc8671bfade603181aaa18b3dfd93e1b6a2c569a9807c65d4d438",
+      "size": 3827818720,
+      "source_repo": "deepseek-ai/deepseek-coder-6.7b-instruct"
+     },
+     {
+      "endpoint_model": "pdcps-llama3.1-8b",
+      "family_name": "Llama-3.1",
+      "gguf_file": "Meta-Llama-3.1-8B-Instruct-Q4_K_M.gguf",
+      "gguf_repo": "bartowski/Meta-Llama-3.1-8B-Instruct-GGUF",
+      "gguf_revision": "bf5b95e96dac0462e2a09145ec66cae9a3f12067",
+      "horizon": "2024-07-18T08:56:00Z",
+      "horizon_source": "HF createdAt meta-llama/Llama-3.1-8B-Instruct",
+      "id": "llama3.1-8b",
+      "library_tag": "llama3.1:8b",
+      "params_b": 8.03,
+      "quant": "Q4_K_M",
+      "sha256": "7b064f5842bf9532c91456deda288a1b672397a54fa729aa665952863033557c",
+      "size": 4920739232,
+      "source_repo": "meta-llama/Llama-3.1-8B-Instruct"
+     },
+     {
+      "endpoint_model": "pdcps-qwen3-8b",
+      "family_name": "Qwen3",
+      "gguf_file": "Qwen3-8B-Q4_K_M.gguf",
+      "gguf_repo": "Qwen/Qwen3-8B-GGUF",
+      "gguf_revision": "7c41481f57cb95916b40956ab2f0b139b296d974",
+      "horizon": "2025-04-27T03:42:21Z",
+      "horizon_source": "HF createdAt Qwen/Qwen3-8B",
+      "id": "qwen3-8b",
+      "library_tag": "qwen3:8b",
+      "params": {
+       "max_tokens": {
+        "F1": 4096,
+        "F2": 4096
+       }
+      },
+      "params_b": 8.19,
+      "quant": "Q4_K_M",
+      "sha256": "d98cdcbd03e17ce47681435b5150e34c1417f50b5c0019dd560e4882c5745785",
+      "size": 5027783488,
+      "source_repo": "Qwen/Qwen3-8B"
+     },
+     {
+      "endpoint_model": "pdcps-granite3.3-8b",
+      "family_name": "Granite-3.3",
+      "gguf_file": "granite-3.3-8b-instruct-Q4_K_M.gguf",
+      "gguf_repo": "ibm-granite/granite-3.3-8b-instruct-GGUF",
+      "gguf_revision": "e40e9dd739c7be00fa965c16ce167088190ce114",
+      "horizon": "2025-04-09T11:41:39Z",
+      "horizon_source": "HF createdAt ibm-granite/granite-3.3-8b-instruct",
+      "id": "granite3.3-8b",
+      "library_tag": "granite3.3:8b",
+      "params_b": 8.17,
+      "quant": "Q4_K_M",
+      "sha256": "77bcee066a76dcdd10d0d123c87e32c8ec2c74e31b6ffd87ebee49c9ac215dca",
+      "size": 4942873344,
+      "source_repo": "ibm-granite/granite-3.3-8b-instruct"
+     },
+     {
+      "endpoint_model": "pdcps-gemma3-12b",
+      "family_name": "Gemma-3",
+      "gguf_file": "gemma-3-12b-it-Q4_K_M.gguf",
+      "gguf_repo": "ggml-org/gemma-3-12b-it-GGUF",
+      "gguf_revision": "ec0cbabd8dbff316f659876a50202295c3c4a314",
+      "horizon": "2025-03-01T19:11:34Z",
+      "horizon_source": "HF createdAt google/gemma-3-12b-it",
+      "id": "gemma3-12b",
+      "library_tag": "gemma3:12b",
+      "params_b": 12.19,
+      "quant": "Q4_K_M",
+      "sha256": "7bb69bff3f48a7b642355d64a90e481182a7794707b3133890646b1efa778ff5",
+      "size": 7300574976,
+      "source_repo": "google/gemma-3-12b-it"
+     },
+     {
+      "endpoint_model": "pdcps-qwen2.5-coder-14b",
+      "family_name": "Qwen2.5-Coder",
+      "gguf_file": "qwen2.5-coder-14b-instruct-q4_k_m.gguf",
+      "gguf_repo": "Qwen/Qwen2.5-Coder-14B-Instruct-GGUF",
+      "gguf_revision": "d0a692ef765eefbf2fabb130b3cb2e8917e3d225",
+      "horizon": "2024-11-06T07:49:46Z",
+      "horizon_source": "HF createdAt Qwen/Qwen2.5-Coder-14B-Instruct",
+      "id": "qwen2.5-coder-14b",
+      "library_tag": "qwen2.5-coder:14b",
+      "params_b": 14.77,
+      "quant": "Q4_K_M",
+      "sha256": "c1e659736d89ac1065fb495330fb824d94001974a4bfa78e7270e43476a8d940",
+      "size": 8988110272,
+      "source_repo": "Qwen/Qwen2.5-Coder-14B-Instruct"
+     },
+     {
+      "endpoint_model": "pdcps-phi4-14b",
+      "family_name": "Phi-4",
+      "gguf_file": "phi-4-Q4_K.gguf",
+      "gguf_repo": "microsoft/phi-4-gguf",
+      "gguf_revision": "6edc2ef6664b739a8e11e62f2672ff6afe0c15ac",
+      "horizon": "2024-12-11T11:47:29Z",
+      "horizon_source": "HF createdAt microsoft/phi-4",
+      "id": "phi4-14b",
+      "library_tag": "phi4:14b",
+      "params_b": 14.66,
+      "quant": "Q4_K (Q4_K_M)",
+      "sha256": "5652b9be0ea4ae2842130d04fe31bc869fcb99a2b7106c53b4e754a343fd688f",
+      "size": 9053114560,
+      "source_repo": "microsoft/phi-4"
+     },
+     {
+      "endpoint_model": "pdcps-deepseek-coder-v2-16b",
+      "family_name": "DeepSeek-Coder-V2",
+      "gguf_file": "DeepSeek-Coder-V2-Lite-Instruct-Q4_0.gguf",
+      "gguf_repo": "second-state/DeepSeek-Coder-V2-Lite-Instruct-GGUF",
+      "gguf_revision": "c5d2f88d5ce17a690328cea5e01657c4f6d474ee",
+      "horizon": "2024-06-14T06:23:33Z",
+      "horizon_source": "HF createdAt deepseek-ai/DeepSeek-Coder-V2-Lite-Instruct",
+      "id": "deepseek-coder-v2-16b",
+      "library_tag": "deepseek-coder-v2:16b",
+      "params_b": 15.71,
+      "quant": "Q4_0",
+      "sha256": "7d932d742f5e09b66cf017bb0e27bf5acf1d0a12d0e65bcc4561528020c4b56c",
+      "size": 8905109984,
+      "source_repo": "deepseek-ai/DeepSeek-Coder-V2-Lite-Instruct"
+     },
+     {
+      "endpoint_model": "pdcps-gpt-oss-20b",
+      "family_name": "gpt-oss",
+      "gguf_file": "gpt-oss-20b-MXFP4.gguf",
+      "gguf_repo": "ggml-org/gpt-oss-20b-GGUF",
+      "gguf_revision": "15dcfc7e7c608c6161507211ed43c5b590801b4b",
+      "horizon": "2025-08-04T22:33:29Z",
+      "horizon_source": "HF createdAt openai/gpt-oss-20b",
+      "id": "gpt-oss-20b",
+      "library_tag": "gpt-oss:20b",
+      "params": {
+       "max_tokens": {
+        "F1": 4096,
+        "F2": 4096
+       }
+      },
+      "params_b": 20.91,
+      "quant": "MXFP4",
+      "sha256": "27cd6c432c7672cb812a92f611cf3ba7bbc35928262bb1e1253ff4ee6ae35901",
+      "size": 12109566624,
+      "source_repo": "openai/gpt-oss-20b"
+     },
+     {
+      "endpoint_model": "pdcps-qwen2.5-coder-32b",
+      "family_name": "Qwen2.5-Coder",
+      "gguf_file": "qwen2.5-coder-32b-instruct-q4_k_m.gguf",
+      "gguf_repo": "Qwen/Qwen2.5-Coder-32B-Instruct-GGUF",
+      "gguf_revision": "9d3053fce650fe1cdbdb75998c2a87add9d178ef",
+      "horizon": "2024-11-06T07:49:50Z",
+      "horizon_source": "HF createdAt Qwen/Qwen2.5-Coder-32B-Instruct",
+      "id": "qwen2.5-coder-32b",
+      "library_tag": "qwen2.5-coder:32b",
+      "params_b": 32.76,
+      "quant": "Q4_K_M",
+      "sha256": "4d64b316b5e6319d9613e0d97935d9ebd631fc7e334da400d00085eca749d085",
+      "size": 19851335872,
+      "source_repo": "Qwen/Qwen2.5-Coder-32B-Instruct"
+     }
+    ],
+    "params": {
+     "max_tokens": {
+      "F1": 1536,
+      "F2": 1536
+     },
+     "top_p": 0.95
+    },
+    "resample": {
+     "concurrency": 1,
+     "n": 5,
+     "seeds_from": 1,
+     "temperature": 0.7
+    },
+    "run_id": "study-ollama-2027",
+    "samples": [
+     {
+      "idx": 0,
+      "seed": 20240628,
+      "temperature": 0.0
+     }
+    ],
+    "server": "ollama"
+   },
+   "corpus_sha256": "d113553800885a887a870abfdd43c5e596a1a368ba98727adf4970eb428eb6cc",
+   "finished_at": "2026-10-25T15:12:09Z",
+   "host": "host-12f82d2010",
+   "n_todo": {
+    "qwen3-8b": 4
+   },
+   "pass": "generate",
+   "platform": "Windows-11-10.0.26300-SP0",
+   "python": "3.12.10",
+   "run_id": "study-ollama-2027",
+   "served": {
+    "qwen3-8b": {
+     "capabilities": [
+      "completion",
+      "tools",
+      "thinking"
+     ],
+     "details": {
+      "families": [
+       "qwen3"
+      ],
+      "family": "qwen3",
+      "format": "gguf",
+      "parameter_size": "8.2B",
+      "parent_model": "pdcps-qwen3-8b:latest",
+      "quantization_level": "Q4_K_M",
+      "runner": "llamacpp"
+     },
+     "digest": "7d07e5abb4cc8e8183242d8b75b3bbf9c55d59cd796bb5a558f17234049d5ac7",
+     "modified_at": "2026-10-25T15:11:00Z",
+     "ollama_version": "0.40.11",
+     "parameters": "top_p                          0.95\nrepeat_penalty                 1\nstop                           \"<|im_start|>\"\nstop                           \"<|im_end|>\"\ntemperature                    0.6\ntop_k                          20",
+     "size": 5027785446,
+     "system_sha256": null,
+     "template_sha256": "ae370d884f108d16e7cc8fd5259ebc5773a0afa6e078b11f4ed7e39a27e0dfc4",
+     "weights_sha256": "d98cdcbd03e17ce47681435b5150e34c1417f50b5c0019dd560e4882c5745785"
+    }
+   },
+   "started_at": "2026-10-25T15:11:00Z"
+  },
+  {
+   "concurrency": 1,
+   "config": {
+    "_path": "config/run_study_ollama.yaml",
+    "endpoint": "http://127.0.0.1:11434",
+    "families": [
+     "F1",
+     "F2"
+    ],
+    "models": [
+     {
+      "endpoint_model": "pdcps-qwen2.5-coder-1.5b",
+      "family_name": "Qwen2.5-Coder",
+      "gguf_file": "qwen2.5-coder-1.5b-instruct-q4_k_m.gguf",
+      "gguf_repo": "Qwen/Qwen2.5-Coder-1.5B-Instruct-GGUF",
+      "gguf_revision": "f86cb2c1fa58255f8052cc32aeede1b7482d4361",
+      "horizon": "2024-09-18T09:41:47Z",
+      "horizon_source": "HF createdAt Qwen/Qwen2.5-Coder-1.5B-Instruct",
+      "id": "qwen2.5-coder-1.5b",
+      "library_tag": "qwen2.5-coder:1.5b",
+      "params_b": 1.54,
+      "quant": "Q4_K_M",
+      "sha256": "cc324af070c2ecbfd324a30884d2f951a7ff756aba85cb811a6ec436933bb046",
+      "size": 1117320768,
+      "source_repo": "Qwen/Qwen2.5-Coder-1.5B-Instruct"
+     },
+     {
+      "endpoint_model": "pdcps-llama3.2-3b",
+      "family_name": "Llama-3.2",
+      "gguf_file": "Llama-3.2-3B-Instruct-Q4_K_M.gguf",
+      "gguf_repo": "bartowski/Llama-3.2-3B-Instruct-GGUF",
+      "gguf_revision": "5ab33fa94d1d04e903623ae72c95d1696f09f9e8",
+      "horizon": "2024-09-18T15:19:20Z",
+      "horizon_source": "HF createdAt meta-llama/Llama-3.2-3B-Instruct",
+      "id": "llama3.2-3b",
+      "library_tag": "llama3.2:3b",
+      "params_b": 3.21,
+      "quant": "Q4_K_M",
+      "sha256": "6c1a2b41161032677be168d354123594c0e6e67d2b9227c84f296ad037c728ff",
+      "size": 2019377696,
+      "source_repo": "meta-llama/Llama-3.2-3B-Instruct"
+     },
+     {
+      "endpoint_model": "pdcps-qwen2.5-coder-7b",
+      "family_name": "Qwen2.5-Coder",
+      "gguf_file": "qwen2.5-coder-7b-instruct-q4_k_m.gguf",
+      "gguf_repo": "Qwen/Qwen2.5-Coder-7B-Instruct-GGUF",
+      "gguf_revision": "13fb94bfda8c8cf22497dc57b78f391a9acb426a",
+      "horizon": "2024-09-17T13:38:49Z",
+      "horizon_source": "HF createdAt Qwen/Qwen2.5-Coder-7B-Instruct",
+      "id": "qwen2.5-coder-7b",
+      "library_tag": "qwen2.5-coder:7b",
+      "params_b": 7.62,
+      "quant": "Q4_K_M",
+      "sha256": "509287f78cb4d4cf6b3843734733b914b2c158e43e22a7f4bf5e963800894d3c",
+      "size": 4683073536,
+      "source_repo": "Qwen/Qwen2.5-Coder-7B-Instruct"
+     },
+     {
+      "endpoint_model": "pdcps-deepseek-coder-6.7b",
+      "family_name": "DeepSeek-Coder",
+      "gguf_file": "deepseek-coder-6.7b-instruct.Q4_0.gguf",
+      "gguf_repo": "TheBloke/deepseek-coder-6.7B-instruct-GGUF",
+      "gguf_revision": "9e221e6b41cb1bf1c5d8f9718e81e3dc781f7557",
+      "horizon": "2023-10-29T11:01:36Z",
+      "horizon_source": "HF createdAt deepseek-ai/deepseek-coder-6.7b-instruct",
+      "id": "deepseek-coder-6.7b",
+      "library_tag": "deepseek-coder:6.7b",
+      "params_b": 6.74,
+      "quant": "Q4_0",
+      "sha256": "0c7cf89d9b2dc8671bfade603181aaa18b3dfd93e1b6a2c569a9807c65d4d438",
+      "size": 3827818720,
+      "source_repo": "deepseek-ai/deepseek-coder-6.7b-instruct"
+     },
+     {
+      "endpoint_model": "pdcps-llama3.1-8b",
+      "family_name": "Llama-3.1",
+      "gguf_file": "Meta-Llama-3.1-8B-Instruct-Q4_K_M.gguf",
+      "gguf_repo": "bartowski/Meta-Llama-3.1-8B-Instruct-GGUF",
+      "gguf_revision": "bf5b95e96dac0462e2a09145ec66cae9a3f12067",
+      "horizon": "2024-07-18T08:56:00Z",
+      "horizon_source": "HF createdAt meta-llama/Llama-3.1-8B-Instruct",
+      "id": "llama3.1-8b",
+      "library_tag": "llama3.1:8b",
+      "params_b": 8.03,
+      "quant": "Q4_K_M",
+      "sha256": "7b064f5842bf9532c91456deda288a1b672397a54fa729aa665952863033557c",
+      "size": 4920739232,
+      "source_repo": "meta-llama/Llama-3.1-8B-Instruct"
+     },
+     {
+      "endpoint_model": "pdcps-qwen3-8b",
+      "family_name": "Qwen3",
+      "gguf_file": "Qwen3-8B-Q4_K_M.gguf",
+      "gguf_repo": "Qwen/Qwen3-8B-GGUF",
+      "gguf_revision": "7c41481f57cb95916b40956ab2f0b139b296d974",
+      "horizon": "2025-04-27T03:42:21Z",
+      "horizon_source": "HF createdAt Qwen/Qwen3-8B",
+      "id": "qwen3-8b",
+      "library_tag": "qwen3:8b",
+      "params": {
+       "max_tokens": {
+        "F1": 4096,
+        "F2": 4096
+       }
+      },
+      "params_b": 8.19,
+      "quant": "Q4_K_M",
+      "sha256": "d98cdcbd03e17ce47681435b5150e34c1417f50b5c0019dd560e4882c5745785",
+      "size": 5027783488,
+      "source_repo": "Qwen/Qwen3-8B"
+     },
+     {
+      "endpoint_model": "pdcps-granite3.3-8b",
+      "family_name": "Granite-3.3",
+      "gguf_file": "granite-3.3-8b-instruct-Q4_K_M.gguf",
+      "gguf_repo": "ibm-granite/granite-3.3-8b-instruct-GGUF",
+      "gguf_revision": "e40e9dd739c7be00fa965c16ce167088190ce114",
+      "horizon": "2025-04-09T11:41:39Z",
+      "horizon_source": "HF createdAt ibm-granite/granite-3.3-8b-instruct",
+      "id": "granite3.3-8b",
+      "library_tag": "granite3.3:8b",
+      "params_b": 8.17,
+      "quant": "Q4_K_M",
+      "sha256": "77bcee066a76dcdd10d0d123c87e32c8ec2c74e31b6ffd87ebee49c9ac215dca",
+      "size": 4942873344,
+      "source_repo": "ibm-granite/granite-3.3-8b-instruct"
+     },
+     {
+      "endpoint_model": "pdcps-gemma3-12b",
+      "family_name": "Gemma-3",
+      "gguf_file": "gemma-3-12b-it-Q4_K_M.gguf",
+      "gguf_repo": "ggml-org/gemma-3-12b-it-GGUF",
+      "gguf_revision": "ec0cbabd8dbff316f659876a50202295c3c4a314",
+      "horizon": "2025-03-01T19:11:34Z",
+      "horizon_source": "HF createdAt google/gemma-3-12b-it",
+      "id": "gemma3-12b",
+      "library_tag": "gemma3:12b",
+      "params_b": 12.19,
+      "quant": "Q4_K_M",
+      "sha256": "7bb69bff3f48a7b642355d64a90e481182a7794707b3133890646b1efa778ff5",
+      "size": 7300574976,
+      "source_repo": "google/gemma-3-12b-it"
+     },
+     {
+      "endpoint_model": "pdcps-qwen2.5-coder-14b",
+      "family_name": "Qwen2.5-Coder",
+      "gguf_file": "qwen2.5-coder-14b-instruct-q4_k_m.gguf",
+      "gguf_repo": "Qwen/Qwen2.5-Coder-14B-Instruct-GGUF",
+      "gguf_revision": "d0a692ef765eefbf2fabb130b3cb2e8917e3d225",
+      "horizon": "2024-11-06T07:49:46Z",
+      "horizon_source": "HF createdAt Qwen/Qwen2.5-Coder-14B-Instruct",
+      "id": "qwen2.5-coder-14b",
+      "library_tag": "qwen2.5-coder:14b",
+      "params_b": 14.77,
+      "quant": "Q4_K_M",
+      "sha256": "c1e659736d89ac1065fb495330fb824d94001974a4bfa78e7270e43476a8d940",
+      "size": 8988110272,
+      "source_repo": "Qwen/Qwen2.5-Coder-14B-Instruct"
+     },
+     {
+      "endpoint_model": "pdcps-phi4-14b",
+      "family_name": "Phi-4",
+      "gguf_file": "phi-4-Q4_K.gguf",
+      "gguf_repo": "microsoft/phi-4-gguf",
+      "gguf_revision": "6edc2ef6664b739a8e11e62f2672ff6afe0c15ac",
+      "horizon": "2024-12-11T11:47:29Z",
+      "horizon_source": "HF createdAt microsoft/phi-4",
+      "id": "phi4-14b",
+      "library_tag": "phi4:14b",
+      "params_b": 14.66,
+      "quant": "Q4_K (Q4_K_M)",
+      "sha256": "5652b9be0ea4ae2842130d04fe31bc869fcb99a2b7106c53b4e754a343fd688f",
+      "size": 9053114560,
+      "source_repo": "microsoft/phi-4"
+     },
+     {
+      "endpoint_model": "pdcps-deepseek-coder-v2-16b",
+      "family_name": "DeepSeek-Coder-V2",
+      "gguf_file": "DeepSeek-Coder-V2-Lite-Instruct-Q4_0.gguf",
+      "gguf_repo": "second-state/DeepSeek-Coder-V2-Lite-Instruct-GGUF",
+      "gguf_revision": "c5d2f88d5ce17a690328cea5e01657c4f6d474ee",
+      "horizon": "2024-06-14T06:23:33Z",
+      "horizon_source": "HF createdAt deepseek-ai/DeepSeek-Coder-V2-Lite-Instruct",
+      "id": "deepseek-coder-v2-16b",
+      "library_tag": "deepseek-coder-v2:16b",
+      "params_b": 15.71,
+      "quant": "Q4_0",
+      "sha256": "7d932d742f5e09b66cf017bb0e27bf5acf1d0a12d0e65bcc4561528020c4b56c",
+      "size": 8905109984,
+      "source_repo": "deepseek-ai/DeepSeek-Coder-V2-Lite-Instruct"
+     },
+     {
+      "endpoint_model": "pdcps-gpt-oss-20b",
+      "family_name": "gpt-oss",
+      "gguf_file": "gpt-oss-20b-MXFP4.gguf",
+      "gguf_repo": "ggml-org/gpt-oss-20b-GGUF",
+      "gguf_revision": "15dcfc7e7c608c6161507211ed43c5b590801b4b",
+      "horizon": "2025-08-04T22:33:29Z",
+      "horizon_source": "HF createdAt openai/gpt-oss-20b",
+      "id": "gpt-oss-20b",
+      "library_tag": "gpt-oss:20b",
+      "params": {
+       "max_tokens": {
+        "F1": 4096,
+        "F2": 4096
+       }
+      },
+      "params_b": 20.91,
+      "quant": "MXFP4",
+      "sha256": "27cd6c432c7672cb812a92f611cf3ba7bbc35928262bb1e1253ff4ee6ae35901",
+      "size": 12109566624,
+      "source_repo": "openai/gpt-oss-20b"
+     },
+     {
+      "endpoint_model": "pdcps-qwen2.5-coder-32b",
+      "family_name": "Qwen2.5-Coder",
+      "gguf_file": "qwen2.5-coder-32b-instruct-q4_k_m.gguf",
+      "gguf_repo": "Qwen/Qwen2.5-Coder-32B-Instruct-GGUF",
+      "gguf_revision": "9d3053fce650fe1cdbdb75998c2a87add9d178ef",
+      "horizon": "2024-11-06T07:49:50Z",
+      "horizon_source": "HF createdAt Qwen/Qwen2.5-Coder-32B-Instruct",
+      "id": "qwen2.5-coder-32b",
+      "library_tag": "qwen2.5-coder:32b",
+      "params_b": 32.76,
+      "quant": "Q4_K_M",
+      "sha256": "4d64b316b5e6319d9613e0d97935d9ebd631fc7e334da400d00085eca749d085",
+      "size": 19851335872,
+      "source_repo": "Qwen/Qwen2.5-Coder-32B-Instruct"
+     }
+    ],
+    "params": {
+     "max_tokens": {
+      "F1": 1536,
+      "F2": 1536
+     },
+     "top_p": 0.95
+    },
+    "resample": {
+     "concurrency": 1,
+     "n": 5,
+     "seeds_from": 1,
+     "temperature": 0.7
+    },
+    "run_id": "study-ollama-2027",
+    "samples": [
+     {
+      "idx": 0,
+      "seed": 20240628,
+      "temperature": 0.0
+     }
+    ],
+    "server": "ollama"
+   },
+   "corpus_sha256": "d113553800885a887a870abfdd43c5e596a1a368ba98727adf4970eb428eb6cc",
+   "finished_at": "2026-10-25T15:12:36Z",
+   "host": "host-12f82d2010",
+   "n_todo": {
+    "granite3.3-8b": 4
+   },
+   "pass": "generate",
+   "platform": "Windows-11-10.0.26300-SP0",
+   "python": "3.12.10",
+   "run_id": "study-ollama-2027",
+   "served": {
+    "granite3.3-8b": {
+     "capabilities": [
+      "completion",
+      "tools"
+     ],
+     "details": {
+      "families": [
+       "granite"
+      ],
+      "family": "granite",
+      "format": "gguf",
+      "parameter_size": "8.2B",
+      "parent_model": "pdcps-granite3.3-8b:latest",
+      "quantization_level": "Q4_K_M",
+      "runner": "llamacpp"
+     },
+     "digest": "1507fe03146fc40a19e3cd6e0399740ca8c2b0d6537f769648b4ed74d8eb1e2f",
+     "modified_at": "2026-10-25T15:12:09Z",
+     "ollama_version": "0.40.11",
+     "parameters": null,
+     "size": 4942880023,
+     "system_sha256": null,
+     "template_sha256": "3da071a01bbe5a1aa1e9766149ff67ed2b232f63d55e6ed50e3777b74536a67f",
+     "weights_sha256": "77bcee066a76dcdd10d0d123c87e32c8ec2c74e31b6ffd87ebee49c9ac215dca"
+    }
+   },
+   "started_at": "2026-10-25T15:12:09Z"
+  },
+  {
+   "concurrency": 1,
+   "config": {
+    "_path": "config/run_study_ollama.yaml",
+    "endpoint": "http://127.0.0.1:11434",
+    "families": [
+     "F1",
+     "F2"
+    ],
+    "models": [
+     {
+      "endpoint_model": "pdcps-qwen2.5-coder-1.5b",
+      "family_name": "Qwen2.5-Coder",
+      "gguf_file": "qwen2.5-coder-1.5b-instruct-q4_k_m.gguf",
+      "gguf_repo": "Qwen/Qwen2.5-Coder-1.5B-Instruct-GGUF",
+      "gguf_revision": "f86cb2c1fa58255f8052cc32aeede1b7482d4361",
+      "horizon": "2024-09-18T09:41:47Z",
+      "horizon_source": "HF createdAt Qwen/Qwen2.5-Coder-1.5B-Instruct",
+      "id": "qwen2.5-coder-1.5b",
+      "library_tag": "qwen2.5-coder:1.5b",
+      "params_b": 1.54,
+      "quant": "Q4_K_M",
+      "sha256": "cc324af070c2ecbfd324a30884d2f951a7ff756aba85cb811a6ec436933bb046",
+      "size": 1117320768,
+      "source_repo": "Qwen/Qwen2.5-Coder-1.5B-Instruct"
+     },
+     {
+      "endpoint_model": "pdcps-llama3.2-3b",
+      "family_name": "Llama-3.2",
+      "gguf_file": "Llama-3.2-3B-Instruct-Q4_K_M.gguf",
+      "gguf_repo": "bartowski/Llama-3.2-3B-Instruct-GGUF",
+      "gguf_revision": "5ab33fa94d1d04e903623ae72c95d1696f09f9e8",
+      "horizon": "2024-09-18T15:19:20Z",
+      "horizon_source": "HF createdAt meta-llama/Llama-3.2-3B-Instruct",
+      "id": "llama3.2-3b",
+      "library_tag": "llama3.2:3b",
+      "params_b": 3.21,
+      "quant": "Q4_K_M",
+      "sha256": "6c1a2b41161032677be168d354123594c0e6e67d2b9227c84f296ad037c728ff",
+      "size": 2019377696,
+      "source_repo": "meta-llama/Llama-3.2-3B-Instruct"
+     },
+     {
+      "endpoint_model": "pdcps-qwen2.5-coder-7b",
+      "family_name": "Qwen2.5-Coder",
+      "gguf_file": "qwen2.5-coder-7b-instruct-q4_k_m.gguf",
+      "gguf_repo": "Qwen/Qwen2.5-Coder-7B-Instruct-GGUF",
+      "gguf_revision": "13fb94bfda8c8cf22497dc57b78f391a9acb426a",
+      "horizon": "2024-09-17T13:38:49Z",
+      "horizon_source": "HF createdAt Qwen/Qwen2.5-Coder-7B-Instruct",
+      "id": "qwen2.5-coder-7b",
+      "library_tag": "qwen2.5-coder:7b",
+      "params_b": 7.62,
+      "quant": "Q4_K_M",
+      "sha256": "509287f78cb4d4cf6b3843734733b914b2c158e43e22a7f4bf5e963800894d3c",
+      "size": 4683073536,
+      "source_repo": "Qwen/Qwen2.5-Coder-7B-Instruct"
+     },
+     {
+      "endpoint_model": "pdcps-deepseek-coder-6.7b",
+      "family_name": "DeepSeek-Coder",
+      "gguf_file": "deepseek-coder-6.7b-instruct.Q4_0.gguf",
+      "gguf_repo": "TheBloke/deepseek-coder-6.7B-instruct-GGUF",
+      "gguf_revision": "9e221e6b41cb1bf1c5d8f9718e81e3dc781f7557",
+      "horizon": "2023-10-29T11:01:36Z",
+      "horizon_source": "HF createdAt deepseek-ai/deepseek-coder-6.7b-instruct",
+      "id": "deepseek-coder-6.7b",
+      "library_tag": "deepseek-coder:6.7b",
+      "params_b": 6.74,
+      "quant": "Q4_0",
+      "sha256": "0c7cf89d9b2dc8671bfade603181aaa18b3dfd93e1b6a2c569a9807c65d4d438",
+      "size": 3827818720,
+      "source_repo": "deepseek-ai/deepseek-coder-6.7b-instruct"
+     },
+     {
+      "endpoint_model": "pdcps-llama3.1-8b",
+      "family_name": "Llama-3.1",
+      "gguf_file": "Meta-Llama-3.1-8B-Instruct-Q4_K_M.gguf",
+      "gguf_repo": "bartowski/Meta-Llama-3.1-8B-Instruct-GGUF",
+      "gguf_revision": "bf5b95e96dac0462e2a09145ec66cae9a3f12067",
+      "horizon": "2024-07-18T08:56:00Z",
+      "horizon_source": "HF createdAt meta-llama/Llama-3.1-8B-Instruct",
+      "id": "llama3.1-8b",
+      "library_tag": "llama3.1:8b",
+      "params_b": 8.03,
+      "quant": "Q4_K_M",
+      "sha256": "7b064f5842bf9532c91456deda288a1b672397a54fa729aa665952863033557c",
+      "size": 4920739232,
+      "source_repo": "meta-llama/Llama-3.1-8B-Instruct"
+     },
+     {
+      "endpoint_model": "pdcps-qwen3-8b",
+      "family_name": "Qwen3",
+      "gguf_file": "Qwen3-8B-Q4_K_M.gguf",
+      "gguf_repo": "Qwen/Qwen3-8B-GGUF",
+      "gguf_revision": "7c41481f57cb95916b40956ab2f0b139b296d974",
+      "horizon": "2025-04-27T03:42:21Z",
+      "horizon_source": "HF createdAt Qwen/Qwen3-8B",
+      "id": "qwen3-8b",
+      "library_tag": "qwen3:8b",
+      "params": {
+       "max_tokens": {
+        "F1": 4096,
+        "F2": 4096
+       }
+      },
+      "params_b": 8.19,
+      "quant": "Q4_K_M",
+      "sha256": "d98cdcbd03e17ce47681435b5150e34c1417f50b5c0019dd560e4882c5745785",
+      "size": 5027783488,
+      "source_repo": "Qwen/Qwen3-8B"
+     },
+     {
+      "endpoint_model": "pdcps-granite3.3-8b",
+      "family_name": "Granite-3.3",
+      "gguf_file": "granite-3.3-8b-instruct-Q4_K_M.gguf",
+      "gguf_repo": "ibm-granite/granite-3.3-8b-instruct-GGUF",
+      "gguf_revision": "e40e9dd739c7be00fa965c16ce167088190ce114",
+      "horizon": "2025-04-09T11:41:39Z",
+      "horizon_source": "HF createdAt ibm-granite/granite-3.3-8b-instruct",
+      "id": "granite3.3-8b",
+      "library_tag": "granite3.3:8b",
+      "params_b": 8.17,
+      "quant": "Q4_K_M",
+      "sha256": "77bcee066a76dcdd10d0d123c87e32c8ec2c74e31b6ffd87ebee49c9ac215dca",
+      "size": 4942873344,
+      "source_repo": "ibm-granite/granite-3.3-8b-instruct"
+     },
+     {
+      "endpoint_model": "pdcps-gemma3-12b",
+      "family_name": "Gemma-3",
+      "gguf_file": "gemma-3-12b-it-Q4_K_M.gguf",
+      "gguf_repo": "ggml-org/gemma-3-12b-it-GGUF",
+      "gguf_revision": "ec0cbabd8dbff316f659876a50202295c3c4a314",
+      "horizon": "2025-03-01T19:11:34Z",
+      "horizon_source": "HF createdAt google/gemma-3-12b-it",
+      "id": "gemma3-12b",
+      "library_tag": "gemma3:12b",
+      "params_b": 12.19,
+      "quant": "Q4_K_M",
+      "sha256": "7bb69bff3f48a7b642355d64a90e481182a7794707b3133890646b1efa778ff5",
+      "size": 7300574976,
+      "source_repo": "google/gemma-3-12b-it"
+     },
+     {
+      "endpoint_model": "pdcps-qwen2.5-coder-14b",
+      "family_name": "Qwen2.5-Coder",
+      "gguf_file": "qwen2.5-coder-14b-instruct-q4_k_m.gguf",
+      "gguf_repo": "Qwen/Qwen2.5-Coder-14B-Instruct-GGUF",
+      "gguf_revision": "d0a692ef765eefbf2fabb130b3cb2e8917e3d225",
+      "horizon": "2024-11-06T07:49:46Z",
+      "horizon_source": "HF createdAt Qwen/Qwen2.5-Coder-14B-Instruct",
+      "id": "qwen2.5-coder-14b",
+      "library_tag": "qwen2.5-coder:14b",
+      "params_b": 14.77,
+      "quant": "Q4_K_M",
+      "sha256": "c1e659736d89ac1065fb495330fb824d94001974a4bfa78e7270e43476a8d940",
+      "size": 8988110272,
+      "source_repo": "Qwen/Qwen2.5-Coder-14B-Instruct"
+     },
+     {
+      "endpoint_model": "pdcps-phi4-14b",
+      "family_name": "Phi-4",
+      "gguf_file": "phi-4-Q4_K.gguf",
+      "gguf_repo": "microsoft/phi-4-gguf",
+      "gguf_revision": "6edc2ef6664b739a8e11e62f2672ff6afe0c15ac",
+      "horizon": "2024-12-11T11:47:29Z",
+      "horizon_source": "HF createdAt microsoft/phi-4",
+      "id": "phi4-14b",
+      "library_tag": "phi4:14b",
+      "params_b": 14.66,
+      "quant": "Q4_K (Q4_K_M)",
+      "sha256": "5652b9be0ea4ae2842130d04fe31bc869fcb99a2b7106c53b4e754a343fd688f",
+      "size": 9053114560,
+      "source_repo": "microsoft/phi-4"
+     },
+     {
+      "endpoint_model": "pdcps-deepseek-coder-v2-16b",
+      "family_name": "DeepSeek-Coder-V2",
+      "gguf_file": "DeepSeek-Coder-V2-Lite-Instruct-Q4_0.gguf",
+      "gguf_repo": "second-state/DeepSeek-Coder-V2-Lite-Instruct-GGUF",
+      "gguf_revision": "c5d2f88d5ce17a690328cea5e01657c4f6d474ee",
+      "horizon": "2024-06-14T06:23:33Z",
+      "horizon_source": "HF createdAt deepseek-ai/DeepSeek-Coder-V2-Lite-Instruct",
+      "id": "deepseek-coder-v2-16b",
+      "library_tag": "deepseek-coder-v2:16b",
+      "params_b": 15.71,
+      "quant": "Q4_0",
+      "sha256": "7d932d742f5e09b66cf017bb0e27bf5acf1d0a12d0e65bcc4561528020c4b56c",
+      "size": 8905109984,
+      "source_repo": "deepseek-ai/DeepSeek-Coder-V2-Lite-Instruct"
+     },
+     {
+      "endpoint_model": "pdcps-gpt-oss-20b",
+      "family_name": "gpt-oss",
+      "gguf_file": "gpt-oss-20b-MXFP4.gguf",
+      "gguf_repo": "ggml-org/gpt-oss-20b-GGUF",
+      "gguf_revision": "15dcfc7e7c608c6161507211ed43c5b590801b4b",
+      "horizon": "2025-08-04T22:33:29Z",
+      "horizon_source": "HF createdAt openai/gpt-oss-20b",
+      "id": "gpt-oss-20b",
+      "library_tag": "gpt-oss:20b",
+      "params": {
+       "max_tokens": {
+        "F1": 4096,
+        "F2": 4096
+       }
+      },
+      "params_b": 20.91,
+      "quant": "MXFP4",
+      "sha256": "27cd6c432c7672cb812a92f611cf3ba7bbc35928262bb1e1253ff4ee6ae35901",
+      "size": 12109566624,
+      "source_repo": "openai/gpt-oss-20b"
+     },
+     {
+      "endpoint_model": "pdcps-qwen2.5-coder-32b",
+      "family_name": "Qwen2.5-Coder",
+      "gguf_file": "qwen2.5-coder-32b-instruct-q4_k_m.gguf",
+      "gguf_repo": "Qwen/Qwen2.5-Coder-32B-Instruct-GGUF",
+      "gguf_revision": "9d3053fce650fe1cdbdb75998c2a87add9d178ef",
+      "horizon": "2024-11-06T07:49:50Z",
+      "horizon_source": "HF createdAt Qwen/Qwen2.5-Coder-32B-Instruct",
+      "id": "qwen2.5-coder-32b",
+      "library_tag": "qwen2.5-coder:32b",
+      "params_b": 32.76,
+      "quant": "Q4_K_M",
+      "sha256": "4d64b316b5e6319d9613e0d97935d9ebd631fc7e334da400d00085eca749d085",
+      "size": 19851335872,
+      "source_repo": "Qwen/Qwen2.5-Coder-32B-Instruct"
+     }
+    ],
+    "params": {
+     "max_tokens": {
+      "F1": 1536,
+      "F2": 1536
+     },
+     "top_p": 0.95
+    },
+    "resample": {
+     "concurrency": 1,
+     "n": 5,
+     "seeds_from": 1,
+     "temperature": 0.7
+    },
+    "run_id": "study-ollama-2027",
+    "samples": [
+     {
+      "idx": 0,
+      "seed": 20240628,
+      "temperature": 0.0
+     }
+    ],
+    "server": "ollama"
+   },
+   "corpus_sha256": "d113553800885a887a870abfdd43c5e596a1a368ba98727adf4970eb428eb6cc",
+   "finished_at": "2026-10-25T15:13:58Z",
+   "host": "host-12f82d2010",
+   "n_todo": {
+    "gemma3-12b": 4
+   },
+   "pass": "generate",
+   "platform": "Windows-11-10.0.26300-SP0",
+   "python": "3.12.10",
+   "run_id": "study-ollama-2027",
+   "served": {
+    "gemma3-12b": {
+     "capabilities": [
+      "completion"
+     ],
+     "details": {
+      "families": [
+       "gemma3"
+      ],
+      "family": "gemma3",
+      "format": "gguf",
+      "parameter_size": "11.8B",
+      "parent_model": "pdcps-gemma3-12b:latest",
+      "quantization_level": "Q4_K_M",
+      "runner": "llamacpp"
+     },
+     "digest": "db49e2b9c42d8989dcafb3b9fa29a4d6a28b253d2b58a7072d36300667128800",
+     "modified_at": "2026-10-25T15:12:37Z",
+     "ollama_version": "0.40.11",
+     "parameters": "top_k                          64\ntop_p                          0.95\nstop                           \"<end_of_turn>\"\ntemperature                    1",
+     "size": 7300575529,
+     "system_sha256": null,
+     "template_sha256": "e0a42594d802e5d31cdc786deb4823edb8adff66094d49de8fffe976d753e348",
+     "weights_sha256": "7bb69bff3f48a7b642355d64a90e481182a7794707b3133890646b1efa778ff5"
+    }
+   },
+   "started_at": "2026-10-25T15:12:37Z"
+  },
+  {
+   "concurrency": 1,
+   "config": {
+    "_path": "config/run_study_ollama.yaml",
+    "endpoint": "http://127.0.0.1:11434",
+    "families": [
+     "F1",
+     "F2"
+    ],
+    "models": [
+     {
+      "endpoint_model": "pdcps-qwen2.5-coder-1.5b",
+      "family_name": "Qwen2.5-Coder",
+      "gguf_file": "qwen2.5-coder-1.5b-instruct-q4_k_m.gguf",
+      "gguf_repo": "Qwen/Qwen2.5-Coder-1.5B-Instruct-GGUF",
+      "gguf_revision": "f86cb2c1fa58255f8052cc32aeede1b7482d4361",
+      "horizon": "2024-09-18T09:41:47Z",
+      "horizon_source": "HF createdAt Qwen/Qwen2.5-Coder-1.5B-Instruct",
+      "id": "qwen2.5-coder-1.5b",
+      "library_tag": "qwen2.5-coder:1.5b",
+      "params_b": 1.54,
+      "quant": "Q4_K_M",
+      "sha256": "cc324af070c2ecbfd324a30884d2f951a7ff756aba85cb811a6ec436933bb046",
+      "size": 1117320768,
+      "source_repo": "Qwen/Qwen2.5-Coder-1.5B-Instruct"
+     },
+     {
+      "endpoint_model": "pdcps-llama3.2-3b",
+      "family_name": "Llama-3.2",
+      "gguf_file": "Llama-3.2-3B-Instruct-Q4_K_M.gguf",
+      "gguf_repo": "bartowski/Llama-3.2-3B-Instruct-GGUF",
+      "gguf_revision": "5ab33fa94d1d04e903623ae72c95d1696f09f9e8",
+      "horizon": "2024-09-18T15:19:20Z",
+      "horizon_source": "HF createdAt meta-llama/Llama-3.2-3B-Instruct",
+      "id": "llama3.2-3b",
+      "library_tag": "llama3.2:3b",
+      "params_b": 3.21,
+      "quant": "Q4_K_M",
+      "sha256": "6c1a2b41161032677be168d354123594c0e6e67d2b9227c84f296ad037c728ff",
+      "size": 2019377696,
+      "source_repo": "meta-llama/Llama-3.2-3B-Instruct"
+     },
+     {
+      "endpoint_model": "pdcps-qwen2.5-coder-7b",
+      "family_name": "Qwen2.5-Coder",
+      "gguf_file": "qwen2.5-coder-7b-instruct-q4_k_m.gguf",
+      "gguf_repo": "Qwen/Qwen2.5-Coder-7B-Instruct-GGUF",
+      "gguf_revision": "13fb94bfda8c8cf22497dc57b78f391a9acb426a",
+      "horizon": "2024-09-17T13:38:49Z",
+      "horizon_source": "HF createdAt Qwen/Qwen2.5-Coder-7B-Instruct",
+      "id": "qwen2.5-coder-7b",
+      "library_tag": "qwen2.5-coder:7b",
+      "params_b": 7.62,
+      "quant": "Q4_K_M",
+      "sha256": "509287f78cb4d4cf6b3843734733b914b2c158e43e22a7f4bf5e963800894d3c",
+      "size": 4683073536,
+      "source_repo": "Qwen/Qwen2.5-Coder-7B-Instruct"
+     },
+     {
+      "endpoint_model": "pdcps-deepseek-coder-6.7b",
+      "family_name": "DeepSeek-Coder",
+      "gguf_file": "deepseek-coder-6.7b-instruct.Q4_0.gguf",
+      "gguf_repo": "TheBloke/deepseek-coder-6.7B-instruct-GGUF",
+      "gguf_revision": "9e221e6b41cb1bf1c5d8f9718e81e3dc781f7557",
+      "horizon": "2023-10-29T11:01:36Z",
+      "horizon_source": "HF createdAt deepseek-ai/deepseek-coder-6.7b-instruct",
+      "id": "deepseek-coder-6.7b",
+      "library_tag": "deepseek-coder:6.7b",
+      "params_b": 6.74,
+      "quant": "Q4_0",
+      "sha256": "0c7cf89d9b2dc8671bfade603181aaa18b3dfd93e1b6a2c569a9807c65d4d438",
+      "size": 3827818720,
+      "source_repo": "deepseek-ai/deepseek-coder-6.7b-instruct"
+     },
+     {
+      "endpoint_model": "pdcps-llama3.1-8b",
+      "family_name": "Llama-3.1",
+      "gguf_file": "Meta-Llama-3.1-8B-Instruct-Q4_K_M.gguf",
+      "gguf_repo": "bartowski/Meta-Llama-3.1-8B-Instruct-GGUF",
+      "gguf_revision": "bf5b95e96dac0462e2a09145ec66cae9a3f12067",
+      "horizon": "2024-07-18T08:56:00Z",
+      "horizon_source": "HF createdAt meta-llama/Llama-3.1-8B-Instruct",
+      "id": "llama3.1-8b",
+      "library_tag": "llama3.1:8b",
+      "params_b": 8.03,
+      "quant": "Q4_K_M",
+      "sha256": "7b064f5842bf9532c91456deda288a1b672397a54fa729aa665952863033557c",
+      "size": 4920739232,
+      "source_repo": "meta-llama/Llama-3.1-8B-Instruct"
+     },
+     {
+      "endpoint_model": "pdcps-qwen3-8b",
+      "family_name": "Qwen3",
+      "gguf_file": "Qwen3-8B-Q4_K_M.gguf",
+      "gguf_repo": "Qwen/Qwen3-8B-GGUF",
+      "gguf_revision": "7c41481f57cb95916b40956ab2f0b139b296d974",
+      "horizon": "2025-04-27T03:42:21Z",
+      "horizon_source": "HF createdAt Qwen/Qwen3-8B",
+      "id": "qwen3-8b",
+      "library_tag": "qwen3:8b",
+      "params": {
+       "max_tokens": {
+        "F1": 4096,
+        "F2": 4096
+       }
+      },
+      "params_b": 8.19,
+      "quant": "Q4_K_M",
+      "sha256": "d98cdcbd03e17ce47681435b5150e34c1417f50b5c0019dd560e4882c5745785",
+      "size": 5027783488,
+      "source_repo": "Qwen/Qwen3-8B"
+     },
+     {
+      "endpoint_model": "pdcps-granite3.3-8b",
+      "family_name": "Granite-3.3",
+      "gguf_file": "granite-3.3-8b-instruct-Q4_K_M.gguf",
+      "gguf_repo": "ibm-granite/granite-3.3-8b-instruct-GGUF",
+      "gguf_revision": "e40e9dd739c7be00fa965c16ce167088190ce114",
+      "horizon": "2025-04-09T11:41:39Z",
+      "horizon_source": "HF createdAt ibm-granite/granite-3.3-8b-instruct",
+      "id": "granite3.3-8b",
+      "library_tag": "granite3.3:8b",
+      "params_b": 8.17,
+      "quant": "Q4_K_M",
+      "sha256": "77bcee066a76dcdd10d0d123c87e32c8ec2c74e31b6ffd87ebee49c9ac215dca",
+      "size": 4942873344,
+      "source_repo": "ibm-granite/granite-3.3-8b-instruct"
+     },
+     {
+      "endpoint_model": "pdcps-gemma3-12b",
+      "family_name": "Gemma-3",
+      "gguf_file": "gemma-3-12b-it-Q4_K_M.gguf",
+      "gguf_repo": "ggml-org/gemma-3-12b-it-GGUF",
+      "gguf_revision": "ec0cbabd8dbff316f659876a50202295c3c4a314",
+      "horizon": "2025-03-01T19:11:34Z",
+      "horizon_source": "HF createdAt google/gemma-3-12b-it",
+      "id": "gemma3-12b",
+      "library_tag": "gemma3:12b",
+      "params_b": 12.19,
+      "quant": "Q4_K_M",
+      "sha256": "7bb69bff3f48a7b642355d64a90e481182a7794707b3133890646b1efa778ff5",
+      "size": 7300574976,
+      "source_repo": "google/gemma-3-12b-it"
+     },
+     {
+      "endpoint_model": "pdcps-qwen2.5-coder-14b",
+      "family_name": "Qwen2.5-Coder",
+      "gguf_file": "qwen2.5-coder-14b-instruct-q4_k_m.gguf",
+      "gguf_repo": "Qwen/Qwen2.5-Coder-14B-Instruct-GGUF",
+      "gguf_revision": "d0a692ef765eefbf2fabb130b3cb2e8917e3d225",
+      "horizon": "2024-11-06T07:49:46Z",
+      "horizon_source": "HF createdAt Qwen/Qwen2.5-Coder-14B-Instruct",
+      "id": "qwen2.5-coder-14b",
+      "library_tag": "qwen2.5-coder:14b",
+      "params_b": 14.77,
+      "quant": "Q4_K_M",
+      "sha256": "c1e659736d89ac1065fb495330fb824d94001974a4bfa78e7270e43476a8d940",
+      "size": 8988110272,
+      "source_repo": "Qwen/Qwen2.5-Coder-14B-Instruct"
+     },
+     {
+      "endpoint_model": "pdcps-phi4-14b",
+      "family_name": "Phi-4",
+      "gguf_file": "phi-4-Q4_K.gguf",
+      "gguf_repo": "microsoft/phi-4-gguf",
+      "gguf_revision": "6edc2ef6664b739a8e11e62f2672ff6afe0c15ac",
+      "horizon": "2024-12-11T11:47:29Z",
+      "horizon_source": "HF createdAt microsoft/phi-4",
+      "id": "phi4-14b",
+      "library_tag": "phi4:14b",
+      "params_b": 14.66,
+      "quant": "Q4_K (Q4_K_M)",
+      "sha256": "5652b9be0ea4ae2842130d04fe31bc869fcb99a2b7106c53b4e754a343fd688f",
+      "size": 9053114560,
+      "source_repo": "microsoft/phi-4"
+     },
+     {
+      "endpoint_model": "pdcps-deepseek-coder-v2-16b",
+      "family_name": "DeepSeek-Coder-V2",
+      "gguf_file": "DeepSeek-Coder-V2-Lite-Instruct-Q4_0.gguf",
+      "gguf_repo": "second-state/DeepSeek-Coder-V2-Lite-Instruct-GGUF",
+      "gguf_revision": "c5d2f88d5ce17a690328cea5e01657c4f6d474ee",
+      "horizon": "2024-06-14T06:23:33Z",
+      "horizon_source": "HF createdAt deepseek-ai/DeepSeek-Coder-V2-Lite-Instruct",
+      "id": "deepseek-coder-v2-16b",
+      "library_tag": "deepseek-coder-v2:16b",
+      "params_b": 15.71,
+      "quant": "Q4_0",
+      "sha256": "7d932d742f5e09b66cf017bb0e27bf5acf1d0a12d0e65bcc4561528020c4b56c",
+      "size": 8905109984,
+      "source_repo": "deepseek-ai/DeepSeek-Coder-V2-Lite-Instruct"
+     },
+     {
+      "endpoint_model": "pdcps-gpt-oss-20b",
+      "family_name": "gpt-oss",
+      "gguf_file": "gpt-oss-20b-MXFP4.gguf",
+      "gguf_repo": "ggml-org/gpt-oss-20b-GGUF",
+      "gguf_revision": "15dcfc7e7c608c6161507211ed43c5b590801b4b",
+      "horizon": "2025-08-04T22:33:29Z",
+      "horizon_source": "HF createdAt openai/gpt-oss-20b",
+      "id": "gpt-oss-20b",
+      "library_tag": "gpt-oss:20b",
+      "params": {
+       "max_tokens": {
+        "F1": 4096,
+        "F2": 4096
+       }
+      },
+      "params_b": 20.91,
+      "quant": "MXFP4",
+      "sha256": "27cd6c432c7672cb812a92f611cf3ba7bbc35928262bb1e1253ff4ee6ae35901",
+      "size": 12109566624,
+      "source_repo": "openai/gpt-oss-20b"
+     },
+     {
+      "endpoint_model": "pdcps-qwen2.5-coder-32b",
+      "family_name": "Qwen2.5-Coder",
+      "gguf_file": "qwen2.5-coder-32b-instruct-q4_k_m.gguf",
+      "gguf_repo": "Qwen/Qwen2.5-Coder-32B-Instruct-GGUF",
+      "gguf_revision": "9d3053fce650fe1cdbdb75998c2a87add9d178ef",
+      "horizon": "2024-11-06T07:49:50Z",
+      "horizon_source": "HF createdAt Qwen/Qwen2.5-Coder-32B-Instruct",
+      "id": "qwen2.5-coder-32b",
+      "library_tag": "qwen2.5-coder:32b",
+      "params_b": 32.76,
+      "quant": "Q4_K_M",
+      "sha256": "4d64b316b5e6319d9613e0d97935d9ebd631fc7e334da400d00085eca749d085",
+      "size": 19851335872,
+      "source_repo": "Qwen/Qwen2.5-Coder-32B-Instruct"
+     }
+    ],
+    "params": {
+     "max_tokens": {
+      "F1": 1536,
+      "F2": 1536
+     },
+     "top_p": 0.95
+    },
+    "resample": {
+     "concurrency": 1,
+     "n": 5,
+     "seeds_from": 1,
+     "temperature": 0.7
+    },
+    "run_id": "study-ollama-2027",
+    "samples": [
+     {
+      "idx": 0,
+      "seed": 20240628,
+      "temperature": 0.0
+     }
+    ],
+    "server": "ollama"
+   },
+   "corpus_sha256": "d113553800885a887a870abfdd43c5e596a1a368ba98727adf4970eb428eb6cc",
+   "finished_at": "2026-10-25T15:14:47Z",
+   "host": "host-12f82d2010",
+   "n_todo": {
+    "qwen2.5-coder-14b": 4
+   },
+   "pass": "generate",
+   "platform": "Windows-11-10.0.26300-SP0",
+   "python": "3.12.10",
+   "run_id": "study-ollama-2027",
+   "served": {
+    "qwen2.5-coder-14b": {
+     "capabilities": [
+      "completion",
+      "tools",
+      "insert"
+     ],
+     "details": {
+      "families": [
+       "qwen2"
+      ],
+      "family": "qwen2",
+      "format": "gguf",
+      "parameter_size": "14.8B",
+      "parent_model": "pdcps-qwen2.5-coder-14b:latest",
+      "quantization_level": "Q4_K_M",
+      "runner": "llamacpp"
+     },
+     "digest": "765f606abc078523f20fffc1d8d64c45e0c78e4e0b3690d331d14046ff6b5d46",
+     "modified_at": "2026-10-25T15:13:59Z",
+     "ollama_version": "0.40.11",
+     "parameters": null,
+     "size": 8988112071,
+     "system_sha256": "66b9ea09bd5b7099cbb4fc820f31b575c0366fa439b08245566692c6784e281e",
+     "template_sha256": "1e65450c30670713aa47fe23e8b9662bdf4065e81cc8e3cbfaa98924fcc0d320",
+     "weights_sha256": "c1e659736d89ac1065fb495330fb824d94001974a4bfa78e7270e43476a8d940"
+    }
+   },
+   "started_at": "2026-10-25T15:13:59Z"
+  },
+  {
+   "concurrency": 1,
+   "config": {
+    "_path": "config/run_study_ollama.yaml",
+    "endpoint": "http://127.0.0.1:11434",
+    "families": [
+     "F1",
+     "F2"
+    ],
+    "models": [
+     {
+      "endpoint_model": "pdcps-qwen2.5-coder-1.5b",
+      "family_name": "Qwen2.5-Coder",
+      "gguf_file": "qwen2.5-coder-1.5b-instruct-q4_k_m.gguf",
+      "gguf_repo": "Qwen/Qwen2.5-Coder-1.5B-Instruct-GGUF",
+      "gguf_revision": "f86cb2c1fa58255f8052cc32aeede1b7482d4361",
+      "horizon": "2024-09-18T09:41:47Z",
+      "horizon_source": "HF createdAt Qwen/Qwen2.5-Coder-1.5B-Instruct",
+      "id": "qwen2.5-coder-1.5b",
+      "library_tag": "qwen2.5-coder:1.5b",
+      "params_b": 1.54,
+      "quant": "Q4_K_M",
+      "sha256": "cc324af070c2ecbfd324a30884d2f951a7ff756aba85cb811a6ec436933bb046",
+      "size": 1117320768,
+      "source_repo": "Qwen/Qwen2.5-Coder-1.5B-Instruct"
+     },
+     {
+      "endpoint_model": "pdcps-llama3.2-3b",
+      "family_name": "Llama-3.2",
+      "gguf_file": "Llama-3.2-3B-Instruct-Q4_K_M.gguf",
+      "gguf_repo": "bartowski/Llama-3.2-3B-Instruct-GGUF",
+      "gguf_revision": "5ab33fa94d1d04e903623ae72c95d1696f09f9e8",
+      "horizon": "2024-09-18T15:19:20Z",
+      "horizon_source": "HF createdAt meta-llama/Llama-3.2-3B-Instruct",
+      "id": "llama3.2-3b",
+      "library_tag": "llama3.2:3b",
+      "params_b": 3.21,
+      "quant": "Q4_K_M",
+      "sha256": "6c1a2b41161032677be168d354123594c0e6e67d2b9227c84f296ad037c728ff",
+      "size": 2019377696,
+      "source_repo": "meta-llama/Llama-3.2-3B-Instruct"
+     },
+     {
+      "endpoint_model": "pdcps-qwen2.5-coder-7b",
+      "family_name": "Qwen2.5-Coder",
+      "gguf_file": "qwen2.5-coder-7b-instruct-q4_k_m.gguf",
+      "gguf_repo": "Qwen/Qwen2.5-Coder-7B-Instruct-GGUF",
+      "gguf_revision": "13fb94bfda8c8cf22497dc57b78f391a9acb426a",
+      "horizon": "2024-09-17T13:38:49Z",
+      "horizon_source": "HF createdAt Qwen/Qwen2.5-Coder-7B-Instruct",
+      "id": "qwen2.5-coder-7b",
+      "library_tag": "qwen2.5-coder:7b",
+      "params_b": 7.62,
+      "quant": "Q4_K_M",
+      "sha256": "509287f78cb4d4cf6b3843734733b914b2c158e43e22a7f4bf5e963800894d3c",
+      "size": 4683073536,
+      "source_repo": "Qwen/Qwen2.5-Coder-7B-Instruct"
+     },
+     {
+      "endpoint_model": "pdcps-deepseek-coder-6.7b",
+      "family_name": "DeepSeek-Coder",
+      "gguf_file": "deepseek-coder-6.7b-instruct.Q4_0.gguf",
+      "gguf_repo": "TheBloke/deepseek-coder-6.7B-instruct-GGUF",
+      "gguf_revision": "9e221e6b41cb1bf1c5d8f9718e81e3dc781f7557",
+      "horizon": "2023-10-29T11:01:36Z",
+      "horizon_source": "HF createdAt deepseek-ai/deepseek-coder-6.7b-instruct",
+      "id": "deepseek-coder-6.7b",
+      "library_tag": "deepseek-coder:6.7b",
+      "params_b": 6.74,
+      "quant": "Q4_0",
+      "sha256": "0c7cf89d9b2dc8671bfade603181aaa18b3dfd93e1b6a2c569a9807c65d4d438",
+      "size": 3827818720,
+      "source_repo": "deepseek-ai/deepseek-coder-6.7b-instruct"
+     },
+     {
+      "endpoint_model": "pdcps-llama3.1-8b",
+      "family_name": "Llama-3.1",
+      "gguf_file": "Meta-Llama-3.1-8B-Instruct-Q4_K_M.gguf",
+      "gguf_repo": "bartowski/Meta-Llama-3.1-8B-Instruct-GGUF",
+      "gguf_revision": "bf5b95e96dac0462e2a09145ec66cae9a3f12067",
+      "horizon": "2024-07-18T08:56:00Z",
+      "horizon_source": "HF createdAt meta-llama/Llama-3.1-8B-Instruct",
+      "id": "llama3.1-8b",
+      "library_tag": "llama3.1:8b",
+      "params_b": 8.03,
+      "quant": "Q4_K_M",
+      "sha256": "7b064f5842bf9532c91456deda288a1b672397a54fa729aa665952863033557c",
+      "size": 4920739232,
+      "source_repo": "meta-llama/Llama-3.1-8B-Instruct"
+     },
+     {
+      "endpoint_model": "pdcps-qwen3-8b",
+      "family_name": "Qwen3",
+      "gguf_file": "Qwen3-8B-Q4_K_M.gguf",
+      "gguf_repo": "Qwen/Qwen3-8B-GGUF",
+      "gguf_revision": "7c41481f57cb95916b40956ab2f0b139b296d974",
+      "horizon": "2025-04-27T03:42:21Z",
+      "horizon_source": "HF createdAt Qwen/Qwen3-8B",
+      "id": "qwen3-8b",
+      "library_tag": "qwen3:8b",
+      "params": {
+       "max_tokens": {
+        "F1": 4096,
+        "F2": 4096
+       }
+      },
+      "params_b": 8.19,
+      "quant": "Q4_K_M",
+      "sha256": "d98cdcbd03e17ce47681435b5150e34c1417f50b5c0019dd560e4882c5745785",
+      "size": 5027783488,
+      "source_repo": "Qwen/Qwen3-8B"
+     },
+     {
+      "endpoint_model": "pdcps-granite3.3-8b",
+      "family_name": "Granite-3.3",
+      "gguf_file": "granite-3.3-8b-instruct-Q4_K_M.gguf",
+      "gguf_repo": "ibm-granite/granite-3.3-8b-instruct-GGUF",
+      "gguf_revision": "e40e9dd739c7be00fa965c16ce167088190ce114",
+      "horizon": "2025-04-09T11:41:39Z",
+      "horizon_source": "HF createdAt ibm-granite/granite-3.3-8b-instruct",
+      "id": "granite3.3-8b",
+      "library_tag": "granite3.3:8b",
+      "params_b": 8.17,
+      "quant": "Q4_K_M",
+      "sha256": "77bcee066a76dcdd10d0d123c87e32c8ec2c74e31b6ffd87ebee49c9ac215dca",
+      "size": 4942873344,
+      "source_repo": "ibm-granite/granite-3.3-8b-instruct"
+     },
+     {
+      "endpoint_model": "pdcps-gemma3-12b",
+      "family_name": "Gemma-3",
+      "gguf_file": "gemma-3-12b-it-Q4_K_M.gguf",
+      "gguf_repo": "ggml-org/gemma-3-12b-it-GGUF",
+      "gguf_revision": "ec0cbabd8dbff316f659876a50202295c3c4a314",
+      "horizon": "2025-03-01T19:11:34Z",
+      "horizon_source": "HF createdAt google/gemma-3-12b-it",
+      "id": "gemma3-12b",
+      "library_tag": "gemma3:12b",
+      "params_b": 12.19,
+      "quant": "Q4_K_M",
+      "sha256": "7bb69bff3f48a7b642355d64a90e481182a7794707b3133890646b1efa778ff5",
+      "size": 7300574976,
+      "source_repo": "google/gemma-3-12b-it"
+     },
+     {
+      "endpoint_model": "pdcps-qwen2.5-coder-14b",
+      "family_name": "Qwen2.5-Coder",
+      "gguf_file": "qwen2.5-coder-14b-instruct-q4_k_m.gguf",
+      "gguf_repo": "Qwen/Qwen2.5-Coder-14B-Instruct-GGUF",
+      "gguf_revision": "d0a692ef765eefbf2fabb130b3cb2e8917e3d225",
+      "horizon": "2024-11-06T07:49:46Z",
+      "horizon_source": "HF createdAt Qwen/Qwen2.5-Coder-14B-Instruct",
+      "id": "qwen2.5-coder-14b",
+      "library_tag": "qwen2.5-coder:14b",
+      "params_b": 14.77,
+      "quant": "Q4_K_M",
+      "sha256": "c1e659736d89ac1065fb495330fb824d94001974a4bfa78e7270e43476a8d940",
+      "size": 8988110272,
+      "source_repo": "Qwen/Qwen2.5-Coder-14B-Instruct"
+     },
+     {
+      "endpoint_model": "pdcps-phi4-14b",
+      "family_name": "Phi-4",
+      "gguf_file": "phi-4-Q4_K.gguf",
+      "gguf_repo": "microsoft/phi-4-gguf",
+      "gguf_revision": "6edc2ef6664b739a8e11e62f2672ff6afe0c15ac",
+      "horizon": "2024-12-11T11:47:29Z",
+      "horizon_source": "HF createdAt microsoft/phi-4",
+      "id": "phi4-14b",
+      "library_tag": "phi4:14b",
+      "params_b": 14.66,
+      "quant": "Q4_K (Q4_K_M)",
+      "sha256": "5652b9be0ea4ae2842130d04fe31bc869fcb99a2b7106c53b4e754a343fd688f",
+      "size": 9053114560,
+      "source_repo": "microsoft/phi-4"
+     },
+     {
+      "endpoint_model": "pdcps-deepseek-coder-v2-16b",
+      "family_name": "DeepSeek-Coder-V2",
+      "gguf_file": "DeepSeek-Coder-V2-Lite-Instruct-Q4_0.gguf",
+      "gguf_repo": "second-state/DeepSeek-Coder-V2-Lite-Instruct-GGUF",
+      "gguf_revision": "c5d2f88d5ce17a690328cea5e01657c4f6d474ee",
+      "horizon": "2024-06-14T06:23:33Z",
+      "horizon_source": "HF createdAt deepseek-ai/DeepSeek-Coder-V2-Lite-Instruct",
+      "id": "deepseek-coder-v2-16b",
+      "library_tag": "deepseek-coder-v2:16b",
+      "params_b": 15.71,
+      "quant": "Q4_0",
+      "sha256": "7d932d742f5e09b66cf017bb0e27bf5acf1d0a12d0e65bcc4561528020c4b56c",
+      "size": 8905109984,
+      "source_repo": "deepseek-ai/DeepSeek-Coder-V2-Lite-Instruct"
+     },
+     {
+      "endpoint_model": "pdcps-gpt-oss-20b",
+      "family_name": "gpt-oss",
+      "gguf_file": "gpt-oss-20b-MXFP4.gguf",
+      "gguf_repo": "ggml-org/gpt-oss-20b-GGUF",
+      "gguf_revision": "15dcfc7e7c608c6161507211ed43c5b590801b4b",
+      "horizon": "2025-08-04T22:33:29Z",
+      "horizon_source": "HF createdAt openai/gpt-oss-20b",
+      "id": "gpt-oss-20b",
+      "library_tag": "gpt-oss:20b",
+      "params": {
+       "max_tokens": {
+        "F1": 4096,
+        "F2": 4096
+       }
+      },
+      "params_b": 20.91,
+      "quant": "MXFP4",
+      "sha256": "27cd6c432c7672cb812a92f611cf3ba7bbc35928262bb1e1253ff4ee6ae35901",
+      "size": 12109566624,
+      "source_repo": "openai/gpt-oss-20b"
+     },
+     {
+      "endpoint_model": "pdcps-qwen2.5-coder-32b",
+      "family_name": "Qwen2.5-Coder",
+      "gguf_file": "qwen2.5-coder-32b-instruct-q4_k_m.gguf",
+      "gguf_repo": "Qwen/Qwen2.5-Coder-32B-Instruct-GGUF",
+      "gguf_revision": "9d3053fce650fe1cdbdb75998c2a87add9d178ef",
+      "horizon": "2024-11-06T07:49:50Z",
+      "horizon_source": "HF createdAt Qwen/Qwen2.5-Coder-32B-Instruct",
+      "id": "qwen2.5-coder-32b",
+      "library_tag": "qwen2.5-coder:32b",
+      "params_b": 32.76,
+      "quant": "Q4_K_M",
+      "sha256": "4d64b316b5e6319d9613e0d97935d9ebd631fc7e334da400d00085eca749d085",
+      "size": 19851335872,
+      "source_repo": "Qwen/Qwen2.5-Coder-32B-Instruct"
+     }
+    ],
+    "params": {
+     "max_tokens": {
+      "F1": 1536,
+      "F2": 1536
+     },
+     "top_p": 0.95
+    },
+    "resample": {
+     "concurrency": 1,
+     "n": 5,
+     "seeds_from": 1,
+     "temperature": 0.7
+    },
+    "run_id": "study-ollama-2027",
+    "samples": [
+     {
+      "idx": 0,
+      "seed": 20240628,
+      "temperature": 0.0
+     }
+    ],
+    "server": "ollama"
+   },
+   "corpus_sha256": "d113553800885a887a870abfdd43c5e596a1a368ba98727adf4970eb428eb6cc",
+   "finished_at": "2026-10-25T15:15:58Z",
+   "host": "host-12f82d2010",
+   "n_todo": {
+    "phi4-14b": 4
+   },
+   "pass": "generate",
+   "platform": "Windows-11-10.0.26300-SP0",
+   "python": "3.12.10",
+   "run_id": "study-ollama-2027",
+   "served": {
+    "phi4-14b": {
+     "capabilities": [
+      "completion"
+     ],
+     "details": {
+      "families": [
+       "phi3"
+      ],
+      "family": "phi3",
+      "format": "gguf",
+      "parameter_size": "14.7B",
+      "parent_model": "pdcps-phi4-14b:latest",
+      "quantization_level": "Q4_K_M",
+      "runner": "llamacpp"
+     },
+     "digest": "328d7618fd920867a68797d5ca48ab475d5bcd1f5de3695bc0d7fd31524565cc",
+     "modified_at": "2026-10-25T15:14:47Z",
+     "ollama_version": "0.40.11",
+     "parameters": "stop                           \"<|im_start|>\"\nstop                           \"<|im_end|>\"\nstop                           \"<|im_sep|>\"",
+     "size": 9053115031,
+     "system_sha256": null,
+     "template_sha256": "32695b892af87ef8fca6e13a1a31c67c1441d7398be037e366e2fc763857c06a",
+     "weights_sha256": "5652b9be0ea4ae2842130d04fe31bc869fcb99a2b7106c53b4e754a343fd688f"
+    }
+   },
+   "started_at": "2026-10-25T15:14:47Z"
+  },
+  {
+   "concurrency": 1,
+   "config": {
+    "_path": "config/run_study_ollama.yaml",
+    "endpoint": "http://127.0.0.1:11434",
+    "families": [
+     "F1",
+     "F2"
+    ],
+    "models": [
+     {
+      "endpoint_model": "pdcps-qwen2.5-coder-1.5b",
+      "family_name": "Qwen2.5-Coder",
+      "gguf_file": "qwen2.5-coder-1.5b-instruct-q4_k_m.gguf",
+      "gguf_repo": "Qwen/Qwen2.5-Coder-1.5B-Instruct-GGUF",
+      "gguf_revision": "f86cb2c1fa58255f8052cc32aeede1b7482d4361",
+      "horizon": "2024-09-18T09:41:47Z",
+      "horizon_source": "HF createdAt Qwen/Qwen2.5-Coder-1.5B-Instruct",
+      "id": "qwen2.5-coder-1.5b",
+      "library_tag": "qwen2.5-coder:1.5b",
+      "params_b": 1.54,
+      "quant": "Q4_K_M",
+      "sha256": "cc324af070c2ecbfd324a30884d2f951a7ff756aba85cb811a6ec436933bb046",
+      "size": 1117320768,
+      "source_repo": "Qwen/Qwen2.5-Coder-1.5B-Instruct"
+     },
+     {
+      "endpoint_model": "pdcps-llama3.2-3b",
+      "family_name": "Llama-3.2",
+      "gguf_file": "Llama-3.2-3B-Instruct-Q4_K_M.gguf",
+      "gguf_repo": "bartowski/Llama-3.2-3B-Instruct-GGUF",
+      "gguf_revision": "5ab33fa94d1d04e903623ae72c95d1696f09f9e8",
+      "horizon": "2024-09-18T15:19:20Z",
+      "horizon_source": "HF createdAt meta-llama/Llama-3.2-3B-Instruct",
+      "id": "llama3.2-3b",
+      "library_tag": "llama3.2:3b",
+      "params_b": 3.21,
+      "quant": "Q4_K_M",
+      "sha256": "6c1a2b41161032677be168d354123594c0e6e67d2b9227c84f296ad037c728ff",
+      "size": 2019377696,
+      "source_repo": "meta-llama/Llama-3.2-3B-Instruct"
+     },
+     {
+      "endpoint_model": "pdcps-qwen2.5-coder-7b",
+      "family_name": "Qwen2.5-Coder",
+      "gguf_file": "qwen2.5-coder-7b-instruct-q4_k_m.gguf",
+      "gguf_repo": "Qwen/Qwen2.5-Coder-7B-Instruct-GGUF",
+      "gguf_revision": "13fb94bfda8c8cf22497dc57b78f391a9acb426a",
+      "horizon": "2024-09-17T13:38:49Z",
+      "horizon_source": "HF createdAt Qwen/Qwen2.5-Coder-7B-Instruct",
+      "id": "qwen2.5-coder-7b",
+      "library_tag": "qwen2.5-coder:7b",
+      "params_b": 7.62,
+      "quant": "Q4_K_M",
+      "sha256": "509287f78cb4d4cf6b3843734733b914b2c158e43e22a7f4bf5e963800894d3c",
+      "size": 4683073536,
+      "source_repo": "Qwen/Qwen2.5-Coder-7B-Instruct"
+     },
+     {
+      "endpoint_model": "pdcps-deepseek-coder-6.7b",
+      "family_name": "DeepSeek-Coder",
+      "gguf_file": "deepseek-coder-6.7b-instruct.Q4_0.gguf",
+      "gguf_repo": "TheBloke/deepseek-coder-6.7B-instruct-GGUF",
+      "gguf_revision": "9e221e6b41cb1bf1c5d8f9718e81e3dc781f7557",
+      "horizon": "2023-10-29T11:01:36Z",
+      "horizon_source": "HF createdAt deepseek-ai/deepseek-coder-6.7b-instruct",
+      "id": "deepseek-coder-6.7b",
+      "library_tag": "deepseek-coder:6.7b",
+      "params_b": 6.74,
+      "quant": "Q4_0",
+      "sha256": "0c7cf89d9b2dc8671bfade603181aaa18b3dfd93e1b6a2c569a9807c65d4d438",
+      "size": 3827818720,
+      "source_repo": "deepseek-ai/deepseek-coder-6.7b-instruct"
+     },
+     {
+      "endpoint_model": "pdcps-llama3.1-8b",
+      "family_name": "Llama-3.1",
+      "gguf_file": "Meta-Llama-3.1-8B-Instruct-Q4_K_M.gguf",
+      "gguf_repo": "bartowski/Meta-Llama-3.1-8B-Instruct-GGUF",
+      "gguf_revision": "bf5b95e96dac0462e2a09145ec66cae9a3f12067",
+      "horizon": "2024-07-18T08:56:00Z",
+      "horizon_source": "HF createdAt meta-llama/Llama-3.1-8B-Instruct",
+      "id": "llama3.1-8b",
+      "library_tag": "llama3.1:8b",
+      "params_b": 8.03,
+      "quant": "Q4_K_M",
+      "sha256": "7b064f5842bf9532c91456deda288a1b672397a54fa729aa665952863033557c",
+      "size": 4920739232,
+      "source_repo": "meta-llama/Llama-3.1-8B-Instruct"
+     },
+     {
+      "endpoint_model": "pdcps-qwen3-8b",
+      "family_name": "Qwen3",
+      "gguf_file": "Qwen3-8B-Q4_K_M.gguf",
+      "gguf_repo": "Qwen/Qwen3-8B-GGUF",
+      "gguf_revision": "7c41481f57cb95916b40956ab2f0b139b296d974",
+      "horizon": "2025-04-27T03:42:21Z",
+      "horizon_source": "HF createdAt Qwen/Qwen3-8B",
+      "id": "qwen3-8b",
+      "library_tag": "qwen3:8b",
+      "params": {
+       "max_tokens": {
+        "F1": 4096,
+        "F2": 4096
+       }
+      },
+      "params_b": 8.19,
+      "quant": "Q4_K_M",
+      "sha256": "d98cdcbd03e17ce47681435b5150e34c1417f50b5c0019dd560e4882c5745785",
+      "size": 5027783488,
+      "source_repo": "Qwen/Qwen3-8B"
+     },
+     {
+      "endpoint_model": "pdcps-granite3.3-8b",
+      "family_name": "Granite-3.3",
+      "gguf_file": "granite-3.3-8b-instruct-Q4_K_M.gguf",
+      "gguf_repo": "ibm-granite/granite-3.3-8b-instruct-GGUF",
+      "gguf_revision": "e40e9dd739c7be00fa965c16ce167088190ce114",
+      "horizon": "2025-04-09T11:41:39Z",
+      "horizon_source": "HF createdAt ibm-granite/granite-3.3-8b-instruct",
+      "id": "granite3.3-8b",
+      "library_tag": "granite3.3:8b",
+      "params_b": 8.17,
+      "quant": "Q4_K_M",
+      "sha256": "77bcee066a76dcdd10d0d123c87e32c8ec2c74e31b6ffd87ebee49c9ac215dca",
+      "size": 4942873344,
+      "source_repo": "ibm-granite/granite-3.3-8b-instruct"
+     },
+     {
+      "endpoint_model": "pdcps-gemma3-12b",
+      "family_name": "Gemma-3",
+      "gguf_file": "gemma-3-12b-it-Q4_K_M.gguf",
+      "gguf_repo": "ggml-org/gemma-3-12b-it-GGUF",
+      "gguf_revision": "ec0cbabd8dbff316f659876a50202295c3c4a314",
+      "horizon": "2025-03-01T19:11:34Z",
+      "horizon_source": "HF createdAt google/gemma-3-12b-it",
+      "id": "gemma3-12b",
+      "library_tag": "gemma3:12b",
+      "params_b": 12.19,
+      "quant": "Q4_K_M",
+      "sha256": "7bb69bff3f48a7b642355d64a90e481182a7794707b3133890646b1efa778ff5",
+      "size": 7300574976,
+      "source_repo": "google/gemma-3-12b-it"
+     },
+     {
+      "endpoint_model": "pdcps-qwen2.5-coder-14b",
+      "family_name": "Qwen2.5-Coder",
+      "gguf_file": "qwen2.5-coder-14b-instruct-q4_k_m.gguf",
+      "gguf_repo": "Qwen/Qwen2.5-Coder-14B-Instruct-GGUF",
+      "gguf_revision": "d0a692ef765eefbf2fabb130b3cb2e8917e3d225",
+      "horizon": "2024-11-06T07:49:46Z",
+      "horizon_source": "HF createdAt Qwen/Qwen2.5-Coder-14B-Instruct",
+      "id": "qwen2.5-coder-14b",
+      "library_tag": "qwen2.5-coder:14b",
+      "params_b": 14.77,
+      "quant": "Q4_K_M",
+      "sha256": "c1e659736d89ac1065fb495330fb824d94001974a4bfa78e7270e43476a8d940",
+      "size": 8988110272,
+      "source_repo": "Qwen/Qwen2.5-Coder-14B-Instruct"
+     },
+     {
+      "endpoint_model": "pdcps-phi4-14b",
+      "family_name": "Phi-4",
+      "gguf_file": "phi-4-Q4_K.gguf",
+      "gguf_repo": "microsoft/phi-4-gguf",
+      "gguf_revision": "6edc2ef6664b739a8e11e62f2672ff6afe0c15ac",
+      "horizon": "2024-12-11T11:47:29Z",
+      "horizon_source": "HF createdAt microsoft/phi-4",
+      "id": "phi4-14b",
+      "library_tag": "phi4:14b",
+      "params_b": 14.66,
+      "quant": "Q4_K (Q4_K_M)",
+      "sha256": "5652b9be0ea4ae2842130d04fe31bc869fcb99a2b7106c53b4e754a343fd688f",
+      "size": 9053114560,
+      "source_repo": "microsoft/phi-4"
+     },
+     {
+      "endpoint_model": "pdcps-deepseek-coder-v2-16b",
+      "family_name": "DeepSeek-Coder-V2",
+      "gguf_file": "DeepSeek-Coder-V2-Lite-Instruct-Q4_0.gguf",
+      "gguf_repo": "second-state/DeepSeek-Coder-V2-Lite-Instruct-GGUF",
+      "gguf_revision": "c5d2f88d5ce17a690328cea5e01657c4f6d474ee",
+      "horizon": "2024-06-14T06:23:33Z",
+      "horizon_source": "HF createdAt deepseek-ai/DeepSeek-Coder-V2-Lite-Instruct",
+      "id": "deepseek-coder-v2-16b",
+      "library_tag": "deepseek-coder-v2:16b",
+      "params_b": 15.71,
+      "quant": "Q4_0",
+      "sha256": "7d932d742f5e09b66cf017bb0e27bf5acf1d0a12d0e65bcc4561528020c4b56c",
+      "size": 8905109984,
+      "source_repo": "deepseek-ai/DeepSeek-Coder-V2-Lite-Instruct"
+     },
+     {
+      "endpoint_model": "pdcps-gpt-oss-20b",
+      "family_name": "gpt-oss",
+      "gguf_file": "gpt-oss-20b-MXFP4.gguf",
+      "gguf_repo": "ggml-org/gpt-oss-20b-GGUF",
+      "gguf_revision": "15dcfc7e7c608c6161507211ed43c5b590801b4b",
+      "horizon": "2025-08-04T22:33:29Z",
+      "horizon_source": "HF createdAt openai/gpt-oss-20b",
+      "id": "gpt-oss-20b",
+      "library_tag": "gpt-oss:20b",
+      "params": {
+       "max_tokens": {
+        "F1": 4096,
+        "F2": 4096
+       }
+      },
+      "params_b": 20.91,
+      "quant": "MXFP4",
+      "sha256": "27cd6c432c7672cb812a92f611cf3ba7bbc35928262bb1e1253ff4ee6ae35901",
+      "size": 12109566624,
+      "source_repo": "openai/gpt-oss-20b"
+     },
+     {
+      "endpoint_model": "pdcps-qwen2.5-coder-32b",
+      "family_name": "Qwen2.5-Coder",
+      "gguf_file": "qwen2.5-coder-32b-instruct-q4_k_m.gguf",
+      "gguf_repo": "Qwen/Qwen2.5-Coder-32B-Instruct-GGUF",
+      "gguf_revision": "9d3053fce650fe1cdbdb75998c2a87add9d178ef",
+      "horizon": "2024-11-06T07:49:50Z",
+      "horizon_source": "HF createdAt Qwen/Qwen2.5-Coder-32B-Instruct",
+      "id": "qwen2.5-coder-32b",
+      "library_tag": "qwen2.5-coder:32b",
+      "params_b": 32.76,
+      "quant": "Q4_K_M",
+      "sha256": "4d64b316b5e6319d9613e0d97935d9ebd631fc7e334da400d00085eca749d085",
+      "size": 19851335872,
+      "source_repo": "Qwen/Qwen2.5-Coder-32B-Instruct"
+     }
+    ],
+    "params": {
+     "max_tokens": {
+      "F1": 1536,
+      "F2": 1536
+     },
+     "top_p": 0.95
+    },
+    "resample": {
+     "concurrency": 1,
+     "n": 5,
+     "seeds_from": 1,
+     "temperature": 0.7
+    },
+    "run_id": "study-ollama-2027",
+    "samples": [
+     {
+      "idx": 0,
+      "seed": 20240628,
+      "temperature": 0.0
+     }
+    ],
+    "server": "ollama"
+   },
+   "corpus_sha256": "d113553800885a887a870abfdd43c5e596a1a368ba98727adf4970eb428eb6cc",
+   "finished_at": "2026-10-25T15:16:44Z",
+   "host": "host-12f82d2010",
+   "n_todo": {
+    "deepseek-coder-v2-16b": 4
+   },
+   "pass": "generate",
+   "platform": "Windows-11-10.0.26300-SP0",
+   "python": "3.12.10",
+   "run_id": "study-ollama-2027",
+   "served": {
+    "deepseek-coder-v2-16b": {
+     "capabilities": [
+      "completion",
+      "insert"
+     ],
+     "details": {
+      "families": [
+       "deepseek2"
+      ],
+      "family": "deepseek2",
+      "format": "gguf",
+      "parameter_size": "15.7B",
+      "parent_model": "pdcps-deepseek-coder-v2-16b:latest",
+      "quantization_level": "Q4_0",
+      "runner": "llamacpp"
+     },
+     "digest": "8f58399d152dec66e49e6363e1ed135cb4c5bf351366cf0ac348a15e1b67f3e7",
+     "modified_at": "2026-10-25T15:15:58Z",
+     "ollama_version": "0.40.11",
+     "parameters": "stop                           \"User:\"\nstop                           \"Assistant:\"",
+     "size": 8905110843,
+     "system_sha256": null,
+     "template_sha256": "22091531faf0148fb166466743e30b7012ea7a6d13a9af7e3995ccfec3ed4914",
+     "weights_sha256": "7d932d742f5e09b66cf017bb0e27bf5acf1d0a12d0e65bcc4561528020c4b56c"
+    }
+   },
+   "started_at": "2026-10-25T15:15:58Z"
+  },
+  {
+   "concurrency": 1,
+   "config": {
+    "_path": "config/run_study_ollama.yaml",
+    "endpoint": "http://127.0.0.1:11434",
+    "families": [
+     "F1",
+     "F2"
+    ],
+    "models": [
+     {
+      "endpoint_model": "pdcps-qwen2.5-coder-1.5b",
+      "family_name": "Qwen2.5-Coder",
+      "gguf_file": "qwen2.5-coder-1.5b-instruct-q4_k_m.gguf",
+      "gguf_repo": "Qwen/Qwen2.5-Coder-1.5B-Instruct-GGUF",
+      "gguf_revision": "f86cb2c1fa58255f8052cc32aeede1b7482d4361",
+      "horizon": "2024-09-18T09:41:47Z",
+      "horizon_source": "HF createdAt Qwen/Qwen2.5-Coder-1.5B-Instruct",
+      "id": "qwen2.5-coder-1.5b",
+      "library_tag": "qwen2.5-coder:1.5b",
+      "params_b": 1.54,
+      "quant": "Q4_K_M",
+      "sha256": "cc324af070c2ecbfd324a30884d2f951a7ff756aba85cb811a6ec436933bb046",
+      "size": 1117320768,
+      "source_repo": "Qwen/Qwen2.5-Coder-1.5B-Instruct"
+     },
+     {
+      "endpoint_model": "pdcps-llama3.2-3b",
+      "family_name": "Llama-3.2",
+      "gguf_file": "Llama-3.2-3B-Instruct-Q4_K_M.gguf",
+      "gguf_repo": "bartowski/Llama-3.2-3B-Instruct-GGUF",
+      "gguf_revision": "5ab33fa94d1d04e903623ae72c95d1696f09f9e8",
+      "horizon": "2024-09-18T15:19:20Z",
+      "horizon_source": "HF createdAt meta-llama/Llama-3.2-3B-Instruct",
+      "id": "llama3.2-3b",
+      "library_tag": "llama3.2:3b",
+      "params_b": 3.21,
+      "quant": "Q4_K_M",
+      "sha256": "6c1a2b41161032677be168d354123594c0e6e67d2b9227c84f296ad037c728ff",
+      "size": 2019377696,
+      "source_repo": "meta-llama/Llama-3.2-3B-Instruct"
+     },
+     {
+      "endpoint_model": "pdcps-qwen2.5-coder-7b",
+      "family_name": "Qwen2.5-Coder",
+      "gguf_file": "qwen2.5-coder-7b-instruct-q4_k_m.gguf",
+      "gguf_repo": "Qwen/Qwen2.5-Coder-7B-Instruct-GGUF",
+      "gguf_revision": "13fb94bfda8c8cf22497dc57b78f391a9acb426a",
+      "horizon": "2024-09-17T13:38:49Z",
+      "horizon_source": "HF createdAt Qwen/Qwen2.5-Coder-7B-Instruct",
+      "id": "qwen2.5-coder-7b",
+      "library_tag": "qwen2.5-coder:7b",
+      "params_b": 7.62,
+      "quant": "Q4_K_M",
+      "sha256": "509287f78cb4d4cf6b3843734733b914b2c158e43e22a7f4bf5e963800894d3c",
+      "size": 4683073536,
+      "source_repo": "Qwen/Qwen2.5-Coder-7B-Instruct"
+     },
+     {
+      "endpoint_model": "pdcps-deepseek-coder-6.7b",
+      "family_name": "DeepSeek-Coder",
+      "gguf_file": "deepseek-coder-6.7b-instruct.Q4_0.gguf",
+      "gguf_repo": "TheBloke/deepseek-coder-6.7B-instruct-GGUF",
+      "gguf_revision": "9e221e6b41cb1bf1c5d8f9718e81e3dc781f7557",
+      "horizon": "2023-10-29T11:01:36Z",
+      "horizon_source": "HF createdAt deepseek-ai/deepseek-coder-6.7b-instruct",
+      "id": "deepseek-coder-6.7b",
+      "library_tag": "deepseek-coder:6.7b",
+      "params_b": 6.74,
+      "quant": "Q4_0",
+      "sha256": "0c7cf89d9b2dc8671bfade603181aaa18b3dfd93e1b6a2c569a9807c65d4d438",
+      "size": 3827818720,
+      "source_repo": "deepseek-ai/deepseek-coder-6.7b-instruct"
+     },
+     {
+      "endpoint_model": "pdcps-llama3.1-8b",
+      "family_name": "Llama-3.1",
+      "gguf_file": "Meta-Llama-3.1-8B-Instruct-Q4_K_M.gguf",
+      "gguf_repo": "bartowski/Meta-Llama-3.1-8B-Instruct-GGUF",
+      "gguf_revision": "bf5b95e96dac0462e2a09145ec66cae9a3f12067",
+      "horizon": "2024-07-18T08:56:00Z",
+      "horizon_source": "HF createdAt meta-llama/Llama-3.1-8B-Instruct",
+      "id": "llama3.1-8b",
+      "library_tag": "llama3.1:8b",
+      "params_b": 8.03,
+      "quant": "Q4_K_M",
+      "sha256": "7b064f5842bf9532c91456deda288a1b672397a54fa729aa665952863033557c",
+      "size": 4920739232,
+      "source_repo": "meta-llama/Llama-3.1-8B-Instruct"
+     },
+     {
+      "endpoint_model": "pdcps-qwen3-8b",
+      "family_name": "Qwen3",
+      "gguf_file": "Qwen3-8B-Q4_K_M.gguf",
+      "gguf_repo": "Qwen/Qwen3-8B-GGUF",
+      "gguf_revision": "7c41481f57cb95916b40956ab2f0b139b296d974",
+      "horizon": "2025-04-27T03:42:21Z",
+      "horizon_source": "HF createdAt Qwen/Qwen3-8B",
+      "id": "qwen3-8b",
+      "library_tag": "qwen3:8b",
+      "params": {
+       "max_tokens": {
+        "F1": 4096,
+        "F2": 4096
+       }
+      },
+      "params_b": 8.19,
+      "quant": "Q4_K_M",
+      "sha256": "d98cdcbd03e17ce47681435b5150e34c1417f50b5c0019dd560e4882c5745785",
+      "size": 5027783488,
+      "source_repo": "Qwen/Qwen3-8B"
+     },
+     {
+      "endpoint_model": "pdcps-granite3.3-8b",
+      "family_name": "Granite-3.3",
+      "gguf_file": "granite-3.3-8b-instruct-Q4_K_M.gguf",
+      "gguf_repo": "ibm-granite/granite-3.3-8b-instruct-GGUF",
+      "gguf_revision": "e40e9dd739c7be00fa965c16ce167088190ce114",
+      "horizon": "2025-04-09T11:41:39Z",
+      "horizon_source": "HF createdAt ibm-granite/granite-3.3-8b-instruct",
+      "id": "granite3.3-8b",
+      "library_tag": "granite3.3:8b",
+      "params_b": 8.17,
+      "quant": "Q4_K_M",
+      "sha256": "77bcee066a76dcdd10d0d123c87e32c8ec2c74e31b6ffd87ebee49c9ac215dca",
+      "size": 4942873344,
+      "source_repo": "ibm-granite/granite-3.3-8b-instruct"
+     },
+     {
+      "endpoint_model": "pdcps-gemma3-12b",
+      "family_name": "Gemma-3",
+      "gguf_file": "gemma-3-12b-it-Q4_K_M.gguf",
+      "gguf_repo": "ggml-org/gemma-3-12b-it-GGUF",
+      "gguf_revision": "ec0cbabd8dbff316f659876a50202295c3c4a314",
+      "horizon": "2025-03-01T19:11:34Z",
+      "horizon_source": "HF createdAt google/gemma-3-12b-it",
+      "id": "gemma3-12b",
+      "library_tag": "gemma3:12b",
+      "params_b": 12.19,
+      "quant": "Q4_K_M",
+      "sha256": "7bb69bff3f48a7b642355d64a90e481182a7794707b3133890646b1efa778ff5",
+      "size": 7300574976,
+      "source_repo": "google/gemma-3-12b-it"
+     },
+     {
+      "endpoint_model": "pdcps-qwen2.5-coder-14b",
+      "family_name": "Qwen2.5-Coder",
+      "gguf_file": "qwen2.5-coder-14b-instruct-q4_k_m.gguf",
+      "gguf_repo": "Qwen/Qwen2.5-Coder-14B-Instruct-GGUF",
+      "gguf_revision": "d0a692ef765eefbf2fabb130b3cb2e8917e3d225",
+      "horizon": "2024-11-06T07:49:46Z",
+      "horizon_source": "HF createdAt Qwen/Qwen2.5-Coder-14B-Instruct",
+      "id": "qwen2.5-coder-14b",
+      "library_tag": "qwen2.5-coder:14b",
+      "params_b": 14.77,
+      "quant": "Q4_K_M",
+      "sha256": "c1e659736d89ac1065fb495330fb824d94001974a4bfa78e7270e43476a8d940",
+      "size": 8988110272,
+      "source_repo": "Qwen/Qwen2.5-Coder-14B-Instruct"
+     },
+     {
+      "endpoint_model": "pdcps-phi4-14b",
+      "family_name": "Phi-4",
+      "gguf_file": "phi-4-Q4_K.gguf",
+      "gguf_repo": "microsoft/phi-4-gguf",
+      "gguf_revision": "6edc2ef6664b739a8e11e62f2672ff6afe0c15ac",
+      "horizon": "2024-12-11T11:47:29Z",
+      "horizon_source": "HF createdAt microsoft/phi-4",
+      "id": "phi4-14b",
+      "library_tag": "phi4:14b",
+      "params_b": 14.66,
+      "quant": "Q4_K (Q4_K_M)",
+      "sha256": "5652b9be0ea4ae2842130d04fe31bc869fcb99a2b7106c53b4e754a343fd688f",
+      "size": 9053114560,
+      "source_repo": "microsoft/phi-4"
+     },
+     {
+      "endpoint_model": "pdcps-deepseek-coder-v2-16b",
+      "family_name": "DeepSeek-Coder-V2",
+      "gguf_file": "DeepSeek-Coder-V2-Lite-Instruct-Q4_0.gguf",
+      "gguf_repo": "second-state/DeepSeek-Coder-V2-Lite-Instruct-GGUF",
+      "gguf_revision": "c5d2f88d5ce17a690328cea5e01657c4f6d474ee",
+      "horizon": "2024-06-14T06:23:33Z",
+      "horizon_source": "HF createdAt deepseek-ai/DeepSeek-Coder-V2-Lite-Instruct",
+      "id": "deepseek-coder-v2-16b",
+      "library_tag": "deepseek-coder-v2:16b",
+      "params_b": 15.71,
+      "quant": "Q4_0",
+      "sha256": "7d932d742f5e09b66cf017bb0e27bf5acf1d0a12d0e65bcc4561528020c4b56c",
+      "size": 8905109984,
+      "source_repo": "deepseek-ai/DeepSeek-Coder-V2-Lite-Instruct"
+     },
+     {
+      "endpoint_model": "pdcps-gpt-oss-20b",
+      "family_name": "gpt-oss",
+      "gguf_file": "gpt-oss-20b-MXFP4.gguf",
+      "gguf_repo": "ggml-org/gpt-oss-20b-GGUF",
+      "gguf_revision": "15dcfc7e7c608c6161507211ed43c5b590801b4b",
+      "horizon": "2025-08-04T22:33:29Z",
+      "horizon_source": "HF createdAt openai/gpt-oss-20b",
+      "id": "gpt-oss-20b",
+      "library_tag": "gpt-oss:20b",
+      "params": {
+       "max_tokens": {
+        "F1": 4096,
+        "F2": 4096
+       }
+      },
+      "params_b": 20.91,
+      "quant": "MXFP4",
+      "sha256": "27cd6c432c7672cb812a92f611cf3ba7bbc35928262bb1e1253ff4ee6ae35901",
+      "size": 12109566624,
+      "source_repo": "openai/gpt-oss-20b"
+     },
+     {
+      "endpoint_model": "pdcps-qwen2.5-coder-32b",
+      "family_name": "Qwen2.5-Coder",
+      "gguf_file": "qwen2.5-coder-32b-instruct-q4_k_m.gguf",
+      "gguf_repo": "Qwen/Qwen2.5-Coder-32B-Instruct-GGUF",
+      "gguf_revision": "9d3053fce650fe1cdbdb75998c2a87add9d178ef",
+      "horizon": "2024-11-06T07:49:50Z",
+      "horizon_source": "HF createdAt Qwen/Qwen2.5-Coder-32B-Instruct",
+      "id": "qwen2.5-coder-32b",
+      "library_tag": "qwen2.5-coder:32b",
+      "params_b": 32.76,
+      "quant": "Q4_K_M",
+      "sha256": "4d64b316b5e6319d9613e0d97935d9ebd631fc7e334da400d00085eca749d085",
+      "size": 19851335872,
+      "source_repo": "Qwen/Qwen2.5-Coder-32B-Instruct"
+     }
+    ],
+    "params": {
+     "max_tokens": {
+      "F1": 1536,
+      "F2": 1536
+     },
+     "top_p": 0.95
+    },
+    "resample": {
+     "concurrency": 1,
+     "n": 5,
+     "seeds_from": 1,
+     "temperature": 0.7
+    },
+    "run_id": "study-ollama-2027",
+    "samples": [
+     {
+      "idx": 0,
+      "seed": 20240628,
+      "temperature": 0.0
+     }
+    ],
+    "server": "ollama"
+   },
+   "corpus_sha256": "d113553800885a887a870abfdd43c5e596a1a368ba98727adf4970eb428eb6cc",
+   "finished_at": "2026-10-25T15:19:04Z",
+   "host": "host-12f82d2010",
+   "n_todo": {
+    "gpt-oss-20b": 4
+   },
+   "pass": "generate",
+   "platform": "Windows-11-10.0.26300-SP0",
+   "python": "3.12.10",
+   "run_id": "study-ollama-2027",
+   "served": {
+    "gpt-oss-20b": {
+     "capabilities": [
+      "completion",
+      "tools",
+      "thinking"
+     ],
+     "details": {
+      "families": [
+       "gpt-oss"
+      ],
+      "family": "gpt-oss",
+      "format": "gguf",
+      "parameter_size": "20.9B",
+      "parent_model": "pdcps-gpt-oss-20b:latest",
+      "quantization_level": "MXFP4_MOE",
+      "runner": "llamacpp"
+     },
+     "digest": "131e1bdccf9f3fdd832b729ca7791cd1bc7b5f870647baa28c78424904b20eea",
+     "modified_at": "2026-10-25T15:16:44Z",
+     "ollama_version": "0.40.11",
+     "parameters": "temperature                    1",
+     "size": 12109574005,
+     "system_sha256": null,
+     "template_sha256": "fa6710a93d78da62641e192361344be7a8c0a1c3737f139cf89f20ce1626b99c",
+     "weights_sha256": "27cd6c432c7672cb812a92f611cf3ba7bbc35928262bb1e1253ff4ee6ae35901"
+    }
+   },
+   "started_at": "2026-10-25T15:16:44Z"
+  },
+  {
+   "concurrency": 1,
+   "config": {
+    "_path": "config/run_study_ollama.yaml",
+    "endpoint": "http://127.0.0.1:11434",
+    "families": [
+     "F1",
+     "F2"
+    ],
+    "models": [
+     {
+      "endpoint_model": "pdcps-qwen2.5-coder-1.5b",
+      "family_name": "Qwen2.5-Coder",
+      "gguf_file": "qwen2.5-coder-1.5b-instruct-q4_k_m.gguf",
+      "gguf_repo": "Qwen/Qwen2.5-Coder-1.5B-Instruct-GGUF",
+      "gguf_revision": "f86cb2c1fa58255f8052cc32aeede1b7482d4361",
+      "horizon": "2024-09-18T09:41:47Z",
+      "horizon_source": "HF createdAt Qwen/Qwen2.5-Coder-1.5B-Instruct",
+      "id": "qwen2.5-coder-1.5b",
+      "library_tag": "qwen2.5-coder:1.5b",
+      "params_b": 1.54,
+      "quant": "Q4_K_M",
+      "sha256": "cc324af070c2ecbfd324a30884d2f951a7ff756aba85cb811a6ec436933bb046",
+      "size": 1117320768,
+      "source_repo": "Qwen/Qwen2.5-Coder-1.5B-Instruct"
+     },
+     {
+      "endpoint_model": "pdcps-llama3.2-3b",
+      "family_name": "Llama-3.2",
+      "gguf_file": "Llama-3.2-3B-Instruct-Q4_K_M.gguf",
+      "gguf_repo": "bartowski/Llama-3.2-3B-Instruct-GGUF",
+      "gguf_revision": "5ab33fa94d1d04e903623ae72c95d1696f09f9e8",
+      "horizon": "2024-09-18T15:19:20Z",
+      "horizon_source": "HF createdAt meta-llama/Llama-3.2-3B-Instruct",
+      "id": "llama3.2-3b",
+      "library_tag": "llama3.2:3b",
+      "params_b": 3.21,
+      "quant": "Q4_K_M",
+      "sha256": "6c1a2b41161032677be168d354123594c0e6e67d2b9227c84f296ad037c728ff",
+      "size": 2019377696,
+      "source_repo": "meta-llama/Llama-3.2-3B-Instruct"
+     },
+     {
+      "endpoint_model": "pdcps-qwen2.5-coder-7b",
+      "family_name": "Qwen2.5-Coder",
+      "gguf_file": "qwen2.5-coder-7b-instruct-q4_k_m.gguf",
+      "gguf_repo": "Qwen/Qwen2.5-Coder-7B-Instruct-GGUF",
+      "gguf_revision": "13fb94bfda8c8cf22497dc57b78f391a9acb426a",
+      "horizon": "2024-09-17T13:38:49Z",
+      "horizon_source": "HF createdAt Qwen/Qwen2.5-Coder-7B-Instruct",
+      "id": "qwen2.5-coder-7b",
+      "library_tag": "qwen2.5-coder:7b",
+      "params_b": 7.62,
+      "quant": "Q4_K_M",
+      "sha256": "509287f78cb4d4cf6b3843734733b914b2c158e43e22a7f4bf5e963800894d3c",
+      "size": 4683073536,
+      "source_repo": "Qwen/Qwen2.5-Coder-7B-Instruct"
+     },
+     {
+      "endpoint_model": "pdcps-deepseek-coder-6.7b",
+      "family_name": "DeepSeek-Coder",
+      "gguf_file": "deepseek-coder-6.7b-instruct.Q4_0.gguf",
+      "gguf_repo": "TheBloke/deepseek-coder-6.7B-instruct-GGUF",
+      "gguf_revision": "9e221e6b41cb1bf1c5d8f9718e81e3dc781f7557",
+      "horizon": "2023-10-29T11:01:36Z",
+      "horizon_source": "HF createdAt deepseek-ai/deepseek-coder-6.7b-instruct",
+      "id": "deepseek-coder-6.7b",
+      "library_tag": "deepseek-coder:6.7b",
+      "params_b": 6.74,
+      "quant": "Q4_0",
+      "sha256": "0c7cf89d9b2dc8671bfade603181aaa18b3dfd93e1b6a2c569a9807c65d4d438",
+      "size": 3827818720,
+      "source_repo": "deepseek-ai/deepseek-coder-6.7b-instruct"
+     },
+     {
+      "endpoint_model": "pdcps-llama3.1-8b",
+      "family_name": "Llama-3.1",
+      "gguf_file": "Meta-Llama-3.1-8B-Instruct-Q4_K_M.gguf",
+      "gguf_repo": "bartowski/Meta-Llama-3.1-8B-Instruct-GGUF",
+      "gguf_revision": "bf5b95e96dac0462e2a09145ec66cae9a3f12067",
+      "horizon": "2024-07-18T08:56:00Z",
+      "horizon_source": "HF createdAt meta-llama/Llama-3.1-8B-Instruct",
+      "id": "llama3.1-8b",
+      "library_tag": "llama3.1:8b",
+      "params_b": 8.03,
+      "quant": "Q4_K_M",
+      "sha256": "7b064f5842bf9532c91456deda288a1b672397a54fa729aa665952863033557c",
+      "size": 4920739232,
+      "source_repo": "meta-llama/Llama-3.1-8B-Instruct"
+     },
+     {
+      "endpoint_model": "pdcps-qwen3-8b",
+      "family_name": "Qwen3",
+      "gguf_file": "Qwen3-8B-Q4_K_M.gguf",
+      "gguf_repo": "Qwen/Qwen3-8B-GGUF",
+      "gguf_revision": "7c41481f57cb95916b40956ab2f0b139b296d974",
+      "horizon": "2025-04-27T03:42:21Z",
+      "horizon_source": "HF createdAt Qwen/Qwen3-8B",
+      "id": "qwen3-8b",
+      "library_tag": "qwen3:8b",
+      "params": {
+       "max_tokens": {
+        "F1": 4096,
+        "F2": 4096
+       }
+      },
+      "params_b": 8.19,
+      "quant": "Q4_K_M",
+      "sha256": "d98cdcbd03e17ce47681435b5150e34c1417f50b5c0019dd560e4882c5745785",
+      "size": 5027783488,
+      "source_repo": "Qwen/Qwen3-8B"
+     },
+     {
+      "endpoint_model": "pdcps-granite3.3-8b",
+      "family_name": "Granite-3.3",
+      "gguf_file": "granite-3.3-8b-instruct-Q4_K_M.gguf",
+      "gguf_repo": "ibm-granite/granite-3.3-8b-instruct-GGUF",
+      "gguf_revision": "e40e9dd739c7be00fa965c16ce167088190ce114",
+      "horizon": "2025-04-09T11:41:39Z",
+      "horizon_source": "HF createdAt ibm-granite/granite-3.3-8b-instruct",
+      "id": "granite3.3-8b",
+      "library_tag": "granite3.3:8b",
+      "params_b": 8.17,
+      "quant": "Q4_K_M",
+      "sha256": "77bcee066a76dcdd10d0d123c87e32c8ec2c74e31b6ffd87ebee49c9ac215dca",
+      "size": 4942873344,
+      "source_repo": "ibm-granite/granite-3.3-8b-instruct"
+     },
+     {
+      "endpoint_model": "pdcps-gemma3-12b",
+      "family_name": "Gemma-3",
+      "gguf_file": "gemma-3-12b-it-Q4_K_M.gguf",
+      "gguf_repo": "ggml-org/gemma-3-12b-it-GGUF",
+      "gguf_revision": "ec0cbabd8dbff316f659876a50202295c3c4a314",
+      "horizon": "2025-03-01T19:11:34Z",
+      "horizon_source": "HF createdAt google/gemma-3-12b-it",
+      "id": "gemma3-12b",
+      "library_tag": "gemma3:12b",
+      "params_b": 12.19,
+      "quant": "Q4_K_M",
+      "sha256": "7bb69bff3f48a7b642355d64a90e481182a7794707b3133890646b1efa778ff5",
+      "size": 7300574976,
+      "source_repo": "google/gemma-3-12b-it"
+     },
+     {
+      "endpoint_model": "pdcps-qwen2.5-coder-14b",
+      "family_name": "Qwen2.5-Coder",
+      "gguf_file": "qwen2.5-coder-14b-instruct-q4_k_m.gguf",
+      "gguf_repo": "Qwen/Qwen2.5-Coder-14B-Instruct-GGUF",
+      "gguf_revision": "d0a692ef765eefbf2fabb130b3cb2e8917e3d225",
+      "horizon": "2024-11-06T07:49:46Z",
+      "horizon_source": "HF createdAt Qwen/Qwen2.5-Coder-14B-Instruct",
+      "id": "qwen2.5-coder-14b",
+      "library_tag": "qwen2.5-coder:14b",
+      "params_b": 14.77,
+      "quant": "Q4_K_M",
+      "sha256": "c1e659736d89ac1065fb495330fb824d94001974a4bfa78e7270e43476a8d940",
+      "size": 8988110272,
+      "source_repo": "Qwen/Qwen2.5-Coder-14B-Instruct"
+     },
+     {
+      "endpoint_model": "pdcps-phi4-14b",
+      "family_name": "Phi-4",
+      "gguf_file": "phi-4-Q4_K.gguf",
+      "gguf_repo": "microsoft/phi-4-gguf",
+      "gguf_revision": "6edc2ef6664b739a8e11e62f2672ff6afe0c15ac",
+      "horizon": "2024-12-11T11:47:29Z",
+      "horizon_source": "HF createdAt microsoft/phi-4",
+      "id": "phi4-14b",
+      "library_tag": "phi4:14b",
+      "params_b": 14.66,
+      "quant": "Q4_K (Q4_K_M)",
+      "sha256": "5652b9be0ea4ae2842130d04fe31bc869fcb99a2b7106c53b4e754a343fd688f",
+      "size": 9053114560,
+      "source_repo": "microsoft/phi-4"
+     },
+     {
+      "endpoint_model": "pdcps-deepseek-coder-v2-16b",
+      "family_name": "DeepSeek-Coder-V2",
+      "gguf_file": "DeepSeek-Coder-V2-Lite-Instruct-Q4_0.gguf",
+      "gguf_repo": "second-state/DeepSeek-Coder-V2-Lite-Instruct-GGUF",
+      "gguf_revision": "c5d2f88d5ce17a690328cea5e01657c4f6d474ee",
+      "horizon": "2024-06-14T06:23:33Z",
+      "horizon_source": "HF createdAt deepseek-ai/DeepSeek-Coder-V2-Lite-Instruct",
+      "id": "deepseek-coder-v2-16b",
+      "library_tag": "deepseek-coder-v2:16b",
+      "params_b": 15.71,
+      "quant": "Q4_0",
+      "sha256": "7d932d742f5e09b66cf017bb0e27bf5acf1d0a12d0e65bcc4561528020c4b56c",
+      "size": 8905109984,
+      "source_repo": "deepseek-ai/DeepSeek-Coder-V2-Lite-Instruct"
+     },
+     {
+      "endpoint_model": "pdcps-gpt-oss-20b",
+      "family_name": "gpt-oss",
+      "gguf_file": "gpt-oss-20b-MXFP4.gguf",
+      "gguf_repo": "ggml-org/gpt-oss-20b-GGUF",
+      "gguf_revision": "15dcfc7e7c608c6161507211ed43c5b590801b4b",
+      "horizon": "2025-08-04T22:33:29Z",
+      "horizon_source": "HF createdAt openai/gpt-oss-20b",
+      "id": "gpt-oss-20b",
+      "library_tag": "gpt-oss:20b",
+      "params": {
+       "max_tokens": {
+        "F1": 4096,
+        "F2": 4096
+       }
+      },
+      "params_b": 20.91,
+      "quant": "MXFP4",
+      "sha256": "27cd6c432c7672cb812a92f611cf3ba7bbc35928262bb1e1253ff4ee6ae35901",
+      "size": 12109566624,
+      "source_repo": "openai/gpt-oss-20b"
+     },
+     {
+      "endpoint_model": "pdcps-qwen2.5-coder-32b",
+      "family_name": "Qwen2.5-Coder",
+      "gguf_file": "qwen2.5-coder-32b-instruct-q4_k_m.gguf",
+      "gguf_repo": "Qwen/Qwen2.5-Coder-32B-Instruct-GGUF",
+      "gguf_revision": "9d3053fce650fe1cdbdb75998c2a87add9d178ef",
+      "horizon": "2024-11-06T07:49:50Z",
+      "horizon_source": "HF createdAt Qwen/Qwen2.5-Coder-32B-Instruct",
+      "id": "qwen2.5-coder-32b",
+      "library_tag": "qwen2.5-coder:32b",
+      "params_b": 32.76,
+      "quant": "Q4_K_M",
+      "sha256": "4d64b316b5e6319d9613e0d97935d9ebd631fc7e334da400d00085eca749d085",
+      "size": 19851335872,
+      "source_repo": "Qwen/Qwen2.5-Coder-32B-Instruct"
+     }
+    ],
+    "params": {
+     "max_tokens": {
+      "F1": 1536,
+      "F2": 1536
+     },
+     "top_p": 0.95
+    },
+    "resample": {
+     "concurrency": 1,
+     "n": 5,
+     "seeds_from": 1,
+     "temperature": 0.7
+    },
+    "run_id": "study-ollama-2027",
+    "samples": [
+     {
+      "idx": 0,
+      "seed": 20240628,
+      "temperature": 0.0
+     }
+    ],
+    "server": "ollama"
+   },
+   "corpus_sha256": "d113553800885a887a870abfdd43c5e596a1a368ba98727adf4970eb428eb6cc",
+   "finished_at": "2026-10-25T15:27:05Z",
+   "host": "host-12f82d2010",
+   "n_todo": {
+    "qwen2.5-coder-32b": 4
+   },
+   "pass": "generate",
+   "platform": "Windows-11-10.0.26300-SP0",
+   "python": "3.12.10",
+   "run_id": "study-ollama-2027",
+   "served": {
+    "qwen2.5-coder-32b": {
+     "capabilities": [
+      "completion",
+      "tools",
+      "insert"
+     ],
+     "details": {
+      "families": [
+       "qwen2"
+      ],
+      "family": "qwen2",
+      "format": "gguf",
+      "parameter_size": "32.8B",
+      "parent_model": "pdcps-qwen2.5-coder-32b:latest",
+      "quantization_level": "Q4_K_M",
+      "runner": "llamacpp"
+     },
+     "digest": "32e812c3495e06700ca785847bb2d5fe55f401d775c60e70e4198f2a1432049c",
+     "modified_at": "2026-10-25T15:19:05Z",
+     "ollama_version": "0.40.11",
+     "parameters": null,
+     "size": 19851337671,
+     "system_sha256": "66b9ea09bd5b7099cbb4fc820f31b575c0366fa439b08245566692c6784e281e",
+     "template_sha256": "1e65450c30670713aa47fe23e8b9662bdf4065e81cc8e3cbfaa98924fcc0d320",
+     "weights_sha256": "4d64b316b5e6319d9613e0d97935d9ebd631fc7e334da400d00085eca749d085"
+    }
+   },
+   "started_at": "2026-10-25T15:19:05Z"
+  },
+  {
+   "concurrency": 1,
+   "config": {
+    "_path": "config/run_study_ollama.yaml",
+    "endpoint": "http://127.0.0.1:11434",
+    "families": [
+     "F1",
+     "F2"
+    ],
+    "models": [
+     {
+      "endpoint_model": "pdcps-qwen2.5-coder-1.5b",
+      "family_name": "Qwen2.5-Coder",
+      "gguf_file": "qwen2.5-coder-1.5b-instruct-q4_k_m.gguf",
+      "gguf_repo": "Qwen/Qwen2.5-Coder-1.5B-Instruct-GGUF",
+      "gguf_revision": "f86cb2c1fa58255f8052cc32aeede1b7482d4361",
+      "horizon": "2024-09-18T09:41:47Z",
+      "horizon_source": "HF createdAt Qwen/Qwen2.5-Coder-1.5B-Instruct",
+      "id": "qwen2.5-coder-1.5b",
+      "library_tag": "qwen2.5-coder:1.5b",
+      "params_b": 1.54,
+      "quant": "Q4_K_M",
+      "sha256": "cc324af070c2ecbfd324a30884d2f951a7ff756aba85cb811a6ec436933bb046",
+      "size": 1117320768,
+      "source_repo": "Qwen/Qwen2.5-Coder-1.5B-Instruct"
+     },
+     {
+      "endpoint_model": "pdcps-llama3.2-3b",
+      "family_name": "Llama-3.2",
+      "gguf_file": "Llama-3.2-3B-Instruct-Q4_K_M.gguf",
+      "gguf_repo": "bartowski/Llama-3.2-3B-Instruct-GGUF",
+      "gguf_revision": "5ab33fa94d1d04e903623ae72c95d1696f09f9e8",
+      "horizon": "2024-09-18T15:19:20Z",
+      "horizon_source": "HF createdAt meta-llama/Llama-3.2-3B-Instruct",
+      "id": "llama3.2-3b",
+      "library_tag": "llama3.2:3b",
+      "params_b": 3.21,
+      "quant": "Q4_K_M",
+      "sha256": "6c1a2b41161032677be168d354123594c0e6e67d2b9227c84f296ad037c728ff",
+      "size": 2019377696,
+      "source_repo": "meta-llama/Llama-3.2-3B-Instruct"
+     },
+     {
+      "endpoint_model": "pdcps-qwen2.5-coder-7b",
+      "family_name": "Qwen2.5-Coder",
+      "gguf_file": "qwen2.5-coder-7b-instruct-q4_k_m.gguf",
+      "gguf_repo": "Qwen/Qwen2.5-Coder-7B-Instruct-GGUF",
+      "gguf_revision": "13fb94bfda8c8cf22497dc57b78f391a9acb426a",
+      "horizon": "2024-09-17T13:38:49Z",
+      "horizon_source": "HF createdAt Qwen/Qwen2.5-Coder-7B-Instruct",
+      "id": "qwen2.5-coder-7b",
+      "library_tag": "qwen2.5-coder:7b",
+      "params_b": 7.62,
+      "quant": "Q4_K_M",
+      "sha256": "509287f78cb4d4cf6b3843734733b914b2c158e43e22a7f4bf5e963800894d3c",
+      "size": 4683073536,
+      "source_repo": "Qwen/Qwen2.5-Coder-7B-Instruct"
+     },
+     {
+      "endpoint_model": "pdcps-deepseek-coder-6.7b",
+      "family_name": "DeepSeek-Coder",
+      "gguf_file": "deepseek-coder-6.7b-instruct.Q4_0.gguf",
+      "gguf_repo": "TheBloke/deepseek-coder-6.7B-instruct-GGUF",
+      "gguf_revision": "9e221e6b41cb1bf1c5d8f9718e81e3dc781f7557",
+      "horizon": "2023-10-29T11:01:36Z",
+      "horizon_source": "HF createdAt deepseek-ai/deepseek-coder-6.7b-instruct",
+      "id": "deepseek-coder-6.7b",
+      "library_tag": "deepseek-coder:6.7b",
+      "params_b": 6.74,
+      "quant": "Q4_0",
+      "sha256": "0c7cf89d9b2dc8671bfade603181aaa18b3dfd93e1b6a2c569a9807c65d4d438",
+      "size": 3827818720,
+      "source_repo": "deepseek-ai/deepseek-coder-6.7b-instruct"
+     },
+     {
+      "endpoint_model": "pdcps-llama3.1-8b",
+      "family_name": "Llama-3.1",
+      "gguf_file": "Meta-Llama-3.1-8B-Instruct-Q4_K_M.gguf",
+      "gguf_repo": "bartowski/Meta-Llama-3.1-8B-Instruct-GGUF",
+      "gguf_revision": "bf5b95e96dac0462e2a09145ec66cae9a3f12067",
+      "horizon": "2024-07-18T08:56:00Z",
+      "horizon_source": "HF createdAt meta-llama/Llama-3.1-8B-Instruct",
+      "id": "llama3.1-8b",
+      "library_tag": "llama3.1:8b",
+      "params_b": 8.03,
+      "quant": "Q4_K_M",
+      "sha256": "7b064f5842bf9532c91456deda288a1b672397a54fa729aa665952863033557c",
+      "size": 4920739232,
+      "source_repo": "meta-llama/Llama-3.1-8B-Instruct"
+     },
+     {
+      "endpoint_model": "pdcps-qwen3-8b",
+      "family_name": "Qwen3",
+      "gguf_file": "Qwen3-8B-Q4_K_M.gguf",
+      "gguf_repo": "Qwen/Qwen3-8B-GGUF",
+      "gguf_revision": "7c41481f57cb95916b40956ab2f0b139b296d974",
+      "horizon": "2025-04-27T03:42:21Z",
+      "horizon_source": "HF createdAt Qwen/Qwen3-8B",
+      "id": "qwen3-8b",
+      "library_tag": "qwen3:8b",
+      "params": {
+       "max_tokens": {
+        "F1": 4096,
+        "F2": 4096
+       }
+      },
+      "params_b": 8.19,
+      "quant": "Q4_K_M",
+      "sha256": "d98cdcbd03e17ce47681435b5150e34c1417f50b5c0019dd560e4882c5745785",
+      "size": 5027783488,
+      "source_repo": "Qwen/Qwen3-8B"
+     },
+     {
+      "endpoint_model": "pdcps-granite3.3-8b",
+      "family_name": "Granite-3.3",
+      "gguf_file": "granite-3.3-8b-instruct-Q4_K_M.gguf",
+      "gguf_repo": "ibm-granite/granite-3.3-8b-instruct-GGUF",
+      "gguf_revision": "e40e9dd739c7be00fa965c16ce167088190ce114",
+      "horizon": "2025-04-09T11:41:39Z",
+      "horizon_source": "HF createdAt ibm-granite/granite-3.3-8b-instruct",
+      "id": "granite3.3-8b",
+      "library_tag": "granite3.3:8b",
+      "params_b": 8.17,
+      "quant": "Q4_K_M",
+      "sha256": "77bcee066a76dcdd10d0d123c87e32c8ec2c74e31b6ffd87ebee49c9ac215dca",
+      "size": 4942873344,
+      "source_repo": "ibm-granite/granite-3.3-8b-instruct"
+     },
+     {
+      "endpoint_model": "pdcps-gemma3-12b",
+      "family_name": "Gemma-3",
+      "gguf_file": "gemma-3-12b-it-Q4_K_M.gguf",
+      "gguf_repo": "ggml-org/gemma-3-12b-it-GGUF",
+      "gguf_revision": "ec0cbabd8dbff316f659876a50202295c3c4a314",
+      "horizon": "2025-03-01T19:11:34Z",
+      "horizon_source": "HF createdAt google/gemma-3-12b-it",
+      "id": "gemma3-12b",
+      "library_tag": "gemma3:12b",
+      "params_b": 12.19,
+      "quant": "Q4_K_M",
+      "sha256": "7bb69bff3f48a7b642355d64a90e481182a7794707b3133890646b1efa778ff5",
+      "size": 7300574976,
+      "source_repo": "google/gemma-3-12b-it"
+     },
+     {
+      "endpoint_model": "pdcps-qwen2.5-coder-14b",
+      "family_name": "Qwen2.5-Coder",
+      "gguf_file": "qwen2.5-coder-14b-instruct-q4_k_m.gguf",
+      "gguf_repo": "Qwen/Qwen2.5-Coder-14B-Instruct-GGUF",
+      "gguf_revision": "d0a692ef765eefbf2fabb130b3cb2e8917e3d225",
+      "horizon": "2024-11-06T07:49:46Z",
+      "horizon_source": "HF createdAt Qwen/Qwen2.5-Coder-14B-Instruct",
+      "id": "qwen2.5-coder-14b",
+      "library_tag": "qwen2.5-coder:14b",
+      "params_b": 14.77,
+      "quant": "Q4_K_M",
+      "sha256": "c1e659736d89ac1065fb495330fb824d94001974a4bfa78e7270e43476a8d940",
+      "size": 8988110272,
+      "source_repo": "Qwen/Qwen2.5-Coder-14B-Instruct"
+     },
+     {
+      "endpoint_model": "pdcps-phi4-14b",
+      "family_name": "Phi-4",
+      "gguf_file": "phi-4-Q4_K.gguf",
+      "gguf_repo": "microsoft/phi-4-gguf",
+      "gguf_revision": "6edc2ef6664b739a8e11e62f2672ff6afe0c15ac",
+      "horizon": "2024-12-11T11:47:29Z",
+      "horizon_source": "HF createdAt microsoft/phi-4",
+      "id": "phi4-14b",
+      "library_tag": "phi4:14b",
+      "params_b": 14.66,
+      "quant": "Q4_K (Q4_K_M)",
+      "sha256": "5652b9be0ea4ae2842130d04fe31bc869fcb99a2b7106c53b4e754a343fd688f",
+      "size": 9053114560,
+      "source_repo": "microsoft/phi-4"
+     },
+     {
+      "endpoint_model": "pdcps-deepseek-coder-v2-16b",
+      "family_name": "DeepSeek-Coder-V2",
+      "gguf_file": "DeepSeek-Coder-V2-Lite-Instruct-Q4_0.gguf",
+      "gguf_repo": "second-state/DeepSeek-Coder-V2-Lite-Instruct-GGUF",
+      "gguf_revision": "c5d2f88d5ce17a690328cea5e01657c4f6d474ee",
+      "horizon": "2024-06-14T06:23:33Z",
+      "horizon_source": "HF createdAt deepseek-ai/DeepSeek-Coder-V2-Lite-Instruct",
+      "id": "deepseek-coder-v2-16b",
+      "library_tag": "deepseek-coder-v2:16b",
+      "params_b": 15.71,
+      "quant": "Q4_0",
+      "sha256": "7d932d742f5e09b66cf017bb0e27bf5acf1d0a12d0e65bcc4561528020c4b56c",
+      "size": 8905109984,
+      "source_repo": "deepseek-ai/DeepSeek-Coder-V2-Lite-Instruct"
+     },
+     {
+      "endpoint_model": "pdcps-gpt-oss-20b",
+      "family_name": "gpt-oss",
+      "gguf_file": "gpt-oss-20b-MXFP4.gguf",
+      "gguf_repo": "ggml-org/gpt-oss-20b-GGUF",
+      "gguf_revision": "15dcfc7e7c608c6161507211ed43c5b590801b4b",
+      "horizon": "2025-08-04T22:33:29Z",
+      "horizon_source": "HF createdAt openai/gpt-oss-20b",
+      "id": "gpt-oss-20b",
+      "library_tag": "gpt-oss:20b",
+      "params": {
+       "max_tokens": {
+        "F1": 4096,
+        "F2": 4096
+       }
+      },
+      "params_b": 20.91,
+      "quant": "MXFP4",
+      "sha256": "27cd6c432c7672cb812a92f611cf3ba7bbc35928262bb1e1253ff4ee6ae35901",
+      "size": 12109566624,
+      "source_repo": "openai/gpt-oss-20b"
+     },
+     {
+      "endpoint_model": "pdcps-qwen2.5-coder-32b",
+      "family_name": "Qwen2.5-Coder",
+      "gguf_file": "qwen2.5-coder-32b-instruct-q4_k_m.gguf",
+      "gguf_repo": "Qwen/Qwen2.5-Coder-32B-Instruct-GGUF",
+      "gguf_revision": "9d3053fce650fe1cdbdb75998c2a87add9d178ef",
+      "horizon": "2024-11-06T07:49:50Z",
+      "horizon_source": "HF createdAt Qwen/Qwen2.5-Coder-32B-Instruct",
+      "id": "qwen2.5-coder-32b",
+      "library_tag": "qwen2.5-coder:32b",
+      "params_b": 32.76,
+      "quant": "Q4_K_M",
+      "sha256": "4d64b316b5e6319d9613e0d97935d9ebd631fc7e334da400d00085eca749d085",
+      "size": 19851335872,
+      "source_repo": "Qwen/Qwen2.5-Coder-32B-Instruct"
+     }
+    ],
+    "params": {
+     "max_tokens": {
+      "F1": 1536,
+      "F2": 1536
+     },
+     "top_p": 0.95
+    },
+    "resample": {
+     "concurrency": 1,
+     "n": 5,
+     "seeds_from": 1,
+     "temperature": 0.7
+    },
+    "run_id": "study-ollama-2027",
+    "samples": [
+     {
+      "idx": 0,
+      "seed": 20240628,
+      "temperature": 0.0
+     }
+    ],
+    "server": "ollama"
+   },
+   "corpus_sha256": "d113553800885a887a870abfdd43c5e596a1a368ba98727adf4970eb428eb6cc",
+   "finished_at": "2026-10-26T07:50:46Z",
+   "host": "host-12f82d2010",
+   "n_todo": {
+    "deepseek-coder-6.7b": 188,
+    "deepseek-coder-v2-16b": 188,
+    "gemma3-12b": 188,
+    "gpt-oss-20b": 188,
+    "granite3.3-8b": 188,
+    "llama3.1-8b": 188,
+    "llama3.2-3b": 188,
+    "phi4-14b": 188,
+    "qwen2.5-coder-1.5b": 188,
+    "qwen2.5-coder-14b": 188,
+    "qwen2.5-coder-32b": 188,
+    "qwen2.5-coder-7b": 188,
+    "qwen3-8b": 188
+   },
+   "pass": "generate",
+   "platform": "Windows-11-10.0.26300-SP0",
+   "python": "3.12.10",
+   "run_id": "study-ollama-2027",
+   "served": {
+    "deepseek-coder-6.7b": {
+     "capabilities": [
+      "completion"
+     ],
+     "details": {
+      "families": [
+       "llama"
+      ],
+      "family": "llama",
+      "format": "gguf",
+      "parameter_size": "6.7B",
+      "parent_model": "pdcps-deepseek-coder-6.7b:latest",
+      "quantization_level": "Q4_0",
+      "runner": "llamacpp"
+     },
+     "digest": "5162bd83cea6c65d120714d7fac99b4c7f2ac22c7701a784f8de1f701af88db5",
+     "modified_at": "2026-10-25T15:09:51Z",
+     "ollama_version": "0.40.11",
+     "parameters": null,
+     "size": 3827819189,
+     "system_sha256": "8972a96b8ff1957ca24ff839aeb54411e6849de68609857a3fa17a4e78114247",
+     "template_sha256": "8893e08fa9f91f7dc39e24d27bdfaece4e9c86bb3269293ff8cea6cba98c872d",
+     "weights_sha256": "0c7cf89d9b2dc8671bfade603181aaa18b3dfd93e1b6a2c569a9807c65d4d438"
+    },
+    "deepseek-coder-v2-16b": {
+     "capabilities": [
+      "completion",
+      "insert"
+     ],
+     "details": {
+      "families": [
+       "deepseek2"
+      ],
+      "family": "deepseek2",
+      "format": "gguf",
+      "parameter_size": "15.7B",
+      "parent_model": "pdcps-deepseek-coder-v2-16b:latest",
+      "quantization_level": "Q4_0",
+      "runner": "llamacpp"
+     },
+     "digest": "8f58399d152dec66e49e6363e1ed135cb4c5bf351366cf0ac348a15e1b67f3e7",
+     "modified_at": "2026-10-25T15:15:58Z",
+     "ollama_version": "0.40.11",
+     "parameters": "stop                           \"User:\"\nstop                           \"Assistant:\"",
+     "size": 8905110843,
+     "system_sha256": null,
+     "template_sha256": "22091531faf0148fb166466743e30b7012ea7a6d13a9af7e3995ccfec3ed4914",
+     "weights_sha256": "7d932d742f5e09b66cf017bb0e27bf5acf1d0a12d0e65bcc4561528020c4b56c"
+    },
+    "gemma3-12b": {
+     "capabilities": [
+      "completion"
+     ],
+     "details": {
+      "families": [
+       "gemma3"
+      ],
+      "family": "gemma3",
+      "format": "gguf",
+      "parameter_size": "11.8B",
+      "parent_model": "pdcps-gemma3-12b:latest",
+      "quantization_level": "Q4_K_M",
+      "runner": "llamacpp"
+     },
+     "digest": "db49e2b9c42d8989dcafb3b9fa29a4d6a28b253d2b58a7072d36300667128800",
+     "modified_at": "2026-10-25T15:12:37Z",
+     "ollama_version": "0.40.11",
+     "parameters": "top_k                          64\ntop_p                          0.95\nstop                           \"<end_of_turn>\"\ntemperature                    1",
+     "size": 7300575529,
+     "system_sha256": null,
+     "template_sha256": "e0a42594d802e5d31cdc786deb4823edb8adff66094d49de8fffe976d753e348",
+     "weights_sha256": "7bb69bff3f48a7b642355d64a90e481182a7794707b3133890646b1efa778ff5"
+    },
+    "gpt-oss-20b": {
+     "capabilities": [
+      "completion",
+      "tools",
+      "thinking"
+     ],
+     "details": {
+      "families": [
+       "gpt-oss"
+      ],
+      "family": "gpt-oss",
+      "format": "gguf",
+      "parameter_size": "20.9B",
+      "parent_model": "pdcps-gpt-oss-20b:latest",
+      "quantization_level": "MXFP4_MOE",
+      "runner": "llamacpp"
+     },
+     "digest": "131e1bdccf9f3fdd832b729ca7791cd1bc7b5f870647baa28c78424904b20eea",
+     "modified_at": "2026-10-25T15:16:44Z",
+     "ollama_version": "0.40.11",
+     "parameters": "temperature                    1",
+     "size": 12109574005,
+     "system_sha256": null,
+     "template_sha256": "fa6710a93d78da62641e192361344be7a8c0a1c3737f139cf89f20ce1626b99c",
+     "weights_sha256": "27cd6c432c7672cb812a92f611cf3ba7bbc35928262bb1e1253ff4ee6ae35901"
+    },
+    "granite3.3-8b": {
+     "capabilities": [
+      "completion",
+      "tools"
+     ],
+     "details": {
+      "families": [
+       "granite"
+      ],
+      "family": "granite",
+      "format": "gguf",
+      "parameter_size": "8.2B",
+      "parent_model": "pdcps-granite3.3-8b:latest",
+      "quantization_level": "Q4_K_M",
+      "runner": "llamacpp"
+     },
+     "digest": "1507fe03146fc40a19e3cd6e0399740ca8c2b0d6537f769648b4ed74d8eb1e2f",
+     "modified_at": "2026-10-25T15:12:09Z",
+     "ollama_version": "0.40.11",
+     "parameters": null,
+     "size": 4942880023,
+     "system_sha256": null,
+     "template_sha256": "3da071a01bbe5a1aa1e9766149ff67ed2b232f63d55e6ed50e3777b74536a67f",
+     "weights_sha256": "77bcee066a76dcdd10d0d123c87e32c8ec2c74e31b6ffd87ebee49c9ac215dca"
+    },
+    "llama3.1-8b": {
+     "capabilities": [
+      "completion",
+      "tools"
+     ],
+     "details": {
+      "families": [
+       "llama"
+      ],
+      "family": "llama",
+      "format": "gguf",
+      "parameter_size": "8.0B",
+      "parent_model": "pdcps-llama3.1-8b:latest",
+      "quantization_level": "Q4_K_M",
+      "runner": "llamacpp"
+     },
+     "digest": "81d00cf8cf17745bdbc0e6f53c01fba583205af522610a0bb19edc0758056910",
+     "modified_at": "2026-10-25T15:10:37Z",
+     "ollama_version": "0.40.11",
+     "parameters": "stop                           \"<|start_header_id|>\"\nstop                           \"<|end_header_id|>\"\nstop                           \"<|eot_id|>\"",
+     "size": 4920740924,
+     "system_sha256": null,
+     "template_sha256": "948af2743fc78a328dcb3b0f5a31b3d75f415840fdb699e8b1235978392ecf85",
+     "weights_sha256": "7b064f5842bf9532c91456deda288a1b672397a54fa729aa665952863033557c"
+    },
+    "llama3.2-3b": {
+     "capabilities": [
+      "completion",
+      "tools"
+     ],
+     "details": {
+      "families": [
+       "llama"
+      ],
+      "family": "llama",
+      "format": "gguf",
+      "parameter_size": "3.2B",
+      "parent_model": "pdcps-llama3.2-3b:latest",
+      "quantization_level": "Q4_K_M",
+      "runner": "llamacpp"
+     },
+     "digest": "0a7012f1f5b43b1d96193c8f2c11a833ea6f9d1cdaa31242e422fc0b1dcda75d",
+     "modified_at": "2026-10-25T15:09:01Z",
+     "ollama_version": "0.40.11",
+     "parameters": "stop                           \"<|start_header_id|>\"\nstop                           \"<|end_header_id|>\"\nstop                           \"<|eot_id|>\"",
+     "size": 2019379336,
+     "system_sha256": null,
+     "template_sha256": "966de95ca8a62200913e3f8bfbf84c8494536f1b94b49166851e76644e966396",
+     "weights_sha256": "6c1a2b41161032677be168d354123594c0e6e67d2b9227c84f296ad037c728ff"
+    },
+    "phi4-14b": {
+     "capabilities": [
+      "completion"
+     ],
+     "details": {
+      "families": [
+       "phi3"
+      ],
+      "family": "phi3",
+      "format": "gguf",
+      "parameter_size": "14.7B",
+      "parent_model": "pdcps-phi4-14b:latest",
+      "quantization_level": "Q4_K_M",
+      "runner": "llamacpp"
+     },
+     "digest": "328d7618fd920867a68797d5ca48ab475d5bcd1f5de3695bc0d7fd31524565cc",
+     "modified_at": "2026-10-25T15:14:47Z",
+     "ollama_version": "0.40.11",
+     "parameters": "stop                           \"<|im_start|>\"\nstop                           \"<|im_end|>\"\nstop                           \"<|im_sep|>\"",
+     "size": 9053115031,
+     "system_sha256": null,
+     "template_sha256": "32695b892af87ef8fca6e13a1a31c67c1441d7398be037e366e2fc763857c06a",
+     "weights_sha256": "5652b9be0ea4ae2842130d04fe31bc869fcb99a2b7106c53b4e754a343fd688f"
+    },
+    "qwen2.5-coder-1.5b": {
+     "capabilities": [
+      "completion",
+      "tools",
+      "insert"
+     ],
+     "details": {
+      "families": [
+       "qwen2"
+      ],
+      "family": "qwen2",
+      "format": "gguf",
+      "parameter_size": "1.8B",
+      "parent_model": "pdcps-qwen2.5-coder-1.5b:latest",
+      "quantization_level": "Q4_K_M",
+      "runner": "llamacpp"
+     },
+     "digest": "204f308e5418eb1360fa67d92a36c787056e3ad450555c14fb48903e2b7bb2c3",
+     "modified_at": "2026-10-25T15:08:22Z",
+     "ollama_version": "0.40.11",
+     "parameters": null,
+     "size": 1117322566,
+     "system_sha256": "66b9ea09bd5b7099cbb4fc820f31b575c0366fa439b08245566692c6784e281e",
+     "template_sha256": "1e65450c30670713aa47fe23e8b9662bdf4065e81cc8e3cbfaa98924fcc0d320",
+     "weights_sha256": "cc324af070c2ecbfd324a30884d2f951a7ff756aba85cb811a6ec436933bb046"
+    },
+    "qwen2.5-coder-14b": {
+     "capabilities": [
+      "completion",
+      "tools",
+      "insert"
+     ],
+     "details": {
+      "families": [
+       "qwen2"
+      ],
+      "family": "qwen2",
+      "format": "gguf",
+      "parameter_size": "14.8B",
+      "parent_model": "pdcps-qwen2.5-coder-14b:latest",
+      "quantization_level": "Q4_K_M",
+      "runner": "llamacpp"
+     },
+     "digest": "765f606abc078523f20fffc1d8d64c45e0c78e4e0b3690d331d14046ff6b5d46",
+     "modified_at": "2026-10-25T15:13:59Z",
+     "ollama_version": "0.40.11",
+     "parameters": null,
+     "size": 8988112071,
+     "system_sha256": "66b9ea09bd5b7099cbb4fc820f31b575c0366fa439b08245566692c6784e281e",
+     "template_sha256": "1e65450c30670713aa47fe23e8b9662bdf4065e81cc8e3cbfaa98924fcc0d320",
+     "weights_sha256": "c1e659736d89ac1065fb495330fb824d94001974a4bfa78e7270e43476a8d940"
+    },
+    "qwen2.5-coder-32b": {
+     "capabilities": [
+      "completion",
+      "tools",
+      "insert"
+     ],
+     "details": {
+      "families": [
+       "qwen2"
+      ],
+      "family": "qwen2",
+      "format": "gguf",
+      "parameter_size": "32.8B",
+      "parent_model": "pdcps-qwen2.5-coder-32b:latest",
+      "quantization_level": "Q4_K_M",
+      "runner": "llamacpp"
+     },
+     "digest": "32e812c3495e06700ca785847bb2d5fe55f401d775c60e70e4198f2a1432049c",
+     "modified_at": "2026-10-25T15:19:05Z",
+     "ollama_version": "0.40.11",
+     "parameters": null,
+     "size": 19851337671,
+     "system_sha256": "66b9ea09bd5b7099cbb4fc820f31b575c0366fa439b08245566692c6784e281e",
+     "template_sha256": "1e65450c30670713aa47fe23e8b9662bdf4065e81cc8e3cbfaa98924fcc0d320",
+     "weights_sha256": "4d64b316b5e6319d9613e0d97935d9ebd631fc7e334da400d00085eca749d085"
+    },
+    "qwen2.5-coder-7b": {
+     "capabilities": [
+      "completion",
+      "tools",
+      "insert"
+     ],
+     "details": {
+      "families": [
+       "qwen2"
+      ],
+      "family": "qwen2",
+      "format": "gguf",
+      "parameter_size": "7.6B",
+      "parent_model": "pdcps-qwen2.5-coder-7b:latest",
+      "quantization_level": "Q4_K_M",
+      "runner": "llamacpp"
+     },
+     "digest": "16c6c7b0c815c04599910627e6d5845a2eb9e59fde62e612fdd38c5c2cbb3a9a",
+     "modified_at": "2026-10-25T15:09:29Z",
+     "ollama_version": "0.40.11",
+     "parameters": null,
+     "size": 4683075334,
+     "system_sha256": "66b9ea09bd5b7099cbb4fc820f31b575c0366fa439b08245566692c6784e281e",
+     "template_sha256": "1e65450c30670713aa47fe23e8b9662bdf4065e81cc8e3cbfaa98924fcc0d320",
+     "weights_sha256": "509287f78cb4d4cf6b3843734733b914b2c158e43e22a7f4bf5e963800894d3c"
+    },
+    "qwen3-8b": {
+     "capabilities": [
+      "completion",
+      "tools",
+      "thinking"
+     ],
+     "details": {
+      "families": [
+       "qwen3"
+      ],
+      "family": "qwen3",
+      "format": "gguf",
+      "parameter_size": "8.2B",
+      "parent_model": "pdcps-qwen3-8b:latest",
+      "quantization_level": "Q4_K_M",
+      "runner": "llamacpp"
+     },
+     "digest": "7d07e5abb4cc8e8183242d8b75b3bbf9c55d59cd796bb5a558f17234049d5ac7",
+     "modified_at": "2026-10-25T15:11:00Z",
+     "ollama_version": "0.40.11",
+     "parameters": "top_p                          0.95\nrepeat_penalty                 1\nstop                           \"<|im_start|>\"\nstop                           \"<|im_end|>\"\ntemperature                    0.6\ntop_k                          20",
+     "size": 5027785446,
+     "system_sha256": null,
+     "template_sha256": "ae370d884f108d16e7cc8fd5259ebc5773a0afa6e078b11f4ed7e39a27e0dfc4",
+     "weights_sha256": "d98cdcbd03e17ce47681435b5150e34c1417f50b5c0019dd560e4882c5745785"
+    }
+   },
+   "started_at": "2026-10-25T15:27:05Z"
+  },
+  {
+   "concurrency": 1,
+   "finished_at": "2026-10-27T04:00:23Z",
+   "host": "host-12f82d2010",
+   "n_pairs": 1276,
+   "n_todo": {
+    "deepseek-coder-6.7b": 114,
+    "deepseek-coder-v2-16b": 565,
+    "gemma3-12b": 575,
+    "gpt-oss-20b": 305,
+    "granite3.3-8b": 510,
+    "llama3.1-8b": 595,
+    "phi4-14b": 360,
+    "qwen2.5-coder-1.5b": 1,
+    "qwen2.5-coder-14b": 375,
+    "qwen3-8b": 450
+   },
+   "pass": "resample",
+   "plan": {
+    "classification": {
+     "classified_at": "2026-10-26T08:56:13Z",
+     "derived_sha256": "ef18ddaa6908d50c0d51f74324563e9024ec979640504e44de6dd3cad72eeca4",
+     "harness_sha256": "8c06c6f19ddacc729547e98bd49de65e8903440245da680cd9b85a1b1468fb19"
+    },
+    "created_at": "2026-10-26T08:56:43Z",
+    "n": 5,
+    "n_pairs": 1276,
+    "path": "resample_plan.json",
+    "sha256": "3377dadc9d9572f743db436c480e8a93c8a4b199a1548265c9f744e164b4970f"
+   },
+   "resample": {
+    "concurrency": 1,
+    "n": 5,
+    "seeds_from": 1,
+    "temperature": 0.7
+   },
+   "run_id": "study-ollama-2027",
+   "served": {
+    "deepseek-coder-6.7b": {
+     "capabilities": [
+      "completion"
+     ],
+     "details": {
+      "families": [
+       "llama"
+      ],
+      "family": "llama",
+      "format": "gguf",
+      "parameter_size": "6.7B",
+      "parent_model": "pdcps-deepseek-coder-6.7b:latest",
+      "quantization_level": "Q4_0",
+      "runner": "llamacpp"
+     },
+     "digest": "5162bd83cea6c65d120714d7fac99b4c7f2ac22c7701a784f8de1f701af88db5",
+     "modified_at": "2026-10-25T15:09:51Z",
+     "ollama_version": "0.40.11",
+     "parameters": null,
+     "size": 3827819189,
+     "system_sha256": "8972a96b8ff1957ca24ff839aeb54411e6849de68609857a3fa17a4e78114247",
+     "template_sha256": "8893e08fa9f91f7dc39e24d27bdfaece4e9c86bb3269293ff8cea6cba98c872d",
+     "weights_sha256": "0c7cf89d9b2dc8671bfade603181aaa18b3dfd93e1b6a2c569a9807c65d4d438"
+    },
+    "deepseek-coder-v2-16b": {
+     "capabilities": [
+      "completion",
+      "insert"
+     ],
+     "details": {
+      "families": [
+       "deepseek2"
+      ],
+      "family": "deepseek2",
+      "format": "gguf",
+      "parameter_size": "15.7B",
+      "parent_model": "pdcps-deepseek-coder-v2-16b:latest",
+      "quantization_level": "Q4_0",
+      "runner": "llamacpp"
+     },
+     "digest": "8f58399d152dec66e49e6363e1ed135cb4c5bf351366cf0ac348a15e1b67f3e7",
+     "modified_at": "2026-10-25T15:15:58Z",
+     "ollama_version": "0.40.11",
+     "parameters": "stop                           \"User:\"\nstop                           \"Assistant:\"",
+     "size": 8905110843,
+     "system_sha256": null,
+     "template_sha256": "22091531faf0148fb166466743e30b7012ea7a6d13a9af7e3995ccfec3ed4914",
+     "weights_sha256": "7d932d742f5e09b66cf017bb0e27bf5acf1d0a12d0e65bcc4561528020c4b56c"
+    },
+    "gemma3-12b": {
+     "capabilities": [
+      "completion"
+     ],
+     "details": {
+      "families": [
+       "gemma3"
+      ],
+      "family": "gemma3",
+      "format": "gguf",
+      "parameter_size": "11.8B",
+      "parent_model": "pdcps-gemma3-12b:latest",
+      "quantization_level": "Q4_K_M",
+      "runner": "llamacpp"
+     },
+     "digest": "db49e2b9c42d8989dcafb3b9fa29a4d6a28b253d2b58a7072d36300667128800",
+     "modified_at": "2026-10-25T15:12:37Z",
+     "ollama_version": "0.40.11",
+     "parameters": "stop                           \"<end_of_turn>\"\ntemperature                    1\ntop_k                          64\ntop_p                          0.95",
+     "size": 7300575529,
+     "system_sha256": null,
+     "template_sha256": "e0a42594d802e5d31cdc786deb4823edb8adff66094d49de8fffe976d753e348",
+     "weights_sha256": "7bb69bff3f48a7b642355d64a90e481182a7794707b3133890646b1efa778ff5"
+    },
+    "gpt-oss-20b": {
+     "capabilities": [
+      "completion",
+      "tools",
+      "thinking"
+     ],
+     "details": {
+      "families": [
+       "gpt-oss"
+      ],
+      "family": "gpt-oss",
+      "format": "gguf",
+      "parameter_size": "20.9B",
+      "parent_model": "pdcps-gpt-oss-20b:latest",
+      "quantization_level": "MXFP4_MOE",
+      "runner": "llamacpp"
+     },
+     "digest": "131e1bdccf9f3fdd832b729ca7791cd1bc7b5f870647baa28c78424904b20eea",
+     "modified_at": "2026-10-25T15:16:44Z",
+     "ollama_version": "0.40.11",
+     "parameters": "temperature                    1",
+     "size": 12109574005,
+     "system_sha256": null,
+     "template_sha256": "fa6710a93d78da62641e192361344be7a8c0a1c3737f139cf89f20ce1626b99c",
+     "weights_sha256": "27cd6c432c7672cb812a92f611cf3ba7bbc35928262bb1e1253ff4ee6ae35901"
+    },
+    "granite3.3-8b": {
+     "capabilities": [
+      "completion",
+      "tools"
+     ],
+     "details": {
+      "families": [
+       "granite"
+      ],
+      "family": "granite",
+      "format": "gguf",
+      "parameter_size": "8.2B",
+      "parent_model": "pdcps-granite3.3-8b:latest",
+      "quantization_level": "Q4_K_M",
+      "runner": "llamacpp"
+     },
+     "digest": "1507fe03146fc40a19e3cd6e0399740ca8c2b0d6537f769648b4ed74d8eb1e2f",
+     "modified_at": "2026-10-25T15:12:09Z",
+     "ollama_version": "0.40.11",
+     "parameters": null,
+     "size": 4942880023,
+     "system_sha256": null,
+     "template_sha256": "3da071a01bbe5a1aa1e9766149ff67ed2b232f63d55e6ed50e3777b74536a67f",
+     "weights_sha256": "77bcee066a76dcdd10d0d123c87e32c8ec2c74e31b6ffd87ebee49c9ac215dca"
+    },
+    "llama3.1-8b": {
+     "capabilities": [
+      "completion",
+      "tools"
+     ],
+     "details": {
+      "families": [
+       "llama"
+      ],
+      "family": "llama",
+      "format": "gguf",
+      "parameter_size": "8.0B",
+      "parent_model": "pdcps-llama3.1-8b:latest",
+      "quantization_level": "Q4_K_M",
+      "runner": "llamacpp"
+     },
+     "digest": "81d00cf8cf17745bdbc0e6f53c01fba583205af522610a0bb19edc0758056910",
+     "modified_at": "2026-10-25T15:10:37Z",
+     "ollama_version": "0.40.11",
+     "parameters": "stop                           \"<|start_header_id|>\"\nstop                           \"<|end_header_id|>\"\nstop                           \"<|eot_id|>\"",
+     "size": 4920740924,
+     "system_sha256": null,
+     "template_sha256": "948af2743fc78a328dcb3b0f5a31b3d75f415840fdb699e8b1235978392ecf85",
+     "weights_sha256": "7b064f5842bf9532c91456deda288a1b672397a54fa729aa665952863033557c"
+    },
+    "phi4-14b": {
+     "capabilities": [
+      "completion"
+     ],
+     "details": {
+      "families": [
+       "phi3"
+      ],
+      "family": "phi3",
+      "format": "gguf",
+      "parameter_size": "14.7B",
+      "parent_model": "pdcps-phi4-14b:latest",
+      "quantization_level": "Q4_K_M",
+      "runner": "llamacpp"
+     },
+     "digest": "328d7618fd920867a68797d5ca48ab475d5bcd1f5de3695bc0d7fd31524565cc",
+     "modified_at": "2026-10-25T15:14:47Z",
+     "ollama_version": "0.40.11",
+     "parameters": "stop                           \"<|im_start|>\"\nstop                           \"<|im_end|>\"\nstop                           \"<|im_sep|>\"",
+     "size": 9053115031,
+     "system_sha256": null,
+     "template_sha256": "32695b892af87ef8fca6e13a1a31c67c1441d7398be037e366e2fc763857c06a",
+     "weights_sha256": "5652b9be0ea4ae2842130d04fe31bc869fcb99a2b7106c53b4e754a343fd688f"
+    },
+    "qwen2.5-coder-1.5b": {
+     "capabilities": [
+      "completion",
+      "tools",
+      "insert"
+     ],
+     "details": {
+      "families": [
+       "qwen2"
+      ],
+      "family": "qwen2",
+      "format": "gguf",
+      "parameter_size": "1.8B",
+      "parent_model": "pdcps-qwen2.5-coder-1.5b:latest",
+      "quantization_level": "Q4_K_M",
+      "runner": "llamacpp"
+     },
+     "digest": "204f308e5418eb1360fa67d92a36c787056e3ad450555c14fb48903e2b7bb2c3",
+     "modified_at": "2026-10-25T15:08:22Z",
+     "ollama_version": "0.40.11",
+     "parameters": null,
+     "size": 1117322566,
+     "system_sha256": "66b9ea09bd5b7099cbb4fc820f31b575c0366fa439b08245566692c6784e281e",
+     "template_sha256": "1e65450c30670713aa47fe23e8b9662bdf4065e81cc8e3cbfaa98924fcc0d320",
+     "weights_sha256": "cc324af070c2ecbfd324a30884d2f951a7ff756aba85cb811a6ec436933bb046"
+    },
+    "qwen2.5-coder-14b": {
+     "capabilities": [
+      "completion",
+      "tools",
+      "insert"
+     ],
+     "details": {
+      "families": [
+       "qwen2"
+      ],
+      "family": "qwen2",
+      "format": "gguf",
+      "parameter_size": "14.8B",
+      "parent_model": "pdcps-qwen2.5-coder-14b:latest",
+      "quantization_level": "Q4_K_M",
+      "runner": "llamacpp"
+     },
+     "digest": "765f606abc078523f20fffc1d8d64c45e0c78e4e0b3690d331d14046ff6b5d46",
+     "modified_at": "2026-10-25T15:13:59Z",
+     "ollama_version": "0.40.11",
+     "parameters": null,
+     "size": 8988112071,
+     "system_sha256": "66b9ea09bd5b7099cbb4fc820f31b575c0366fa439b08245566692c6784e281e",
+     "template_sha256": "1e65450c30670713aa47fe23e8b9662bdf4065e81cc8e3cbfaa98924fcc0d320",
+     "weights_sha256": "c1e659736d89ac1065fb495330fb824d94001974a4bfa78e7270e43476a8d940"
+    },
+    "qwen3-8b": {
+     "capabilities": [
+      "completion",
+      "tools",
+      "thinking"
+     ],
+     "details": {
+      "families": [
+       "qwen3"
+      ],
+      "family": "qwen3",
+      "format": "gguf",
+      "parameter_size": "8.2B",
+      "parent_model": "pdcps-qwen3-8b:latest",
+      "quantization_level": "Q4_K_M",
+      "runner": "llamacpp"
+     },
+     "digest": "7d07e5abb4cc8e8183242d8b75b3bbf9c55d59cd796bb5a558f17234049d5ac7",
+     "modified_at": "2026-10-25T15:11:00Z",
+     "ollama_version": "0.40.11",
+     "parameters": "temperature                    0.6\ntop_k                          20\ntop_p                          0.95\nrepeat_penalty                 1\nstop                           \"<|im_start|>\"\nstop                           \"<|im_end|>\"",
+     "size": 5027785446,
+     "system_sha256": null,
+     "template_sha256": "ae370d884f108d16e7cc8fd5259ebc5773a0afa6e078b11f4ed7e39a27e0dfc4",
+     "weights_sha256": "d98cdcbd03e17ce47681435b5150e34c1417f50b5c0019dd560e4882c5745785"
+    }
+   },
+   "started_at": "2026-10-26T12:10:32Z"
+  },
+  {
+   "concurrency": 1,
+   "finished_at": "2026-10-27T10:11:01Z",
+   "host": "host-12f82d2010",
+   "n_pairs": 1286,
+   "n_todo": {
+    "gpt-oss-20b": 5,
+    "granite3.3-8b": 5,
+    "llama3.2-3b": 25,
+    "phi4-14b": 5,
+    "qwen3-8b": 5
+   },
+   "pass": "resample",
+   "plan": {
+    "classification": {
+     "classified_at": "2026-10-27T09:46:03Z",
+     "derived_sha256": "ef18ddaa6908d50c0d51f74324563e9024ec979640504e44de6dd3cad72eeca4",
+     "harness_sha256": "41640645869f5cf0f4a85179b7a31429f467d6e2231ed3f39414e1e70e927d92"
+    },
+    "created_at": "2026-10-27T09:57:59Z",
+    "n": 5,
+    "n_pairs": 1286,
+    "path": "resample_plan.json",
+    "sha256": "ed9cec2934aa73c0f8a01ac672d91cd6c9a62a7516df03c49ff1d22028449b5f"
+   },
+   "resample": {
+    "concurrency": 1,
+    "n": 5,
+    "seeds_from": 1,
+    "temperature": 0.7
+   },
+   "run_id": "study-ollama-2027",
+   "served": {
+    "gpt-oss-20b": {
+     "capabilities": [
+      "completion",
+      "tools",
+      "thinking"
+     ],
+     "details": {
+      "families": [
+       "gpt-oss"
+      ],
+      "family": "gpt-oss",
+      "format": "gguf",
+      "parameter_size": "20.9B",
+      "parent_model": "pdcps-gpt-oss-20b:latest",
+      "quantization_level": "MXFP4_MOE",
+      "runner": "llamacpp"
+     },
+     "digest": "131e1bdccf9f3fdd832b729ca7791cd1bc7b5f870647baa28c78424904b20eea",
+     "modified_at": "2026-10-25T15:16:44Z",
+     "ollama_version": "0.40.11",
+     "parameters": "temperature                    1",
+     "size": 12109574005,
+     "system_sha256": null,
+     "template_sha256": "fa6710a93d78da62641e192361344be7a8c0a1c3737f139cf89f20ce1626b99c",
+     "weights_sha256": "27cd6c432c7672cb812a92f611cf3ba7bbc35928262bb1e1253ff4ee6ae35901"
+    },
+    "granite3.3-8b": {
+     "capabilities": [
+      "completion",
+      "tools"
+     ],
+     "details": {
+      "families": [
+       "granite"
+      ],
+      "family": "granite",
+      "format": "gguf",
+      "parameter_size": "8.2B",
+      "parent_model": "pdcps-granite3.3-8b:latest",
+      "quantization_level": "Q4_K_M",
+      "runner": "llamacpp"
+     },
+     "digest": "1507fe03146fc40a19e3cd6e0399740ca8c2b0d6537f769648b4ed74d8eb1e2f",
+     "modified_at": "2026-10-25T15:12:09Z",
+     "ollama_version": "0.40.11",
+     "parameters": null,
+     "size": 4942880023,
+     "system_sha256": null,
+     "template_sha256": "3da071a01bbe5a1aa1e9766149ff67ed2b232f63d55e6ed50e3777b74536a67f",
+     "weights_sha256": "77bcee066a76dcdd10d0d123c87e32c8ec2c74e31b6ffd87ebee49c9ac215dca"
+    },
+    "llama3.2-3b": {
+     "capabilities": [
+      "completion",
+      "tools"
+     ],
+     "details": {
+      "families": [
+       "llama"
+      ],
+      "family": "llama",
+      "format": "gguf",
+      "parameter_size": "3.2B",
+      "parent_model": "pdcps-llama3.2-3b:latest",
+      "quantization_level": "Q4_K_M",
+      "runner": "llamacpp"
+     },
+     "digest": "0a7012f1f5b43b1d96193c8f2c11a833ea6f9d1cdaa31242e422fc0b1dcda75d",
+     "modified_at": "2026-10-25T15:09:01Z",
+     "ollama_version": "0.40.11",
+     "parameters": "stop                           \"<|start_header_id|>\"\nstop                           \"<|end_header_id|>\"\nstop                           \"<|eot_id|>\"",
+     "size": 2019379336,
+     "system_sha256": null,
+     "template_sha256": "966de95ca8a62200913e3f8bfbf84c8494536f1b94b49166851e76644e966396",
+     "weights_sha256": "6c1a2b41161032677be168d354123594c0e6e67d2b9227c84f296ad037c728ff"
+    },
+    "phi4-14b": {
+     "capabilities": [
+      "completion"
+     ],
+     "details": {
+      "families": [
+       "phi3"
+      ],
+      "family": "phi3",
+      "format": "gguf",
+      "parameter_size": "14.7B",
+      "parent_model": "pdcps-phi4-14b:latest",
+      "quantization_level": "Q4_K_M",
+      "runner": "llamacpp"
+     },
+     "digest": "328d7618fd920867a68797d5ca48ab475d5bcd1f5de3695bc0d7fd31524565cc",
+     "modified_at": "2026-10-25T15:14:47Z",
+     "ollama_version": "0.40.11",
+     "parameters": "stop                           \"<|im_start|>\"\nstop                           \"<|im_end|>\"\nstop                           \"<|im_sep|>\"",
+     "size": 9053115031,
+     "system_sha256": null,
+     "template_sha256": "32695b892af87ef8fca6e13a1a31c67c1441d7398be037e366e2fc763857c06a",
+     "weights_sha256": "5652b9be0ea4ae2842130d04fe31bc869fcb99a2b7106c53b4e754a343fd688f"
+    },
+    "qwen3-8b": {
+     "capabilities": [
+      "completion",
+      "tools",
+      "thinking"
+     ],
+     "details": {
+      "families": [
+       "qwen3"
+      ],
+      "family": "qwen3",
+      "format": "gguf",
+      "parameter_size": "8.2B",
+      "parent_model": "pdcps-qwen3-8b:latest",
+      "quantization_level": "Q4_K_M",
+      "runner": "llamacpp"
+     },
+     "digest": "7d07e5abb4cc8e8183242d8b75b3bbf9c55d59cd796bb5a558f17234049d5ac7",
+     "modified_at": "2026-10-25T15:11:00Z",
+     "ollama_version": "0.40.11",
+     "parameters": "repeat_penalty                 1\nstop                           \"<|im_start|>\"\nstop                           \"<|im_end|>\"\ntemperature                    0.6\ntop_k                          20\ntop_p                          0.95",
+     "size": 5027785446,
+     "system_sha256": null,
+     "template_sha256": "ae370d884f108d16e7cc8fd5259ebc5773a0afa6e078b11f4ed7e39a27e0dfc4",
+     "weights_sha256": "d98cdcbd03e17ce47681435b5150e34c1417f50b5c0019dd560e4882c5745785"
+    }
+   },
+   "started_at": "2026-10-27T10:05:44Z"
+  },
+  {
+   "concurrency": 1,
+   "finished_at": "2026-10-28T08:54:57Z",
+   "host": "host-12f82d2010",
+   "n_pairs": 1286,
+   "n_todo": {
+    "qwen2.5-coder-32b": 455
+   },
+   "pass": "resample",
+   "plan": {
+    "classification": {
+     "classified_at": "2026-10-27T09:46:03Z",
+     "derived_sha256": "ef18ddaa6908d50c0d51f74324563e9024ec979640504e44de6dd3cad72eeca4",
+     "harness_sha256": "41640645869f5cf0f4a85179b7a31429f467d6e2231ed3f39414e1e70e927d92"
+    },
+    "created_at": "2026-10-27T09:57:59Z",
+    "n": 5,
+    "n_pairs": 1286,
+    "path": "resample_plan.json",
+    "sha256": "ed9cec2934aa73c0f8a01ac672d91cd6c9a62a7516df03c49ff1d22028449b5f"
+   },
+   "resample": {
+    "concurrency": 1,
+    "n": 5,
+    "seeds_from": 1,
+    "temperature": 0.7
+   },
+   "run_id": "study-ollama-2027",
+   "served": {
+    "qwen2.5-coder-32b": {
+     "capabilities": [
+      "completion",
+      "tools",
+      "insert"
+     ],
+     "details": {
+      "families": [
+       "qwen2"
+      ],
+      "family": "qwen2",
+      "format": "gguf",
+      "parameter_size": "32.8B",
+      "parent_model": "pdcps-qwen2.5-coder-32b:latest",
+      "quantization_level": "Q4_K_M",
+      "runner": "llamacpp"
+     },
+     "digest": "32e812c3495e06700ca785847bb2d5fe55f401d775c60e70e4198f2a1432049c",
+     "modified_at": "2026-10-25T15:19:05Z",
+     "ollama_version": "0.40.11",
+     "parameters": null,
+     "size": 19851337671,
+     "system_sha256": "66b9ea09bd5b7099cbb4fc820f31b575c0366fa439b08245566692c6784e281e",
+     "template_sha256": "1e65450c30670713aa47fe23e8b9662bdf4065e81cc8e3cbfaa98924fcc0d320",
+     "weights_sha256": "4d64b316b5e6319d9613e0d97935d9ebd631fc7e334da400d00085eca749d085"
+    }
+   },
+   "started_at": "2026-10-27T13:18:54Z"
+  }
+ ],
+ "run_id": "study-ollama-2027"
+}

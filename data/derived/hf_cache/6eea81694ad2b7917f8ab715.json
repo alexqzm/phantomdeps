@@ -1,0 +1,247 @@
+{
+ "url": "https://huggingface.co/api/models/google/gemma-3-12b-it/tree/main?expand=true",
+ "body": null,
+ "retrieved_at": "2026-10-24T20:45:09Z",
+ "answer": [
+  {
+   "type": "file",
+   "oid": "3c4370fda8fab65837da0173e4e02cfa23e598b4",
+   "size": 1967,
+   "path": ".gitattributes",
+   "lastCommit": {
+    "id": "3aa32c4736f797ef44063d373d5964b603f93be2",
+    "title": "Super-squash branch 'main' using huggingface_hub",
+    "date": "2025-03-12T05:28:48.000Z"
+   }
+  },
+  {
+   "type": "file",
+   "oid": "83dba03ddca6dff78d9c0bb6f9f93bb8eabd6410",
+   "size": 25126,
+   "path": "README.md",
+   "lastCommit": {
+    "id": "96b6f1eccf38110c56df3a15bffe176da04bfd80",
+    "title": "Update README.md (#15)",
+    "date": "2025-03-21T20:28:56.000Z"
+   }
+  },
+  {
+   "type": "file",
+   "oid": "e17bde03d42feda32d1abfca6d3b598b9a020df7",
+   "size": 35,
+   "path": "added_tokens.json",
+   "lastCommit": {
+    "id": "3aa32c4736f797ef44063d373d5964b603f93be2",
+    "title": "Super-squash branch 'main' using huggingface_hub",
+    "date": "2025-03-12T05:28:48.000Z"
+   }
+  },
+  {
+   "type": "file",
+   "oid": "719b0cd0d7a373a400b0c119ee0e051f41ea88d9",
+   "size": 1615,
+   "path": "chat_template.json",
+   "lastCommit": {
+    "id": "6df4c7db8302b598354643ce6e2e26d731f57b21",
+    "title": "Update chat_template (#4)",
+    "date": "2025-03-12T06:39:30.000Z"
+   }
+  },
+  {
+   "type": "file",
+   "oid": "0fbe1ff508fb71af7056eed3397faaa0349a8f09",
+   "size": 916,
+   "path": "config.json",
+   "lastCommit": {
+    "id": "3aa32c4736f797ef44063d373d5964b603f93be2",
+    "title": "Super-squash branch 'main' using huggingface_hub",
+    "date": "2025-03-12T05:28:48.000Z"
+   }
+  },
+  {
+   "type": "file",
+   "oid": "37a4c871d263a349f50e4a313db3e72164950702",
+   "size": 215,
+   "path": "generation_config.json",
+   "lastCommit": {
+    "id": "d82ecc1b79eba2aa13792d4ae3eadc2426565ee1",
+    "title": "Adding top_k and top_p to generation_config.json",
+    "date": "2025-03-19T15:47:47.000Z"
+   }
+  },
+  {
+   "type": "file",
+   "oid": "b31bb2df2dc13fd8028e51899bdb1e7a4fb6d167",
+   "size": 4979902192,
+   "lfs": {
+    "oid": "****************************************************************",
+    "size": 4979902192,
+    "pointerSize": 135
+   },
+   "xetHash": "****************************************************************",
+   "path": "model-00001-of-00005.safetensors",
+   "lastCommit": {
+    "id": "3aa32c4736f797ef44063d373d5964b603f93be2",
+    "title": "Super-squash branch 'main' using huggingface_hub",
+    "date": "2025-03-12T05:28:48.000Z"
+   }
+  },
+  {
+   "type": "file",
+   "oid": "5eb217601f2c82b83e3e7ae754d183429d9dde4e",
+   "size": 4931296592,
+   "lfs": {
+    "oid": "****************************************************************",
+    "size": 4931296592,
+    "pointerSize": 135
+   },
+   "xetHash": "****************************************************************",
+   "path": "model-00002-of-00005.safetensors",
+   "lastCommit": {
+    "id": "3aa32c4736f797ef44063d373d5964b603f93be2",
+    "title": "Super-squash branch 'main' using huggingface_hub",
+    "date": "2025-03-12T05:28:48.000Z"
+   }
+  },
+  {
+   "type": "file",
+   "oid": "425bcf00b3eb7c7ef42496d1500591e4f8068b72",
+   "size": 4931296656,
+   "lfs": {
+    "oid": "****************************************************************",
+    "size": 4931296656,
+    "pointerSize": 135
+   },
+   "xetHash": "****************************************************************",
+   "path": "model-00003-of-00005.safetensors",
+   "lastCommit": {
+    "id": "3aa32c4736f797ef44063d373d5964b603f93be2",
+    "title": "Super-squash branch 'main' using huggingface_hub",
+    "date": "2025-03-12T05:28:48.000Z"
+   }
+  },
+  {
+   "type": "file",
+   "oid": "71b7dba9bf563fdb2f5cc1a518483adfdc91d1a3",
+   "size": 4931296656,
+   "lfs": {
+    "oid": "****************************************************************",
+    "size": 4931296656,
+    "pointerSize": 135
+   },
+   "xetHash": "****************************************************************",
+   "path": "model-00004-of-00005.safetensors",
+   "lastCommit": {
+    "id": "3aa32c4736f797ef44063d373d5964b603f93be2",
+    "title": "Super-squash branch 'main' using huggingface_hub",
+    "date": "2025-03-12T05:28:48.000Z"
+   }
+  },
+  {
+   "type": "file",
+   "oid": "2e7be9e5bfa8222c2bfe34159586d2b1f35fd505",
+   "size": 4601000928,
+   "lfs": {
+    "oid": "****************************************************************",
+    "size": 4601000928,
+    "pointerSize": 135
+   },
+   "xetHash": "****************************************************************",
+   "path": "model-00005-of-00005.safetensors",
+   "lastCommit": {
+    "id": "3aa32c4736f797ef44063d373d5964b603f93be2",
+    "title": "Super-squash branch 'main' using huggingface_hub",
+    "date": "2025-03-12T05:28:48.000Z"
+   }
+  },
+  {
+   "type": "file",
+   "oid": "c5eb054c21efb5496f4623aeb619a750c9ed9357",
+   "size": 108605,
+   "path": "model.safetensors.index.json",
+   "lastCommit": {
+    "id": "3aa32c4736f797ef44063d373d5964b603f93be2",
+    "title": "Super-squash branch 'main' using huggingface_hub",
+    "date": "2025-03-12T05:28:48.000Z"
+   }
+  },
+  {
+   "type": "file",
+   "oid": "b1e00fc184f61b698181821169c6374cd5813e5c",
+   "size": 570,
+   "path": "preprocessor_config.json",
+   "lastCommit": {
+    "id": "3aa32c4736f797ef44063d373d5964b603f93be2",
+    "title": "Super-squash branch 'main' using huggingface_hub",
+    "date": "2025-03-12T05:28:48.000Z"
+   }
+  },
+  {
+   "type": "file",
+   "oid": "453c7966d4b5d0b4a317c585989f64c58c2a6bf0",
+   "size": 70,
+   "path": "processor_config.json",
+   "lastCommit": {
+    "id": "3aa32c4736f797ef44063d373d5964b603f93be2",
+    "title": "Super-squash branch 'main' using huggingface_hub",
+    "date": "2025-03-12T05:28:48.000Z"
+   }
+  },
+  {
+   "type": "file",
+   "oid": "1a6193244714d3d78be48666cb02cdbfac62ad86",
+   "size": 662,
+   "path": "special_tokens_map.json",
+   "lastCommit": {
+    "id": "3aa32c4736f797ef44063d373d5964b603f93be2",
+    "title": "Super-squash branch 'main' using huggingface_hub",
+    "date": "2025-03-12T05:28:48.000Z"
+   }
+  },
+  {
+   "type": "file",
+   "oid": "29401f984828a18bb09a6128d437c6766785eb66",
+   "size": 33384568,
+   "lfs": {
+    "oid": "****************************************************************",
+    "size": 33384568,
+    "pointerSize": 133
+   },
+   "xetHash": "****************************************************************",
+   "path": "tokenizer.json",
+   "lastCommit": {
+    "id": "6df4c7db8302b598354643ce6e2e26d731f57b21",
+    "title": "Update chat_template (#4)",
+    "date": "2025-03-12T06:39:30.000Z"
+   }
+  },
+  {
+   "type": "file",
+   "oid": "14f810a829755bae3fafd6f97096dbd2eac556bd",
+   "size": 4689074,
+   "lfs": {
+    "oid": "****************************************************************",
+    "size": 4689074,
+    "pointerSize": 132
+   },
+   "xetHash": "****************************************************************",
+   "path": "tokenizer.model",
+   "lastCommit": {
+    "id": "3aa32c4736f797ef44063d373d5964b603f93be2",
+    "title": "Super-squash branch 'main' using huggingface_hub",
+    "date": "2025-03-12T05:28:48.000Z"
+   }
+  },
+  {
+   "type": "file",
+   "oid": "7bdd14f0eaec30c8d2c56bc9d543587676e19c0f",
+   "size": 1156999,
+   "path": "tokenizer_config.json",
+   "lastCommit": {
+    "id": "6df4c7db8302b598354643ce6e2e26d731f57b21",
+    "title": "Update chat_template (#4)",
+    "date": "2025-03-12T06:39:30.000Z"
+   }
+  }
+ ]
+}

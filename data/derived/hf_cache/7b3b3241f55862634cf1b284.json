@@ -1,0 +1,259 @@
+{
+ "url": "https://huggingface.co/api/models/ggml-org/gemma-3-12b-it-GGUF/tree/main?expand=true",
+ "body": null,
+ "retrieved_at": "2026-10-24T20:45:09Z",
+ "answer": [
+  {
+   "type": "file",
+   "oid": "696d5361a2d61b867db5815347d095351df3dfe4",
+   "size": 1820,
+   "path": ".gitattributes",
+   "lastCommit": {
+    "id": "1f36e7e20445fa79c97638eddb29ebffd975ab2f",
+    "title": "Super-squash branch 'main' using huggingface_hub",
+    "date": "2025-03-12T09:08:54.000Z"
+   },
+   "securityFileStatus": {
+    "status": "safe",
+    "protectAiScan": {
+     "status": "safe",
+     "message": "This file has no security findings.",
+     "reportLink": "https://insights-db.paloaltonetworks.com/models/ggml-org/gemma-3-12b-it-GGUF/ec0cbabd8dbff316f659876a50202295c3c4a314/files?blob-id=696d5361a2d61b867db5815347d095351df3dfe4&utm_source=huggingface"
+    },
+    "avScan": {
+     "status": "safe",
+     "message": "No security issues detected",
+     "reportLink": "https://fdtn.ai/ai-supply-chain/hugging-face?utm_source=huggingface"
+    },
+    "pickleImportScan": {
+     "status": "unscanned",
+     "pickleImports": [],
+     "version": "0.0.0"
+    },
+    "virusTotalScan": {
+     "status": "unscanned"
+    },
+    "jFrogScan": {
+     "status": "unscanned",
+     "message": "Not a machine-learning model"
+    }
+   }
+  },
+  {
+   "type": "file",
+   "oid": "d647fa87d4433572fe3ff524d3a3614c42e70ed7",
+   "size": 21857,
+   "path": "README.md",
+   "lastCommit": {
+    "id": "ec0cbabd8dbff316f659876a50202295c3c4a314",
+    "title": "Update README.md",
+    "date": "2025-05-21T15:38:00.000Z"
+   },
+   "securityFileStatus": {
+    "status": "safe",
+    "protectAiScan": {
+     "status": "safe",
+     "message": "This file has no security findings.",
+     "reportLink": "https://insights-db.paloaltonetworks.com/models/ggml-org/gemma-3-12b-it-GGUF/ec0cbabd8dbff316f659876a50202295c3c4a314/files?blob-id=d647fa87d4433572fe3ff524d3a3614c42e70ed7&utm_source=huggingface"
+    },
+    "avScan": {
+     "status": "safe",
+     "message": "No security issues detected",
+     "reportLink": "https://fdtn.ai/ai-supply-chain/hugging-face?utm_source=huggingface"
+    },
+    "pickleImportScan": {
+     "status": "unscanned",
+     "pickleImports": [],
+     "version": "0.0.0"
+    },
+    "virusTotalScan": {
+     "status": "unscanned"
+    },
+    "jFrogScan": {
+     "status": "unscanned",
+     "message": "Not a machine-learning model"
+    }
+   }
+  },
+  {
+   "type": "file",
+   "oid": "26d4c4a049296bd399cbb094cdd1764dfedcbe9e",
+   "size": 7300574976,
+   "lfs": {
+    "oid": "7bb69bff3f48a7b642355d64a90e481182a7794707b3133890646b1efa778ff5",
+    "size": 7300574976,
+    "pointerSize": 135
+   },
+   "xetHash": "03b0673c78ad7f2208af553b3a6b82ccb14a709ea98c0f470df3de914225eaf3",
+   "path": "gemma-3-12b-it-Q4_K_M.gguf",
+   "lastCommit": {
+    "id": "1f36e7e20445fa79c97638eddb29ebffd975ab2f",
+    "title": "Super-squash branch 'main' using huggingface_hub",
+    "date": "2025-03-12T09:08:54.000Z"
+   },
+   "securityFileStatus": {
+    "status": "safe",
+    "protectAiScan": {
+     "status": "safe",
+     "message": "This file is vulnerable to threat(s) PAIT-GGUF-100.",
+     "reportLink": "https://insights-db.paloaltonetworks.com/models/ggml-org/gemma-3-12b-it-GGUF/ec0cbabd8dbff316f659876a50202295c3c4a314/files?blob-id=26d4c4a049296bd399cbb094cdd1764dfedcbe9e&utm_source=huggingface"
+    },
+    "avScan": {
+     "status": "unscanned",
+     "message": "",
+     "version": "1.5.2/27948"
+    },
+    "pickleImportScan": {
+     "status": "unscanned",
+     "pickleImports": [],
+     "version": "0.0.0"
+    },
+    "virusTotalScan": {
+     "status": "safe",
+     "message": "0/73 engines detect it as malicious.",
+     "reportLink": "https://www.virustotal.com/gui/file/7bb69bff3f48a7b642355d64a90e481182a7794707b3133890646b1efa778ff5?utm_source=huggingface"
+    },
+    "jFrogScan": {
+     "status": "safe",
+     "message": "Safe GGUF model",
+     "reportLink": "https://research.jfrog.com/model-threats/gguf-ssti?utm_source=huggingface"
+    }
+   }
+  },
+  {
+   "type": "file",
+   "oid": "ec8f4d178914b28a06af431b814f15f5f78c75aa",
+   "size": 12509949696,
+   "lfs": {
+    "oid": "0fb3edf649e9e268700467c02d11513a7e401e7c2ff95d4e1420dfe96da73990",
+    "size": 12509949696,
+    "pointerSize": 136
+   },
+   "xetHash": "eaa6afd357b33c491e9ea64432023ae7ea82e8add24f2ed3a3864c012f049e21",
+   "path": "gemma-3-12b-it-Q8_0.gguf",
+   "lastCommit": {
+    "id": "1f36e7e20445fa79c97638eddb29ebffd975ab2f",
+    "title": "Super-squash branch 'main' using huggingface_hub",
+    "date": "2025-03-12T09:08:54.000Z"
+   },
+   "securityFileStatus": {
+    "status": "safe",
+    "protectAiScan": {
+     "status": "safe",
+     "message": "This file is vulnerable to threat(s) PAIT-GGUF-100.",
+     "reportLink": "https://insights-db.paloaltonetworks.com/models/ggml-org/gemma-3-12b-it-GGUF/ec0cbabd8dbff316f659876a50202295c3c4a314/files?blob-id=ec8f4d178914b28a06af431b814f15f5f78c75aa&utm_source=huggingface"
+    },
+    "avScan": {
+     "status": "unscanned",
+     "message": "",
+     "version": "1.4.2/27663"
+    },
+    "pickleImportScan": {
+     "status": "unscanned",
+     "pickleImports": [],
+     "version": "0.0.0"
+    },
+    "virusTotalScan": {
+     "status": "unscanned",
+     "message": "File not scanned in VirusTotal",
+     "reportLink": "https://www.virustotal.com/gui/file/0fb3edf649e9e268700467c02d11513a7e401e7c2ff95d4e1420dfe96da73990?utm_source=huggingface"
+    },
+    "jFrogScan": {
+     "status": "safe",
+     "message": "Safe GGUF model",
+     "reportLink": "https://research.jfrog.com/model-threats/gguf-ssti?utm_source=huggingface"
+    }
+   }
+  },
+  {
+   "type": "file",
+   "oid": "fe98ab0fa10995f4c9fa073add2858fd342f258a",
+   "size": 23539658496,
+   "lfs": {
+    "oid": "78cd8535609c7b1c517c2b6a2f2935486e915e116f9d74863a8e787e1c08ef44",
+    "size": 23539658496,
+    "pointerSize": 136
+   },
+   "xetHash": "c0b1acc60b887ae21e7611a209ae85beac294e9c58228dfca48cdd7856252e1d",
+   "path": "gemma-3-12b-it-f16.gguf",
+   "lastCommit": {
+    "id": "1f36e7e20445fa79c97638eddb29ebffd975ab2f",
+    "title": "Super-squash branch 'main' using huggingface_hub",
+    "date": "2025-03-12T09:08:54.000Z"
+   },
+   "securityFileStatus": {
+    "status": "safe",
+    "protectAiScan": {
+     "status": "safe",
+     "message": "This file is vulnerable to threat(s) PAIT-GGUF-100.",
+     "reportLink": "https://insights-db.paloaltonetworks.com/models/ggml-org/gemma-3-12b-it-GGUF/ec0cbabd8dbff316f659876a50202295c3c4a314/files?blob-id=fe98ab0fa10995f4c9fa073add2858fd342f258a&utm_source=huggingface"
+    },
+    "avScan": {
+     "status": "unscanned",
+     "message": "",
+     "version": "1.4.2/27662"
+    },
+    "pickleImportScan": {
+     "status": "unscanned",
+     "pickleImports": [],
+     "version": "0.0.0"
+    },
+    "virusTotalScan": {
+     "status": "unscanned",
+     "message": "File not scanned in VirusTotal",
+     "reportLink": "https://www.virustotal.com/gui/file/78cd8535609c7b1c517c2b6a2f2935486e915e116f9d74863a8e787e1c08ef44?utm_source=huggingface"
+    },
+    "jFrogScan": {
+     "status": "safe",
+     "message": "Safe GGUF model",
+     "reportLink": "https://research.jfrog.com/model-threats/gguf-ssti?utm_source=huggingface"
+    }
+   }
+  },
+  {
+   "type": "file",
+   "oid": "7c64fe441b3e80646ff3c5b75d43ef1187e3993e",
+   "size": 854200224,
+   "lfs": {
+    "oid": "30c02d056410848227001830866e0a269fcc28aaf8ca971bded494003de9f5a5",
+    "size": 854200224,
+    "pointerSize": 134
+   },
+   "xetHash": "2ab9f9a8e24eca7e838bc6bf5ea7b74adeb119269044acdebfaa49f6be698641",
+   "path": "mmproj-model-f16.gguf",
+   "lastCommit": {
+    "id": "1f36e7e20445fa79c97638eddb29ebffd975ab2f",
+    "title": "Super-squash branch 'main' using huggingface_hub",
+    "date": "2025-03-12T09:08:54.000Z"
+   },
+   "securityFileStatus": {
+    "status": "safe",
+    "protectAiScan": {
+     "status": "safe",
+     "message": "This file has no security findings.",
+     "reportLink": "https://insights-db.paloaltonetworks.com/models/ggml-org/gemma-3-12b-it-GGUF/ec0cbabd8dbff316f659876a50202295c3c4a314/files?blob-id=7c64fe441b3e80646ff3c5b75d43ef1187e3993e&utm_source=huggingface"
+    },
+    "avScan": {
+     "status": "safe",
+     "message": "No security issues detected",
+     "reportLink": "https://fdtn.ai/ai-supply-chain/hugging-face?utm_source=huggingface"
+    },
+    "pickleImportScan": {
+     "status": "unscanned",
+     "pickleImports": [],
+     "version": "0.0.0"
+    },
+    "virusTotalScan": {
+     "status": "safe",
+     "message": "0/74 engines detect it as malicious.",
+     "reportLink": "https://www.virustotal.com/gui/file/30c02d056410848227001830866e0a269fcc28aaf8ca971bded494003de9f5a5?utm_source=huggingface"
+    },
+    "jFrogScan": {
+     "status": "safe",
+     "message": "Safe GGUF model",
+     "reportLink": "https://research.jfrog.com/model-threats/gguf-ssti?utm_source=huggingface"
+    }
+   }
+  }
+ ]
+}

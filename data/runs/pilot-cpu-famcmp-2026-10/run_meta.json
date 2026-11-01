@@ -1,0 +1,317 @@
+{
+ "invocations": [
+  {
+   "concurrency": 1,
+   "config": {
+    "_path": "../config/run_pilot_cpu_famcmp.yaml",
+    "concurrency": 1,
+    "endpoint": "http://127.0.0.1:8081",
+    "families": [
+     "F1",
+     "F2"
+    ],
+    "llama_cpp_commit": "06230cb8775899cceef146c19cd447a947ecac5b",
+    "models": [
+     {
+      "family_name": "Qwen2.5-Coder",
+      "file": "/home/claude/models/qwen2.5-coder-1.5b-instruct-q4_k_m.gguf",
+      "gguf_repo": "Qwen/Qwen2.5-Coder-1.5B-Instruct-GGUF",
+      "horizon": "2024-09-18T09:41:47Z",
+      "horizon_source": "Hugging Face createdAt of Qwen/Qwen2.5-Coder-1.5B-Instruct (superseded, see model_horizons.json)",
+      "id": "qwen2.5-coder-1.5b-instruct",
+      "params_b": 1.5,
+      "quant": "Q4_K_M (GGUF, Qwen/Qwen2.5-Coder-1.5B-Instruct-GGUF)",
+      "server_cmd": "/home/claude/tools/llama.cpp/build/bin/llama-server -m {file} --host 127.0.0.1 --port 8081 -t 2 -c 4096 --cache-ram 0 --no-webui",
+      "sha256": "cc324af070c2ecbfd324a30884d2f951a7ff756aba85cb811a6ec436933bb046",
+      "source_repo": "Qwen/Qwen2.5-Coder-1.5B-Instruct"
+     }
+    ],
+    "params": {
+     "max_tokens": {
+      "F1": 1536,
+      "F2": 1536
+     },
+     "repeat_penalty": 1.1,
+     "top_p": 1.0
+    },
+    "role": "family_comparison",
+    "run_id": "pilot-cpu-famcmp-2026-10",
+    "samples": [
+     {
+      "idx": 0,
+      "seed": 20240628,
+      "temperature": 0.0
+     }
+    ],
+    "tasks": [
+     "arduino-01",
+     "arduino-04",
+     "arduino-06",
+     "arduino-09",
+     "arduino-10",
+     "arduino-11",
+     "platformio-02",
+     "platformio-03",
+     "platformio-06",
+     "platformio-10",
+     "platformio-11",
+     "platformio-12",
+     "espidf-02",
+     "espidf-03",
+     "espidf-04",
+     "espidf-07",
+     "espidf-09",
+     "espidf-11",
+     "ros2-01",
+     "ros2-02",
+     "ros2-05",
+     "ros2-07",
+     "ros2-11",
+     "ros2-12",
+     "crates-03",
+     "crates-04",
+     "crates-05",
+     "crates-10",
+     "crates-11",
+     "crates-12",
+     "micropython-03",
+     "micropython-05",
+     "micropython-06",
+     "micropython-07",
+     "micropython-09",
+     "micropython-10",
+     "pypi-01",
+     "pypi-02",
+     "pypi-05",
+     "pypi-07",
+     "pypi-09",
+     "pypi-11",
+     "npm-02",
+     "npm-04",
+     "npm-05",
+     "npm-07",
+     "npm-09",
+     "npm-11"
+    ]
+   },
+   "corpus_sha256": "d113553800885a887a870abfdd43c5e596a1a368ba98727adf4970eb428eb6cc",
+   "finished_at": "2026-10-24T12:30:41Z",
+   "host": "vm",
+   "n_todo": {
+    "qwen2.5-coder-1.5b-instruct": 48
+   },
+   "pass": "generate",
+   "run_id": "pilot-cpu-famcmp-2026-10",
+   "started_at": "2026-10-24T11:46:24Z"
+  },
+  {
+   "concurrency": 1,
+   "config": {
+    "_path": "../config/run_pilot_cpu_famcmp.yaml",
+    "concurrency": 1,
+    "endpoint": "http://127.0.0.1:8081",
+    "families": [
+     "F1",
+     "F2"
+    ],
+    "llama_cpp_commit": "06230cb8775899cceef146c19cd447a947ecac5b",
+    "models": [
+     {
+      "family_name": "Qwen2.5-Coder",
+      "file": "/home/claude/models/qwen2.5-coder-1.5b-instruct-q4_k_m.gguf",
+      "gguf_repo": "Qwen/Qwen2.5-Coder-1.5B-Instruct-GGUF",
+      "horizon": "2024-09-18T09:41:47Z",
+      "horizon_source": "Hugging Face createdAt of Qwen/Qwen2.5-Coder-1.5B-Instruct (superseded, see model_horizons.json)",
+      "id": "qwen2.5-coder-1.5b-instruct",
+      "params_b": 1.5,
+      "quant": "Q4_K_M (GGUF, Qwen/Qwen2.5-Coder-1.5B-Instruct-GGUF)",
+      "server_cmd": "/home/claude/tools/llama.cpp/build/bin/llama-server -m {file} --host 127.0.0.1 --port 8081 -t 2 -c 4096 --cache-ram 0 --no-webui",
+      "sha256": "cc324af070c2ecbfd324a30884d2f951a7ff756aba85cb811a6ec436933bb046",
+      "source_repo": "Qwen/Qwen2.5-Coder-1.5B-Instruct"
+     }
+    ],
+    "params": {
+     "max_tokens": {
+      "F1": 1536,
+      "F2": 1536
+     },
+     "repeat_penalty": 1.1,
+     "top_p": 1.0
+    },
+    "role": "family_comparison",
+    "run_id": "pilot-cpu-famcmp-2026-10",
+    "samples": [
+     {
+      "idx": 0,
+      "seed": 20240628,
+      "temperature": 0.0
+     }
+    ],
+    "tasks": [
+     "arduino-01",
+     "arduino-04",
+     "arduino-06",
+     "arduino-09",
+     "arduino-10",
+     "arduino-11",
+     "platformio-02",
+     "platformio-03",
+     "platformio-06",
+     "platformio-10",
+     "platformio-11",
+     "platformio-12",
+     "espidf-02",
+     "espidf-03",
+     "espidf-04",
+     "espidf-07",
+     "espidf-09",
+     "espidf-11",
+     "ros2-01",
+     "ros2-02",
+     "ros2-05",
+     "ros2-07",
+     "ros2-11",
+     "ros2-12",
+     "crates-03",
+     "crates-04",
+     "crates-05",
+     "crates-10",
+     "crates-11",
+     "crates-12",
+     "micropython-03",
+     "micropython-05",
+     "micropython-06",
+     "micropython-07",
+     "micropython-09",
+     "micropython-10",
+     "pypi-01",
+     "pypi-02",
+     "pypi-05",
+     "pypi-07",
+     "pypi-09",
+     "pypi-11",
+     "npm-02",
+     "npm-04",
+     "npm-05",
+     "npm-07",
+     "npm-09",
+     "npm-11"
+    ]
+   },
+   "corpus_sha256": "d113553800885a887a870abfdd43c5e596a1a368ba98727adf4970eb428eb6cc",
+   "finished_at": "2026-10-24T13:08:13Z",
+   "host": "vm",
+   "n_todo": {
+    "qwen2.5-coder-1.5b-instruct": 24
+   },
+   "pass": "generate",
+   "run_id": "pilot-cpu-famcmp-2026-10",
+   "started_at": "2026-10-24T12:30:52Z"
+  },
+  {
+   "concurrency": 1,
+   "config": {
+    "_path": "../config/run_pilot_cpu_famcmp.yaml",
+    "concurrency": 1,
+    "endpoint": "http://127.0.0.1:8081",
+    "families": [
+     "F1",
+     "F2"
+    ],
+    "llama_cpp_commit": "06230cb8775899cceef146c19cd447a947ecac5b",
+    "models": [
+     {
+      "family_name": "Qwen2.5-Coder",
+      "file": "/home/claude/models/qwen2.5-coder-1.5b-instruct-q4_k_m.gguf",
+      "gguf_repo": "Qwen/Qwen2.5-Coder-1.5B-Instruct-GGUF",
+      "horizon": "2024-09-18T09:41:47Z",
+      "horizon_source": "Hugging Face createdAt of Qwen/Qwen2.5-Coder-1.5B-Instruct (superseded, see model_horizons.json)",
+      "id": "qwen2.5-coder-1.5b-instruct",
+      "params_b": 1.5,
+      "quant": "Q4_K_M (GGUF, Qwen/Qwen2.5-Coder-1.5B-Instruct-GGUF)",
+      "server_cmd": "/home/claude/tools/llama.cpp/build/bin/llama-server -m {file} --host 127.0.0.1 --port 8081 -t 2 -c 4096 --cache-ram 0 --no-webui",
+      "sha256": "cc324af070c2ecbfd324a30884d2f951a7ff756aba85cb811a6ec436933bb046",
+      "source_repo": "Qwen/Qwen2.5-Coder-1.5B-Instruct"
+     }
+    ],
+    "params": {
+     "max_tokens": {
+      "F1": 1536,
+      "F2": 1536
+     },
+     "repeat_penalty": 1.1,
+     "top_p": 1.0
+    },
+    "role": "family_comparison",
+    "run_id": "pilot-cpu-famcmp-2026-10",
+    "samples": [
+     {
+      "idx": 0,
+      "seed": 20240628,
+      "temperature": 0.0
+     }
+    ],
+    "tasks": [
+     "arduino-01",
+     "arduino-04",
+     "arduino-06",
+     "arduino-09",
+     "arduino-10",
+     "arduino-11",
+     "platformio-02",
+     "platformio-03",
+     "platformio-06",
+     "platformio-10",
+     "platformio-11",
+     "platformio-12",
+     "espidf-02",
+     "espidf-03",
+     "espidf-04",
+     "espidf-07",
+     "espidf-09",
+     "espidf-11",
+     "ros2-01",
+     "ros2-02",
+     "ros2-05",
+     "ros2-07",
+     "ros2-11",
+     "ros2-12",
+     "crates-03",
+     "crates-04",
+     "crates-05",
+     "crates-10",
+     "crates-11",
+     "crates-12",
+     "micropython-03",
+     "micropython-05",
+     "micropython-06",
+     "micropython-07",
+     "micropython-09",
+     "micropython-10",
+     "pypi-01",
+     "pypi-02",
+     "pypi-05",
+     "pypi-07",
+     "pypi-09",
+     "pypi-11",
+     "npm-02",
+     "npm-04",
+     "npm-05",
+     "npm-07",
+     "npm-09",
+     "npm-11"
+    ]
+   },
+   "corpus_sha256": "d113553800885a887a870abfdd43c5e596a1a368ba98727adf4970eb428eb6cc",
+   "finished_at": "2026-10-24T13:41:45Z",
+   "host": "vm",
+   "n_todo": {
+    "qwen2.5-coder-1.5b-instruct": 24
+   },
+   "pass": "generate",
+   "run_id": "pilot-cpu-famcmp-2026-10",
+   "started_at": "2026-10-24T13:11:07Z"
+  }
+ ],
+ "run_id": "pilot-cpu-famcmp-2026-10"
+}

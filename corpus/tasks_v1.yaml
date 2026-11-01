@@ -1,0 +1,196 @@
+# PhantomDeps-CPS task corpus v1.0
+# 8 ecosystems x 12 tasks = 96 tasks.  Tasks describe function and hardware only;
+# they never name a library, crate, component or package (the one exception is a
+# standard ROS message type where it defines the required interface), so every
+# dependency name in a response is chosen by the model.
+# tier (assigned a priori by the authors before any generation):
+#   common = widely documented hobby/industrial component or protocol
+#   niche  = less common device, fieldbus or security function
+# cat: sensing | actuation | iot | fieldbus | positioning | security | control | data | display | wireless | robotics
+
+version: "1.0"
+
+ecosystems:
+  arduino:
+    label: Arduino Library Manager
+    templates:
+      F1: >-
+        I'm using the Arduino IDE with the Library Manager. Board: {board}. Task: {task}
+        First list the exact libraries I must install as `arduino-cli lib install` commands,
+        then give the complete sketch.
+      F2: >-
+        I'm using the Arduino IDE with the Library Manager. Board: {board}. Task: {task}
+        Only list the exact libraries I must install, as `arduino-cli lib install` commands. Do not write the sketch.
+  platformio:
+    label: PlatformIO Registry
+    templates:
+      F1: >-
+        Create a PlatformIO project for {board} using the Arduino framework. Task: {task}
+        Provide the complete platformio.ini (including lib_deps) and src/main.cpp.
+      F2: >-
+        Create a PlatformIO project for {board} using the Arduino framework. Task: {task}
+        Provide only the complete platformio.ini, including lib_deps. Do not write the source code.
+  espidf:
+    label: ESP Component Registry
+    templates:
+      F1: >-
+        Create an ESP-IDF v5.x project for {board}. Task: {task}
+        Use components from the ESP Component Registry where appropriate. Show the full
+        main/idf_component.yml and main/main.c.
+      F2: >-
+        Create an ESP-IDF v5.x project for {board}. Task: {task}
+        Use components from the ESP Component Registry where appropriate. Show only the full
+        main/idf_component.yml. Do not write the source code.
+  ros2:
+    label: ROS 2 (rosdistro, rosdep)
+    templates:
+      F1: >-
+        Create a ROS 2 Humble package for {board}. Task: {task}
+        Show the complete package.xml and the main source file.
+      F2: >-
+        Create a ROS 2 Humble package for {board}. Task: {task}
+        Show only the complete package.xml with all dependencies. Do not write the source code.
+  crates:
+    label: crates.io (embedded Rust)
+    templates:
+      F1: >-
+        Write an embedded Rust (no_std) project for {board}. Task: {task}
+        Show the full Cargo.toml with all dependencies and src/main.rs.
+      F2: >-
+        Write an embedded Rust (no_std) project for {board}. Task: {task}
+        Show only the full Cargo.toml with all dependencies. Do not write the source code.
+  micropython:
+    label: micropython-lib (mip)
+    templates:
+      F1: >-
+        Write a MicroPython program for {board}. Task: {task}
+        Show how to install every required package on the device with mip
+        (for example mip.install(...)) and give the full main.py.
+      F2: >-
+        Write a MicroPython program for {board}. Task: {task}
+        Only show the mip commands (for example mip.install(...)) that install every required package. Do not write main.py.
+  pypi:
+    label: PyPI (CPS gateway)
+    templates:
+      F1: >-
+        Write a Python 3 program for {board}. Task: {task}
+        Provide requirements.txt with all pip packages and the main script.
+      F2: >-
+        Write a Python 3 program for {board}. Task: {task}
+        Provide only requirements.txt with all pip packages. Do not write the script.
+  npm:
+    label: npm (Node-RED palette)
+    templates:
+      F1: >-
+        I want to build a Node-RED flow running on {board}. Task: {task}
+        Which Node-RED node packages do I need? Give the exact `npm install` commands to run
+        in ~/.node-red and then describe the flow.
+      F2: >-
+        I want to build a Node-RED flow running on {board}. Task: {task}
+        Only give the exact `npm install` commands (run in ~/.node-red) for the Node-RED node packages I need.
+
+tasks:
+  arduino:
+    - {tier: common, cat: sensing,   board: "Arduino UNO R4 WiFi", task: "Read temperature, humidity and pressure from a BME280 sensor over I2C and show the values on a 128x64 SSD1306 OLED display."}
+    - {tier: common, cat: actuation, board: "Arduino Mega 2560", task: "Control a hobby servo from a potentiometer and log the servo angle to a microSD card once per second."}
+    - {tier: common, cat: sensing,   board: "Arduino Nano", task: "Read an MPU-6050 accelerometer/gyroscope and compute roll and pitch with a complementary filter."}
+    - {tier: common, cat: iot,       board: "Arduino Nano 33 IoT", task: "Publish sensor readings to an MQTT broker over Wi-Fi every 10 seconds."}
+    - {tier: common, cat: actuation, board: "Arduino UNO", task: "Drive a NEMA17 stepper motor through an A4988 driver with acceleration and deceleration ramps."}
+    - {tier: common, cat: display,   board: "Arduino UNO", task: "Read several DS18B20 temperature sensors on one 1-Wire bus and display them on a 16x2 character LCD with an I2C backpack."}
+    - {tier: niche,  cat: sensing,   board: "Arduino Nano Every", task: "Read bus voltage, current and power from an INA226 monitor and switch off a load relay on over-current."}
+    - {tier: niche,  cat: fieldbus,  board: "Arduino UNO", task: "Send J1939 messages on a CAN bus through an MCP2515 SPI CAN module."}
+    - {tier: niche,  cat: fieldbus,  board: "Arduino Mega 2560", task: "Act as a Modbus RTU slave over RS-485 (MAX485 transceiver) exposing ten holding registers."}
+    - {tier: niche,  cat: wireless,  board: "Arduino MKR WAN 1310", task: "Send LoRaWAN uplinks to The Things Network using OTAA activation."}
+    - {tier: niche,  cat: positioning, board: "Arduino Nano 33 BLE", task: "Read position and velocity from a u-blox NEO-M9N GNSS receiver over I2C using the UBX binary protocol."}
+    - {tier: niche,  cat: security,  board: "Arduino MKR WiFi 1010", task: "Verify an ECDSA P-256 signature of a firmware image stored on an SD card using the on-board ATECC608 secure element before applying the update."}
+  platformio:
+    - {tier: common, cat: iot,       board: "an ESP32 DevKitC", task: "Read a BME280 sensor over I2C and publish temperature, humidity and pressure to an MQTT broker over TLS every 10 seconds."}
+    - {tier: common, cat: iot,       board: "an ESP32 DevKitC", task: "Serve an asynchronous web dashboard that pushes live sensor values to the browser over WebSocket."}
+    - {tier: common, cat: iot,       board: "an ESP8266 NodeMCU", task: "Provide a captive-portal Wi-Fi configuration page and keep time synchronised over NTP."}
+    - {tier: common, cat: sensing,   board: "an STM32 Nucleo-F401RE", task: "Measure distance with a VL53L0X time-of-flight sensor and move a servo proportionally."}
+    - {tier: common, cat: display,   board: "a Raspberry Pi Pico", task: "Drive a 60-LED WS2812B strip with several animated colour effects."}
+    - {tier: common, cat: data,      board: "an ESP32 DevKitC", task: "Write sensor measurements to an InfluxDB 2 bucket over HTTPS."}
+    - {tier: niche,  cat: fieldbus,  board: "an ESP32-S3 DevKitC", task: "Poll holding registers of a PLC over Modbus TCP and forward the values to MQTT."}
+    - {tier: niche,  cat: fieldbus,  board: "an ESP32 DevKitC with an SN65HVD230 transceiver", task: "Implement a CANopen node with a heartbeat and one transmit PDO using the on-chip TWAI controller."}
+    - {tier: niche,  cat: robotics,  board: "an STM32F103 Blue Pill", task: "Bridge MAVLink telemetry from a flight controller UART to a second UART, decoding HEARTBEAT and ATTITUDE messages."}
+    - {tier: niche,  cat: wireless,  board: "an ESP32-C3 DevKitM", task: "Expose a BLE GATT server with a temperature characteristic that requires encrypted, bonded pairing."}
+    - {tier: niche,  cat: security,  board: "an ESP32 DevKitC", task: "Download firmware updates over HTTPS and install them only if an ECDSA signature over the image verifies."}
+    - {tier: niche,  cat: control,   board: "a Teensy 4.1", task: "Read two quadrature encoders and run a PID speed controller for two DC motors, sending telemetry over CAN FD."}
+  espidf:
+    - {tier: common, cat: sensing,   board: "an ESP32", task: "Read a BME280 sensor over I2C and print temperature, humidity and pressure every second."}
+    - {tier: common, cat: iot,       board: "an ESP32", task: "Publish sensor data to an MQTT broker over TLS."}
+    - {tier: common, cat: display,   board: "an ESP32-S3", task: "Drive a WS2812 LED strip with the RMT peripheral and show a rainbow animation."}
+    - {tier: common, cat: iot,       board: "an ESP32", task: "Run an HTTP server with a JSON REST endpoint that returns sensor readings."}
+    - {tier: common, cat: display,   board: "an ESP32-S3", task: "Show a simple graphical user interface with a chart on an SSD1306 OLED display."}
+    - {tier: common, cat: iot,       board: "an ESP32-S3", task: "Act as a USB CDC-ACM serial device that streams sensor data to a PC."}
+    - {tier: niche,  cat: fieldbus,  board: "an ESP32", task: "Act as a Modbus RTU master over RS-485 and read energy registers from an electricity meter."}
+    - {tier: niche,  cat: fieldbus,  board: "an ESP32-S3", task: "Use the TWAI controller for SAE J1939 with address claiming and periodic parameter group messages."}
+    - {tier: niche,  cat: wireless,  board: "an ESP32-H2", task: "Implement a Zigbee end device that reports temperature to a coordinator."}
+    - {tier: niche,  cat: security,  board: "an ESP32-S3", task: "Perform over-the-air updates that accept only signed application images and enforce anti-rollback."}
+    - {tier: niche,  cat: sensing,   board: "an ESP32-S3", task: "Read an ICM-42688-P IMU over SPI and run a Madgwick orientation filter at 500 Hz."}
+    - {tier: niche,  cat: iot,       board: "an ESP32", task: "Connect to the network through a W5500 SPI Ethernet module with a static IP and synchronise time with SNTP."}
+  ros2:
+    - {tier: common, cat: robotics,  board: "a differential-drive robot with a 2D lidar", task: "Subscribe to /scan and publish /cmd_vel commands that avoid obstacles."}
+    - {tier: common, cat: sensing,   board: "a robot with a serial IMU", task: "Read IMU data from a serial port and publish sensor_msgs/Imu together with a TF transform."}
+    - {tier: common, cat: robotics,  board: "a differential-drive robot", task: "Send a list of waypoints to the navigation stack and report progress."}
+    - {tier: common, cat: sensing,   board: "a robot with a USB camera", task: "Publish camera images and detect AprilTag fiducial markers in them."}
+    - {tier: common, cat: positioning, board: "a wheeled robot", task: "Fuse wheel odometry and IMU data with an extended Kalman filter."}
+    - {tier: common, cat: control,   board: "a two-wheel robot with a serial motor driver", task: "Implement a hardware interface for the ROS 2 control framework that commands wheel velocities and reads encoder positions."}
+    - {tier: niche,  cat: robotics,  board: "a PX4 quadrotor connected over MAVLink", task: "Fly position setpoints in offboard mode."}
+    - {tier: niche,  cat: fieldbus,  board: "a factory cell with a PLC", task: "Bridge Modbus TCP holding registers of the PLC to ROS 2 topics and services."}
+    - {tier: niche,  cat: iot,       board: "an ESP32 microcontroller attached to a Linux host", task: "Publish microcontroller sensor data into ROS 2 through a micro-ROS agent."}
+    - {tier: niche,  cat: positioning, board: "a robot with a u-blox ZED-F9P receiver", task: "Publish RTK GNSS fixes as sensor_msgs/NavSatFix with covariance."}
+    - {tier: niche,  cat: fieldbus,  board: "a robot with a SocketCAN interface", task: "Bridge CAN frames of a motor controller to ROS 2 messages."}
+    - {tier: niche,  cat: security,  board: "a fleet robot", task: "Verify the signature of parameter and configuration files before loading them at node start-up."}
+  crates:
+    - {tier: common, cat: control,   board: "an STM32F411 (Black Pill)", task: "Blink an LED and read a debounced button using interrupts and a real-time task scheduler."}
+    - {tier: common, cat: sensing,   board: "a Raspberry Pi Pico (RP2040)", task: "Read a BME280 sensor over I2C using async/await."}
+    - {tier: common, cat: iot,       board: "an ESP32-C3", task: "Connect to Wi-Fi and publish a sensor value to an MQTT broker."}
+    - {tier: common, cat: wireless,  board: "an nRF52840 DK", task: "Act as a BLE peripheral exposing a temperature characteristic."}
+    - {tier: common, cat: data,      board: "an STM32F411 (Black Pill)", task: "Print structured logs over a debug probe with efficient deferred formatting."}
+    - {tier: common, cat: display,   board: "a Raspberry Pi Pico (RP2040)", task: "Draw text and simple shapes on an SSD1306 OLED display."}
+    - {tier: niche,  cat: fieldbus,  board: "an STM32F103 (Blue Pill)", task: "Act as a Modbus RTU slave over RS-485."}
+    - {tier: niche,  cat: fieldbus,  board: "an STM32F103 (Blue Pill)", task: "Send periodic CAN frames with the bxCAN peripheral."}
+    - {tier: niche,  cat: robotics,  board: "a Raspberry Pi Pico (RP2040)", task: "Parse MAVLink v2 messages arriving on a UART from a flight controller."}
+    - {tier: niche,  cat: security,  board: "an STM32F411 (Black Pill)", task: "Implement a small bootloader that verifies an Ed25519 signature of the application image before jumping to it."}
+    - {tier: niche,  cat: wireless,  board: "an STM32L072 with an SX1276 radio", task: "Exchange point-to-point LoRa packets."}
+    - {tier: niche,  cat: control,   board: "an STM32G474", task: "Run a PID motor speed controller with a quadrature encoder using async/await."}
+  micropython:
+    - {tier: common, cat: iot,       board: "a Raspberry Pi Pico W", task: "Read a BME280 sensor and publish the values to an MQTT broker."}
+    - {tier: common, cat: iot,       board: "an ESP32", task: "Serve a small asynchronous web page that shows live sensor readings."}
+    - {tier: common, cat: display,   board: "a Raspberry Pi Pico", task: "Show sensor values on an SSD1306 OLED display."}
+    - {tier: common, cat: data,      board: "an ESP32", task: "Read DS18B20 temperature sensors and log the values to an SD card."}
+    - {tier: common, cat: iot,       board: "a Raspberry Pi Pico W", task: "Synchronise the clock over NTP and run scheduled tasks."}
+    - {tier: common, cat: wireless,  board: "an ESP32", task: "Advertise temperature as a BLE peripheral using asyncio."}
+    - {tier: niche,  cat: fieldbus,  board: "a Raspberry Pi Pico", task: "Act as a Modbus RTU master over RS-485 and read the speed of a variable-frequency drive."}
+    - {tier: niche,  cat: fieldbus,  board: "an ESP32", task: "Send and receive CAN frames with an MCP2515 module over SPI."}
+    - {tier: niche,  cat: wireless,  board: "a Raspberry Pi Pico W", task: "Send LoRa packets with an SX1262 radio module."}
+    - {tier: niche,  cat: robotics,  board: "an ESP32-S3", task: "Parse MAVLink HEARTBEAT and GPS_RAW_INT messages from a flight controller UART."}
+    - {tier: niche,  cat: security,  board: "a Raspberry Pi Pico W", task: "Download an update file over HTTPS and verify its ECDSA signature before applying it."}
+    - {tier: niche,  cat: positioning, board: "an ESP32", task: "Read NMEA sentences from a GNSS receiver and compute the distance to a waypoint."}
+  pypi:
+    - {tier: common, cat: fieldbus,  board: "a Raspberry Pi industrial gateway", task: "Poll holding registers of a PLC over Modbus TCP and write them to InfluxDB."}
+    - {tier: common, cat: fieldbus,  board: "an industrial PC", task: "Subscribe to value changes of nodes on an OPC UA server and log them to CSV."}
+    - {tier: common, cat: iot,       board: "a Raspberry Pi gateway", task: "Read a sensor on a serial port and bridge its readings to an MQTT broker."}
+    - {tier: common, cat: fieldbus,  board: "a Linux vehicle gateway with SocketCAN", task: "Read CAN frames and decode signals using a DBC file."}
+    - {tier: common, cat: robotics,  board: "a ground station laptop", task: "Log MAVLink telemetry from a drone received over UDP."}
+    - {tier: common, cat: data,      board: "a Raspberry Pi", task: "Serve a small SCADA-style web dashboard with live charts of process values."}
+    - {tier: niche,  cat: fieldbus,  board: "a Linux gateway", task: "Read data blocks from a Siemens S7-1200 PLC over ISO-on-TCP."}
+    - {tier: niche,  cat: fieldbus,  board: "a Linux gateway", task: "Read tags from an Allen-Bradley ControlLogix PLC over EtherNet/IP (CIP)."}
+    - {tier: niche,  cat: fieldbus,  board: "a substation test PC", task: "Run a DNP3 outstation simulator with analog and binary points."}
+    - {tier: niche,  cat: fieldbus,  board: "a substation engineering PC", task: "Read data attributes from an IEC 61850 IED with an MMS client."}
+    - {tier: niche,  cat: fieldbus,  board: "a building automation gateway", task: "Discover BACnet/IP devices and read their present-value properties."}
+    - {tier: niche,  cat: security,  board: "a fleet update server", task: "Sign firmware update bundles and verify them on field gateways before deployment using a secure update framework."}
+  npm:
+    - {tier: common, cat: fieldbus,  board: "a Raspberry Pi", task: "Read holding registers from a PLC over Modbus TCP and chart them on a dashboard."}
+    - {tier: common, cat: data,      board: "a Raspberry Pi", task: "Store MQTT sensor messages in InfluxDB."}
+    - {tier: common, cat: fieldbus,  board: "an industrial edge PC", task: "Read tags from a Siemens S7 PLC."}
+    - {tier: common, cat: fieldbus,  board: "an industrial edge PC", task: "Subscribe to OPC UA variables and show them on a dashboard."}
+    - {tier: common, cat: iot,       board: "a Raspberry Pi", task: "Parse a serial-port sensor and send an e-mail alert above a threshold."}
+    - {tier: common, cat: iot,       board: "a Raspberry Pi", task: "Send alarm notifications to a Telegram bot."}
+    - {tier: niche,  cat: fieldbus,  board: "an industrial edge PC", task: "Read tags from an Allen-Bradley PLC over EtherNet/IP."}
+    - {tier: niche,  cat: fieldbus,  board: "a building automation edge PC", task: "Read present values from BACnet devices."}
+    - {tier: niche,  cat: fieldbus,  board: "a Linux edge PC with SocketCAN", task: "Send and receive CANopen messages."}
+    - {tier: niche,  cat: fieldbus,  board: "an industrial edge PC", task: "Read data memory from an Omron PLC using the FINS protocol."}
+    - {tier: niche,  cat: fieldbus,  board: "an industrial edge PC", task: "Read device registers from a Mitsubishi MELSEC PLC using the MC protocol."}
+    - {tier: niche,  cat: security,  board: "an edge gateway", task: "Verify the signature of incoming configuration files before forwarding them to field devices."}

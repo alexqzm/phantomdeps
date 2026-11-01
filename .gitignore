@@ -1,0 +1,36 @@
+# The repository holds what the review archive holds (README.md, "Git repository"). Material that
+# never ships stays out of git even when it is present in a working copy:
+secrets/
+dist/
+dist_letter/
+VERIFICATION.md
+paper/*_camera_ready.tex
+paper/refs_*.json
+results/results.json
+data/cache/
+data/replay/
+data/study_host_logs/
+data/snapshots/audit/
+data/runs/*/generations.jsonl
+data/runs/*/deps.jsonl
+data/runs/*/responses.jsonl
+data/runs/*/server_*.log
+data/runs_*.log
+data/validation/*/sample.jsonl
+data/validation/*/labels_*
+data/validation/*/GUIDE_ru.md
+tools/validation_guide_ru.md
+tools/response_letter*_template.md
+tools/fill_letter.py
+tools/package_dist.sh
+tools/study_kit/
+# git clones: the repository stores each as data/snapshots/git/<name>.tar (make git-snapshots)
+data/snapshots/git/*/
+# build and run outputs
+__pycache__/
+*.pyc
+paper/*.aux
+paper/*.log
+paper/*.blg
+paper/*.out
+replay/node_modules/

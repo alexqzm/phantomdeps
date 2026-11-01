@@ -1,0 +1,13 @@
+{
+ "exclude": [],
+ "excluded": 0,
+ "families": [
+  "F2"
+ ],
+ "per_eco": 25,
+ "run_ids": [
+  "pilot-cpu-2026-10",
+  "pilot-cpu-ext-2026-10"
+ ],
+ "seed": 20240628
+}

@@ -1,0 +1,185 @@
+{
+ "url": "https://huggingface.co/api/models/Qwen/Qwen2.5-Coder-7B-Instruct/tree/main?expand=true",
+ "body": null,
+ "retrieved_at": "2026-10-24T06:35:41Z",
+ "answer": [
+  {
+   "type": "file",
+   "oid": "a6344aac8c09253b3b630fb776ae94478aa0275b",
+   "size": 1519,
+   "path": ".gitattributes",
+   "lastCommit": {
+    "id": "512a76b2a5b394c90b1f413849e6b97cc0d88404",
+    "title": "initial commit",
+    "date": "2024-09-17T13:38:49.000Z"
+   }
+  },
+  {
+   "type": "file",
+   "oid": "6634c8cc3133b3848ec74b9f275acaaa1ea618ab",
+   "size": 11343,
+   "path": "LICENSE",
+   "lastCommit": {
+    "id": "dcc04bb77301e6368aa24a609c6ea496b70503e8",
+    "title": "Upload LICENSE",
+    "date": "2024-09-18T11:49:56.000Z"
+   }
+  },
+  {
+   "type": "file",
+   "oid": "f29baca4ff38a69df22ec441e22f7ac8dfac277b",
+   "size": 6392,
+   "path": "README.md",
+   "lastCommit": {
+    "id": "c03e6d358207e414f1eca0bb1891e29f1db0e242",
+    "title": "Update README.md",
+    "date": "2025-01-12T02:03:41.000Z"
+   }
+  },
+  {
+   "type": "file",
+   "oid": "1a2ea88621f4248fccfb575beaf64c1ea5d9587f",
+   "size": 663,
+   "path": "config.json",
+   "lastCommit": {
+    "id": "014013f208b0d052dcd0b62bf35efeb573322498",
+    "title": "Update config.json",
+    "date": "2024-11-09T09:32:32.000Z"
+   }
+  },
+  {
+   "type": "file",
+   "oid": "b7849b3dad857bc1e227afd6ca21d1e4cb3f8f82",
+   "size": 242,
+   "path": "generation_config.json",
+   "lastCommit": {
+    "id": "0eb6b1ed2d0c4306bc637d09ecef51e59d3dfe05",
+    "title": "update tokenizer_config.json,config.json,generation_config.json",
+    "date": "2024-11-18T12:54:07.000Z"
+   }
+  },
+  {
+   "type": "file",
+   "oid": "20024bfe7c83998e9aeaf98a0cd6a2ce6306c2f0",
+   "size": 1671839,
+   "path": "merges.txt",
+   "lastCommit": {
+    "id": "6ab006b7202ec68b6df47693b5c3003998dc3124",
+    "title": "Upload folder using huggingface_hub",
+    "date": "2024-09-17T16:13:45.000Z"
+   }
+  },
+  {
+   "type": "file",
+   "oid": "0bdac2c748c298a520c6e91dc4194dc2984349a8",
+   "size": 4877660776,
+   "lfs": {
+    "oid": "0b6f069918b07c064cbba8ae4f00f529aa9bbf84b7cdfcb7fc2694a40f6aa8ef",
+    "size": 4877660776,
+    "pointerSize": 135
+   },
+   "xetHash": "dad893668c09d5cf6c28291a467c9573525e3424e0f903664472ab4d794cc8ec",
+   "path": "model-00001-of-00004.safetensors",
+   "lastCommit": {
+    "id": "6ab006b7202ec68b6df47693b5c3003998dc3124",
+    "title": "Upload folder using huggingface_hub",
+    "date": "2024-09-17T16:13:45.000Z"
+   }
+  },
+  {
+   "type": "file",
+   "oid": "03c643b956c343266860a4a037c56d1f81d9dfca",
+   "size": 4932751008,
+   "lfs": {
+    "oid": "c3d46733e7aa054ea7b063fbccd0a5a08446e7bd1814bef26936c5aa1331da62",
+    "size": 4932751008,
+    "pointerSize": 135
+   },
+   "xetHash": "4290e511dbbbf770a7fafc7d997806a9da221c6f8b83aadbeaecdd1fb3b04aeb",
+   "path": "model-00002-of-00004.safetensors",
+   "lastCommit": {
+    "id": "6ab006b7202ec68b6df47693b5c3003998dc3124",
+    "title": "Upload folder using huggingface_hub",
+    "date": "2024-09-17T16:13:45.000Z"
+   }
+  },
+  {
+   "type": "file",
+   "oid": "d50d253b55e5d97e0e277e97a38d92b6d95dc359",
+   "size": 4330865200,
+   "lfs": {
+    "oid": "9fe45dacee087385b3d2d6dd27a7413a8a56d95f145772facc148fa86fc73446",
+    "size": 4330865200,
+    "pointerSize": 135
+   },
+   "xetHash": "db1a31cfc21ac890d4d3c61ffaf198de803a2b77382c6df2d571ebe6688259cc",
+   "path": "model-00003-of-00004.safetensors",
+   "lastCommit": {
+    "id": "6ab006b7202ec68b6df47693b5c3003998dc3124",
+    "title": "Upload folder using huggingface_hub",
+    "date": "2024-09-17T16:13:45.000Z"
+   }
+  },
+  {
+   "type": "file",
+   "oid": "eb75c022771ad104dd0432cb85f0fc2b1550554f",
+   "size": 1089994880,
+   "lfs": {
+    "oid": "5aa6e5cbe642377fd441fb4e60e83cca96b2bcd9820e245b9ea06d94653f17f2",
+    "size": 1089994880,
+    "pointerSize": 135
+   },
+   "xetHash": "62e1927c8b8448c36b592b631da81446a0a4add4506e4b0c936045bd7138e222",
+   "path": "model-00004-of-00004.safetensors",
+   "lastCommit": {
+    "id": "6ab006b7202ec68b6df47693b5c3003998dc3124",
+    "title": "Upload folder using huggingface_hub",
+    "date": "2024-09-17T16:13:45.000Z"
+   }
+  },
+  {
+   "type": "file",
+   "oid": "6ca5084b88f1a95fef37f1b94c6e87ff69422bb7",
+   "size": 27752,
+   "path": "model.safetensors.index.json",
+   "lastCommit": {
+    "id": "6ab006b7202ec68b6df47693b5c3003998dc3124",
+    "title": "Upload folder using huggingface_hub",
+    "date": "2024-09-17T16:13:45.000Z"
+   }
+  },
+  {
+   "type": "file",
+   "oid": "443909a61d429dff23010e5bddd28ff530edda00",
+   "size": 7031645,
+   "path": "tokenizer.json",
+   "lastCommit": {
+    "id": "6ab006b7202ec68b6df47693b5c3003998dc3124",
+    "title": "Upload folder using huggingface_hub",
+    "date": "2024-09-17T16:13:45.000Z"
+   }
+  },
+  {
+   "type": "file",
+   "oid": "acee076f49bf3c0298e15de0909d1da7b392f0c3",
+   "size": 7305,
+   "path": "tokenizer_config.json",
+   "lastCommit": {
+    "id": "0eb6b1ed2d0c4306bc637d09ecef51e59d3dfe05",
+    "title": "update tokenizer_config.json,config.json,generation_config.json",
+    "date": "2024-11-18T12:54:07.000Z"
+   }
+  },
+  {
+   "type": "file",
+   "oid": "4783fe10ac3adce15ac8f358ef5462739852c569",
+   "size": 2776833,
+   "path": "vocab.json",
+   "lastCommit": {
+    "id": "6ab006b7202ec68b6df47693b5c3003998dc3124",
+    "title": "Upload folder using huggingface_hub",
+    "date": "2024-09-17T16:13:45.000Z"
+   }
+  }
+ ]
+}

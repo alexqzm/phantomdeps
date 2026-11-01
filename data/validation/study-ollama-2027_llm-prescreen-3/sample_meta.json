@@ -1,0 +1,16 @@
+{
+ "exclude": [
+  "study-ollama-2027_llm-prescreen",
+  "study-ollama-2027_llm-prescreen-2"
+ ],
+ "excluded": 400,
+ "families": [
+  "F1",
+  "F2"
+ ],
+ "per_eco": 25,
+ "run_ids": [
+  "study-ollama-2027"
+ ],
+ "seed": 20240630
+}

@@ -1,0 +1,421 @@
+{
+ "url": "https://huggingface.co/api/models/microsoft/Phi-3-mini-4k-instruct-gguf/tree/main?expand=true",
+ "body": null,
+ "retrieved_at": "2026-10-24T13:24:32Z",
+ "answer": [
+  {
+   "type": "file",
+   "oid": "bb790f09f1a94005ef44d44af647861d370342b1",
+   "size": 1655,
+   "path": ".gitattributes",
+   "lastCommit": {
+    "id": "c80d904a71b99a3eaeb8d3dbf164166384c09dc3",
+    "title": "chore(root): Initial documentation upload.",
+    "date": "2024-04-22T17:27:11.000Z"
+   },
+   "securityFileStatus": {
+    "status": "safe",
+    "protectAiScan": {
+     "status": "safe",
+     "message": "This file has no security findings.",
+     "reportLink": "https://insights-db.paloaltonetworks.com/models/microsoft/Phi-3-mini-4k-instruct-gguf/a64113399c2f6b8ad3e11c394733a2ddadaa7f33/files?blob-id=bb790f09f1a94005ef44d44af647861d370342b1&utm_source=huggingface"
+    },
+    "avScan": {
+     "status": "safe",
+     "message": "No security issues detected",
+     "reportLink": "https://fdtn.ai/ai-supply-chain/hugging-face?utm_source=huggingface"
+    },
+    "pickleImportScan": {
+     "status": "unscanned",
+     "pickleImports": [],
+     "version": "0.0.0"
+    },
+    "virusTotalScan": {
+     "status": "unscanned"
+    },
+    "jFrogScan": {
+     "status": "unscanned",
+     "message": "Not a machine-learning model"
+    }
+   }
+  },
+  {
+   "type": "file",
+   "oid": "f9ba8cf65f3e3104dd061c178066ec8247811f33",
+   "size": 444,
+   "path": "CODE_OF_CONDUCT.md",
+   "lastCommit": {
+    "id": "c80d904a71b99a3eaeb8d3dbf164166384c09dc3",
+    "title": "chore(root): Initial documentation upload.",
+    "date": "2024-04-22T17:27:11.000Z"
+   },
+   "securityFileStatus": {
+    "status": "safe",
+    "protectAiScan": {
+     "status": "safe",
+     "message": "This file has no security findings.",
+     "reportLink": "https://insights-db.paloaltonetworks.com/models/microsoft/Phi-3-mini-4k-instruct-gguf/a64113399c2f6b8ad3e11c394733a2ddadaa7f33/files?blob-id=f9ba8cf65f3e3104dd061c178066ec8247811f33&utm_source=huggingface"
+    },
+    "avScan": {
+     "status": "safe",
+     "message": "No security issues detected",
+     "reportLink": "https://fdtn.ai/ai-supply-chain/hugging-face?utm_source=huggingface"
+    },
+    "pickleImportScan": {
+     "status": "unscanned",
+     "pickleImports": [],
+     "version": "0.0.0"
+    },
+    "virusTotalScan": {
+     "status": "unscanned"
+    },
+    "jFrogScan": {
+     "status": "unscanned",
+     "message": "Not a machine-learning model"
+    }
+   }
+  },
+  {
+   "type": "file",
+   "oid": "8ab7b4964d147858b89544e8ca33203237161edc",
+   "size": 1084,
+   "path": "LICENSE",
+   "lastCommit": {
+    "id": "c80d904a71b99a3eaeb8d3dbf164166384c09dc3",
+    "title": "chore(root): Initial documentation upload.",
+    "date": "2024-04-22T17:27:11.000Z"
+   },
+   "securityFileStatus": {
+    "status": "safe",
+    "protectAiScan": {
+     "status": "safe",
+     "message": "This file has no security findings.",
+     "reportLink": "https://insights-db.paloaltonetworks.com/models/microsoft/Phi-3-mini-4k-instruct-gguf/a64113399c2f6b8ad3e11c394733a2ddadaa7f33/files?blob-id=8ab7b4964d147858b89544e8ca33203237161edc&utm_source=huggingface"
+    },
+    "avScan": {
+     "status": "safe",
+     "message": "No security issues detected",
+     "reportLink": "https://fdtn.ai/ai-supply-chain/hugging-face?utm_source=huggingface"
+    },
+    "pickleImportScan": {
+     "status": "unscanned",
+     "pickleImports": [],
+     "version": "0.0.0"
+    },
+    "virusTotalScan": {
+     "status": "unscanned"
+    },
+    "jFrogScan": {
+     "status": "unscanned",
+     "message": "Not a machine-learning model"
+    }
+   }
+  },
+  {
+   "type": "file",
+   "oid": "ed7b6845262ff0d498c59c4552be3235d2e04523",
+   "size": 253,
+   "path": "Modelfile_fp16",
+   "lastCommit": {
+    "id": "c80d904a71b99a3eaeb8d3dbf164166384c09dc3",
+    "title": "chore(root): Initial documentation upload.",
+    "date": "2024-04-22T17:27:11.000Z"
+   },
+   "securityFileStatus": {
+    "status": "safe",
+    "protectAiScan": {
+     "status": "safe",
+     "message": "This file has no security findings.",
+     "reportLink": "https://insights-db.paloaltonetworks.com/models/microsoft/Phi-3-mini-4k-instruct-gguf/a64113399c2f6b8ad3e11c394733a2ddadaa7f33/files?blob-id=ed7b6845262ff0d498c59c4552be3235d2e04523&utm_source=huggingface"
+    },
+    "avScan": {
+     "status": "safe",
+     "message": "No security issues detected",
+     "reportLink": "https://fdtn.ai/ai-supply-chain/hugging-face?utm_source=huggingface"
+    },
+    "pickleImportScan": {
+     "status": "unscanned",
+     "pickleImports": [],
+     "version": "0.0.0"
+    },
+    "virusTotalScan": {
+     "status": "unscanned"
+    },
+    "jFrogScan": {
+     "status": "unscanned",
+     "message": "Not a machine-learning model"
+    }
+   }
+  },
+  {
+   "type": "file",
+   "oid": "813c6b4decc5138816024a8b6fcc91450dd3b2b0",
+   "size": 251,
+   "path": "Modelfile_q4",
+   "lastCommit": {
+    "id": "c80d904a71b99a3eaeb8d3dbf164166384c09dc3",
+    "title": "chore(root): Initial documentation upload.",
+    "date": "2024-04-22T17:27:11.000Z"
+   },
+   "securityFileStatus": {
+    "status": "safe",
+    "protectAiScan": {
+     "status": "safe",
+     "message": "This file has no security findings.",
+     "reportLink": "https://insights-db.paloaltonetworks.com/models/microsoft/Phi-3-mini-4k-instruct-gguf/a64113399c2f6b8ad3e11c394733a2ddadaa7f33/files?blob-id=813c6b4decc5138816024a8b6fcc91450dd3b2b0&utm_source=huggingface"
+    },
+    "avScan": {
+     "status": "safe",
+     "message": "No security issues detected",
+     "reportLink": "https://fdtn.ai/ai-supply-chain/hugging-face?utm_source=huggingface"
+    },
+    "pickleImportScan": {
+     "status": "unscanned",
+     "pickleImports": [],
+     "version": "0.0.0"
+    },
+    "virusTotalScan": {
+     "status": "unscanned"
+    },
+    "jFrogScan": {
+     "status": "unscanned",
+     "message": "Not a machine-learning model"
+    }
+   }
+  },
+  {
+   "type": "file",
+   "oid": "ee58e836b8cb628406447bae6b6b75a0fa553143",
+   "size": 1772,
+   "path": "NOTICE.md",
+   "lastCommit": {
+    "id": "c80d904a71b99a3eaeb8d3dbf164166384c09dc3",
+    "title": "chore(root): Initial documentation upload.",
+    "date": "2024-04-22T17:27:11.000Z"
+   },
+   "securityFileStatus": {
+    "status": "safe",
+    "protectAiScan": {
+     "status": "safe",
+     "message": "This file has no security findings.",
+     "reportLink": "https://insights-db.paloaltonetworks.com/models/microsoft/Phi-3-mini-4k-instruct-gguf/a64113399c2f6b8ad3e11c394733a2ddadaa7f33/files?blob-id=ee58e836b8cb628406447bae6b6b75a0fa553143&utm_source=huggingface"
+    },
+    "avScan": {
+     "status": "safe",
+     "message": "No security issues detected",
+     "reportLink": "https://fdtn.ai/ai-supply-chain/hugging-face?utm_source=huggingface"
+    },
+    "pickleImportScan": {
+     "status": "unscanned",
+     "pickleImports": [],
+     "version": "0.0.0"
+    },
+    "virusTotalScan": {
+     "status": "unscanned"
+    },
+    "jFrogScan": {
+     "status": "unscanned",
+     "message": "Not a machine-learning model"
+    }
+   }
+  },
+  {
+   "type": "file",
+   "oid": "bb62acf4a93f89c9916da08cd9957815567aab42",
+   "size": 7643295904,
+   "lfs": {
+    "oid": "5d99003e395775659b0dde3f941d88ff378b2837a8dc3a2ea94222ab1420fad3",
+    "size": 7643295904,
+    "pointerSize": 135
+   },
+   "xetHash": "a9cdcf6e9514941ea9e596583b3d3c44dd99359fb7dd57f322bb84a0adc12ad4",
+   "path": "Phi-3-mini-4k-instruct-fp16.gguf",
+   "lastCommit": {
+    "id": "c80d904a71b99a3eaeb8d3dbf164166384c09dc3",
+    "title": "chore(root): Initial documentation upload.",
+    "date": "2024-04-22T17:27:11.000Z"
+   },
+   "securityFileStatus": {
+    "status": "safe",
+    "protectAiScan": {
+     "status": "safe",
+     "message": "This file is vulnerable to threat(s) PAIT-GGUF-100.",
+     "reportLink": "https://insights-db.paloaltonetworks.com/models/microsoft/Phi-3-mini-4k-instruct-gguf/a64113399c2f6b8ad3e11c394733a2ddadaa7f33/files?blob-id=bb62acf4a93f89c9916da08cd9957815567aab42&utm_source=huggingface"
+    },
+    "avScan": {
+     "status": "unscanned",
+     "message": "",
+     "version": "1.5.2/27944"
+    },
+    "pickleImportScan": {
+     "status": "unscanned",
+     "pickleImports": [],
+     "version": "0.0.0"
+    },
+    "virusTotalScan": {
+     "status": "unscanned",
+     "message": "File not scanned in VirusTotal",
+     "reportLink": "https://www.virustotal.com/gui/file/5d99003e395775659b0dde3f941d88ff378b2837a8dc3a2ea94222ab1420fad3?utm_source=huggingface"
+    },
+    "jFrogScan": {
+     "status": "safe",
+     "message": "Safe GGUF model",
+     "reportLink": "https://research.jfrog.com/model-threats/gguf-ssti?utm_source=huggingface"
+    }
+   }
+  },
+  {
+   "type": "file",
+   "oid": "c72c1922442b8e09192da8d5e497a2738dec9d1b",
+   "size": 2393231072,
+   "lfs": {
+    "oid": "8a83c7fb9049a9b2e92266fa7ad04933bb53aa1e85136b7b30f1b8000ff2edef",
+    "size": 2393231072,
+    "pointerSize": 135
+   },
+   "xetHash": "df220524a4e4a750fe1c325e41f09ff69137f38b52d8831ba22dcbee3cc8ab6d",
+   "path": "Phi-3-mini-4k-instruct-q4.gguf",
+   "lastCommit": {
+    "id": "c80d904a71b99a3eaeb8d3dbf164166384c09dc3",
+    "title": "chore(root): Initial documentation upload.",
+    "date": "2024-04-22T17:27:11.000Z"
+   },
+   "securityFileStatus": {
+    "status": "safe",
+    "protectAiScan": {
+     "status": "safe",
+     "message": "This file is vulnerable to threat(s) PAIT-GGUF-100.",
+     "reportLink": "https://insights-db.paloaltonetworks.com/models/microsoft/Phi-3-mini-4k-instruct-gguf/a64113399c2f6b8ad3e11c394733a2ddadaa7f33/files?blob-id=c72c1922442b8e09192da8d5e497a2738dec9d1b&utm_source=huggingface"
+    },
+    "avScan": {
+     "status": "unscanned",
+     "message": "",
+     "version": "1.5.2/27953"
+    },
+    "pickleImportScan": {
+     "status": "unscanned",
+     "pickleImports": [],
+     "version": "0.0.0"
+    },
+    "virusTotalScan": {
+     "status": "safe",
+     "message": "0/74 engines detect it as malicious.",
+     "reportLink": "https://www.virustotal.com/gui/file/8a83c7fb9049a9b2e92266fa7ad04933bb53aa1e85136b7b30f1b8000ff2edef?utm_source=huggingface"
+    },
+    "jFrogScan": {
+     "status": "safe",
+     "message": "Safe GGUF model",
+     "reportLink": "https://research.jfrog.com/model-threats/gguf-ssti?utm_source=huggingface"
+    }
+   }
+  },
+  {
+   "type": "file",
+   "oid": "857f80ee49b476ca88958882e3f5759e89e1f509",
+   "size": 13629,
+   "path": "README.md",
+   "lastCommit": {
+    "id": "a64113399c2f6b8ad3e11c394733a2ddadaa7f33",
+    "title": "Update README.md (#25)",
+    "date": "2025-12-10T20:22:37.000Z"
+   },
+   "securityFileStatus": {
+    "status": "safe",
+    "protectAiScan": {
+     "status": "safe",
+     "message": "This file has no security findings.",
+     "reportLink": "https://insights-db.paloaltonetworks.com/models/microsoft/Phi-3-mini-4k-instruct-gguf/a64113399c2f6b8ad3e11c394733a2ddadaa7f33/files?blob-id=857f80ee49b476ca88958882e3f5759e89e1f509&utm_source=huggingface"
+    },
+    "avScan": {
+     "status": "safe",
+     "message": "No security issues detected",
+     "reportLink": "https://fdtn.ai/ai-supply-chain/hugging-face?utm_source=huggingface"
+    },
+    "pickleImportScan": {
+     "status": "unscanned",
+     "pickleImports": [],
+     "version": "0.0.0"
+    },
+    "virusTotalScan": {
+     "status": "unscanned"
+    },
+    "jFrogScan": {
+     "status": "unscanned",
+     "message": "Not a machine-learning model"
+    }
+   }
+  },
+  {
+   "type": "file",
+   "oid": "b3c89efc852e22f71eabf5dfbc6ac62493425eb6",
+   "size": 2656,
+   "path": "SECURITY.md",
+   "lastCommit": {
+    "id": "c80d904a71b99a3eaeb8d3dbf164166384c09dc3",
+    "title": "chore(root): Initial documentation upload.",
+    "date": "2024-04-22T17:27:11.000Z"
+   },
+   "securityFileStatus": {
+    "status": "safe",
+    "protectAiScan": {
+     "status": "safe",
+     "message": "This file has no security findings.",
+     "reportLink": "https://insights-db.paloaltonetworks.com/models/microsoft/Phi-3-mini-4k-instruct-gguf/a64113399c2f6b8ad3e11c394733a2ddadaa7f33/files?blob-id=b3c89efc852e22f71eabf5dfbc6ac62493425eb6&utm_source=huggingface"
+    },
+    "avScan": {
+     "status": "safe",
+     "message": "No security issues detected",
+     "reportLink": "https://fdtn.ai/ai-supply-chain/hugging-face?utm_source=huggingface"
+    },
+    "pickleImportScan": {
+     "status": "unscanned",
+     "pickleImports": [],
+     "version": "0.0.0"
+    },
+    "virusTotalScan": {
+     "status": "unscanned"
+    },
+    "jFrogScan": {
+     "status": "unscanned",
+     "message": "Not a machine-learning model"
+    }
+   }
+  },
+  {
+   "type": "file",
+   "oid": "69f655d69e4a713f90e6d4d294e70cc654cf1a56",
+   "size": 4619,
+   "path": "data_summary_card.md",
+   "lastCommit": {
+    "id": "c263d545af67b44a21956ca54bd5b130bd88e16d",
+    "title": "Upload data_summary_card.md (#24)",
+    "date": "2025-12-10T20:22:33.000Z"
+   },
+   "securityFileStatus": {
+    "status": "safe",
+    "protectAiScan": {
+     "status": "safe",
+     "message": "This file has no security findings.",
+     "reportLink": "https://insights-db.paloaltonetworks.com/models/microsoft/Phi-3-mini-4k-instruct-gguf/a64113399c2f6b8ad3e11c394733a2ddadaa7f33/files?blob-id=69f655d69e4a713f90e6d4d294e70cc654cf1a56&utm_source=huggingface"
+    },
+    "avScan": {
+     "status": "safe",
+     "message": "No security issues detected",
+     "reportLink": "https://fdtn.ai/ai-supply-chain/hugging-face?utm_source=huggingface"
+    },
+    "pickleImportScan": {
+     "status": "unscanned",
+     "pickleImports": [],
+     "version": "0.0.0"
+    },
+    "virusTotalScan": {
+     "status": "unscanned"
+    },
+    "jFrogScan": {
+     "status": "unscanned",
+     "message": "Not a machine-learning model"
+    }
+   }
+  }
+ ]
+}

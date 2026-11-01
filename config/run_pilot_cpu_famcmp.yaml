@@ -1,0 +1,39 @@
+# Equal-budget prompt-family comparison (revision of 2026-10-24).  In the pilot, F1 (manifest
+# and code) and F2 (manifest only) were answered by Qwen2.5-Coder-1.5B with different token
+# budgets (512 and 384) and most F1 answers were cut off, so the pilot cannot compare the
+# families.  This run asks the same model both families with one budget, large enough for most
+# answers to finish, on a fixed subset of 48 tasks: 3 common and 3 niche tasks per ecosystem,
+# drawn with random.Random(20240628) in corpus order (PROTOCOL.md, change log).  The run enters
+# only the family comparison of the analysis, never the pooled rates (`role`).
+run_id: pilot-cpu-famcmp-2026-10
+role: family_comparison
+endpoint: http://127.0.0.1:8081
+families: [F1, F2]
+samples:
+  - {idx: 0, temperature: 0.0, seed: 20240628}
+concurrency: 1               # greedy pass: one request at a time
+params:
+  top_p: 1.0
+  max_tokens: {F1: 1536, F2: 1536}   # one budget for both families
+  repeat_penalty: 1.1        # as in the pilot
+llama_cpp_commit: 06230cb8775899cceef146c19cd447a947ecac5b
+tasks: [arduino-01, arduino-04, arduino-06, arduino-09, arduino-10, arduino-11,
+        platformio-02, platformio-03, platformio-06, platformio-10, platformio-11, platformio-12,
+        espidf-02, espidf-03, espidf-04, espidf-07, espidf-09, espidf-11,
+        ros2-01, ros2-02, ros2-05, ros2-07, ros2-11, ros2-12,
+        crates-03, crates-04, crates-05, crates-10, crates-11, crates-12,
+        micropython-03, micropython-05, micropython-06, micropython-07, micropython-09, micropython-10,
+        pypi-01, pypi-02, pypi-05, pypi-07, pypi-09, pypi-11,
+        npm-02, npm-04, npm-05, npm-07, npm-09, npm-11]
+models:
+  - id: qwen2.5-coder-1.5b-instruct
+    family_name: Qwen2.5-Coder
+    params_b: 1.5
+    quant: Q4_K_M (GGUF, Qwen/Qwen2.5-Coder-1.5B-Instruct-GGUF)
+    gguf_repo: Qwen/Qwen2.5-Coder-1.5B-Instruct-GGUF
+    source_repo: Qwen/Qwen2.5-Coder-1.5B-Instruct
+    file: /home/claude/models/qwen2.5-coder-1.5b-instruct-q4_k_m.gguf
+    sha256: cc324af070c2ecbfd324a30884d2f951a7ff756aba85cb811a6ec436933bb046
+    horizon: "2024-09-18T09:41:47Z"
+    horizon_source: "Hugging Face createdAt of Qwen/Qwen2.5-Coder-1.5B-Instruct (superseded, see model_horizons.json)"
+    server_cmd: "/home/claude/tools/llama.cpp/build/bin/llama-server -m {file} --host 127.0.0.1 --port 8081 -t 2 -c 4096 --cache-ram 0 --no-webui"

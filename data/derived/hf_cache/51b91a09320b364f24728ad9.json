@@ -1,0 +1,102 @@
+{
+ "url": "https://huggingface.co/api/models/ggml-org/gpt-oss-20b-GGUF/tree/main?expand=true",
+ "body": null,
+ "retrieved_at": "2026-10-24T20:45:12Z",
+ "answer": [
+  {
+   "type": "file",
+   "oid": "6ae0455ad6b61fa54e436a2d24c953186831e66d",
+   "size": 1767,
+   "path": ".gitattributes",
+   "lastCommit": {
+    "id": "ef9b12f2ff56c69cf32153a02784e7a3c88bf524",
+    "title": "Upload folder using huggingface_hub",
+    "date": "2026-07-28T07:55:12.000Z"
+   }
+  },
+  {
+   "type": "file",
+   "oid": "a3f3a9836e6cd8670819a8119db881a110247667",
+   "size": 97,
+   "path": ".src_sha",
+   "lastCommit": {
+    "id": "ef9b12f2ff56c69cf32153a02784e7a3c88bf524",
+    "title": "Upload folder using huggingface_hub",
+    "date": "2026-07-28T07:55:12.000Z"
+   }
+  },
+  {
+   "type": "file",
+   "oid": "e095fd94747f223e24e89440617c71099e0b98b3",
+   "size": 501,
+   "path": "README.md",
+   "lastCommit": {
+    "id": "15dcfc7e7c608c6161507211ed43c5b590801b4b",
+    "title": "Upload folder using huggingface_hub",
+    "date": "2026-10-19T14:14:26.000Z"
+   }
+  },
+  {
+   "type": "file",
+   "oid": "bfb49dc3e20510d5d873385da5ea070f8578aa07",
+   "size": 155914,
+   "path": "convert.log",
+   "lastCommit": {
+    "id": "ef9b12f2ff56c69cf32153a02784e7a3c88bf524",
+    "title": "Upload folder using huggingface_hub",
+    "date": "2026-07-28T07:55:12.000Z"
+   }
+  },
+  {
+   "type": "file",
+   "oid": "10c32c8b6f1777161b1088bf28dd383d8212be59",
+   "size": 1722588800,
+   "lfs": {
+    "oid": "b82e890aa1a5bc6270ea39434e8995e9039b2d706aed4e6a9346e5cc60ab65aa",
+    "size": 1722588800,
+    "pointerSize": 135
+   },
+   "xetHash": "b1167fa247a2e39295b02f642435e887ffa40ea68534eb1ebdae1aedbe3fc132",
+   "path": "eagle3-gpt-oss-20b-BF16.gguf",
+   "lastCommit": {
+    "id": "ef9b12f2ff56c69cf32153a02784e7a3c88bf524",
+    "title": "Upload folder using huggingface_hub",
+    "date": "2026-07-28T07:55:12.000Z"
+   }
+  },
+  {
+   "type": "file",
+   "oid": "c0f200a116a2ccaba473fe6b8173da0a8787de0f",
+   "size": 921488000,
+   "lfs": {
+    "oid": "6955f98a701e97a8c969f3ff33be8ba17b35bd60e5ac96258d2c42d710c7d63f",
+    "size": 921488000,
+    "pointerSize": 134
+   },
+   "xetHash": "2a75af31b602526aeaa90218c8694811caa15cce67e7e83450407fc2f7e2b08b",
+   "path": "eagle3-gpt-oss-20b-Q8_0.gguf",
+   "lastCommit": {
+    "id": "ef9b12f2ff56c69cf32153a02784e7a3c88bf524",
+    "title": "Upload folder using huggingface_hub",
+    "date": "2026-07-28T07:55:12.000Z"
+   }
+  },
+  {
+   "type": "file",
+   "oid": "deda3c25c5da45a23db1c5d52a49e6c509da659b",
+   "size": 12109566624,
+   "lfs": {
+    "oid": "27cd6c432c7672cb812a92f611cf3ba7bbc35928262bb1e1253ff4ee6ae35901",
+    "size": 12109566624,
+    "pointerSize": 136
+   },
+   "xetHash": "92afc8083009bc73e40fcc3ba9b50d0b0dbcc409468263d21029c2228b7f4e2c",
+   "path": "gpt-oss-20b-MXFP4.gguf",
+   "lastCommit": {
+    "id": "b97cbb20d1995efd41dce8c4dd1ddf86e8db375b",
+    "title": "Upload folder using huggingface_hub",
+    "date": "2026-07-16T15:08:00.000Z"
+   }
+  }
+ ]
+}

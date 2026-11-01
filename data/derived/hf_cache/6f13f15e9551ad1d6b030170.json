@@ -1,0 +1,656 @@
+{
+ "url": "https://huggingface.co/api/models/second-state/DeepSeek-Coder-V2-Lite-Instruct-GGUF/tree/main?expand=true",
+ "body": null,
+ "retrieved_at": "2026-10-24T20:45:12Z",
+ "answer": [
+  {
+   "type": "file",
+   "oid": "4fee45cd38afb7c57b9299d24fd1e72b39b6401c",
+   "size": 2546,
+   "path": ".gitattributes",
+   "lastCommit": {
+    "id": "28c51a49fd0c9b04bdceaff5bfced595411159da",
+    "title": "Upload DeepSeek-Coder-V2-Lite-Instruct-Q5_K_M.gguf with huggingface_hub",
+    "date": "2024-06-25T05:56:22.000Z"
+   },
+   "securityFileStatus": {
+    "status": "safe",
+    "protectAiScan": {
+     "status": "safe",
+     "message": "This file has no security findings.",
+     "reportLink": "https://insights-db.paloaltonetworks.com/models/second-state/DeepSeek-Coder-V2-Lite-Instruct-GGUF/c5d2f88d5ce17a690328cea5e01657c4f6d474ee/files?blob-id=4fee45cd38afb7c57b9299d24fd1e72b39b6401c&utm_source=huggingface"
+    },
+    "avScan": {
+     "status": "safe",
+     "message": "No security issues detected",
+     "reportLink": "https://fdtn.ai/ai-supply-chain/hugging-face?utm_source=huggingface"
+    },
+    "pickleImportScan": {
+     "status": "unscanned"
+    },
+    "virusTotalScan": {
+     "status": "unscanned"
+    },
+    "jFrogScan": {
+     "status": "unscanned",
+     "message": "Not a machine-learning model"
+    }
+   }
+  },
+  {
+   "type": "file",
+   "oid": "7b44f8e1c4e2ff7612dc2498645c829f27c024d7",
+   "size": 6430464480,
+   "lfs": {
+    "oid": "d4eb2f3365ac103d4231352b331577135be67931cecedad474c38e4cecb9182d",
+    "size": 6430464480,
+    "pointerSize": 135
+   },
+   "xetHash": "e0d691c0cdf1c6962c3c4323adf97af84aeb9eefc402acfc7e1a9c66001fc002",
+   "path": "DeepSeek-Coder-V2-Lite-Instruct-Q2_K.gguf",
+   "lastCommit": {
+    "id": "7d0d798e03e8a41fb1a4e270482823c4e50f80a4",
+    "title": "Update models",
+    "date": "2024-06-25T05:26:42.000Z"
+   },
+   "securityFileStatus": {
+    "status": "safe",
+    "protectAiScan": {
+     "status": "safe",
+     "message": "This file is vulnerable to threat(s) PAIT-GGUF-100.",
+     "reportLink": "https://insights-db.paloaltonetworks.com/models/second-state/DeepSeek-Coder-V2-Lite-Instruct-GGUF/c5d2f88d5ce17a690328cea5e01657c4f6d474ee/files?blob-id=7b44f8e1c4e2ff7612dc2498645c829f27c024d7&utm_source=huggingface"
+    },
+    "avScan": {
+     "status": "unscanned"
+    },
+    "pickleImportScan": {
+     "status": "unscanned"
+    },
+    "virusTotalScan": {
+     "status": "unscanned",
+     "message": "File not scanned in VirusTotal",
+     "reportLink": "https://www.virustotal.com/gui/file/d4eb2f3365ac103d4231352b331577135be67931cecedad474c38e4cecb9182d?utm_source=huggingface"
+    },
+    "jFrogScan": {
+     "status": "safe",
+     "message": "Safe GGUF model",
+     "reportLink": "https://research.jfrog.com/model-threats/gguf-ssti?utm_source=huggingface"
+    }
+   }
+  },
+  {
+   "type": "file",
+   "oid": "7059aba1e04e7b7f9f3a01e25f2f1ff660358e08",
+   "size": 8459398624,
+   "lfs": {
+    "oid": "9d9b1b46859bb2208acf2174192547e53389575fb2af820a988c91ecb94c2613",
+    "size": 8459398624,
+    "pointerSize": 135
+   },
+   "xetHash": "3450bd5dbb341e56dba381fc985094efb4058f65ee56cfd694e6672392d730b9",
+   "path": "DeepSeek-Coder-V2-Lite-Instruct-Q3_K_L.gguf",
+   "lastCommit": {
+    "id": "7d0d798e03e8a41fb1a4e270482823c4e50f80a4",
+    "title": "Update models",
+    "date": "2024-06-25T05:26:42.000Z"
+   },
+   "securityFileStatus": {
+    "status": "safe",
+    "protectAiScan": {
+     "status": "safe",
+     "message": "This file is vulnerable to threat(s) PAIT-GGUF-100.",
+     "reportLink": "https://insights-db.paloaltonetworks.com/models/second-state/DeepSeek-Coder-V2-Lite-Instruct-GGUF/c5d2f88d5ce17a690328cea5e01657c4f6d474ee/files?blob-id=7059aba1e04e7b7f9f3a01e25f2f1ff660358e08&utm_source=huggingface"
+    },
+    "avScan": {
+     "status": "unscanned"
+    },
+    "pickleImportScan": {
+     "status": "unscanned"
+    },
+    "virusTotalScan": {
+     "status": "unscanned",
+     "message": "File not scanned in VirusTotal",
+     "reportLink": "https://www.virustotal.com/gui/file/9d9b1b46859bb2208acf2174192547e53389575fb2af820a988c91ecb94c2613?utm_source=huggingface"
+    },
+    "jFrogScan": {
+     "status": "safe",
+     "message": "Safe GGUF model",
+     "reportLink": "https://research.jfrog.com/model-threats/gguf-ssti?utm_source=huggingface"
+    }
+   }
+  },
+  {
+   "type": "file",
+   "oid": "d48414753c54a9f8a3ca55dccc5fc9a1005cd041",
+   "size": 8126606816,
+   "lfs": {
+    "oid": "3918c980cc193aa63733db160fdd26ef3a668fecd5219d0e1aa62d12c86cc91f",
+    "size": 8126606816,
+    "pointerSize": 135
+   },
+   "xetHash": "a2d67f5693fd2656f51843f3ccb5bf0bc512a58b1a2a57f7a917f7e7582197d8",
+   "path": "DeepSeek-Coder-V2-Lite-Instruct-Q3_K_M.gguf",
+   "lastCommit": {
+    "id": "7d0d798e03e8a41fb1a4e270482823c4e50f80a4",
+    "title": "Update models",
+    "date": "2024-06-25T05:26:42.000Z"
+   },
+   "securityFileStatus": {
+    "status": "safe",
+    "protectAiScan": {
+     "status": "safe",
+     "message": "This file is vulnerable to threat(s) PAIT-GGUF-100.",
+     "reportLink": "https://insights-db.paloaltonetworks.com/models/second-state/DeepSeek-Coder-V2-Lite-Instruct-GGUF/c5d2f88d5ce17a690328cea5e01657c4f6d474ee/files?blob-id=d48414753c54a9f8a3ca55dccc5fc9a1005cd041&utm_source=huggingface"
+    },
+    "avScan": {
+     "status": "unscanned"
+    },
+    "pickleImportScan": {
+     "status": "unscanned"
+    },
+    "virusTotalScan": {
+     "status": "unscanned",
+     "message": "File not scanned in VirusTotal",
+     "reportLink": "https://www.virustotal.com/gui/file/3918c980cc193aa63733db160fdd26ef3a668fecd5219d0e1aa62d12c86cc91f?utm_source=huggingface"
+    },
+    "jFrogScan": {
+     "status": "safe",
+     "message": "Safe GGUF model",
+     "reportLink": "https://research.jfrog.com/model-threats/gguf-ssti?utm_source=huggingface"
+    }
+   }
+  },
+  {
+   "type": "file",
+   "oid": "7c69cf17d8fa17294130a882a71f636feeef213f",
+   "size": 7487663584,
+   "lfs": {
+    "oid": "15476c1c838f3a8205d0d7725a1f2b377da0ba1c287149680dbffc8d755904d2",
+    "size": 7487663584,
+    "pointerSize": 135
+   },
+   "xetHash": "d14fff328311fb4141782ea01c0423adfee92fc953e70d4aabb67af64fe2e957",
+   "path": "DeepSeek-Coder-V2-Lite-Instruct-Q3_K_S.gguf",
+   "lastCommit": {
+    "id": "7d0d798e03e8a41fb1a4e270482823c4e50f80a4",
+    "title": "Update models",
+    "date": "2024-06-25T05:26:42.000Z"
+   },
+   "securityFileStatus": {
+    "status": "safe",
+    "protectAiScan": {
+     "status": "safe",
+     "message": "This file is vulnerable to threat(s) PAIT-GGUF-100.",
+     "reportLink": "https://insights-db.paloaltonetworks.com/models/second-state/DeepSeek-Coder-V2-Lite-Instruct-GGUF/c5d2f88d5ce17a690328cea5e01657c4f6d474ee/files?blob-id=7c69cf17d8fa17294130a882a71f636feeef213f&utm_source=huggingface"
+    },
+    "avScan": {
+     "status": "unscanned"
+    },
+    "pickleImportScan": {
+     "status": "unscanned"
+    },
+    "virusTotalScan": {
+     "status": "unscanned",
+     "message": "File not scanned in VirusTotal",
+     "reportLink": "https://www.virustotal.com/gui/file/15476c1c838f3a8205d0d7725a1f2b377da0ba1c287149680dbffc8d755904d2?utm_source=huggingface"
+    },
+    "jFrogScan": {
+     "status": "safe",
+     "message": "Safe GGUF model",
+     "reportLink": "https://research.jfrog.com/model-threats/gguf-ssti?utm_source=huggingface"
+    }
+   }
+  },
+  {
+   "type": "file",
+   "oid": "b0930ff1037da406c0b79fb8af5b2334387a6d21",
+   "size": 8905109984,
+   "lfs": {
+    "oid": "7d932d742f5e09b66cf017bb0e27bf5acf1d0a12d0e65bcc4561528020c4b56c",
+    "size": 8905109984,
+    "pointerSize": 135
+   },
+   "xetHash": "90f8b182655d0195a7b47bdcd4423a9deea73cdab6cab4b8d20b0d3f0ffded6d",
+   "path": "DeepSeek-Coder-V2-Lite-Instruct-Q4_0.gguf",
+   "lastCommit": {
+    "id": "7d0d798e03e8a41fb1a4e270482823c4e50f80a4",
+    "title": "Update models",
+    "date": "2024-06-25T05:26:42.000Z"
+   },
+   "securityFileStatus": {
+    "status": "safe",
+    "protectAiScan": {
+     "status": "safe",
+     "message": "This file is vulnerable to threat(s) PAIT-GGUF-100.",
+     "reportLink": "https://insights-db.paloaltonetworks.com/models/second-state/DeepSeek-Coder-V2-Lite-Instruct-GGUF/c5d2f88d5ce17a690328cea5e01657c4f6d474ee/files?blob-id=b0930ff1037da406c0b79fb8af5b2334387a6d21&utm_source=huggingface"
+    },
+    "avScan": {
+     "status": "unscanned"
+    },
+    "pickleImportScan": {
+     "status": "unscanned"
+    },
+    "virusTotalScan": {
+     "status": "unscanned",
+     "message": "File not scanned in VirusTotal",
+     "reportLink": "https://www.virustotal.com/gui/file/7d932d742f5e09b66cf017bb0e27bf5acf1d0a12d0e65bcc4561528020c4b56c?utm_source=huggingface"
+    },
+    "jFrogScan": {
+     "status": "safe",
+     "message": "Safe GGUF model",
+     "reportLink": "https://research.jfrog.com/model-threats/gguf-ssti?utm_source=huggingface"
+    }
+   }
+  },
+  {
+   "type": "file",
+   "oid": "54b990f3853e6abb9eb84b2059048b17b7ca7518",
+   "size": 10364416480,
+   "lfs": {
+    "oid": "38bc76f3326b49b4d81d1027d092bf7ce5b4ed2de4136d1d2e7e6347c3ec8376",
+    "size": 10364416480,
+    "pointerSize": 136
+   },
+   "xetHash": "877132fc4bbf14a6744ac50b291baaf69aa65d1b753c623c4db3f50a1b4c041e",
+   "path": "DeepSeek-Coder-V2-Lite-Instruct-Q4_K_M.gguf",
+   "lastCommit": {
+    "id": "7d0d798e03e8a41fb1a4e270482823c4e50f80a4",
+    "title": "Update models",
+    "date": "2024-06-25T05:26:42.000Z"
+   },
+   "securityFileStatus": {
+    "status": "safe",
+    "protectAiScan": {
+     "status": "safe",
+     "message": "This file is vulnerable to threat(s) PAIT-GGUF-100.",
+     "reportLink": "https://insights-db.paloaltonetworks.com/models/second-state/DeepSeek-Coder-V2-Lite-Instruct-GGUF/c5d2f88d5ce17a690328cea5e01657c4f6d474ee/files?blob-id=54b990f3853e6abb9eb84b2059048b17b7ca7518&utm_source=huggingface"
+    },
+    "avScan": {
+     "status": "unscanned",
+     "message": "",
+     "version": "1.5.1/27895"
+    },
+    "pickleImportScan": {
+     "status": "unscanned",
+     "pickleImports": [],
+     "version": "0.0.0"
+    },
+    "virusTotalScan": {
+     "status": "safe",
+     "message": "0/75 engines detect it as malicious.",
+     "reportLink": "https://www.virustotal.com/gui/file/38bc76f3326b49b4d81d1027d092bf7ce5b4ed2de4136d1d2e7e6347c3ec8376?utm_source=huggingface"
+    },
+    "jFrogScan": {
+     "status": "safe",
+     "message": "Safe GGUF model",
+     "reportLink": "https://research.jfrog.com/model-threats/gguf-ssti?utm_source=huggingface"
+    }
+   }
+  },
+  {
+   "type": "file",
+   "oid": "6e6f75dda331d45cba1262d6510741e08cff9322",
+   "size": 9533608416,
+   "lfs": {
+    "oid": "48a9e203ee6f5ed208c4d8859b7c2c2914bd1af8621d90f366dd7b0bd9112d5c",
+    "size": 9533608416,
+    "pointerSize": 135
+   },
+   "xetHash": "c3032ccd2453b14d4b8a906219f40339310b5f3d6e6aa37be0f807f1f0d8c65b",
+   "path": "DeepSeek-Coder-V2-Lite-Instruct-Q4_K_S.gguf",
+   "lastCommit": {
+    "id": "7d0d798e03e8a41fb1a4e270482823c4e50f80a4",
+    "title": "Update models",
+    "date": "2024-06-25T05:26:42.000Z"
+   },
+   "securityFileStatus": {
+    "status": "safe",
+    "protectAiScan": {
+     "status": "safe",
+     "message": "This file is vulnerable to threat(s) PAIT-GGUF-100.",
+     "reportLink": "https://insights-db.paloaltonetworks.com/models/second-state/DeepSeek-Coder-V2-Lite-Instruct-GGUF/c5d2f88d5ce17a690328cea5e01657c4f6d474ee/files?blob-id=6e6f75dda331d45cba1262d6510741e08cff9322&utm_source=huggingface"
+    },
+    "avScan": {
+     "status": "unscanned"
+    },
+    "pickleImportScan": {
+     "status": "unscanned"
+    },
+    "virusTotalScan": {
+     "status": "unscanned",
+     "message": "File not scanned in VirusTotal",
+     "reportLink": "https://www.virustotal.com/gui/file/48a9e203ee6f5ed208c4d8859b7c2c2914bd1af8621d90f366dd7b0bd9112d5c?utm_source=huggingface"
+    },
+    "jFrogScan": {
+     "status": "safe",
+     "message": "Safe GGUF model",
+     "reportLink": "https://research.jfrog.com/model-threats/gguf-ssti?utm_source=huggingface"
+    }
+   }
+  },
+  {
+   "type": "file",
+   "oid": "71d31e97dbef5486e107c07f3adba81f4e89ada5",
+   "size": 10841764320,
+   "lfs": {
+    "oid": "fbd09a611559c2f97767a41e555dd05d0c6a61425bf14d2d1e2cf0ea817690dd",
+    "size": 10841764320,
+    "pointerSize": 136
+   },
+   "xetHash": "6854a70ea07c7b71f1693eca6a977585f2d9e9a400b93b6ec80a6865d58338af",
+   "path": "DeepSeek-Coder-V2-Lite-Instruct-Q5_0.gguf",
+   "lastCommit": {
+    "id": "7d0d798e03e8a41fb1a4e270482823c4e50f80a4",
+    "title": "Update models",
+    "date": "2024-06-25T05:26:42.000Z"
+   },
+   "securityFileStatus": {
+    "status": "safe",
+    "protectAiScan": {
+     "status": "safe",
+     "message": "This file is vulnerable to threat(s) PAIT-GGUF-100.",
+     "reportLink": "https://insights-db.paloaltonetworks.com/models/second-state/DeepSeek-Coder-V2-Lite-Instruct-GGUF/c5d2f88d5ce17a690328cea5e01657c4f6d474ee/files?blob-id=71d31e97dbef5486e107c07f3adba81f4e89ada5&utm_source=huggingface"
+    },
+    "avScan": {
+     "status": "unscanned"
+    },
+    "pickleImportScan": {
+     "status": "unscanned"
+    },
+    "virusTotalScan": {
+     "status": "unscanned",
+     "message": "File not scanned in VirusTotal",
+     "reportLink": "https://www.virustotal.com/gui/file/fbd09a611559c2f97767a41e555dd05d0c6a61425bf14d2d1e2cf0ea817690dd?utm_source=huggingface"
+    },
+    "jFrogScan": {
+     "status": "safe",
+     "message": "Safe GGUF model",
+     "reportLink": "https://research.jfrog.com/model-threats/gguf-ssti?utm_source=huggingface"
+    }
+   }
+  },
+  {
+   "type": "file",
+   "oid": "a0f3052706e8b5c82a8e44aedc3389326fdcfdf5",
+   "size": 11851313632,
+   "lfs": {
+    "oid": "08b4ff12b045ec0001a690249931d91acbcbe007694352d6ac5bf86e16f6fc6b",
+    "size": 11851313632,
+    "pointerSize": 136
+   },
+   "xetHash": "62cb5d1e285d763f05669afb488c27dc56a29f2f4ee9c6be738d911ddb256ccd",
+   "path": "DeepSeek-Coder-V2-Lite-Instruct-Q5_K_M.gguf",
+   "lastCommit": {
+    "id": "28c51a49fd0c9b04bdceaff5bfced595411159da",
+    "title": "Upload DeepSeek-Coder-V2-Lite-Instruct-Q5_K_M.gguf with huggingface_hub",
+    "date": "2024-06-25T05:56:22.000Z"
+   },
+   "securityFileStatus": {
+    "status": "safe",
+    "protectAiScan": {
+     "status": "safe",
+     "message": "This file is vulnerable to threat(s) PAIT-GGUF-100.",
+     "reportLink": "https://insights-db.paloaltonetworks.com/models/second-state/DeepSeek-Coder-V2-Lite-Instruct-GGUF/c5d2f88d5ce17a690328cea5e01657c4f6d474ee/files?blob-id=a0f3052706e8b5c82a8e44aedc3389326fdcfdf5&utm_source=huggingface"
+    },
+    "avScan": {
+     "status": "unscanned"
+    },
+    "pickleImportScan": {
+     "status": "unscanned"
+    },
+    "virusTotalScan": {
+     "status": "unscanned",
+     "message": "File not scanned in VirusTotal",
+     "reportLink": "https://www.virustotal.com/gui/file/08b4ff12b045ec0001a690249931d91acbcbe007694352d6ac5bf86e16f6fc6b?utm_source=huggingface"
+    },
+    "jFrogScan": {
+     "status": "safe",
+     "message": "Safe GGUF model",
+     "reportLink": "https://research.jfrog.com/model-threats/gguf-ssti?utm_source=huggingface"
+    }
+   }
+  },
+  {
+   "type": "file",
+   "oid": "4bf4b9e9745f864512ad8c12834660e7bc6c43d3",
+   "size": 11143057888,
+   "lfs": {
+    "oid": "03f2eacb23d597e7793a57bcaabcc3ebceec1515b04a0fe49996817ff169922d",
+    "size": 11143057888,
+    "pointerSize": 136
+   },
+   "xetHash": "98f2cb62c37dc9d49d37a151110c627b5638477f799387e5e118a209303d36d3",
+   "path": "DeepSeek-Coder-V2-Lite-Instruct-Q5_K_S.gguf",
+   "lastCommit": {
+    "id": "7d0d798e03e8a41fb1a4e270482823c4e50f80a4",
+    "title": "Update models",
+    "date": "2024-06-25T05:26:42.000Z"
+   },
+   "securityFileStatus": {
+    "status": "safe",
+    "protectAiScan": {
+     "status": "safe",
+     "message": "This file is vulnerable to threat(s) PAIT-GGUF-100.",
+     "reportLink": "https://insights-db.paloaltonetworks.com/models/second-state/DeepSeek-Coder-V2-Lite-Instruct-GGUF/c5d2f88d5ce17a690328cea5e01657c4f6d474ee/files?blob-id=4bf4b9e9745f864512ad8c12834660e7bc6c43d3&utm_source=huggingface"
+    },
+    "avScan": {
+     "status": "unscanned"
+    },
+    "pickleImportScan": {
+     "status": "unscanned"
+    },
+    "virusTotalScan": {
+     "status": "unscanned",
+     "message": "File not scanned in VirusTotal",
+     "reportLink": "https://www.virustotal.com/gui/file/03f2eacb23d597e7793a57bcaabcc3ebceec1515b04a0fe49996817ff169922d?utm_source=huggingface"
+    },
+    "jFrogScan": {
+     "status": "safe",
+     "message": "Safe GGUF model",
+     "reportLink": "https://research.jfrog.com/model-threats/gguf-ssti?utm_source=huggingface"
+    }
+   }
+  },
+  {
+   "type": "file",
+   "oid": "7ae2032d2f5c28a637154822ce0ae31a041a9565",
+   "size": 14066972128,
+   "lfs": {
+    "oid": "0cfe5211943fffec745261aba45023b07d1a9004356a4efdfbf855bf47ca6782",
+    "size": 14066972128,
+    "pointerSize": 136
+   },
+   "xetHash": "714252a4906552b4f88ca62ce28d7e805936ea22137c37da9d8b65d3e69f2108",
+   "path": "DeepSeek-Coder-V2-Lite-Instruct-Q6_K.gguf",
+   "lastCommit": {
+    "id": "7d0d798e03e8a41fb1a4e270482823c4e50f80a4",
+    "title": "Update models",
+    "date": "2024-06-25T05:26:42.000Z"
+   },
+   "securityFileStatus": {
+    "status": "safe",
+    "protectAiScan": {
+     "status": "safe",
+     "message": "This file is vulnerable to threat(s) PAIT-GGUF-100.",
+     "reportLink": "https://insights-db.paloaltonetworks.com/models/second-state/DeepSeek-Coder-V2-Lite-Instruct-GGUF/c5d2f88d5ce17a690328cea5e01657c4f6d474ee/files?blob-id=7ae2032d2f5c28a637154822ce0ae31a041a9565&utm_source=huggingface"
+    },
+    "avScan": {
+     "status": "unscanned"
+    },
+    "pickleImportScan": {
+     "status": "unscanned"
+    },
+    "virusTotalScan": {
+     "status": "unscanned",
+     "message": "File not scanned in VirusTotal",
+     "reportLink": "https://www.virustotal.com/gui/file/0cfe5211943fffec745261aba45023b07d1a9004356a4efdfbf855bf47ca6782?utm_source=huggingface"
+    },
+    "jFrogScan": {
+     "status": "safe",
+     "message": "Safe GGUF model",
+     "reportLink": "https://research.jfrog.com/model-threats/gguf-ssti?utm_source=huggingface"
+    }
+   }
+  },
+  {
+   "type": "file",
+   "oid": "4b3225128b53be5e9f99c4196b77d38a1471edf1",
+   "size": 16702517728,
+   "lfs": {
+    "oid": "373dcfc92e01372709b6164fc836f677a6280e25e9eac5c434c64223207bfc4f",
+    "size": 16702517728,
+    "pointerSize": 136
+   },
+   "xetHash": "eedfd27d082698c5ec7b4bc8bb599707b07037f15350fa5132c86fee53ec4bfb",
+   "path": "DeepSeek-Coder-V2-Lite-Instruct-Q8_0.gguf",
+   "lastCommit": {
+    "id": "7d0d798e03e8a41fb1a4e270482823c4e50f80a4",
+    "title": "Update models",
+    "date": "2024-06-25T05:26:42.000Z"
+   },
+   "securityFileStatus": {
+    "status": "safe",
+    "protectAiScan": {
+     "status": "safe",
+     "message": "This file is vulnerable to threat(s) PAIT-GGUF-100.",
+     "reportLink": "https://insights-db.paloaltonetworks.com/models/second-state/DeepSeek-Coder-V2-Lite-Instruct-GGUF/c5d2f88d5ce17a690328cea5e01657c4f6d474ee/files?blob-id=4b3225128b53be5e9f99c4196b77d38a1471edf1&utm_source=huggingface"
+    },
+    "avScan": {
+     "status": "unscanned",
+     "message": "",
+     "version": "1.5.1/27824"
+    },
+    "pickleImportScan": {
+     "status": "unscanned",
+     "pickleImports": [],
+     "version": "0.0.0"
+    },
+    "virusTotalScan": {
+     "status": "unscanned",
+     "message": "File not scanned in VirusTotal",
+     "reportLink": "https://www.virustotal.com/gui/file/373dcfc92e01372709b6164fc836f677a6280e25e9eac5c434c64223207bfc4f?utm_source=huggingface"
+    },
+    "jFrogScan": {
+     "status": "safe",
+     "message": "Safe GGUF model",
+     "reportLink": "https://research.jfrog.com/model-threats/gguf-ssti?utm_source=huggingface"
+    }
+   }
+  },
+  {
+   "type": "file",
+   "oid": "446fbaa34ad1899553cecd7ec3d0f6918cab784b",
+   "size": 31424033248,
+   "lfs": {
+    "oid": "2de57aa898372715c457b7c06362bb9826f3e47ba2a83679f162fcb7b40e763b",
+    "size": 31424033248,
+    "pointerSize": 136
+   },
+   "xetHash": "8d9eb397ce0b80ce1197ad388de2addff1a3b77875e6f01dc48ea9bf3225ef82",
+   "path": "DeepSeek-Coder-V2-Lite-Instruct-f16.gguf",
+   "lastCommit": {
+    "id": "7d0d798e03e8a41fb1a4e270482823c4e50f80a4",
+    "title": "Update models",
+    "date": "2024-06-25T05:26:42.000Z"
+   },
+   "securityFileStatus": {
+    "status": "safe",
+    "protectAiScan": {
+     "status": "safe",
+     "message": "This file is vulnerable to threat(s) PAIT-GGUF-100.",
+     "reportLink": "https://insights-db.paloaltonetworks.com/models/second-state/DeepSeek-Coder-V2-Lite-Instruct-GGUF/c5d2f88d5ce17a690328cea5e01657c4f6d474ee/files?blob-id=446fbaa34ad1899553cecd7ec3d0f6918cab784b&utm_source=huggingface"
+    },
+    "avScan": {
+     "status": "unscanned",
+     "message": "",
+     "version": "1.4.3/27742"
+    },
+    "pickleImportScan": {
+     "status": "unscanned",
+     "pickleImports": [],
+     "version": "0.0.0"
+    },
+    "virusTotalScan": {
+     "status": "unscanned",
+     "message": "File not scanned in VirusTotal",
+     "reportLink": "https://www.virustotal.com/gui/file/2de57aa898372715c457b7c06362bb9826f3e47ba2a83679f162fcb7b40e763b?utm_source=huggingface"
+    },
+    "jFrogScan": {
+     "status": "safe",
+     "message": "Safe GGUF model",
+     "reportLink": "https://research.jfrog.com/model-threats/gguf-ssti?utm_source=huggingface"
+    }
+   }
+  },
+  {
+   "type": "file",
+   "oid": "861286e4267f394f5efe9df7a889b3f91a609dfb",
+   "size": 5008,
+   "path": "README.md",
+   "lastCommit": {
+    "id": "c5d2f88d5ce17a690328cea5e01657c4f6d474ee",
+    "title": "Update README.md",
+    "date": "2024-08-04T11:12:09.000Z"
+   },
+   "securityFileStatus": {
+    "status": "safe",
+    "protectAiScan": {
+     "status": "safe",
+     "message": "This file has no security findings.",
+     "reportLink": "https://insights-db.paloaltonetworks.com/models/second-state/DeepSeek-Coder-V2-Lite-Instruct-GGUF/c5d2f88d5ce17a690328cea5e01657c4f6d474ee/files?blob-id=861286e4267f394f5efe9df7a889b3f91a609dfb&utm_source=huggingface"
+    },
+    "avScan": {
+     "status": "safe",
+     "message": "No security issues detected",
+     "reportLink": "https://fdtn.ai/ai-supply-chain/hugging-face?utm_source=huggingface"
+    },
+    "pickleImportScan": {
+     "status": "unscanned"
+    },
+    "virusTotalScan": {
+     "status": "unscanned"
+    },
+    "jFrogScan": {
+     "status": "unscanned",
+     "message": "Not a machine-learning model"
+    }
+   }
+  },
+  {
+   "type": "file",
+   "oid": "3b1ccb3ddc847f2475a8e1b86e18ab1505fd87da",
+   "size": 1522,
+   "path": "config.json",
+   "lastCommit": {
+    "id": "e620559c019b19f48065b7cdad7ffa87203b0589",
+    "title": "Upload config.json with huggingface_hub",
+    "date": "2024-06-25T05:43:33.000Z"
+   },
+   "securityFileStatus": {
+    "status": "queued",
+    "protectAiScan": {
+     "status": "safe",
+     "message": "This file has no security findings.",
+     "reportLink": "https://insights-db.paloaltonetworks.com/models/second-state/DeepSeek-Coder-V2-Lite-Instruct-GGUF/c5d2f88d5ce17a690328cea5e01657c4f6d474ee/files?blob-id=3b1ccb3ddc847f2475a8e1b86e18ab1505fd87da&utm_source=huggingface"
+    },
+    "avScan": {
+     "status": "safe",
+     "message": "No security issues detected",
+     "reportLink": "https://fdtn.ai/ai-supply-chain/hugging-face?utm_source=huggingface"
+    },
+    "pickleImportScan": {
+     "status": "unscanned",
+     "pickleImports": [],
+     "version": "0.0.0"
+    },
+    "virusTotalScan": {
+     "status": "unscanned"
+    },
+    "jFrogScan": {
+     "status": "queued",
+     "message": ""
+    }
+   }
+  }
+ ]
+}

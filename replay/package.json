@@ -1,0 +1,7 @@
+{
+  "name": "phantomdeps-replay-tools",
+  "version": "0.0.0",
+  "private": true,
+  "description": "Local tooling for the PhantomDeps-CPS replay harness (Verdaccio only).",
+  "dependencies": { "verdaccio": "6.10.7" }
+}

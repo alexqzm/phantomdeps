@@ -1,0 +1,376 @@
+{
+ "url": "https://huggingface.co/api/models/Qwen/Qwen3-8B-GGUF/tree/main?expand=true",
+ "body": null,
+ "retrieved_at": "2026-10-24T20:45:08Z",
+ "answer": [
+  {
+   "type": "file",
+   "oid": "92b6af94db2a0d4f69ea557374186e4e63df7b01",
+   "size": 1798,
+   "path": ".gitattributes",
+   "lastCommit": {
+    "id": "6a569868d07d3bd59e8b97fb001bf8c0b254bb20",
+    "title": "Upload folder using huggingface_hub",
+    "date": "2025-05-03T07:13:02.000Z"
+   },
+   "securityFileStatus": {
+    "status": "safe",
+    "protectAiScan": {
+     "status": "safe",
+     "message": "This file has no security findings.",
+     "reportLink": "https://insights-db.paloaltonetworks.com/models/Qwen/Qwen3-8B-GGUF/7c41481f57cb95916b40956ab2f0b139b296d974/files?blob-id=92b6af94db2a0d4f69ea557374186e4e63df7b01&utm_source=huggingface"
+    },
+    "avScan": {
+     "status": "safe",
+     "message": "No security issues detected",
+     "reportLink": "https://fdtn.ai/ai-supply-chain/hugging-face?utm_source=huggingface"
+    },
+    "pickleImportScan": {
+     "status": "unscanned",
+     "pickleImports": [],
+     "version": "0.0.0"
+    },
+    "virusTotalScan": {
+     "status": "unscanned"
+    },
+    "jFrogScan": {
+     "status": "unscanned",
+     "message": "Not a machine-learning model"
+    }
+   }
+  },
+  {
+   "type": "file",
+   "oid": "6f9739bb281a3d2ade8fb5f6dd6dde597a739c80",
+   "size": 11544,
+   "path": "LICENSE",
+   "lastCommit": {
+    "id": "86e51c53be47cd9d82e0acb3ca6b4faedb51171d",
+    "title": "update README",
+    "date": "2025-05-05T12:28:04.000Z"
+   },
+   "securityFileStatus": {
+    "status": "safe",
+    "protectAiScan": {
+     "status": "safe",
+     "message": "This file has no security findings.",
+     "reportLink": "https://insights-db.paloaltonetworks.com/models/Qwen/Qwen3-8B-GGUF/7c41481f57cb95916b40956ab2f0b139b296d974/files?blob-id=6f9739bb281a3d2ade8fb5f6dd6dde597a739c80&utm_source=huggingface"
+    },
+    "avScan": {
+     "status": "safe",
+     "message": "No security issues detected",
+     "reportLink": "https://fdtn.ai/ai-supply-chain/hugging-face?utm_source=huggingface"
+    },
+    "pickleImportScan": {
+     "status": "unscanned",
+     "pickleImports": [],
+     "version": "0.0.0"
+    },
+    "virusTotalScan": {
+     "status": "unscanned"
+    },
+    "jFrogScan": {
+     "status": "unscanned",
+     "message": "Not a machine-learning model"
+    }
+   }
+  },
+  {
+   "type": "file",
+   "oid": "d4ee8ae7f4de3a5046b1a29776a3f011ba28017e",
+   "size": 5027783488,
+   "lfs": {
+    "oid": "d98cdcbd03e17ce47681435b5150e34c1417f50b5c0019dd560e4882c5745785",
+    "size": 5027783488,
+    "pointerSize": 135
+   },
+   "xetHash": "a56061d03bd2055a8236c8a80ec2440a550a53eaecf935fb2ddf37c93995667c",
+   "path": "Qwen3-8B-Q4_K_M.gguf",
+   "lastCommit": {
+    "id": "6a569868d07d3bd59e8b97fb001bf8c0b254bb20",
+    "title": "Upload folder using huggingface_hub",
+    "date": "2025-05-03T07:13:02.000Z"
+   },
+   "securityFileStatus": {
+    "status": "safe",
+    "protectAiScan": {
+     "status": "safe",
+     "message": "This file is vulnerable to threat(s) PAIT-GGUF-100.",
+     "reportLink": "https://insights-db.paloaltonetworks.com/models/Qwen/Qwen3-8B-GGUF/7c41481f57cb95916b40956ab2f0b139b296d974/files?blob-id=d4ee8ae7f4de3a5046b1a29776a3f011ba28017e&utm_source=huggingface"
+    },
+    "avScan": {
+     "status": "unscanned",
+     "message": "",
+     "version": "1.5.2/27960"
+    },
+    "pickleImportScan": {
+     "status": "unscanned",
+     "pickleImports": [],
+     "version": "0.0.0"
+    },
+    "virusTotalScan": {
+     "status": "safe",
+     "message": "0/73 engines detect it as malicious.",
+     "reportLink": "https://www.virustotal.com/gui/file/d98cdcbd03e17ce47681435b5150e34c1417f50b5c0019dd560e4882c5745785?utm_source=huggingface"
+    },
+    "jFrogScan": {
+     "status": "safe",
+     "message": "Safe GGUF model",
+     "reportLink": "https://research.jfrog.com/model-threats/gguf-ssti?utm_source=huggingface"
+    }
+   }
+  },
+  {
+   "type": "file",
+   "oid": "30579e89cbc651608cbceb3cfe3214adad1cfead",
+   "size": 5720761152,
+   "lfs": {
+    "oid": "c034cdfb0ad5b3edc5cf4ac07bff3b1b214aa541e633b37191c19c3a7b119727",
+    "size": 5720761152,
+    "pointerSize": 135
+   },
+   "xetHash": "cc0ad41d46a24fdd629ec44b3884d7c0313966b63d17cb1ca6438ee7313c9b21",
+   "path": "Qwen3-8B-Q5_0.gguf",
+   "lastCommit": {
+    "id": "6a569868d07d3bd59e8b97fb001bf8c0b254bb20",
+    "title": "Upload folder using huggingface_hub",
+    "date": "2025-05-03T07:13:02.000Z"
+   },
+   "securityFileStatus": {
+    "status": "safe",
+    "protectAiScan": {
+     "status": "safe",
+     "message": "This file is vulnerable to threat(s) PAIT-GGUF-100.",
+     "reportLink": "https://insights-db.paloaltonetworks.com/models/Qwen/Qwen3-8B-GGUF/7c41481f57cb95916b40956ab2f0b139b296d974/files?blob-id=30579e89cbc651608cbceb3cfe3214adad1cfead&utm_source=huggingface"
+    },
+    "avScan": {
+     "status": "unscanned",
+     "message": "",
+     "version": "1.5.2/27960"
+    },
+    "pickleImportScan": {
+     "status": "unscanned",
+     "pickleImports": [],
+     "version": "0.0.0"
+    },
+    "virusTotalScan": {
+     "status": "safe",
+     "message": "0/74 engines detect it as malicious.",
+     "reportLink": "https://www.virustotal.com/gui/file/c034cdfb0ad5b3edc5cf4ac07bff3b1b214aa541e633b37191c19c3a7b119727?utm_source=huggingface"
+    },
+    "jFrogScan": {
+     "status": "safe",
+     "message": "Safe GGUF model",
+     "reportLink": "https://research.jfrog.com/model-threats/gguf-ssti?utm_source=huggingface"
+    }
+   }
+  },
+  {
+   "type": "file",
+   "oid": "d07d0f09f9be1d32eae9af8649341bf3daac7d0b",
+   "size": 5851112224,
+   "lfs": {
+    "oid": "068bae163faa96ad48032daf4e071a6a28fe67d8dcc95367609c2ff165e52738",
+    "size": 5851112224,
+    "pointerSize": 135
+   },
+   "xetHash": "06b0944728a89f0b6395a4c04d434db83a65e75362a9c0d84a8b448936f55809",
+   "path": "Qwen3-8B-Q5_K_M.gguf",
+   "lastCommit": {
+    "id": "6a569868d07d3bd59e8b97fb001bf8c0b254bb20",
+    "title": "Upload folder using huggingface_hub",
+    "date": "2025-05-03T07:13:02.000Z"
+   },
+   "securityFileStatus": {
+    "status": "safe",
+    "protectAiScan": {
+     "status": "safe",
+     "message": "This file is vulnerable to threat(s) PAIT-GGUF-100.",
+     "reportLink": "https://insights-db.paloaltonetworks.com/models/Qwen/Qwen3-8B-GGUF/7c41481f57cb95916b40956ab2f0b139b296d974/files?blob-id=d07d0f09f9be1d32eae9af8649341bf3daac7d0b&utm_source=huggingface"
+    },
+    "avScan": {
+     "status": "unscanned",
+     "message": "",
+     "version": "1.5.2/27960"
+    },
+    "pickleImportScan": {
+     "status": "unscanned",
+     "pickleImports": [],
+     "version": "0.0.0"
+    },
+    "virusTotalScan": {
+     "status": "safe",
+     "message": "0/74 engines detect it as malicious.",
+     "reportLink": "https://www.virustotal.com/gui/file/068bae163faa96ad48032daf4e071a6a28fe67d8dcc95367609c2ff165e52738?utm_source=huggingface"
+    },
+    "jFrogScan": {
+     "status": "safe",
+     "message": "Safe GGUF model",
+     "reportLink": "https://research.jfrog.com/model-threats/gguf-ssti?utm_source=huggingface"
+    }
+   }
+  },
+  {
+   "type": "file",
+   "oid": "cc106e2fa13d91c507999ceacf0b4ea87fcc708b",
+   "size": 6725899040,
+   "lfs": {
+    "oid": "cb042ccd76795a8830d6be6bd4165245847cc68e41797b13bd61aed4c2cfbce6",
+    "size": 6725899040,
+    "pointerSize": 135
+   },
+   "xetHash": "8e8fb79b3a966daeceb247f8454a1bf3981795cc96d9da4faf2c357706164d93",
+   "path": "Qwen3-8B-Q6_K.gguf",
+   "lastCommit": {
+    "id": "6a569868d07d3bd59e8b97fb001bf8c0b254bb20",
+    "title": "Upload folder using huggingface_hub",
+    "date": "2025-05-03T07:13:02.000Z"
+   },
+   "securityFileStatus": {
+    "status": "safe",
+    "protectAiScan": {
+     "status": "safe",
+     "message": "This file is vulnerable to threat(s) PAIT-GGUF-100.",
+     "reportLink": "https://insights-db.paloaltonetworks.com/models/Qwen/Qwen3-8B-GGUF/7c41481f57cb95916b40956ab2f0b139b296d974/files?blob-id=cc106e2fa13d91c507999ceacf0b4ea87fcc708b&utm_source=huggingface"
+    },
+    "avScan": {
+     "status": "unscanned",
+     "message": "",
+     "version": "1.5.2/27960"
+    },
+    "pickleImportScan": {
+     "status": "unscanned",
+     "pickleImports": [],
+     "version": "0.0.0"
+    },
+    "virusTotalScan": {
+     "status": "safe",
+     "message": "0/74 engines detect it as malicious.",
+     "reportLink": "https://www.virustotal.com/gui/file/cb042ccd76795a8830d6be6bd4165245847cc68e41797b13bd61aed4c2cfbce6?utm_source=huggingface"
+    },
+    "jFrogScan": {
+     "status": "safe",
+     "message": "Safe GGUF model",
+     "reportLink": "https://research.jfrog.com/model-threats/gguf-ssti?utm_source=huggingface"
+    }
+   }
+  },
+  {
+   "type": "file",
+   "oid": "954c5db9f4cce8f400022addeb8d7baa1f5e30f6",
+   "size": 8709518112,
+   "lfs": {
+    "oid": "408b955510e196121c1c375201744783b5c9a43c7956d73fc78df54c66e883d6",
+    "size": 8709518112,
+    "pointerSize": 135
+   },
+   "xetHash": "ce48260c074613c3e6632f26b19dd4cdab35ae91b0edf3259dd15cd3ea2a1830",
+   "path": "Qwen3-8B-Q8_0.gguf",
+   "lastCommit": {
+    "id": "6a569868d07d3bd59e8b97fb001bf8c0b254bb20",
+    "title": "Upload folder using huggingface_hub",
+    "date": "2025-05-03T07:13:02.000Z"
+   },
+   "securityFileStatus": {
+    "status": "safe",
+    "protectAiScan": {
+     "status": "safe",
+     "message": "This file is vulnerable to threat(s) PAIT-GGUF-100.",
+     "reportLink": "https://insights-db.paloaltonetworks.com/models/Qwen/Qwen3-8B-GGUF/7c41481f57cb95916b40956ab2f0b139b296d974/files?blob-id=954c5db9f4cce8f400022addeb8d7baa1f5e30f6&utm_source=huggingface"
+    },
+    "avScan": {
+     "status": "unscanned",
+     "message": "",
+     "version": "1.5.2/27960"
+    },
+    "pickleImportScan": {
+     "status": "unscanned",
+     "pickleImports": [],
+     "version": "0.0.0"
+    },
+    "virusTotalScan": {
+     "status": "safe",
+     "message": "0/73 engines detect it as malicious.",
+     "reportLink": "https://www.virustotal.com/gui/file/408b955510e196121c1c375201744783b5c9a43c7956d73fc78df54c66e883d6?utm_source=huggingface"
+    },
+    "jFrogScan": {
+     "status": "safe",
+     "message": "Safe GGUF model",
+     "reportLink": "https://research.jfrog.com/model-threats/gguf-ssti?utm_source=huggingface"
+    }
+   }
+  },
+  {
+   "type": "file",
+   "oid": "3b55dd0ba5cb12c559f87dea67edf8c48154ec62",
+   "size": 7577,
+   "path": "README.md",
+   "lastCommit": {
+    "id": "7c41481f57cb95916b40956ab2f0b139b296d974",
+    "title": "Update README.md",
+    "date": "2025-05-21T06:31:50.000Z"
+   },
+   "securityFileStatus": {
+    "status": "safe",
+    "protectAiScan": {
+     "status": "safe",
+     "message": "This file has no security findings.",
+     "reportLink": "https://insights-db.paloaltonetworks.com/models/Qwen/Qwen3-8B-GGUF/7c41481f57cb95916b40956ab2f0b139b296d974/files?blob-id=3b55dd0ba5cb12c559f87dea67edf8c48154ec62&utm_source=huggingface"
+    },
+    "avScan": {
+     "status": "safe",
+     "message": "No security issues detected",
+     "reportLink": "https://fdtn.ai/ai-supply-chain/hugging-face?utm_source=huggingface"
+    },
+    "pickleImportScan": {
+     "status": "unscanned",
+     "pickleImports": [],
+     "version": "0.0.0"
+    },
+    "virusTotalScan": {
+     "status": "unscanned"
+    },
+    "jFrogScan": {
+     "status": "unscanned",
+     "message": "Not a machine-learning model"
+    }
+   }
+  },
+  {
+   "type": "file",
+   "oid": "b79a3bdde8373ca566bd404904abbd5270d7825d",
+   "size": 270,
+   "path": "params",
+   "lastCommit": {
+    "id": "6cfbfc7d8ab95bf485c79fcc40be60930d5b4c8c",
+    "title": "update README",
+    "date": "2025-05-09T07:17:20.000Z"
+   },
+   "securityFileStatus": {
+    "status": "safe",
+    "protectAiScan": {
+     "status": "safe",
+     "message": "This file has no security findings.",
+     "reportLink": "https://insights-db.paloaltonetworks.com/models/Qwen/Qwen3-8B-GGUF/7c41481f57cb95916b40956ab2f0b139b296d974/files?blob-id=b79a3bdde8373ca566bd404904abbd5270d7825d&utm_source=huggingface"
+    },
+    "avScan": {
+     "status": "safe",
+     "message": "No security issues detected",
+     "reportLink": "https://fdtn.ai/ai-supply-chain/hugging-face?utm_source=huggingface"
+    },
+    "pickleImportScan": {
+     "status": "unscanned",
+     "pickleImports": [],
+     "version": "0.0.0"
+    },
+    "virusTotalScan": {
+     "status": "unscanned"
+    },
+    "jFrogScan": {
+     "status": "unscanned",
+     "message": "Not a machine-learning model"
+    }
+   }
+  }
+ ]
+}

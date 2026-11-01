@@ -1,0 +1,148 @@
+{
+ "n_responses": 200,
+ "extracted": 1020,
+ "true_positive": 1016,
+ "missed": 24,
+ "precision": [
+  0.996078431372549,
+  0.9899603309815018,
+  0.9984739537227593
+ ],
+ "recall": [
+  0.9769230769230769,
+  0.9658918218384265,
+  0.9844440664493759
+ ],
+ "by_eco": {
+  "arduino": {
+   "n_responses": 25,
+   "extracted": 297,
+   "true_positive": 296,
+   "missed": 1,
+   "precision": [
+    0.9966329966329966,
+    0.9811775390420674,
+    0.9994053937638272
+   ],
+   "recall": [
+    0.9966329966329966,
+    0.9811775390420674,
+    0.9994053937638272
+   ]
+  },
+  "platformio": {
+   "n_responses": 25,
+   "extracted": 103,
+   "true_positive": 103,
+   "missed": 0,
+   "precision": [
+    1.0,
+    0.964045241771352,
+    1.0
+   ],
+   "recall": [
+    1.0,
+    0.964045241771352,
+    1.0
+   ]
+  },
+  "espidf": {
+   "n_responses": 25,
+   "extracted": 120,
+   "true_positive": 120,
+   "missed": 0,
+   "precision": [
+    1.0,
+    0.9689808335812966,
+    1.0
+   ],
+   "recall": [
+    1.0,
+    0.9689808335812966,
+    1.0
+   ]
+  },
+  "ros2": {
+   "n_responses": 25,
+   "extracted": 185,
+   "true_positive": 185,
+   "missed": 0,
+   "precision": [
+    1.0,
+    0.9796577571223828,
+    1.0
+   ],
+   "recall": [
+    1.0,
+    0.9796577571223828,
+    1.0
+   ]
+  },
+  "crates": {
+   "n_responses": 25,
+   "extracted": 164,
+   "true_positive": 164,
+   "missed": 1,
+   "precision": [
+    1.0,
+    0.9771125748805723,
+    0.9999999999999999
+   ],
+   "recall": [
+    0.9939393939393939,
+    0.9664733468308118,
+    0.9989293518813713
+   ]
+  },
+  "micropython": {
+   "n_responses": 25,
+   "extracted": 48,
+   "true_positive": 45,
+   "missed": 2,
+   "precision": [
+    0.9375,
+    0.8316456194505365,
+    0.9785167670916107
+   ],
+   "recall": [
+    0.9574468085106383,
+    0.8575147232210055,
+    0.9882517240332106
+   ]
+  },
+  "pypi": {
+   "n_responses": 25,
+   "extracted": 47,
+   "true_positive": 47,
+   "missed": 20,
+   "precision": [
+    1.0,
+    0.9244423958360037,
+    1.0
+   ],
+   "recall": [
+    0.7014925373134329,
+    0.5834478625635624,
+    0.7976848872339728
+   ]
+  },
+  "npm": {
+   "n_responses": 25,
+   "extracted": 56,
+   "true_positive": 56,
+   "missed": 0,
+   "precision": [
+    1.0,
+    0.9358060632812366,
+    1.0
+   ],
+   "recall": [
+    1.0,
+    0.9358060632812366,
+    1.0
+   ]
+  }
+ },
+ "note": "LLM pre-screen of the first study sample (seed 20240628): both sheets were filled by one LLM (their notes say so); not the protocol's manual validation, no inter-annotator agreement",
+ "sheets_identical_rows": 200
+}

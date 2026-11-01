@@ -1,0 +1,19 @@
+\begin{tabular}{@{}lrrrrrrrrrrrrrr@{}}
+\toprule
+& \multicolumn{10}{c}{Observed world} & \multicolumn{4}{c}{Squat world, $U$ admitted} \\
+\cmidrule(lr){2-11}\cmidrule(l){12-15}
+& \multicolumn{3}{c}{Unsafe $U$} & \multicolumn{3}{c}{Post-horizon $H$} & \multicolumn{4}{c}{Clean $C$} & $L{=}0$ & $L{=}30$ & $L{=}365$ & open, $L{=}0$ \\
+\cmidrule(lr){2-4}\cmidrule(lr){5-7}\cmidrule(lr){8-11}
+Policy & A & ? & X & A & ? & X & A & R & Q & X &  &  &  & \\
+\midrule
+P0 accept all & 1291 & 0 & 0 & 54 & 0 & 0 & 737 & 0 & 0 & 0 & 1291 & 1291 & 1291 & 1291 \\
+P1 resolves now & 0 & 0 & 1291 & 54 & 0 & 0 & 737 & 0 & 0 & 0 & 1287 & 1287 & 1287 & 590 \\
+P2 age $\geq$\rAgeDays\,d & 0 & 0 & 1291 & 54 & 0 & 0 & 737 & 0 & 0 & 0 & 0 & 1287 & 1287 & 0 \\
+P3 as of $h$ & 0 & 0 & 1291 & 0 & 0 & 54 & 711 & 0 & 0 & 26 & 0 & 0 & 0 & 0 \\
+P3$_{\bot}$ as of $h$, unknown asks & 0 & 0 & 1291 & 0 & 0 & 54 & 644 & 0 & 93 & 0 & 0 & 0 & 0 & 0 \\
+I index only & 0 & 0 & 1291 & 0 & 0 & 54 & 93 & 644 & 0 & 0 & 0 & 0 & 0 & 0 \\
+T two-state & 0 & 0 & 1291 & 0 & 0 & 54 & 93 & 547 & 0 & 97 & 0 & 0 & 0 & 0 \\
+O optimistic & 0 & 0 & 1291 & 0 & 0 & 54 & 737 & 0 & 0 & 0 & 228 & 228 & 228 & 92 \\
+SCII, rule (\ref{eq:rule}) & 0 & 0 & 1291 & 0 & 0 & 54 & 93 & 547 & 97 & 0 & 0 & 0 & 0 & 0 \\
+\bottomrule
+\end{tabular}

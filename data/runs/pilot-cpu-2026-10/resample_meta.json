@@ -1,0 +1,19 @@
+{
+ "concurrency": 4,
+ "finished_at": "2026-10-28T17:09:59Z",
+ "host": "host-5bce98f73f",
+ "n_pairs": 120,
+ "n_todo": {
+  "llama-3.2-1b-instruct": 3
+ },
+ "pass": "resample",
+ "plan": null,
+ "resample": {
+  "concurrency": 4,
+  "n": 3,
+  "seeds_from": 1,
+  "temperature": 0.7
+ },
+ "run_id": "pilot-cpu-2026-10",
+ "started_at": "2026-10-28T17:07:35Z"
+}

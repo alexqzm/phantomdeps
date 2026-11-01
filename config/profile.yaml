@@ -1,0 +1,10 @@
+# Admission profile for AI-originated dependency declarations (all values ASSIGNED,
+# not fitted; the safety properties P1-P2 hold for every admissible choice).
+theta: 0.85
+alpha: {res: 0.4, est: 0.3, pin: 0.2, prov: 0.1}
+mandatory: [res, est]
+delta_est_days: 30          # establishment margin before the knowledge horizon
+age_heuristic_days: 30      # baseline P2: block packages younger than this
+lags_days: [0, 7, 30, 90, 180, 365]
+sweep: {n_profiles: 1000, theta_min: 0.5, theta_max: 0.95, seed: 20240628}
+horizon_shift_days: 180     # sensitivity: horizons moved earlier by this many days

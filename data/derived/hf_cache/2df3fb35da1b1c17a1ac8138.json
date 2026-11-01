@@ -1,0 +1,655 @@
+{
+ "url": "https://huggingface.co/api/models/TheBloke/deepseek-coder-6.7B-instruct-GGUF/tree/main?expand=true",
+ "body": null,
+ "retrieved_at": "2026-10-24T20:45:07Z",
+ "answer": [
+  {
+   "type": "file",
+   "oid": "e761cd35f10691b6cee81bb175b5f312cc74b97a",
+   "size": 2433,
+   "path": ".gitattributes",
+   "lastCommit": {
+    "id": "8366715ea9afa9d868f891d8ef92fef7810af411",
+    "title": "GGUF model commit (made with llama.cpp commit 3d48f42)",
+    "date": "2023-11-05T13:41:37.000Z"
+   },
+   "securityFileStatus": {
+    "status": "safe",
+    "protectAiScan": {
+     "status": "safe",
+     "message": "This file has no security findings.",
+     "reportLink": "https://insights-db.paloaltonetworks.com/models/TheBloke/deepseek-coder-6.7B-instruct-GGUF/9e221e6b41cb1bf1c5d8f9718e81e3dc781f7557/files?blob-id=e761cd35f10691b6cee81bb175b5f312cc74b97a&utm_source=huggingface"
+    },
+    "avScan": {
+     "status": "safe",
+     "message": "No security issues detected",
+     "reportLink": "https://fdtn.ai/ai-supply-chain/hugging-face?utm_source=huggingface"
+    },
+    "pickleImportScan": {
+     "status": "unscanned",
+     "pickleImports": [],
+     "version": "0.0.0"
+    },
+    "virusTotalScan": {
+     "status": "unscanned"
+    },
+    "jFrogScan": {
+     "status": "unscanned",
+     "message": "Not a machine-learning model"
+    }
+   }
+  },
+  {
+   "type": "file",
+   "oid": "54c389cb50b3f32c924d922046797bfbd43d5611",
+   "size": 21322,
+   "path": "README.md",
+   "lastCommit": {
+    "id": "b175de3fbed333ab66471791a06088eb02db1230",
+    "title": "Upload README.md",
+    "date": "2023-11-05T13:41:42.000Z"
+   },
+   "securityFileStatus": {
+    "status": "safe",
+    "protectAiScan": {
+     "status": "safe",
+     "message": "This file has no security findings.",
+     "reportLink": "https://insights-db.paloaltonetworks.com/models/TheBloke/deepseek-coder-6.7B-instruct-GGUF/9e221e6b41cb1bf1c5d8f9718e81e3dc781f7557/files?blob-id=54c389cb50b3f32c924d922046797bfbd43d5611&utm_source=huggingface"
+    },
+    "avScan": {
+     "status": "safe",
+     "message": "No security issues detected",
+     "reportLink": "https://fdtn.ai/ai-supply-chain/hugging-face?utm_source=huggingface"
+    },
+    "pickleImportScan": {
+     "status": "unscanned",
+     "pickleImports": [],
+     "version": "0.0.0"
+    },
+    "virusTotalScan": {
+     "status": "unscanned"
+    },
+    "jFrogScan": {
+     "status": "unscanned",
+     "message": "Not a machine-learning model"
+    }
+   }
+  },
+  {
+   "type": "file",
+   "oid": "a770c44de33628ff769cae6b62f8c84c1e1d2e6a",
+   "size": 32,
+   "path": "config.json",
+   "lastCommit": {
+    "id": "b1c25e0e2e52b9dbd6e00a2d6711211c9e5c071c",
+    "title": "GGUF model commit (made with llama.cpp commit 3d48f42)",
+    "date": "2023-11-05T13:41:38.000Z"
+   },
+   "securityFileStatus": {
+    "status": "safe",
+    "protectAiScan": {
+     "status": "safe",
+     "message": "This file has no security findings.",
+     "reportLink": "https://insights-db.paloaltonetworks.com/models/TheBloke/deepseek-coder-6.7B-instruct-GGUF/9e221e6b41cb1bf1c5d8f9718e81e3dc781f7557/files?blob-id=a770c44de33628ff769cae6b62f8c84c1e1d2e6a&utm_source=huggingface"
+    },
+    "avScan": {
+     "status": "safe",
+     "message": "No security issues detected",
+     "reportLink": "https://fdtn.ai/ai-supply-chain/hugging-face?utm_source=huggingface"
+    },
+    "pickleImportScan": {
+     "status": "unscanned",
+     "pickleImports": [],
+     "version": "0.0.0"
+    },
+    "virusTotalScan": {
+     "status": "unscanned"
+    },
+    "jFrogScan": {
+     "status": "unscanned",
+     "message": "Not a machine-learning model"
+    }
+   }
+  },
+  {
+   "type": "file",
+   "oid": "2af648acc9befd72cf272effd58869cbe74703c2",
+   "size": 2827706592,
+   "lfs": {
+    "oid": "56447b37bd7c606c081d9b216b69c6cd77db6b473721b709a7b21ed4606e4960",
+    "size": 2827706592,
+    "pointerSize": 135
+   },
+   "xetHash": "fa037827ededfef5b374e43a838feeff9dfec76b0e6f6c77ce05e1161e6c2762",
+   "path": "deepseek-coder-6.7b-instruct.Q2_K.gguf",
+   "lastCommit": {
+    "id": "015abece66502fb90b62c2557b6aa920b24ba9ea",
+    "title": "GGUF model commit (made with llama.cpp commit bb60fd0)",
+    "date": "2023-11-05T16:39:03.000Z"
+   },
+   "securityFileStatus": {
+    "status": "safe",
+    "protectAiScan": {
+     "status": "safe",
+     "message": "This file has no security findings.",
+     "reportLink": "https://insights-db.paloaltonetworks.com/models/TheBloke/deepseek-coder-6.7B-instruct-GGUF/9e221e6b41cb1bf1c5d8f9718e81e3dc781f7557/files?blob-id=2af648acc9befd72cf272effd58869cbe74703c2&utm_source=huggingface"
+    },
+    "avScan": {
+     "status": "unscanned",
+     "message": "",
+     "version": "1.5.2/27961"
+    },
+    "pickleImportScan": {
+     "status": "unscanned",
+     "pickleImports": [],
+     "version": "0.0.0"
+    },
+    "virusTotalScan": {
+     "status": "safe",
+     "message": "0/74 engines detect it as malicious.",
+     "reportLink": "https://www.virustotal.com/gui/file/56447b37bd7c606c081d9b216b69c6cd77db6b473721b709a7b21ed4606e4960?utm_source=huggingface"
+    },
+    "jFrogScan": {
+     "status": "safe",
+     "message": "Safe GGUF model",
+     "reportLink": "https://research.jfrog.com/model-threats/gguf-ssti?utm_source=huggingface"
+    }
+   }
+  },
+  {
+   "type": "file",
+   "oid": "f2f036785fcabada6643d6c05bc06771915558f0",
+   "size": 3598983392,
+   "lfs": {
+    "oid": "9e3f820f623d5177ae4b7334cb6a8bfe8c562d7a088722dbd5a1f889845f462e",
+    "size": 3598983392,
+    "pointerSize": 135
+   },
+   "xetHash": "a1e4c11815b1d0c957c835f78adb2c0587699990e20e3d186be0eb103391853e",
+   "path": "deepseek-coder-6.7b-instruct.Q3_K_L.gguf",
+   "lastCommit": {
+    "id": "fc44d88e32186a94311ac43202fdad43eab1a116",
+    "title": "GGUF model commit (made with llama.cpp commit bb60fd0)",
+    "date": "2023-11-05T16:40:04.000Z"
+   },
+   "securityFileStatus": {
+    "status": "safe",
+    "protectAiScan": {
+     "status": "safe",
+     "message": "This file has no security findings.",
+     "reportLink": "https://insights-db.paloaltonetworks.com/models/TheBloke/deepseek-coder-6.7B-instruct-GGUF/9e221e6b41cb1bf1c5d8f9718e81e3dc781f7557/files?blob-id=f2f036785fcabada6643d6c05bc06771915558f0&utm_source=huggingface"
+    },
+    "avScan": {
+     "status": "unscanned",
+     "message": "",
+     "version": "1.5.2/27961"
+    },
+    "pickleImportScan": {
+     "status": "unscanned",
+     "pickleImports": [],
+     "version": "0.0.0"
+    },
+    "virusTotalScan": {
+     "status": "safe",
+     "message": "0/74 engines detect it as malicious.",
+     "reportLink": "https://www.virustotal.com/gui/file/9e3f820f623d5177ae4b7334cb6a8bfe8c562d7a088722dbd5a1f889845f462e?utm_source=huggingface"
+    },
+    "jFrogScan": {
+     "status": "safe",
+     "message": "Safe GGUF model",
+     "reportLink": "https://research.jfrog.com/model-threats/gguf-ssti?utm_source=huggingface"
+    }
+   }
+  },
+  {
+   "type": "file",
+   "oid": "6a293d175d58d4aa585db48b10b78bada253a01a",
+   "size": 3299877088,
+   "lfs": {
+    "oid": "6c841fde94b9103c92e875c9ab0ebeeb624b0709b2410c3bd942c80cd635117f",
+    "size": 3299877088,
+    "pointerSize": 135
+   },
+   "xetHash": "5dc7521f6df1b5bde101fbacf44a22e652aef735f310f780d9f435ba61d0d1bd",
+   "path": "deepseek-coder-6.7b-instruct.Q3_K_M.gguf",
+   "lastCommit": {
+    "id": "9bf88446b39f5d736e2fa04e64bbc66f9b155df3",
+    "title": "GGUF model commit (made with llama.cpp commit bb60fd0)",
+    "date": "2023-11-05T16:39:42.000Z"
+   },
+   "securityFileStatus": {
+    "status": "safe",
+    "protectAiScan": {
+     "status": "safe",
+     "message": "This file has no security findings.",
+     "reportLink": "https://insights-db.paloaltonetworks.com/models/TheBloke/deepseek-coder-6.7B-instruct-GGUF/9e221e6b41cb1bf1c5d8f9718e81e3dc781f7557/files?blob-id=6a293d175d58d4aa585db48b10b78bada253a01a&utm_source=huggingface"
+    },
+    "avScan": {
+     "status": "unscanned",
+     "message": "",
+     "version": "1.5.2/27961"
+    },
+    "pickleImportScan": {
+     "status": "unscanned",
+     "pickleImports": [],
+     "version": "0.0.0"
+    },
+    "virusTotalScan": {
+     "status": "safe",
+     "message": "0/74 engines detect it as malicious.",
+     "reportLink": "https://www.virustotal.com/gui/file/6c841fde94b9103c92e875c9ab0ebeeb624b0709b2410c3bd942c80cd635117f?utm_source=huggingface"
+    },
+    "jFrogScan": {
+     "status": "safe",
+     "message": "Safe GGUF model",
+     "reportLink": "https://research.jfrog.com/model-threats/gguf-ssti?utm_source=huggingface"
+    }
+   }
+  },
+  {
+   "type": "file",
+   "oid": "29df8c7b2952654355252400db21bf00f0f70851",
+   "size": 2950176992,
+   "lfs": {
+    "oid": "176ed1c984911dfb1707e85e4f56b8ab6986f21eec9fc7d6a31d5e3cce141e52",
+    "size": 2950176992,
+    "pointerSize": 135
+   },
+   "xetHash": "1d8c0b26a8e27ef0b8d326465609790a17d48e4b9e8db2a3ed00489e337dca57",
+   "path": "deepseek-coder-6.7b-instruct.Q3_K_S.gguf",
+   "lastCommit": {
+    "id": "fd74ca34d2d7ec20e9f90649db2bf6151bad9241",
+    "title": "GGUF model commit (made with llama.cpp commit bb60fd0)",
+    "date": "2023-11-05T16:39:24.000Z"
+   },
+   "securityFileStatus": {
+    "status": "safe",
+    "protectAiScan": {
+     "status": "safe",
+     "message": "This file has no security findings.",
+     "reportLink": "https://insights-db.paloaltonetworks.com/models/TheBloke/deepseek-coder-6.7B-instruct-GGUF/9e221e6b41cb1bf1c5d8f9718e81e3dc781f7557/files?blob-id=29df8c7b2952654355252400db21bf00f0f70851&utm_source=huggingface"
+    },
+    "avScan": {
+     "status": "unscanned",
+     "message": "",
+     "version": "1.5.2/27961"
+    },
+    "pickleImportScan": {
+     "status": "unscanned",
+     "pickleImports": [],
+     "version": "0.0.0"
+    },
+    "virusTotalScan": {
+     "status": "safe",
+     "message": "0/74 engines detect it as malicious.",
+     "reportLink": "https://www.virustotal.com/gui/file/176ed1c984911dfb1707e85e4f56b8ab6986f21eec9fc7d6a31d5e3cce141e52?utm_source=huggingface"
+    },
+    "jFrogScan": {
+     "status": "safe",
+     "message": "Safe GGUF model",
+     "reportLink": "https://research.jfrog.com/model-threats/gguf-ssti?utm_source=huggingface"
+    }
+   }
+  },
+  {
+   "type": "file",
+   "oid": "992c0acbb576cd5284a403e3d797deb6957511d5",
+   "size": 3827818720,
+   "lfs": {
+    "oid": "0c7cf89d9b2dc8671bfade603181aaa18b3dfd93e1b6a2c569a9807c65d4d438",
+    "size": 3827818720,
+    "pointerSize": 135
+   },
+   "xetHash": "2a0e8eec2ce084932e80dbf2d86696100c69f05a93b46eb746ef833894b997fb",
+   "path": "deepseek-coder-6.7b-instruct.Q4_0.gguf",
+   "lastCommit": {
+    "id": "7c2bd3e83e5ba280cafea0d71e892b8874841efc",
+    "title": "GGUF model commit (made with llama.cpp commit bb60fd0)",
+    "date": "2023-11-05T16:40:23.000Z"
+   },
+   "securityFileStatus": {
+    "status": "safe",
+    "protectAiScan": {
+     "status": "safe",
+     "message": "This file has no security findings.",
+     "reportLink": "https://insights-db.paloaltonetworks.com/models/TheBloke/deepseek-coder-6.7B-instruct-GGUF/9e221e6b41cb1bf1c5d8f9718e81e3dc781f7557/files?blob-id=992c0acbb576cd5284a403e3d797deb6957511d5&utm_source=huggingface"
+    },
+    "avScan": {
+     "status": "unscanned",
+     "message": "",
+     "version": "1.5.2/27961"
+    },
+    "pickleImportScan": {
+     "status": "unscanned",
+     "pickleImports": [],
+     "version": "0.0.0"
+    },
+    "virusTotalScan": {
+     "status": "safe",
+     "message": "0/74 engines detect it as malicious.",
+     "reportLink": "https://www.virustotal.com/gui/file/0c7cf89d9b2dc8671bfade603181aaa18b3dfd93e1b6a2c569a9807c65d4d438?utm_source=huggingface"
+    },
+    "jFrogScan": {
+     "status": "safe",
+     "message": "Safe GGUF model",
+     "reportLink": "https://research.jfrog.com/model-threats/gguf-ssti?utm_source=huggingface"
+    }
+   }
+  },
+  {
+   "type": "file",
+   "oid": "0a10b6cf236027c327c0a6aac9b9a5d9f08bc314",
+   "size": 4083015904,
+   "lfs": {
+    "oid": "92da6238854f2fa902d8b2ad79d548536af1d3ab06821f323bd5bbcea2013276",
+    "size": 4083015904,
+    "pointerSize": 135
+   },
+   "xetHash": "c60ba218901d1adcbe6990455c93db103929a800a6682b3f819f34967fa84553",
+   "path": "deepseek-coder-6.7b-instruct.Q4_K_M.gguf",
+   "lastCommit": {
+    "id": "5ab7b320c30ad94b645da6716a90f013f70e4d71",
+    "title": "GGUF model commit (made with llama.cpp commit bb60fd0)",
+    "date": "2023-11-05T16:41:09.000Z"
+   },
+   "securityFileStatus": {
+    "status": "safe",
+    "protectAiScan": {
+     "status": "safe",
+     "message": "This file has no security findings.",
+     "reportLink": "https://insights-db.paloaltonetworks.com/models/TheBloke/deepseek-coder-6.7B-instruct-GGUF/9e221e6b41cb1bf1c5d8f9718e81e3dc781f7557/files?blob-id=0a10b6cf236027c327c0a6aac9b9a5d9f08bc314&utm_source=huggingface"
+    },
+    "avScan": {
+     "status": "unscanned",
+     "message": "",
+     "version": "1.5.2/27961"
+    },
+    "pickleImportScan": {
+     "status": "unscanned",
+     "pickleImports": [],
+     "version": "0.0.0"
+    },
+    "virusTotalScan": {
+     "status": "safe",
+     "message": "0/74 engines detect it as malicious.",
+     "reportLink": "https://www.virustotal.com/gui/file/92da6238854f2fa902d8b2ad79d548536af1d3ab06821f323bd5bbcea2013276?utm_source=huggingface"
+    },
+    "jFrogScan": {
+     "status": "safe",
+     "message": "Safe GGUF model",
+     "reportLink": "https://research.jfrog.com/model-threats/gguf-ssti?utm_source=huggingface"
+    }
+   }
+  },
+  {
+   "type": "file",
+   "oid": "0b1f80926a6510c39d09d17525fceb489dd90683",
+   "size": 3858751712,
+   "lfs": {
+    "oid": "d5d4b757645ce359a52d25584d29f1ff0d89580075edc35d87a20b89e65a5313",
+    "size": 3858751712,
+    "pointerSize": 135
+   },
+   "xetHash": "440a8179e955abb3d6d00334ebc2be345b4a4c2e2201ddc599f0da1ac8339cb6",
+   "path": "deepseek-coder-6.7b-instruct.Q4_K_S.gguf",
+   "lastCommit": {
+    "id": "dcf0be3beb47940aa82f96b247605e58508df70c",
+    "title": "GGUF model commit (made with llama.cpp commit bb60fd0)",
+    "date": "2023-11-05T16:40:45.000Z"
+   },
+   "securityFileStatus": {
+    "status": "safe",
+    "protectAiScan": {
+     "status": "safe",
+     "message": "This file has no security findings.",
+     "reportLink": "https://insights-db.paloaltonetworks.com/models/TheBloke/deepseek-coder-6.7B-instruct-GGUF/9e221e6b41cb1bf1c5d8f9718e81e3dc781f7557/files?blob-id=0b1f80926a6510c39d09d17525fceb489dd90683&utm_source=huggingface"
+    },
+    "avScan": {
+     "status": "unscanned",
+     "message": "",
+     "version": "1.5.2/27961"
+    },
+    "pickleImportScan": {
+     "status": "unscanned",
+     "pickleImports": [],
+     "version": "0.0.0"
+    },
+    "virusTotalScan": {
+     "status": "safe",
+     "message": "0/74 engines detect it as malicious.",
+     "reportLink": "https://www.virustotal.com/gui/file/d5d4b757645ce359a52d25584d29f1ff0d89580075edc35d87a20b89e65a5313?utm_source=huggingface"
+    },
+    "jFrogScan": {
+     "status": "safe",
+     "message": "Safe GGUF model",
+     "reportLink": "https://research.jfrog.com/model-threats/gguf-ssti?utm_source=huggingface"
+    }
+   }
+  },
+  {
+   "type": "file",
+   "oid": "9fafd1203fad5ea6902454f2393e5809ed2ee41e",
+   "size": 4653834464,
+   "lfs": {
+    "oid": "1973cf0d90a90b26d2dff10d978744c038028ccb9d93a32ed415cf96416d50fd",
+    "size": 4653834464,
+    "pointerSize": 135
+   },
+   "xetHash": "965756a828318c11ce4d43cd8101d4cde25e0c74292d61404befb5c9c09cff8c",
+   "path": "deepseek-coder-6.7b-instruct.Q5_0.gguf",
+   "lastCommit": {
+    "id": "5b10b040df6125b25bdc218c5adf6e6237132384",
+    "title": "GGUF model commit (made with llama.cpp commit bb60fd0)",
+    "date": "2023-11-05T16:41:28.000Z"
+   },
+   "securityFileStatus": {
+    "status": "safe",
+    "protectAiScan": {
+     "status": "safe",
+     "message": "This file has no security findings.",
+     "reportLink": "https://insights-db.paloaltonetworks.com/models/TheBloke/deepseek-coder-6.7B-instruct-GGUF/9e221e6b41cb1bf1c5d8f9718e81e3dc781f7557/files?blob-id=9fafd1203fad5ea6902454f2393e5809ed2ee41e&utm_source=huggingface"
+    },
+    "avScan": {
+     "status": "unscanned",
+     "message": "",
+     "version": "1.5.2/27961"
+    },
+    "pickleImportScan": {
+     "status": "unscanned",
+     "pickleImports": [],
+     "version": "0.0.0"
+    },
+    "virusTotalScan": {
+     "status": "safe",
+     "message": "0/74 engines detect it as malicious.",
+     "reportLink": "https://www.virustotal.com/gui/file/1973cf0d90a90b26d2dff10d978744c038028ccb9d93a32ed415cf96416d50fd?utm_source=huggingface"
+    },
+    "jFrogScan": {
+     "status": "safe",
+     "message": "Safe GGUF model",
+     "reportLink": "https://research.jfrog.com/model-threats/gguf-ssti?utm_source=huggingface"
+    }
+   }
+  },
+  {
+   "type": "file",
+   "oid": "3709e70086ef2ad946f94c0179cef6fadb0a9e1b",
+   "size": 4785299680,
+   "lfs": {
+    "oid": "0976ee1707fc97b142d7266a9a501893ea6f320e8a8227aa1f04bcab74a5f556",
+    "size": 4785299680,
+    "pointerSize": 135
+   },
+   "xetHash": "5855726805d9f7c9701829dad01100e0a21c55c0d7291fa2211b7f408c3af586",
+   "path": "deepseek-coder-6.7b-instruct.Q5_K_M.gguf",
+   "lastCommit": {
+    "id": "fc61bd27df93f7b43278600cb76b951f7c09212a",
+    "title": "GGUF model commit (made with llama.cpp commit bb60fd0)",
+    "date": "2023-11-05T16:42:46.000Z"
+   },
+   "securityFileStatus": {
+    "status": "safe",
+    "protectAiScan": {
+     "status": "safe",
+     "message": "This file has no security findings.",
+     "reportLink": "https://insights-db.paloaltonetworks.com/models/TheBloke/deepseek-coder-6.7B-instruct-GGUF/9e221e6b41cb1bf1c5d8f9718e81e3dc781f7557/files?blob-id=3709e70086ef2ad946f94c0179cef6fadb0a9e1b&utm_source=huggingface"
+    },
+    "avScan": {
+     "status": "unscanned",
+     "message": "",
+     "version": "1.5.2/27961"
+    },
+    "pickleImportScan": {
+     "status": "unscanned",
+     "pickleImports": [],
+     "version": "0.0.0"
+    },
+    "virusTotalScan": {
+     "status": "safe",
+     "message": "0/74 engines detect it as malicious.",
+     "reportLink": "https://www.virustotal.com/gui/file/0976ee1707fc97b142d7266a9a501893ea6f320e8a8227aa1f04bcab74a5f556?utm_source=huggingface"
+    },
+    "jFrogScan": {
+     "status": "safe",
+     "message": "Safe GGUF model",
+     "reportLink": "https://research.jfrog.com/model-threats/gguf-ssti?utm_source=huggingface"
+    }
+   }
+  },
+  {
+   "type": "file",
+   "oid": "459af615359db7ff9e1fbc54033732c22fba5636",
+   "size": 4653834464,
+   "lfs": {
+    "oid": "1362c06f3036b4c4994bd8497ecbc0b487acb67e568b4addb4b17fc1e863f688",
+    "size": 4653834464,
+    "pointerSize": 135
+   },
+   "xetHash": "044c7ffd02bb9da341eb5ff30e5964d65a91d41095c42f284bd915f25f7426ea",
+   "path": "deepseek-coder-6.7b-instruct.Q5_K_S.gguf",
+   "lastCommit": {
+    "id": "270cd339f0ca61b78df0c2dc4c3bf7d33f3e57fe",
+    "title": "GGUF model commit (made with llama.cpp commit bb60fd0)",
+    "date": "2023-11-05T16:42:06.000Z"
+   },
+   "securityFileStatus": {
+    "status": "queued",
+    "protectAiScan": {
+     "status": "safe",
+     "message": "This file has no security findings.",
+     "reportLink": "https://insights-db.paloaltonetworks.com/models/TheBloke/deepseek-coder-6.7B-instruct-GGUF/9e221e6b41cb1bf1c5d8f9718e81e3dc781f7557/files?blob-id=459af615359db7ff9e1fbc54033732c22fba5636&utm_source=huggingface"
+    },
+    "avScan": {
+     "status": "unscanned",
+     "message": "",
+     "version": "1.5.2/27961"
+    },
+    "pickleImportScan": {
+     "status": "unscanned",
+     "pickleImports": [],
+     "version": "0.0.0"
+    },
+    "virusTotalScan": {
+     "status": "queued",
+     "message": "QUEUED",
+     "reportLink": "https://www.virustotal.com/gui/file/1362c06f3036b4c4994bd8497ecbc0b487acb67e568b4addb4b17fc1e863f688?utm_source=huggingface"
+    },
+    "jFrogScan": {
+     "status": "safe",
+     "message": "Safe GGUF model",
+     "reportLink": "https://research.jfrog.com/model-threats/gguf-ssti?utm_source=huggingface"
+    }
+   }
+  },
+  {
+   "type": "file",
+   "oid": "4d2da6eb72fc1727feb1cad9987afe9d97569a24",
+   "size": 5531476192,
+   "lfs": {
+    "oid": "113fba500e4feb1313ce80d72cf381330b51460d265a7719bba626d6a461f9eb",
+    "size": 5531476192,
+    "pointerSize": 135
+   },
+   "xetHash": "cd8c0c27738fd9e3f3cd34529e24c9ceed1016a7020bfaf0b4f6a40d76d09708",
+   "path": "deepseek-coder-6.7b-instruct.Q6_K.gguf",
+   "lastCommit": {
+    "id": "ebdaebfa315f54bff2337d1eecc2471697cbbea0",
+    "title": "GGUF model commit (made with llama.cpp commit bb60fd0)",
+    "date": "2023-11-05T16:43:06.000Z"
+   },
+   "securityFileStatus": {
+    "status": "queued",
+    "protectAiScan": {
+     "status": "safe",
+     "message": "This file has no security findings.",
+     "reportLink": "https://insights-db.paloaltonetworks.com/models/TheBloke/deepseek-coder-6.7B-instruct-GGUF/9e221e6b41cb1bf1c5d8f9718e81e3dc781f7557/files?blob-id=4d2da6eb72fc1727feb1cad9987afe9d97569a24&utm_source=huggingface"
+    },
+    "avScan": {
+     "status": "unscanned",
+     "message": "",
+     "version": "1.5.2/27961"
+    },
+    "pickleImportScan": {
+     "status": "unscanned",
+     "pickleImports": [],
+     "version": "0.0.0"
+    },
+    "virusTotalScan": {
+     "status": "queued",
+     "message": "QUEUED",
+     "reportLink": "https://www.virustotal.com/gui/file/113fba500e4feb1313ce80d72cf381330b51460d265a7719bba626d6a461f9eb?utm_source=huggingface"
+    },
+    "jFrogScan": {
+     "status": "safe",
+     "message": "Safe GGUF model",
+     "reportLink": "https://research.jfrog.com/model-threats/gguf-ssti?utm_source=huggingface"
+    }
+   }
+  },
+  {
+   "type": "file",
+   "oid": "bed40e897691a2400111a914553e68732f269b82",
+   "size": 7163879648,
+   "lfs": {
+    "oid": "02cd6ce7ccec670cf6d3dd147932f13e584f9e964d5a3297a74b401b658471ae",
+    "size": 7163879648,
+    "pointerSize": 135
+   },
+   "xetHash": "651b1fcdae92b886d2e77f75c45a95fd265fb5a963305c5547a67d85d3172565",
+   "path": "deepseek-coder-6.7b-instruct.Q8_0.gguf",
+   "lastCommit": {
+    "id": "1af42e29716cd2ac112e6b304e1dc26f9893b2fc",
+    "title": "GGUF model commit (made with llama.cpp commit bb60fd0)",
+    "date": "2023-11-05T16:43:34.000Z"
+   },
+   "securityFileStatus": {
+    "status": "queued",
+    "protectAiScan": {
+     "status": "safe",
+     "message": "This file has no security findings.",
+     "reportLink": "https://insights-db.paloaltonetworks.com/models/TheBloke/deepseek-coder-6.7B-instruct-GGUF/9e221e6b41cb1bf1c5d8f9718e81e3dc781f7557/files?blob-id=bed40e897691a2400111a914553e68732f269b82&utm_source=huggingface"
+    },
+    "avScan": {
+     "status": "unscanned",
+     "message": "",
+     "version": "1.5.2/27961"
+    },
+    "pickleImportScan": {
+     "status": "unscanned",
+     "pickleImports": [],
+     "version": "0.0.0"
+    },
+    "virusTotalScan": {
+     "status": "queued",
+     "message": "QUEUED",
+     "reportLink": "https://www.virustotal.com/gui/file/02cd6ce7ccec670cf6d3dd147932f13e584f9e964d5a3297a74b401b658471ae?utm_source=huggingface"
+    },
+    "jFrogScan": {
+     "status": "safe",
+     "message": "Safe GGUF model",
+     "reportLink": "https://research.jfrog.com/model-threats/gguf-ssti?utm_source=huggingface"
+    }
+   }
+  }
+ ]
+}

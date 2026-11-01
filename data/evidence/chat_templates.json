@@ -1,0 +1,67 @@
+{
+ "models": {
+  "deepseek-coder-1.3b-instruct": {
+   "config": "run_pilot_cpu.yaml",
+   "server_flags": "--no-jinja --chat-template deepseek",
+   "template_source": "llama.cpp built-in 'deepseek'",
+   "prompt_id": "platformio-07-F2",
+   "rendered_prompt": "You are a helpful assistant for embedded and cyber-physical systems development.### Instruction:\nCreate a PlatformIO project for an ESP32-S3 DevKitC using the Arduino framework. Task: Poll holding registers of a PLC over Modbus TCP and forward the values to MQTT. Provide only the complete platformio.ini, including lib_deps. Do not write the source code.\n### Response:\n",
+   "system_message_kept": true,
+   "recorded_at": "2026-10-24T19:12:39Z"
+  },
+  "qwen2.5-coder-1.5b-instruct": {
+   "config": "run_pilot_cpu.yaml",
+   "server_flags": "",
+   "template_source": "the GGUF's own template",
+   "prompt_id": "platformio-07-F2",
+   "rendered_prompt": "<|im_start|>system\nYou are a helpful assistant for embedded and cyber-physical systems development.<|im_end|>\n<|im_start|>user\nCreate a PlatformIO project for an ESP32-S3 DevKitC using the Arduino framework. Task: Poll holding registers of a PLC over Modbus TCP and forward the values to MQTT. Provide only the complete platformio.ini, including lib_deps. Do not write the source code.<|im_end|>\n<|im_start|>assistant\n",
+   "system_message_kept": true,
+   "recorded_at": "2026-10-24T19:12:36Z"
+  },
+  "llama-3.2-1b-instruct": {
+   "config": "run_pilot_cpu.yaml",
+   "server_flags": "",
+   "template_source": "the GGUF's own template",
+   "prompt_id": "platformio-07-F2",
+   "rendered_prompt": "<|start_header_id|>system<|end_header_id|>\n\nCutting Knowledge Date: December 2023\nToday Date: 24 Oct 2026\n\nYou are a helpful assistant for embedded and cyber-physical systems development.<|eot_id|><|start_header_id|>user<|end_header_id|>\n\nCreate a PlatformIO project for an ESP32-S3 DevKitC using the Arduino framework. Task: Poll holding registers of a PLC over Modbus TCP and forward the values to MQTT. Provide only the complete platformio.ini, including lib_deps. Do not write the source code.<|eot_id|><|start_header_id|>assistant<|end_header_id|>\n\n",
+   "system_message_kept": true,
+   "recorded_at": "2026-10-24T19:12:42Z"
+  },
+  "qwen2.5-coder-7b-instruct": {
+   "config": "run_pilot_cpu_ext.yaml",
+   "server_flags": "",
+   "template_source": "the GGUF's own template",
+   "prompt_id": "platformio-07-F2",
+   "rendered_prompt": "<|im_start|>system\nYou are a helpful assistant for embedded and cyber-physical systems development.<|im_end|>\n<|im_start|>user\nCreate a PlatformIO project for an ESP32-S3 DevKitC using the Arduino framework. Task: Poll holding registers of a PLC over Modbus TCP and forward the values to MQTT. Provide only the complete platformio.ini, including lib_deps. Do not write the source code.<|im_end|>\n<|im_start|>assistant\n",
+   "system_message_kept": true,
+   "recorded_at": "2026-10-24T19:12:49Z"
+  },
+  "granite-3.3-8b-instruct": {
+   "config": "run_pilot_cpu_ext.yaml",
+   "server_flags": "",
+   "template_source": "the GGUF's own template",
+   "prompt_id": "platformio-07-F2",
+   "rendered_prompt": "<|start_of_role|>system<|end_of_role|>You are a helpful assistant for embedded and cyber-physical systems development.<|end_of_text|>\n<|start_of_role|>user<|end_of_role|>Create a PlatformIO project for an ESP32-S3 DevKitC using the Arduino framework. Task: Poll holding registers of a PLC over Modbus TCP and forward the values to MQTT. Provide only the complete platformio.ini, including lib_deps. Do not write the source code.<|end_of_text|>\n<|start_of_role|>assistant<|end_of_role|>",
+   "system_message_kept": true,
+   "recorded_at": "2026-10-24T19:12:57Z"
+  },
+  "llama-3.2-3b-instruct": {
+   "config": "run_pilot_cpu_ext.yaml",
+   "server_flags": "",
+   "template_source": "the GGUF's own template",
+   "prompt_id": "platformio-07-F2",
+   "rendered_prompt": "<|start_header_id|>system<|end_header_id|>\n\nCutting Knowledge Date: December 2023\nToday Date: 24 Oct 2026\n\nYou are a helpful assistant for embedded and cyber-physical systems development.<|eot_id|><|start_header_id|>user<|end_header_id|>\n\nCreate a PlatformIO project for an ESP32-S3 DevKitC using the Arduino framework. Task: Poll holding registers of a PLC over Modbus TCP and forward the values to MQTT. Provide only the complete platformio.ini, including lib_deps. Do not write the source code.<|eot_id|><|start_header_id|>assistant<|end_header_id|>\n\n",
+   "system_message_kept": true,
+   "recorded_at": "2026-10-24T19:13:01Z"
+  },
+  "phi-3-mini-3.8b-instruct": {
+   "config": "run_pilot_cpu_ext.yaml",
+   "server_flags": "--no-jinja --chat-template phi3",
+   "template_source": "llama.cpp built-in 'phi3'",
+   "prompt_id": "platformio-07-F2",
+   "rendered_prompt": "<|system|>\nYou are a helpful assistant for embedded and cyber-physical systems development.<|end|>\n<|user|>\nCreate a PlatformIO project for an ESP32-S3 DevKitC using the Arduino framework. Task: Poll holding registers of a PLC over Modbus TCP and forward the values to MQTT. Provide only the complete platformio.ini, including lib_deps. Do not write the source code.<|end|>\n<|assistant|>\n",
+   "system_message_kept": true,
+   "recorded_at": "2026-10-24T19:13:06Z"
+  }
+ }
+}

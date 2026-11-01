@@ -1,0 +1,2412 @@
+{
+  "packages": [
+    {
+      "path": "python-stdlib/__future__",
+      "name": "__future__",
+      "author": "",
+      "description": "",
+      "version": "0.1.0",
+      "license": "MIT",
+      "versions": {
+        "6": [
+          "0.0.3",
+          "0.1.0"
+        ],
+        "py": [
+          "0.0.3",
+          "0.1.0"
+        ]
+      }
+    },
+    {
+      "path": "python-stdlib/abc",
+      "name": "abc",
+      "author": "",
+      "description": "",
+      "version": "0.1.0",
+      "license": "MIT",
+      "versions": {
+        "6": [
+          "0.0.1",
+          "0.1.0"
+        ],
+        "py": [
+          "0.0.1",
+          "0.1.0"
+        ]
+      }
+    },
+    {
+      "path": "micropython/bluetooth/aioble",
+      "name": "aioble",
+      "author": "",
+      "description": "",
+      "version": "0.6.2",
+      "license": "MIT",
+      "versions": {
+        "6": [
+          "0.2.0",
+          "0.2.1",
+          "0.3.1",
+          "0.4.1",
+          "0.5.0",
+          "0.5.1",
+          "0.5.2",
+          "0.6.0",
+          "0.6.1",
+          "0.6.2"
+        ],
+        "py": [
+          "0.2.0",
+          "0.2.1",
+          "0.3.1",
+          "0.4.1",
+          "0.5.0",
+          "0.5.1",
+          "0.5.2",
+          "0.6.0",
+          "0.6.1",
+          "0.6.2"
+        ]
+      }
+    },
+    {
+      "path": "micropython/bluetooth/aioble-central",
+      "name": "aioble-central",
+      "author": "",
+      "description": "",
+      "version": "0.3.0",
+      "license": "MIT",
+      "versions": {
+        "6": [
+          "0.2.0",
+          "0.2.1",
+          "0.2.2",
+          "0.3.0"
+        ],
+        "py": [
+          "0.2.0",
+          "0.2.1",
+          "0.2.2",
+          "0.3.0"
+        ]
+      }
+    },
+    {
+      "path": "micropython/bluetooth/aioble-client",
+      "name": "aioble-client",
+      "author": "",
+      "description": "",
+      "version": "0.3.0",
+      "license": "MIT",
+      "versions": {
+        "6": [
+          "0.2.0",
+          "0.3.0"
+        ],
+        "py": [
+          "0.2.0",
+          "0.3.0"
+        ]
+      }
+    },
+    {
+      "path": "micropython/bluetooth/aioble-core",
+      "name": "aioble-core",
+      "author": "",
+      "description": "",
+      "version": "0.4.0",
+      "license": "MIT",
+      "versions": {
+        "6": [
+          "0.2.0",
+          "0.3.0",
+          "0.4.0"
+        ],
+        "py": [
+          "0.2.0",
+          "0.3.0",
+          "0.4.0"
+        ]
+      }
+    },
+    {
+      "path": "micropython/bluetooth/aioble-l2cap",
+      "name": "aioble-l2cap",
+      "author": "",
+      "description": "",
+      "version": "0.2.1",
+      "license": "MIT",
+      "versions": {
+        "6": [
+          "0.2.0",
+          "0.2.1"
+        ],
+        "py": [
+          "0.2.0",
+          "0.2.1"
+        ]
+      }
+    },
+    {
+      "path": "micropython/bluetooth/aioble-peripheral",
+      "name": "aioble-peripheral",
+      "author": "",
+      "description": "",
+      "version": "0.2.1",
+      "license": "MIT",
+      "versions": {
+        "6": [
+          "0.2.0",
+          "0.2.1"
+        ],
+        "py": [
+          "0.2.0",
+          "0.2.1"
+        ]
+      }
+    },
+    {
+      "path": "micropython/bluetooth/aioble-security",
+      "name": "aioble-security",
+      "author": "",
+      "description": "",
+      "version": "0.2.1",
+      "license": "MIT",
+      "versions": {
+        "6": [
+          "0.2.0",
+          "0.2.1"
+        ],
+        "py": [
+          "0.2.0",
+          "0.2.1"
+        ]
+      }
+    },
+    {
+      "path": "micropython/bluetooth/aioble-server",
+      "name": "aioble-server",
+      "author": "",
+      "description": "",
+      "version": "0.4.1",
+      "license": "MIT",
+      "versions": {
+        "6": [
+          "0.2.0",
+          "0.3.0",
+          "0.4.1"
+        ],
+        "py": [
+          "0.2.0",
+          "0.3.0",
+          "0.4.1"
+        ]
+      }
+    },
+    {
+      "path": "micropython/aioespnow",
+      "name": "aioespnow",
+      "author": "",
+      "description": "Extends the micropython espnow module with methods to support asyncio.",
+      "version": "0.1.0",
+      "license": "MIT",
+      "versions": {
+        "6": [
+          "0.1",
+          "0.1.0"
+        ],
+        "py": [
+          "0.1",
+          "0.1.0"
+        ]
+      }
+    },
+    {
+      "path": "python-ecosys/aiohttp",
+      "name": "aiohttp",
+      "author": "",
+      "description": "HTTP client module for MicroPython asyncio module",
+      "version": "0.0.8",
+      "license": "MIT",
+      "versions": {
+        "6": [
+          "0.0.1",
+          "0.0.2",
+          "0.0.3",
+          "0.0.5",
+          "0.0.6",
+          "0.0.7",
+          "0.0.8"
+        ],
+        "py": [
+          "0.0.1",
+          "0.0.2",
+          "0.0.3",
+          "0.0.5",
+          "0.0.6",
+          "0.0.7",
+          "0.0.8"
+        ]
+      }
+    },
+    {
+      "path": "micropython/aiorepl",
+      "name": "aiorepl",
+      "author": "",
+      "description": "Provides an asynchronous REPL that can run concurrently with an asyncio, also allowing await expressions.",
+      "version": "0.2.4",
+      "license": "MIT",
+      "versions": {
+        "6": [
+          "0.1",
+          "0.1.1",
+          "0.2.0",
+          "0.2.1",
+          "0.2.2",
+          "0.2.3",
+          "0.2.4"
+        ],
+        "py": [
+          "0.1",
+          "0.1.1",
+          "0.2.0",
+          "0.2.1",
+          "0.2.2",
+          "0.2.3",
+          "0.2.4"
+        ]
+      }
+    },
+    {
+      "path": "python-stdlib/argparse",
+      "name": "argparse",
+      "author": "",
+      "description": "",
+      "version": "0.5.0",
+      "license": "MIT",
+      "versions": {
+        "6": [
+          "0.4",
+          "0.4.0",
+          "0.5.0"
+        ],
+        "py": [
+          "0.4",
+          "0.4.0",
+          "0.5.0"
+        ]
+      }
+    },
+    {
+      "path": "python-stdlib/base64",
+      "name": "base64",
+      "author": "",
+      "description": "",
+      "version": "3.3.7",
+      "license": "MIT",
+      "versions": {
+        "6": [
+          "3.3.3-4",
+          "3.3.4",
+          "3.3.5",
+          "3.3.6",
+          "3.3.7"
+        ],
+        "py": [
+          "3.3.3-4",
+          "3.3.4",
+          "3.3.5",
+          "3.3.6",
+          "3.3.7"
+        ]
+      }
+    },
+    {
+      "path": "python-stdlib/binascii",
+      "name": "binascii",
+      "author": "",
+      "description": "",
+      "version": "2.5.0",
+      "license": "MIT",
+      "versions": {
+        "6": [
+          "2.4.0-5",
+          "2.4.1",
+          "2.5.0"
+        ],
+        "py": [
+          "2.4.0-5",
+          "2.4.1",
+          "2.5.0"
+        ]
+      }
+    },
+    {
+      "path": "python-stdlib/bisect",
+      "name": "bisect",
+      "author": "",
+      "description": "",
+      "version": "0.5.0",
+      "license": "MIT",
+      "versions": {
+        "6": [
+          "0.5.0"
+        ],
+        "py": [
+          "0.5.0"
+        ]
+      }
+    },
+    {
+      "path": "micropython/drivers/imu/bmi270",
+      "name": "bmi270",
+      "author": "",
+      "description": "BOSCH BMI270 IMU driver.",
+      "version": "1.0.0",
+      "license": "MIT",
+      "versions": {
+        "6": [
+          "1.0.0"
+        ],
+        "py": [
+          "1.0.0"
+        ]
+      }
+    },
+    {
+      "path": "micropython/drivers/imu/bmm150",
+      "name": "bmm150",
+      "author": "",
+      "description": "BOSCH BMM150 magnetometer driver.",
+      "version": "1.0.0",
+      "license": "MIT",
+      "versions": {
+        "6": [
+          "1.0.0"
+        ],
+        "py": [
+          "1.0.0"
+        ]
+      }
+    },
+    {
+      "path": "micropython/bundles/bundle-networking",
+      "name": "bundle-networking",
+      "author": "",
+      "description": "Common networking packages for all network-capable deployments of MicroPython.",
+      "version": "0.2.0",
+      "license": "MIT",
+      "versions": {
+        "6": [
+          "0.1.0",
+          "0.2.0"
+        ],
+        "py": [
+          "0.1.0",
+          "0.2.0"
+        ]
+      }
+    },
+    {
+      "path": "python-ecosys/cbor2",
+      "name": "cbor2",
+      "author": "",
+      "description": "",
+      "version": "1.0.0",
+      "license": "MIT",
+      "versions": {
+        "6": [
+          "0.1.0",
+          "1.0.0"
+        ],
+        "py": [
+          "0.1.0",
+          "1.0.0"
+        ]
+      }
+    },
+    {
+      "path": "python-stdlib/cmd",
+      "name": "cmd",
+      "author": "",
+      "description": "",
+      "version": "3.4.1",
+      "license": "MIT",
+      "versions": {
+        "6": [
+          "3.4.0-2",
+          "3.4.1"
+        ],
+        "py": [
+          "3.4.0-2",
+          "3.4.1"
+        ]
+      }
+    },
+    {
+      "path": "python-stdlib/collections",
+      "name": "collections",
+      "author": "",
+      "description": "",
+      "version": "0.2.0",
+      "license": "MIT",
+      "versions": {
+        "6": [
+          "0.1.2",
+          "0.2.0"
+        ],
+        "py": [
+          "0.1.2",
+          "0.2.0"
+        ]
+      }
+    },
+    {
+      "path": "python-stdlib/collections-defaultdict",
+      "name": "collections-defaultdict",
+      "author": "",
+      "description": "",
+      "version": "0.4.0",
+      "license": "MIT",
+      "versions": {
+        "6": [
+          "0.3",
+          "0.3.0",
+          "0.4.0"
+        ],
+        "py": [
+          "0.3",
+          "0.3.0",
+          "0.4.0"
+        ]
+      }
+    },
+    {
+      "name": "collections-deque",
+      "license": "MIT",
+      "author": "",
+      "description": "",
+      "version": "0.1.3",
+      "versions": {
+        "6": [
+          "0.1.3"
+        ],
+        "py": [
+          "0.1.3"
+        ]
+      }
+    },
+    {
+      "path": "python-stdlib/colorsys",
+      "name": "colorsys",
+      "author": "",
+      "description": "",
+      "version": "1.0.0",
+      "license": "MIT",
+      "versions": {
+        "6": [
+          "1.0.0"
+        ],
+        "py": [
+          "1.0.0"
+        ]
+      }
+    },
+    {
+      "path": "python-stdlib/contextlib",
+      "name": "contextlib",
+      "author": "",
+      "description": "Port of contextlib for micropython",
+      "version": "3.4.4",
+      "license": "MIT",
+      "versions": {
+        "6": [
+          "3.4.2-4",
+          "3.4.3",
+          "3.4.4"
+        ],
+        "py": [
+          "3.4.2-4",
+          "3.4.3",
+          "3.4.4"
+        ]
+      }
+    },
+    {
+      "path": "python-stdlib/copy",
+      "name": "copy",
+      "author": "",
+      "description": "",
+      "version": "3.3.5",
+      "license": "MIT",
+      "versions": {
+        "6": [
+          "3.3.3-2",
+          "3.3.4",
+          "3.3.5"
+        ],
+        "py": [
+          "3.3.3-2",
+          "3.3.4",
+          "3.3.5"
+        ]
+      }
+    },
+    {
+      "path": "python-stdlib/curses.ascii",
+      "name": "curses.ascii",
+      "author": "",
+      "description": "",
+      "version": "3.4.4",
+      "license": "MIT",
+      "versions": {
+        "6": [
+          "3.4.2-1",
+          "3.4.3",
+          "3.4.4"
+        ],
+        "py": [
+          "3.4.2-1",
+          "3.4.3",
+          "3.4.4"
+        ]
+      }
+    },
+    {
+      "path": "python-stdlib/datetime",
+      "name": "datetime",
+      "author": "",
+      "description": "",
+      "version": "4.1.0",
+      "license": "MIT",
+      "versions": {
+        "6": [
+          "4.0.0",
+          "4.1.0"
+        ],
+        "py": [
+          "4.0.0",
+          "4.1.0"
+        ]
+      }
+    },
+    {
+      "path": "micropython/drivers/sensor/dht",
+      "name": "dht",
+      "author": "",
+      "description": "DHT11 & DHT22 temperature/humidity sensor driver.",
+      "version": "0.1.0",
+      "license": "MIT",
+      "versions": {
+        "6": [
+          "0.1.0"
+        ],
+        "py": [
+          "0.1.0"
+        ]
+      }
+    },
+    {
+      "path": "micropython/drivers/sensor/ds18x20",
+      "name": "ds18x20",
+      "author": "",
+      "description": "DS18x20 temperature sensor driver.",
+      "version": "0.1.0",
+      "license": "MIT",
+      "versions": {
+        "6": [
+          "0.1.0"
+        ],
+        "py": [
+          "0.1.0"
+        ]
+      }
+    },
+    {
+      "path": "python-stdlib/errno",
+      "name": "errno",
+      "author": "",
+      "description": "",
+      "version": "0.2.0",
+      "license": "MIT",
+      "versions": {
+        "6": [
+          "0.1.4",
+          "0.2.0"
+        ],
+        "py": [
+          "0.1.4",
+          "0.2.0"
+        ]
+      }
+    },
+    {
+      "path": "micropython/espflash",
+      "name": "espflash",
+      "author": "",
+      "description": "Provides a minimal ESP32 bootloader protocol implementation.",
+      "version": "0.1.0",
+      "license": "MIT",
+      "versions": {
+        "6": [
+          "0.1",
+          "0.1.0"
+        ],
+        "py": [
+          "0.1",
+          "0.1.0"
+        ]
+      }
+    },
+    {
+      "path": "python-stdlib/fnmatch",
+      "name": "fnmatch",
+      "author": "",
+      "description": "",
+      "version": "0.6.1",
+      "license": "MIT",
+      "versions": {
+        "6": [
+          "0.6.0",
+          "0.6.1"
+        ],
+        "py": [
+          "0.6.0",
+          "0.6.1"
+        ]
+      }
+    },
+    {
+      "path": "python-stdlib/functools",
+      "name": "functools",
+      "author": "",
+      "description": "",
+      "version": "0.1.0",
+      "license": "MIT",
+      "versions": {
+        "6": [
+          "0.0.7",
+          "0.1.0"
+        ],
+        "py": [
+          "0.0.7",
+          "0.1.0"
+        ]
+      }
+    },
+    {
+      "path": "python-stdlib/gzip",
+      "name": "gzip",
+      "author": "",
+      "description": "",
+      "version": "1.0.1",
+      "license": "MIT",
+      "versions": {
+        "6": [
+          "0.1.1",
+          "1.0.0",
+          "1.0.1"
+        ],
+        "py": [
+          "0.1.1",
+          "1.0.0",
+          "1.0.1"
+        ]
+      }
+    },
+    {
+      "path": "python-stdlib/hashlib",
+      "name": "hashlib",
+      "author": "",
+      "description": "",
+      "version": "2.5.0",
+      "license": "MIT",
+      "versions": {
+        "6": [
+          "2.4.0-4",
+          "2.5.0"
+        ],
+        "py": [
+          "2.4.0-4",
+          "2.5.0"
+        ]
+      }
+    },
+    {
+      "path": "python-stdlib/hashlib-core",
+      "name": "hashlib-core",
+      "author": "",
+      "description": "",
+      "version": "1.0.0",
+      "license": "MIT",
+      "versions": {
+        "6": [
+          "1.0.0"
+        ],
+        "py": [
+          "1.0.0"
+        ]
+      }
+    },
+    {
+      "path": "python-stdlib/hashlib-sha224",
+      "name": "hashlib-sha224",
+      "author": "",
+      "description": "Adds the SHA224 hash algorithm to hashlib.",
+      "version": "1.0.0",
+      "license": "MIT",
+      "versions": {
+        "6": [
+          "1.0.0"
+        ],
+        "py": [
+          "1.0.0"
+        ]
+      }
+    },
+    {
+      "path": "python-stdlib/hashlib-sha256",
+      "name": "hashlib-sha256",
+      "author": "",
+      "description": "Adds the SHA256 hash algorithm to hashlib.",
+      "version": "1.0.0",
+      "license": "MIT",
+      "versions": {
+        "6": [
+          "1.0.0"
+        ],
+        "py": [
+          "1.0.0"
+        ]
+      }
+    },
+    {
+      "path": "python-stdlib/hashlib-sha384",
+      "name": "hashlib-sha384",
+      "author": "",
+      "description": "Adds the SHA384 hash algorithm to hashlib.",
+      "version": "1.0.0",
+      "license": "MIT",
+      "versions": {
+        "6": [
+          "1.0.0"
+        ],
+        "py": [
+          "1.0.0"
+        ]
+      }
+    },
+    {
+      "path": "python-stdlib/hashlib-sha512",
+      "name": "hashlib-sha512",
+      "author": "",
+      "description": "Adds the SHA512 hash algorithm to hashlib.",
+      "version": "1.0.0",
+      "license": "MIT",
+      "versions": {
+        "6": [
+          "1.0.0"
+        ],
+        "py": [
+          "1.0.0"
+        ]
+      }
+    },
+    {
+      "path": "python-stdlib/heapq",
+      "name": "heapq",
+      "author": "",
+      "description": "",
+      "version": "0.9.3",
+      "license": "MIT",
+      "versions": {
+        "6": [
+          "0.9.3"
+        ],
+        "py": [
+          "0.9.3"
+        ]
+      }
+    },
+    {
+      "path": "python-stdlib/hmac",
+      "name": "hmac",
+      "author": "",
+      "description": "",
+      "version": "3.4.4",
+      "license": "MIT",
+      "versions": {
+        "6": [
+          "3.4.2-3",
+          "3.4.3",
+          "3.4.4"
+        ],
+        "py": [
+          "3.4.2-3",
+          "3.4.3",
+          "3.4.4"
+        ]
+      }
+    },
+    {
+      "path": "micropython/drivers/sensor/hs3003",
+      "name": "hs3003",
+      "author": "",
+      "description": "Renesas HS3003 Humidity and Temperature sensor driver.",
+      "version": "1.0.0",
+      "license": "MIT",
+      "versions": {
+        "6": [
+          "1.0.0"
+        ],
+        "py": [
+          "1.0.0"
+        ]
+      }
+    },
+    {
+      "path": "python-stdlib/html",
+      "name": "html",
+      "author": "",
+      "description": "",
+      "version": "3.3.4",
+      "license": "MIT",
+      "versions": {
+        "6": [
+          "3.3.3-2",
+          "3.3.4"
+        ],
+        "py": [
+          "3.3.3-2",
+          "3.3.4"
+        ]
+      }
+    },
+    {
+      "path": "micropython/drivers/sensor/hts221",
+      "name": "hts221",
+      "author": "",
+      "description": "HTS221 temperature/humidity sensor driver.",
+      "version": "0.1.0",
+      "license": "MIT",
+      "versions": {
+        "6": [
+          "0.1.0"
+        ],
+        "py": [
+          "0.1.0"
+        ]
+      }
+    },
+    {
+      "path": "python-stdlib/inspect",
+      "name": "inspect",
+      "author": "",
+      "description": "",
+      "version": "0.2.1",
+      "license": "MIT",
+      "versions": {
+        "6": [
+          "0.1.2",
+          "0.1.3",
+          "0.2.0",
+          "0.2.1"
+        ],
+        "py": [
+          "0.1.2",
+          "0.1.3",
+          "0.2.0",
+          "0.2.1"
+        ]
+      }
+    },
+    {
+      "path": "python-stdlib/io",
+      "name": "io",
+      "author": "",
+      "description": "",
+      "version": "0.1.0",
+      "license": "MIT",
+      "versions": {
+        "6": [
+          "0.1",
+          "0.1.0"
+        ],
+        "py": [
+          "0.1",
+          "0.1.0"
+        ]
+      }
+    },
+    {
+      "path": "python-ecosys/iperf3",
+      "name": "iperf3",
+      "author": "",
+      "description": "",
+      "version": "0.1.5",
+      "license": "MIT",
+      "versions": {
+        "6": [
+          "0.1.3",
+          "0.1.4",
+          "0.1.5"
+        ],
+        "py": [
+          "0.1.3",
+          "0.1.4",
+          "0.1.5"
+        ]
+      }
+    },
+    {
+      "path": "python-stdlib/itertools",
+      "name": "itertools",
+      "author": "",
+      "description": "",
+      "version": "0.2.3",
+      "license": "MIT",
+      "versions": {
+        "6": [
+          "0.2.3"
+        ],
+        "py": [
+          "0.2.3"
+        ]
+      }
+    },
+    {
+      "name": "json",
+      "license": "MIT",
+      "author": "",
+      "description": "",
+      "version": "0.1.0",
+      "versions": {
+        "6": [
+          "0.1.0"
+        ],
+        "py": [
+          "0.1.0"
+        ]
+      }
+    },
+    {
+      "path": "python-stdlib/keyword",
+      "name": "keyword",
+      "author": "",
+      "description": "",
+      "version": "0.0.1",
+      "license": "MIT",
+      "versions": {
+        "6": [
+          "0.0.1"
+        ],
+        "py": [
+          "0.0.1"
+        ]
+      }
+    },
+    {
+      "path": "micropython/drivers/display/lcd160cr",
+      "name": "lcd160cr",
+      "author": "",
+      "description": "LCD160CR driver.",
+      "version": "0.1.0",
+      "license": "MIT",
+      "versions": {
+        "6": [
+          "0.1.0"
+        ],
+        "py": [
+          "0.1.0"
+        ]
+      }
+    },
+    {
+      "path": "python-stdlib/locale",
+      "name": "locale",
+      "author": "",
+      "description": "",
+      "version": "0.0.2",
+      "license": "MIT",
+      "versions": {
+        "6": [
+          "0.0.2"
+        ],
+        "py": [
+          "0.0.2"
+        ]
+      }
+    },
+    {
+      "path": "python-stdlib/logging",
+      "name": "logging",
+      "author": "",
+      "description": "",
+      "version": "0.6.2",
+      "license": "MIT",
+      "versions": {
+        "6": [
+          "0.3",
+          "0.5",
+          "0.6.0",
+          "0.6.1",
+          "0.6.2"
+        ],
+        "py": [
+          "0.3",
+          "0.5",
+          "0.6.0",
+          "0.6.1",
+          "0.6.2"
+        ]
+      }
+    },
+    {
+      "path": "micropython/lora/lora",
+      "name": "lora",
+      "author": "",
+      "description": "",
+      "version": "0.2.0",
+      "license": "MIT",
+      "versions": {
+        "6": [
+          "0.1.0",
+          "0.2.0"
+        ],
+        "py": [
+          "0.1.0",
+          "0.2.0"
+        ]
+      }
+    },
+    {
+      "path": "micropython/lora/lora-async",
+      "name": "lora-async",
+      "author": "",
+      "description": "",
+      "version": "0.1.1",
+      "license": "MIT",
+      "versions": {
+        "6": [
+          "0.1.0",
+          "0.1.1"
+        ],
+        "py": [
+          "0.1.0",
+          "0.1.1"
+        ]
+      }
+    },
+    {
+      "path": "micropython/lora/lora-stm32wl5",
+      "name": "lora-stm32wl5",
+      "author": "",
+      "description": "",
+      "version": "0.1",
+      "license": "MIT",
+      "versions": {
+        "6": [
+          "0.1"
+        ],
+        "py": [
+          "0.1"
+        ]
+      }
+    },
+    {
+      "path": "micropython/lora/lora-sx126x",
+      "name": "lora-sx126x",
+      "author": "",
+      "description": "",
+      "version": "0.1.6",
+      "license": "MIT",
+      "versions": {
+        "6": [
+          "0.1.0",
+          "0.1.1",
+          "0.1.2",
+          "0.1.3",
+          "0.1.5",
+          "0.1.6"
+        ],
+        "py": [
+          "0.1.0",
+          "0.1.1",
+          "0.1.2",
+          "0.1.3",
+          "0.1.5",
+          "0.1.6"
+        ]
+      }
+    },
+    {
+      "path": "micropython/lora/lora-sx127x",
+      "name": "lora-sx127x",
+      "author": "",
+      "description": "",
+      "version": "0.1.2",
+      "license": "MIT",
+      "versions": {
+        "6": [
+          "0.1.0",
+          "0.1.1",
+          "0.1.2"
+        ],
+        "py": [
+          "0.1.0",
+          "0.1.1",
+          "0.1.2"
+        ]
+      }
+    },
+    {
+      "path": "micropython/lora/lora-sync",
+      "name": "lora-sync",
+      "author": "",
+      "description": "",
+      "version": "0.1.1",
+      "license": "MIT",
+      "versions": {
+        "6": [
+          "0.1.0",
+          "0.1.1"
+        ],
+        "py": [
+          "0.1.0",
+          "0.1.1"
+        ]
+      }
+    },
+    {
+      "path": "micropython/drivers/sensor/lps22h",
+      "name": "lps22h",
+      "author": "",
+      "description": "LPS22H temperature/pressure sensor driver.",
+      "version": "0.1.0",
+      "license": "MIT",
+      "versions": {
+        "6": [
+          "0.1.0"
+        ],
+        "py": [
+          "0.1.0"
+        ]
+      }
+    },
+    {
+      "path": "micropython/drivers/imu/lsm6dsox",
+      "name": "lsm6dsox",
+      "author": "",
+      "description": "ST LSM6DSOX imu driver.",
+      "version": "1.1.0",
+      "license": "MIT",
+      "versions": {
+        "6": [
+          "1.0.0",
+          "1.0.1",
+          "1.1.0"
+        ],
+        "py": [
+          "1.0.0",
+          "1.0.1",
+          "1.1.0"
+        ]
+      }
+    },
+    {
+      "path": "micropython/drivers/imu/lsm9ds1",
+      "name": "lsm9ds1",
+      "author": "",
+      "description": "Driver for ST LSM9DS1 IMU.",
+      "version": "1.0.0",
+      "license": "MIT",
+      "versions": {
+        "6": [
+          "1.0.0"
+        ],
+        "py": [
+          "1.0.0"
+        ]
+      }
+    },
+    {
+      "path": "micropython/drivers/sensor/mhz19",
+      "name": "mhz19",
+      "author": "",
+      "description": "Driver for MH-Z19 CO2 sensor.",
+      "version": "0.1.0",
+      "license": "MIT",
+      "versions": {
+        "6": [
+          "0.1.0"
+        ],
+        "py": [
+          "0.1.0"
+        ]
+      }
+    },
+    {
+      "path": "micropython/mip",
+      "name": "mip",
+      "author": "",
+      "description": "On-device package installer for network-capable boards",
+      "version": "0.5.0",
+      "license": "MIT",
+      "versions": {
+        "6": [
+          "0.1.0",
+          "0.2.0",
+          "0.3.0",
+          "0.4.1",
+          "0.4.2",
+          "0.5.0"
+        ],
+        "py": [
+          "0.1.0",
+          "0.2.0",
+          "0.3.0",
+          "0.4.1",
+          "0.4.2",
+          "0.5.0"
+        ]
+      }
+    },
+    {
+      "path": "micropython/mip-cmdline",
+      "name": "mip-cmdline",
+      "author": "",
+      "description": "Optional support for running `micropython -m mip`",
+      "version": "0.1.0",
+      "license": "MIT",
+      "versions": {
+        "6": [
+          "0.1.0"
+        ],
+        "py": [
+          "0.1.0"
+        ]
+      }
+    },
+    {
+      "path": "micropython/drivers/led/neopixel",
+      "name": "neopixel",
+      "author": "",
+      "description": "WS2812/NeoPixel driver.",
+      "version": "0.1.0",
+      "license": "MIT",
+      "versions": {
+        "6": [
+          "0.1.0"
+        ],
+        "py": [
+          "0.1.0"
+        ]
+      }
+    },
+    {
+      "path": "micropython/drivers/radio/nrf24l01",
+      "name": "nrf24l01",
+      "author": "",
+      "description": "nrf24l01 2.4GHz radio driver.",
+      "version": "0.2.0",
+      "license": "MIT",
+      "versions": {
+        "6": [
+          "0.1.0",
+          "0.2.0"
+        ],
+        "py": [
+          "0.1.0",
+          "0.2.0"
+        ]
+      }
+    },
+    {
+      "path": "micropython/net/ntptime",
+      "name": "ntptime",
+      "author": "",
+      "description": "NTP client.",
+      "version": "0.2.2",
+      "license": "MIT",
+      "versions": {
+        "6": [
+          "0.1.0",
+          "0.1.1",
+          "0.2.0",
+          "0.2.1",
+          "0.2.2"
+        ],
+        "py": [
+          "0.1.0",
+          "0.1.1",
+          "0.2.0",
+          "0.2.1",
+          "0.2.2"
+        ]
+      }
+    },
+    {
+      "path": "micropython/drivers/bus/onewire",
+      "name": "onewire",
+      "author": "",
+      "description": "Onewire driver.",
+      "version": "0.1.0",
+      "license": "MIT",
+      "versions": {
+        "6": [
+          "0.1.0"
+        ],
+        "py": [
+          "0.1.0"
+        ]
+      }
+    },
+    {
+      "path": "python-stdlib/operator",
+      "name": "operator",
+      "author": "",
+      "description": "",
+      "version": "0.2.0",
+      "license": "MIT",
+      "versions": {
+        "6": [
+          "0.1.1",
+          "0.2.0"
+        ],
+        "py": [
+          "0.1.1",
+          "0.2.0"
+        ]
+      }
+    },
+    {
+      "path": "python-stdlib/os",
+      "name": "os",
+      "author": "",
+      "description": "",
+      "version": "0.7.0",
+      "license": "MIT",
+      "versions": {
+        "6": [
+          "0.6",
+          "0.6.0",
+          "0.7.0"
+        ],
+        "py": [
+          "0.6",
+          "0.6.0",
+          "0.7.0"
+        ]
+      }
+    },
+    {
+      "path": "python-stdlib/os-path",
+      "name": "os-path",
+      "author": "",
+      "description": "",
+      "version": "0.2.0",
+      "license": "MIT",
+      "versions": {
+        "6": [
+          "0.1.4",
+          "0.2.0"
+        ],
+        "py": [
+          "0.1.4",
+          "0.2.0"
+        ]
+      }
+    },
+    {
+      "path": "python-stdlib/pathlib",
+      "name": "pathlib",
+      "author": "",
+      "description": "",
+      "version": "0.1.0",
+      "license": "MIT",
+      "versions": {
+        "6": [
+          "0.0.1",
+          "0.0.2",
+          "0.1.0"
+        ],
+        "py": [
+          "0.0.1",
+          "0.0.2",
+          "0.1.0"
+        ]
+      }
+    },
+    {
+      "path": "python-stdlib/pickle",
+      "name": "pickle",
+      "author": "",
+      "description": "",
+      "version": "0.1.0",
+      "license": "MIT",
+      "versions": {
+        "6": [
+          "0.1",
+          "0.1.0"
+        ],
+        "py": [
+          "0.1",
+          "0.1.0"
+        ]
+      }
+    },
+    {
+      "path": "python-stdlib/pkg_resources",
+      "name": "pkg_resources",
+      "author": "",
+      "description": "",
+      "version": "0.2.1",
+      "license": "MIT",
+      "versions": {
+        "6": [
+          "0.2.1"
+        ],
+        "py": [
+          "0.2.1"
+        ]
+      }
+    },
+    {
+      "path": "python-stdlib/pkgutil",
+      "name": "pkgutil",
+      "author": "",
+      "description": "",
+      "version": "0.1.1",
+      "license": "MIT",
+      "versions": {
+        "6": [
+          "0.1.1"
+        ],
+        "py": [
+          "0.1.1"
+        ]
+      }
+    },
+    {
+      "path": "python-stdlib/pprint",
+      "name": "pprint",
+      "author": "",
+      "description": "",
+      "version": "0.1.0",
+      "license": "MIT",
+      "versions": {
+        "6": [
+          "0.0.4",
+          "0.1.0"
+        ],
+        "py": [
+          "0.0.4",
+          "0.1.0"
+        ]
+      }
+    },
+    {
+      "path": "python-ecosys/pyjwt",
+      "name": "pyjwt",
+      "author": "",
+      "description": "",
+      "version": "0.1.0",
+      "license": "MIT",
+      "versions": {
+        "6": [
+          "0.1",
+          "0.1.0"
+        ],
+        "py": [
+          "0.1",
+          "0.1.0"
+        ]
+      }
+    },
+    {
+      "path": "python-stdlib/quopri",
+      "name": "quopri",
+      "author": "",
+      "description": "",
+      "version": "0.5.1",
+      "license": "MIT",
+      "versions": {
+        "6": [
+          "0.5.1"
+        ],
+        "py": [
+          "0.5.1"
+        ]
+      }
+    },
+    {
+      "path": "python-stdlib/random",
+      "name": "random",
+      "author": "",
+      "description": "",
+      "version": "0.2.0",
+      "license": "MIT",
+      "versions": {
+        "6": [
+          "0.2",
+          "0.2.0"
+        ],
+        "py": [
+          "0.2",
+          "0.2.0"
+        ]
+      }
+    },
+    {
+      "path": "python-ecosys/requests",
+      "name": "requests",
+      "author": "",
+      "description": "",
+      "version": "1.1.1",
+      "license": "MIT",
+      "versions": {
+        "6": [
+          "0.8.0",
+          "0.8.1",
+          "0.9.0",
+          "0.10.0",
+          "0.10.2",
+          "0.11.0",
+          "1.0.0",
+          "1.0.1",
+          "1.0.2",
+          "1.0.3",
+          "1.1.0",
+          "1.1.1"
+        ],
+        "py": [
+          "0.8.0",
+          "0.8.1",
+          "0.9.0",
+          "0.10.0",
+          "0.10.2",
+          "0.11.0",
+          "1.0.0",
+          "1.0.1",
+          "1.0.2",
+          "1.0.3",
+          "1.1.0",
+          "1.1.1"
+        ]
+      }
+    },
+    {
+      "path": "micropython/drivers/storage/sdcard",
+      "name": "sdcard",
+      "author": "",
+      "description": "SDCard block device driver.",
+      "version": "0.2.0",
+      "license": "MIT",
+      "versions": {
+        "6": [
+          "0.1.0",
+          "0.1.1",
+          "0.2.0"
+        ],
+        "py": [
+          "0.1.0",
+          "0.1.1",
+          "0.2.0"
+        ]
+      }
+    },
+    {
+      "path": "micropython/senml",
+      "name": "senml",
+      "author": "",
+      "description": "SenML serialisation for MicroPython.",
+      "version": "0.1.1",
+      "license": "MIT",
+      "versions": {
+        "6": [
+          "0.1.0",
+          "0.1.1"
+        ],
+        "py": [
+          "0.1.0",
+          "0.1.1"
+        ]
+      }
+    },
+    {
+      "path": "python-stdlib/shutil",
+      "name": "shutil",
+      "author": "",
+      "description": "",
+      "version": "0.0.5",
+      "license": "MIT",
+      "versions": {
+        "6": [
+          "0.0.3",
+          "0.0.5"
+        ],
+        "py": [
+          "0.0.3",
+          "0.0.5"
+        ]
+      }
+    },
+    {
+      "path": "micropython/drivers/display/ssd1306",
+      "name": "ssd1306",
+      "author": "",
+      "description": "SSD1306 OLED driver.",
+      "version": "0.1.0",
+      "license": "MIT",
+      "versions": {
+        "6": [
+          "0.1.0"
+        ],
+        "py": [
+          "0.1.0"
+        ]
+      }
+    },
+    {
+      "path": "python-stdlib/ssl",
+      "name": "ssl",
+      "author": "",
+      "description": "",
+      "version": "0.2.1",
+      "license": "MIT",
+      "versions": {
+        "6": [
+          "0.1",
+          "0.1.0",
+          "0.2.0",
+          "0.2.1"
+        ],
+        "py": [
+          "0.1",
+          "0.1.0",
+          "0.2.0",
+          "0.2.1"
+        ]
+      }
+    },
+    {
+      "path": "python-stdlib/stat",
+      "name": "stat",
+      "author": "",
+      "description": "",
+      "version": "0.5.1",
+      "license": "MIT",
+      "versions": {
+        "6": [
+          "0.5.1"
+        ],
+        "py": [
+          "0.5.1"
+        ]
+      }
+    },
+    {
+      "path": "python-stdlib/string",
+      "name": "string",
+      "author": "",
+      "description": "",
+      "version": "0.2.0",
+      "license": "MIT",
+      "versions": {
+        "6": [
+          "0.1.1",
+          "0.2.0"
+        ],
+        "py": [
+          "0.1.1",
+          "0.2.0"
+        ]
+      }
+    },
+    {
+      "path": "python-stdlib/struct",
+      "name": "struct",
+      "author": "",
+      "description": "",
+      "version": "0.1.1",
+      "license": "MIT",
+      "versions": {
+        "6": [
+          "0.1.1"
+        ],
+        "py": [
+          "0.1.1"
+        ]
+      }
+    },
+    {
+      "path": "python-stdlib/tarfile",
+      "name": "tarfile",
+      "author": "",
+      "description": "Read-only implementation of Python's tarfile.",
+      "version": "0.4.2",
+      "license": "MIT",
+      "versions": {
+        "6": [
+          "0.4.1",
+          "0.4.2"
+        ],
+        "py": [
+          "0.4.1",
+          "0.4.2"
+        ]
+      }
+    },
+    {
+      "path": "python-stdlib/tarfile-write",
+      "name": "tarfile-write",
+      "author": "",
+      "description": "Adds write (create/append) support to tarfile.",
+      "version": "0.1.2",
+      "license": "MIT",
+      "versions": {
+        "6": [
+          "0.1.1",
+          "0.1.2"
+        ],
+        "py": [
+          "0.1.1",
+          "0.1.2"
+        ]
+      }
+    },
+    {
+      "path": "python-stdlib/tempfile",
+      "name": "tempfile",
+      "author": "",
+      "description": "",
+      "version": "0.0.1",
+      "license": "MIT",
+      "versions": {
+        "6": [
+          "0.0.1"
+        ],
+        "py": [
+          "0.0.1"
+        ]
+      }
+    },
+    {
+      "path": "python-stdlib/textwrap",
+      "name": "textwrap",
+      "author": "",
+      "description": "",
+      "version": "3.4.3",
+      "license": "MIT",
+      "versions": {
+        "6": [
+          "3.4.2-1",
+          "3.4.3"
+        ],
+        "py": [
+          "3.4.2-1",
+          "3.4.3"
+        ]
+      }
+    },
+    {
+      "path": "python-stdlib/threading",
+      "name": "threading",
+      "author": "",
+      "description": "",
+      "version": "0.1.0",
+      "license": "MIT",
+      "versions": {
+        "6": [
+          "0.1",
+          "0.1.0"
+        ],
+        "py": [
+          "0.1",
+          "0.1.0"
+        ]
+      }
+    },
+    {
+      "path": "python-stdlib/time",
+      "name": "time",
+      "author": "",
+      "description": "",
+      "version": "0.1.0",
+      "license": "MIT",
+      "versions": {
+        "6": [
+          "0.1",
+          "0.1.0"
+        ],
+        "py": [
+          "0.1",
+          "0.1.0"
+        ]
+      }
+    },
+    {
+      "path": "python-stdlib/traceback",
+      "name": "traceback",
+      "author": "",
+      "description": "",
+      "version": "0.3.0",
+      "license": "MIT",
+      "versions": {
+        "6": [
+          "0.3",
+          "0.3.0"
+        ],
+        "py": [
+          "0.3",
+          "0.3.0"
+        ]
+      }
+    },
+    {
+      "path": "python-stdlib/types",
+      "name": "types",
+      "author": "",
+      "description": "",
+      "version": "0.0.1",
+      "license": "MIT",
+      "versions": {
+        "6": [
+          "0.0.1"
+        ],
+        "py": [
+          "0.0.1"
+        ]
+      }
+    },
+    {
+      "path": "micropython/uaiohttpclient",
+      "name": "uaiohttpclient",
+      "author": "",
+      "description": "HTTP client module for MicroPython asyncio module",
+      "version": "0.5.3",
+      "license": "MIT",
+      "versions": {
+        "6": [
+          "0.5.1",
+          "0.5.2",
+          "0.5.3"
+        ],
+        "py": [
+          "0.5.1",
+          "0.5.2",
+          "0.5.3"
+        ]
+      }
+    },
+    {
+      "path": "micropython/ucontextlib",
+      "name": "ucontextlib",
+      "author": "",
+      "description": "Minimal subset of contextlib for MicroPython low-memory ports",
+      "version": "0.1.1",
+      "license": "MIT",
+      "versions": {
+        "6": [
+          "0.1.1"
+        ],
+        "py": [
+          "0.1.1"
+        ]
+      }
+    },
+    {
+      "path": "micropython/udnspkt",
+      "name": "udnspkt",
+      "author": "",
+      "description": "Make and parse DNS packets (Sans I/O approach).",
+      "version": "0.2.0",
+      "license": "MIT",
+      "versions": {
+        "6": [
+          "0.1",
+          "0.1.0",
+          "0.2.0"
+        ],
+        "py": [
+          "0.1",
+          "0.1.0",
+          "0.2.0"
+        ]
+      }
+    },
+    {
+      "path": "micropython/umqtt.robust",
+      "name": "umqtt.robust",
+      "author": "",
+      "description": "Lightweight MQTT client for MicroPython (\"robust\" version).",
+      "version": "1.0.3",
+      "license": "MIT",
+      "versions": {
+        "6": [
+          "1.0.2",
+          "1.0.3"
+        ],
+        "py": [
+          "1.0.2",
+          "1.0.3"
+        ]
+      }
+    },
+    {
+      "path": "micropython/umqtt.simple",
+      "name": "umqtt.simple",
+      "author": "",
+      "description": "Lightweight MQTT client for MicroPython.",
+      "version": "1.8.1",
+      "license": "MIT",
+      "versions": {
+        "6": [
+          "1.3.4",
+          "1.4.0",
+          "1.5.0",
+          "1.6.0",
+          "1.7.0",
+          "1.7.1",
+          "1.8.0",
+          "1.8.1"
+        ],
+        "py": [
+          "1.3.4",
+          "1.4.0",
+          "1.5.0",
+          "1.6.0",
+          "1.7.0",
+          "1.7.1",
+          "1.8.0",
+          "1.8.1"
+        ]
+      }
+    },
+    {
+      "path": "python-stdlib/unittest",
+      "name": "unittest",
+      "author": "",
+      "description": "",
+      "version": "0.11.0",
+      "license": "MIT",
+      "versions": {
+        "6": [
+          "0.10.0",
+          "0.10.1",
+          "0.10.2",
+          "0.10.3",
+          "0.10.4",
+          "0.10.5",
+          "0.11.0"
+        ],
+        "py": [
+          "0.10.0",
+          "0.10.1",
+          "0.10.2",
+          "0.10.3",
+          "0.10.4",
+          "0.10.5",
+          "0.11.0"
+        ]
+      }
+    },
+    {
+      "path": "python-stdlib/unittest-discover",
+      "name": "unittest-discover",
+      "author": "",
+      "description": "",
+      "version": "0.1.3",
+      "license": "MIT",
+      "versions": {
+        "6": [
+          "0.1.0",
+          "0.1.1",
+          "0.1.2",
+          "0.1.3"
+        ],
+        "py": [
+          "0.1.0",
+          "0.1.1",
+          "0.1.2",
+          "0.1.3"
+        ]
+      }
+    },
+    {
+      "path": "micropython/upysh",
+      "name": "upysh",
+      "author": "",
+      "description": "Minimalistic file shell using native Python syntax.",
+      "version": "0.6.1",
+      "license": "MIT",
+      "versions": {
+        "6": [
+          "0.6.1"
+        ],
+        "py": [
+          "0.6.1"
+        ]
+      }
+    },
+    {
+      "path": "micropython/urequests",
+      "name": "urequests",
+      "author": "",
+      "description": "",
+      "version": "0.8.0",
+      "license": "MIT",
+      "versions": {
+        "6": [
+          "0.7.0",
+          "0.8.0"
+        ],
+        "py": [
+          "0.7.0",
+          "0.8.0"
+        ]
+      }
+    },
+    {
+      "path": "micropython/urllib.urequest",
+      "name": "urllib.urequest",
+      "author": "",
+      "description": "",
+      "version": "0.8.0",
+      "license": "MIT",
+      "versions": {
+        "6": [
+          "0.6",
+          "0.6.0",
+          "0.7.0",
+          "0.8.0"
+        ],
+        "py": [
+          "0.6",
+          "0.6.0",
+          "0.7.0",
+          "0.8.0"
+        ]
+      }
+    },
+    {
+      "path": "micropython/usb/usb-device",
+      "name": "usb-device",
+      "author": "",
+      "description": "",
+      "version": "0.2.1",
+      "license": "MIT",
+      "versions": {
+        "6": [
+          "0.1.0",
+          "0.1.1",
+          "0.2.0",
+          "0.2.1"
+        ],
+        "py": [
+          "0.1.0",
+          "0.1.1",
+          "0.2.0",
+          "0.2.1"
+        ]
+      }
+    },
+    {
+      "path": "micropython/usb/usb-device-cdc",
+      "name": "usb-device-cdc",
+      "author": "",
+      "description": "",
+      "version": "0.1.4",
+      "license": "MIT",
+      "versions": {
+        "6": [
+          "0.1.0",
+          "0.1.1",
+          "0.1.2",
+          "0.1.3",
+          "0.1.4"
+        ],
+        "py": [
+          "0.1.0",
+          "0.1.1",
+          "0.1.2",
+          "0.1.3",
+          "0.1.4"
+        ]
+      }
+    },
+    {
+      "path": "micropython/usb/usb-device-hid",
+      "name": "usb-device-hid",
+      "author": "",
+      "description": "",
+      "version": "0.2.0",
+      "license": "MIT",
+      "versions": {
+        "6": [
+          "0.1.0",
+          "0.1.1",
+          "0.1.2",
+          "0.2.0"
+        ],
+        "py": [
+          "0.1.0",
+          "0.1.1",
+          "0.1.2",
+          "0.2.0"
+        ]
+      }
+    },
+    {
+      "path": "micropython/usb/usb-device-keyboard",
+      "name": "usb-device-keyboard",
+      "author": "",
+      "description": "",
+      "version": "0.1.1",
+      "license": "MIT",
+      "versions": {
+        "6": [
+          "0.1.0",
+          "0.1.1"
+        ],
+        "py": [
+          "0.1.0",
+          "0.1.1"
+        ]
+      }
+    },
+    {
+      "path": "micropython/usb/usb-device-midi",
+      "name": "usb-device-midi",
+      "author": "",
+      "description": "",
+      "version": "0.1.1",
+      "license": "MIT",
+      "versions": {
+        "6": [
+          "0.1.0",
+          "0.1.1"
+        ],
+        "py": [
+          "0.1.0",
+          "0.1.1"
+        ]
+      }
+    },
+    {
+      "path": "micropython/usb/usb-device-mouse",
+      "name": "usb-device-mouse",
+      "author": "",
+      "description": "",
+      "version": "0.1.0",
+      "license": "MIT",
+      "versions": {
+        "6": [
+          "0.1.0"
+        ],
+        "py": [
+          "0.1.0"
+        ]
+      }
+    },
+    {
+      "name": "utarfile",
+      "license": "MIT",
+      "author": "",
+      "description": "Read-only implementation of Python's tarfile.",
+      "version": "0.4.0",
+      "versions": {
+        "6": [
+          "0.3.2",
+          "0.4.0"
+        ],
+        "py": [
+          "0.3.2",
+          "0.4.0"
+        ]
+      }
+    },
+    {
+      "name": "utarfile-write",
+      "license": "MIT",
+      "author": "",
+      "description": "Adds write (create/append) support to utarfile.",
+      "version": "0.1",
+      "versions": {
+        "6": [
+          "0.1"
+        ],
+        "py": [
+          "0.1"
+        ]
+      }
+    },
+    {
+      "path": "micropython/utop",
+      "name": "utop",
+      "author": "",
+      "description": "Provides a top-like live overview of the running system.",
+      "version": "0.1.0",
+      "license": "MIT",
+      "versions": {
+        "6": [
+          "0.1.0"
+        ],
+        "py": [
+          "0.1.0"
+        ]
+      }
+    },
+    {
+      "path": "python-stdlib/uu",
+      "name": "uu",
+      "author": "",
+      "description": "",
+      "version": "0.5.1",
+      "license": "MIT",
+      "versions": {
+        "6": [
+          "0.5.1"
+        ],
+        "py": [
+          "0.5.1"
+        ]
+      }
+    },
+    {
+      "path": "python-stdlib/uuid",
+      "name": "uuid",
+      "author": "",
+      "description": "",
+      "version": "0.1.0",
+      "license": "MIT",
+      "versions": {
+        "6": [
+          "0.1.0"
+        ],
+        "py": [
+          "0.1.0"
+        ]
+      }
+    },
+    {
+      "path": "python-stdlib/venv",
+      "name": "venv",
+      "author": "",
+      "description": "Support for creating MicroPython virtual environments using `micropython -m venv`",
+      "version": "0.1.0",
+      "license": "MIT",
+      "versions": {
+        "6": [
+          "0.1.0"
+        ],
+        "py": [
+          "0.1.0"
+        ]
+      }
+    },
+    {
+      "path": "python-stdlib/warnings",
+      "name": "warnings",
+      "author": "",
+      "description": "",
+      "version": "0.1.1",
+      "license": "MIT",
+      "versions": {
+        "6": [
+          "0.1.1"
+        ],
+        "py": [
+          "0.1.1"
+        ]
+      }
+    },
+    {
+      "path": "micropython/net/webrepl",
+      "name": "webrepl",
+      "author": "",
+      "description": "WebREPL server.",
+      "version": "0.1.0",
+      "license": "MIT",
+      "versions": {
+        "6": [
+          "0.1.0"
+        ],
+        "py": [
+          "0.1.0"
+        ]
+      }
+    },
+    {
+      "path": "micropython/drivers/codec/wm8960",
+      "name": "wm8960",
+      "author": "",
+      "description": "WM8960 codec.",
+      "version": "0.1.1",
+      "license": "MIT",
+      "versions": {
+        "6": [
+          "0.1.0",
+          "0.1.1"
+        ],
+        "py": [
+          "0.1.0",
+          "0.1.1"
+        ]
+      }
+    },
+    {
+      "path": "micropython/xmltok",
+      "name": "xmltok",
+      "author": "",
+      "description": "Simple XML tokenizer",
+      "version": "0.2.1",
+      "license": "MIT",
+      "versions": {
+        "6": [
+          "0.2",
+          "0.2.1"
+        ],
+        "py": [
+          "0.2",
+          "0.2.1"
+        ]
+      }
+    },
+    {
+      "path": "python-stdlib/zipfile",
+      "name": "zipfile",
+      "author": "",
+      "description": "",
+      "version": "0.1.0",
+      "license": "MIT",
+      "versions": {
+        "6": [
+          "0.1.0"
+        ],
+        "py": [
+          "0.1.0"
+        ]
+      }
+    },
+    {
+      "path": "python-stdlib/zlib",
+      "name": "zlib",
+      "author": "",
+      "description": "Compression and decompression using the deflate algorithm",
+      "version": "1.0.0",
+      "license": "MIT",
+      "versions": {
+        "6": [
+          "1.0.0"
+        ],
+        "py": [
+          "1.0.0"
+        ]
+      }
+    }
+  ],
+  "v": 2,
+  "updated": 1791770383
+}

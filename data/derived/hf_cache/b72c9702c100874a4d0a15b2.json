@@ -1,0 +1,926 @@
+{
+ "url": "https://huggingface.co/api/models/bartowski/Llama-3.2-1B-Instruct-GGUF/tree/main?expand=true",
+ "body": null,
+ "retrieved_at": "2026-10-24T06:35:40Z",
+ "answer": [
+  {
+   "type": "file",
+   "oid": "b051f4c2f436ec1c3853bc2b440f49c6b12dc075",
+   "size": 2842,
+   "path": ".gitattributes",
+   "lastCommit": {
+    "id": "421677676671db8d33e216c039ed1b7e31b5d711",
+    "title": "Upload Llama-3.2-1B-Instruct.imatrix with huggingface_hub",
+    "date": "2024-09-25T18:41:58.000Z"
+   },
+   "securityFileStatus": {
+    "status": "safe",
+    "protectAiScan": {
+     "status": "safe",
+     "message": "This file has no security findings.",
+     "reportLink": "https://insights-db.paloaltonetworks.com/models/bartowski/Llama-3.2-1B-Instruct-GGUF/067b946cf014b7c697f3654f621d577a3e3afd1c/files?blob-id=b051f4c2f436ec1c3853bc2b440f49c6b12dc075&utm_source=huggingface"
+    },
+    "avScan": {
+     "status": "safe",
+     "message": "No security issues detected",
+     "reportLink": "https://fdtn.ai/ai-supply-chain/hugging-face?utm_source=huggingface"
+    },
+    "pickleImportScan": {
+     "status": "unscanned",
+     "pickleImports": [],
+     "version": "0.0.0"
+    },
+    "virusTotalScan": {
+     "status": "unscanned"
+    },
+    "jFrogScan": {
+     "status": "unscanned",
+     "message": "Not a machine-learning model"
+    }
+   }
+  },
+  {
+   "type": "file",
+   "oid": "a50e65369b5160b2d8d925d249b8516705ff2c2c",
+   "size": 657289344,
+   "lfs": {
+    "oid": "c80cc062a721c267ec50fee83fe6b55d36fc7abe708392dbe22e16fbd42687e8",
+    "size": 657289344,
+    "pointerSize": 134
+   },
+   "xetHash": "6d98e192e0c830d32a001c71ac58d103d67dbe66347c67c75129d99c66e265ee",
+   "path": "Llama-3.2-1B-Instruct-IQ3_M.gguf",
+   "lastCommit": {
+    "id": "f4008e10026649c22b1bf099e89240275354707b",
+    "title": "Upload Llama-3.2-1B-Instruct-IQ3_M.gguf with huggingface_hub",
+    "date": "2024-09-25T18:41:35.000Z"
+   },
+   "securityFileStatus": {
+    "status": "safe",
+    "protectAiScan": {
+     "status": "safe",
+     "message": "This file is vulnerable to threat(s) PAIT-GGUF-100.",
+     "reportLink": "https://insights-db.paloaltonetworks.com/models/bartowski/Llama-3.2-1B-Instruct-GGUF/067b946cf014b7c697f3654f621d577a3e3afd1c/files?blob-id=a50e65369b5160b2d8d925d249b8516705ff2c2c&utm_source=huggingface"
+    },
+    "avScan": {
+     "status": "safe",
+     "message": "No security issues detected",
+     "reportLink": "https://fdtn.ai/ai-supply-chain/hugging-face?utm_source=huggingface"
+    },
+    "pickleImportScan": {
+     "status": "unscanned",
+     "pickleImports": [],
+     "version": "0.0.0"
+    },
+    "virusTotalScan": {
+     "status": "safe",
+     "message": "0/76 engines detect it as malicious.",
+     "reportLink": "https://www.virustotal.com/gui/file/c80cc062a721c267ec50fee83fe6b55d36fc7abe708392dbe22e16fbd42687e8?utm_source=huggingface"
+    },
+    "jFrogScan": {
+     "status": "safe",
+     "message": "Safe GGUF model",
+     "reportLink": "https://research.jfrog.com/model-threats/gguf-ssti?utm_source=huggingface"
+    }
+   }
+  },
+  {
+   "type": "file",
+   "oid": "49508f29f50de4df107743b4a7698b16c0c824db",
+   "size": 743141504,
+   "lfs": {
+    "oid": "69e85c871a13a99e4008c09916a957d170e4e5623a5b2e06be46408029a7afba",
+    "size": 743141504,
+    "pointerSize": 134
+   },
+   "xetHash": "a71ed8f362ea3927d06071d857bed5f217c5beadae37831597263a7d79e07045",
+   "path": "Llama-3.2-1B-Instruct-IQ4_XS.gguf",
+   "lastCommit": {
+    "id": "9cca442a99cf49f0e3ae638d0a441de4c84655cf",
+    "title": "Upload Llama-3.2-1B-Instruct-IQ4_XS.gguf with huggingface_hub",
+    "date": "2024-09-25T18:40:44.000Z"
+   },
+   "securityFileStatus": {
+    "status": "safe",
+    "protectAiScan": {
+     "status": "safe",
+     "message": "This file is vulnerable to threat(s) PAIT-GGUF-100.",
+     "reportLink": "https://insights-db.paloaltonetworks.com/models/bartowski/Llama-3.2-1B-Instruct-GGUF/067b946cf014b7c697f3654f621d577a3e3afd1c/files?blob-id=49508f29f50de4df107743b4a7698b16c0c824db&utm_source=huggingface"
+    },
+    "avScan": {
+     "status": "safe",
+     "message": "No security issues detected",
+     "reportLink": "https://fdtn.ai/ai-supply-chain/hugging-face?utm_source=huggingface"
+    },
+    "pickleImportScan": {
+     "status": "unscanned",
+     "pickleImports": [],
+     "version": "0.0.0"
+    },
+    "virusTotalScan": {
+     "status": "safe",
+     "message": "0/75 engines detect it as malicious.",
+     "reportLink": "https://www.virustotal.com/gui/file/69e85c871a13a99e4008c09916a957d170e4e5623a5b2e06be46408029a7afba?utm_source=huggingface"
+    },
+    "jFrogScan": {
+     "status": "safe",
+     "message": "Safe GGUF model",
+     "reportLink": "https://research.jfrog.com/model-threats/gguf-ssti?utm_source=huggingface"
+    }
+   }
+  },
+  {
+   "type": "file",
+   "oid": "c4eb55bc0cc010689f1134e0a635bd78f6ab262b",
+   "size": 732524672,
+   "lfs": {
+    "oid": "4cc006968acfee52002f0d117d14cf2ed587e15c93a85c84fe8c053c5c47455d",
+    "size": 732524672,
+    "pointerSize": 134
+   },
+   "xetHash": "6ac6fe8c98de3923672f393a6f1f566b507aa5ebe7e81621c106545405df8194",
+   "path": "Llama-3.2-1B-Instruct-Q3_K_L.gguf",
+   "lastCommit": {
+    "id": "f5a4da2615e70991433641f5b628778b0fef75cb",
+    "title": "Upload Llama-3.2-1B-Instruct-Q3_K_L.gguf with huggingface_hub",
+    "date": "2024-09-25T18:41:06.000Z"
+   },
+   "securityFileStatus": {
+    "status": "safe",
+    "protectAiScan": {
+     "status": "safe",
+     "message": "This file is vulnerable to threat(s) PAIT-GGUF-100.",
+     "reportLink": "https://insights-db.paloaltonetworks.com/models/bartowski/Llama-3.2-1B-Instruct-GGUF/067b946cf014b7c697f3654f621d577a3e3afd1c/files?blob-id=c4eb55bc0cc010689f1134e0a635bd78f6ab262b&utm_source=huggingface"
+    },
+    "avScan": {
+     "status": "safe",
+     "message": "No security issues detected",
+     "reportLink": "https://fdtn.ai/ai-supply-chain/hugging-face?utm_source=huggingface"
+    },
+    "pickleImportScan": {
+     "status": "unscanned",
+     "pickleImports": [],
+     "version": "0.0.0"
+    },
+    "virusTotalScan": {
+     "status": "safe",
+     "message": "0/75 engines detect it as malicious.",
+     "reportLink": "https://www.virustotal.com/gui/file/4cc006968acfee52002f0d117d14cf2ed587e15c93a85c84fe8c053c5c47455d?utm_source=huggingface"
+    },
+    "jFrogScan": {
+     "status": "unscanned",
+     "message": "Unsupported machine-learning model"
+    }
+   }
+  },
+  {
+   "type": "file",
+   "oid": "2764dba4e2e33434a837cfbf065fc968eb9539b1",
+   "size": 796139648,
+   "lfs": {
+    "oid": "df6281097d325f74b1b2f08e1913b12ba422c706c890c67c3b07aaa4b711a4fb",
+    "size": 796139648,
+    "pointerSize": 134
+   },
+   "xetHash": "cd4e04661300b929b19b89918469c109aa4c8a8b11eb0961723a8ab3ad57732d",
+   "path": "Llama-3.2-1B-Instruct-Q3_K_XL.gguf",
+   "lastCommit": {
+    "id": "eeb7fae9d243f09e9bd335f73b377a7f9da68e6e",
+    "title": "Upload Llama-3.2-1B-Instruct-Q3_K_XL.gguf with huggingface_hub",
+    "date": "2024-09-25T18:40:55.000Z"
+   },
+   "securityFileStatus": {
+    "status": "safe",
+    "protectAiScan": {
+     "status": "safe",
+     "message": "This file is vulnerable to threat(s) PAIT-GGUF-100.",
+     "reportLink": "https://insights-db.paloaltonetworks.com/models/bartowski/Llama-3.2-1B-Instruct-GGUF/067b946cf014b7c697f3654f621d577a3e3afd1c/files?blob-id=2764dba4e2e33434a837cfbf065fc968eb9539b1&utm_source=huggingface"
+    },
+    "avScan": {
+     "status": "safe",
+     "message": "No security issues detected",
+     "reportLink": "https://fdtn.ai/ai-supply-chain/hugging-face?utm_source=huggingface"
+    },
+    "pickleImportScan": {
+     "status": "unscanned",
+     "pickleImports": [],
+     "version": "0.0.0"
+    },
+    "virusTotalScan": {
+     "status": "safe",
+     "message": "0/75 engines detect it as malicious.",
+     "reportLink": "https://www.virustotal.com/gui/file/df6281097d325f74b1b2f08e1913b12ba422c706c890c67c3b07aaa4b711a4fb?utm_source=huggingface"
+    },
+    "jFrogScan": {
+     "status": "safe",
+     "message": "Safe GGUF model",
+     "reportLink": "https://research.jfrog.com/model-threats/gguf-ssti?utm_source=huggingface"
+    }
+   }
+  },
+  {
+   "type": "file",
+   "oid": "54d5ddcaa7e9490a5263c26017acf8e6f2a6aa9f",
+   "size": 773025920,
+   "lfs": {
+    "oid": "fa0390e7c043f89ae1847bd6682d748041a99d4ef3de0e0b27d33b6af97a8be8",
+    "size": 773025920,
+    "pointerSize": 134
+   },
+   "xetHash": "5923d4e8d85c8c95918a5c57ed22afb52a8e15e5df292a853418625eca2ca05f",
+   "path": "Llama-3.2-1B-Instruct-Q4_0.gguf",
+   "lastCommit": {
+    "id": "7080af622111fe07bb6ce039f744cdb78aaf4973",
+    "title": "Upload Llama-3.2-1B-Instruct-Q4_0.gguf with huggingface_hub",
+    "date": "2024-09-25T18:40:32.000Z"
+   },
+   "securityFileStatus": {
+    "status": "safe",
+    "protectAiScan": {
+     "status": "safe",
+     "message": "This file is vulnerable to threat(s) PAIT-GGUF-100.",
+     "reportLink": "https://insights-db.paloaltonetworks.com/models/bartowski/Llama-3.2-1B-Instruct-GGUF/067b946cf014b7c697f3654f621d577a3e3afd1c/files?blob-id=54d5ddcaa7e9490a5263c26017acf8e6f2a6aa9f&utm_source=huggingface"
+    },
+    "avScan": {
+     "status": "safe",
+     "message": "No security issues detected",
+     "reportLink": "https://fdtn.ai/ai-supply-chain/hugging-face?utm_source=huggingface"
+    },
+    "pickleImportScan": {
+     "status": "unscanned",
+     "pickleImports": [],
+     "version": "0.0.0"
+    },
+    "virusTotalScan": {
+     "status": "safe",
+     "message": "0/74 engines detect it as malicious.",
+     "reportLink": "https://www.virustotal.com/gui/file/fa0390e7c043f89ae1847bd6682d748041a99d4ef3de0e0b27d33b6af97a8be8?utm_source=huggingface"
+    },
+    "jFrogScan": {
+     "status": "safe",
+     "message": "Safe GGUF model",
+     "reportLink": "https://research.jfrog.com/model-threats/gguf-ssti?utm_source=huggingface"
+    }
+   }
+  },
+  {
+   "type": "file",
+   "oid": "5579f752bc241f0d6b72fbbb617221b5b65d75eb",
+   "size": 770928768,
+   "lfs": {
+    "oid": "9e08846ce40981cd5e395dc4da41d7f6c4c0629d281808ef264e290cb6d1566c",
+    "size": 770928768,
+    "pointerSize": 134
+   },
+   "xetHash": "0ae06d5695c90460c293829aeae1289d210484a6e8aed0b93c25df38fb6ba066",
+   "path": "Llama-3.2-1B-Instruct-Q4_0_4_4.gguf",
+   "lastCommit": {
+    "id": "b4cf2256d234c449e88647273f13842a0da80483",
+    "title": "Upload Llama-3.2-1B-Instruct-Q4_0_4_4.gguf with huggingface_hub",
+    "date": "2024-09-25T18:40:21.000Z"
+   },
+   "securityFileStatus": {
+    "status": "safe",
+    "protectAiScan": {
+     "status": "safe",
+     "message": "This file is vulnerable to threat(s) PAIT-GGUF-100.",
+     "reportLink": "https://insights-db.paloaltonetworks.com/models/bartowski/Llama-3.2-1B-Instruct-GGUF/067b946cf014b7c697f3654f621d577a3e3afd1c/files?blob-id=5579f752bc241f0d6b72fbbb617221b5b65d75eb&utm_source=huggingface"
+    },
+    "avScan": {
+     "status": "safe",
+     "message": "No security issues detected",
+     "reportLink": "https://fdtn.ai/ai-supply-chain/hugging-face?utm_source=huggingface"
+    },
+    "pickleImportScan": {
+     "status": "unscanned",
+     "pickleImports": [],
+     "version": "0.0.0"
+    },
+    "virusTotalScan": {
+     "status": "safe",
+     "message": "0/75 engines detect it as malicious.",
+     "reportLink": "https://www.virustotal.com/gui/file/9e08846ce40981cd5e395dc4da41d7f6c4c0629d281808ef264e290cb6d1566c?utm_source=huggingface"
+    },
+    "jFrogScan": {
+     "status": "safe",
+     "message": "Safe GGUF model",
+     "reportLink": "https://research.jfrog.com/model-threats/gguf-ssti?utm_source=huggingface"
+    }
+   }
+  },
+  {
+   "type": "file",
+   "oid": "83b259dd98aa90fe09112d9d25692c33516aac70",
+   "size": 770928768,
+   "lfs": {
+    "oid": "6f1bc31848e8f9aa413910cc10383b71cd53818bf34199b2e1376e8a033a7458",
+    "size": 770928768,
+    "pointerSize": 134
+   },
+   "xetHash": "364299bd5e5998f2b8ca3b550e332f4996c21a1b8efc7f478d3ad243595b8f17",
+   "path": "Llama-3.2-1B-Instruct-Q4_0_4_8.gguf",
+   "lastCommit": {
+    "id": "49a6803602a7021fc65c38ea545cba039cfdcc9b",
+    "title": "Upload Llama-3.2-1B-Instruct-Q4_0_4_8.gguf with huggingface_hub",
+    "date": "2024-09-25T18:40:09.000Z"
+   },
+   "securityFileStatus": {
+    "status": "safe",
+    "protectAiScan": {
+     "status": "safe",
+     "message": "This file is vulnerable to threat(s) PAIT-GGUF-100.",
+     "reportLink": "https://insights-db.paloaltonetworks.com/models/bartowski/Llama-3.2-1B-Instruct-GGUF/067b946cf014b7c697f3654f621d577a3e3afd1c/files?blob-id=83b259dd98aa90fe09112d9d25692c33516aac70&utm_source=huggingface"
+    },
+    "avScan": {
+     "status": "safe",
+     "message": "No security issues detected",
+     "reportLink": "https://fdtn.ai/ai-supply-chain/hugging-face?utm_source=huggingface"
+    },
+    "pickleImportScan": {
+     "status": "unscanned",
+     "pickleImports": [],
+     "version": "0.0.0"
+    },
+    "virusTotalScan": {
+     "status": "safe",
+     "message": "0/75 engines detect it as malicious.",
+     "reportLink": "https://www.virustotal.com/gui/file/6f1bc31848e8f9aa413910cc10383b71cd53818bf34199b2e1376e8a033a7458?utm_source=huggingface"
+    },
+    "jFrogScan": {
+     "status": "safe",
+     "message": "Safe GGUF model",
+     "reportLink": "https://research.jfrog.com/model-threats/gguf-ssti?utm_source=huggingface"
+    }
+   }
+  },
+  {
+   "type": "file",
+   "oid": "d28f4cb178ab5750d63fce83e74ccad191cd454e",
+   "size": 770928768,
+   "lfs": {
+    "oid": "4ed07158008028f7ad29411a22501aabdfc5c18c969a7cb809487a244e25792b",
+    "size": 770928768,
+    "pointerSize": 134
+   },
+   "xetHash": "ee0ae5f9398321cc2f6754b1239743bad6d28400d6c8c664a5bd0d446b8018a2",
+   "path": "Llama-3.2-1B-Instruct-Q4_0_8_8.gguf",
+   "lastCommit": {
+    "id": "d1738bbcc8ec1f61cf4edbbab55e3522f67ecdd4",
+    "title": "Upload Llama-3.2-1B-Instruct-Q4_0_8_8.gguf with huggingface_hub",
+    "date": "2024-09-25T18:39:58.000Z"
+   },
+   "securityFileStatus": {
+    "status": "safe",
+    "protectAiScan": {
+     "status": "safe",
+     "message": "This file is vulnerable to threat(s) PAIT-GGUF-100.",
+     "reportLink": "https://insights-db.paloaltonetworks.com/models/bartowski/Llama-3.2-1B-Instruct-GGUF/067b946cf014b7c697f3654f621d577a3e3afd1c/files?blob-id=d28f4cb178ab5750d63fce83e74ccad191cd454e&utm_source=huggingface"
+    },
+    "avScan": {
+     "status": "safe",
+     "message": "No security issues detected",
+     "reportLink": "https://fdtn.ai/ai-supply-chain/hugging-face?utm_source=huggingface"
+    },
+    "pickleImportScan": {
+     "status": "unscanned",
+     "pickleImports": [],
+     "version": "0.0.0"
+    },
+    "virusTotalScan": {
+     "status": "safe",
+     "message": "0/75 engines detect it as malicious.",
+     "reportLink": "https://www.virustotal.com/gui/file/4ed07158008028f7ad29411a22501aabdfc5c18c969a7cb809487a244e25792b?utm_source=huggingface"
+    },
+    "jFrogScan": {
+     "status": "safe",
+     "message": "Safe GGUF model",
+     "reportLink": "https://research.jfrog.com/model-threats/gguf-ssti?utm_source=huggingface"
+    }
+   }
+  },
+  {
+   "type": "file",
+   "oid": "50833f0032bdd238d78d294b36a00f4bab0e16eb",
+   "size": 871309440,
+   "lfs": {
+    "oid": "7704921a92d96e4c6698a69267e4a849ede4b534d86d533a2938150140d0683f",
+    "size": 871309440,
+    "pointerSize": 134
+   },
+   "xetHash": "aa31ecd4d032873f9cb840592f86ef8660e5740c6b9ab1a3e7456215ff9310eb",
+   "path": "Llama-3.2-1B-Instruct-Q4_K_L.gguf",
+   "lastCommit": {
+    "id": "ad25af2a7d7bc50943c81623401602e6dc98e7c9",
+    "title": "Upload Llama-3.2-1B-Instruct-Q4_K_L.gguf with huggingface_hub",
+    "date": "2024-09-25T18:39:20.000Z"
+   },
+   "securityFileStatus": {
+    "status": "safe",
+    "protectAiScan": {
+     "status": "safe",
+     "message": "This file is vulnerable to threat(s) PAIT-GGUF-100.",
+     "reportLink": "https://insights-db.paloaltonetworks.com/models/bartowski/Llama-3.2-1B-Instruct-GGUF/067b946cf014b7c697f3654f621d577a3e3afd1c/files?blob-id=50833f0032bdd238d78d294b36a00f4bab0e16eb&utm_source=huggingface"
+    },
+    "avScan": {
+     "status": "safe",
+     "message": "No security issues detected",
+     "reportLink": "https://fdtn.ai/ai-supply-chain/hugging-face?utm_source=huggingface"
+    },
+    "pickleImportScan": {
+     "status": "unscanned",
+     "pickleImports": [],
+     "version": "0.0.0"
+    },
+    "virusTotalScan": {
+     "status": "safe",
+     "message": "0/73 engines detect it as malicious.",
+     "reportLink": "https://www.virustotal.com/gui/file/7704921a92d96e4c6698a69267e4a849ede4b534d86d533a2938150140d0683f?utm_source=huggingface"
+    },
+    "jFrogScan": {
+     "status": "safe",
+     "message": "Safe GGUF model",
+     "reportLink": "https://research.jfrog.com/model-threats/gguf-ssti?utm_source=huggingface"
+    }
+   }
+  },
+  {
+   "type": "file",
+   "oid": "ca7732416a22ac248814aadae1fb22505e475a92",
+   "size": 807694464,
+   "lfs": {
+    "oid": "6f85a640a97cf2bf5b8e764087b1e83da0fdb51d7c9fab7d0fece9385611df83",
+    "size": 807694464,
+    "pointerSize": 134
+   },
+   "xetHash": "7314cd624de8068beee86215e529a23665ff09e458977e32f30b8149764e7be1",
+   "path": "Llama-3.2-1B-Instruct-Q4_K_M.gguf",
+   "lastCommit": {
+    "id": "9971ce1bbba2f8b55de026a783323a808b3eeedb",
+    "title": "Upload Llama-3.2-1B-Instruct-Q4_K_M.gguf with huggingface_hub",
+    "date": "2024-09-25T18:39:32.000Z"
+   },
+   "securityFileStatus": {
+    "status": "safe",
+    "protectAiScan": {
+     "status": "safe",
+     "message": "This file is vulnerable to threat(s) PAIT-GGUF-100.",
+     "reportLink": "https://insights-db.paloaltonetworks.com/models/bartowski/Llama-3.2-1B-Instruct-GGUF/067b946cf014b7c697f3654f621d577a3e3afd1c/files?blob-id=ca7732416a22ac248814aadae1fb22505e475a92&utm_source=huggingface"
+    },
+    "avScan": {
+     "status": "safe",
+     "message": "No security issues detected",
+     "reportLink": "https://fdtn.ai/ai-supply-chain/hugging-face?utm_source=huggingface"
+    },
+    "pickleImportScan": {
+     "status": "unscanned",
+     "pickleImports": [],
+     "version": "0.0.0"
+    },
+    "virusTotalScan": {
+     "status": "safe",
+     "message": "0/74 engines detect it as malicious.",
+     "reportLink": "https://www.virustotal.com/gui/file/6f85a640a97cf2bf5b8e764087b1e83da0fdb51d7c9fab7d0fece9385611df83?utm_source=huggingface"
+    },
+    "jFrogScan": {
+     "status": "unscanned",
+     "message": "Unsupported machine-learning model"
+    }
+   }
+  },
+  {
+   "type": "file",
+   "oid": "d7be0e4a5ad1d7a927c45e68d6d4f6fc4defc14f",
+   "size": 775647360,
+   "lfs": {
+    "oid": "00f6255d497c05015cf8102ed73b93017a91072c21bfc98fef34b4f3c10850eb",
+    "size": 775647360,
+    "pointerSize": 134
+   },
+   "xetHash": "d118760da024bbc483bece362403ead49d0e2c1cdeb94b1bfb2f0ce813a27be7",
+   "path": "Llama-3.2-1B-Instruct-Q4_K_S.gguf",
+   "lastCommit": {
+    "id": "769efab9a3d1eb5d5f7effe89d78cad79da13a84",
+    "title": "Upload Llama-3.2-1B-Instruct-Q4_K_S.gguf with huggingface_hub",
+    "date": "2024-09-25T18:39:47.000Z"
+   },
+   "securityFileStatus": {
+    "status": "safe",
+    "protectAiScan": {
+     "status": "safe",
+     "message": "This file is vulnerable to threat(s) PAIT-GGUF-100.",
+     "reportLink": "https://insights-db.paloaltonetworks.com/models/bartowski/Llama-3.2-1B-Instruct-GGUF/067b946cf014b7c697f3654f621d577a3e3afd1c/files?blob-id=d7be0e4a5ad1d7a927c45e68d6d4f6fc4defc14f&utm_source=huggingface"
+    },
+    "avScan": {
+     "status": "safe",
+     "message": "No security issues detected",
+     "reportLink": "https://fdtn.ai/ai-supply-chain/hugging-face?utm_source=huggingface"
+    },
+    "pickleImportScan": {
+     "status": "unscanned",
+     "pickleImports": [],
+     "version": "0.0.0"
+    },
+    "virusTotalScan": {
+     "status": "safe",
+     "message": "0/75 engines detect it as malicious.",
+     "reportLink": "https://www.virustotal.com/gui/file/00f6255d497c05015cf8102ed73b93017a91072c21bfc98fef34b4f3c10850eb?utm_source=huggingface"
+    },
+    "jFrogScan": {
+     "status": "safe",
+     "message": "Safe GGUF model",
+     "reportLink": "https://research.jfrog.com/model-threats/gguf-ssti?utm_source=huggingface"
+    }
+   }
+  },
+  {
+   "type": "file",
+   "oid": "df16442d4d1e3518da454247db7d20c16752df1f",
+   "size": 975118464,
+   "lfs": {
+    "oid": "bb8df62a5435cb974a8e2cee1bda9b36cdbe163a97894c452c41807992e7be44",
+    "size": 975118464,
+    "pointerSize": 134
+   },
+   "xetHash": "18762a6b1070030e6569927f43ae383b14394f3c157556c5f137083bd6f0f092",
+   "path": "Llama-3.2-1B-Instruct-Q5_K_L.gguf",
+   "lastCommit": {
+    "id": "ec9c5dde101a18bdb416eaa857b5af3214573524",
+    "title": "Upload Llama-3.2-1B-Instruct-Q5_K_L.gguf with huggingface_hub",
+    "date": "2024-09-25T18:38:40.000Z"
+   },
+   "securityFileStatus": {
+    "status": "safe",
+    "protectAiScan": {
+     "status": "safe",
+     "message": "This file is vulnerable to threat(s) PAIT-GGUF-100.",
+     "reportLink": "https://insights-db.paloaltonetworks.com/models/bartowski/Llama-3.2-1B-Instruct-GGUF/067b946cf014b7c697f3654f621d577a3e3afd1c/files?blob-id=df16442d4d1e3518da454247db7d20c16752df1f&utm_source=huggingface"
+    },
+    "avScan": {
+     "status": "safe",
+     "message": "No security issues detected",
+     "reportLink": "https://fdtn.ai/ai-supply-chain/hugging-face?utm_source=huggingface"
+    },
+    "pickleImportScan": {
+     "status": "unscanned",
+     "pickleImports": [],
+     "version": "0.0.0"
+    },
+    "virusTotalScan": {
+     "status": "safe",
+     "message": "0/75 engines detect it as malicious.",
+     "reportLink": "https://www.virustotal.com/gui/file/bb8df62a5435cb974a8e2cee1bda9b36cdbe163a97894c452c41807992e7be44?utm_source=huggingface"
+    },
+    "jFrogScan": {
+     "status": "safe",
+     "message": "Safe GGUF model",
+     "reportLink": "https://research.jfrog.com/model-threats/gguf-ssti?utm_source=huggingface"
+    }
+   }
+  },
+  {
+   "type": "file",
+   "oid": "8642900339af0fde9d29a9fb419ea70269218055",
+   "size": 911503488,
+   "lfs": {
+    "oid": "4f22f95fb1679ef8e2fd6f1659d23f06cd1dbedb79ff291db7413a7ae509e2a9",
+    "size": 911503488,
+    "pointerSize": 134
+   },
+   "xetHash": "9a3f80ad6e5902f8749e2f7ac75589b9433fbd5e9c090c6d607ea10ad89a397b",
+   "path": "Llama-3.2-1B-Instruct-Q5_K_M.gguf",
+   "lastCommit": {
+    "id": "ecf723e6c67f8438a5e7f3f6c6775e829d825a73",
+    "title": "Upload Llama-3.2-1B-Instruct-Q5_K_M.gguf with huggingface_hub",
+    "date": "2024-09-25T18:38:52.000Z"
+   },
+   "securityFileStatus": {
+    "status": "safe",
+    "protectAiScan": {
+     "status": "safe",
+     "message": "This file is vulnerable to threat(s) PAIT-GGUF-100.",
+     "reportLink": "https://insights-db.paloaltonetworks.com/models/bartowski/Llama-3.2-1B-Instruct-GGUF/067b946cf014b7c697f3654f621d577a3e3afd1c/files?blob-id=8642900339af0fde9d29a9fb419ea70269218055&utm_source=huggingface"
+    },
+    "avScan": {
+     "status": "safe",
+     "message": "No security issues detected",
+     "reportLink": "https://fdtn.ai/ai-supply-chain/hugging-face?utm_source=huggingface"
+    },
+    "pickleImportScan": {
+     "status": "unscanned",
+     "pickleImports": [],
+     "version": "0.0.0"
+    },
+    "virusTotalScan": {
+     "status": "safe",
+     "message": "0/74 engines detect it as malicious.",
+     "reportLink": "https://www.virustotal.com/gui/file/4f22f95fb1679ef8e2fd6f1659d23f06cd1dbedb79ff291db7413a7ae509e2a9?utm_source=huggingface"
+    },
+    "jFrogScan": {
+     "status": "unscanned",
+     "message": "Unsupported machine-learning model"
+    }
+   }
+  },
+  {
+   "type": "file",
+   "oid": "b4f1c4e647ceffbf8cb9c9beba1226e7738636bd",
+   "size": 892563584,
+   "lfs": {
+    "oid": "89638abe2ac92951103431b554c61811e796ead6c3d789387c875d860eaa0b0e",
+    "size": 892563584,
+    "pointerSize": 134
+   },
+   "xetHash": "c57a3f3a2a922e2b2047225249006001a6b8d76db4cb47bb4268a77cc1fa56d7",
+   "path": "Llama-3.2-1B-Instruct-Q5_K_S.gguf",
+   "lastCommit": {
+    "id": "75d9ce89a396904281ff206512df71234e2ba5ef",
+    "title": "Upload Llama-3.2-1B-Instruct-Q5_K_S.gguf with huggingface_hub",
+    "date": "2024-09-25T18:39:05.000Z"
+   },
+   "securityFileStatus": {
+    "status": "safe",
+    "protectAiScan": {
+     "status": "safe",
+     "message": "This file is vulnerable to threat(s) PAIT-GGUF-100.",
+     "reportLink": "https://insights-db.paloaltonetworks.com/models/bartowski/Llama-3.2-1B-Instruct-GGUF/067b946cf014b7c697f3654f621d577a3e3afd1c/files?blob-id=b4f1c4e647ceffbf8cb9c9beba1226e7738636bd&utm_source=huggingface"
+    },
+    "avScan": {
+     "status": "safe",
+     "message": "No security issues detected",
+     "reportLink": "https://fdtn.ai/ai-supply-chain/hugging-face?utm_source=huggingface"
+    },
+    "pickleImportScan": {
+     "status": "unscanned",
+     "pickleImports": [],
+     "version": "0.0.0"
+    },
+    "virusTotalScan": {
+     "status": "safe",
+     "message": "0/75 engines detect it as malicious.",
+     "reportLink": "https://www.virustotal.com/gui/file/89638abe2ac92951103431b554c61811e796ead6c3d789387c875d860eaa0b0e?utm_source=huggingface"
+    },
+    "jFrogScan": {
+     "status": "safe",
+     "message": "Safe GGUF model",
+     "reportLink": "https://research.jfrog.com/model-threats/gguf-ssti?utm_source=huggingface"
+    }
+   }
+  },
+  {
+   "type": "file",
+   "oid": "0bff84d336d86db2c351a624d1d92644db898ea2",
+   "size": 1021800576,
+   "lfs": {
+    "oid": "0f4c510daf16e0d1b3bc94931fd9296c28936bebdda2593687d4eb70c5b70628",
+    "size": 1021800576,
+    "pointerSize": 135
+   },
+   "xetHash": "dae5e1f1e535eba5586dbc7b75cd496a04079435ce094e23af6599a45fbb554e",
+   "path": "Llama-3.2-1B-Instruct-Q6_K.gguf",
+   "lastCommit": {
+    "id": "d186bc20000ed7437075703c4c95ccb38e76aefe",
+    "title": "Upload Llama-3.2-1B-Instruct-Q6_K.gguf with huggingface_hub",
+    "date": "2024-09-25T18:38:28.000Z"
+   },
+   "securityFileStatus": {
+    "status": "safe",
+    "protectAiScan": {
+     "status": "safe",
+     "message": "This file is vulnerable to threat(s) PAIT-GGUF-100.",
+     "reportLink": "https://insights-db.paloaltonetworks.com/models/bartowski/Llama-3.2-1B-Instruct-GGUF/067b946cf014b7c697f3654f621d577a3e3afd1c/files?blob-id=0bff84d336d86db2c351a624d1d92644db898ea2&utm_source=huggingface"
+    },
+    "avScan": {
+     "status": "safe",
+     "message": "No security issues detected",
+     "reportLink": "https://fdtn.ai/ai-supply-chain/hugging-face?utm_source=huggingface"
+    },
+    "pickleImportScan": {
+     "status": "unscanned",
+     "pickleImports": [],
+     "version": "0.0.0"
+    },
+    "virusTotalScan": {
+     "status": "safe",
+     "message": "0/74 engines detect it as malicious.",
+     "reportLink": "https://www.virustotal.com/gui/file/0f4c510daf16e0d1b3bc94931fd9296c28936bebdda2593687d4eb70c5b70628?utm_source=huggingface"
+    },
+    "jFrogScan": {
+     "status": "unscanned",
+     "message": "Unsupported machine-learning model"
+    }
+   }
+  },
+  {
+   "type": "file",
+   "oid": "b55b6c5effc2ff9576975371fa1625625d508da1",
+   "size": 1085415552,
+   "lfs": {
+    "oid": "6ae093da815c09fd551c8a6c2a36df29b2096d8d12c5e6b545089c3f8debe90d",
+    "size": 1085415552,
+    "pointerSize": 135
+   },
+   "xetHash": "f35ed620c411e0431efe82fedced0c9b2e7689d4b40c14cdc1f352be9eb031b0",
+   "path": "Llama-3.2-1B-Instruct-Q6_K_L.gguf",
+   "lastCommit": {
+    "id": "4472c06b5ae519c96d36ebebb25f9578d6b66a49",
+    "title": "Upload Llama-3.2-1B-Instruct-Q6_K_L.gguf with huggingface_hub",
+    "date": "2024-09-25T18:38:15.000Z"
+   },
+   "securityFileStatus": {
+    "status": "queued",
+    "protectAiScan": {
+     "status": "safe",
+     "message": "This file is vulnerable to threat(s) PAIT-GGUF-100.",
+     "reportLink": "https://insights-db.paloaltonetworks.com/models/bartowski/Llama-3.2-1B-Instruct-GGUF/067b946cf014b7c697f3654f621d577a3e3afd1c/files?blob-id=b55b6c5effc2ff9576975371fa1625625d508da1&utm_source=huggingface"
+    },
+    "avScan": {
+     "status": "safe",
+     "message": "No security issues detected",
+     "reportLink": "https://fdtn.ai/ai-supply-chain/hugging-face?utm_source=huggingface"
+    },
+    "pickleImportScan": {
+     "status": "unscanned",
+     "pickleImports": [],
+     "version": "0.0.0"
+    },
+    "virusTotalScan": {
+     "status": "safe",
+     "message": "0/74 engines detect it as malicious.",
+     "reportLink": "https://www.virustotal.com/gui/file/6ae093da815c09fd551c8a6c2a36df29b2096d8d12c5e6b545089c3f8debe90d?utm_source=huggingface"
+    },
+    "jFrogScan": {
+     "status": "queued",
+     "message": ""
+    }
+   }
+  },
+  {
+   "type": "file",
+   "oid": "f7635420e39fb1506598e68c2b60342588020f93",
+   "size": 1321083008,
+   "lfs": {
+    "oid": "432f310a77f4650a88d0fd59ecdd7cebed8d684bafea53cbff0473542964f0c3",
+    "size": 1321083008,
+    "pointerSize": 135
+   },
+   "xetHash": "63290f8e9d0694bf5af3297e43746b5099307fcf378a2577e924ce9665319a7a",
+   "path": "Llama-3.2-1B-Instruct-Q8_0.gguf",
+   "lastCommit": {
+    "id": "2f1155149714fcb749f4933a752f69be3031ea6f",
+    "title": "Upload Llama-3.2-1B-Instruct-Q8_0.gguf with huggingface_hub",
+    "date": "2024-09-25T18:38:00.000Z"
+   },
+   "securityFileStatus": {
+    "status": "safe",
+    "protectAiScan": {
+     "status": "safe",
+     "message": "This file is vulnerable to threat(s) PAIT-GGUF-100.",
+     "reportLink": "https://insights-db.paloaltonetworks.com/models/bartowski/Llama-3.2-1B-Instruct-GGUF/067b946cf014b7c697f3654f621d577a3e3afd1c/files?blob-id=f7635420e39fb1506598e68c2b60342588020f93&utm_source=huggingface"
+    },
+    "avScan": {
+     "status": "safe",
+     "message": "No security issues detected",
+     "reportLink": "https://fdtn.ai/ai-supply-chain/hugging-face?utm_source=huggingface"
+    },
+    "pickleImportScan": {
+     "status": "unscanned",
+     "pickleImports": [],
+     "version": "0.0.0"
+    },
+    "virusTotalScan": {
+     "status": "safe",
+     "message": "0/74 engines detect it as malicious.",
+     "reportLink": "https://www.virustotal.com/gui/file/432f310a77f4650a88d0fd59ecdd7cebed8d684bafea53cbff0473542964f0c3?utm_source=huggingface"
+    },
+    "jFrogScan": {
+     "status": "unscanned",
+     "message": "Unsupported machine-learning model"
+    }
+   }
+  },
+  {
+   "type": "file",
+   "oid": "75e2bb8d1f8748692d81bbdbf3d386358a137fbf",
+   "size": 2479595360,
+   "lfs": {
+    "oid": "1f33ad43d2b85b908ff06fe7002b69806a57359b9b2617ca27d7bdea428ae146",
+    "size": 2479595360,
+    "pointerSize": 135
+   },
+   "xetHash": "dd7aa72a768af8b93bb5608b71583be5a769b6e9f066beae1332eefa571fa88e",
+   "path": "Llama-3.2-1B-Instruct-f16.gguf",
+   "lastCommit": {
+    "id": "7124d9d6b2ce578c8ed12c1091eb702e55dec3eb",
+    "title": "Upload Llama-3.2-1B-Instruct-f16.gguf with huggingface_hub",
+    "date": "2024-09-25T18:41:53.000Z"
+   },
+   "securityFileStatus": {
+    "status": "queued",
+    "protectAiScan": {
+     "status": "safe",
+     "message": "This file is vulnerable to threat(s) PAIT-GGUF-100.",
+     "reportLink": "https://insights-db.paloaltonetworks.com/models/bartowski/Llama-3.2-1B-Instruct-GGUF/067b946cf014b7c697f3654f621d577a3e3afd1c/files?blob-id=75e2bb8d1f8748692d81bbdbf3d386358a137fbf&utm_source=huggingface"
+    },
+    "avScan": {
+     "status": "unscanned",
+     "message": "",
+     "version": "1.5.2/27961"
+    },
+    "pickleImportScan": {
+     "status": "unscanned",
+     "pickleImports": [],
+     "version": "0.0.0"
+    },
+    "virusTotalScan": {
+     "status": "safe",
+     "message": "0/74 engines detect it as malicious.",
+     "reportLink": "https://www.virustotal.com/gui/file/1f33ad43d2b85b908ff06fe7002b69806a57359b9b2617ca27d7bdea428ae146?utm_source=huggingface"
+    },
+    "jFrogScan": {
+     "status": "queued",
+     "message": ""
+    }
+   }
+  },
+  {
+   "type": "file",
+   "oid": "0f46d234e51180a5462b31c2f096a817fa707915",
+   "size": 1314426,
+   "lfs": {
+    "oid": "ede239ca3952a383264004812198e788932e53812a0e72bcb0ef7f3cf001f846",
+    "size": 1314426,
+    "pointerSize": 132
+   },
+   "xetHash": "4ea78d9c136cacb36e2ba8107b6aa9cea5c4fe164c041615ca687ab1571a0f3c",
+   "path": "Llama-3.2-1B-Instruct.imatrix",
+   "lastCommit": {
+    "id": "421677676671db8d33e216c039ed1b7e31b5d711",
+    "title": "Upload Llama-3.2-1B-Instruct.imatrix with huggingface_hub",
+    "date": "2024-09-25T18:41:58.000Z"
+   },
+   "securityFileStatus": {
+    "status": "safe",
+    "protectAiScan": {
+     "status": "safe",
+     "message": "This file has no security findings.",
+     "reportLink": "https://insights-db.paloaltonetworks.com/models/bartowski/Llama-3.2-1B-Instruct-GGUF/067b946cf014b7c697f3654f621d577a3e3afd1c/files?blob-id=0f46d234e51180a5462b31c2f096a817fa707915&utm_source=huggingface"
+    },
+    "avScan": {
+     "status": "safe",
+     "message": "No security issues detected",
+     "reportLink": "https://fdtn.ai/ai-supply-chain/hugging-face?utm_source=huggingface"
+    },
+    "pickleImportScan": {
+     "status": "unscanned",
+     "pickleImports": [],
+     "version": "0.0.0"
+    },
+    "virusTotalScan": {
+     "status": "safe",
+     "message": "0/76 engines detect it as malicious.",
+     "reportLink": "https://www.virustotal.com/gui/file/ede239ca3952a383264004812198e788932e53812a0e72bcb0ef7f3cf001f846?utm_source=huggingface"
+    },
+    "jFrogScan": {
+     "status": "unscanned",
+     "message": "Not a machine-learning model"
+    }
+   }
+  },
+  {
+   "type": "file",
+   "oid": "b7cec208ac58edba2c32791e4e66ba2def207dbb",
+   "size": 24342,
+   "path": "README.md",
+   "lastCommit": {
+    "id": "067b946cf014b7c697f3654f621d577a3e3afd1c",
+    "title": "Update README.md",
+    "date": "2024-10-08T14:00:29.000Z"
+   },
+   "securityFileStatus": {
+    "status": "safe",
+    "protectAiScan": {
+     "status": "safe",
+     "message": "This file has no security findings.",
+     "reportLink": "https://insights-db.paloaltonetworks.com/models/bartowski/Llama-3.2-1B-Instruct-GGUF/067b946cf014b7c697f3654f621d577a3e3afd1c/files?blob-id=b7cec208ac58edba2c32791e4e66ba2def207dbb&utm_source=huggingface"
+    },
+    "avScan": {
+     "status": "safe",
+     "message": "No security issues detected",
+     "reportLink": "https://fdtn.ai/ai-supply-chain/hugging-face?utm_source=huggingface"
+    },
+    "pickleImportScan": {
+     "status": "unscanned",
+     "pickleImports": [],
+     "version": "0.0.0"
+    },
+    "virusTotalScan": {
+     "status": "unscanned"
+    },
+    "jFrogScan": {
+     "status": "unscanned",
+     "message": "Not a machine-learning model"
+    }
+   }
+  }
+ ]
+}

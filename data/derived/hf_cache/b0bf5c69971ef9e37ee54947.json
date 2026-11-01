@@ -1,0 +1,543 @@
+{
+ "url": "https://huggingface.co/api/models/deepseek-ai/DeepSeek-Coder-V2-Lite-Instruct/tree/main?expand=true",
+ "body": null,
+ "retrieved_at": "2026-10-24T20:45:12Z",
+ "answer": [
+  {
+   "type": "file",
+   "oid": "a6344aac8c09253b3b630fb776ae94478aa0275b",
+   "size": 1519,
+   "path": ".gitattributes",
+   "lastCommit": {
+    "id": "29cd0528d75495753d8a20bb075bde26cd9ac399",
+    "title": "initial commit",
+    "date": "2024-06-14T06:23:33.000Z"
+   },
+   "securityFileStatus": {
+    "status": "safe",
+    "protectAiScan": {
+     "status": "safe",
+     "message": "This file has no security findings.",
+     "reportLink": "https://insights-db.paloaltonetworks.com/models/deepseek-ai/DeepSeek-Coder-V2-Lite-Instruct/e434a23f91ba5b4923cf6c9d9a238eb4a08e3a11/files?blob-id=a6344aac8c09253b3b630fb776ae94478aa0275b&utm_source=huggingface"
+    },
+    "avScan": {
+     "status": "safe",
+     "message": "No security issues detected",
+     "reportLink": "https://fdtn.ai/ai-supply-chain/hugging-face?utm_source=huggingface"
+    },
+    "pickleImportScan": {
+     "status": "unscanned",
+     "pickleImports": [],
+     "version": "0.0.0"
+    },
+    "virusTotalScan": {
+     "status": "unscanned"
+    },
+    "jFrogScan": {
+     "status": "unscanned",
+     "message": "Not a machine-learning model"
+    }
+   }
+  },
+  {
+   "type": "file",
+   "oid": "f091caecb72b3d10dd8199136d2202c163f7c8d5",
+   "size": 11320,
+   "path": "README.md",
+   "lastCommit": {
+    "id": "e434a23f91ba5b4923cf6c9d9a238eb4a08e3a11",
+    "title": "Update README.md",
+    "date": "2024-07-03T05:16:11.000Z"
+   },
+   "securityFileStatus": {
+    "status": "queued",
+    "protectAiScan": {
+     "status": "safe",
+     "message": "This file has no security findings.",
+     "reportLink": "https://insights-db.paloaltonetworks.com/models/deepseek-ai/DeepSeek-Coder-V2-Lite-Instruct/e434a23f91ba5b4923cf6c9d9a238eb4a08e3a11/files?blob-id=f091caecb72b3d10dd8199136d2202c163f7c8d5&utm_source=huggingface"
+    },
+    "avScan": {
+     "status": "safe",
+     "message": "No security issues detected",
+     "reportLink": "https://fdtn.ai/ai-supply-chain/hugging-face?utm_source=huggingface"
+    },
+    "pickleImportScan": {
+     "status": "unscanned",
+     "pickleImports": [],
+     "version": "0.0.0"
+    },
+    "virusTotalScan": {
+     "status": "unscanned"
+    },
+    "jFrogScan": {
+     "status": "queued",
+     "message": ""
+    }
+   }
+  },
+  {
+   "type": "file",
+   "oid": "3b1ccb3ddc847f2475a8e1b86e18ab1505fd87da",
+   "size": 1522,
+   "path": "config.json",
+   "lastCommit": {
+    "id": "34397f99b3aa319e6b7313c75cff0f5374f9220b",
+    "title": "Upload folder using huggingface_hub",
+    "date": "2024-06-14T07:32:05.000Z"
+   },
+   "securityFileStatus": {
+    "status": "queued",
+    "protectAiScan": {
+     "status": "safe",
+     "message": "This file has no security findings.",
+     "reportLink": "https://insights-db.paloaltonetworks.com/models/deepseek-ai/DeepSeek-Coder-V2-Lite-Instruct/e434a23f91ba5b4923cf6c9d9a238eb4a08e3a11/files?blob-id=3b1ccb3ddc847f2475a8e1b86e18ab1505fd87da&utm_source=huggingface"
+    },
+    "avScan": {
+     "status": "safe",
+     "message": "No security issues detected",
+     "reportLink": "https://fdtn.ai/ai-supply-chain/hugging-face?utm_source=huggingface"
+    },
+    "pickleImportScan": {
+     "status": "unscanned",
+     "pickleImports": [],
+     "version": "0.0.0"
+    },
+    "virusTotalScan": {
+     "status": "unscanned"
+    },
+    "jFrogScan": {
+     "status": "queued",
+     "message": ""
+    }
+   }
+  },
+  {
+   "type": "file",
+   "oid": "82e0f5d9d33620a66e328fdeae0b8dc12e2cff7c",
+   "size": 10338,
+   "path": "configuration_deepseek.py",
+   "lastCommit": {
+    "id": "34397f99b3aa319e6b7313c75cff0f5374f9220b",
+    "title": "Upload folder using huggingface_hub",
+    "date": "2024-06-14T07:32:05.000Z"
+   },
+   "securityFileStatus": {
+    "status": "safe",
+    "protectAiScan": {
+     "status": "safe",
+     "message": "This file has no security findings.",
+     "reportLink": "https://insights-db.paloaltonetworks.com/models/deepseek-ai/DeepSeek-Coder-V2-Lite-Instruct/e434a23f91ba5b4923cf6c9d9a238eb4a08e3a11/files?blob-id=82e0f5d9d33620a66e328fdeae0b8dc12e2cff7c&utm_source=huggingface"
+    },
+    "avScan": {
+     "status": "safe",
+     "message": "No security issues detected",
+     "reportLink": "https://fdtn.ai/ai-supply-chain/hugging-face?utm_source=huggingface"
+    },
+    "pickleImportScan": {
+     "status": "unscanned",
+     "pickleImports": [],
+     "version": "0.0.0"
+    },
+    "virusTotalScan": {
+     "status": "unscanned"
+    },
+    "jFrogScan": {
+     "status": "unscanned",
+     "message": "Not a machine-learning model"
+    }
+   }
+  },
+  {
+   "type": "file",
+   "oid": "458e1d985ba3fbaaf62a4d1a9dd6ff795a451f7e",
+   "size": 181,
+   "path": "generation_config.json",
+   "lastCommit": {
+    "id": "34397f99b3aa319e6b7313c75cff0f5374f9220b",
+    "title": "Upload folder using huggingface_hub",
+    "date": "2024-06-14T07:32:05.000Z"
+   },
+   "securityFileStatus": {
+    "status": "safe",
+    "protectAiScan": {
+     "status": "safe",
+     "message": "This file has no security findings.",
+     "reportLink": "https://insights-db.paloaltonetworks.com/models/deepseek-ai/DeepSeek-Coder-V2-Lite-Instruct/e434a23f91ba5b4923cf6c9d9a238eb4a08e3a11/files?blob-id=458e1d985ba3fbaaf62a4d1a9dd6ff795a451f7e&utm_source=huggingface"
+    },
+    "avScan": {
+     "status": "safe",
+     "message": "No security issues detected",
+     "reportLink": "https://fdtn.ai/ai-supply-chain/hugging-face?utm_source=huggingface"
+    },
+    "pickleImportScan": {
+     "status": "unscanned",
+     "pickleImports": [],
+     "version": "0.0.0"
+    },
+    "virusTotalScan": {
+     "status": "unscanned"
+    },
+    "jFrogScan": {
+     "status": "unscanned",
+     "message": "Not a machine-learning model"
+    }
+   }
+  },
+  {
+   "type": "file",
+   "oid": "516110f24a185ae7b78f1b4e330508b347ec294b",
+   "size": 8594887410,
+   "lfs": {
+    "oid": "75d08ddaf92b68f751c95e1b4a51dbf5c011d5692f97cc0d71bd32587a3ea8d9",
+    "size": 8594887410,
+    "pointerSize": 135
+   },
+   "xetHash": "063bd354762f57aca41f616d18e7dd05a86a18822804c65e9712f7d9d4966da6",
+   "path": "model-00001-of-000004.safetensors",
+   "lastCommit": {
+    "id": "34397f99b3aa319e6b7313c75cff0f5374f9220b",
+    "title": "Upload folder using huggingface_hub",
+    "date": "2024-06-14T07:32:05.000Z"
+   },
+   "securityFileStatus": {
+    "status": "queued",
+    "protectAiScan": {
+     "status": "safe",
+     "message": "This file has no security findings.",
+     "reportLink": "https://insights-db.paloaltonetworks.com/models/deepseek-ai/DeepSeek-Coder-V2-Lite-Instruct/e434a23f91ba5b4923cf6c9d9a238eb4a08e3a11/files?blob-id=516110f24a185ae7b78f1b4e330508b347ec294b&utm_source=huggingface"
+    },
+    "avScan": {
+     "status": "unscanned",
+     "message": "",
+     "version": "1.5.2/27949"
+    },
+    "pickleImportScan": {
+     "status": "unscanned",
+     "pickleImports": [],
+     "version": "0.0.0"
+    },
+    "virusTotalScan": {
+     "status": "safe",
+     "message": "0/75 engines detect it as malicious.",
+     "reportLink": "https://www.virustotal.com/gui/file/75d08ddaf92b68f751c95e1b4a51dbf5c011d5692f97cc0d71bd32587a3ea8d9?utm_source=huggingface"
+    },
+    "jFrogScan": {
+     "status": "queued",
+     "message": ""
+    }
+   }
+  },
+  {
+   "type": "file",
+   "oid": "a12fa49b7bd56bfd1a1d6a73c748ef1afe279ec8",
+   "size": 8591757456,
+   "lfs": {
+    "oid": "7bf22dfa271527f7a0b8dbd56592722cd8fdcfeb6aad32ebb1110d21882eb1d8",
+    "size": 8591757456,
+    "pointerSize": 135
+   },
+   "xetHash": "4fe03d1a2e1619b836d4d31f0185e67b32bf6cb30dd202a73ec05b8c18744a1f",
+   "path": "model-00002-of-000004.safetensors",
+   "lastCommit": {
+    "id": "34397f99b3aa319e6b7313c75cff0f5374f9220b",
+    "title": "Upload folder using huggingface_hub",
+    "date": "2024-06-14T07:32:05.000Z"
+   },
+   "securityFileStatus": {
+    "status": "queued",
+    "protectAiScan": {
+     "status": "safe",
+     "message": "This file has no security findings.",
+     "reportLink": "https://insights-db.paloaltonetworks.com/models/deepseek-ai/DeepSeek-Coder-V2-Lite-Instruct/e434a23f91ba5b4923cf6c9d9a238eb4a08e3a11/files?blob-id=a12fa49b7bd56bfd1a1d6a73c748ef1afe279ec8&utm_source=huggingface"
+    },
+    "avScan": {
+     "status": "unscanned",
+     "message": "",
+     "version": "1.5.2/27949"
+    },
+    "pickleImportScan": {
+     "status": "unscanned",
+     "pickleImports": [],
+     "version": "0.0.0"
+    },
+    "virusTotalScan": {
+     "status": "safe",
+     "message": "0/75 engines detect it as malicious.",
+     "reportLink": "https://www.virustotal.com/gui/file/7bf22dfa271527f7a0b8dbd56592722cd8fdcfeb6aad32ebb1110d21882eb1d8?utm_source=huggingface"
+    },
+    "jFrogScan": {
+     "status": "queued",
+     "message": ""
+    }
+   }
+  },
+  {
+   "type": "file",
+   "oid": "65a9b67ca1c0d70f74b92316315f991d47a12d01",
+   "size": 8590718535,
+   "lfs": {
+    "oid": "18f5a20f4d737b496e03ff8761834dfa9754ceedd56f54a336d0eab5e0e20968",
+    "size": 8590718535,
+    "pointerSize": 135
+   },
+   "xetHash": "e10539ee771b38ca219e11179c858c70c3bf6cb37646ead7c3958b79e183057e",
+   "path": "model-00003-of-000004.safetensors",
+   "lastCommit": {
+    "id": "34397f99b3aa319e6b7313c75cff0f5374f9220b",
+    "title": "Upload folder using huggingface_hub",
+    "date": "2024-06-14T07:32:05.000Z"
+   },
+   "securityFileStatus": {
+    "status": "queued",
+    "protectAiScan": {
+     "status": "safe",
+     "message": "This file has no security findings.",
+     "reportLink": "https://insights-db.paloaltonetworks.com/models/deepseek-ai/DeepSeek-Coder-V2-Lite-Instruct/e434a23f91ba5b4923cf6c9d9a238eb4a08e3a11/files?blob-id=65a9b67ca1c0d70f74b92316315f991d47a12d01&utm_source=huggingface"
+    },
+    "avScan": {
+     "status": "unscanned",
+     "message": "",
+     "version": "1.5.2/27949"
+    },
+    "pickleImportScan": {
+     "status": "unscanned",
+     "pickleImports": [],
+     "version": "0.0.0"
+    },
+    "virusTotalScan": {
+     "status": "safe",
+     "message": "0/75 engines detect it as malicious.",
+     "reportLink": "https://www.virustotal.com/gui/file/18f5a20f4d737b496e03ff8761834dfa9754ceedd56f54a336d0eab5e0e20968?utm_source=huggingface"
+    },
+    "jFrogScan": {
+     "status": "queued",
+     "message": ""
+    }
+   }
+  },
+  {
+   "type": "file",
+   "oid": "425ac4e61ddda07906abfc3de240538c49ca7f1c",
+   "size": 5636263208,
+   "lfs": {
+    "oid": "1365ca25494e6592b6cb11f62f4a63cbdcdd9853e01d67f274d0b282732cc5cd",
+    "size": 5636263208,
+    "pointerSize": 135
+   },
+   "xetHash": "01766aade765a39906e7d342940479768c242c17a79791ced4c0889babef2c6f",
+   "path": "model-00004-of-000004.safetensors",
+   "lastCommit": {
+    "id": "34397f99b3aa319e6b7313c75cff0f5374f9220b",
+    "title": "Upload folder using huggingface_hub",
+    "date": "2024-06-14T07:32:05.000Z"
+   },
+   "securityFileStatus": {
+    "status": "queued",
+    "protectAiScan": {
+     "status": "safe",
+     "message": "This file has no security findings.",
+     "reportLink": "https://insights-db.paloaltonetworks.com/models/deepseek-ai/DeepSeek-Coder-V2-Lite-Instruct/e434a23f91ba5b4923cf6c9d9a238eb4a08e3a11/files?blob-id=425ac4e61ddda07906abfc3de240538c49ca7f1c&utm_source=huggingface"
+    },
+    "avScan": {
+     "status": "unscanned",
+     "message": "",
+     "version": "1.5.2/27949"
+    },
+    "pickleImportScan": {
+     "status": "unscanned",
+     "pickleImports": [],
+     "version": "0.0.0"
+    },
+    "virusTotalScan": {
+     "status": "safe",
+     "message": "0/75 engines detect it as malicious.",
+     "reportLink": "https://www.virustotal.com/gui/file/1365ca25494e6592b6cb11f62f4a63cbdcdd9853e01d67f274d0b282732cc5cd?utm_source=huggingface"
+    },
+    "jFrogScan": {
+     "status": "queued",
+     "message": ""
+    }
+   }
+  },
+  {
+   "type": "file",
+   "oid": "5a821356160292c668d01f8e7fdf9abba4a7b72d",
+   "size": 479924,
+   "path": "model.safetensors.index.json",
+   "lastCommit": {
+    "id": "34397f99b3aa319e6b7313c75cff0f5374f9220b",
+    "title": "Upload folder using huggingface_hub",
+    "date": "2024-06-14T07:32:05.000Z"
+   },
+   "securityFileStatus": {
+    "status": "queued",
+    "protectAiScan": {
+     "status": "safe",
+     "message": "This file has no security findings.",
+     "reportLink": "https://insights-db.paloaltonetworks.com/models/deepseek-ai/DeepSeek-Coder-V2-Lite-Instruct/e434a23f91ba5b4923cf6c9d9a238eb4a08e3a11/files?blob-id=5a821356160292c668d01f8e7fdf9abba4a7b72d&utm_source=huggingface"
+    },
+    "avScan": {
+     "status": "safe",
+     "message": "No security issues detected",
+     "reportLink": "https://fdtn.ai/ai-supply-chain/hugging-face?utm_source=huggingface"
+    },
+    "pickleImportScan": {
+     "status": "unscanned",
+     "pickleImports": [],
+     "version": "0.0.0"
+    },
+    "virusTotalScan": {
+     "status": "unscanned"
+    },
+    "jFrogScan": {
+     "status": "queued",
+     "message": ""
+    }
+   }
+  },
+  {
+   "type": "file",
+   "oid": "847a458bedcc8df352b1a89315b8e400b9bc6030",
+   "size": 78672,
+   "path": "modeling_deepseek.py",
+   "lastCommit": {
+    "id": "45d0aa457458aad79c2dfa019de4d2fe8158b8d1",
+    "title": "Update modeling_deepseek.py",
+    "date": "2024-06-24T11:56:28.000Z"
+   },
+   "securityFileStatus": {
+    "status": "safe",
+    "protectAiScan": {
+     "status": "safe",
+     "message": "This file has no security findings.",
+     "reportLink": "https://insights-db.paloaltonetworks.com/models/deepseek-ai/DeepSeek-Coder-V2-Lite-Instruct/e434a23f91ba5b4923cf6c9d9a238eb4a08e3a11/files?blob-id=847a458bedcc8df352b1a89315b8e400b9bc6030&utm_source=huggingface"
+    },
+    "avScan": {
+     "status": "safe",
+     "message": "No security issues detected",
+     "reportLink": "https://fdtn.ai/ai-supply-chain/hugging-face?utm_source=huggingface"
+    },
+    "pickleImportScan": {
+     "status": "unscanned",
+     "pickleImports": [],
+     "version": "0.0.0"
+    },
+    "virusTotalScan": {
+     "status": "unscanned"
+    },
+    "jFrogScan": {
+     "status": "unscanned",
+     "message": "Not a machine-learning model"
+    }
+   }
+  },
+  {
+   "type": "file",
+   "oid": "d24377191dd00e80c44f22e31dc15272258a22de",
+   "size": 1368,
+   "path": "tokenization_deepseek_fast.py",
+   "lastCommit": {
+    "id": "34397f99b3aa319e6b7313c75cff0f5374f9220b",
+    "title": "Upload folder using huggingface_hub",
+    "date": "2024-06-14T07:32:05.000Z"
+   },
+   "securityFileStatus": {
+    "status": "queued",
+    "protectAiScan": {
+     "status": "safe",
+     "message": "This file has no security findings.",
+     "reportLink": "https://insights-db.paloaltonetworks.com/models/deepseek-ai/DeepSeek-Coder-V2-Lite-Instruct/e434a23f91ba5b4923cf6c9d9a238eb4a08e3a11/files?blob-id=d24377191dd00e80c44f22e31dc15272258a22de&utm_source=huggingface"
+    },
+    "avScan": {
+     "status": "safe",
+     "message": "No security issues detected",
+     "reportLink": "https://fdtn.ai/ai-supply-chain/hugging-face?utm_source=huggingface"
+    },
+    "pickleImportScan": {
+     "status": "unscanned",
+     "pickleImports": [],
+     "version": "0.0.0"
+    },
+    "virusTotalScan": {
+     "status": "unscanned"
+    },
+    "jFrogScan": {
+     "status": "queued",
+     "message": ""
+    }
+   }
+  },
+  {
+   "type": "file",
+   "oid": "ae8c6f0b4e0cdb2102a045267678e8f3d3d54ceb",
+   "size": 4610628,
+   "path": "tokenizer.json",
+   "lastCommit": {
+    "id": "34397f99b3aa319e6b7313c75cff0f5374f9220b",
+    "title": "Upload folder using huggingface_hub",
+    "date": "2024-06-14T07:32:05.000Z"
+   },
+   "securityFileStatus": {
+    "status": "safe",
+    "protectAiScan": {
+     "status": "safe",
+     "message": "This file has no security findings.",
+     "reportLink": "https://insights-db.paloaltonetworks.com/models/deepseek-ai/DeepSeek-Coder-V2-Lite-Instruct/e434a23f91ba5b4923cf6c9d9a238eb4a08e3a11/files?blob-id=ae8c6f0b4e0cdb2102a045267678e8f3d3d54ceb&utm_source=huggingface"
+    },
+    "avScan": {
+     "status": "safe",
+     "message": "No security issues detected",
+     "reportLink": "https://fdtn.ai/ai-supply-chain/hugging-face?utm_source=huggingface"
+    },
+    "pickleImportScan": {
+     "status": "unscanned",
+     "pickleImports": [],
+     "version": "0.0.0"
+    },
+    "virusTotalScan": {
+     "status": "unscanned"
+    },
+    "jFrogScan": {
+     "status": "unscanned",
+     "message": "Not a machine-learning model"
+    }
+   }
+  },
+  {
+   "type": "file",
+   "oid": "685b4b63ad1aedad8f98824ab21d2ff422d9e1b1",
+   "size": 1279,
+   "path": "tokenizer_config.json",
+   "lastCommit": {
+    "id": "34397f99b3aa319e6b7313c75cff0f5374f9220b",
+    "title": "Upload folder using huggingface_hub",
+    "date": "2024-06-14T07:32:05.000Z"
+   },
+   "securityFileStatus": {
+    "status": "queued",
+    "protectAiScan": {
+     "status": "safe",
+     "message": "This file has no security findings.",
+     "reportLink": "https://insights-db.paloaltonetworks.com/models/deepseek-ai/DeepSeek-Coder-V2-Lite-Instruct/e434a23f91ba5b4923cf6c9d9a238eb4a08e3a11/files?blob-id=685b4b63ad1aedad8f98824ab21d2ff422d9e1b1&utm_source=huggingface"
+    },
+    "avScan": {
+     "status": "safe",
+     "message": "No security issues detected",
+     "reportLink": "https://fdtn.ai/ai-supply-chain/hugging-face?utm_source=huggingface"
+    },
+    "pickleImportScan": {
+     "status": "unscanned",
+     "pickleImports": [],
+     "version": "0.0.0"
+    },
+    "virusTotalScan": {
+     "status": "unscanned"
+    },
+    "jFrogScan": {
+     "status": "queued",
+     "message": ""
+    }
+   }
+  }
+ ]
+}

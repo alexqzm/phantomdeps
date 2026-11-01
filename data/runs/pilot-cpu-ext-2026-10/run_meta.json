@@ -1,0 +1,523 @@
+{
+ "invocations": [
+  {
+   "concurrency": 1,
+   "config": {
+    "_path": "../config/run_pilot_cpu_ext.yaml",
+    "concurrency": 1,
+    "endpoint": "http://127.0.0.1:8081",
+    "families": [
+     "F2"
+    ],
+    "llama_cpp_commit": "06230cb8775899cceef146c19cd447a947ecac5b",
+    "models": [
+     {
+      "family_name": "Qwen2.5-Coder",
+      "file": "/home/claude/models/qwen2.5-coder-7b-instruct-q4_k_m.gguf",
+      "gguf_repo": "Qwen/Qwen2.5-Coder-7B-Instruct-GGUF",
+      "horizon": "2024-09-17T13:38:49Z",
+      "horizon_source": "Hugging Face createdAt of Qwen/Qwen2.5-Coder-7B-Instruct (superseded, see model_horizons.json)",
+      "id": "qwen2.5-coder-7b-instruct",
+      "params_b": 7.6,
+      "quant": "Q4_K_M (GGUF, Qwen/Qwen2.5-Coder-7B-Instruct-GGUF)",
+      "server_cmd": "/home/claude/tools/llama.cpp/build/bin/llama-server -m {file} --host 127.0.0.1 --port 8081 -t 2 -c 4096 --cache-ram 0 --no-webui",
+      "sha256": "509287f78cb4d4cf6b3843734733b914b2c158e43e22a7f4bf5e963800894d3c",
+      "source_repo": "Qwen/Qwen2.5-Coder-7B-Instruct"
+     },
+     {
+      "family_name": "Granite-3.3",
+      "file": "/home/claude/models/granite-3.3-8b-instruct-Q4_K_M.gguf",
+      "gguf_repo": "ibm-granite/granite-3.3-8b-instruct-GGUF",
+      "horizon": "2025-04-09T11:41:39Z",
+      "horizon_source": "Hugging Face createdAt of ibm-granite/granite-3.3-8b-instruct (superseded, see model_horizons.json)",
+      "id": "granite-3.3-8b-instruct",
+      "params_b": 8.2,
+      "quant": "Q4_K_M (GGUF, ibm-granite/granite-3.3-8b-instruct-GGUF)",
+      "server_cmd": "/home/claude/tools/llama.cpp/build/bin/llama-server -m {file} --host 127.0.0.1 --port 8081 -t 2 -c 4096 --cache-ram 0 --no-webui",
+      "sha256": "77bcee066a76dcdd10d0d123c87e32c8ec2c74e31b6ffd87ebee49c9ac215dca",
+      "source_repo": "ibm-granite/granite-3.3-8b-instruct"
+     },
+     {
+      "family_name": "Llama-3.2",
+      "file": "/home/claude/models/Llama-3.2-3B-Instruct-Q4_K_M.gguf",
+      "gguf_repo": "bartowski/Llama-3.2-3B-Instruct-GGUF",
+      "horizon": "2024-09-18T15:19:20Z",
+      "horizon_source": "Hugging Face createdAt of meta-llama/Llama-3.2-3B-Instruct (superseded, see model_horizons.json)",
+      "id": "llama-3.2-3b-instruct",
+      "params_b": 3.2,
+      "quant": "Q4_K_M (GGUF, bartowski/Llama-3.2-3B-Instruct-GGUF)",
+      "server_cmd": "/home/claude/tools/llama.cpp/build/bin/llama-server -m {file} --host 127.0.0.1 --port 8081 -t 2 -c 4096 --cache-ram 0 --no-webui",
+      "sha256": "6c1a2b41161032677be168d354123594c0e6e67d2b9227c84f296ad037c728ff",
+      "source_repo": "meta-llama/Llama-3.2-3B-Instruct"
+     }
+    ],
+    "params": {
+     "max_tokens": {
+      "F1": 1536,
+      "F2": 1024
+     },
+     "repeat_penalty": 1.1,
+     "top_p": 1.0
+    },
+    "run_id": "pilot-cpu-ext-2026-10",
+    "samples": [
+     {
+      "idx": 0,
+      "seed": 20240628,
+      "temperature": 0.0
+     }
+    ]
+   },
+   "corpus_sha256": "d113553800885a887a870abfdd43c5e596a1a368ba98727adf4970eb428eb6cc",
+   "finished_at": "2026-10-24T06:34:15Z",
+   "host": "vm",
+   "n_todo": {
+    "qwen2.5-coder-7b-instruct": 2
+   },
+   "pass": "generate",
+   "run_id": "pilot-cpu-ext-2026-10",
+   "started_at": "2026-10-24T06:33:33Z"
+  },
+  {
+   "concurrency": 1,
+   "config": {
+    "_path": "../config/run_pilot_cpu_ext.yaml",
+    "concurrency": 1,
+    "endpoint": "http://127.0.0.1:8081",
+    "families": [
+     "F2"
+    ],
+    "llama_cpp_commit": "06230cb8775899cceef146c19cd447a947ecac5b",
+    "models": [
+     {
+      "family_name": "Qwen2.5-Coder",
+      "file": "/home/claude/models/qwen2.5-coder-7b-instruct-q4_k_m.gguf",
+      "gguf_repo": "Qwen/Qwen2.5-Coder-7B-Instruct-GGUF",
+      "horizon": "2024-09-17T13:38:49Z",
+      "horizon_source": "Hugging Face createdAt of Qwen/Qwen2.5-Coder-7B-Instruct (superseded, see model_horizons.json)",
+      "id": "qwen2.5-coder-7b-instruct",
+      "params_b": 7.6,
+      "quant": "Q4_K_M (GGUF, Qwen/Qwen2.5-Coder-7B-Instruct-GGUF)",
+      "server_cmd": "/home/claude/tools/llama.cpp/build/bin/llama-server -m {file} --host 127.0.0.1 --port 8081 -t 2 -c 4096 --cache-ram 0 --no-webui",
+      "sha256": "509287f78cb4d4cf6b3843734733b914b2c158e43e22a7f4bf5e963800894d3c",
+      "source_repo": "Qwen/Qwen2.5-Coder-7B-Instruct"
+     },
+     {
+      "family_name": "Granite-3.3",
+      "file": "/home/claude/models/granite-3.3-8b-instruct-Q4_K_M.gguf",
+      "gguf_repo": "ibm-granite/granite-3.3-8b-instruct-GGUF",
+      "horizon": "2025-04-09T11:41:39Z",
+      "horizon_source": "Hugging Face createdAt of ibm-granite/granite-3.3-8b-instruct (superseded, see model_horizons.json)",
+      "id": "granite-3.3-8b-instruct",
+      "params_b": 8.2,
+      "quant": "Q4_K_M (GGUF, ibm-granite/granite-3.3-8b-instruct-GGUF)",
+      "server_cmd": "/home/claude/tools/llama.cpp/build/bin/llama-server -m {file} --host 127.0.0.1 --port 8081 -t 2 -c 4096 --cache-ram 0 --no-webui",
+      "sha256": "77bcee066a76dcdd10d0d123c87e32c8ec2c74e31b6ffd87ebee49c9ac215dca",
+      "source_repo": "ibm-granite/granite-3.3-8b-instruct"
+     },
+     {
+      "family_name": "Llama-3.2",
+      "file": "/home/claude/models/Llama-3.2-3B-Instruct-Q4_K_M.gguf",
+      "gguf_repo": "bartowski/Llama-3.2-3B-Instruct-GGUF",
+      "horizon": "2024-09-18T15:19:20Z",
+      "horizon_source": "Hugging Face createdAt of meta-llama/Llama-3.2-3B-Instruct (superseded, see model_horizons.json)",
+      "id": "llama-3.2-3b-instruct",
+      "params_b": 3.2,
+      "quant": "Q4_K_M (GGUF, bartowski/Llama-3.2-3B-Instruct-GGUF)",
+      "server_cmd": "/home/claude/tools/llama.cpp/build/bin/llama-server -m {file} --host 127.0.0.1 --port 8081 -t 2 -c 4096 --cache-ram 0 --no-webui",
+      "sha256": "6c1a2b41161032677be168d354123594c0e6e67d2b9227c84f296ad037c728ff",
+      "source_repo": "meta-llama/Llama-3.2-3B-Instruct"
+     }
+    ],
+    "params": {
+     "max_tokens": {
+      "F1": 1536,
+      "F2": 1024
+     },
+     "repeat_penalty": 1.1,
+     "top_p": 1.0
+    },
+    "run_id": "pilot-cpu-ext-2026-10",
+    "samples": [
+     {
+      "idx": 0,
+      "seed": 20240628,
+      "temperature": 0.0
+     }
+    ]
+   },
+   "corpus_sha256": "d113553800885a887a870abfdd43c5e596a1a368ba98727adf4970eb428eb6cc",
+   "finished_at": "2026-10-24T08:17:44Z",
+   "host": "vm",
+   "n_todo": {
+    "qwen2.5-coder-7b-instruct": 94
+   },
+   "pass": "generate",
+   "run_id": "pilot-cpu-ext-2026-10",
+   "started_at": "2026-10-24T06:34:25Z"
+  },
+  {
+   "concurrency": 1,
+   "config": {
+    "_path": "../config/run_pilot_cpu_ext.yaml",
+    "concurrency": 1,
+    "endpoint": "http://127.0.0.1:8081",
+    "families": [
+     "F2"
+    ],
+    "llama_cpp_commit": "06230cb8775899cceef146c19cd447a947ecac5b",
+    "models": [
+     {
+      "family_name": "Qwen2.5-Coder",
+      "file": "/home/claude/models/qwen2.5-coder-7b-instruct-q4_k_m.gguf",
+      "gguf_repo": "Qwen/Qwen2.5-Coder-7B-Instruct-GGUF",
+      "horizon": "2024-09-17T13:38:49Z",
+      "horizon_source": "Hugging Face createdAt of Qwen/Qwen2.5-Coder-7B-Instruct (superseded, see model_horizons.json)",
+      "id": "qwen2.5-coder-7b-instruct",
+      "params_b": 7.6,
+      "quant": "Q4_K_M (GGUF, Qwen/Qwen2.5-Coder-7B-Instruct-GGUF)",
+      "server_cmd": "/home/claude/tools/llama.cpp/build/bin/llama-server -m {file} --host 127.0.0.1 --port 8081 -t 2 -c 4096 --cache-ram 0 --no-webui",
+      "sha256": "509287f78cb4d4cf6b3843734733b914b2c158e43e22a7f4bf5e963800894d3c",
+      "source_repo": "Qwen/Qwen2.5-Coder-7B-Instruct"
+     },
+     {
+      "family_name": "Granite-3.3",
+      "file": "/home/claude/models/granite-3.3-8b-instruct-Q4_K_M.gguf",
+      "gguf_repo": "ibm-granite/granite-3.3-8b-instruct-GGUF",
+      "horizon": "2025-04-09T11:41:39Z",
+      "horizon_source": "Hugging Face createdAt of ibm-granite/granite-3.3-8b-instruct (superseded, see model_horizons.json)",
+      "id": "granite-3.3-8b-instruct",
+      "params_b": 8.2,
+      "quant": "Q4_K_M (GGUF, ibm-granite/granite-3.3-8b-instruct-GGUF)",
+      "server_cmd": "/home/claude/tools/llama.cpp/build/bin/llama-server -m {file} --host 127.0.0.1 --port 8081 -t 2 -c 4096 --cache-ram 0 --no-webui",
+      "sha256": "77bcee066a76dcdd10d0d123c87e32c8ec2c74e31b6ffd87ebee49c9ac215dca",
+      "source_repo": "ibm-granite/granite-3.3-8b-instruct"
+     },
+     {
+      "family_name": "Llama-3.2",
+      "file": "/home/claude/models/Llama-3.2-3B-Instruct-Q4_K_M.gguf",
+      "gguf_repo": "bartowski/Llama-3.2-3B-Instruct-GGUF",
+      "horizon": "2024-09-18T15:19:20Z",
+      "horizon_source": "Hugging Face createdAt of meta-llama/Llama-3.2-3B-Instruct (superseded, see model_horizons.json)",
+      "id": "llama-3.2-3b-instruct",
+      "params_b": 3.2,
+      "quant": "Q4_K_M (GGUF, bartowski/Llama-3.2-3B-Instruct-GGUF)",
+      "server_cmd": "/home/claude/tools/llama.cpp/build/bin/llama-server -m {file} --host 127.0.0.1 --port 8081 -t 2 -c 4096 --cache-ram 0 --no-webui",
+      "sha256": "6c1a2b41161032677be168d354123594c0e6e67d2b9227c84f296ad037c728ff",
+      "source_repo": "meta-llama/Llama-3.2-3B-Instruct"
+     }
+    ],
+    "params": {
+     "max_tokens": {
+      "F1": 1536,
+      "F2": 1024
+     },
+     "repeat_penalty": 1.1,
+     "top_p": 1.0
+    },
+    "run_id": "pilot-cpu-ext-2026-10",
+    "samples": [
+     {
+      "idx": 0,
+      "seed": 20240628,
+      "temperature": 0.0
+     }
+    ]
+   },
+   "corpus_sha256": "d113553800885a887a870abfdd43c5e596a1a368ba98727adf4970eb428eb6cc",
+   "finished_at": "2026-10-24T09:44:35Z",
+   "host": "vm",
+   "n_todo": {
+    "llama-3.2-3b-instruct": 96
+   },
+   "pass": "generate",
+   "run_id": "pilot-cpu-ext-2026-10",
+   "started_at": "2026-10-24T08:19:58Z"
+  },
+  {
+   "answers_moved": 34,
+   "at": "2026-10-24T11:46:52Z",
+   "moved_to": "data/runs/pilot-cpu-ext-granite-partial/generations.jsonl",
+   "pass": "amend",
+   "reason": "generation stopped by the 2-hour limit of the host's background tasks after 34 of 96 greedy answers (about 3.4 min per answer on 2 vCPUs); not restarted; the model is not part of the analysed configuration",
+   "removed_models": [
+    "granite-3.3-8b-instruct"
+   ],
+   "run_id": "pilot-cpu-ext-2026-10"
+  },
+  {
+   "concurrency": 1,
+   "config": {
+    "_path": "../config/run_pilot_cpu_ext.yaml",
+    "concurrency": 1,
+    "endpoint": "http://127.0.0.1:8081",
+    "families": [
+     "F2"
+    ],
+    "llama_cpp_commit": "06230cb8775899cceef146c19cd447a947ecac5b",
+    "models": [
+     {
+      "family_name": "Qwen2.5-Coder",
+      "file": "/home/claude/models/qwen2.5-coder-7b-instruct-q4_k_m.gguf",
+      "gguf_repo": "Qwen/Qwen2.5-Coder-7B-Instruct-GGUF",
+      "horizon": "2024-09-17T13:38:49Z",
+      "horizon_source": "Hugging Face createdAt of Qwen/Qwen2.5-Coder-7B-Instruct (superseded, see model_horizons.json)",
+      "id": "qwen2.5-coder-7b-instruct",
+      "params_b": 7.6,
+      "quant": "Q4_K_M (GGUF, Qwen/Qwen2.5-Coder-7B-Instruct-GGUF)",
+      "server_cmd": "/home/claude/tools/llama.cpp/build/bin/llama-server -m {file} --host 127.0.0.1 --port 8081 -t 2 -c 4096 --cache-ram 0 --no-webui",
+      "sha256": "509287f78cb4d4cf6b3843734733b914b2c158e43e22a7f4bf5e963800894d3c",
+      "source_repo": "Qwen/Qwen2.5-Coder-7B-Instruct"
+     },
+     {
+      "family_name": "Granite-3.3",
+      "file": "/home/claude/models/granite-3.3-8b-instruct-Q4_K_M.gguf",
+      "gguf_repo": "ibm-granite/granite-3.3-8b-instruct-GGUF",
+      "horizon": "2025-04-09T11:41:39Z",
+      "horizon_source": "Hugging Face createdAt of ibm-granite/granite-3.3-8b-instruct (superseded, see model_horizons.json)",
+      "id": "granite-3.3-8b-instruct",
+      "params_b": 8.2,
+      "quant": "Q4_K_M (GGUF, ibm-granite/granite-3.3-8b-instruct-GGUF)",
+      "server_cmd": "/home/claude/tools/llama.cpp/build/bin/llama-server -m {file} --host 127.0.0.1 --port 8081 -t 2 -c 4096 --cache-ram 0 --no-webui",
+      "sha256": "77bcee066a76dcdd10d0d123c87e32c8ec2c74e31b6ffd87ebee49c9ac215dca",
+      "source_repo": "ibm-granite/granite-3.3-8b-instruct"
+     },
+     {
+      "family_name": "Llama-3.2",
+      "file": "/home/claude/models/Llama-3.2-3B-Instruct-Q4_K_M.gguf",
+      "gguf_repo": "bartowski/Llama-3.2-3B-Instruct-GGUF",
+      "horizon": "2024-09-18T15:19:20Z",
+      "horizon_source": "Hugging Face createdAt of meta-llama/Llama-3.2-3B-Instruct (superseded, see model_horizons.json)",
+      "id": "llama-3.2-3b-instruct",
+      "params_b": 3.2,
+      "quant": "Q4_K_M (GGUF, bartowski/Llama-3.2-3B-Instruct-GGUF)",
+      "server_cmd": "/home/claude/tools/llama.cpp/build/bin/llama-server -m {file} --host 127.0.0.1 --port 8081 -t 2 -c 4096 --cache-ram 0 --no-webui",
+      "sha256": "6c1a2b41161032677be168d354123594c0e6e67d2b9227c84f296ad037c728ff",
+      "source_repo": "meta-llama/Llama-3.2-3B-Instruct"
+     },
+     {
+      "family_name": "Phi-3-mini",
+      "file": "/home/claude/models/Phi-3-mini-4k-instruct-q4.gguf",
+      "gguf_repo": "microsoft/Phi-3-mini-4k-instruct-gguf",
+      "horizon": "2024-04-22T16:18:17Z",
+      "horizon_source": "Hugging Face createdAt of microsoft/Phi-3-mini-4k-instruct (superseded, see model_horizons.json)",
+      "id": "phi-3-mini-3.8b-instruct",
+      "params_b": 3.8,
+      "quant": "Q4_K_M (GGUF, microsoft/Phi-3-mini-4k-instruct-gguf, file Phi-3-mini-4k-instruct-q4.gguf)",
+      "server_cmd": "/home/claude/tools/llama.cpp/build/bin/llama-server -m {file} --host 127.0.0.1 --port 8081 -t 2 -c 4096 --cache-ram 0 --no-webui --no-jinja --chat-template phi3",
+      "sha256": "8a83c7fb9049a9b2e92266fa7ad04933bb53aa1e85136b7b30f1b8000ff2edef",
+      "source_repo": "microsoft/Phi-3-mini-4k-instruct"
+     }
+    ],
+    "params": {
+     "max_tokens": {
+      "F1": 1536,
+      "F2": 1024
+     },
+     "repeat_penalty": 1.1,
+     "top_p": 1.0
+    },
+    "run_id": "pilot-cpu-ext-2026-10",
+    "samples": [
+     {
+      "idx": 0,
+      "seed": 20240628,
+      "temperature": 0.0
+     }
+    ]
+   },
+   "corpus_sha256": "d113553800885a887a870abfdd43c5e596a1a368ba98727adf4970eb428eb6cc",
+   "finished_at": "2026-10-24T15:05:01Z",
+   "host": "vm",
+   "n_todo": {
+    "phi-3-mini-3.8b-instruct": 48
+   },
+   "pass": "generate",
+   "run_id": "pilot-cpu-ext-2026-10",
+   "started_at": "2026-10-24T13:42:08Z"
+  },
+  {
+   "concurrency": 1,
+   "config": {
+    "_path": "../config/run_pilot_cpu_ext.yaml",
+    "concurrency": 1,
+    "endpoint": "http://127.0.0.1:8081",
+    "families": [
+     "F2"
+    ],
+    "llama_cpp_commit": "06230cb8775899cceef146c19cd447a947ecac5b",
+    "models": [
+     {
+      "family_name": "Qwen2.5-Coder",
+      "file": "/home/claude/models/qwen2.5-coder-7b-instruct-q4_k_m.gguf",
+      "gguf_repo": "Qwen/Qwen2.5-Coder-7B-Instruct-GGUF",
+      "horizon": "2024-09-17T13:38:49Z",
+      "horizon_source": "Hugging Face createdAt of Qwen/Qwen2.5-Coder-7B-Instruct (superseded, see model_horizons.json)",
+      "id": "qwen2.5-coder-7b-instruct",
+      "params_b": 7.6,
+      "quant": "Q4_K_M (GGUF, Qwen/Qwen2.5-Coder-7B-Instruct-GGUF)",
+      "server_cmd": "/home/claude/tools/llama.cpp/build/bin/llama-server -m {file} --host 127.0.0.1 --port 8081 -t 2 -c 4096 --cache-ram 0 --no-webui",
+      "sha256": "509287f78cb4d4cf6b3843734733b914b2c158e43e22a7f4bf5e963800894d3c",
+      "source_repo": "Qwen/Qwen2.5-Coder-7B-Instruct"
+     },
+     {
+      "family_name": "Granite-3.3",
+      "file": "/home/claude/models/granite-3.3-8b-instruct-Q4_K_M.gguf",
+      "gguf_repo": "ibm-granite/granite-3.3-8b-instruct-GGUF",
+      "horizon": "2025-04-09T11:41:39Z",
+      "horizon_source": "Hugging Face createdAt of ibm-granite/granite-3.3-8b-instruct (superseded, see model_horizons.json)",
+      "id": "granite-3.3-8b-instruct",
+      "params_b": 8.2,
+      "quant": "Q4_K_M (GGUF, ibm-granite/granite-3.3-8b-instruct-GGUF)",
+      "server_cmd": "/home/claude/tools/llama.cpp/build/bin/llama-server -m {file} --host 127.0.0.1 --port 8081 -t 2 -c 4096 --cache-ram 0 --no-webui",
+      "sha256": "77bcee066a76dcdd10d0d123c87e32c8ec2c74e31b6ffd87ebee49c9ac215dca",
+      "source_repo": "ibm-granite/granite-3.3-8b-instruct"
+     },
+     {
+      "family_name": "Llama-3.2",
+      "file": "/home/claude/models/Llama-3.2-3B-Instruct-Q4_K_M.gguf",
+      "gguf_repo": "bartowski/Llama-3.2-3B-Instruct-GGUF",
+      "horizon": "2024-09-18T15:19:20Z",
+      "horizon_source": "Hugging Face createdAt of meta-llama/Llama-3.2-3B-Instruct (superseded, see model_horizons.json)",
+      "id": "llama-3.2-3b-instruct",
+      "params_b": 3.2,
+      "quant": "Q4_K_M (GGUF, bartowski/Llama-3.2-3B-Instruct-GGUF)",
+      "server_cmd": "/home/claude/tools/llama.cpp/build/bin/llama-server -m {file} --host 127.0.0.1 --port 8081 -t 2 -c 4096 --cache-ram 0 --no-webui",
+      "sha256": "6c1a2b41161032677be168d354123594c0e6e67d2b9227c84f296ad037c728ff",
+      "source_repo": "meta-llama/Llama-3.2-3B-Instruct"
+     },
+     {
+      "family_name": "Phi-3-mini",
+      "file": "/home/claude/models/Phi-3-mini-4k-instruct-q4.gguf",
+      "gguf_repo": "microsoft/Phi-3-mini-4k-instruct-gguf",
+      "horizon": "2024-04-22T16:18:17Z",
+      "horizon_source": "Hugging Face createdAt of microsoft/Phi-3-mini-4k-instruct (superseded, see model_horizons.json)",
+      "id": "phi-3-mini-3.8b-instruct",
+      "params_b": 3.8,
+      "quant": "Q4_K_M (GGUF, microsoft/Phi-3-mini-4k-instruct-gguf, file Phi-3-mini-4k-instruct-q4.gguf)",
+      "server_cmd": "/home/claude/tools/llama.cpp/build/bin/llama-server -m {file} --host 127.0.0.1 --port 8081 -t 2 -c 4096 --cache-ram 0 --no-webui --no-jinja --chat-template phi3",
+      "sha256": "8a83c7fb9049a9b2e92266fa7ad04933bb53aa1e85136b7b30f1b8000ff2edef",
+      "source_repo": "microsoft/Phi-3-mini-4k-instruct"
+     }
+    ],
+    "params": {
+     "max_tokens": {
+      "F1": 1536,
+      "F2": 1024
+     },
+     "repeat_penalty": 1.1,
+     "top_p": 1.0
+    },
+    "run_id": "pilot-cpu-ext-2026-10",
+    "samples": [
+     {
+      "idx": 0,
+      "seed": 20240628,
+      "temperature": 0.0
+     }
+    ]
+   },
+   "corpus_sha256": "d113553800885a887a870abfdd43c5e596a1a368ba98727adf4970eb428eb6cc",
+   "finished_at": "2026-10-24T15:52:59Z",
+   "host": "vm",
+   "n_todo": {
+    "phi-3-mini-3.8b-instruct": 24
+   },
+   "pass": "generate",
+   "run_id": "pilot-cpu-ext-2026-10",
+   "started_at": "2026-10-24T15:05:19Z"
+  },
+  {
+   "concurrency": 1,
+   "config": {
+    "_path": "../config/run_pilot_cpu_ext.yaml",
+    "concurrency": 1,
+    "endpoint": "http://127.0.0.1:8081",
+    "families": [
+     "F2"
+    ],
+    "llama_cpp_commit": "06230cb8775899cceef146c19cd447a947ecac5b",
+    "models": [
+     {
+      "family_name": "Qwen2.5-Coder",
+      "file": "/home/claude/models/qwen2.5-coder-7b-instruct-q4_k_m.gguf",
+      "gguf_repo": "Qwen/Qwen2.5-Coder-7B-Instruct-GGUF",
+      "horizon": "2024-09-17T13:38:49Z",
+      "horizon_source": "Hugging Face createdAt of Qwen/Qwen2.5-Coder-7B-Instruct (superseded, see model_horizons.json)",
+      "id": "qwen2.5-coder-7b-instruct",
+      "params_b": 7.6,
+      "quant": "Q4_K_M (GGUF, Qwen/Qwen2.5-Coder-7B-Instruct-GGUF)",
+      "server_cmd": "/home/claude/tools/llama.cpp/build/bin/llama-server -m {file} --host 127.0.0.1 --port 8081 -t 2 -c 4096 --cache-ram 0 --no-webui",
+      "sha256": "509287f78cb4d4cf6b3843734733b914b2c158e43e22a7f4bf5e963800894d3c",
+      "source_repo": "Qwen/Qwen2.5-Coder-7B-Instruct"
+     },
+     {
+      "family_name": "Granite-3.3",
+      "file": "/home/claude/models/granite-3.3-8b-instruct-Q4_K_M.gguf",
+      "gguf_repo": "ibm-granite/granite-3.3-8b-instruct-GGUF",
+      "horizon": "2025-04-09T11:41:39Z",
+      "horizon_source": "Hugging Face createdAt of ibm-granite/granite-3.3-8b-instruct (superseded, see model_horizons.json)",
+      "id": "granite-3.3-8b-instruct",
+      "params_b": 8.2,
+      "quant": "Q4_K_M (GGUF, ibm-granite/granite-3.3-8b-instruct-GGUF)",
+      "server_cmd": "/home/claude/tools/llama.cpp/build/bin/llama-server -m {file} --host 127.0.0.1 --port 8081 -t 2 -c 4096 --cache-ram 0 --no-webui",
+      "sha256": "77bcee066a76dcdd10d0d123c87e32c8ec2c74e31b6ffd87ebee49c9ac215dca",
+      "source_repo": "ibm-granite/granite-3.3-8b-instruct"
+     },
+     {
+      "family_name": "Llama-3.2",
+      "file": "/home/claude/models/Llama-3.2-3B-Instruct-Q4_K_M.gguf",
+      "gguf_repo": "bartowski/Llama-3.2-3B-Instruct-GGUF",
+      "horizon": "2024-09-18T15:19:20Z",
+      "horizon_source": "Hugging Face createdAt of meta-llama/Llama-3.2-3B-Instruct (superseded, see model_horizons.json)",
+      "id": "llama-3.2-3b-instruct",
+      "params_b": 3.2,
+      "quant": "Q4_K_M (GGUF, bartowski/Llama-3.2-3B-Instruct-GGUF)",
+      "server_cmd": "/home/claude/tools/llama.cpp/build/bin/llama-server -m {file} --host 127.0.0.1 --port 8081 -t 2 -c 4096 --cache-ram 0 --no-webui",
+      "sha256": "6c1a2b41161032677be168d354123594c0e6e67d2b9227c84f296ad037c728ff",
+      "source_repo": "meta-llama/Llama-3.2-3B-Instruct"
+     },
+     {
+      "family_name": "Phi-3-mini",
+      "file": "/home/claude/models/Phi-3-mini-4k-instruct-q4.gguf",
+      "gguf_repo": "microsoft/Phi-3-mini-4k-instruct-gguf",
+      "horizon": "2024-04-22T16:18:17Z",
+      "horizon_source": "Hugging Face createdAt of microsoft/Phi-3-mini-4k-instruct (superseded, see model_horizons.json)",
+      "id": "phi-3-mini-3.8b-instruct",
+      "params_b": 3.8,
+      "quant": "Q4_K_M (GGUF, microsoft/Phi-3-mini-4k-instruct-gguf, file Phi-3-mini-4k-instruct-q4.gguf)",
+      "server_cmd": "/home/claude/tools/llama.cpp/build/bin/llama-server -m {file} --host 127.0.0.1 --port 8081 -t 2 -c 4096 --cache-ram 0 --no-webui --no-jinja --chat-template phi3",
+      "sha256": "8a83c7fb9049a9b2e92266fa7ad04933bb53aa1e85136b7b30f1b8000ff2edef",
+      "source_repo": "microsoft/Phi-3-mini-4k-instruct"
+     }
+    ],
+    "params": {
+     "max_tokens": {
+      "F1": 1536,
+      "F2": 1024
+     },
+     "repeat_penalty": 1.1,
+     "top_p": 1.0
+    },
+    "run_id": "pilot-cpu-ext-2026-10",
+    "samples": [
+     {
+      "idx": 0,
+      "seed": 20240628,
+      "temperature": 0.0
+     }
+    ]
+   },
+   "corpus_sha256": "d113553800885a887a870abfdd43c5e596a1a368ba98727adf4970eb428eb6cc",
+   "finished_at": "2026-10-24T16:33:02Z",
+   "host": "vm",
+   "n_todo": {
+    "phi-3-mini-3.8b-instruct": 24
+   },
+   "pass": "generate",
+   "run_id": "pilot-cpu-ext-2026-10",
+   "started_at": "2026-10-24T15:53:32Z"
+  }
+ ],
+ "run_id": "pilot-cpu-ext-2026-10"
+}

@@ -1,0 +1,753 @@
+{
+ "url": "https://huggingface.co/api/models/microsoft/Phi-3-mini-4k-instruct/tree/main?expand=true",
+ "body": null,
+ "retrieved_at": "2026-10-24T13:24:33Z",
+ "answer": [
+  {
+   "type": "file",
+   "oid": "dab9a4e17afd2ef39d90ccb0b40ef2786fe77422",
+   "size": 1554,
+   "path": ".gitattributes",
+   "lastCommit": {
+    "id": "4f818b18e097c9ae8f93a29a57027cad54b75304",
+    "title": "Update model (#77)",
+    "date": "2024-07-01T20:40:14.000Z"
+   },
+   "securityFileStatus": {
+    "status": "safe",
+    "protectAiScan": {
+     "status": "safe",
+     "message": "This file has no security findings.",
+     "reportLink": "https://insights-db.paloaltonetworks.com/models/microsoft/Phi-3-mini-4k-instruct/f39ac1d28e925b323eae81227eaba4464caced4e/files?blob-id=dab9a4e17afd2ef39d90ccb0b40ef2786fe77422&utm_source=huggingface"
+    },
+    "avScan": {
+     "status": "safe",
+     "message": "No security issues detected",
+     "reportLink": "https://fdtn.ai/ai-supply-chain/hugging-face?utm_source=huggingface"
+    },
+    "pickleImportScan": {
+     "status": "unscanned",
+     "pickleImports": [],
+     "version": "0.0.0"
+    },
+    "virusTotalScan": {
+     "status": "unscanned"
+    },
+    "jFrogScan": {
+     "status": "unscanned",
+     "message": "Not a machine-learning model"
+    }
+   }
+  },
+  {
+   "type": "file",
+   "oid": "c72a5749c52ac97bca71c672ef5295d303d22b05",
+   "size": 453,
+   "path": "CODE_OF_CONDUCT.md",
+   "lastCommit": {
+    "id": "4f818b18e097c9ae8f93a29a57027cad54b75304",
+    "title": "Update model (#77)",
+    "date": "2024-07-01T20:40:14.000Z"
+   },
+   "securityFileStatus": {
+    "status": "safe",
+    "protectAiScan": {
+     "status": "safe",
+     "message": "This file has no security findings.",
+     "reportLink": "https://insights-db.paloaltonetworks.com/models/microsoft/Phi-3-mini-4k-instruct/f39ac1d28e925b323eae81227eaba4464caced4e/files?blob-id=c72a5749c52ac97bca71c672ef5295d303d22b05&utm_source=huggingface"
+    },
+    "avScan": {
+     "status": "safe",
+     "message": "No security issues detected",
+     "reportLink": "https://fdtn.ai/ai-supply-chain/hugging-face?utm_source=huggingface"
+    },
+    "pickleImportScan": {
+     "status": "unscanned",
+     "pickleImports": [],
+     "version": "0.0.0"
+    },
+    "virusTotalScan": {
+     "status": "unscanned"
+    },
+    "jFrogScan": {
+     "status": "unscanned",
+     "message": "Not a machine-learning model"
+    }
+   }
+  },
+  {
+   "type": "file",
+   "oid": "700edcc5f42c4816520bc554926ad7e0d9e613d7",
+   "size": 1105,
+   "path": "LICENSE",
+   "lastCommit": {
+    "id": "4f818b18e097c9ae8f93a29a57027cad54b75304",
+    "title": "Update model (#77)",
+    "date": "2024-07-01T20:40:14.000Z"
+   },
+   "securityFileStatus": {
+    "status": "safe",
+    "protectAiScan": {
+     "status": "safe",
+     "message": "This file has no security findings.",
+     "reportLink": "https://insights-db.paloaltonetworks.com/models/microsoft/Phi-3-mini-4k-instruct/f39ac1d28e925b323eae81227eaba4464caced4e/files?blob-id=700edcc5f42c4816520bc554926ad7e0d9e613d7&utm_source=huggingface"
+    },
+    "avScan": {
+     "status": "safe",
+     "message": "No security issues detected",
+     "reportLink": "https://fdtn.ai/ai-supply-chain/hugging-face?utm_source=huggingface"
+    },
+    "pickleImportScan": {
+     "status": "unscanned",
+     "pickleImports": [],
+     "version": "0.0.0"
+    },
+    "virusTotalScan": {
+     "status": "unscanned"
+    },
+    "jFrogScan": {
+     "status": "unscanned",
+     "message": "Not a machine-learning model"
+    }
+   }
+  },
+  {
+   "type": "file",
+   "oid": "56ff7dcadd87eb0bec57dbba00f005b6622c2809",
+   "size": 1809,
+   "path": "NOTICE.md",
+   "lastCommit": {
+    "id": "4f818b18e097c9ae8f93a29a57027cad54b75304",
+    "title": "Update model (#77)",
+    "date": "2024-07-01T20:40:14.000Z"
+   },
+   "securityFileStatus": {
+    "status": "safe",
+    "protectAiScan": {
+     "status": "safe",
+     "message": "This file has no security findings.",
+     "reportLink": "https://insights-db.paloaltonetworks.com/models/microsoft/Phi-3-mini-4k-instruct/f39ac1d28e925b323eae81227eaba4464caced4e/files?blob-id=56ff7dcadd87eb0bec57dbba00f005b6622c2809&utm_source=huggingface"
+    },
+    "avScan": {
+     "status": "safe",
+     "message": "No security issues detected",
+     "reportLink": "https://fdtn.ai/ai-supply-chain/hugging-face?utm_source=huggingface"
+    },
+    "pickleImportScan": {
+     "status": "unscanned",
+     "pickleImports": [],
+     "version": "0.0.0"
+    },
+    "virusTotalScan": {
+     "status": "unscanned"
+    },
+    "jFrogScan": {
+     "status": "unscanned",
+     "message": "Not a machine-learning model"
+    }
+   }
+  },
+  {
+   "type": "file",
+   "oid": "0ecd5b319e9e5351dc07abf6a66a6673a5988304",
+   "size": 21733,
+   "path": "README.md",
+   "lastCommit": {
+    "id": "f39ac1d28e925b323eae81227eaba4464caced4e",
+    "title": "Update README.md (#109)",
+    "date": "2025-12-10T20:22:18.000Z"
+   },
+   "securityFileStatus": {
+    "status": "safe",
+    "protectAiScan": {
+     "status": "safe",
+     "message": "This file has no security findings.",
+     "reportLink": "https://insights-db.paloaltonetworks.com/models/microsoft/Phi-3-mini-4k-instruct/f39ac1d28e925b323eae81227eaba4464caced4e/files?blob-id=0ecd5b319e9e5351dc07abf6a66a6673a5988304&utm_source=huggingface"
+    },
+    "avScan": {
+     "status": "safe",
+     "message": "No security issues detected",
+     "reportLink": "https://fdtn.ai/ai-supply-chain/hugging-face?utm_source=huggingface"
+    },
+    "pickleImportScan": {
+     "status": "unscanned",
+     "pickleImports": [],
+     "version": "0.0.0"
+    },
+    "virusTotalScan": {
+     "status": "unscanned"
+    },
+    "jFrogScan": {
+     "status": "unscanned",
+     "message": "Not a machine-learning model"
+    }
+   }
+  },
+  {
+   "type": "file",
+   "oid": "6b906d43bc2057e6a832c3236897b2e514d6e1e7",
+   "size": 2697,
+   "path": "SECURITY.md",
+   "lastCommit": {
+    "id": "4f818b18e097c9ae8f93a29a57027cad54b75304",
+    "title": "Update model (#77)",
+    "date": "2024-07-01T20:40:14.000Z"
+   },
+   "securityFileStatus": {
+    "status": "safe",
+    "protectAiScan": {
+     "status": "safe",
+     "message": "This file has no security findings.",
+     "reportLink": "https://insights-db.paloaltonetworks.com/models/microsoft/Phi-3-mini-4k-instruct/f39ac1d28e925b323eae81227eaba4464caced4e/files?blob-id=6b906d43bc2057e6a832c3236897b2e514d6e1e7&utm_source=huggingface"
+    },
+    "avScan": {
+     "status": "safe",
+     "message": "No security issues detected",
+     "reportLink": "https://fdtn.ai/ai-supply-chain/hugging-face?utm_source=huggingface"
+    },
+    "pickleImportScan": {
+     "status": "unscanned",
+     "pickleImports": [],
+     "version": "0.0.0"
+    },
+    "virusTotalScan": {
+     "status": "unscanned"
+    },
+    "jFrogScan": {
+     "status": "unscanned",
+     "message": "Not a machine-learning model"
+    }
+   }
+  },
+  {
+   "type": "file",
+   "oid": "178968dec606c790aa335e9142f6afec37288470",
+   "size": 306,
+   "path": "added_tokens.json",
+   "lastCommit": {
+    "id": "4f818b18e097c9ae8f93a29a57027cad54b75304",
+    "title": "Update model (#77)",
+    "date": "2024-07-01T20:40:14.000Z"
+   },
+   "securityFileStatus": {
+    "status": "safe",
+    "protectAiScan": {
+     "status": "safe",
+     "message": "This file has no security findings.",
+     "reportLink": "https://insights-db.paloaltonetworks.com/models/microsoft/Phi-3-mini-4k-instruct/f39ac1d28e925b323eae81227eaba4464caced4e/files?blob-id=178968dec606c790aa335e9142f6afec37288470&utm_source=huggingface"
+    },
+    "avScan": {
+     "status": "safe",
+     "message": "No security issues detected",
+     "reportLink": "https://fdtn.ai/ai-supply-chain/hugging-face?utm_source=huggingface"
+    },
+    "pickleImportScan": {
+     "status": "unscanned",
+     "pickleImports": [],
+     "version": "0.0.0"
+    },
+    "virusTotalScan": {
+     "status": "unscanned"
+    },
+    "jFrogScan": {
+     "status": "unscanned",
+     "message": "Not a machine-learning model"
+    }
+   }
+  },
+  {
+   "type": "file",
+   "oid": "b9b031fadda61a035b2e8ceb4362cbf604002b21",
+   "size": 967,
+   "path": "config.json",
+   "lastCommit": {
+    "id": "4f818b18e097c9ae8f93a29a57027cad54b75304",
+    "title": "Update model (#77)",
+    "date": "2024-07-01T20:40:14.000Z"
+   },
+   "securityFileStatus": {
+    "status": "safe",
+    "protectAiScan": {
+     "status": "safe",
+     "message": "This file has no security findings.",
+     "reportLink": "https://insights-db.paloaltonetworks.com/models/microsoft/Phi-3-mini-4k-instruct/f39ac1d28e925b323eae81227eaba4464caced4e/files?blob-id=b9b031fadda61a035b2e8ceb4362cbf604002b21&utm_source=huggingface"
+    },
+    "avScan": {
+     "status": "safe",
+     "message": "No security issues detected",
+     "reportLink": "https://fdtn.ai/ai-supply-chain/hugging-face?utm_source=huggingface"
+    },
+    "pickleImportScan": {
+     "status": "unscanned",
+     "pickleImports": [],
+     "version": "0.0.0"
+    },
+    "virusTotalScan": {
+     "status": "unscanned"
+    },
+    "jFrogScan": {
+     "status": "unscanned",
+     "message": "Not a machine-learning model"
+    }
+   }
+  },
+  {
+   "type": "file",
+   "oid": "780401034b66c92c6ce76ffc541493b6eac61627",
+   "size": 11153,
+   "path": "configuration_phi3.py",
+   "lastCommit": {
+    "id": "4f818b18e097c9ae8f93a29a57027cad54b75304",
+    "title": "Update model (#77)",
+    "date": "2024-07-01T20:40:14.000Z"
+   },
+   "securityFileStatus": {
+    "status": "safe",
+    "protectAiScan": {
+     "status": "safe",
+     "message": "This file has no security findings.",
+     "reportLink": "https://insights-db.paloaltonetworks.com/models/microsoft/Phi-3-mini-4k-instruct/f39ac1d28e925b323eae81227eaba4464caced4e/files?blob-id=780401034b66c92c6ce76ffc541493b6eac61627&utm_source=huggingface"
+    },
+    "avScan": {
+     "status": "safe",
+     "message": "No security issues detected",
+     "reportLink": "https://fdtn.ai/ai-supply-chain/hugging-face?utm_source=huggingface"
+    },
+    "pickleImportScan": {
+     "status": "unscanned",
+     "pickleImports": [],
+     "version": "0.0.0"
+    },
+    "virusTotalScan": {
+     "status": "unscanned"
+    },
+    "jFrogScan": {
+     "status": "unscanned",
+     "message": "Not a machine-learning model"
+    }
+   }
+  },
+  {
+   "type": "file",
+   "oid": "69f655d69e4a713f90e6d4d294e70cc654cf1a56",
+   "size": 4619,
+   "path": "data_summary_card.md",
+   "lastCommit": {
+    "id": "87e6c1eeb25bea23f91a50984db6b4cadfae5318",
+    "title": "Upload data_summary_card.md (#108)",
+    "date": "2025-12-10T20:22:13.000Z"
+   },
+   "securityFileStatus": {
+    "status": "safe",
+    "protectAiScan": {
+     "status": "safe",
+     "message": "This file has no security findings.",
+     "reportLink": "https://insights-db.paloaltonetworks.com/models/microsoft/Phi-3-mini-4k-instruct/f39ac1d28e925b323eae81227eaba4464caced4e/files?blob-id=69f655d69e4a713f90e6d4d294e70cc654cf1a56&utm_source=huggingface"
+    },
+    "avScan": {
+     "status": "safe",
+     "message": "No security issues detected",
+     "reportLink": "https://fdtn.ai/ai-supply-chain/hugging-face?utm_source=huggingface"
+    },
+    "pickleImportScan": {
+     "status": "unscanned",
+     "pickleImports": [],
+     "version": "0.0.0"
+    },
+    "virusTotalScan": {
+     "status": "unscanned"
+    },
+    "jFrogScan": {
+     "status": "unscanned",
+     "message": "Not a machine-learning model"
+    }
+   }
+  },
+  {
+   "type": "file",
+   "oid": "1cae169b9d7155e10038aa446691d296a44e01dc",
+   "size": 181,
+   "path": "generation_config.json",
+   "lastCommit": {
+    "id": "4f818b18e097c9ae8f93a29a57027cad54b75304",
+    "title": "Update model (#77)",
+    "date": "2024-07-01T20:40:14.000Z"
+   },
+   "securityFileStatus": {
+    "status": "safe",
+    "protectAiScan": {
+     "status": "safe",
+     "message": "This file has no security findings.",
+     "reportLink": "https://insights-db.paloaltonetworks.com/models/microsoft/Phi-3-mini-4k-instruct/f39ac1d28e925b323eae81227eaba4464caced4e/files?blob-id=1cae169b9d7155e10038aa446691d296a44e01dc&utm_source=huggingface"
+    },
+    "avScan": {
+     "status": "safe",
+     "message": "No security issues detected",
+     "reportLink": "https://fdtn.ai/ai-supply-chain/hugging-face?utm_source=huggingface"
+    },
+    "pickleImportScan": {
+     "status": "unscanned",
+     "pickleImports": [],
+     "version": "0.0.0"
+    },
+    "virusTotalScan": {
+     "status": "unscanned"
+    },
+    "jFrogScan": {
+     "status": "unscanned",
+     "message": "Not a machine-learning model"
+    }
+   }
+  },
+  {
+   "type": "file",
+   "oid": "58e01d236a89afc09949ccef8bec14c873c951ef",
+   "size": 4972489328,
+   "lfs": {
+    "oid": "b7492726c01287bf6e13c3d74c65ade3d436d50da1cf5bb6925bc962419d6610",
+    "size": 4972489328,
+    "pointerSize": 135
+   },
+   "xetHash": "bfc368ca8949251bb0f2f3021c89fee9ec7e27d3a38cf48b6d2c0245a2d2cff1",
+   "path": "model-00001-of-00002.safetensors",
+   "lastCommit": {
+    "id": "4f818b18e097c9ae8f93a29a57027cad54b75304",
+    "title": "Update model (#77)",
+    "date": "2024-07-01T20:40:14.000Z"
+   },
+   "securityFileStatus": {
+    "status": "safe",
+    "protectAiScan": {
+     "status": "safe",
+     "message": "This file has no security findings.",
+     "reportLink": "https://insights-db.paloaltonetworks.com/models/microsoft/Phi-3-mini-4k-instruct/f39ac1d28e925b323eae81227eaba4464caced4e/files?blob-id=58e01d236a89afc09949ccef8bec14c873c951ef&utm_source=huggingface"
+    },
+    "avScan": {
+     "status": "unscanned",
+     "message": "",
+     "version": "1.5.2/27961"
+    },
+    "pickleImportScan": {
+     "status": "unscanned",
+     "pickleImports": [],
+     "version": "0.0.0"
+    },
+    "virusTotalScan": {
+     "status": "safe",
+     "message": "0/75 engines detect it as malicious.",
+     "reportLink": "https://www.virustotal.com/gui/file/b7492726c01287bf6e13c3d74c65ade3d436d50da1cf5bb6925bc962419d6610?utm_source=huggingface"
+    },
+    "jFrogScan": {
+     "status": "safe",
+     "message": "Safe model, does not support code execution on load.",
+     "reportLink": "https://research.jfrog.com/model-threats/noautoload-suscode?utm_source=huggingface"
+    }
+   }
+  },
+  {
+   "type": "file",
+   "oid": "8621f02324b8a72adec16c9a6ac4c0413787acf7",
+   "size": 2669692552,
+   "lfs": {
+    "oid": "3f311787aa136e858556caa8543015161edcad85ba81b6a36072443d7fa73c87",
+    "size": 2669692552,
+    "pointerSize": 135
+   },
+   "xetHash": "0c8a954e4a4ae5dc6305cf977feee675469fe96aa6ea5926d985eead8d0834d8",
+   "path": "model-00002-of-00002.safetensors",
+   "lastCommit": {
+    "id": "4f818b18e097c9ae8f93a29a57027cad54b75304",
+    "title": "Update model (#77)",
+    "date": "2024-07-01T20:40:14.000Z"
+   },
+   "securityFileStatus": {
+    "status": "safe",
+    "protectAiScan": {
+     "status": "safe",
+     "message": "This file has no security findings.",
+     "reportLink": "https://insights-db.paloaltonetworks.com/models/microsoft/Phi-3-mini-4k-instruct/f39ac1d28e925b323eae81227eaba4464caced4e/files?blob-id=8621f02324b8a72adec16c9a6ac4c0413787acf7&utm_source=huggingface"
+    },
+    "avScan": {
+     "status": "unscanned",
+     "message": "",
+     "version": "1.5.2/27961"
+    },
+    "pickleImportScan": {
+     "status": "unscanned",
+     "pickleImports": [],
+     "version": "0.0.0"
+    },
+    "virusTotalScan": {
+     "status": "safe",
+     "message": "0/75 engines detect it as malicious.",
+     "reportLink": "https://www.virustotal.com/gui/file/3f311787aa136e858556caa8543015161edcad85ba81b6a36072443d7fa73c87?utm_source=huggingface"
+    },
+    "jFrogScan": {
+     "status": "safe",
+     "message": "Safe model, does not support code execution on load.",
+     "reportLink": "https://research.jfrog.com/model-threats/noautoload-suscode?utm_source=huggingface"
+    }
+   }
+  },
+  {
+   "type": "file",
+   "oid": "3aa7bba5cb52d7ea1e71bf8540f70e35e3cf24f7",
+   "size": 16533,
+   "path": "model.safetensors.index.json",
+   "lastCommit": {
+    "id": "4f818b18e097c9ae8f93a29a57027cad54b75304",
+    "title": "Update model (#77)",
+    "date": "2024-07-01T20:40:14.000Z"
+   },
+   "securityFileStatus": {
+    "status": "safe",
+    "protectAiScan": {
+     "status": "safe",
+     "message": "This file has no security findings.",
+     "reportLink": "https://insights-db.paloaltonetworks.com/models/microsoft/Phi-3-mini-4k-instruct/f39ac1d28e925b323eae81227eaba4464caced4e/files?blob-id=3aa7bba5cb52d7ea1e71bf8540f70e35e3cf24f7&utm_source=huggingface"
+    },
+    "avScan": {
+     "status": "safe",
+     "message": "",
+     "version": "1.5.2/27961"
+    },
+    "pickleImportScan": {
+     "status": "unscanned",
+     "pickleImports": [],
+     "version": "0.0.0"
+    },
+    "virusTotalScan": {
+     "status": "unscanned"
+    },
+    "jFrogScan": {
+     "status": "unscanned",
+     "message": "Not a machine-learning model"
+    }
+   }
+  },
+  {
+   "type": "file",
+   "oid": "c2742b929803c3d483a67c09f9487a6848b3fb27",
+   "size": 73193,
+   "path": "modeling_phi3.py",
+   "lastCommit": {
+    "id": "4f818b18e097c9ae8f93a29a57027cad54b75304",
+    "title": "Update model (#77)",
+    "date": "2024-07-01T20:40:14.000Z"
+   },
+   "securityFileStatus": {
+    "status": "safe",
+    "protectAiScan": {
+     "status": "safe",
+     "message": "This file has no security findings.",
+     "reportLink": "https://insights-db.paloaltonetworks.com/models/microsoft/Phi-3-mini-4k-instruct/f39ac1d28e925b323eae81227eaba4464caced4e/files?blob-id=c2742b929803c3d483a67c09f9487a6848b3fb27&utm_source=huggingface"
+    },
+    "avScan": {
+     "status": "safe",
+     "message": "No security issues detected",
+     "reportLink": "https://fdtn.ai/ai-supply-chain/hugging-face?utm_source=huggingface"
+    },
+    "pickleImportScan": {
+     "status": "unscanned",
+     "pickleImports": [],
+     "version": "0.0.0"
+    },
+    "virusTotalScan": {
+     "status": "unscanned"
+    },
+    "jFrogScan": {
+     "status": "unscanned",
+     "message": "Not a machine-learning model"
+    }
+   }
+  },
+  {
+   "type": "file",
+   "oid": "66b6e2e6adf0131e0ae8507826085df1aca4b5bd",
+   "size": 6401,
+   "path": "sample_finetune.py",
+   "lastCommit": {
+    "id": "4f818b18e097c9ae8f93a29a57027cad54b75304",
+    "title": "Update model (#77)",
+    "date": "2024-07-01T20:40:14.000Z"
+   },
+   "securityFileStatus": {
+    "status": "safe",
+    "protectAiScan": {
+     "status": "safe",
+     "message": "This file has no security findings.",
+     "reportLink": "https://insights-db.paloaltonetworks.com/models/microsoft/Phi-3-mini-4k-instruct/f39ac1d28e925b323eae81227eaba4464caced4e/files?blob-id=66b6e2e6adf0131e0ae8507826085df1aca4b5bd&utm_source=huggingface"
+    },
+    "avScan": {
+     "status": "safe",
+     "message": "No security issues detected",
+     "reportLink": "https://fdtn.ai/ai-supply-chain/hugging-face?utm_source=huggingface"
+    },
+    "pickleImportScan": {
+     "status": "unscanned",
+     "pickleImports": [],
+     "version": "0.0.0"
+    },
+    "virusTotalScan": {
+     "status": "unscanned"
+    },
+    "jFrogScan": {
+     "status": "unscanned",
+     "message": "Not a machine-learning model"
+    }
+   }
+  },
+  {
+   "type": "file",
+   "oid": "c6a944b4d49ce5d79030250ed6bdcbb1a65dfda1",
+   "size": 599,
+   "path": "special_tokens_map.json",
+   "lastCommit": {
+    "id": "4f818b18e097c9ae8f93a29a57027cad54b75304",
+    "title": "Update model (#77)",
+    "date": "2024-07-01T20:40:14.000Z"
+   },
+   "securityFileStatus": {
+    "status": "safe",
+    "protectAiScan": {
+     "status": "safe",
+     "message": "This file has no security findings.",
+     "reportLink": "https://insights-db.paloaltonetworks.com/models/microsoft/Phi-3-mini-4k-instruct/f39ac1d28e925b323eae81227eaba4464caced4e/files?blob-id=c6a944b4d49ce5d79030250ed6bdcbb1a65dfda1&utm_source=huggingface"
+    },
+    "avScan": {
+     "status": "safe",
+     "message": "No security issues detected",
+     "reportLink": "https://fdtn.ai/ai-supply-chain/hugging-face?utm_source=huggingface"
+    },
+    "pickleImportScan": {
+     "status": "unscanned",
+     "pickleImports": [],
+     "version": "0.0.0"
+    },
+    "virusTotalScan": {
+     "status": "unscanned"
+    },
+    "jFrogScan": {
+     "status": "unscanned",
+     "message": "Not a machine-learning model"
+    }
+   }
+  },
+  {
+   "type": "file",
+   "oid": "88ec145f4e7684c009bc6d55df24bb82c7d3c379",
+   "size": 1937869,
+   "path": "tokenizer.json",
+   "lastCommit": {
+    "id": "4f818b18e097c9ae8f93a29a57027cad54b75304",
+    "title": "Update model (#77)",
+    "date": "2024-07-01T20:40:14.000Z"
+   },
+   "securityFileStatus": {
+    "status": "safe",
+    "protectAiScan": {
+     "status": "safe",
+     "message": "This file has no security findings.",
+     "reportLink": "https://insights-db.paloaltonetworks.com/models/microsoft/Phi-3-mini-4k-instruct/f39ac1d28e925b323eae81227eaba4464caced4e/files?blob-id=88ec145f4e7684c009bc6d55df24bb82c7d3c379&utm_source=huggingface"
+    },
+    "avScan": {
+     "status": "safe",
+     "message": "No security issues detected",
+     "reportLink": "https://fdtn.ai/ai-supply-chain/hugging-face?utm_source=huggingface"
+    },
+    "pickleImportScan": {
+     "status": "unscanned",
+     "pickleImports": [],
+     "version": "0.0.0"
+    },
+    "virusTotalScan": {
+     "status": "unscanned"
+    },
+    "jFrogScan": {
+     "status": "unscanned",
+     "message": "Not a machine-learning model"
+    }
+   }
+  },
+  {
+   "type": "file",
+   "oid": "6c00c742ce03c627d6cd5b795984876fa49fa899",
+   "size": 499723,
+   "lfs": {
+    "oid": "9e556afd44213b6bd1be2b850ebbbd98f5481437a8021afaf58ee7fb1818d347",
+    "size": 499723,
+    "pointerSize": 131
+   },
+   "xetHash": "91bf184ab12793d0754344f9095332759432e666320cc6c07f637af50e36db6f",
+   "path": "tokenizer.model",
+   "lastCommit": {
+    "id": "65be4e00a56c16d036e9cbe96b0b35f8aa0f84b0",
+    "title": "chore(root): Initial files upload.",
+    "date": "2024-04-22T16:21:56.000Z"
+   },
+   "securityFileStatus": {
+    "status": "safe",
+    "protectAiScan": {
+     "status": "safe",
+     "message": "This file has no security findings.",
+     "reportLink": "https://insights-db.paloaltonetworks.com/models/microsoft/Phi-3-mini-4k-instruct/f39ac1d28e925b323eae81227eaba4464caced4e/files?blob-id=6c00c742ce03c627d6cd5b795984876fa49fa899&utm_source=huggingface"
+    },
+    "avScan": {
+     "status": "safe",
+     "message": "No security issues detected",
+     "reportLink": "https://fdtn.ai/ai-supply-chain/hugging-face?utm_source=huggingface"
+    },
+    "pickleImportScan": {
+     "status": "unscanned",
+     "pickleImports": [],
+     "version": "0.0.0"
+    },
+    "virusTotalScan": {
+     "status": "safe",
+     "message": "0/76 engines detect it as malicious.",
+     "reportLink": "https://www.virustotal.com/gui/file/9e556afd44213b6bd1be2b850ebbbd98f5481437a8021afaf58ee7fb1818d347?utm_source=huggingface"
+    },
+    "jFrogScan": {
+     "status": "unscanned",
+     "message": "Not a machine-learning model"
+    }
+   }
+  },
+  {
+   "type": "file",
+   "oid": "67aa82cddb4d66391ddf31ff99f059239bd2d1e7",
+   "size": 3441,
+   "path": "tokenizer_config.json",
+   "lastCommit": {
+    "id": "4f818b18e097c9ae8f93a29a57027cad54b75304",
+    "title": "Update model (#77)",
+    "date": "2024-07-01T20:40:14.000Z"
+   },
+   "securityFileStatus": {
+    "status": "safe",
+    "protectAiScan": {
+     "status": "safe",
+     "message": "This file has no security findings.",
+     "reportLink": "https://insights-db.paloaltonetworks.com/models/microsoft/Phi-3-mini-4k-instruct/f39ac1d28e925b323eae81227eaba4464caced4e/files?blob-id=67aa82cddb4d66391ddf31ff99f059239bd2d1e7&utm_source=huggingface"
+    },
+    "avScan": {
+     "status": "safe",
+     "message": "No security issues detected",
+     "reportLink": "https://fdtn.ai/ai-supply-chain/hugging-face?utm_source=huggingface"
+    },
+    "pickleImportScan": {
+     "status": "unscanned",
+     "pickleImports": [],
+     "version": "0.0.0"
+    },
+    "virusTotalScan": {
+     "status": "unscanned"
+    },
+    "jFrogScan": {
+     "status": "unscanned",
+     "message": "Not a machine-learning model"
+    }
+   }
+  }
+ ]
+}

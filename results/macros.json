@@ -1,0 +1,3952 @@
+{
+ "rActCovered": {
+  "key": "... of which the lock check covers (crates.io, npm, PyPI)",
+  "prov": "computed",
+  "value": "341"
+ },
+ "rActDefect": {
+  "key": "... of which a lock failure shows the build would fail anyway",
+  "prov": "computed",
+  "value": "103"
+ },
+ "rActFriction": {
+  "key": "... covered ones the gate alone stops",
+  "prov": "computed",
+  "value": "238"
+ },
+ "rActN": {
+  "key": "clean manifests SCII does not admit (main configuration)",
+  "prov": "computed",
+  "value": "644"
+ },
+ "rActUncovered": {
+  "key": "... of which it does not cover",
+  "prov": "computed",
+  "value": "303"
+ },
+ "rAgeDays": {
+  "key": "profile.age_heuristic_days",
+  "prov": "assigned",
+  "value": "30"
+ },
+ "rAlphaEst": {
+  "key": "profile.alpha.est",
+  "prov": "assigned",
+  "value": "0.3"
+ },
+ "rAlphaPin": {
+  "key": "profile.alpha.pin",
+  "prov": "assigned",
+  "value": "0.2"
+ },
+ "rAlphaProv": {
+  "key": "profile.alpha.prov",
+  "prov": "assigned",
+  "value": "0.1"
+ },
+ "rAlphaRes": {
+  "key": "profile.alpha.res",
+  "prov": "assigned",
+  "value": "0.4"
+ },
+ "rAuditNewer": {
+  "key": "post-horizon matches whose repository starts after h",
+  "prov": "computed",
+  "value": "8"
+ },
+ "rAuditNoRepo": {
+  "key": "post-horizon matches whose record names no repository",
+  "prov": "computed",
+  "value": "12"
+ },
+ "rAuditOlder": {
+  "key": "post-horizon matches whose repository predates h",
+  "prov": "computed",
+  "value": "3"
+ },
+ "rAuditRosdep": {
+  "key": "post-horizon matches that are rosdep keys",
+  "prov": "computed",
+  "value": "3"
+ },
+ "rAuditSummary": {
+  "key": "posthorizon_audit (project vs record dates)",
+  "prov": "computed",
+  "value": "For 3 the repository behind the record has commits from before the horizon, so the model may have known the project, though not this record; for 8 the repository history itself starts after the horizon, so the name was most likely filled later by a project the model could not have known; for 1 the repository history starts after the record and cannot date the project; 3 are rosdep keys, a record that maps operating-system packages; 12 records name no repository."
+ },
+ "rAuditUndetermined": {
+  "key": "post-horizon matches whose repository starts after the record",
+  "prov": "computed",
+  "value": "1"
+ },
+ "rBootB": {
+  "key": "stats.bootstrap replicates",
+  "prov": "assigned",
+  "value": "2{,}000"
+ },
+ "rBudgetMax": {
+  "key": "largest token budget of the primary answers",
+  "prov": "assigned",
+  "value": "4096"
+ },
+ "rBudgetMin": {
+  "key": "smallest token budget of the primary answers",
+  "prov": "assigned",
+  "value": "1536"
+ },
+ "rBuildCleanAdmit": {
+  "key": "... SCII auto-admits",
+  "prov": "computed",
+  "value": "89"
+ },
+ "rBuildCleanAdmitPct": {
+  "key": "SCII auto-admission rate on buildable clean manifests",
+  "prov": "computed",
+  "value": "31.1\\%"
+ },
+ "rBuildCleanN": {
+  "key": "clean manifests that build (lock covered and succeeded)",
+  "prov": "computed",
+  "value": "286"
+ },
+ "rBuildCleanRequest": {
+  "key": "... SCII requests evidence",
+  "prov": "computed",
+  "value": "13"
+ },
+ "rBuildCleanReview": {
+  "key": "... SCII sends to review",
+  "prov": "computed",
+  "value": "184"
+ },
+ "rByKFourAdmit": {
+  "key": "admitted, k=4",
+  "prov": "computed",
+  "value": "0"
+ },
+ "rByKFourN": {
+  "key": "clean manifests with k=4+",
+  "prov": "measured",
+  "value": "209"
+ },
+ "rByKOneAdmit": {
+  "key": "admitted, k=1",
+  "prov": "computed",
+  "value": "89"
+ },
+ "rByKOneN": {
+  "key": "clean manifests with k=1",
+  "prov": "measured",
+  "value": "178"
+ },
+ "rByKThreeAdmit": {
+  "key": "admitted, k=3",
+  "prov": "computed",
+  "value": "0"
+ },
+ "rByKThreeN": {
+  "key": "clean manifests with k=3",
+  "prov": "measured",
+  "value": "70"
+ },
+ "rByKTwoAdmit": {
+  "key": "admitted, k=2",
+  "prov": "computed",
+  "value": "0"
+ },
+ "rByKTwoN": {
+  "key": "clean manifests with k=2",
+  "prov": "measured",
+  "value": "216"
+ },
+ "rCorpusSha": {
+  "key": "corpus.sha256",
+  "prov": "measured",
+  "value": "d11355380088"
+ },
+ "rCutLargeBudget": {
+  "key": "cut answers of the models with the larger budget (reasoning)",
+  "prov": "measured",
+  "value": "136"
+ },
+ "rCutLoop": {
+  "key": "cut answers with a repetitive tail",
+  "prov": "measured",
+  "value": "312"
+ },
+ "rCutNoLoop": {
+  "key": "cut answers with a final text and no repetitive tail",
+  "prov": "measured",
+  "value": "157"
+ },
+ "rCutNoLoopTopK": {
+  "key": "... its count",
+  "prov": "measured",
+  "value": "101"
+ },
+ "rCutNoLoopTopModel": {
+  "key": "model with the most of them",
+  "prov": "measured",
+  "value": "Gemma-3 12B"
+ },
+ "rCutNoLoopTopN": {
+  "key": "... and its cut answers",
+  "prov": "measured",
+  "value": "107"
+ },
+ "rCutNoText": {
+  "key": "cut answers without a final text",
+  "prov": "measured",
+  "value": "93"
+ },
+ "rCutText": {
+  "key": "cut answers with a final text",
+  "prov": "measured",
+  "value": "469"
+ },
+ "rDeclPhantom": {
+  "key": "prevalence.overall.decl.k",
+  "prov": "measured",
+  "value": "6049"
+ },
+ "rDeclRegistry": {
+  "key": "prevalence.overall.decl.n",
+  "prov": "measured",
+  "value": "11192"
+ },
+ "rDeclRegistryNoTrunc": {
+  "key": "registry declarations without truncated responses",
+  "prov": "measured",
+  "value": "6242"
+ },
+ "rDeltaDays": {
+  "key": "profile.delta_est_days",
+  "prov": "assigned",
+  "value": "30"
+ },
+ "rEstDecided": {
+  "key": "evidence_availability",
+  "prov": "computed",
+  "value": "98.4\\%"
+ },
+ "rEstDecidedShift": {
+  "key": "decidable establishment with shifted horizons",
+  "prov": "computed",
+  "value": "98.0\\%"
+ },
+ "rExHorizon": {
+  "key": "worked_example.horizon",
+  "prov": "measured",
+  "value": "2024-09-18"
+ },
+ "rExMasked": {
+  "key": "worked example phantom masked",
+  "prov": "computed",
+  "value": "1"
+ },
+ "rExModel": {
+  "key": "worked_example.model",
+  "prov": "measured",
+  "value": "Qwen2.5-Coder 1.5B"
+ },
+ "rExModelShort": {
+  "key": "worked_example.model",
+  "prov": "measured",
+  "value": "Qwen2.5-C 1.5B"
+ },
+ "rExNDeps": {
+  "key": "worked_example.n",
+  "prov": "measured",
+  "value": "2"
+ },
+ "rExObsDec": {
+  "key": "worked_example.Obs.decision",
+  "prov": "computed",
+  "value": "\\dec{reject}"
+ },
+ "rExObsR": {
+  "key": "worked_example.Obs.R",
+  "prov": "computed",
+  "value": "0.000"
+ },
+ "rExObsRp": {
+  "key": "worked_example.Obs.Rp",
+  "prov": "computed",
+  "value": "0.600"
+ },
+ "rExPhantom": {
+  "key": "worked_example.phantom (masked if registrable)",
+  "prov": "measured",
+  "value": "\\texttt{ph-52af75b0d8}"
+ },
+ "rExPhantomEco": {
+  "key": "worked_example.phantom.eco",
+  "prov": "measured",
+  "value": "PlatformIO"
+ },
+ "rExSqDec": {
+  "key": "worked_example.Sq.decision",
+  "prov": "computed",
+  "value": "\\dec{reject}"
+ },
+ "rExSqNovetoDec": {
+  "key": "worked_example.squat.noveto",
+  "prov": "computed",
+  "value": "\\dec{reject}"
+ },
+ "rExSqNovetoR": {
+  "key": "worked_example.squat.noveto.R",
+  "prov": "computed",
+  "value": "0.160"
+ },
+ "rExSqPOneDec": {
+  "key": "worked_example.squat.p1",
+  "prov": "computed",
+  "value": "\\dec{admit}"
+ },
+ "rExSqPTwoDayZeroDec": {
+  "key": "worked_example.squat.p2_day0",
+  "prov": "computed",
+  "value": "\\dec{reject}"
+ },
+ "rExSqPTwoMonthDec": {
+  "key": "worked_example.squat.p2_day30",
+  "prov": "computed",
+  "value": "\\dec{admit}"
+ },
+ "rExSqR": {
+  "key": "worked_example.Sq.R",
+  "prov": "computed",
+  "value": "0.160"
+ },
+ "rExSqRp": {
+  "key": "worked_example.Sq.Rp",
+  "prov": "computed",
+  "value": "0.700"
+ },
+ "rExTask": {
+  "key": "worked_example.prompt",
+  "prov": "measured",
+  "value": "platformio-06-F1"
+ },
+ "rExTaskEco": {
+  "key": "worked_example.task ecosystem",
+  "prov": "measured",
+  "value": "PlatformIO"
+ },
+ "rExtAllDecl": {
+  "key": "extension.all.decl.p",
+  "prov": "computed",
+  "value": "61.1\\%"
+ },
+ "rExtAllDeclCI": {
+  "key": "task-cluster bootstrap 95%",
+  "prov": "computed",
+  "value": "[50.3, 70.6]"
+ },
+ "rExtAllDeclK": {
+  "key": "extension.all.decl.k",
+  "prov": "measured",
+  "value": "8359"
+ },
+ "rExtAllDeclN": {
+  "key": "extension.all.decl.n",
+  "prov": "measured",
+  "value": "13686"
+ },
+ "rExtAllResp": {
+  "key": "extension.all.resp.p",
+  "prov": "computed",
+  "value": "63.9\\%"
+ },
+ "rExtAllRespCI": {
+  "key": "task-cluster bootstrap 95%",
+  "prov": "computed",
+  "value": "[58.2, 69.4]"
+ },
+ "rExtAllRespK": {
+  "key": "extension.all.resp.k",
+  "prov": "measured",
+  "value": "1329"
+ },
+ "rExtAllRespN": {
+  "key": "extension.all.resp.n",
+  "prov": "measured",
+  "value": "2079"
+ },
+ "rExtBudget": {
+  "key": "token budgets of the extension pass",
+  "prov": "assigned",
+  "value": "4096/7680"
+ },
+ "rExtCutCutDecl": {
+  "key": "extension.cut_answers_cut.decl.p",
+  "prov": "computed",
+  "value": "79.7\\%"
+ },
+ "rExtCutCutDeclCI": {
+  "key": "task-cluster bootstrap 95%",
+  "prov": "computed",
+  "value": "[72.6, 85.7]"
+ },
+ "rExtCutCutDeclK": {
+  "key": "extension.cut_answers_cut.decl.k",
+  "prov": "measured",
+  "value": "3945"
+ },
+ "rExtCutCutDeclN": {
+  "key": "extension.cut_answers_cut.decl.n",
+  "prov": "measured",
+  "value": "4950"
+ },
+ "rExtCutCutResp": {
+  "key": "extension.cut_answers_cut.resp.p",
+  "prov": "computed",
+  "value": "80.8\\%"
+ },
+ "rExtCutCutRespCI": {
+  "key": "task-cluster bootstrap 95%",
+  "prov": "computed",
+  "value": "[75.0, 85.6]"
+ },
+ "rExtCutCutRespK": {
+  "key": "extension.cut_answers_cut.resp.k",
+  "prov": "measured",
+  "value": "298"
+ },
+ "rExtCutCutRespN": {
+  "key": "extension.cut_answers_cut.resp.n",
+  "prov": "measured",
+  "value": "369"
+ },
+ "rExtCutExtDecl": {
+  "key": "extension.cut_answers_extended.decl.p",
+  "prov": "computed",
+  "value": "84.0\\%"
+ },
+ "rExtCutExtDeclCI": {
+  "key": "task-cluster bootstrap 95%",
+  "prov": "computed",
+  "value": "[73.5, 90.3]"
+ },
+ "rExtCutExtDeclK": {
+  "key": "extension.cut_answers_extended.decl.k",
+  "prov": "measured",
+  "value": "6255"
+ },
+ "rExtCutExtDeclN": {
+  "key": "extension.cut_answers_extended.decl.n",
+  "prov": "measured",
+  "value": "7444"
+ },
+ "rExtCutExtResp": {
+  "key": "extension.cut_answers_extended.resp.p",
+  "prov": "computed",
+  "value": "78.1\\%"
+ },
+ "rExtCutExtRespCI": {
+  "key": "task-cluster bootstrap 95%",
+  "prov": "computed",
+  "value": "[72.7, 82.9]"
+ },
+ "rExtCutExtRespK": {
+  "key": "extension.cut_answers_extended.resp.k",
+  "prov": "measured",
+  "value": "336"
+ },
+ "rExtCutExtRespN": {
+  "key": "extension.cut_answers_extended.resp.n",
+  "prov": "measured",
+  "value": "430"
+ },
+ "rExtDatedKept": {
+  "key": "... that keep the prefix",
+  "prov": "measured",
+  "value": "0"
+ },
+ "rExtDatedModels": {
+  "key": "models whose library template writes the current date into the prompt",
+  "prov": "measured",
+  "value": "gpt-oss 20B"
+ },
+ "rExtDatedN": {
+  "key": "extended answers of those models",
+  "prov": "measured",
+  "value": "102"
+ },
+ "rExtFinDecl": {
+  "key": "extension.finished.decl.p",
+  "prov": "computed",
+  "value": "34.3\\%"
+ },
+ "rExtFinDeclCI": {
+  "key": "task-cluster bootstrap 95%",
+  "prov": "computed",
+  "value": "[29.5, 40.0]"
+ },
+ "rExtFinDeclK": {
+  "key": "extension.finished.decl.k",
+  "prov": "measured",
+  "value": "2500"
+ },
+ "rExtFinDeclN": {
+  "key": "extension.finished.decl.n",
+  "prov": "measured",
+  "value": "7291"
+ },
+ "rExtFinResp": {
+  "key": "extension.finished.resp.p",
+  "prov": "computed",
+  "value": "61.1\\%"
+ },
+ "rExtFinRespCI": {
+  "key": "task-cluster bootstrap 95%",
+  "prov": "computed",
+  "value": "[55.2, 66.6]"
+ },
+ "rExtFinRespK": {
+  "key": "extension.finished.resp.k",
+  "prov": "measured",
+  "value": "1143"
+ },
+ "rExtFinRespN": {
+  "key": "extension.finished.resp.n",
+  "prov": "measured",
+  "value": "1870"
+ },
+ "rExtFinalNow": {
+  "key": "extended answers with a final answer the cut one lacked",
+  "prov": "measured",
+  "value": "61"
+ },
+ "rExtFinished": {
+  "key": "extended answers that finish",
+  "prov": "measured",
+  "value": "252"
+ },
+ "rExtKept": {
+  "key": "extended answers that repeat the cut answer as their prefix",
+  "prov": "measured",
+  "value": "396"
+ },
+ "rExtKeptCutDecl": {
+  "key": "extension.kept_cut.decl.p",
+  "prov": "computed",
+  "value": "80.0\\%"
+ },
+ "rExtKeptCutDeclCI": {
+  "key": "task-cluster bootstrap 95%",
+  "prov": "computed",
+  "value": "[71.8, 86.3]"
+ },
+ "rExtKeptCutDeclK": {
+  "key": "extension.kept_cut.decl.k",
+  "prov": "measured",
+  "value": "3327"
+ },
+ "rExtKeptCutDeclN": {
+  "key": "extension.kept_cut.decl.n",
+  "prov": "measured",
+  "value": "4160"
+ },
+ "rExtKeptCutResp": {
+  "key": "extension.kept_cut.resp.p",
+  "prov": "computed",
+  "value": "81.8\\%"
+ },
+ "rExtKeptCutRespCI": {
+  "key": "task-cluster bootstrap 95%",
+  "prov": "computed",
+  "value": "[76.0, 87.1]"
+ },
+ "rExtKeptCutRespK": {
+  "key": "extension.kept_cut.resp.k",
+  "prov": "measured",
+  "value": "251"
+ },
+ "rExtKeptCutRespN": {
+  "key": "extension.kept_cut.resp.n",
+  "prov": "measured",
+  "value": "307"
+ },
+ "rExtKeptExtDecl": {
+  "key": "extension.kept_extended.decl.p",
+  "prov": "computed",
+  "value": "86.1\\%"
+ },
+ "rExtKeptExtDeclCI": {
+  "key": "task-cluster bootstrap 95%",
+  "prov": "computed",
+  "value": "[76.7, 91.9]"
+ },
+ "rExtKeptExtDeclK": {
+  "key": "extension.kept_extended.decl.k",
+  "prov": "measured",
+  "value": "5387"
+ },
+ "rExtKeptExtDeclN": {
+  "key": "extension.kept_extended.decl.n",
+  "prov": "measured",
+  "value": "6256"
+ },
+ "rExtKeptExtResp": {
+  "key": "extension.kept_extended.resp.p",
+  "prov": "computed",
+  "value": "81.1\\%"
+ },
+ "rExtKeptExtRespCI": {
+  "key": "task-cluster bootstrap 95%",
+  "prov": "computed",
+  "value": "[74.9, 86.6]"
+ },
+ "rExtKeptExtRespK": {
+  "key": "extension.kept_extended.resp.k",
+  "prov": "measured",
+  "value": "257"
+ },
+ "rExtKeptExtRespN": {
+  "key": "extension.kept_extended.resp.n",
+  "prov": "measured",
+  "value": "317"
+ },
+ "rExtKeptPoolDecl": {
+  "key": "extension.kept_only.decl.p",
+  "prov": "computed",
+  "value": "61.0\\%"
+ },
+ "rExtKeptPoolDeclCI": {
+  "key": "task-cluster bootstrap 95%",
+  "prov": "computed",
+  "value": "[50.8, 69.7]"
+ },
+ "rExtKeptPoolDeclK": {
+  "key": "extension.kept_only.decl.k",
+  "prov": "measured",
+  "value": "8109"
+ },
+ "rExtKeptPoolDeclN": {
+  "key": "extension.kept_only.decl.n",
+  "prov": "measured",
+  "value": "13288"
+ },
+ "rExtKeptPoolResp": {
+  "key": "extension.kept_only.resp.p",
+  "prov": "computed",
+  "value": "64.0\\%"
+ },
+ "rExtKeptPoolRespCI": {
+  "key": "task-cluster bootstrap 95%",
+  "prov": "computed",
+  "value": "[58.2, 69.5]"
+ },
+ "rExtKeptPoolRespK": {
+  "key": "extension.kept_only.resp.k",
+  "prov": "measured",
+  "value": "1297"
+ },
+ "rExtKeptPoolRespN": {
+  "key": "extension.kept_only.resp.n",
+  "prov": "measured",
+  "value": "2028"
+ },
+ "rExtN": {
+  "key": "cut answers generated again with a larger budget",
+  "prov": "measured",
+  "value": "562"
+ },
+ "rExtPartedMedian": {
+  "key": "median share of the cut answer before the extended one parts from it",
+  "prov": "computed",
+  "value": "5.7\\%"
+ },
+ "rExtPartedN": {
+  "key": "... that part from the cut answer",
+  "prov": "measured",
+  "value": "64"
+ },
+ "rExtPartedQOne": {
+  "key": "first quartile",
+  "prov": "computed",
+  "value": "2.1\\%"
+ },
+ "rExtPartedQThree": {
+  "key": "third quartile",
+  "prov": "computed",
+  "value": "11.0\\%"
+ },
+ "rExtStillCut": {
+  "key": "extended answers that reach the larger budget",
+  "prov": "measured",
+  "value": "310"
+ },
+ "rExtUndatedKept": {
+  "key": "... that keep the prefix",
+  "prov": "measured",
+  "value": "396"
+ },
+ "rExtUndatedN": {
+  "key": "extended answers of the other models",
+  "prov": "measured",
+  "value": "460"
+ },
+ "rFOneModels": {
+  "key": "models with F1 answers",
+  "prov": "measured",
+  "value": "Qwen2.5-Coder 1.5B, Llama-3.2 3B, Qwen2.5-Coder 7B, DeepSeek-Coder 6.7B, Llama-3.1 8B, Qwen3 8B, Granite-3.3 8B, Gemma-3 12B, Qwen2.5-Coder 14B, Phi-4 14B, DeepSeek-Coder-V2 16B, gpt-oss 20B, Qwen2.5-Coder 32B"
+ },
+ "rFamBoth": {
+  "key": "pairs with a phantom in both answers",
+  "prov": "measured",
+  "value": "482"
+ },
+ "rFamCmpModels": {
+  "key": "family_comparison.models",
+  "prov": "measured",
+  "value": "all models"
+ },
+ "rFamCmpN": {
+  "key": "family_comparison.n_models",
+  "prov": "measured",
+  "value": "13"
+ },
+ "rFamCommonEcos": {
+  "key": "ecosystems with registry declarations in both families",
+  "prov": "measured",
+  "value": "Arduino LM, PlatformIO, ESP-IDF, ROS~2, crates.io, MicroPython, PyPI, npm"
+ },
+ "rFamEqualBudget": {
+  "key": "one token budget for both families of every compared model",
+  "prov": "computed",
+  "value": "1"
+ },
+ "rFamFOneDecl": {
+  "key": "family_comparison.F1.decl.p",
+  "prov": "computed",
+  "value": "49.4\\%"
+ },
+ "rFamFOneDeclCI": {
+  "key": "cluster bootstrap 95%",
+  "prov": "computed",
+  "value": "[41.8, 57.3]"
+ },
+ "rFamFOneGen": {
+  "key": "family_comparison.F1 greedy answers",
+  "prov": "measured",
+  "value": "1248"
+ },
+ "rFamFOneK": {
+  "key": "family_comparison.F1.decl.k",
+  "prov": "measured",
+  "value": "2121"
+ },
+ "rFamFOneMatched": {
+  "key": "family_comparison.matched.F1.decl.p",
+  "prov": "computed",
+  "value": "49.4\\%"
+ },
+ "rFamFOneMatchedK": {
+  "key": "family_comparison.matched.F1.decl.k",
+  "prov": "measured",
+  "value": "2121"
+ },
+ "rFamFOneMatchedN": {
+  "key": "family_comparison.matched.F1.decl.n",
+  "prov": "measured",
+  "value": "4291"
+ },
+ "rFamFOneN": {
+  "key": "family_comparison.F1.decl.n",
+  "prov": "measured",
+  "value": "4291"
+ },
+ "rFamFOneNoTrunc": {
+  "key": "family_comparison.F1.decl.p without cut answers",
+  "prov": "computed",
+  "value": "33.9\\%"
+ },
+ "rFamFOneResp": {
+  "key": "family_comparison.F1.resp.p",
+  "prov": "computed",
+  "value": "62.2\\%"
+ },
+ "rFamFOneRespN": {
+  "key": "family_comparison.F1.resp.n",
+  "prov": "measured",
+  "value": "1004"
+ },
+ "rFamFOneRespNoTrunc": {
+  "key": "family_comparison.F1.resp.p without cut answers",
+  "prov": "computed",
+  "value": "58.5\\%"
+ },
+ "rFamFOneTrunc": {
+  "key": "family_comparison.F1 answers that hit the token limit",
+  "prov": "measured",
+  "value": "341"
+ },
+ "rFamFOneTruncPct": {
+  "key": "family_comparison.F1 share of answers at the token limit",
+  "prov": "computed",
+  "value": "27.3\\%"
+ },
+ "rFamFTwoDecl": {
+  "key": "family_comparison.F2.decl.p",
+  "prov": "computed",
+  "value": "56.9\\%"
+ },
+ "rFamFTwoDeclCI": {
+  "key": "cluster bootstrap 95%",
+  "prov": "computed",
+  "value": "[49.5, 63.7]"
+ },
+ "rFamFTwoK": {
+  "key": "family_comparison.F2.decl.k",
+  "prov": "measured",
+  "value": "3928"
+ },
+ "rFamFTwoMatched": {
+  "key": "family_comparison.matched.F2.decl.p",
+  "prov": "computed",
+  "value": "56.9\\%"
+ },
+ "rFamFTwoMatchedK": {
+  "key": "family_comparison.matched.F2.decl.k",
+  "prov": "measured",
+  "value": "3928"
+ },
+ "rFamFTwoMatchedN": {
+  "key": "family_comparison.matched.F2.decl.n",
+  "prov": "measured",
+  "value": "6901"
+ },
+ "rFamFTwoN": {
+  "key": "family_comparison.F2.decl.n",
+  "prov": "measured",
+  "value": "6901"
+ },
+ "rFamFTwoNoTrunc": {
+  "key": "family_comparison.F2.decl.p without cut answers",
+  "prov": "computed",
+  "value": "33.6\\%"
+ },
+ "rFamFTwoResp": {
+  "key": "family_comparison.F2.resp.p",
+  "prov": "computed",
+  "value": "65.8\\%"
+ },
+ "rFamFTwoRespN": {
+  "key": "family_comparison.F2.resp.n",
+  "prov": "measured",
+  "value": "1014"
+ },
+ "rFamFTwoRespNoTrunc": {
+  "key": "family_comparison.F2.resp.p without cut answers",
+  "prov": "computed",
+  "value": "61.7\\%"
+ },
+ "rFamFTwoTruncPct": {
+  "key": "family_comparison.F2 share of answers at the token limit",
+  "prov": "computed",
+  "value": "17.7\\%"
+ },
+ "rFamMcNemarP": {
+  "key": "exact McNemar test over (model, task) pairs, two-sided",
+  "prov": "computed",
+  "value": "$p=0.12$"
+ },
+ "rFamOnlyFOne": {
+  "key": "pairs with a phantom in the F1 answer only",
+  "prov": "measured",
+  "value": "65"
+ },
+ "rFamOnlyFTwo": {
+  "key": "pairs with a phantom in the F2 answer only",
+  "prov": "measured",
+  "value": "85"
+ },
+ "rFamPairs": {
+  "key": "(model, task) pairs with registry declarations in both families",
+  "prov": "measured",
+  "value": "898"
+ },
+ "rFamilies": {
+  "key": "families",
+  "prov": "measured",
+  "value": "F1, F2"
+ },
+ "rFilesCargo": {
+  "key": "files Cargo.toml",
+  "prov": "measured",
+  "value": "298"
+ },
+ "rFilesCargoBad": {
+  "key": "malformed Cargo.toml",
+  "prov": "measured",
+  "value": "77"
+ },
+ "rFilesIdf": {
+  "key": "files idf_component.yml",
+  "prov": "measured",
+  "value": "159"
+ },
+ "rFilesIdfBad": {
+  "key": "malformed idf_component.yml",
+  "prov": "measured",
+  "value": "118"
+ },
+ "rFilesJson": {
+  "key": "files package.json",
+  "prov": "measured",
+  "value": "0"
+ },
+ "rFilesJsonBad": {
+  "key": "malformed package.json",
+  "prov": "measured",
+  "value": "0"
+ },
+ "rFilesPio": {
+  "key": "files platformio.ini",
+  "prov": "measured",
+  "value": "278"
+ },
+ "rFilesPioBad": {
+  "key": "malformed platformio.ini",
+  "prov": "measured",
+  "value": "26"
+ },
+ "rFilesReq": {
+  "key": "files requirements.txt",
+  "prov": "measured",
+  "value": "281"
+ },
+ "rFilesReqBad": {
+  "key": "malformed requirements.txt",
+  "prov": "measured",
+  "value": "1"
+ },
+ "rFilesXml": {
+  "key": "files package.xml",
+  "prov": "measured",
+  "value": "290"
+ },
+ "rFilesXmlBad": {
+  "key": "malformed package.xml",
+  "prov": "measured",
+  "value": "140"
+ },
+ "rFinLoop": {
+  "key": "finished answers with a repetitive tail",
+  "prov": "measured",
+  "value": "39"
+ },
+ "rFinLoopPct": {
+  "key": "share of finished answers with a repetitive tail",
+  "prov": "computed",
+  "value": "2.0\\%"
+ },
+ "rFinN": {
+  "key": "finished answers",
+  "prov": "measured",
+  "value": "1934"
+ },
+ "rGNovetoCAdmit": {
+  "key": "obs.lock_files.scii_noveto.C.admit",
+  "prov": "computed",
+  "value": "93"
+ },
+ "rGNovetoCReject": {
+  "key": "obs.lock_files.scii_noveto.C.reject",
+  "prov": "computed",
+  "value": "0"
+ },
+ "rGNovetoCRequest": {
+  "key": "obs.lock_files.scii_noveto.C.request",
+  "prov": "computed",
+  "value": "0"
+ },
+ "rGNovetoCReview": {
+  "key": "obs.lock_files.scii_noveto.C.review",
+  "prov": "computed",
+  "value": "644"
+ },
+ "rGNovetoHAdmit": {
+  "key": "obs.lock_files.scii_noveto.H.admit",
+  "prov": "computed",
+  "value": "0"
+ },
+ "rGNovetoHReject": {
+  "key": "obs.lock_files.scii_noveto.H.reject",
+  "prov": "computed",
+  "value": "54"
+ },
+ "rGNovetoHRequest": {
+  "key": "obs.lock_files.scii_noveto.H.request",
+  "prov": "computed",
+  "value": "0"
+ },
+ "rGNovetoHReview": {
+  "key": "obs.lock_files.scii_noveto.H.review",
+  "prov": "computed",
+  "value": "0"
+ },
+ "rGNovetoUAdmit": {
+  "key": "obs.lock_files.scii_noveto.U.admit",
+  "prov": "computed",
+  "value": "0"
+ },
+ "rGNovetoUReject": {
+  "key": "obs.lock_files.scii_noveto.U.reject",
+  "prov": "computed",
+  "value": "1291"
+ },
+ "rGNovetoURequest": {
+  "key": "obs.lock_files.scii_noveto.U.request",
+  "prov": "computed",
+  "value": "0"
+ },
+ "rGNovetoUReview": {
+  "key": "obs.lock_files.scii_noveto.U.review",
+  "prov": "computed",
+  "value": "0"
+ },
+ "rGOptimisticCAdmit": {
+  "key": "obs.lock_files.scii_optimistic.C.admit",
+  "prov": "computed",
+  "value": "737"
+ },
+ "rGOptimisticCReject": {
+  "key": "obs.lock_files.scii_optimistic.C.reject",
+  "prov": "computed",
+  "value": "0"
+ },
+ "rGOptimisticCRequest": {
+  "key": "obs.lock_files.scii_optimistic.C.request",
+  "prov": "computed",
+  "value": "0"
+ },
+ "rGOptimisticCReview": {
+  "key": "obs.lock_files.scii_optimistic.C.review",
+  "prov": "computed",
+  "value": "0"
+ },
+ "rGOptimisticHAdmit": {
+  "key": "obs.lock_files.scii_optimistic.H.admit",
+  "prov": "computed",
+  "value": "0"
+ },
+ "rGOptimisticHReject": {
+  "key": "obs.lock_files.scii_optimistic.H.reject",
+  "prov": "computed",
+  "value": "54"
+ },
+ "rGOptimisticHRequest": {
+  "key": "obs.lock_files.scii_optimistic.H.request",
+  "prov": "computed",
+  "value": "0"
+ },
+ "rGOptimisticHReview": {
+  "key": "obs.lock_files.scii_optimistic.H.review",
+  "prov": "computed",
+  "value": "0"
+ },
+ "rGOptimisticUAdmit": {
+  "key": "obs.lock_files.scii_optimistic.U.admit",
+  "prov": "computed",
+  "value": "0"
+ },
+ "rGOptimisticUReject": {
+  "key": "obs.lock_files.scii_optimistic.U.reject",
+  "prov": "computed",
+  "value": "1291"
+ },
+ "rGOptimisticURequest": {
+  "key": "obs.lock_files.scii_optimistic.U.request",
+  "prov": "computed",
+  "value": "0"
+ },
+ "rGOptimisticUReview": {
+  "key": "obs.lock_files.scii_optimistic.U.review",
+  "prov": "computed",
+  "value": "0"
+ },
+ "rGPOneCAdmit": {
+  "key": "obs.lock_files.exists.C.admit",
+  "prov": "computed",
+  "value": "737"
+ },
+ "rGPOneCReject": {
+  "key": "obs.lock_files.exists.C.reject",
+  "prov": "computed",
+  "value": "0"
+ },
+ "rGPOneCRequest": {
+  "key": "obs.lock_files.exists.C.request",
+  "prov": "computed",
+  "value": "0"
+ },
+ "rGPOneCReview": {
+  "key": "obs.lock_files.exists.C.review",
+  "prov": "computed",
+  "value": "0"
+ },
+ "rGPOneHAdmit": {
+  "key": "obs.lock_files.exists.H.admit",
+  "prov": "computed",
+  "value": "54"
+ },
+ "rGPOneHReject": {
+  "key": "obs.lock_files.exists.H.reject",
+  "prov": "computed",
+  "value": "0"
+ },
+ "rGPOneHRequest": {
+  "key": "obs.lock_files.exists.H.request",
+  "prov": "computed",
+  "value": "0"
+ },
+ "rGPOneHReview": {
+  "key": "obs.lock_files.exists.H.review",
+  "prov": "computed",
+  "value": "0"
+ },
+ "rGPOneUAdmit": {
+  "key": "obs.lock_files.exists.U.admit",
+  "prov": "computed",
+  "value": "0"
+ },
+ "rGPOneUReject": {
+  "key": "obs.lock_files.exists.U.reject",
+  "prov": "computed",
+  "value": "1291"
+ },
+ "rGPOneURequest": {
+  "key": "obs.lock_files.exists.U.request",
+  "prov": "computed",
+  "value": "0"
+ },
+ "rGPOneUReview": {
+  "key": "obs.lock_files.exists.U.review",
+  "prov": "computed",
+  "value": "0"
+ },
+ "rGPThreeCAdmit": {
+  "key": "obs.lock_files.asof.C.admit",
+  "prov": "computed",
+  "value": "711"
+ },
+ "rGPThreeCReject": {
+  "key": "obs.lock_files.asof.C.reject",
+  "prov": "computed",
+  "value": "26"
+ },
+ "rGPThreeCRequest": {
+  "key": "obs.lock_files.asof.C.request",
+  "prov": "computed",
+  "value": "0"
+ },
+ "rGPThreeCReview": {
+  "key": "obs.lock_files.asof.C.review",
+  "prov": "computed",
+  "value": "0"
+ },
+ "rGPThreeHAdmit": {
+  "key": "obs.lock_files.asof.H.admit",
+  "prov": "computed",
+  "value": "0"
+ },
+ "rGPThreeHReject": {
+  "key": "obs.lock_files.asof.H.reject",
+  "prov": "computed",
+  "value": "54"
+ },
+ "rGPThreeHRequest": {
+  "key": "obs.lock_files.asof.H.request",
+  "prov": "computed",
+  "value": "0"
+ },
+ "rGPThreeHReview": {
+  "key": "obs.lock_files.asof.H.review",
+  "prov": "computed",
+  "value": "0"
+ },
+ "rGPThreeUAdmit": {
+  "key": "obs.lock_files.asof.U.admit",
+  "prov": "computed",
+  "value": "0"
+ },
+ "rGPThreeUCAdmit": {
+  "key": "obs.lock_files.asof3.C.admit",
+  "prov": "computed",
+  "value": "644"
+ },
+ "rGPThreeUCReject": {
+  "key": "obs.lock_files.asof3.C.reject",
+  "prov": "computed",
+  "value": "0"
+ },
+ "rGPThreeUCRequest": {
+  "key": "obs.lock_files.asof3.C.request",
+  "prov": "computed",
+  "value": "93"
+ },
+ "rGPThreeUCReview": {
+  "key": "obs.lock_files.asof3.C.review",
+  "prov": "computed",
+  "value": "0"
+ },
+ "rGPThreeUHAdmit": {
+  "key": "obs.lock_files.asof3.H.admit",
+  "prov": "computed",
+  "value": "0"
+ },
+ "rGPThreeUHReject": {
+  "key": "obs.lock_files.asof3.H.reject",
+  "prov": "computed",
+  "value": "54"
+ },
+ "rGPThreeUHRequest": {
+  "key": "obs.lock_files.asof3.H.request",
+  "prov": "computed",
+  "value": "0"
+ },
+ "rGPThreeUHReview": {
+  "key": "obs.lock_files.asof3.H.review",
+  "prov": "computed",
+  "value": "0"
+ },
+ "rGPThreeUReject": {
+  "key": "obs.lock_files.asof.U.reject",
+  "prov": "computed",
+  "value": "1291"
+ },
+ "rGPThreeURequest": {
+  "key": "obs.lock_files.asof.U.request",
+  "prov": "computed",
+  "value": "0"
+ },
+ "rGPThreeUReview": {
+  "key": "obs.lock_files.asof.U.review",
+  "prov": "computed",
+  "value": "0"
+ },
+ "rGPThreeUUAdmit": {
+  "key": "obs.lock_files.asof3.U.admit",
+  "prov": "computed",
+  "value": "0"
+ },
+ "rGPThreeUUReject": {
+  "key": "obs.lock_files.asof3.U.reject",
+  "prov": "computed",
+  "value": "1291"
+ },
+ "rGPThreeUURequest": {
+  "key": "obs.lock_files.asof3.U.request",
+  "prov": "computed",
+  "value": "0"
+ },
+ "rGPThreeUUReview": {
+  "key": "obs.lock_files.asof3.U.review",
+  "prov": "computed",
+  "value": "0"
+ },
+ "rGPTwoCAdmit": {
+  "key": "obs.lock_files.age.C.admit",
+  "prov": "computed",
+  "value": "737"
+ },
+ "rGPTwoCReject": {
+  "key": "obs.lock_files.age.C.reject",
+  "prov": "computed",
+  "value": "0"
+ },
+ "rGPTwoCRequest": {
+  "key": "obs.lock_files.age.C.request",
+  "prov": "computed",
+  "value": "0"
+ },
+ "rGPTwoCReview": {
+  "key": "obs.lock_files.age.C.review",
+  "prov": "computed",
+  "value": "0"
+ },
+ "rGPTwoHAdmit": {
+  "key": "obs.lock_files.age.H.admit",
+  "prov": "computed",
+  "value": "54"
+ },
+ "rGPTwoHReject": {
+  "key": "obs.lock_files.age.H.reject",
+  "prov": "computed",
+  "value": "0"
+ },
+ "rGPTwoHRequest": {
+  "key": "obs.lock_files.age.H.request",
+  "prov": "computed",
+  "value": "0"
+ },
+ "rGPTwoHReview": {
+  "key": "obs.lock_files.age.H.review",
+  "prov": "computed",
+  "value": "0"
+ },
+ "rGPTwoUAdmit": {
+  "key": "obs.lock_files.age.U.admit",
+  "prov": "computed",
+  "value": "0"
+ },
+ "rGPTwoUReject": {
+  "key": "obs.lock_files.age.U.reject",
+  "prov": "computed",
+  "value": "1291"
+ },
+ "rGPTwoURequest": {
+  "key": "obs.lock_files.age.U.request",
+  "prov": "computed",
+  "value": "0"
+ },
+ "rGPTwoUReview": {
+  "key": "obs.lock_files.age.U.review",
+  "prov": "computed",
+  "value": "0"
+ },
+ "rGPZeroCAdmit": {
+  "key": "obs.lock_files.accept_all.C.admit",
+  "prov": "computed",
+  "value": "737"
+ },
+ "rGPZeroCReject": {
+  "key": "obs.lock_files.accept_all.C.reject",
+  "prov": "computed",
+  "value": "0"
+ },
+ "rGPZeroCRequest": {
+  "key": "obs.lock_files.accept_all.C.request",
+  "prov": "computed",
+  "value": "0"
+ },
+ "rGPZeroCReview": {
+  "key": "obs.lock_files.accept_all.C.review",
+  "prov": "computed",
+  "value": "0"
+ },
+ "rGPZeroHAdmit": {
+  "key": "obs.lock_files.accept_all.H.admit",
+  "prov": "computed",
+  "value": "54"
+ },
+ "rGPZeroHReject": {
+  "key": "obs.lock_files.accept_all.H.reject",
+  "prov": "computed",
+  "value": "0"
+ },
+ "rGPZeroHRequest": {
+  "key": "obs.lock_files.accept_all.H.request",
+  "prov": "computed",
+  "value": "0"
+ },
+ "rGPZeroHReview": {
+  "key": "obs.lock_files.accept_all.H.review",
+  "prov": "computed",
+  "value": "0"
+ },
+ "rGPZeroUAdmit": {
+  "key": "obs.lock_files.accept_all.U.admit",
+  "prov": "computed",
+  "value": "1291"
+ },
+ "rGPZeroUReject": {
+  "key": "obs.lock_files.accept_all.U.reject",
+  "prov": "computed",
+  "value": "0"
+ },
+ "rGPZeroURequest": {
+  "key": "obs.lock_files.accept_all.U.request",
+  "prov": "computed",
+  "value": "0"
+ },
+ "rGPZeroUReview": {
+  "key": "obs.lock_files.accept_all.U.review",
+  "prov": "computed",
+  "value": "0"
+ },
+ "rGSciiCAdmit": {
+  "key": "obs.lock_files.scii.C.admit",
+  "prov": "computed",
+  "value": "93"
+ },
+ "rGSciiCReject": {
+  "key": "obs.lock_files.scii.C.reject",
+  "prov": "computed",
+  "value": "0"
+ },
+ "rGSciiCRequest": {
+  "key": "obs.lock_files.scii.C.request",
+  "prov": "computed",
+  "value": "97"
+ },
+ "rGSciiCReview": {
+  "key": "obs.lock_files.scii.C.review",
+  "prov": "computed",
+  "value": "547"
+ },
+ "rGSciiHAdmit": {
+  "key": "obs.lock_files.scii.H.admit",
+  "prov": "computed",
+  "value": "0"
+ },
+ "rGSciiHReject": {
+  "key": "obs.lock_files.scii.H.reject",
+  "prov": "computed",
+  "value": "54"
+ },
+ "rGSciiHRequest": {
+  "key": "obs.lock_files.scii.H.request",
+  "prov": "computed",
+  "value": "0"
+ },
+ "rGSciiHReview": {
+  "key": "obs.lock_files.scii.H.review",
+  "prov": "computed",
+  "value": "0"
+ },
+ "rGSciiUAdmit": {
+  "key": "obs.lock_files.scii.U.admit",
+  "prov": "computed",
+  "value": "0"
+ },
+ "rGSciiUReject": {
+  "key": "obs.lock_files.scii.U.reject",
+  "prov": "computed",
+  "value": "1291"
+ },
+ "rGSciiURequest": {
+  "key": "obs.lock_files.scii.U.request",
+  "prov": "computed",
+  "value": "0"
+ },
+ "rGSciiUReview": {
+  "key": "obs.lock_files.scii.U.review",
+  "prov": "computed",
+  "value": "0"
+ },
+ "rGTwostateCAdmit": {
+  "key": "obs.lock_files.scii_2state.C.admit",
+  "prov": "computed",
+  "value": "93"
+ },
+ "rGTwostateCReject": {
+  "key": "obs.lock_files.scii_2state.C.reject",
+  "prov": "computed",
+  "value": "97"
+ },
+ "rGTwostateCRequest": {
+  "key": "obs.lock_files.scii_2state.C.request",
+  "prov": "computed",
+  "value": "0"
+ },
+ "rGTwostateCReview": {
+  "key": "obs.lock_files.scii_2state.C.review",
+  "prov": "computed",
+  "value": "547"
+ },
+ "rGTwostateHAdmit": {
+  "key": "obs.lock_files.scii_2state.H.admit",
+  "prov": "computed",
+  "value": "0"
+ },
+ "rGTwostateHReject": {
+  "key": "obs.lock_files.scii_2state.H.reject",
+  "prov": "computed",
+  "value": "54"
+ },
+ "rGTwostateHRequest": {
+  "key": "obs.lock_files.scii_2state.H.request",
+  "prov": "computed",
+  "value": "0"
+ },
+ "rGTwostateHReview": {
+  "key": "obs.lock_files.scii_2state.H.review",
+  "prov": "computed",
+  "value": "0"
+ },
+ "rGTwostateUAdmit": {
+  "key": "obs.lock_files.scii_2state.U.admit",
+  "prov": "computed",
+  "value": "0"
+ },
+ "rGTwostateUReject": {
+  "key": "obs.lock_files.scii_2state.U.reject",
+  "prov": "computed",
+  "value": "1291"
+ },
+ "rGTwostateURequest": {
+  "key": "obs.lock_files.scii_2state.U.request",
+  "prov": "computed",
+  "value": "0"
+ },
+ "rGTwostateUReview": {
+  "key": "obs.lock_files.scii_2state.U.review",
+  "prov": "computed",
+  "value": "0"
+ },
+ "rGateEqFilter": {
+  "key": "gate-only rule with delta 0 == P3-unknown on every manifest and world",
+  "prov": "computed",
+  "value": "1"
+ },
+ "rGateUs": {
+  "key": "gate.us_per_decision (this host)",
+  "prov": "measured",
+  "value": "16"
+ },
+ "rGenSeed": {
+  "key": "run config samples[idx=0].seed",
+  "prov": "assigned",
+  "value": "20240628"
+ },
+ "rGgufGapLaterMinD": {
+  "key": "smallest gap between horizon and GGUF among models dated by their source weights (days)",
+  "prov": "computed",
+  "value": "0.1"
+ },
+ "rGgufGapMaxD": {
+  "key": "largest gap between horizon and the GGUF we ran (days)",
+  "prov": "computed",
+  "value": "345.6"
+ },
+ "rGgufGapMinD": {
+  "key": "smallest gap between horizon and the GGUF (days)",
+  "prov": "computed",
+  "value": "0.1"
+ },
+ "rGoCAdmit": {
+  "key": "gate_only_profile.C.admit",
+  "prov": "computed",
+  "value": "640"
+ },
+ "rGoCReject": {
+  "key": "gate_only_profile.C.reject",
+  "prov": "computed",
+  "value": "0"
+ },
+ "rGoCRequest": {
+  "key": "gate_only_profile.C.request",
+  "prov": "computed",
+  "value": "97"
+ },
+ "rGoCReview": {
+  "key": "gate_only_profile.C.review",
+  "prov": "computed",
+  "value": "0"
+ },
+ "rGoHAdmit": {
+  "key": "gate_only_profile.H.admit",
+  "prov": "computed",
+  "value": "0"
+ },
+ "rGoHReject": {
+  "key": "gate_only_profile.H.reject",
+  "prov": "computed",
+  "value": "54"
+ },
+ "rGoHRequest": {
+  "key": "gate_only_profile.H.request",
+  "prov": "computed",
+  "value": "0"
+ },
+ "rGoHReview": {
+  "key": "gate_only_profile.H.review",
+  "prov": "computed",
+  "value": "0"
+ },
+ "rGoUAdmit": {
+  "key": "gate_only_profile.U.admit",
+  "prov": "computed",
+  "value": "0"
+ },
+ "rGoUReject": {
+  "key": "gate_only_profile.U.reject",
+  "prov": "computed",
+  "value": "1291"
+ },
+ "rGoURequest": {
+  "key": "gate_only_profile.U.request",
+  "prov": "computed",
+  "value": "0"
+ },
+ "rGoUReview": {
+  "key": "gate_only_profile.U.review",
+  "prov": "computed",
+  "value": "0"
+ },
+ "rHasAudit": {
+  "key": "audit covers every post-horizon match",
+  "prov": "computed",
+  "value": "1"
+ },
+ "rHasEspBuild": {
+  "key": "ESP-IDF build step present in the replay",
+  "prov": "computed",
+  "value": "1"
+ },
+ "rHasExample": {
+  "key": "worked example available",
+  "prov": "computed",
+  "value": "1"
+ },
+ "rHasExt": {
+  "key": "extension of the cut answers available",
+  "prov": "computed",
+  "value": "1"
+ },
+ "rHasFamCmp": {
+  "key": "family comparison available",
+  "prov": "computed",
+  "value": "1"
+ },
+ "rHasFamEq": {
+  "key": "equal-budget family comparison absent",
+  "prov": "computed",
+  "value": "0"
+ },
+ "rHasGroups": {
+  "key": "two model groups (pilot and extension)",
+  "prov": "computed",
+  "value": "0"
+ },
+ "rHasHistCost": {
+  "key": "history mining time recorded",
+  "prov": "computed",
+  "value": "1"
+ },
+ "rHasKappa": {
+  "key": "two annotators available",
+  "prov": "computed",
+  "value": "1"
+ },
+ "rHasLock": {
+  "key": "measured lock files cover the answers",
+  "prov": "computed",
+  "value": "1"
+ },
+ "rHasLookups": {
+  "key": "cold lookup timings available (at least 100)",
+  "prov": "computed",
+  "value": "1"
+ },
+ "rHasPersist": {
+  "key": "persistence pass available",
+  "prov": "computed",
+  "value": "1"
+ },
+ "rHasPostHorizon": {
+  "key": "post-horizon matches present",
+  "prov": "computed",
+  "value": "1"
+ },
+ "rHasReplay": {
+  "key": "replay evidence present",
+  "prov": "computed",
+  "value": "1"
+ },
+ "rHasValidation": {
+  "key": "manual extraction validation available",
+  "prov": "computed",
+  "value": "1"
+ },
+ "rHistAfterAdmit": {
+  "key": "... then admitted with history evidence",
+  "prov": "computed",
+  "value": "0"
+ },
+ "rHistAfterPThreeUAdmit": {
+  "key": "P3-unknown admits after history evidence",
+  "prov": "computed",
+  "value": "190"
+ },
+ "rHistAfterReject": {
+  "key": "... then rejected with history evidence",
+  "prov": "computed",
+  "value": "36"
+ },
+ "rHistAfterRequest": {
+  "key": "... still requested",
+  "prov": "computed",
+  "value": "3"
+ },
+ "rHistAfterReview": {
+  "key": "... then reviewed with history evidence",
+  "prov": "computed",
+  "value": "188"
+ },
+ "rHistNames": {
+  "key": "distinct packages dated by registry histories in them",
+  "prov": "computed",
+  "value": "141"
+ },
+ "rHistSeconds": {
+  "key": "seconds to read the three registry histories once (static_meta.history_seconds)",
+  "prov": "measured",
+  "value": "19"
+ },
+ "rHistStopped": {
+  "key": "manifests stopped by P3 that the rule sends to requests (C, H)",
+  "prov": "computed",
+  "value": "227"
+ },
+ "rHorizonGapMaxH": {
+  "key": "largest gap between repository creation and weight-anchored horizon (hours)",
+  "prov": "computed",
+  "value": "251"
+ },
+ "rHorizonShiftDays": {
+  "key": "profile.horizon_shift_days",
+  "prov": "assigned",
+  "value": "180"
+ },
+ "rIdxPThreeCReject": {
+  "key": "clean manifests a date filter rejects without registry histories",
+  "prov": "computed",
+  "value": "217"
+ },
+ "rIdxPThreeCRejectAdd": {
+  "key": "clean manifests P3 rejects only without registry histories",
+  "prov": "computed",
+  "value": "191"
+ },
+ "rIdxSciiCRequest": {
+  "key": "clean manifests the rule sends to requests without registry histories",
+  "prov": "computed",
+  "value": "285"
+ },
+ "rIdxSciiCRequestAdd": {
+  "key": "clean manifests SCII sends to requests only without registry histories",
+  "prov": "computed",
+  "value": "188"
+ },
+ "rKmax": {
+  "key": "largest k admitted without provenance: floor(ln theta / ln(1 - alpha_prov))",
+  "prov": "computed",
+  "value": "1"
+ },
+ "rLockCauseConflict": {
+  "key": "lock failures caused by conflict",
+  "prov": "measured",
+  "value": "0"
+ },
+ "rLockCauseConflictBetweenDeclarations": {
+  "key": "lock failures caused by conflict_between_declarations",
+  "prov": "measured",
+  "value": "6"
+ },
+ "rLockCauseDependencyUnresolvable": {
+  "key": "lock failures caused by dependency_unresolvable",
+  "prov": "measured",
+  "value": "5"
+ },
+ "rLockCauseNeedsBuild": {
+  "key": "lock failures caused by needs_build",
+  "prov": "measured",
+  "value": "70"
+ },
+ "rLockCauseNotFound": {
+  "key": "lock failures caused by not_found",
+  "prov": "measured",
+  "value": "0"
+ },
+ "rLockCauseParseError": {
+  "key": "lock failures caused by parse_error",
+  "prov": "measured",
+  "value": "0"
+ },
+ "rLockCauseTargetIncompatible": {
+  "key": "lock failures caused by target_incompatible",
+  "prov": "measured",
+  "value": "1"
+ },
+ "rLockCauseTimeout": {
+  "key": "lock failures caused by timeout",
+  "prov": "measured",
+  "value": "0"
+ },
+ "rLockCauseToolError": {
+  "key": "lock failures caused by tool_error",
+  "prov": "measured",
+  "value": "1"
+ },
+ "rLockCauseVersionNotFound": {
+  "key": "lock failures caused by version_not_found",
+  "prov": "measured",
+  "value": "159"
+ },
+ "rLockCratesDepsDigest": {
+  "key": "lockcheck crates declarations with digest",
+  "prov": "measured",
+  "value": "554"
+ },
+ "rLockCratesDepsN": {
+  "key": "lockcheck crates declarations",
+  "prov": "measured",
+  "value": "1440"
+ },
+ "rLockCratesN": {
+  "key": "lockcheck crates manifests",
+  "prov": "measured",
+  "value": "278"
+ },
+ "rLockCratesOk": {
+  "key": "lockcheck crates locked",
+  "prov": "measured",
+  "value": "135"
+ },
+ "rLockDepsDigest": {
+  "key": "declarations with a digest",
+  "prov": "measured",
+  "value": "1205"
+ },
+ "rLockDepsN": {
+  "key": "declarations sent to the lock tools",
+  "prov": "measured",
+  "value": "2465"
+ },
+ "rLockDepsPct": {
+  "key": "share of declarations pinned by a lock file",
+  "prov": "computed",
+  "value": "48.9\\%"
+ },
+ "rLockEntries": {
+  "key": "packages in the written lock files, transitive included",
+  "prov": "measured",
+  "value": "28879"
+ },
+ "rLockEntriesAllDigest": {
+  "key": "every lock entry has a digest",
+  "prov": "computed",
+  "value": "0"
+ },
+ "rLockEntriesBundled": {
+  "key": "npm packages bundled in a parent tarball",
+  "prov": "measured",
+  "value": "1546"
+ },
+ "rLockFail": {
+  "key": "no lock written",
+  "prov": "measured",
+  "value": "266"
+ },
+ "rLockFailDefect": {
+  "key": "lock failures caused by the manifest itself",
+  "prov": "measured",
+  "value": "194"
+ },
+ "rLockMaxS": {
+  "key": "lock tool wall time per manifest (max)",
+  "prov": "measured",
+  "value": "27"
+ },
+ "rLockMedianS": {
+  "key": "lock tool wall time per manifest (median)",
+  "prov": "measured",
+  "value": "0.35"
+ },
+ "rLockN": {
+  "key": "lockcheck manifests (answer x ecosystem)",
+  "prov": "measured",
+  "value": "788"
+ },
+ "rLockNeedsBuildAny": {
+  "key": "lock failures that would need a source build (alone or with another cause)",
+  "prov": "measured",
+  "value": "90"
+ },
+ "rLockNpmDepsDigest": {
+  "key": "lockcheck npm declarations with digest",
+  "prov": "measured",
+  "value": "343"
+ },
+ "rLockNpmDepsN": {
+  "key": "lockcheck npm declarations",
+  "prov": "measured",
+  "value": "345"
+ },
+ "rLockNpmN": {
+  "key": "lockcheck npm manifests",
+  "prov": "measured",
+  "value": "228"
+ },
+ "rLockNpmOk": {
+  "key": "lockcheck npm locked",
+  "prov": "measured",
+  "value": "227"
+ },
+ "rLockOk": {
+  "key": "lock written",
+  "prov": "measured",
+  "value": "522"
+ },
+ "rLockProvNpmK": {
+  "key": "locked npm declarations whose version has a provenance attestation (presence)",
+  "prov": "measured",
+  "value": "35"
+ },
+ "rLockProvNpmN": {
+  "key": "locked npm declarations",
+  "prov": "measured",
+  "value": "343"
+ },
+ "rLockProvPypiK": {
+  "key": "locked pypi declarations whose version has a provenance attestation (presence)",
+  "prov": "measured",
+  "value": "86"
+ },
+ "rLockProvPypiN": {
+  "key": "locked pypi declarations",
+  "prov": "measured",
+  "value": "308"
+ },
+ "rLockPypiDepsDigest": {
+  "key": "lockcheck pypi declarations with digest",
+  "prov": "measured",
+  "value": "308"
+ },
+ "rLockPypiDepsN": {
+  "key": "lockcheck pypi declarations",
+  "prov": "measured",
+  "value": "680"
+ },
+ "rLockPypiN": {
+  "key": "lockcheck pypi manifests",
+  "prov": "measured",
+  "value": "282"
+ },
+ "rLockPypiOk": {
+  "key": "lockcheck pypi locked",
+  "prov": "measured",
+  "value": "160"
+ },
+ "rLockToolCargo": {
+  "key": "cargo version (lockcheck)",
+  "prov": "measured",
+  "value": "1.97.0"
+ },
+ "rLockToolNpm": {
+  "key": "npm version (lockcheck)",
+  "prov": "measured",
+  "value": "10.9.4"
+ },
+ "rLockToolUv": {
+  "key": "uv version (lockcheck)",
+  "prov": "measured",
+  "value": "0.11.32"
+ },
+ "rLockVerFail": {
+  "key": "declarations whose declared version does not exist",
+  "prov": "measured",
+  "value": "280"
+ },
+ "rLookupMedianMs": {
+  "key": "cold lookup median",
+  "prov": "measured",
+  "value": "343"
+ },
+ "rLookupPNinetyFiveMs": {
+  "key": "cold lookup p95",
+  "prov": "measured",
+  "value": "741"
+ },
+ "rLookupsTopEco": {
+  "key": "... its ecosystem",
+  "prov": "computed",
+  "value": "ESP-IDF"
+ },
+ "rLoopChars": {
+  "key": "characters of the tail",
+  "prov": "assigned",
+  "value": "2{,}000"
+ },
+ "rLoopZlib": {
+  "key": "compressed share below which a tail counts as repetitive",
+  "prov": "assigned",
+  "value": "30\\%"
+ },
+ "rMacroPhantom": {
+  "key": "mean of per-model declaration rates (each model weighs the same)",
+  "prov": "computed",
+  "value": "48.1\\%"
+ },
+ "rMainLock": {
+  "key": "Table gate uses the measured lock files",
+  "prov": "computed",
+  "value": "1"
+ },
+ "rMaxAnsCut": {
+  "key": "that answer was cut",
+  "prov": "measured",
+  "value": "1"
+ },
+ "rMaxAnsDecl": {
+  "key": "registry declarations of the single largest answer",
+  "prov": "measured",
+  "value": "214"
+ },
+ "rMaxAnsModel": {
+  "key": "model of that answer",
+  "prov": "measured",
+  "value": "Llama-3.2 3B"
+ },
+ "rMaxAnsPhantom": {
+  "key": "... of which phantoms",
+  "prov": "measured",
+  "value": "212"
+ },
+ "rMaxEco": {
+  "key": "argmax eco (n>=10)",
+  "prov": "computed",
+  "value": "ESP-IDF"
+ },
+ "rMaxEcoFirst": {
+  "key": "first argmax eco",
+  "prov": "computed",
+  "value": "ESP-IDF"
+ },
+ "rMaxEcoRate": {
+  "key": "max eco rate",
+  "prov": "computed",
+  "value": "95.2\\%"
+ },
+ "rMaxEcoResp": {
+  "key": "response-level rate of the top ecosystem",
+  "prov": "computed",
+  "value": "93.3\\%"
+ },
+ "rMaxEcoRespK": {
+  "key": "top ecosystem responses with a phantom",
+  "prov": "measured",
+  "value": "125"
+ },
+ "rMaxEcoRespN": {
+  "key": "top ecosystem responses with a registry declaration",
+  "prov": "measured",
+  "value": "134"
+ },
+ "rMaxEcoTrunc": {
+  "key": "share of the top ecosystem's registry declarations from truncated responses",
+  "prov": "computed",
+  "value": "57\\%"
+ },
+ "rMaxTokFOne": {
+  "key": "max_tokens of the F1 answers compared",
+  "prov": "assigned",
+  "value": "1536/4096"
+ },
+ "rMaxTokFTwo": {
+  "key": "max_tokens of the F2 answers compared",
+  "prov": "assigned",
+  "value": "1536/4096"
+ },
+ "rMinEco": {
+  "key": "argmin eco (n>=10)",
+  "prov": "computed",
+  "value": "PyPI"
+ },
+ "rMinEcoRate": {
+  "key": "min eco rate",
+  "prov": "computed",
+  "value": "24.8\\%"
+ },
+ "rNBlockedSquat": {
+  "key": "phantoms.squattable.blocked",
+  "prov": "computed",
+  "value": "418"
+ },
+ "rNBlockedSquatArduino": {
+  "key": "Arduino phantoms the Library Manager's name rules refuse",
+  "prov": "computed",
+  "value": "85"
+ },
+ "rNCrossModel": {
+  "key": "phantoms.cross_model",
+  "prov": "measured",
+  "value": "218"
+ },
+ "rNCuratedSquat": {
+  "key": "phantoms.squattable.curated",
+  "prov": "computed",
+  "value": "923"
+ },
+ "rNDecl": {
+  "key": "declarations.n",
+  "prov": "measured",
+  "value": "12029"
+ },
+ "rNEcoTen": {
+  "key": "ecosystems with >= 10 registry declarations",
+  "prov": "measured",
+  "value": "8"
+ },
+ "rNEcos": {
+  "key": "corpus.ecosystems",
+  "prov": "assigned",
+  "value": "8"
+ },
+ "rNExists": {
+  "key": "by_class.exists",
+  "prov": "measured",
+  "value": "5143"
+ },
+ "rNFailed": {
+  "key": "generation.n_failed_final",
+  "prov": "measured",
+  "value": "0"
+ },
+ "rNFiles": {
+  "key": "manifest files in primary answers",
+  "prov": "measured",
+  "value": "1306"
+ },
+ "rNFilesMalformed": {
+  "key": "malformed manifest files",
+  "prov": "measured",
+  "value": "362"
+ },
+ "rNGen": {
+  "key": "generation.n_ok",
+  "prov": "measured",
+  "value": "2496"
+ },
+ "rNGgufIsHorizon": {
+  "key": "models whose horizon is the commit of the GGUF we ran (source weights changed later)",
+  "prov": "computed",
+  "value": "0"
+ },
+ "rNInvented": {
+  "key": "phantoms.subtypes.unresolved_name",
+  "prov": "computed",
+  "value": "4357"
+ },
+ "rNLegacyId": {
+  "key": "by_class.legacy_id",
+  "prov": "measured",
+  "value": "0"
+ },
+ "rNLocal": {
+  "key": "by_class.local",
+  "prov": "measured",
+  "value": "0"
+ },
+ "rNLookups": {
+  "key": "cold lookups",
+  "prov": "measured",
+  "value": "156"
+ },
+ "rNLookupsTop": {
+  "key": "cold lookups of the registry with the most",
+  "prov": "measured",
+  "value": "152"
+ },
+ "rNMalformed": {
+  "key": "registry declarations from malformed manifests",
+  "prov": "measured",
+  "value": "578"
+ },
+ "rNMalformedPhantom": {
+  "key": "phantoms among them",
+  "prov": "measured",
+  "value": "561"
+ },
+ "rNManC": {
+  "key": "manifests.C",
+  "prov": "measured",
+  "value": "737"
+ },
+ "rNManCMulti": {
+  "key": "clean manifests with >= 2 resolved registry dependencies",
+  "prov": "measured",
+  "value": "495"
+ },
+ "rNManH": {
+  "key": "manifests.H",
+  "prov": "measured",
+  "value": "54"
+ },
+ "rNManU": {
+  "key": "manifests.U",
+  "prov": "measured",
+  "value": "1291"
+ },
+ "rNManUOpen": {
+  "key": "unsafe manifests whose phantoms are all open for registration",
+  "prov": "measured",
+  "value": "590"
+ },
+ "rNManifest": {
+  "key": "manifests.n",
+  "prov": "measured",
+  "value": "2082"
+ },
+ "rNModels": {
+  "key": "models",
+  "prov": "measured",
+  "value": "13"
+ },
+ "rNModelsFOne": {
+  "key": "models with F1 answers",
+  "prov": "measured",
+  "value": "13"
+ },
+ "rNNamespaceSquat": {
+  "key": "phantoms.squattable.*namespace",
+  "prov": "computed",
+  "value": "939"
+ },
+ "rNNoFiles": {
+  "key": "phantoms.subtypes.no_files",
+  "prov": "computed",
+  "value": "3"
+ },
+ "rNNonregistry": {
+  "key": "by_class.nonregistry",
+  "prov": "measured",
+  "value": "315"
+ },
+ "rNNsSquat": {
+  "key": "phantoms.squattable.namespace",
+  "prov": "computed",
+  "value": "305"
+ },
+ "rNOpenSquat": {
+  "key": "phantoms.squattable.open",
+  "prov": "computed",
+  "value": "2177"
+ },
+ "rNOtherDecl": {
+  "key": "by_class.local + nonregistry + legacy_id + special + unresolved + unsupported",
+  "prov": "computed",
+  "value": "324"
+ },
+ "rNOwnedSquat": {
+  "key": "phantoms.squattable.owned",
+  "prov": "computed",
+  "value": "3"
+ },
+ "rNOwnerMismatch": {
+  "key": "phantoms.subtypes.owner_mismatch",
+  "prov": "computed",
+  "value": "57"
+ },
+ "rNPhantom": {
+  "key": "by_class.phantom",
+  "prov": "measured",
+  "value": "6049"
+ },
+ "rNPostHorizon": {
+  "key": "post_horizon",
+  "prov": "measured",
+  "value": "87"
+ },
+ "rNPostHorizonCreated": {
+  "key": "post-horizon matches with repository-creation horizons",
+  "prov": "computed",
+  "value": "89"
+ },
+ "rNPostHorizonEarlierYear": {
+  "key": "post-horizon matches with horizons 365 days earlier",
+  "prov": "computed",
+  "value": "119"
+ },
+ "rNPostHorizonLater": {
+  "key": "post-horizon matches with horizons 90 days later",
+  "prov": "computed",
+  "value": "77"
+ },
+ "rNPostHorizonNames": {
+  "key": "distinct names among the post-horizon matches",
+  "prov": "computed",
+  "value": "27"
+ },
+ "rNPostHorizonShift": {
+  "key": "post-horizon matches with shifted horizons",
+  "prov": "computed",
+  "value": "103"
+ },
+ "rNPrescreen": {
+  "key": "LLM pre-screens of earlier validation samples",
+  "prov": "computed",
+  "value": "3"
+ },
+ "rNPrescreenWord": {
+  "key": "... in words",
+  "prov": "computed",
+  "value": "three"
+ },
+ "rNReasoningStripped": {
+  "key": "responses with inline reasoning removed",
+  "prov": "measured",
+  "value": "0"
+ },
+ "rNRemovedModels": {
+  "key": "models stopped before completion, not analysed",
+  "prov": "measured",
+  "value": "0"
+ },
+ "rNRespDecl": {
+  "key": "responses.with_decl",
+  "prov": "measured",
+  "value": "2083"
+ },
+ "rNRespNoBlock": {
+  "key": "responses without a declaration and without a code block",
+  "prov": "measured",
+  "value": "119"
+ },
+ "rNRespNoDecl": {
+  "key": "responses without a declaration",
+  "prov": "measured",
+  "value": "413"
+ },
+ "rNSepVariant": {
+  "key": "phantoms.subtypes.separator_variant",
+  "prov": "computed",
+  "value": "67"
+ },
+ "rNSpecial": {
+  "key": "by_class.special",
+  "prov": "measured",
+  "value": "9"
+ },
+ "rNTaskClusters": {
+  "key": "tasks with a registry declaration",
+  "prov": "measured",
+  "value": "96"
+ },
+ "rNTasks": {
+  "key": "corpus.n_tasks",
+  "prov": "assigned",
+  "value": "96"
+ },
+ "rNToolchain": {
+  "key": "by_class.toolchain",
+  "prov": "measured",
+  "value": "513"
+ },
+ "rNTrunc": {
+  "key": "generation.truncated",
+  "prov": "measured",
+  "value": "562"
+ },
+ "rNUniquePhantom": {
+  "key": "phantoms.n_unique",
+  "prov": "measured",
+  "value": "4484"
+ },
+ "rNUnresolved": {
+  "key": "by_class.unresolved",
+  "prov": "measured",
+  "value": "0"
+ },
+ "rNUnsupported": {
+  "key": "by_class.unsupported",
+  "prov": "measured",
+  "value": "0"
+ },
+ "rNVariantSquat": {
+  "key": "phantoms.squattable.variant",
+  "prov": "computed",
+  "value": "24"
+ },
+ "rNVendorSquat": {
+  "key": "phantoms.squattable.vendor-namespace",
+  "prov": "computed",
+  "value": "634"
+ },
+ "rNVendorSquatArduino": {
+  "key": "Arduino phantoms with the reserved prefix",
+  "prov": "computed",
+  "value": "78"
+ },
+ "rNWithinDup": {
+  "key": "repeated registry names within an answer",
+  "prov": "measured",
+  "value": "0"
+ },
+ "rNYanked": {
+  "key": "phantoms.subtypes.yanked",
+  "prov": "computed",
+  "value": "0"
+ },
+ "rNoPinBelowTheta": {
+  "key": "an unpinned registry dependency cannot reach theta (assigned profile)",
+  "prov": "computed",
+  "value": "1"
+ },
+ "rObsCAdmit": {
+  "key": "obs.as_generated.scii.C.admit",
+  "prov": "computed",
+  "value": "4"
+ },
+ "rObsCReject": {
+  "key": "obs.as_generated.scii.C.reject",
+  "prov": "computed",
+  "value": "0"
+ },
+ "rObsCRequest": {
+  "key": "obs.as_generated.scii.C.request",
+  "prov": "computed",
+  "value": "97"
+ },
+ "rObsCReview": {
+  "key": "obs.as_generated.scii.C.review",
+  "prov": "computed",
+  "value": "636"
+ },
+ "rObsHAdmit": {
+  "key": "obs.as_generated.scii.H.admit",
+  "prov": "computed",
+  "value": "0"
+ },
+ "rObsHReject": {
+  "key": "obs.as_generated.scii.H.reject",
+  "prov": "computed",
+  "value": "54"
+ },
+ "rObsHRequest": {
+  "key": "obs.as_generated.scii.H.request",
+  "prov": "computed",
+  "value": "0"
+ },
+ "rObsHReview": {
+  "key": "obs.as_generated.scii.H.review",
+  "prov": "computed",
+  "value": "0"
+ },
+ "rObsLockCAdmit": {
+  "key": "obs.lock_files.scii.C.admit",
+  "prov": "computed",
+  "value": "93"
+ },
+ "rObsLockCReject": {
+  "key": "obs.lock_files.scii.C.reject",
+  "prov": "computed",
+  "value": "0"
+ },
+ "rObsLockCRequest": {
+  "key": "obs.lock_files.scii.C.request",
+  "prov": "computed",
+  "value": "97"
+ },
+ "rObsLockCReview": {
+  "key": "obs.lock_files.scii.C.review",
+  "prov": "computed",
+  "value": "547"
+ },
+ "rObsLockHAdmit": {
+  "key": "obs.lock_files.scii.H.admit",
+  "prov": "computed",
+  "value": "0"
+ },
+ "rObsLockHReject": {
+  "key": "obs.lock_files.scii.H.reject",
+  "prov": "computed",
+  "value": "54"
+ },
+ "rObsLockHRequest": {
+  "key": "obs.lock_files.scii.H.request",
+  "prov": "computed",
+  "value": "0"
+ },
+ "rObsLockHReview": {
+  "key": "obs.lock_files.scii.H.review",
+  "prov": "computed",
+  "value": "0"
+ },
+ "rObsLockUAdmit": {
+  "key": "obs.lock_files.scii.U.admit",
+  "prov": "computed",
+  "value": "0"
+ },
+ "rObsLockUReject": {
+  "key": "obs.lock_files.scii.U.reject",
+  "prov": "computed",
+  "value": "1291"
+ },
+ "rObsLockURequest": {
+  "key": "obs.lock_files.scii.U.request",
+  "prov": "computed",
+  "value": "0"
+ },
+ "rObsLockUReview": {
+  "key": "obs.lock_files.scii.U.review",
+  "prov": "computed",
+  "value": "0"
+ },
+ "rObsPinCAdmit": {
+  "key": "obs.pipeline_pin.scii.C.admit",
+  "prov": "computed",
+  "value": "112"
+ },
+ "rObsPinCReject": {
+  "key": "obs.pipeline_pin.scii.C.reject",
+  "prov": "computed",
+  "value": "0"
+ },
+ "rObsPinCRequest": {
+  "key": "obs.pipeline_pin.scii.C.request",
+  "prov": "computed",
+  "value": "97"
+ },
+ "rObsPinCReview": {
+  "key": "obs.pipeline_pin.scii.C.review",
+  "prov": "computed",
+  "value": "528"
+ },
+ "rObsPinHAdmit": {
+  "key": "obs.pipeline_pin.scii.H.admit",
+  "prov": "computed",
+  "value": "0"
+ },
+ "rObsPinHReject": {
+  "key": "obs.pipeline_pin.scii.H.reject",
+  "prov": "computed",
+  "value": "54"
+ },
+ "rObsPinHRequest": {
+  "key": "obs.pipeline_pin.scii.H.request",
+  "prov": "computed",
+  "value": "0"
+ },
+ "rObsPinHReview": {
+  "key": "obs.pipeline_pin.scii.H.review",
+  "prov": "computed",
+  "value": "0"
+ },
+ "rObsPinUAdmit": {
+  "key": "obs.pipeline_pin.scii.U.admit",
+  "prov": "computed",
+  "value": "0"
+ },
+ "rObsPinUReject": {
+  "key": "obs.pipeline_pin.scii.U.reject",
+  "prov": "computed",
+  "value": "1291"
+ },
+ "rObsPinURequest": {
+  "key": "obs.pipeline_pin.scii.U.request",
+  "prov": "computed",
+  "value": "0"
+ },
+ "rObsPinUReview": {
+  "key": "obs.pipeline_pin.scii.U.review",
+  "prov": "computed",
+  "value": "0"
+ },
+ "rObsUAdmit": {
+  "key": "obs.as_generated.scii.U.admit",
+  "prov": "computed",
+  "value": "0"
+ },
+ "rObsUReject": {
+  "key": "obs.as_generated.scii.U.reject",
+  "prov": "computed",
+  "value": "1291"
+ },
+ "rObsURequest": {
+  "key": "obs.as_generated.scii.U.request",
+  "prov": "computed",
+  "value": "0"
+ },
+ "rObsUReview": {
+  "key": "obs.as_generated.scii.U.review",
+  "prov": "computed",
+  "value": "0"
+ },
+ "rOffFn": {
+  "key": "names the official parsers read that the extractor missed",
+  "prov": "measured",
+  "value": "0"
+ },
+ "rOffFp": {
+  "key": "names the extractor read that the official parsers do not",
+  "prov": "measured",
+  "value": "0"
+ },
+ "rOffPrecision": {
+  "key": "extractor vs official reading",
+  "prov": "computed",
+  "value": "100.0\\%"
+ },
+ "rOffRecall": {
+  "key": "extractor vs official reading",
+  "prov": "computed",
+  "value": "100.0\\%"
+ },
+ "rOffTp": {
+  "key": "names read by both the extractor and the official parsers",
+  "prov": "measured",
+  "value": "5275"
+ },
+ "rOllamaVersion": {
+  "key": "run_meta invocations[].served[].ollama_version",
+  "prov": "measured",
+  "value": "0.40.11"
+ },
+ "rOneMinusProv": {
+  "key": "1 - alpha_prov",
+  "prov": "computed",
+  "value": "0.9"
+ },
+ "rOneMinusTheta": {
+  "key": "1 - theta",
+  "prov": "computed",
+  "value": "0.15"
+ },
+ "rPersist": {
+  "key": "persistence.p",
+  "prov": "computed",
+  "value": "33.2\\%"
+ },
+ "rPersistAlways": {
+  "key": "persistence.names_always",
+  "prov": "measured",
+  "value": "69"
+ },
+ "rPersistAsked": {
+  "key": "(model, prompt) pairs re-asked in the persistence pass",
+  "prov": "measured",
+  "value": "1286"
+ },
+ "rPersistAskedN": {
+  "key": "resamples generated",
+  "prov": "measured",
+  "value": "6430"
+ },
+ "rPersistCI": {
+  "key": "pair-cluster bootstrap 95%",
+  "prov": "computed",
+  "value": "[31.5, 34.9]"
+ },
+ "rPersistCutResamples": {
+  "key": "resamples at the token limit",
+  "prov": "measured",
+  "value": "820"
+ },
+ "rPersistK": {
+  "key": "persistence.recurring",
+  "prov": "measured",
+  "value": "2123"
+ },
+ "rPersistMax": {
+  "key": "highest persistence of a model with >= 10 pairs",
+  "prov": "computed",
+  "value": "44.4\\%"
+ },
+ "rPersistMaxModel": {
+  "key": "model with the highest persistence",
+  "prov": "computed",
+  "value": "Qwen2.5-Coder 14B"
+ },
+ "rPersistMin": {
+  "key": "lowest persistence of a model with >= 10 pairs",
+  "prov": "computed",
+  "value": "24.7\\%"
+ },
+ "rPersistMinModel": {
+  "key": "model with the lowest persistence",
+  "prov": "computed",
+  "value": "Qwen2.5-Coder 1.5B"
+ },
+ "rPersistN": {
+  "key": "persistence.resamples",
+  "prov": "measured",
+  "value": "6385"
+ },
+ "rPersistNModels": {
+  "key": "models with >= 10 pairs in the persistence pass",
+  "prov": "measured",
+  "value": "13"
+ },
+ "rPersistNames": {
+  "key": "persistence.names",
+  "prov": "measured",
+  "value": "5962"
+ },
+ "rPersistNever": {
+  "key": "persistence.names_never",
+  "prov": "measured",
+  "value": "4242"
+ },
+ "rPersistNoTrunc": {
+  "key": "persistence without cut answers",
+  "prov": "computed",
+  "value": "34.3\\%"
+ },
+ "rPersistNoTruncCI": {
+  "key": "pair-cluster bootstrap 95%",
+  "prov": "computed",
+  "value": "[32.4, 36.5]"
+ },
+ "rPersistNoTruncK": {
+  "key": "persistence without cut answers.k",
+  "prov": "measured",
+  "value": "1603"
+ },
+ "rPersistNoTruncN": {
+  "key": "persistence without cut answers.n",
+  "prov": "measured",
+  "value": "4667"
+ },
+ "rPersistNoTruncPrompts": {
+  "key": "pairs with an uncut greedy answer",
+  "prov": "measured",
+  "value": "984"
+ },
+ "rPersistPlanned": {
+  "key": "pairs of the resample plan",
+  "prov": "measured",
+  "value": "1286"
+ },
+ "rPersistPrompts": {
+  "key": "persistence.prompts",
+  "prov": "measured",
+  "value": "1277"
+ },
+ "rPersistUnasked": {
+  "key": "pairs with a greedy phantom that the persistence pass did not re-ask (found after its plan)",
+  "prov": "measured",
+  "value": "14"
+ },
+ "rPhantomCommon": {
+  "key": "by_tier.common",
+  "prov": "computed",
+  "value": "44.5\\%"
+ },
+ "rPhantomCommonCI": {
+  "key": "by_tier.common",
+  "prov": "computed",
+  "value": "[35.9, 52.8]"
+ },
+ "rPhantomCommonK": {
+  "key": "by_tier.common.k",
+  "prov": "measured",
+  "value": "2408"
+ },
+ "rPhantomCommonN": {
+  "key": "by_tier.common.n",
+  "prov": "measured",
+  "value": "5411"
+ },
+ "rPhantomDecl": {
+  "key": "prevalence.overall.decl.p",
+  "prov": "computed",
+  "value": "54.0\\%"
+ },
+ "rPhantomDeclCI": {
+  "key": "task-cluster bootstrap 95%",
+  "prov": "computed",
+  "value": "[47.0, 60.6]"
+ },
+ "rPhantomDeclDedup": {
+  "key": "declaration rate after collapsing repeats within an answer",
+  "prov": "computed",
+  "value": "54.0\\%"
+ },
+ "rPhantomDeclDedupN": {
+  "key": "distinct registry declarations within answers",
+  "prov": "measured",
+  "value": "11192"
+ },
+ "rPhantomDeclNoTrunc": {
+  "key": "rate without truncated responses",
+  "prov": "computed",
+  "value": "33.7\\%"
+ },
+ "rPhantomDeclNoTruncCI": {
+  "key": "task-cluster bootstrap 95%",
+  "prov": "computed",
+  "value": "[28.8, 39.1]"
+ },
+ "rPhantomNiche": {
+  "key": "by_tier.niche",
+  "prov": "computed",
+  "value": "63.0\\%"
+ },
+ "rPhantomNicheCI": {
+  "key": "by_tier.niche",
+  "prov": "computed",
+  "value": "[53.5, 72.7]"
+ },
+ "rPhantomNicheK": {
+  "key": "by_tier.niche.k",
+  "prov": "measured",
+  "value": "3641"
+ },
+ "rPhantomNicheN": {
+  "key": "by_tier.niche.n",
+  "prov": "measured",
+  "value": "5781"
+ },
+ "rPhantomResp": {
+  "key": "prevalence.overall.resp.p",
+  "prov": "computed",
+  "value": "64.0\\%"
+ },
+ "rPhantomRespCI": {
+  "key": "task-cluster bootstrap 95%",
+  "prov": "computed",
+  "value": "[58.2, 69.5]"
+ },
+ "rPhantomRespNoTrunc": {
+  "key": "response rate without truncated responses",
+  "prov": "computed",
+  "value": "60.2\\%"
+ },
+ "rPhantomRespNoTruncCI": {
+  "key": "task-cluster bootstrap 95%",
+  "prov": "computed",
+  "value": "[54.1, 65.9]"
+ },
+ "rPioAll": {
+  "key": "platformio registry declarations",
+  "prov": "measured",
+  "value": "1483"
+ },
+ "rPioBare": {
+  "key": "platformio declarations without owner",
+  "prov": "measured",
+  "value": "961"
+ },
+ "rPostHorizonShiftSame": {
+  "key": "shifting the horizons leaves the number of post-horizon matches unchanged",
+  "prov": "computed",
+  "value": "0"
+ },
+ "rPrescreenEach": {
+  "key": "answers per pre-screen (if all equal)",
+  "prov": "computed",
+  "value": "200"
+ },
+ "rProvWhatIfAdmit": {
+  "key": "clean admitted if served attestations were verified",
+  "prov": "computed",
+  "value": "133"
+ },
+ "rProvWhatIfReview": {
+  "key": "clean reviews if served attestations were verified",
+  "prov": "computed",
+  "value": "507"
+ },
+ "rRateCommands": {
+  "key": "phantom rate, commands answers",
+  "prov": "computed",
+  "value": "52.9\\%"
+ },
+ "rRateCommandsCI": {
+  "key": "task-cluster bootstrap 95%",
+  "prov": "computed",
+  "value": "[43.8, 61.6]"
+ },
+ "rRateCommandsN": {
+  "key": "registry declarations, commands answers",
+  "prov": "measured",
+  "value": "1647"
+ },
+ "rRateMalformed": {
+  "key": "phantom rate, malformed answers",
+  "prov": "computed",
+  "value": "44.0\\%"
+ },
+ "rRateMalformedCI": {
+  "key": "task-cluster bootstrap 95%",
+  "prov": "computed",
+  "value": "[34.4, 55.4]"
+ },
+ "rRateMalformedN": {
+  "key": "registry declarations, malformed answers",
+  "prov": "measured",
+  "value": "972"
+ },
+ "rRateTruncated": {
+  "key": "phantom rate, truncated answers",
+  "prov": "computed",
+  "value": "79.7\\%"
+ },
+ "rRateTruncatedCI": {
+  "key": "task-cluster bootstrap 95%",
+  "prov": "computed",
+  "value": "[72.6, 85.7]"
+ },
+ "rRateTruncatedN": {
+  "key": "registry declarations, truncated answers",
+  "prov": "measured",
+  "value": "4950"
+ },
+ "rRateWellformed": {
+  "key": "phantom rate, wellformed_complete answers",
+  "prov": "computed",
+  "value": "22.2\\%"
+ },
+ "rRateWellformedCI": {
+  "key": "task-cluster bootstrap 95%",
+  "prov": "computed",
+  "value": "[18.2, 27.0]"
+ },
+ "rRateWellformedN": {
+  "key": "registry declarations, wellformed_complete answers",
+  "prov": "measured",
+  "value": "3623"
+ },
+ "rReqCauses": {
+  "key": "gate.request_causes (manifests per cause)",
+  "prov": "computed",
+  "value": "the causes were a URL or path that no registry resolves (67 manifests), a package whose only date, an upper bound, falls after the horizon (14 manifests), an owner-less PlatformIO name whose same-name packages were published before and after the horizon (12 manifests) and a package published in the 30 days before the horizon (4 manifests)"
+ },
+ "rReqOnlyUrlPio": {
+  "key": "every request comes from a URL/path or an owner-less PlatformIO name",
+  "prov": "computed",
+  "value": "0"
+ },
+ "rReqPThreeAdmit": {
+  "key": "P3 on manifests SCII sends to requests",
+  "prov": "computed",
+  "value": "71"
+ },
+ "rReqPThreeReject": {
+  "key": "P3 on manifests SCII sends to requests",
+  "prov": "computed",
+  "value": "26"
+ },
+ "rReqPioSpan": {
+  "key": "requested manifests with an owner-less PlatformIO name whose same-name packages straddle the horizon",
+  "prov": "computed",
+  "value": "12"
+ },
+ "rReqUrlPath": {
+  "key": "requested clean manifests caused by a URL or path",
+  "prov": "computed",
+  "value": "67"
+ },
+ "rResEst": {
+  "key": "alpha_res + alpha_est",
+  "prov": "computed",
+  "value": "0.7"
+ },
+ "rResPin": {
+  "key": "alpha_res + alpha_pin",
+  "prov": "computed",
+  "value": "0.6"
+ },
+ "rResampleN": {
+  "key": "run config resample.n",
+  "prov": "assigned",
+  "value": "5"
+ },
+ "rResampleTemp": {
+  "key": "run config resample.temperature",
+  "prov": "assigned",
+  "value": "0.7"
+ },
+ "rRespK": {
+  "key": "prevalence.overall.resp.k",
+  "prov": "measured",
+  "value": "1291"
+ },
+ "rRespN": {
+  "key": "prevalence.overall.resp.n",
+  "prov": "measured",
+  "value": "2018"
+ },
+ "rRespNoTruncK": {
+  "key": "responses with a phantom, without truncated responses",
+  "prov": "measured",
+  "value": "993"
+ },
+ "rRespNoTruncN": {
+  "key": "responses with a registry declaration, without truncated ones",
+  "prov": "measured",
+  "value": "1649"
+ },
+ "rRevDepsMax": {
+  "key": "registry declarations per review (max)",
+  "prov": "measured",
+  "value": "17"
+ },
+ "rRevDepsMedian": {
+  "key": "registry declarations per review (median)",
+  "prov": "measured",
+  "value": "2"
+ },
+ "rRevMulti": {
+  "key": "SCII reviews with >= 2 registry dependencies",
+  "prov": "computed",
+  "value": "467"
+ },
+ "rRevOther": {
+  "key": "SCII reviews for other reasons",
+  "prov": "computed",
+  "value": "0"
+ },
+ "rRevUnpinned": {
+  "key": "SCII reviews with one unpinned registry dependency",
+  "prov": "computed",
+  "value": "80"
+ },
+ "rRpCargo": {
+  "key": "cargo version (replay)",
+  "prov": "measured",
+  "value": "1.97.0"
+ },
+ "rRpCtrlAdmit": {
+  "key": "controls admitted with the measured pin and installed",
+  "prov": "measured",
+  "value": "4"
+ },
+ "rRpCtrlAdmitBase": {
+  "key": "... admitted with the measured pin and installed",
+  "prov": "measured",
+  "value": "3"
+ },
+ "rRpCtrlBaseN": {
+  "key": "PyPI/npm/crates.io controls",
+  "prov": "measured",
+  "value": "3"
+ },
+ "rRpCtrlN": {
+  "key": "replay controls",
+  "prov": "measured",
+  "value": "4"
+ },
+ "rRpDlHttp": {
+  "key": "HTTP requests of the evidence step",
+  "prov": "measured",
+  "value": "1"
+ },
+ "rRpDlMs": {
+  "key": "evidence step time (ms)",
+  "prov": "measured",
+  "value": "22"
+ },
+ "rRpEspBuildExec": {
+  "key": "ESP-IDF squats whose CMake code ran during idf.py build",
+  "prov": "measured",
+  "value": "1"
+ },
+ "rRpEspBuilt": {
+  "key": "ESP-IDF squat builds that succeeded",
+  "prov": "measured",
+  "value": "1"
+ },
+ "rRpEspCtrlBuilt": {
+  "key": "ESP-IDF controls admitted and built from the measured lock",
+  "prov": "measured",
+  "value": "1"
+ },
+ "rRpEspCtrlN": {
+  "key": "ESP-IDF controls",
+  "prov": "measured",
+  "value": "1"
+ },
+ "rRpEspDlExec": {
+  "key": "... whose code ran during the download",
+  "prov": "measured",
+  "value": "0"
+ },
+ "rRpEspGateReject": {
+  "key": "ESP-IDF squats rejected by the gate on first contact",
+  "prov": "measured",
+  "value": "1"
+ },
+ "rRpEspLib": {
+  "key": "ESP-IDF squats compiled into a component library",
+  "prov": "measured",
+  "value": "1"
+ },
+ "rRpEspMat": {
+  "key": "ESP-IDF squats the component manager materialised into managed_components",
+  "prov": "measured",
+  "value": "1"
+ },
+ "rRpEspN": {
+  "key": "ESP-IDF squats",
+  "prov": "measured",
+  "value": "1"
+ },
+ "rRpIdf": {
+  "key": "esp_idf version (replay)",
+  "prov": "measured",
+  "value": "6.0.3"
+ },
+ "rRpIdfCm": {
+  "key": "idf_component_manager version (replay)",
+  "prov": "measured",
+  "value": "3.1.2"
+ },
+ "rRpLockExec": {
+  "key": "... whose build backend ran during the lock step",
+  "prov": "measured",
+  "value": "3"
+ },
+ "rRpLockExecN": {
+  "key": "PyPI squats locked with builds allowed",
+  "prov": "measured",
+  "value": "3"
+ },
+ "rRpNetns": {
+  "key": "replay ran in a loopback-only network namespace",
+  "prov": "measured",
+  "value": "1"
+ },
+ "rRpNpm": {
+  "key": "npm version (replay)",
+  "prov": "measured",
+  "value": "10.9.4"
+ },
+ "rRpPOneExec": {
+  "key": "PyPI/npm/crates.io squats whose code ran under every P1 installer",
+  "prov": "measured",
+  "value": "9"
+ },
+ "rRpPThreeBlocked": {
+  "key": "... refused",
+  "prov": "measured",
+  "value": "6"
+ },
+ "rRpPThreeRuns": {
+  "key": "squat installations with a date filter (uv, npm)",
+  "prov": "measured",
+  "value": "6"
+ },
+ "rRpPip": {
+  "key": "pip version (replay)",
+  "prov": "measured",
+  "value": "24.0"
+ },
+ "rRpSciiAbsReject": {
+  "key": "squats rejected with the absence record",
+  "prov": "measured",
+  "value": "10"
+ },
+ "rRpSciiAbsRejectBase": {
+  "key": "... rejected with the absence record",
+  "prov": "measured",
+  "value": "9"
+ },
+ "rRpSciiReject": {
+  "key": "squats rejected by the gate on first contact",
+  "prov": "measured",
+  "value": "7"
+ },
+ "rRpSciiRejectBase": {
+  "key": "PyPI/npm/crates.io squats rejected on first contact",
+  "prov": "measured",
+  "value": "6"
+ },
+ "rRpSciiRequest": {
+  "key": "squats sent to requests on first contact",
+  "prov": "measured",
+  "value": "3"
+ },
+ "rRpSquatsBaseN": {
+  "key": "replay squats on PyPI, npm and crates.io",
+  "prov": "measured",
+  "value": "9"
+ },
+ "rRpSquatsN": {
+  "key": "replay squats (all ecosystems)",
+  "prov": "measured",
+  "value": "10"
+ },
+ "rRpUv": {
+  "key": "uv version (replay)",
+  "prov": "measured",
+  "value": "0.11.32"
+ },
+ "rRpVerdaccio": {
+  "key": "verdaccio version (replay)",
+  "prov": "measured",
+  "value": "6.10.7"
+ },
+ "rRunMaxParams": {
+  "key": "run config models.params_b",
+  "prov": "assigned",
+  "value": "32.8"
+ },
+ "rRunMinParams": {
+  "key": "run config models.params_b",
+  "prov": "assigned",
+  "value": "1.5"
+ },
+ "rSeed": {
+  "key": "stats.seed",
+  "prov": "assigned",
+  "value": "20240628"
+ },
+ "rSensAdmitAssigned": {
+  "key": "clean admitted, assigned profile",
+  "prov": "computed",
+  "value": "13\\%"
+ },
+ "rSensAdmitProvZero": {
+  "key": "clean admitted, alpha_prov 0",
+  "prov": "computed",
+  "value": "37\\%"
+ },
+ "rSensAdmitThetaFive": {
+  "key": "clean admitted, theta 0.5",
+  "prov": "computed",
+  "value": "45\\%"
+ },
+ "rSensAdmitThetaSeven": {
+  "key": "clean admitted, theta 0.7",
+  "prov": "computed",
+  "value": "42\\%"
+ },
+ "rSnapshotDate": {
+  "key": "t_snapshot",
+  "prov": "measured",
+  "value": "2026-10-28"
+ },
+ "rSqAbsReject": {
+  "key": "squat world, with absence record: SCII rejects",
+  "prov": "computed",
+  "value": "1291"
+ },
+ "rSqAbsRest": {
+  "key": "squat world, with absence record: unsafe manifests not rejected",
+  "prov": "computed",
+  "value": "0"
+ },
+ "rSqAbsRestOwned": {
+  "key": "... all requested, and their phantoms are registered names without installable files",
+  "prov": "computed",
+  "value": "0"
+ },
+ "rSqAgeHalf": {
+  "key": "squat.pipeline_pin.age.180",
+  "prov": "computed",
+  "value": "99.7\\%"
+ },
+ "rSqAgeMonth": {
+  "key": "squat.pipeline_pin.age.30",
+  "prov": "computed",
+  "value": "99.7\\%"
+ },
+ "rSqAgeQuarter": {
+  "key": "squat.pipeline_pin.age.90",
+  "prov": "computed",
+  "value": "99.7\\%"
+ },
+ "rSqAgeWeek": {
+  "key": "squat.pipeline_pin.age.7",
+  "prov": "computed",
+  "value": "0\\%"
+ },
+ "rSqAgeYear": {
+  "key": "squat.pipeline_pin.age.365",
+  "prov": "computed",
+  "value": "99.7\\%"
+ },
+ "rSqAgeZero": {
+  "key": "squat.pipeline_pin.age.0",
+  "prov": "computed",
+  "value": "0\\%"
+ },
+ "rSqAsofHalf": {
+  "key": "squat.pipeline_pin.asof.180",
+  "prov": "computed",
+  "value": "0\\%"
+ },
+ "rSqAsofMonth": {
+  "key": "squat.pipeline_pin.asof.30",
+  "prov": "computed",
+  "value": "0\\%"
+ },
+ "rSqAsofQuarter": {
+  "key": "squat.pipeline_pin.asof.90",
+  "prov": "computed",
+  "value": "0\\%"
+ },
+ "rSqAsofUHalf": {
+  "key": "squat.pipeline_pin.asof3.180",
+  "prov": "computed",
+  "value": "0\\%"
+ },
+ "rSqAsofUMonth": {
+  "key": "squat.pipeline_pin.asof3.30",
+  "prov": "computed",
+  "value": "0\\%"
+ },
+ "rSqAsofUQuarter": {
+  "key": "squat.pipeline_pin.asof3.90",
+  "prov": "computed",
+  "value": "0\\%"
+ },
+ "rSqAsofUWeek": {
+  "key": "squat.pipeline_pin.asof3.7",
+  "prov": "computed",
+  "value": "0\\%"
+ },
+ "rSqAsofUYear": {
+  "key": "squat.pipeline_pin.asof3.365",
+  "prov": "computed",
+  "value": "0\\%"
+ },
+ "rSqAsofUZero": {
+  "key": "squat.pipeline_pin.asof3.0",
+  "prov": "computed",
+  "value": "0\\%"
+ },
+ "rSqAsofWeek": {
+  "key": "squat.pipeline_pin.asof.7",
+  "prov": "computed",
+  "value": "0\\%"
+ },
+ "rSqAsofYear": {
+  "key": "squat.pipeline_pin.asof.365",
+  "prov": "computed",
+  "value": "0\\%"
+ },
+ "rSqAsofZero": {
+  "key": "squat.pipeline_pin.asof.0",
+  "prov": "computed",
+  "value": "0\\%"
+ },
+ "rSqExistsHalf": {
+  "key": "squat.pipeline_pin.exists.180",
+  "prov": "computed",
+  "value": "99.7\\%"
+ },
+ "rSqExistsMonth": {
+  "key": "squat.pipeline_pin.exists.30",
+  "prov": "computed",
+  "value": "99.7\\%"
+ },
+ "rSqExistsQuarter": {
+  "key": "squat.pipeline_pin.exists.90",
+  "prov": "computed",
+  "value": "99.7\\%"
+ },
+ "rSqExistsWeek": {
+  "key": "squat.pipeline_pin.exists.7",
+  "prov": "computed",
+  "value": "99.7\\%"
+ },
+ "rSqExistsYear": {
+  "key": "squat.pipeline_pin.exists.365",
+  "prov": "computed",
+  "value": "99.7\\%"
+ },
+ "rSqExistsZero": {
+  "key": "squat.pipeline_pin.exists.0",
+  "prov": "computed",
+  "value": "99.7\\%"
+ },
+ "rSqFirstReject": {
+  "key": "squat world, first contact: SCII rejects",
+  "prov": "computed",
+  "value": "1063"
+ },
+ "rSqFirstRequest": {
+  "key": "squat world, first contact: SCII requests",
+  "prov": "computed",
+  "value": "228"
+ },
+ "rSqNovetoHalf": {
+  "key": "squat.pipeline_pin.scii_noveto.180",
+  "prov": "computed",
+  "value": "0\\%"
+ },
+ "rSqNovetoMonth": {
+  "key": "squat.pipeline_pin.scii_noveto.30",
+  "prov": "computed",
+  "value": "0\\%"
+ },
+ "rSqNovetoQuarter": {
+  "key": "squat.pipeline_pin.scii_noveto.90",
+  "prov": "computed",
+  "value": "0\\%"
+ },
+ "rSqNovetoWeek": {
+  "key": "squat.pipeline_pin.scii_noveto.7",
+  "prov": "computed",
+  "value": "0\\%"
+ },
+ "rSqNovetoYear": {
+  "key": "squat.pipeline_pin.scii_noveto.365",
+  "prov": "computed",
+  "value": "0\\%"
+ },
+ "rSqNovetoZero": {
+  "key": "squat.pipeline_pin.scii_noveto.0",
+  "prov": "computed",
+  "value": "0\\%"
+ },
+ "rSqOpenAgeHalf": {
+  "key": "squat.open_only.age.180",
+  "prov": "computed",
+  "value": "46\\%"
+ },
+ "rSqOpenAgeMonth": {
+  "key": "squat.open_only.age.30",
+  "prov": "computed",
+  "value": "46\\%"
+ },
+ "rSqOpenAgeQuarter": {
+  "key": "squat.open_only.age.90",
+  "prov": "computed",
+  "value": "46\\%"
+ },
+ "rSqOpenAgeWeek": {
+  "key": "squat.open_only.age.7",
+  "prov": "computed",
+  "value": "0\\%"
+ },
+ "rSqOpenAgeYear": {
+  "key": "squat.open_only.age.365",
+  "prov": "computed",
+  "value": "46\\%"
+ },
+ "rSqOpenAgeZero": {
+  "key": "squat.open_only.age.0",
+  "prov": "computed",
+  "value": "0\\%"
+ },
+ "rSqOpenAsofHalf": {
+  "key": "squat.open_only.asof.180",
+  "prov": "computed",
+  "value": "0\\%"
+ },
+ "rSqOpenAsofMonth": {
+  "key": "squat.open_only.asof.30",
+  "prov": "computed",
+  "value": "0\\%"
+ },
+ "rSqOpenAsofQuarter": {
+  "key": "squat.open_only.asof.90",
+  "prov": "computed",
+  "value": "0\\%"
+ },
+ "rSqOpenAsofUHalf": {
+  "key": "squat.open_only.asof3.180",
+  "prov": "computed",
+  "value": "0\\%"
+ },
+ "rSqOpenAsofUMonth": {
+  "key": "squat.open_only.asof3.30",
+  "prov": "computed",
+  "value": "0\\%"
+ },
+ "rSqOpenAsofUQuarter": {
+  "key": "squat.open_only.asof3.90",
+  "prov": "computed",
+  "value": "0\\%"
+ },
+ "rSqOpenAsofUWeek": {
+  "key": "squat.open_only.asof3.7",
+  "prov": "computed",
+  "value": "0\\%"
+ },
+ "rSqOpenAsofUYear": {
+  "key": "squat.open_only.asof3.365",
+  "prov": "computed",
+  "value": "0\\%"
+ },
+ "rSqOpenAsofUZero": {
+  "key": "squat.open_only.asof3.0",
+  "prov": "computed",
+  "value": "0\\%"
+ },
+ "rSqOpenAsofWeek": {
+  "key": "squat.open_only.asof.7",
+  "prov": "computed",
+  "value": "0\\%"
+ },
+ "rSqOpenAsofYear": {
+  "key": "squat.open_only.asof.365",
+  "prov": "computed",
+  "value": "0\\%"
+ },
+ "rSqOpenAsofZero": {
+  "key": "squat.open_only.asof.0",
+  "prov": "computed",
+  "value": "0\\%"
+ },
+ "rSqOpenExistsHalf": {
+  "key": "squat.open_only.exists.180",
+  "prov": "computed",
+  "value": "46\\%"
+ },
+ "rSqOpenExistsMonth": {
+  "key": "squat.open_only.exists.30",
+  "prov": "computed",
+  "value": "46\\%"
+ },
+ "rSqOpenExistsQuarter": {
+  "key": "squat.open_only.exists.90",
+  "prov": "computed",
+  "value": "46\\%"
+ },
+ "rSqOpenExistsWeek": {
+  "key": "squat.open_only.exists.7",
+  "prov": "computed",
+  "value": "46\\%"
+ },
+ "rSqOpenExistsYear": {
+  "key": "squat.open_only.exists.365",
+  "prov": "computed",
+  "value": "46\\%"
+ },
+ "rSqOpenExistsZero": {
+  "key": "squat.open_only.exists.0",
+  "prov": "computed",
+  "value": "46\\%"
+ },
+ "rSqOpenExistsZeroK": {
+  "key": "unsafe manifests resolves-now admits on day one when only open phantoms are squatted",
+  "prov": "measured",
+  "value": "590"
+ },
+ "rSqOpenNovetoHalf": {
+  "key": "squat.open_only.scii_noveto.180",
+  "prov": "computed",
+  "value": "0\\%"
+ },
+ "rSqOpenNovetoMonth": {
+  "key": "squat.open_only.scii_noveto.30",
+  "prov": "computed",
+  "value": "0\\%"
+ },
+ "rSqOpenNovetoQuarter": {
+  "key": "squat.open_only.scii_noveto.90",
+  "prov": "computed",
+  "value": "0\\%"
+ },
+ "rSqOpenNovetoWeek": {
+  "key": "squat.open_only.scii_noveto.7",
+  "prov": "computed",
+  "value": "0\\%"
+ },
+ "rSqOpenNovetoYear": {
+  "key": "squat.open_only.scii_noveto.365",
+  "prov": "computed",
+  "value": "0\\%"
+ },
+ "rSqOpenNovetoZero": {
+  "key": "squat.open_only.scii_noveto.0",
+  "prov": "computed",
+  "value": "0\\%"
+ },
+ "rSqOpenOptimisticHalf": {
+  "key": "squat.open_only.scii_optimistic.180",
+  "prov": "computed",
+  "value": "7\\%"
+ },
+ "rSqOpenOptimisticMonth": {
+  "key": "squat.open_only.scii_optimistic.30",
+  "prov": "computed",
+  "value": "7\\%"
+ },
+ "rSqOpenOptimisticQuarter": {
+  "key": "squat.open_only.scii_optimistic.90",
+  "prov": "computed",
+  "value": "7\\%"
+ },
+ "rSqOpenOptimisticWeek": {
+  "key": "squat.open_only.scii_optimistic.7",
+  "prov": "computed",
+  "value": "7\\%"
+ },
+ "rSqOpenOptimisticYear": {
+  "key": "squat.open_only.scii_optimistic.365",
+  "prov": "computed",
+  "value": "7\\%"
+ },
+ "rSqOpenOptimisticZero": {
+  "key": "squat.open_only.scii_optimistic.0",
+  "prov": "computed",
+  "value": "7\\%"
+ },
+ "rSqOpenSciiHalf": {
+  "key": "squat.open_only.scii.180",
+  "prov": "computed",
+  "value": "0\\%"
+ },
+ "rSqOpenSciiMonth": {
+  "key": "squat.open_only.scii.30",
+  "prov": "computed",
+  "value": "0\\%"
+ },
+ "rSqOpenSciiQuarter": {
+  "key": "squat.open_only.scii.90",
+  "prov": "computed",
+  "value": "0\\%"
+ },
+ "rSqOpenSciiWeek": {
+  "key": "squat.open_only.scii.7",
+  "prov": "computed",
+  "value": "0\\%"
+ },
+ "rSqOpenSciiYear": {
+  "key": "squat.open_only.scii.365",
+  "prov": "computed",
+  "value": "0\\%"
+ },
+ "rSqOpenSciiZero": {
+  "key": "squat.open_only.scii.0",
+  "prov": "computed",
+  "value": "0\\%"
+ },
+ "rSqOpenTwostateHalf": {
+  "key": "squat.open_only.scii_2state.180",
+  "prov": "computed",
+  "value": "0\\%"
+ },
+ "rSqOpenTwostateMonth": {
+  "key": "squat.open_only.scii_2state.30",
+  "prov": "computed",
+  "value": "0\\%"
+ },
+ "rSqOpenTwostateQuarter": {
+  "key": "squat.open_only.scii_2state.90",
+  "prov": "computed",
+  "value": "0\\%"
+ },
+ "rSqOpenTwostateWeek": {
+  "key": "squat.open_only.scii_2state.7",
+  "prov": "computed",
+  "value": "0\\%"
+ },
+ "rSqOpenTwostateYear": {
+  "key": "squat.open_only.scii_2state.365",
+  "prov": "computed",
+  "value": "0\\%"
+ },
+ "rSqOpenTwostateZero": {
+  "key": "squat.open_only.scii_2state.0",
+  "prov": "computed",
+  "value": "0\\%"
+ },
+ "rSqOptEqAge": {
+  "key": "O admits exactly what P2 admits on day 0",
+  "prov": "computed",
+  "value": "0"
+ },
+ "rSqOptimisticHalf": {
+  "key": "squat.pipeline_pin.scii_optimistic.180",
+  "prov": "computed",
+  "value": "18\\%"
+ },
+ "rSqOptimisticMonth": {
+  "key": "squat.pipeline_pin.scii_optimistic.30",
+  "prov": "computed",
+  "value": "18\\%"
+ },
+ "rSqOptimisticQuarter": {
+  "key": "squat.pipeline_pin.scii_optimistic.90",
+  "prov": "computed",
+  "value": "18\\%"
+ },
+ "rSqOptimisticWeek": {
+  "key": "squat.pipeline_pin.scii_optimistic.7",
+  "prov": "computed",
+  "value": "18\\%"
+ },
+ "rSqOptimisticYear": {
+  "key": "squat.pipeline_pin.scii_optimistic.365",
+  "prov": "computed",
+  "value": "18\\%"
+ },
+ "rSqOptimisticZero": {
+  "key": "squat.pipeline_pin.scii_optimistic.0",
+  "prov": "computed",
+  "value": "18\\%"
+ },
+ "rSqSciiHalf": {
+  "key": "squat.pipeline_pin.scii.180",
+  "prov": "computed",
+  "value": "0\\%"
+ },
+ "rSqSciiMonth": {
+  "key": "squat.pipeline_pin.scii.30",
+  "prov": "computed",
+  "value": "0\\%"
+ },
+ "rSqSciiQuarter": {
+  "key": "squat.pipeline_pin.scii.90",
+  "prov": "computed",
+  "value": "0\\%"
+ },
+ "rSqSciiWeek": {
+  "key": "squat.pipeline_pin.scii.7",
+  "prov": "computed",
+  "value": "0\\%"
+ },
+ "rSqSciiYear": {
+  "key": "squat.pipeline_pin.scii.365",
+  "prov": "computed",
+  "value": "0\\%"
+ },
+ "rSqSciiZero": {
+  "key": "squat.pipeline_pin.scii.0",
+  "prov": "computed",
+  "value": "0\\%"
+ },
+ "rSqTwostateHalf": {
+  "key": "squat.pipeline_pin.scii_2state.180",
+  "prov": "computed",
+  "value": "0\\%"
+ },
+ "rSqTwostateMonth": {
+  "key": "squat.pipeline_pin.scii_2state.30",
+  "prov": "computed",
+  "value": "0\\%"
+ },
+ "rSqTwostateQuarter": {
+  "key": "squat.pipeline_pin.scii_2state.90",
+  "prov": "computed",
+  "value": "0\\%"
+ },
+ "rSqTwostateWeek": {
+  "key": "squat.pipeline_pin.scii_2state.7",
+  "prov": "computed",
+  "value": "0\\%"
+ },
+ "rSqTwostateYear": {
+  "key": "squat.pipeline_pin.scii_2state.365",
+  "prov": "computed",
+  "value": "0\\%"
+ },
+ "rSqTwostateZero": {
+  "key": "squat.pipeline_pin.scii_2state.0",
+  "prov": "computed",
+  "value": "0\\%"
+ },
+ "rStudyFirstHorizon": {
+  "key": "study config horizon",
+  "prov": "assigned",
+  "value": "October 2023"
+ },
+ "rStudyGreedyTemp": {
+  "key": "study config samples[idx=0].temperature",
+  "prov": "assigned",
+  "value": "0"
+ },
+ "rStudyLastHorizon": {
+  "key": "study config horizon",
+  "prov": "assigned",
+  "value": "August 2025"
+ },
+ "rStudyMaxParams": {
+  "key": "study config params_b",
+  "prov": "assigned",
+  "value": "32.8"
+ },
+ "rStudyMinParams": {
+  "key": "study config params_b",
+  "prov": "assigned",
+  "value": "1.5"
+ },
+ "rStudyNModels": {
+  "key": "study config models",
+  "prov": "assigned",
+  "value": "13"
+ },
+ "rStudyNVendors": {
+  "key": "study config vendors",
+  "prov": "assigned",
+  "value": "7"
+ },
+ "rStudyResampleN": {
+  "key": "study config resample.n",
+  "prov": "assigned",
+  "value": "5"
+ },
+ "rStudyResampleTemp": {
+  "key": "study config resample.temperature",
+  "prov": "assigned",
+  "value": "0.7"
+ },
+ "rSweepCondPinned": {
+  "key": "profiles with a_est + a_prov <= 1 - theta",
+  "prov": "computed",
+  "value": "19.9\\%"
+ },
+ "rSweepCondUnpinned": {
+  "key": "profiles with a_res >= theta",
+  "prov": "computed",
+  "value": "2.8\\%"
+ },
+ "rSweepN": {
+  "key": "sweep.n_profiles",
+  "prov": "assigned",
+  "value": "1000"
+ },
+ "rSweepNovetoAny": {
+  "key": "sweep.noveto_any",
+  "prov": "computed",
+  "value": "19.9\\%"
+ },
+ "rSweepNovetoMax": {
+  "key": "sweep.noveto_max",
+  "prov": "computed",
+  "value": "62.4\\%"
+ },
+ "rSweepNovetoMean": {
+  "key": "sweep.noveto_mean",
+  "prov": "computed",
+  "value": "3.2\\%"
+ },
+ "rSweepSame": {
+  "key": "noveto admits a squat exactly under the pinned condition",
+  "prov": "computed",
+  "value": "1"
+ },
+ "rSweepThetaMax": {
+  "key": "sweep.theta_max",
+  "prov": "assigned",
+  "value": "0.95"
+ },
+ "rSweepThetaMin": {
+  "key": "sweep.theta_min",
+  "prov": "assigned",
+  "value": "0.5"
+ },
+ "rTasksPerEco": {
+  "key": "corpus.ecosystems (tasks per ecosystem)",
+  "prov": "assigned",
+  "value": "12"
+ },
+ "rTheta": {
+  "key": "profile.theta",
+  "prov": "assigned",
+  "value": "0.85"
+ },
+ "rTopModel": {
+  "key": "model with most registry declarations",
+  "prov": "measured",
+  "value": "Llama-3.2 3B"
+ },
+ "rTopModelShare": {
+  "key": "its share of registry declarations",
+  "prov": "computed",
+  "value": "15\\%"
+ },
+ "rTruncDeclShare": {
+  "key": "share of registry declarations from truncated responses",
+  "prov": "computed",
+  "value": "44\\%"
+ },
+ "rTruncPct": {
+  "key": "share of primary answers at the token limit",
+  "prov": "computed",
+  "value": "22.5\\%"
+ },
+ "rValAllIdentical": {
+  "key": "the two annotators' labels coincide in every row",
+  "prov": "computed",
+  "value": "1"
+ },
+ "rValByResponse": {
+  "key": "validation intervals resample responses",
+  "prov": "computed",
+  "value": "1"
+ },
+ "rValKappa": {
+  "key": "validation.kappa_exact",
+  "prov": "computed",
+  "value": "1.00"
+ },
+ "rValMissNonreg": {
+  "key": "... written as a URL or path",
+  "prov": "measured",
+  "value": "5"
+ },
+ "rValMissTop": {
+  "key": "most missed items in one response",
+  "prov": "measured",
+  "value": "50"
+ },
+ "rValMissed": {
+  "key": "validation: missed items (annotator A)",
+  "prov": "measured",
+  "value": "65"
+ },
+ "rValN": {
+  "key": "validation.n_responses",
+  "prov": "measured",
+  "value": "200"
+ },
+ "rValPrecision": {
+  "key": "validation.precision",
+  "prov": "computed",
+  "value": "97.6\\%"
+ },
+ "rValPrecisionCI": {
+  "key": "response-cluster bootstrap 95%",
+  "prov": "computed",
+  "value": "[93.4, 99.9]"
+ },
+ "rValRecall": {
+  "key": "validation.recall",
+  "prov": "computed",
+  "value": "94.3\\%"
+ },
+ "rValRecallCI": {
+  "key": "response-cluster bootstrap 95%",
+  "prov": "computed",
+  "value": "[84.9, 99.5]"
+ },
+ "rValRespExact": {
+  "key": "responses with nothing missed or spurious",
+  "prov": "measured",
+  "value": "191"
+ },
+ "rValRespExactCI": {
+  "key": "Wilson 95% (responses)",
+  "prov": "computed",
+  "value": "[91.7, 97.6]"
+ },
+ "rValRespExactPct": {
+  "key": "share of responses extracted exactly",
+  "prov": "computed",
+  "value": "95.5\\%"
+ },
+ "rValRespMissed": {
+  "key": "responses with a missed item",
+  "prov": "measured",
+  "value": "9"
+ },
+ "rValRespSpur": {
+  "key": "responses with a spurious item",
+  "prov": "measured",
+  "value": "5"
+ },
+ "rValSpur": {
+  "key": "validation: spurious items (annotator A)",
+  "prov": "measured",
+  "value": "27"
+ },
+ "rValSpurNonreg": {
+  "key": "... of non-registry declarations",
+  "prov": "measured",
+  "value": "27"
+ },
+ "rWfEspK": {
+  "key": "... phantoms",
+  "prov": "measured",
+  "value": "77"
+ },
+ "rWfEspN": {
+  "key": "... registry declarations",
+  "prov": "measured",
+  "value": "94"
+ },
+ "rWfEspP": {
+  "key": "phantom rate on well-formed complete ESP-IDF answers",
+  "prov": "computed",
+  "value": "81.9\\%"
+ },
+ "rYield": {
+  "key": "responses.yield",
+  "prov": "computed",
+  "value": "83.5\\%"
+ }
+}

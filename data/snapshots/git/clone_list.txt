@@ -1,0 +1,11 @@
+espressif/arduino-esp32 libraries
+esp8266/Arduino libraries
+arduino/ArduinoCore-avr libraries
+arduino/ArduinoCore-samd libraries
+arduino/ArduinoCore-renesas libraries
+arduino/ArduinoCore-mbed libraries
+arduino/ArduinoCore-megaavr libraries
+earlephilhower/arduino-pico libraries
+stm32duino/Arduino_Core_STM32 libraries
+espressif/esp-idf components
+micropython/micropython docs/library

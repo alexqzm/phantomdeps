@@ -1,0 +1,891 @@
+{
+ "packages": [
+  "__future__",
+  "abc",
+  "aioble",
+  "aioble-central",
+  "aioble-client",
+  "aioble-core",
+  "aioble-l2cap",
+  "aioble-peripheral",
+  "aioble-security",
+  "aioble-server",
+  "aioespnow",
+  "aiohttp",
+  "aiorepl",
+  "argparse",
+  "base64",
+  "binascii",
+  "bisect",
+  "bmi270",
+  "bmm150",
+  "bundle-networking",
+  "cbor2",
+  "cmd",
+  "collections",
+  "collections-defaultdict",
+  "collections-deque",
+  "colorsys",
+  "contextlib",
+  "copy",
+  "curses.ascii",
+  "datetime",
+  "dht",
+  "ds18x20",
+  "errno",
+  "espflash",
+  "fnmatch",
+  "functools",
+  "gzip",
+  "hashlib",
+  "hashlib-core",
+  "hashlib-sha224",
+  "hashlib-sha256",
+  "hashlib-sha384",
+  "hashlib-sha512",
+  "heapq",
+  "hmac",
+  "hs3003",
+  "html",
+  "hts221",
+  "inspect",
+  "io",
+  "iperf3",
+  "itertools",
+  "json",
+  "keyword",
+  "lcd160cr",
+  "locale",
+  "logging",
+  "lora",
+  "lora-async",
+  "lora-stm32wl5",
+  "lora-sx126x",
+  "lora-sx127x",
+  "lora-sync",
+  "lps22h",
+  "lsm6dsox",
+  "lsm9ds1",
+  "mhz19",
+  "mip",
+  "mip-cmdline",
+  "neopixel",
+  "nrf24l01",
+  "ntptime",
+  "onewire",
+  "operator",
+  "os",
+  "os-path",
+  "pathlib",
+  "pickle",
+  "pkg_resources",
+  "pkgutil",
+  "pprint",
+  "pyjwt",
+  "quopri",
+  "random",
+  "requests",
+  "sdcard",
+  "senml",
+  "shutil",
+  "ssd1306",
+  "ssl",
+  "stat",
+  "string",
+  "struct",
+  "tarfile",
+  "tarfile-write",
+  "tempfile",
+  "textwrap",
+  "threading",
+  "time",
+  "traceback",
+  "types",
+  "uaiohttpclient",
+  "ucontextlib",
+  "udnspkt",
+  "umqtt.robust",
+  "umqtt.simple",
+  "unittest",
+  "unittest-discover",
+  "upysh",
+  "urequests",
+  "urllib.urequest",
+  "usb-device",
+  "usb-device-cdc",
+  "usb-device-hid",
+  "usb-device-keyboard",
+  "usb-device-midi",
+  "usb-device-mouse",
+  "utarfile",
+  "utarfile-write",
+  "utop",
+  "uu",
+  "uuid",
+  "venv",
+  "warnings",
+  "webrepl",
+  "wm8960",
+  "xmltok",
+  "zipfile",
+  "zlib"
+ ],
+ "registry_log": {
+  "first": {
+   "__future__": {
+    "committer": "Damien George",
+    "date": "2022-09-05T17:50:28+10:00",
+    "path": "python-stdlib/__future__",
+    "skipped_contributor_commits": 0
+   },
+   "abc": {
+    "committer": "Damien George",
+    "date": "2022-09-05T17:50:28+10:00",
+    "path": "python-stdlib/abc",
+    "skipped_contributor_commits": 0
+   },
+   "aioble": {
+    "committer": "Damien George",
+    "date": "2021-05-28T18:26:49+10:00",
+    "path": "micropython/bluetooth/aioble",
+    "skipped_contributor_commits": 0
+   },
+   "aioble-central": {
+    "committer": "Jim Mussared",
+    "date": "2022-10-06T16:45:15+11:00",
+    "path": "micropython/bluetooth/aioble-central",
+    "skipped_contributor_commits": 0
+   },
+   "aioble-client": {
+    "committer": "Jim Mussared",
+    "date": "2022-10-06T16:45:15+11:00",
+    "path": "micropython/bluetooth/aioble-client",
+    "skipped_contributor_commits": 0
+   },
+   "aioble-core": {
+    "committer": "Jim Mussared",
+    "date": "2022-10-06T16:45:15+11:00",
+    "path": "micropython/bluetooth/aioble-core",
+    "skipped_contributor_commits": 0
+   },
+   "aioble-l2cap": {
+    "committer": "Jim Mussared",
+    "date": "2022-10-06T16:45:15+11:00",
+    "path": "micropython/bluetooth/aioble-l2cap",
+    "skipped_contributor_commits": 0
+   },
+   "aioble-peripheral": {
+    "committer": "Jim Mussared",
+    "date": "2022-10-06T16:45:15+11:00",
+    "path": "micropython/bluetooth/aioble-peripheral",
+    "skipped_contributor_commits": 0
+   },
+   "aioble-security": {
+    "committer": "Jim Mussared",
+    "date": "2022-10-06T16:45:15+11:00",
+    "path": "micropython/bluetooth/aioble-security",
+    "skipped_contributor_commits": 0
+   },
+   "aioble-server": {
+    "committer": "Jim Mussared",
+    "date": "2022-10-06T16:45:15+11:00",
+    "path": "micropython/bluetooth/aioble-server",
+    "skipped_contributor_commits": 0
+   },
+   "aioespnow": {
+    "committer": "Damien George",
+    "date": "2023-05-04T14:21:32+10:00",
+    "path": "micropython/aioespnow",
+    "skipped_contributor_commits": 0
+   },
+   "aiohttp": {
+    "committer": "Damien George",
+    "date": "2023-12-20T16:26:04+11:00",
+    "path": "python-ecosys/aiohttp",
+    "skipped_contributor_commits": 0
+   },
+   "aiorepl": {
+    "committer": "Jim Mussared",
+    "date": "2022-09-26T16:33:24+10:00",
+    "path": "micropython/aiorepl",
+    "skipped_contributor_commits": 0
+   },
+   "argparse": {
+    "committer": "Damien George",
+    "date": "2022-09-05T17:50:28+10:00",
+    "path": "python-stdlib/argparse",
+    "skipped_contributor_commits": 0
+   },
+   "base64": {
+    "committer": "Damien George",
+    "date": "2022-09-05T17:50:28+10:00",
+    "path": "python-stdlib/base64",
+    "skipped_contributor_commits": 0
+   },
+   "binascii": {
+    "committer": "Damien George",
+    "date": "2022-09-05T17:50:28+10:00",
+    "path": "python-stdlib/binascii",
+    "skipped_contributor_commits": 0
+   },
+   "bisect": {
+    "committer": "Damien George",
+    "date": "2023-07-21T16:58:48+10:00",
+    "path": "python-stdlib/bisect",
+    "skipped_contributor_commits": 0
+   },
+   "bmi270": {
+    "committer": "Damien George",
+    "date": "2023-02-18T15:55:10+11:00",
+    "path": "micropython/drivers/imu/bmi270",
+    "skipped_contributor_commits": 0
+   },
+   "bmm150": {
+    "committer": "Damien George",
+    "date": "2023-02-18T15:55:36+11:00",
+    "path": "micropython/drivers/imu/bmm150",
+    "skipped_contributor_commits": 0
+   },
+   "bundle-networking": {
+    "committer": "Damien George",
+    "date": "2023-02-01T11:28:42+11:00",
+    "path": "micropython/bundles/bundle-networking",
+    "skipped_contributor_commits": 0
+   },
+   "cbor2": {
+    "committer": "Damien George",
+    "date": "2023-03-01T01:13:06+11:00",
+    "path": "python-ecosys/cbor2",
+    "skipped_contributor_commits": 0
+   },
+   "cmd": {
+    "committer": "Damien George",
+    "date": "2022-09-05T17:50:28+10:00",
+    "path": "python-stdlib/cmd",
+    "skipped_contributor_commits": 0
+   },
+   "collections": {
+    "committer": "Damien George",
+    "date": "2022-09-05T17:50:28+10:00",
+    "path": "python-stdlib/collections",
+    "skipped_contributor_commits": 0
+   },
+   "collections-defaultdict": {
+    "committer": "Jim Mussared",
+    "date": "2022-09-13T14:31:24+10:00",
+    "path": "python-stdlib/collections-defaultdict",
+    "skipped_contributor_commits": 0
+   },
+   "colorsys": {
+    "committer": "Damien George",
+    "date": "2026-07-12T00:01:07+10:00",
+    "path": "python-stdlib/colorsys",
+    "skipped_contributor_commits": 0
+   },
+   "contextlib": {
+    "committer": "Damien George",
+    "date": "2022-09-05T17:50:28+10:00",
+    "path": "python-stdlib/contextlib",
+    "skipped_contributor_commits": 0
+   },
+   "copy": {
+    "committer": "Damien George",
+    "date": "2022-09-05T17:50:28+10:00",
+    "path": "python-stdlib/copy",
+    "skipped_contributor_commits": 0
+   },
+   "curses.ascii": {
+    "committer": "Damien George",
+    "date": "2022-09-05T17:50:28+10:00",
+    "path": "python-stdlib/curses.ascii",
+    "skipped_contributor_commits": 0
+   },
+   "datetime": {
+    "committer": "Damien George",
+    "date": "2022-09-05T17:50:28+10:00",
+    "path": "python-stdlib/datetime",
+    "skipped_contributor_commits": 0
+   },
+   "dht": {
+    "committer": "Jim Mussared",
+    "date": "2022-09-06T13:21:53+10:00",
+    "path": "micropython/drivers/sensor/dht",
+    "skipped_contributor_commits": 0
+   },
+   "ds18x20": {
+    "committer": "Jim Mussared",
+    "date": "2022-09-06T13:21:54+10:00",
+    "path": "micropython/drivers/sensor/ds18x20",
+    "skipped_contributor_commits": 0
+   },
+   "errno": {
+    "committer": "Damien George",
+    "date": "2022-09-05T17:50:28+10:00",
+    "path": "python-stdlib/errno",
+    "skipped_contributor_commits": 0
+   },
+   "espflash": {
+    "committer": "Damien George",
+    "date": "2022-11-08T18:45:22+11:00",
+    "path": "micropython/espflash",
+    "skipped_contributor_commits": 0
+   },
+   "fnmatch": {
+    "committer": "Damien George",
+    "date": "2022-09-05T17:50:28+10:00",
+    "path": "python-stdlib/fnmatch",
+    "skipped_contributor_commits": 0
+   },
+   "functools": {
+    "committer": "Damien George",
+    "date": "2022-09-05T17:50:28+10:00",
+    "path": "python-stdlib/functools",
+    "skipped_contributor_commits": 0
+   },
+   "gzip": {
+    "committer": "Damien George",
+    "date": "2022-09-05T17:50:28+10:00",
+    "path": "python-stdlib/gzip",
+    "skipped_contributor_commits": 0
+   },
+   "hashlib": {
+    "committer": "Damien George",
+    "date": "2022-09-05T17:50:28+10:00",
+    "path": "python-stdlib/hashlib",
+    "skipped_contributor_commits": 0
+   },
+   "hashlib-core": {
+    "committer": "Damien George",
+    "date": "2023-07-20T23:28:08+10:00",
+    "path": "python-stdlib/hashlib-core",
+    "skipped_contributor_commits": 0
+   },
+   "hashlib-sha224": {
+    "committer": "Damien George",
+    "date": "2023-07-20T23:28:08+10:00",
+    "path": "python-stdlib/hashlib-sha224",
+    "skipped_contributor_commits": 0
+   },
+   "hashlib-sha256": {
+    "committer": "Damien George",
+    "date": "2023-07-20T23:28:08+10:00",
+    "path": "python-stdlib/hashlib-sha256",
+    "skipped_contributor_commits": 0
+   },
+   "hashlib-sha384": {
+    "committer": "Damien George",
+    "date": "2023-07-20T23:28:08+10:00",
+    "path": "python-stdlib/hashlib-sha384",
+    "skipped_contributor_commits": 0
+   },
+   "hashlib-sha512": {
+    "committer": "Damien George",
+    "date": "2023-07-20T23:28:08+10:00",
+    "path": "python-stdlib/hashlib-sha512",
+    "skipped_contributor_commits": 0
+   },
+   "heapq": {
+    "committer": "Damien George",
+    "date": "2022-09-05T17:50:28+10:00",
+    "path": "python-stdlib/heapq",
+    "skipped_contributor_commits": 0
+   },
+   "hmac": {
+    "committer": "Damien George",
+    "date": "2022-09-05T17:50:28+10:00",
+    "path": "python-stdlib/hmac",
+    "skipped_contributor_commits": 0
+   },
+   "hs3003": {
+    "committer": "Damien George",
+    "date": "2023-02-18T15:50:57+11:00",
+    "path": "micropython/drivers/sensor/hs3003",
+    "skipped_contributor_commits": 0
+   },
+   "html": {
+    "committer": "Damien George",
+    "date": "2022-09-05T17:50:28+10:00",
+    "path": "python-stdlib/html",
+    "skipped_contributor_commits": 0
+   },
+   "hts221": {
+    "committer": "Jim Mussared",
+    "date": "2022-09-06T13:21:55+10:00",
+    "path": "micropython/drivers/sensor/hts221",
+    "skipped_contributor_commits": 0
+   },
+   "inspect": {
+    "committer": "Damien George",
+    "date": "2022-09-05T17:50:28+10:00",
+    "path": "python-stdlib/inspect",
+    "skipped_contributor_commits": 0
+   },
+   "io": {
+    "committer": "Damien George",
+    "date": "2022-09-05T17:50:28+10:00",
+    "path": "python-stdlib/io",
+    "skipped_contributor_commits": 0
+   },
+   "iperf3": {
+    "committer": "Damien George",
+    "date": "2022-09-05T17:50:28+10:00",
+    "path": "python-ecosys/iperf3",
+    "skipped_contributor_commits": 0
+   },
+   "itertools": {
+    "committer": "Damien George",
+    "date": "2022-09-05T17:50:28+10:00",
+    "path": "python-stdlib/itertools",
+    "skipped_contributor_commits": 0
+   },
+   "keyword": {
+    "committer": "Damien George",
+    "date": "2023-07-21T16:58:48+10:00",
+    "path": "python-stdlib/keyword",
+    "skipped_contributor_commits": 0
+   },
+   "lcd160cr": {
+    "committer": "Jim Mussared",
+    "date": "2022-09-06T13:21:35+10:00",
+    "path": "micropython/drivers/display/lcd160cr",
+    "skipped_contributor_commits": 0
+   },
+   "locale": {
+    "committer": "Damien George",
+    "date": "2022-09-05T17:50:28+10:00",
+    "path": "python-stdlib/locale",
+    "skipped_contributor_commits": 0
+   },
+   "logging": {
+    "committer": "Damien George",
+    "date": "2022-09-05T17:50:28+10:00",
+    "path": "python-stdlib/logging",
+    "skipped_contributor_commits": 0
+   },
+   "lora": {
+    "committer": "Damien George",
+    "date": "2023-07-20T23:07:22+10:00",
+    "path": "micropython/lora/lora",
+    "skipped_contributor_commits": 0
+   },
+   "lora-async": {
+    "committer": "Damien George",
+    "date": "2023-07-20T23:07:22+10:00",
+    "path": "micropython/lora/lora-async",
+    "skipped_contributor_commits": 0
+   },
+   "lora-stm32wl5": {
+    "committer": "Damien George",
+    "date": "2023-08-26T18:16:04+10:00",
+    "path": "micropython/lora/lora-stm32wl5",
+    "skipped_contributor_commits": 0
+   },
+   "lora-sx126x": {
+    "committer": "Damien George",
+    "date": "2023-07-20T23:07:22+10:00",
+    "path": "micropython/lora/lora-sx126x",
+    "skipped_contributor_commits": 0
+   },
+   "lora-sx127x": {
+    "committer": "Damien George",
+    "date": "2023-07-20T23:07:22+10:00",
+    "path": "micropython/lora/lora-sx127x",
+    "skipped_contributor_commits": 0
+   },
+   "lora-sync": {
+    "committer": "Damien George",
+    "date": "2023-07-20T23:07:22+10:00",
+    "path": "micropython/lora/lora-sync",
+    "skipped_contributor_commits": 0
+   },
+   "lps22h": {
+    "committer": "Jim Mussared",
+    "date": "2022-09-06T13:21:56+10:00",
+    "path": "micropython/drivers/sensor/lps22h",
+    "skipped_contributor_commits": 0
+   },
+   "lsm6dsox": {
+    "committer": "Jim Mussared",
+    "date": "2022-09-06T13:21:48+10:00",
+    "path": "micropython/drivers/imu/lsm6dsox",
+    "skipped_contributor_commits": 0
+   },
+   "lsm9ds1": {
+    "committer": "Jim Mussared",
+    "date": "2022-09-06T13:21:44+10:00",
+    "path": "micropython/drivers/imu/lsm9ds1",
+    "skipped_contributor_commits": 0
+   },
+   "mhz19": {
+    "committer": "Damien George",
+    "date": "2022-11-15T23:06:42+11:00",
+    "path": "micropython/drivers/sensor/mhz19",
+    "skipped_contributor_commits": 0
+   },
+   "mip": {
+    "committer": "Jim Mussared",
+    "date": "2022-09-29T22:54:32+10:00",
+    "path": "micropython/mip",
+    "skipped_contributor_commits": 0
+   },
+   "mip-cmdline": {
+    "committer": "Jim Mussared",
+    "date": "2022-11-09T12:43:04+11:00",
+    "path": "micropython/mip-cmdline",
+    "skipped_contributor_commits": 0
+   },
+   "neopixel": {
+    "committer": "Jim Mussared",
+    "date": "2022-09-06T13:21:50+10:00",
+    "path": "micropython/drivers/led/neopixel",
+    "skipped_contributor_commits": 0
+   },
+   "nrf24l01": {
+    "committer": "Jim Mussared",
+    "date": "2022-09-06T13:21:52+10:00",
+    "path": "micropython/drivers/radio/nrf24l01",
+    "skipped_contributor_commits": 0
+   },
+   "ntptime": {
+    "committer": "Jim Mussared",
+    "date": "2022-09-06T13:26:12+10:00",
+    "path": "micropython/net/ntptime",
+    "skipped_contributor_commits": 0
+   },
+   "onewire": {
+    "committer": "Jim Mussared",
+    "date": "2022-09-06T13:21:26+10:00",
+    "path": "micropython/drivers/bus/onewire",
+    "skipped_contributor_commits": 0
+   },
+   "operator": {
+    "committer": "Damien George",
+    "date": "2022-09-05T17:50:28+10:00",
+    "path": "python-stdlib/operator",
+    "skipped_contributor_commits": 0
+   },
+   "os": {
+    "committer": "Damien George",
+    "date": "2022-09-05T17:50:28+10:00",
+    "path": "python-stdlib/os",
+    "skipped_contributor_commits": 0
+   },
+   "os-path": {
+    "committer": "Jim Mussared",
+    "date": "2022-09-13T14:31:24+10:00",
+    "path": "python-stdlib/os-path",
+    "skipped_contributor_commits": 0
+   },
+   "pathlib": {
+    "committer": "Damien George",
+    "date": "2022-11-17T14:26:33+11:00",
+    "path": "python-stdlib/pathlib",
+    "skipped_contributor_commits": 0
+   },
+   "pickle": {
+    "committer": "Damien George",
+    "date": "2022-09-05T17:50:28+10:00",
+    "path": "python-stdlib/pickle",
+    "skipped_contributor_commits": 0
+   },
+   "pkg_resources": {
+    "committer": "Damien George",
+    "date": "2022-09-05T17:50:28+10:00",
+    "path": "python-stdlib/pkg_resources",
+    "skipped_contributor_commits": 0
+   },
+   "pkgutil": {
+    "committer": "Damien George",
+    "date": "2022-09-05T17:50:28+10:00",
+    "path": "python-stdlib/pkgutil",
+    "skipped_contributor_commits": 0
+   },
+   "pprint": {
+    "committer": "Damien George",
+    "date": "2022-09-05T17:50:28+10:00",
+    "path": "python-stdlib/pprint",
+    "skipped_contributor_commits": 0
+   },
+   "pyjwt": {
+    "committer": "Damien George",
+    "date": "2022-09-05T17:50:28+10:00",
+    "path": "python-ecosys/pyjwt",
+    "skipped_contributor_commits": 0
+   },
+   "quopri": {
+    "committer": "Damien George",
+    "date": "2022-09-05T17:50:28+10:00",
+    "path": "python-stdlib/quopri",
+    "skipped_contributor_commits": 0
+   },
+   "random": {
+    "committer": "Damien George",
+    "date": "2022-09-05T17:50:28+10:00",
+    "path": "python-stdlib/random",
+    "skipped_contributor_commits": 0
+   },
+   "requests": {
+    "committer": "Damien George",
+    "date": "2023-07-23T11:41:44+10:00",
+    "path": "python-ecosys/requests",
+    "skipped_contributor_commits": 0
+   },
+   "sdcard": {
+    "committer": "Jim Mussared",
+    "date": "2022-09-06T13:21:57+10:00",
+    "path": "micropython/drivers/storage/sdcard",
+    "skipped_contributor_commits": 0
+   },
+   "senml": {
+    "committer": "Damien George",
+    "date": "2023-03-01T01:18:30+11:00",
+    "path": "micropython/senml",
+    "skipped_contributor_commits": 0
+   },
+   "shutil": {
+    "committer": "Damien George",
+    "date": "2022-09-05T17:50:28+10:00",
+    "path": "python-stdlib/shutil",
+    "skipped_contributor_commits": 0
+   },
+   "ssd1306": {
+    "committer": "Jim Mussared",
+    "date": "2022-09-06T13:21:40+10:00",
+    "path": "micropython/drivers/display/ssd1306",
+    "skipped_contributor_commits": 0
+   },
+   "ssl": {
+    "committer": "Damien George",
+    "date": "2022-09-05T17:50:28+10:00",
+    "path": "python-stdlib/ssl",
+    "skipped_contributor_commits": 0
+   },
+   "stat": {
+    "committer": "Damien George",
+    "date": "2022-09-05T17:50:28+10:00",
+    "path": "python-stdlib/stat",
+    "skipped_contributor_commits": 0
+   },
+   "string": {
+    "committer": "Damien George",
+    "date": "2022-09-05T17:50:28+10:00",
+    "path": "python-stdlib/string",
+    "skipped_contributor_commits": 0
+   },
+   "struct": {
+    "committer": "Damien George",
+    "date": "2022-09-05T17:50:28+10:00",
+    "path": "python-stdlib/struct",
+    "skipped_contributor_commits": 0
+   },
+   "tarfile": {
+    "committer": "Damien George",
+    "date": "2023-07-23T11:41:44+10:00",
+    "path": "python-stdlib/tarfile",
+    "skipped_contributor_commits": 0
+   },
+   "tarfile-write": {
+    "committer": "Damien George",
+    "date": "2023-07-23T11:41:44+10:00",
+    "path": "python-stdlib/tarfile-write",
+    "skipped_contributor_commits": 0
+   },
+   "tempfile": {
+    "committer": "Damien George",
+    "date": "2022-11-11T13:05:04+11:00",
+    "path": "python-stdlib/tempfile",
+    "skipped_contributor_commits": 0
+   },
+   "textwrap": {
+    "committer": "Damien George",
+    "date": "2022-09-05T17:50:28+10:00",
+    "path": "python-stdlib/textwrap",
+    "skipped_contributor_commits": 0
+   },
+   "threading": {
+    "committer": "Damien George",
+    "date": "2022-09-05T17:50:28+10:00",
+    "path": "python-stdlib/threading",
+    "skipped_contributor_commits": 0
+   },
+   "time": {
+    "committer": "Damien George",
+    "date": "2022-12-14T11:57:12+11:00",
+    "path": "python-stdlib/time",
+    "skipped_contributor_commits": 0
+   },
+   "traceback": {
+    "committer": "Damien George",
+    "date": "2022-09-05T17:50:28+10:00",
+    "path": "python-stdlib/traceback",
+    "skipped_contributor_commits": 0
+   },
+   "types": {
+    "committer": "Damien George",
+    "date": "2023-07-21T16:58:48+10:00",
+    "path": "python-stdlib/types",
+    "skipped_contributor_commits": 0
+   },
+   "uaiohttpclient": {
+    "committer": "Damien George",
+    "date": "2022-09-05T17:50:28+10:00",
+    "path": "micropython/uaiohttpclient",
+    "skipped_contributor_commits": 0
+   },
+   "ucontextlib": {
+    "committer": "Damien George",
+    "date": "2022-09-05T17:50:28+10:00",
+    "path": "micropython/ucontextlib",
+    "skipped_contributor_commits": 0
+   },
+   "udnspkt": {
+    "committer": "Damien George",
+    "date": "2022-09-05T17:50:28+10:00",
+    "path": "micropython/udnspkt",
+    "skipped_contributor_commits": 0
+   },
+   "umqtt.robust": {
+    "committer": "Damien George",
+    "date": "2022-09-05T17:50:28+10:00",
+    "path": "micropython/umqtt.robust",
+    "skipped_contributor_commits": 0
+   },
+   "umqtt.simple": {
+    "committer": "Damien George",
+    "date": "2022-09-05T17:50:28+10:00",
+    "path": "micropython/umqtt.simple",
+    "skipped_contributor_commits": 0
+   },
+   "unittest": {
+    "committer": "Damien George",
+    "date": "2022-09-05T17:50:28+10:00",
+    "path": "python-stdlib/unittest",
+    "skipped_contributor_commits": 0
+   },
+   "unittest-discover": {
+    "committer": "Jim Mussared",
+    "date": "2022-09-13T09:57:04+10:00",
+    "path": "python-stdlib/unittest-discover",
+    "skipped_contributor_commits": 0
+   },
+   "upysh": {
+    "committer": "Damien George",
+    "date": "2022-09-05T17:50:28+10:00",
+    "path": "micropython/upysh",
+    "skipped_contributor_commits": 0
+   },
+   "urequests": {
+    "committer": "Damien George",
+    "date": "2023-07-23T11:41:44+10:00",
+    "path": "micropython/urequests",
+    "skipped_contributor_commits": 0
+   },
+   "urllib.urequest": {
+    "committer": "Damien George",
+    "date": "2022-09-05T17:50:28+10:00",
+    "path": "micropython/urllib.urequest",
+    "skipped_contributor_commits": 0
+   },
+   "usb-device": {
+    "committer": "Angus Gratton",
+    "date": "2024-04-30T15:57:50+10:00",
+    "path": "micropython/usb/usb-device",
+    "skipped_contributor_commits": 0
+   },
+   "usb-device-cdc": {
+    "committer": "Angus Gratton",
+    "date": "2024-04-30T15:57:50+10:00",
+    "path": "micropython/usb/usb-device-cdc",
+    "skipped_contributor_commits": 0
+   },
+   "usb-device-hid": {
+    "committer": "Angus Gratton",
+    "date": "2024-04-30T15:57:50+10:00",
+    "path": "micropython/usb/usb-device-hid",
+    "skipped_contributor_commits": 0
+   },
+   "usb-device-keyboard": {
+    "committer": "Angus Gratton",
+    "date": "2024-04-30T15:57:50+10:00",
+    "path": "micropython/usb/usb-device-keyboard",
+    "skipped_contributor_commits": 0
+   },
+   "usb-device-midi": {
+    "committer": "Angus Gratton",
+    "date": "2024-04-30T15:57:50+10:00",
+    "path": "micropython/usb/usb-device-midi",
+    "skipped_contributor_commits": 0
+   },
+   "usb-device-mouse": {
+    "committer": "Angus Gratton",
+    "date": "2024-04-30T15:57:50+10:00",
+    "path": "micropython/usb/usb-device-mouse",
+    "skipped_contributor_commits": 0
+   },
+   "uu": {
+    "committer": "Damien George",
+    "date": "2022-09-05T17:50:28+10:00",
+    "path": "python-stdlib/uu",
+    "skipped_contributor_commits": 0
+   },
+   "uuid": {
+    "committer": "Damien George",
+    "date": "2026-07-20T23:43:32+10:00",
+    "path": "python-stdlib/uuid",
+    "skipped_contributor_commits": 0
+   },
+   "venv": {
+    "committer": "Jim Mussared",
+    "date": "2022-11-09T12:52:03+11:00",
+    "path": "python-stdlib/venv",
+    "skipped_contributor_commits": 0
+   },
+   "warnings": {
+    "committer": "Damien George",
+    "date": "2022-09-05T17:50:28+10:00",
+    "path": "python-stdlib/warnings",
+    "skipped_contributor_commits": 0
+   },
+   "webrepl": {
+    "committer": "Jim Mussared",
+    "date": "2022-09-06T13:25:21+10:00",
+    "path": "micropython/net/webrepl",
+    "skipped_contributor_commits": 0
+   },
+   "wm8960": {
+    "committer": "Jim Mussared",
+    "date": "2022-09-06T13:21:30+10:00",
+    "path": "micropython/drivers/codec/wm8960",
+    "skipped_contributor_commits": 0
+   },
+   "xmltok": {
+    "committer": "Damien George",
+    "date": "2022-09-05T17:50:28+10:00",
+    "path": "micropython/xmltok",
+    "skipped_contributor_commits": 0
+   },
+   "zipfile": {
+    "committer": "Damien George",
+    "date": "2026-09-11T22:49:51+10:00",
+    "path": "python-stdlib/zipfile",
+    "skipped_contributor_commits": 0
+   },
+   "zlib": {
+    "committer": "Damien George",
+    "date": "2023-07-25T18:19:51+10:00",
+    "path": "python-stdlib/zlib",
+    "skipped_contributor_commits": 0
+   }
+  },
+  "head": "90028be0829c6e988b5e239b28f39fb91b6b20e2",
+  "maintainers": [
+   "Andrew Leech",
+   "Angus Gratton",
+   "Damien George",
+   "GitHub",
+   "Jim Mussared",
+   "Paul Sokolovsky"
+  ]
+ },
+ "updated": 1791770383
+}

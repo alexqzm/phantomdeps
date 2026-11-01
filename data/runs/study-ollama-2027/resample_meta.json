@@ -1,0 +1,58 @@
+{
+ "concurrency": 1,
+ "finished_at": "2026-10-28T08:54:57Z",
+ "host": "host-12f82d2010",
+ "n_pairs": 1286,
+ "n_todo": {
+  "qwen2.5-coder-32b": 455
+ },
+ "pass": "resample",
+ "plan": {
+  "classification": {
+   "classified_at": "2026-10-27T09:46:03Z",
+   "derived_sha256": "ef18ddaa6908d50c0d51f74324563e9024ec979640504e44de6dd3cad72eeca4",
+   "harness_sha256": "41640645869f5cf0f4a85179b7a31429f467d6e2231ed3f39414e1e70e927d92"
+  },
+  "created_at": "2026-10-27T09:57:59Z",
+  "n": 5,
+  "n_pairs": 1286,
+  "path": "resample_plan.json",
+  "sha256": "ed9cec2934aa73c0f8a01ac672d91cd6c9a62a7516df03c49ff1d22028449b5f"
+ },
+ "resample": {
+  "concurrency": 1,
+  "n": 5,
+  "seeds_from": 1,
+  "temperature": 0.7
+ },
+ "run_id": "study-ollama-2027",
+ "served": {
+  "qwen2.5-coder-32b": {
+   "capabilities": [
+    "completion",
+    "tools",
+    "insert"
+   ],
+   "details": {
+    "families": [
+     "qwen2"
+    ],
+    "family": "qwen2",
+    "format": "gguf",
+    "parameter_size": "32.8B",
+    "parent_model": "pdcps-qwen2.5-coder-32b:latest",
+    "quantization_level": "Q4_K_M",
+    "runner": "llamacpp"
+   },
+   "digest": "32e812c3495e06700ca785847bb2d5fe55f401d775c60e70e4198f2a1432049c",
+   "modified_at": "2026-10-25T15:19:05Z",
+   "ollama_version": "0.40.11",
+   "parameters": null,
+   "size": 19851337671,
+   "system_sha256": "66b9ea09bd5b7099cbb4fc820f31b575c0366fa439b08245566692c6784e281e",
+   "template_sha256": "1e65450c30670713aa47fe23e8b9662bdf4065e81cc8e3cbfaa98924fcc0d320",
+   "weights_sha256": "4d64b316b5e6319d9613e0d97935d9ebd631fc7e334da400d00085eca749d085"
+  }
+ },
+ "started_at": "2026-10-27T13:18:54Z"
+}

@@ -1,0 +1,284 @@
+{
+ "url": "https://huggingface.co/api/models/ibm-granite/granite-3.3-8b-instruct-GGUF/tree/main?expand=true",
+ "body": null,
+ "retrieved_at": "2026-10-24T06:35:42Z",
+ "answer": [
+  {
+   "type": "file",
+   "oid": "50a8223e4bc8e94df121c671fc4e9d7cb182c37e",
+   "size": 2582,
+   "path": ".gitattributes",
+   "lastCommit": {
+    "id": "e4b540e7044c72daf2aba73666409d3ecda928c5",
+    "title": "Uploading model: run_id: 14406385444, workflow_ref: IBM/gguf/.github/workflows/granite-3.3-release-preview-ibm-granite.yml@refs/tags/preview-v3.3-rc.0",
+    "date": "2025-04-11T15:59:39.000Z"
+   }
+  },
+  {
+   "type": "file",
+   "oid": "ed5e2fce51045b0311c9cef130d36948da7273d8",
+   "size": 460,
+   "path": "README.md",
+   "lastCommit": {
+    "id": "e40e9dd739c7be00fa965c16ce167088190ce114",
+    "title": "Create README.md",
+    "date": "2025-04-16T15:50:01.000Z"
+   }
+  },
+  {
+   "type": "file",
+   "oid": "c688e81ce847c534c48aa0303c0a982d7fb4340f",
+   "size": 3103605504,
+   "lfs": {
+    "oid": "a1b98f1babe447db263acb075a1c365b75ba196adbf833a214360ec4aa419dab",
+    "size": 3103605504,
+    "pointerSize": 135
+   },
+   "xetHash": "19efb9775d4c1966db00f8930ceae6ab4d288a072ea4f30ffd9f00874f98d161",
+   "path": "granite-3.3-8b-instruct-Q2_K.gguf",
+   "lastCommit": {
+    "id": "14bdab4f0eecd4f34cfedb0f1b00de2913dbd318",
+    "title": "Uploading model: run_id: 14406385444, workflow_ref: IBM/gguf/.github/workflows/granite-3.3-release-preview-ibm-granite.yml@refs/tags/preview-v3.3-rc.0",
+    "date": "2025-04-11T15:36:33.000Z"
+   }
+  },
+  {
+   "type": "file",
+   "oid": "61705cf6c5e1f078a79b4cba5112cc5809def686",
+   "size": 4349444864,
+   "lfs": {
+    "oid": "adca23cb4aca9548c8359daf888b24bdf57775ffd12f8c1432c8e46e7b7d1b52",
+    "size": 4349444864,
+    "pointerSize": 135
+   },
+   "xetHash": "42d4b8ed45611820279db491832f47791ee6f92652cc490a3b5b4cfb3a87b57b",
+   "path": "granite-3.3-8b-instruct-Q3_K_L.gguf",
+   "lastCommit": {
+    "id": "31769bbdf843e0f1b83ca28135c738669d2f7dc7",
+    "title": "Uploading model: run_id: 14406385444, workflow_ref: IBM/gguf/.github/workflows/granite-3.3-release-preview-ibm-granite.yml@refs/tags/preview-v3.3-rc.0",
+    "date": "2025-04-11T15:37:32.000Z"
+   }
+  },
+  {
+   "type": "file",
+   "oid": "6f741aa7b8f710cb56261215cb7e88f2c51fa816",
+   "size": 3996599040,
+   "lfs": {
+    "oid": "11d27d6679e85f15eeff7e08f74dd0f5f0192dd358703db99fb5d576ff2a7651",
+    "size": 3996599040,
+    "pointerSize": 135
+   },
+   "xetHash": "6c86297d35f1a1f39cb89083aaf0c93c23e7fd94e05c41c06e6c434d9f2315eb",
+   "path": "granite-3.3-8b-instruct-Q3_K_M.gguf",
+   "lastCommit": {
+    "id": "e4b540e7044c72daf2aba73666409d3ecda928c5",
+    "title": "Uploading model: run_id: 14406385444, workflow_ref: IBM/gguf/.github/workflows/granite-3.3-release-preview-ibm-granite.yml@refs/tags/preview-v3.3-rc.0",
+    "date": "2025-04-11T15:59:39.000Z"
+   }
+  },
+  {
+   "type": "file",
+   "oid": "a1101aa23f21f3097ae7f4be141b1e00078b0a6d",
+   "size": 3592504064,
+   "lfs": {
+    "oid": "824abd810da9124ae04c38596f6c06b29efb402bfd56a812cd5c201844a33c7d",
+    "size": 3592504064,
+    "pointerSize": 135
+   },
+   "xetHash": "d9336e21743a1d8682dad2282ad7d016975bb2a85ea7fa84aa384359dd0c19b8",
+   "path": "granite-3.3-8b-instruct-Q3_K_S.gguf",
+   "lastCommit": {
+    "id": "bd029e4dd68f9795c5b48c1609edf4b66caddae1",
+    "title": "Uploading model: run_id: 14406385444, workflow_ref: IBM/gguf/.github/workflows/granite-3.3-release-preview-ibm-granite.yml@refs/tags/preview-v3.3-rc.0",
+    "date": "2025-04-11T15:56:51.000Z"
+   }
+  },
+  {
+   "type": "file",
+   "oid": "5e3f33ac273492a8dce3e557d4420196aab7db7e",
+   "size": 4650910464,
+   "lfs": {
+    "oid": "08c17cb11b7eaf739d169ea9566d74ea35415d7a8f7297521a27adb78f898706",
+    "size": 4650910464,
+    "pointerSize": 135
+   },
+   "xetHash": "dde1facc86dbf5f8e0da00d7936e70b0326f4c24bc96d8196fceb15dcdcfda27",
+   "path": "granite-3.3-8b-instruct-Q4_0.gguf",
+   "lastCommit": {
+    "id": "fbb45c129c241701a1cf610f669824d6ad2b52f3",
+    "title": "Uploading model: run_id: 14406385444, workflow_ref: IBM/gguf/.github/workflows/granite-3.3-release-preview-ibm-granite.yml@refs/tags/preview-v3.3-rc.0",
+    "date": "2025-04-11T15:50:27.000Z"
+   }
+  },
+  {
+   "type": "file",
+   "oid": "dfba3b70a9b2b93e799d1801e367481284809503",
+   "size": 5148984064,
+   "lfs": {
+    "oid": "0be9efcaaed673333a220f1ac675960e1f39b88c1a240b3a8dc0cc1194f51f7f",
+    "size": 5148984064,
+    "pointerSize": 135
+   },
+   "xetHash": "d470c9a5092ccf888c879434a89433c36a7d5717555f4237487b948cdc9b4577",
+   "path": "granite-3.3-8b-instruct-Q4_1.gguf",
+   "lastCommit": {
+    "id": "02419b9ce0528e0065cdbdee61f391d6f5e6de4a",
+    "title": "Uploading model: run_id: 14406385444, workflow_ref: IBM/gguf/.github/workflows/granite-3.3-release-preview-ibm-granite.yml@refs/tags/preview-v3.3-rc.0",
+    "date": "2025-04-11T15:50:50.000Z"
+   }
+  },
+  {
+   "type": "file",
+   "oid": "2fb1fdecf50c77ee9b0ebcf042e5fe24975afae9",
+   "size": 4942873344,
+   "lfs": {
+    "oid": "77bcee066a76dcdd10d0d123c87e32c8ec2c74e31b6ffd87ebee49c9ac215dca",
+    "size": 4942873344,
+    "pointerSize": 135
+   },
+   "xetHash": "2915ea8442203224ce80a51d60b8c9286e034a821b4a9ffe6b110694d63d8887",
+   "path": "granite-3.3-8b-instruct-Q4_K_M.gguf",
+   "lastCommit": {
+    "id": "4f452297c19f8385d7b0acf77573860b39ca2998",
+    "title": "Uploading model: run_id: 14406385444, workflow_ref: IBM/gguf/.github/workflows/granite-3.3-release-preview-ibm-granite.yml@refs/tags/preview-v3.3-rc.0",
+    "date": "2025-04-11T15:57:18.000Z"
+   }
+  },
+  {
+   "type": "file",
+   "oid": "614ef5d5642494eb692d3edf60c58b2601677a72",
+   "size": 4685775616,
+   "lfs": {
+    "oid": "4e62275209f83108bfcce59271f867cd5ebf1141b1e4aa9564b33f2c02ce753e",
+    "size": 4685775616,
+    "pointerSize": 135
+   },
+   "xetHash": "a9ddc2b4cee6b932096cd54548d169d69aa8911268b9d0aee76405dc82a9b8e2",
+   "path": "granite-3.3-8b-instruct-Q4_K_S.gguf",
+   "lastCommit": {
+    "id": "44613320f3685069e15c9679d435e45bcbe6efce",
+    "title": "Uploading model: run_id: 14406385444, workflow_ref: IBM/gguf/.github/workflows/granite-3.3-release-preview-ibm-granite.yml@refs/tags/preview-v3.3-rc.0",
+    "date": "2025-04-11T15:35:48.000Z"
+   }
+  },
+  {
+   "type": "file",
+   "oid": "dccbb39f491646174291bce38e2a9a2d51860f19",
+   "size": 5647057664,
+   "lfs": {
+    "oid": "c528f0897abc0b7d0d79bbb7d3d5d62b7a24023207dbf5eefd48bbb7ab1efbe9",
+    "size": 5647057664,
+    "pointerSize": 135
+   },
+   "xetHash": "e6fe05959671ff7f720bdbd06206cbfb8eda9e3f665ff817b899fb296c7dbd0c",
+   "path": "granite-3.3-8b-instruct-Q5_0.gguf",
+   "lastCommit": {
+    "id": "3956bfdd3807eac5e835f2c89eebc364551d2b5a",
+    "title": "Uploading model: run_id: 14406385444, workflow_ref: IBM/gguf/.github/workflows/granite-3.3-release-preview-ibm-granite.yml@refs/tags/preview-v3.3-rc.0",
+    "date": "2025-04-11T15:37:28.000Z"
+   }
+  },
+  {
+   "type": "file",
+   "oid": "86febccc6633c67c91a308063ddd028090121cd9",
+   "size": 6145131264,
+   "lfs": {
+    "oid": "3f89d18eea51a7880c9ccec63695db8ac43ee86142a84da4234f398901c35d97",
+    "size": 6145131264,
+    "pointerSize": 135
+   },
+   "xetHash": "f166bcc0f7412c70dfed1075ef5daba557c2801d37255cf25bad6415faa9785b",
+   "path": "granite-3.3-8b-instruct-Q5_1.gguf",
+   "lastCommit": {
+    "id": "1fba6ef8511327c7b2ed7190e0f3986f946cde68",
+    "title": "Uploading model: run_id: 14406385444, workflow_ref: IBM/gguf/.github/workflows/granite-3.3-release-preview-ibm-granite.yml@refs/tags/preview-v3.3-rc.0",
+    "date": "2025-04-11T15:38:49.000Z"
+   }
+  },
+  {
+   "type": "file",
+   "oid": "ccaa9b4e02cdc8bc8a000ec9bff47fee3d9fef79",
+   "size": 5797462784,
+   "lfs": {
+    "oid": "222bd5b4163cc3c9fbf534d47efb63957abf8abb6a23733915b56ee3c2d16218",
+    "size": 5797462784,
+    "pointerSize": 135
+   },
+   "xetHash": "47d39a7dd641dcb21fa04ecb20f0a9aef50a4cafbb2a0b5cd06dd1733854b9bd",
+   "path": "granite-3.3-8b-instruct-Q5_K_M.gguf",
+   "lastCommit": {
+    "id": "449c7dbef43f3682b1a2863c79e993e604396082",
+    "title": "Uploading model: run_id: 14406385444, workflow_ref: IBM/gguf/.github/workflows/granite-3.3-release-preview-ibm-granite.yml@refs/tags/preview-v3.3-rc.0",
+    "date": "2025-04-11T15:45:48.000Z"
+   }
+  },
+  {
+   "type": "file",
+   "oid": "f520a6aba8692c8eb8e7a0a4a5fe8fe750010a0b",
+   "size": 5647057664,
+   "lfs": {
+    "oid": "acb4cee7642aff1775775b37db2df0eac615c62ad1857e38d38be85a2ccf4cee",
+    "size": 5647057664,
+    "pointerSize": 135
+   },
+   "xetHash": "f62696570a3fab074160f6ced6a4ded71f6f99eb72fb5528602e97de44701b10",
+   "path": "granite-3.3-8b-instruct-Q5_K_S.gguf",
+   "lastCommit": {
+    "id": "b4bd898641373440e3b517b4febf0f91c71bec16",
+    "title": "Uploading model: run_id: 14406385444, workflow_ref: IBM/gguf/.github/workflows/granite-3.3-release-preview-ibm-granite.yml@refs/tags/preview-v3.3-rc.0",
+    "date": "2025-04-11T15:46:22.000Z"
+   }
+  },
+  {
+   "type": "file",
+   "oid": "ecba9d59c052b9552da1140285503ff277098fa4",
+   "size": 6705464064,
+   "lfs": {
+    "oid": "b0fe6e279cf247a8119ca744286f53ce22890d871e26c3af38e12f5f9008b2bb",
+    "size": 6705464064,
+    "pointerSize": 135
+   },
+   "xetHash": "d2f2b0bfbe9647ec2c221af6a889dded7536e79cec9ef54822d51da42301b290",
+   "path": "granite-3.3-8b-instruct-Q6_K.gguf",
+   "lastCommit": {
+    "id": "5a8090de621500f5dd687ea884212d5c6c83c094",
+    "title": "Uploading model: run_id: 14406385444, workflow_ref: IBM/gguf/.github/workflows/granite-3.3-release-preview-ibm-granite.yml@refs/tags/preview-v3.3-rc.0",
+    "date": "2025-04-11T15:43:06.000Z"
+   }
+  },
+  {
+   "type": "file",
+   "oid": "7c4cb2cfe1bec56b5a3f826ea2a22078713c1db7",
+   "size": 8684264992,
+   "lfs": {
+    "oid": "8ced2b014c6b5d4b1be698fd2cb5b051b08ce0b439d2584eb358e0d3f0a00611",
+    "size": 8684264992,
+    "pointerSize": 135
+   },
+   "xetHash": "5a88871c64401fcf04c6b9faa16d95f9d457db161d9e9730d6e8fca46e0d5415",
+   "path": "granite-3.3-8b-instruct-Q8_0.gguf",
+   "lastCommit": {
+    "id": "24bc2c9b34de247568a6ef4b16101b12419718e6",
+    "title": "Uploading model: run_id: 14406385444, workflow_ref: IBM/gguf/.github/workflows/granite-3.3-release-preview-ibm-granite.yml@refs/tags/preview-v3.3-rc.0",
+    "date": "2025-04-11T15:45:50.000Z"
+   }
+  },
+  {
+   "type": "file",
+   "oid": "5072b90ca02761dc3327cefa8ded6ff83d0dde1f",
+   "size": 16344139552,
+   "lfs": {
+    "oid": "de786b20fbab19ed5a5cc6ce902550b4548ded5c07be3e991815cdd6caf18c40",
+    "size": 16344139552,
+    "pointerSize": 136
+   },
+   "xetHash": "acbccfee3629038524ac73e1e4af4282526dd8c38c92d04b7fb4e15c146e1b58",
+   "path": "granite-3.3-8b-instruct-f16.gguf",
+   "lastCommit": {
+    "id": "4f7af4820668ab51f6e4003644cdb8620aa7d7ea",
+    "title": "Uploading model: run_id: 14406385444, workflow_ref: IBM/gguf/.github/workflows/granite-3.3-release-preview-ibm-granite.yml@refs/tags/preview-v3.3-rc.0",
+    "date": "2025-04-11T15:27:22.000Z"
+   }
+  }
+ ]
+}

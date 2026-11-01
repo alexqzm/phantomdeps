@@ -1,0 +1,121 @@
+{
+ "source": "registry.ollama.ai manifests, fetched 2026-10-24T20:44:12Z",
+ "models": {
+  "qwen2.5-coder-1.5b": {
+   "library_tag": "qwen2.5-coder:1.5b",
+   "layers": {
+    "model": "sha256:29d8c98fa6b098e200069bfb88b9508dc3e85586d20cba59f8dda9a808165104",
+    "system": "sha256:66b9ea09bd5b7099cbb4fc820f31b575c0366fa439b08245566692c6784e281e",
+    "template": "sha256:1e65450c30670713aa47fe23e8b9662bdf4065e81cc8e3cbfaa98924fcc0d320"
+   },
+   "gguf_identical_to_library_model_layer": false
+  },
+  "llama3.2-3b": {
+   "library_tag": "llama3.2:3b",
+   "layers": {
+    "model": "sha256:dde5aa3fc5ffc17176b5e8bdc82f587b24b2678c6c66101bf7da77af9f7ccdff",
+    "template": "sha256:966de95ca8a62200913e3f8bfbf84c8494536f1b94b49166851e76644e966396",
+    "params": "sha256:56bb8bd477a519ffa694fc449c2413c6f0e1d3b1c88fa7e3c9d88d3ae49d4dcb"
+   },
+   "gguf_identical_to_library_model_layer": false
+  },
+  "qwen2.5-coder-7b": {
+   "library_tag": "qwen2.5-coder:7b",
+   "layers": {
+    "model": "sha256:60e05f2100071479f596b964f89f510f057ce397ea22f2833a0cfe029bfc2463",
+    "system": "sha256:66b9ea09bd5b7099cbb4fc820f31b575c0366fa439b08245566692c6784e281e",
+    "template": "sha256:1e65450c30670713aa47fe23e8b9662bdf4065e81cc8e3cbfaa98924fcc0d320"
+   },
+   "gguf_identical_to_library_model_layer": false
+  },
+  "deepseek-coder-6.7b": {
+   "library_tag": "deepseek-coder:6.7b",
+   "layers": {
+    "model": "sha256:59bb50d8116b6a1f9bfbb940d6bb946a05554e591e30c8c2429ed6c854867ecb",
+    "template": "sha256:8893e08fa9f91f7dc39e24d27bdfaece4e9c86bb3269293ff8cea6cba98c872d",
+    "system": "sha256:8972a96b8ff1957ca24ff839aeb54411e6849de68609857a3fa17a4e78114247"
+   },
+   "gguf_identical_to_library_model_layer": false
+  },
+  "llama3.1-8b": {
+   "library_tag": "llama3.1:8b",
+   "layers": {
+    "model": "sha256:667b0c1932bc6ffc593ed1d03f895bf2dc8dc6df21db3042284a6f4416b06a29",
+    "template": "sha256:948af2743fc78a328dcb3b0f5a31b3d75f415840fdb699e8b1235978392ecf85",
+    "params": "sha256:56bb8bd477a519ffa694fc449c2413c6f0e1d3b1c88fa7e3c9d88d3ae49d4dcb"
+   },
+   "gguf_identical_to_library_model_layer": false
+  },
+  "qwen3-8b": {
+   "library_tag": "qwen3:8b",
+   "layers": {
+    "model": "sha256:a3de86cd1c132c822487ededd47a324c50491393e6565cd14bafa40d0b8e686f",
+    "template": "sha256:ae370d884f108d16e7cc8fd5259ebc5773a0afa6e078b11f4ed7e39a27e0dfc4",
+    "params": "sha256:cff3f395ef3756ab63e58b0ad1b32bb6f802905cae1472e6a12034e4246fbbdb"
+   },
+   "gguf_identical_to_library_model_layer": false
+  },
+  "granite3.3-8b": {
+   "library_tag": "granite3.3:8b",
+   "layers": {
+    "model": "sha256:77bcee066a76dcdd10d0d123c87e32c8ec2c74e31b6ffd87ebee49c9ac215dca",
+    "template": "sha256:3da071a01bbe5a1aa1e9766149ff67ed2b232f63d55e6ed50e3777b74536a67f"
+   },
+   "gguf_identical_to_library_model_layer": true
+  },
+  "gemma3-12b": {
+   "library_tag": "gemma3:12b",
+   "layers": {
+    "model": "sha256:13576eb6dd8d9d04b4da04d015ff343968628d3c2984195569d9d3585651d4f1",
+    "template": "sha256:e0a42594d802e5d31cdc786deb4823edb8adff66094d49de8fffe976d753e348",
+    "params": "sha256:3116c52250752e00dd06b16382e952bd33c34fd79fc4fe3a5d2c77cf7de1b14b"
+   },
+   "gguf_identical_to_library_model_layer": false
+  },
+  "qwen2.5-coder-14b": {
+   "library_tag": "qwen2.5-coder:14b",
+   "layers": {
+    "model": "sha256:ac9bc7a69dab38da1c790838955f1293420b55ab555ef6b4615efa1c1507b1ed",
+    "system": "sha256:66b9ea09bd5b7099cbb4fc820f31b575c0366fa439b08245566692c6784e281e",
+    "template": "sha256:1e65450c30670713aa47fe23e8b9662bdf4065e81cc8e3cbfaa98924fcc0d320"
+   },
+   "gguf_identical_to_library_model_layer": false
+  },
+  "phi4-14b": {
+   "library_tag": "phi4:14b",
+   "layers": {
+    "model": "sha256:fd7b6731c33c57f61767612f56517460ec2d1e2e5a3f0163e0eb3d8d8cb5df20",
+    "template": "sha256:32695b892af87ef8fca6e13a1a31c67c1441d7398be037e366e2fc763857c06a",
+    "params": "sha256:45a1c652dddc9efdcefa977ab81cfbe26b6e52bc8e78f2f4c698538783e0ac80"
+   },
+   "gguf_identical_to_library_model_layer": false
+  },
+  "deepseek-coder-v2-16b": {
+   "library_tag": "deepseek-coder-v2:16b",
+   "layers": {
+    "model": "sha256:5ff0abeeac1d2dbdd5455c0b49ba3b29a9ce3c1fb181b2eef2e948689d55d046",
+    "template": "sha256:22091531faf0148fb166466743e30b7012ea7a6d13a9af7e3995ccfec3ed4914",
+    "params": "sha256:19f2fb9e8bc65a143f47903ec07dce010fd2873f994b900ea735a4b5022e968d"
+   },
+   "gguf_identical_to_library_model_layer": false
+  },
+  "gpt-oss-20b": {
+   "library_tag": "gpt-oss:20b",
+   "layers": {
+    "model": "sha256:8ecb5d4ad6172c63f9cbf1a07a04e525985a8a11a6e516da02b674c4010de716",
+    "template": "sha256:fa6710a93d78da62641e192361344be7a8c0a1c3737f139cf89f20ce1626b99c",
+    "params": "sha256:d8ba2f9a17b3bbdeb5690efaa409b3fcb0b56296a777c7a69c78aa33bbddf182"
+   },
+   "gguf_identical_to_library_model_layer": false
+  },
+  "qwen2.5-coder-32b": {
+   "library_tag": "qwen2.5-coder:32b",
+   "layers": {
+    "model": "sha256:ac3d1ba8aa77755dab3806d9024e9c385ea0d5b412d6bdf9157f8a4a7e9fc0d9",
+    "system": "sha256:66b9ea09bd5b7099cbb4fc820f31b575c0366fa439b08245566692c6784e281e",
+    "template": "sha256:1e65450c30670713aa47fe23e8b9662bdf4065e81cc8e3cbfaa98924fcc0d320"
+   },
+   "gguf_identical_to_library_model_layer": false
+  }
+ }
+}

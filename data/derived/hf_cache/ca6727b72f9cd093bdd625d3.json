@@ -1,0 +1,1186 @@
+{
+ "url": "https://huggingface.co/api/models/Qwen/Qwen2.5-Coder-14B-Instruct-GGUF/tree/main?expand=true",
+ "body": null,
+ "retrieved_at": "2026-10-24T20:45:10Z",
+ "answer": [
+  {
+   "type": "file",
+   "oid": "e79ce6a89353fed9e05c6bd0e566fbd82c8d6d5f",
+   "size": 1561,
+   "path": ".gitattributes",
+   "lastCommit": {
+    "id": "fbbd41c3299ef596c08a5541a0c4aca9b2c5772f",
+    "title": "Add files using upload-large-folder tool",
+    "date": "2024-11-10T04:26:42.000Z"
+   },
+   "securityFileStatus": {
+    "status": "safe",
+    "protectAiScan": {
+     "status": "safe",
+     "message": "This file has no security findings.",
+     "reportLink": "https://insights-db.paloaltonetworks.com/models/Qwen/Qwen2.5-Coder-14B-Instruct-GGUF/d0a692ef765eefbf2fabb130b3cb2e8917e3d225/files?blob-id=e79ce6a89353fed9e05c6bd0e566fbd82c8d6d5f&utm_source=huggingface"
+    },
+    "avScan": {
+     "status": "safe",
+     "message": "No security issues detected",
+     "reportLink": "https://fdtn.ai/ai-supply-chain/hugging-face?utm_source=huggingface"
+    },
+    "pickleImportScan": {
+     "status": "unscanned",
+     "pickleImports": [],
+     "version": "0.0.0"
+    },
+    "virusTotalScan": {
+     "status": "unscanned"
+    },
+    "jFrogScan": {
+     "status": "unscanned",
+     "message": "Not a machine-learning model"
+    }
+   }
+  },
+  {
+   "type": "file",
+   "oid": "d1b6b207b4b67090fbe36e472b082d2ee2491142",
+   "size": 644,
+   "path": ".msc",
+   "lastCommit": {
+    "id": "d0a692ef765eefbf2fabb130b3cb2e8917e3d225",
+    "title": "upload",
+    "date": "2024-11-12T09:54:27.000Z"
+   },
+   "securityFileStatus": {
+    "status": "safe",
+    "protectAiScan": {
+     "status": "safe",
+     "message": "This file has no security findings.",
+     "reportLink": "https://insights-db.paloaltonetworks.com/models/Qwen/Qwen2.5-Coder-14B-Instruct-GGUF/d0a692ef765eefbf2fabb130b3cb2e8917e3d225/files?blob-id=d1b6b207b4b67090fbe36e472b082d2ee2491142&utm_source=huggingface"
+    },
+    "avScan": {
+     "status": "safe",
+     "message": "No security issues detected",
+     "reportLink": "https://fdtn.ai/ai-supply-chain/hugging-face?utm_source=huggingface"
+    },
+    "pickleImportScan": {
+     "status": "safe",
+     "pickleImports": [],
+     "version": "0.0.32"
+    },
+    "virusTotalScan": {
+     "status": "unscanned"
+    },
+    "jFrogScan": {
+     "status": "unscanned",
+     "message": "Not a machine-learning model"
+    }
+   }
+  },
+  {
+   "type": "file",
+   "oid": "6634c8cc3133b3848ec74b9f275acaaa1ea618ab",
+   "size": 11343,
+   "path": "LICENSE",
+   "lastCommit": {
+    "id": "aa883b6baf65c5a954485ac69bddb31aff2f2d45",
+    "title": "update README.md",
+    "date": "2024-11-11T03:42:15.000Z"
+   },
+   "securityFileStatus": {
+    "status": "safe",
+    "protectAiScan": {
+     "status": "safe",
+     "message": "This file has no security findings.",
+     "reportLink": "https://insights-db.paloaltonetworks.com/models/Qwen/Qwen2.5-Coder-14B-Instruct-GGUF/d0a692ef765eefbf2fabb130b3cb2e8917e3d225/files?blob-id=6634c8cc3133b3848ec74b9f275acaaa1ea618ab&utm_source=huggingface"
+    },
+    "avScan": {
+     "status": "safe",
+     "message": "No security issues detected",
+     "reportLink": "https://fdtn.ai/ai-supply-chain/hugging-face?utm_source=huggingface"
+    },
+    "pickleImportScan": {
+     "status": "unscanned",
+     "pickleImports": [],
+     "version": "0.0.0"
+    },
+    "virusTotalScan": {
+     "status": "unscanned"
+    },
+    "jFrogScan": {
+     "status": "unscanned",
+     "message": "Not a machine-learning model"
+    }
+   }
+  },
+  {
+   "type": "file",
+   "oid": "70d85dfae89c741890b503510615a32591740477",
+   "size": 5690,
+   "path": "README.md",
+   "lastCommit": {
+    "id": "3717cc660f02c1a47932785af057b3c22fc43f3a",
+    "title": "update README.md",
+    "date": "2024-11-11T13:40:07.000Z"
+   },
+   "securityFileStatus": {
+    "status": "safe",
+    "protectAiScan": {
+     "status": "safe",
+     "message": "This file has no security findings.",
+     "reportLink": "https://insights-db.paloaltonetworks.com/models/Qwen/Qwen2.5-Coder-14B-Instruct-GGUF/d0a692ef765eefbf2fabb130b3cb2e8917e3d225/files?blob-id=70d85dfae89c741890b503510615a32591740477&utm_source=huggingface"
+    },
+    "avScan": {
+     "status": "safe",
+     "message": "No security issues detected",
+     "reportLink": "https://fdtn.ai/ai-supply-chain/hugging-face?utm_source=huggingface"
+    },
+    "pickleImportScan": {
+     "status": "unscanned",
+     "pickleImports": [],
+     "version": "0.0.0"
+    },
+    "virusTotalScan": {
+     "status": "unscanned"
+    },
+    "jFrogScan": {
+     "status": "unscanned",
+     "message": "Not a machine-learning model"
+    }
+   }
+  },
+  {
+   "type": "file",
+   "oid": "52490ae2035e020f2096d8cb1a70fb6c20f7781f",
+   "size": 7886805984,
+   "lfs": {
+    "oid": "c736c5c42613f28597a8c9eb45e41b47c77db5dd49f5cc78d52a625b612a68e6",
+    "size": 7886805984,
+    "pointerSize": 135
+   },
+   "xetHash": "bd2697f19be9734e362e9ea64bd91a69fd8d66960ca97d9b7890ea6d6db3e8a4",
+   "path": "qwen2.5-coder-14b-instruct-fp16-00001-of-00004.gguf",
+   "lastCommit": {
+    "id": "fbbd41c3299ef596c08a5541a0c4aca9b2c5772f",
+    "title": "Add files using upload-large-folder tool",
+    "date": "2024-11-10T04:26:42.000Z"
+   },
+   "securityFileStatus": {
+    "status": "safe",
+    "protectAiScan": {
+     "status": "safe",
+     "message": "This file is vulnerable to threat(s) PAIT-GGUF-100.",
+     "reportLink": "https://insights-db.paloaltonetworks.com/models/Qwen/Qwen2.5-Coder-14B-Instruct-GGUF/d0a692ef765eefbf2fabb130b3cb2e8917e3d225/files?blob-id=52490ae2035e020f2096d8cb1a70fb6c20f7781f&utm_source=huggingface"
+    },
+    "avScan": {
+     "status": "unscanned",
+     "message": "",
+     "version": "1.5.2/27937"
+    },
+    "pickleImportScan": {
+     "status": "unscanned",
+     "pickleImports": [],
+     "version": "0.0.0"
+    },
+    "virusTotalScan": {
+     "status": "safe",
+     "message": "0/75 engines detect it as malicious.",
+     "reportLink": "https://www.virustotal.com/gui/file/c736c5c42613f28597a8c9eb45e41b47c77db5dd49f5cc78d52a625b612a68e6?utm_source=huggingface"
+    },
+    "jFrogScan": {
+     "status": "safe",
+     "message": "Safe GGUF model",
+     "reportLink": "https://research.jfrog.com/model-threats/gguf-ssti?utm_source=huggingface"
+    }
+   }
+  },
+  {
+   "type": "file",
+   "oid": "f4bdd5759688df2a38c250587c72c10591044527",
+   "size": 7991174912,
+   "lfs": {
+    "oid": "89b30f04070e5542a20cf97e137ca5a21a3bc9668faca2437d0b3d010d44acf4",
+    "size": 7991174912,
+    "pointerSize": 135
+   },
+   "xetHash": "c3236f30a2792bb1f2ca8d84b94651c93029eaafa14f5fc4ad5f871dd5bde854",
+   "path": "qwen2.5-coder-14b-instruct-fp16-00002-of-00004.gguf",
+   "lastCommit": {
+    "id": "fbbd41c3299ef596c08a5541a0c4aca9b2c5772f",
+    "title": "Add files using upload-large-folder tool",
+    "date": "2024-11-10T04:26:42.000Z"
+   },
+   "securityFileStatus": {
+    "status": "safe",
+    "protectAiScan": {
+     "status": "safe",
+     "message": "This file has no security findings.",
+     "reportLink": "https://insights-db.paloaltonetworks.com/models/Qwen/Qwen2.5-Coder-14B-Instruct-GGUF/d0a692ef765eefbf2fabb130b3cb2e8917e3d225/files?blob-id=f4bdd5759688df2a38c250587c72c10591044527&utm_source=huggingface"
+    },
+    "avScan": {
+     "status": "unscanned",
+     "message": "",
+     "version": "1.5.2/27937"
+    },
+    "pickleImportScan": {
+     "status": "unscanned",
+     "pickleImports": [],
+     "version": "0.0.0"
+    },
+    "virusTotalScan": {
+     "status": "safe",
+     "message": "0/75 engines detect it as malicious.",
+     "reportLink": "https://www.virustotal.com/gui/file/89b30f04070e5542a20cf97e137ca5a21a3bc9668faca2437d0b3d010d44acf4?utm_source=huggingface"
+    },
+    "jFrogScan": {
+     "status": "safe",
+     "message": "Safe GGUF model",
+     "reportLink": "https://research.jfrog.com/model-threats/gguf-ssti?utm_source=huggingface"
+    }
+   }
+  },
+  {
+   "type": "file",
+   "oid": "419a2fc92a403a4054a9e6170f75150ef29c7231",
+   "size": 7975434208,
+   "lfs": {
+    "oid": "ed075a95bb41dd2326dccfceb91612d638b72f28e38ba2ed3592c664865799fc",
+    "size": 7975434208,
+    "pointerSize": 135
+   },
+   "xetHash": "29c80a70fa9d838b726ce0962c9bb3e11464868e10ceee16618085507ced657e",
+   "path": "qwen2.5-coder-14b-instruct-fp16-00003-of-00004.gguf",
+   "lastCommit": {
+    "id": "fbbd41c3299ef596c08a5541a0c4aca9b2c5772f",
+    "title": "Add files using upload-large-folder tool",
+    "date": "2024-11-10T04:26:42.000Z"
+   },
+   "securityFileStatus": {
+    "status": "safe",
+    "protectAiScan": {
+     "status": "safe",
+     "message": "This file has no security findings.",
+     "reportLink": "https://insights-db.paloaltonetworks.com/models/Qwen/Qwen2.5-Coder-14B-Instruct-GGUF/d0a692ef765eefbf2fabb130b3cb2e8917e3d225/files?blob-id=419a2fc92a403a4054a9e6170f75150ef29c7231&utm_source=huggingface"
+    },
+    "avScan": {
+     "status": "unscanned",
+     "message": "",
+     "version": "1.5.2/27937"
+    },
+    "pickleImportScan": {
+     "status": "unscanned",
+     "pickleImports": [],
+     "version": "0.0.0"
+    },
+    "virusTotalScan": {
+     "status": "safe",
+     "message": "0/75 engines detect it as malicious.",
+     "reportLink": "https://www.virustotal.com/gui/file/ed075a95bb41dd2326dccfceb91612d638b72f28e38ba2ed3592c664865799fc?utm_source=huggingface"
+    },
+    "jFrogScan": {
+     "status": "safe",
+     "message": "Safe GGUF model",
+     "reportLink": "https://research.jfrog.com/model-threats/gguf-ssti?utm_source=huggingface"
+    }
+   }
+  },
+  {
+   "type": "file",
+   "oid": "a4815716416512fb7ebf90b0232e7dbaf5abc324",
+   "size": 5694301280,
+   "lfs": {
+    "oid": "cc26d153e73d122a9b6ee798a532c9b0af22735afbc9774b886a3eb369deef4c",
+    "size": 5694301280,
+    "pointerSize": 135
+   },
+   "xetHash": "de16b76fe92f3ae98aaa9ea13f89cfb62d379548fcaa146060a5b933bda2b209",
+   "path": "qwen2.5-coder-14b-instruct-fp16-00004-of-00004.gguf",
+   "lastCommit": {
+    "id": "fbbd41c3299ef596c08a5541a0c4aca9b2c5772f",
+    "title": "Add files using upload-large-folder tool",
+    "date": "2024-11-10T04:26:42.000Z"
+   },
+   "securityFileStatus": {
+    "status": "safe",
+    "protectAiScan": {
+     "status": "safe",
+     "message": "This file has no security findings.",
+     "reportLink": "https://insights-db.paloaltonetworks.com/models/Qwen/Qwen2.5-Coder-14B-Instruct-GGUF/d0a692ef765eefbf2fabb130b3cb2e8917e3d225/files?blob-id=a4815716416512fb7ebf90b0232e7dbaf5abc324&utm_source=huggingface"
+    },
+    "avScan": {
+     "status": "unscanned",
+     "message": "",
+     "version": "1.5.2/27937"
+    },
+    "pickleImportScan": {
+     "status": "unscanned",
+     "pickleImports": [],
+     "version": "0.0.0"
+    },
+    "virusTotalScan": {
+     "status": "safe",
+     "message": "0/75 engines detect it as malicious.",
+     "reportLink": "https://www.virustotal.com/gui/file/cc26d153e73d122a9b6ee798a532c9b0af22735afbc9774b886a3eb369deef4c?utm_source=huggingface"
+    },
+    "jFrogScan": {
+     "status": "safe",
+     "message": "Safe GGUF model",
+     "reportLink": "https://research.jfrog.com/model-threats/gguf-ssti?utm_source=huggingface"
+    }
+   }
+  },
+  {
+   "type": "file",
+   "oid": "8c1b4b23c23a688a0dd747380e9f4aca1f80dee3",
+   "size": 29547716032,
+   "lfs": {
+    "oid": "f0caced9823778600314115bf0b96834a0e82f6024e2af96625147626a1d8158",
+    "size": 29547716032,
+    "pointerSize": 136
+   },
+   "xetHash": "ee1601a82a6077614cb18036dc413fbf16f03bdf2a8baeb03beb1b52a028060b",
+   "path": "qwen2.5-coder-14b-instruct-fp16.gguf",
+   "lastCommit": {
+    "id": "d0a692ef765eefbf2fabb130b3cb2e8917e3d225",
+    "title": "upload",
+    "date": "2024-11-12T09:54:27.000Z"
+   },
+   "securityFileStatus": {
+    "status": "safe",
+    "protectAiScan": {
+     "status": "safe",
+     "message": "This file is vulnerable to threat(s) PAIT-GGUF-100.",
+     "reportLink": "https://insights-db.paloaltonetworks.com/models/Qwen/Qwen2.5-Coder-14B-Instruct-GGUF/d0a692ef765eefbf2fabb130b3cb2e8917e3d225/files?blob-id=8c1b4b23c23a688a0dd747380e9f4aca1f80dee3&utm_source=huggingface"
+    },
+    "avScan": {
+     "status": "unscanned",
+     "message": "",
+     "version": "1.5.2/27937"
+    },
+    "pickleImportScan": {
+     "status": "unscanned",
+     "pickleImports": [],
+     "version": "0.0.0"
+    },
+    "virusTotalScan": {
+     "status": "safe",
+     "message": "0/75 engines detect it as malicious.",
+     "reportLink": "https://www.virustotal.com/gui/file/f0caced9823778600314115bf0b96834a0e82f6024e2af96625147626a1d8158?utm_source=huggingface"
+    },
+    "jFrogScan": {
+     "status": "safe",
+     "message": "Safe GGUF model",
+     "reportLink": "https://research.jfrog.com/model-threats/gguf-ssti?utm_source=huggingface"
+    }
+   }
+  },
+  {
+   "type": "file",
+   "oid": "410a0649602c1e90bfd8b0ecf470b1504572db5c",
+   "size": 5770497408,
+   "lfs": {
+    "oid": "4542a8bb0c0ae6fb3dafeb305c61a8d6b2f894e96bb667d60cda105a1f313176",
+    "size": 5770497408,
+    "pointerSize": 135
+   },
+   "xetHash": "24d91860e1cdd37024ce071418f3b547087736cccf5efaa40ba2b511a8367c27",
+   "path": "qwen2.5-coder-14b-instruct-q2_k.gguf",
+   "lastCommit": {
+    "id": "fbbd41c3299ef596c08a5541a0c4aca9b2c5772f",
+    "title": "Add files using upload-large-folder tool",
+    "date": "2024-11-10T04:26:42.000Z"
+   },
+   "securityFileStatus": {
+    "status": "safe",
+    "protectAiScan": {
+     "status": "safe",
+     "message": "This file is vulnerable to threat(s) PAIT-GGUF-100.",
+     "reportLink": "https://insights-db.paloaltonetworks.com/models/Qwen/Qwen2.5-Coder-14B-Instruct-GGUF/d0a692ef765eefbf2fabb130b3cb2e8917e3d225/files?blob-id=410a0649602c1e90bfd8b0ecf470b1504572db5c&utm_source=huggingface"
+    },
+    "avScan": {
+     "status": "unscanned",
+     "message": "",
+     "version": "1.5.2/27937"
+    },
+    "pickleImportScan": {
+     "status": "unscanned",
+     "pickleImports": [],
+     "version": "0.0.0"
+    },
+    "virusTotalScan": {
+     "status": "safe",
+     "message": "0/75 engines detect it as malicious.",
+     "reportLink": "https://www.virustotal.com/gui/file/4542a8bb0c0ae6fb3dafeb305c61a8d6b2f894e96bb667d60cda105a1f313176?utm_source=huggingface"
+    },
+    "jFrogScan": {
+     "status": "safe",
+     "message": "Safe GGUF model",
+     "reportLink": "https://research.jfrog.com/model-threats/gguf-ssti?utm_source=huggingface"
+    }
+   }
+  },
+  {
+   "type": "file",
+   "oid": "4090bd439e39e17b1834aefafde302a055ddec74",
+   "size": 7339203968,
+   "lfs": {
+    "oid": "93b69ebf2883dcd4d8fa0ebd4b4589ae0f3eedc721ac391a46d36d90762f4640",
+    "size": 7339203968,
+    "pointerSize": 135
+   },
+   "xetHash": "fc8a9f3ca06506897ffc38dc5c0aa2755e0b10261ac23cc225fe1f11cde73245",
+   "path": "qwen2.5-coder-14b-instruct-q3_k_m.gguf",
+   "lastCommit": {
+    "id": "fbbd41c3299ef596c08a5541a0c4aca9b2c5772f",
+    "title": "Add files using upload-large-folder tool",
+    "date": "2024-11-10T04:26:42.000Z"
+   },
+   "securityFileStatus": {
+    "status": "safe",
+    "protectAiScan": {
+     "status": "safe",
+     "message": "This file is vulnerable to threat(s) PAIT-GGUF-100.",
+     "reportLink": "https://insights-db.paloaltonetworks.com/models/Qwen/Qwen2.5-Coder-14B-Instruct-GGUF/d0a692ef765eefbf2fabb130b3cb2e8917e3d225/files?blob-id=4090bd439e39e17b1834aefafde302a055ddec74&utm_source=huggingface"
+    },
+    "avScan": {
+     "status": "unscanned",
+     "message": "",
+     "version": "1.5.2/27937"
+    },
+    "pickleImportScan": {
+     "status": "unscanned",
+     "pickleImports": [],
+     "version": "0.0.0"
+    },
+    "virusTotalScan": {
+     "status": "safe",
+     "message": "0/75 engines detect it as malicious.",
+     "reportLink": "https://www.virustotal.com/gui/file/93b69ebf2883dcd4d8fa0ebd4b4589ae0f3eedc721ac391a46d36d90762f4640?utm_source=huggingface"
+    },
+    "jFrogScan": {
+     "status": "safe",
+     "message": "Safe GGUF model",
+     "reportLink": "https://research.jfrog.com/model-threats/gguf-ssti?utm_source=huggingface"
+    }
+   }
+  },
+  {
+   "type": "file",
+   "oid": "b5638ea1acdeaf5783774f53390983187526ad90",
+   "size": 8517725568,
+   "lfs": {
+    "oid": "561c8955089ad330dff56a40a001eb8bb4e12746354e76d0262bd65ab4640864",
+    "size": 8517725568,
+    "pointerSize": 135
+   },
+   "xetHash": "a83be8fac92cc1771761184da7b6d7f248b5cf60b8181ec5cad321d6cd97d31b",
+   "path": "qwen2.5-coder-14b-instruct-q4_0.gguf",
+   "lastCommit": {
+    "id": "fbbd41c3299ef596c08a5541a0c4aca9b2c5772f",
+    "title": "Add files using upload-large-folder tool",
+    "date": "2024-11-10T04:26:42.000Z"
+   },
+   "securityFileStatus": {
+    "status": "safe",
+    "protectAiScan": {
+     "status": "safe",
+     "message": "This file is vulnerable to threat(s) PAIT-GGUF-100.",
+     "reportLink": "https://insights-db.paloaltonetworks.com/models/Qwen/Qwen2.5-Coder-14B-Instruct-GGUF/d0a692ef765eefbf2fabb130b3cb2e8917e3d225/files?blob-id=b5638ea1acdeaf5783774f53390983187526ad90&utm_source=huggingface"
+    },
+    "avScan": {
+     "status": "unscanned",
+     "message": "",
+     "version": "1.5.2/27937"
+    },
+    "pickleImportScan": {
+     "status": "unscanned",
+     "pickleImports": [],
+     "version": "0.0.0"
+    },
+    "virusTotalScan": {
+     "status": "safe",
+     "message": "0/75 engines detect it as malicious.",
+     "reportLink": "https://www.virustotal.com/gui/file/561c8955089ad330dff56a40a001eb8bb4e12746354e76d0262bd65ab4640864?utm_source=huggingface"
+    },
+    "jFrogScan": {
+     "status": "safe",
+     "message": "Safe GGUF model",
+     "reportLink": "https://research.jfrog.com/model-threats/gguf-ssti?utm_source=huggingface"
+    }
+   }
+  },
+  {
+   "type": "file",
+   "oid": "143c459bb4171ca66a202fff3da6fc2d17cecb28",
+   "size": 8000444480,
+   "lfs": {
+    "oid": "310a553a856d7b238c05ed1b0cb877c4dca5b65c2286324854a1397149a00af2",
+    "size": 8000444480,
+    "pointerSize": 135
+   },
+   "xetHash": "9780aa0db72bc30b15837d3cdef9ab5d466d4b99691f1147e060ad819bb87e8d",
+   "path": "qwen2.5-coder-14b-instruct-q4_k_m-00001-of-00002.gguf",
+   "lastCommit": {
+    "id": "fbbd41c3299ef596c08a5541a0c4aca9b2c5772f",
+    "title": "Add files using upload-large-folder tool",
+    "date": "2024-11-10T04:26:42.000Z"
+   },
+   "securityFileStatus": {
+    "status": "safe",
+    "protectAiScan": {
+     "status": "safe",
+     "message": "This file is vulnerable to threat(s) PAIT-GGUF-100.",
+     "reportLink": "https://insights-db.paloaltonetworks.com/models/Qwen/Qwen2.5-Coder-14B-Instruct-GGUF/d0a692ef765eefbf2fabb130b3cb2e8917e3d225/files?blob-id=143c459bb4171ca66a202fff3da6fc2d17cecb28&utm_source=huggingface"
+    },
+    "avScan": {
+     "status": "unscanned",
+     "message": "",
+     "version": "1.5.2/27937"
+    },
+    "pickleImportScan": {
+     "status": "unscanned",
+     "pickleImports": [],
+     "version": "0.0.0"
+    },
+    "virusTotalScan": {
+     "status": "safe",
+     "message": "0/75 engines detect it as malicious.",
+     "reportLink": "https://www.virustotal.com/gui/file/310a553a856d7b238c05ed1b0cb877c4dca5b65c2286324854a1397149a00af2?utm_source=huggingface"
+    },
+    "jFrogScan": {
+     "status": "safe",
+     "message": "Safe GGUF model",
+     "reportLink": "https://research.jfrog.com/model-threats/gguf-ssti?utm_source=huggingface"
+    }
+   }
+  },
+  {
+   "type": "file",
+   "oid": "e88043bf35cbed9adfbc04043ef5fee2f0fdadf0",
+   "size": 987665920,
+   "lfs": {
+    "oid": "7a52538b39090d99ce93b1b05a406b805427171f890dbef8684c57fb28b2d96a",
+    "size": 987665920,
+    "pointerSize": 134
+   },
+   "xetHash": "5f8d8d5c17fdac0b8efa1534f84c44e8ba2afb350b605b92572fa809ff330fd0",
+   "path": "qwen2.5-coder-14b-instruct-q4_k_m-00002-of-00002.gguf",
+   "lastCommit": {
+    "id": "fbbd41c3299ef596c08a5541a0c4aca9b2c5772f",
+    "title": "Add files using upload-large-folder tool",
+    "date": "2024-11-10T04:26:42.000Z"
+   },
+   "securityFileStatus": {
+    "status": "safe",
+    "protectAiScan": {
+     "status": "safe",
+     "message": "This file has no security findings.",
+     "reportLink": "https://insights-db.paloaltonetworks.com/models/Qwen/Qwen2.5-Coder-14B-Instruct-GGUF/d0a692ef765eefbf2fabb130b3cb2e8917e3d225/files?blob-id=e88043bf35cbed9adfbc04043ef5fee2f0fdadf0&utm_source=huggingface"
+    },
+    "avScan": {
+     "status": "safe",
+     "message": "No security issues detected",
+     "reportLink": "https://fdtn.ai/ai-supply-chain/hugging-face?utm_source=huggingface"
+    },
+    "pickleImportScan": {
+     "status": "unscanned",
+     "pickleImports": [],
+     "version": "0.0.0"
+    },
+    "virusTotalScan": {
+     "status": "safe",
+     "message": "0/75 engines detect it as malicious.",
+     "reportLink": "https://www.virustotal.com/gui/file/7a52538b39090d99ce93b1b05a406b805427171f890dbef8684c57fb28b2d96a?utm_source=huggingface"
+    },
+    "jFrogScan": {
+     "status": "safe",
+     "message": "Safe GGUF model",
+     "reportLink": "https://research.jfrog.com/model-threats/gguf-ssti?utm_source=huggingface"
+    }
+   }
+  },
+  {
+   "type": "file",
+   "oid": "7ed87e134990fd86d034103a348268a28250db09",
+   "size": 8988110272,
+   "lfs": {
+    "oid": "c1e659736d89ac1065fb495330fb824d94001974a4bfa78e7270e43476a8d940",
+    "size": 8988110272,
+    "pointerSize": 135
+   },
+   "xetHash": "f87bfd654aed5318df1819cc17b5204270b69d05d905c0fa6960d84e4843ba18",
+   "path": "qwen2.5-coder-14b-instruct-q4_k_m.gguf",
+   "lastCommit": {
+    "id": "d0a692ef765eefbf2fabb130b3cb2e8917e3d225",
+    "title": "upload",
+    "date": "2024-11-12T09:54:27.000Z"
+   },
+   "securityFileStatus": {
+    "status": "safe",
+    "protectAiScan": {
+     "status": "safe",
+     "message": "This file is vulnerable to threat(s) PAIT-GGUF-100.",
+     "reportLink": "https://insights-db.paloaltonetworks.com/models/Qwen/Qwen2.5-Coder-14B-Instruct-GGUF/d0a692ef765eefbf2fabb130b3cb2e8917e3d225/files?blob-id=7ed87e134990fd86d034103a348268a28250db09&utm_source=huggingface"
+    },
+    "avScan": {
+     "status": "unscanned",
+     "message": "",
+     "version": "1.5.2/27937"
+    },
+    "pickleImportScan": {
+     "status": "unscanned",
+     "pickleImports": [],
+     "version": "0.0.0"
+    },
+    "virusTotalScan": {
+     "status": "safe",
+     "message": "0/74 engines detect it as malicious.",
+     "reportLink": "https://www.virustotal.com/gui/file/c1e659736d89ac1065fb495330fb824d94001974a4bfa78e7270e43476a8d940?utm_source=huggingface"
+    },
+    "jFrogScan": {
+     "status": "safe",
+     "message": "Safe GGUF model",
+     "reportLink": "https://research.jfrog.com/model-threats/gguf-ssti?utm_source=huggingface"
+    }
+   }
+  },
+  {
+   "type": "file",
+   "oid": "bcc39a8a2ad5277b52927e79fbdd8bf7e5f2d2f7",
+   "size": 7972795808,
+   "lfs": {
+    "oid": "dacdf94cf5612daeec25c19b3f6f5184e4e4b188089525851e7d55000c9765c0",
+    "size": 7972795808,
+    "pointerSize": 135
+   },
+   "xetHash": "47f274270f6e94295bd1a41fc4fe6e827e3bd5c56e80542b3922d8fb3ec1cf87",
+   "path": "qwen2.5-coder-14b-instruct-q5_0-00001-of-00002.gguf",
+   "lastCommit": {
+    "id": "fbbd41c3299ef596c08a5541a0c4aca9b2c5772f",
+    "title": "Add files using upload-large-folder tool",
+    "date": "2024-11-10T04:26:42.000Z"
+   },
+   "securityFileStatus": {
+    "status": "safe",
+    "protectAiScan": {
+     "status": "safe",
+     "message": "This file is vulnerable to threat(s) PAIT-GGUF-100.",
+     "reportLink": "https://insights-db.paloaltonetworks.com/models/Qwen/Qwen2.5-Coder-14B-Instruct-GGUF/d0a692ef765eefbf2fabb130b3cb2e8917e3d225/files?blob-id=bcc39a8a2ad5277b52927e79fbdd8bf7e5f2d2f7&utm_source=huggingface"
+    },
+    "avScan": {
+     "status": "unscanned",
+     "message": "",
+     "version": "1.5.2/27937"
+    },
+    "pickleImportScan": {
+     "status": "unscanned",
+     "pickleImports": [],
+     "version": "0.0.0"
+    },
+    "virusTotalScan": {
+     "status": "safe",
+     "message": "0/75 engines detect it as malicious.",
+     "reportLink": "https://www.virustotal.com/gui/file/dacdf94cf5612daeec25c19b3f6f5184e4e4b188089525851e7d55000c9765c0?utm_source=huggingface"
+    },
+    "jFrogScan": {
+     "status": "safe",
+     "message": "Safe GGUF model",
+     "reportLink": "https://research.jfrog.com/model-threats/gguf-ssti?utm_source=huggingface"
+    }
+   }
+  },
+  {
+   "type": "file",
+   "oid": "dc4883c855aa44515050596900d83482990a1c2f",
+   "size": 2293758112,
+   "lfs": {
+    "oid": "5787ad0d13070d94d9ee60aece281da4a33f3de03fb72f4da0f1886661cb48d0",
+    "size": 2293758112,
+    "pointerSize": 135
+   },
+   "xetHash": "8ece155e83fa69211fa96e28b37633564deae888e39066df15bcac42d89563ec",
+   "path": "qwen2.5-coder-14b-instruct-q5_0-00002-of-00002.gguf",
+   "lastCommit": {
+    "id": "fbbd41c3299ef596c08a5541a0c4aca9b2c5772f",
+    "title": "Add files using upload-large-folder tool",
+    "date": "2024-11-10T04:26:42.000Z"
+   },
+   "securityFileStatus": {
+    "status": "safe",
+    "protectAiScan": {
+     "status": "safe",
+     "message": "This file has no security findings.",
+     "reportLink": "https://insights-db.paloaltonetworks.com/models/Qwen/Qwen2.5-Coder-14B-Instruct-GGUF/d0a692ef765eefbf2fabb130b3cb2e8917e3d225/files?blob-id=dc4883c855aa44515050596900d83482990a1c2f&utm_source=huggingface"
+    },
+    "avScan": {
+     "status": "unscanned",
+     "message": "",
+     "version": "1.5.2/27937"
+    },
+    "pickleImportScan": {
+     "status": "unscanned",
+     "pickleImports": [],
+     "version": "0.0.0"
+    },
+    "virusTotalScan": {
+     "status": "safe",
+     "message": "0/75 engines detect it as malicious.",
+     "reportLink": "https://www.virustotal.com/gui/file/5787ad0d13070d94d9ee60aece281da4a33f3de03fb72f4da0f1886661cb48d0?utm_source=huggingface"
+    },
+    "jFrogScan": {
+     "status": "safe",
+     "message": "Safe GGUF model",
+     "reportLink": "https://research.jfrog.com/model-threats/gguf-ssti?utm_source=huggingface"
+    }
+   }
+  },
+  {
+   "type": "file",
+   "oid": "05bc1dbfb3f804d7fa94f334667ad2b3f101c4e2",
+   "size": 10266553792,
+   "lfs": {
+    "oid": "d8278f735a194fa9600b880e0f8284ca629db35314386a8166cfd273dcd8a864",
+    "size": 10266553792,
+    "pointerSize": 136
+   },
+   "xetHash": "1ce352ff1ce043e530d95a52d815769c73f5a62316f85e99082d120876ceae0a",
+   "path": "qwen2.5-coder-14b-instruct-q5_0.gguf",
+   "lastCommit": {
+    "id": "d0a692ef765eefbf2fabb130b3cb2e8917e3d225",
+    "title": "upload",
+    "date": "2024-11-12T09:54:27.000Z"
+   },
+   "securityFileStatus": {
+    "status": "safe",
+    "protectAiScan": {
+     "status": "safe",
+     "message": "This file is vulnerable to threat(s) PAIT-GGUF-100.",
+     "reportLink": "https://insights-db.paloaltonetworks.com/models/Qwen/Qwen2.5-Coder-14B-Instruct-GGUF/d0a692ef765eefbf2fabb130b3cb2e8917e3d225/files?blob-id=05bc1dbfb3f804d7fa94f334667ad2b3f101c4e2&utm_source=huggingface"
+    },
+    "avScan": {
+     "status": "unscanned",
+     "message": "",
+     "version": "1.5.2/27937"
+    },
+    "pickleImportScan": {
+     "status": "unscanned",
+     "pickleImports": [],
+     "version": "0.0.0"
+    },
+    "virusTotalScan": {
+     "status": "safe",
+     "message": "0/75 engines detect it as malicious.",
+     "reportLink": "https://www.virustotal.com/gui/file/d8278f735a194fa9600b880e0f8284ca629db35314386a8166cfd273dcd8a864?utm_source=huggingface"
+    },
+    "jFrogScan": {
+     "status": "safe",
+     "message": "Safe GGUF model",
+     "reportLink": "https://research.jfrog.com/model-threats/gguf-ssti?utm_source=huggingface"
+    }
+   }
+  },
+  {
+   "type": "file",
+   "oid": "d5859a82ced08a5a8ac2bbc9d2820a618fa8fe50",
+   "size": 8003097408,
+   "lfs": {
+    "oid": "330cf62999feff0972ebe91fb5cdaa174facae625d07a971cd19cf96bad91fb8",
+    "size": 8003097408,
+    "pointerSize": 135
+   },
+   "xetHash": "aa735e87ee5cfbe7029ab754e969a6550eee6ca3d4bd69ad30cd79f8fd3aec6e",
+   "path": "qwen2.5-coder-14b-instruct-q5_k_m-00001-of-00002.gguf",
+   "lastCommit": {
+    "id": "fbbd41c3299ef596c08a5541a0c4aca9b2c5772f",
+    "title": "Add files using upload-large-folder tool",
+    "date": "2024-11-10T04:26:42.000Z"
+   },
+   "securityFileStatus": {
+    "status": "safe",
+    "protectAiScan": {
+     "status": "safe",
+     "message": "This file is vulnerable to threat(s) PAIT-GGUF-100.",
+     "reportLink": "https://insights-db.paloaltonetworks.com/models/Qwen/Qwen2.5-Coder-14B-Instruct-GGUF/d0a692ef765eefbf2fabb130b3cb2e8917e3d225/files?blob-id=d5859a82ced08a5a8ac2bbc9d2820a618fa8fe50&utm_source=huggingface"
+    },
+    "avScan": {
+     "status": "unscanned",
+     "message": "",
+     "version": "1.5.2/27937"
+    },
+    "pickleImportScan": {
+     "status": "unscanned",
+     "pickleImports": [],
+     "version": "0.0.0"
+    },
+    "virusTotalScan": {
+     "status": "safe",
+     "message": "0/75 engines detect it as malicious.",
+     "reportLink": "https://www.virustotal.com/gui/file/330cf62999feff0972ebe91fb5cdaa174facae625d07a971cd19cf96bad91fb8?utm_source=huggingface"
+    },
+    "jFrogScan": {
+     "status": "safe",
+     "message": "Safe GGUF model",
+     "reportLink": "https://research.jfrog.com/model-threats/gguf-ssti?utm_source=huggingface"
+    }
+   }
+  },
+  {
+   "type": "file",
+   "oid": "2a2689ae94bd4cfcb4efe94e59e24c0a9cc00473",
+   "size": 2505775872,
+   "lfs": {
+    "oid": "593c385c768195edcdf079801459821777f706f325320ae4e9bcf388ff6c4935",
+    "size": 2505775872,
+    "pointerSize": 135
+   },
+   "xetHash": "913436f57bf6ffddd62fdeb232035bfb289927169e19a5d8b13eded481111d72",
+   "path": "qwen2.5-coder-14b-instruct-q5_k_m-00002-of-00002.gguf",
+   "lastCommit": {
+    "id": "fbbd41c3299ef596c08a5541a0c4aca9b2c5772f",
+    "title": "Add files using upload-large-folder tool",
+    "date": "2024-11-10T04:26:42.000Z"
+   },
+   "securityFileStatus": {
+    "status": "safe",
+    "protectAiScan": {
+     "status": "safe",
+     "message": "This file has no security findings.",
+     "reportLink": "https://insights-db.paloaltonetworks.com/models/Qwen/Qwen2.5-Coder-14B-Instruct-GGUF/d0a692ef765eefbf2fabb130b3cb2e8917e3d225/files?blob-id=2a2689ae94bd4cfcb4efe94e59e24c0a9cc00473&utm_source=huggingface"
+    },
+    "avScan": {
+     "status": "unscanned",
+     "message": "",
+     "version": "1.5.2/27937"
+    },
+    "pickleImportScan": {
+     "status": "unscanned",
+     "pickleImports": [],
+     "version": "0.0.0"
+    },
+    "virusTotalScan": {
+     "status": "safe",
+     "message": "0/75 engines detect it as malicious.",
+     "reportLink": "https://www.virustotal.com/gui/file/593c385c768195edcdf079801459821777f706f325320ae4e9bcf388ff6c4935?utm_source=huggingface"
+    },
+    "jFrogScan": {
+     "status": "safe",
+     "message": "Safe GGUF model",
+     "reportLink": "https://research.jfrog.com/model-threats/gguf-ssti?utm_source=huggingface"
+    }
+   }
+  },
+  {
+   "type": "file",
+   "oid": "29b66f80c25ea10f9e8625876914f0d3f617a419",
+   "size": 10508873152,
+   "lfs": {
+    "oid": "98ab25e0132e3f1e6d3554e1b64de2b5021908819b740d9c208430117e49a775",
+    "size": 10508873152,
+    "pointerSize": 136
+   },
+   "xetHash": "cd62b78404b69454d161427f09ccc3361334e078a78c9276ef1f6647034bfa18",
+   "path": "qwen2.5-coder-14b-instruct-q5_k_m.gguf",
+   "lastCommit": {
+    "id": "d0a692ef765eefbf2fabb130b3cb2e8917e3d225",
+    "title": "upload",
+    "date": "2024-11-12T09:54:27.000Z"
+   },
+   "securityFileStatus": {
+    "status": "safe",
+    "protectAiScan": {
+     "status": "safe",
+     "message": "This file is vulnerable to threat(s) PAIT-GGUF-100.",
+     "reportLink": "https://insights-db.paloaltonetworks.com/models/Qwen/Qwen2.5-Coder-14B-Instruct-GGUF/d0a692ef765eefbf2fabb130b3cb2e8917e3d225/files?blob-id=29b66f80c25ea10f9e8625876914f0d3f617a419&utm_source=huggingface"
+    },
+    "avScan": {
+     "status": "unscanned",
+     "message": "",
+     "version": "1.5.2/27937"
+    },
+    "pickleImportScan": {
+     "status": "unscanned",
+     "pickleImports": [],
+     "version": "0.0.0"
+    },
+    "virusTotalScan": {
+     "status": "safe",
+     "message": "0/75 engines detect it as malicious.",
+     "reportLink": "https://www.virustotal.com/gui/file/98ab25e0132e3f1e6d3554e1b64de2b5021908819b740d9c208430117e49a775?utm_source=huggingface"
+    },
+    "jFrogScan": {
+     "status": "safe",
+     "message": "Safe GGUF model",
+     "reportLink": "https://research.jfrog.com/model-threats/gguf-ssti?utm_source=huggingface"
+    }
+   }
+  },
+  {
+   "type": "file",
+   "oid": "6323041833e2a7a54050d0b6244f194b003fb46a",
+   "size": 7988339488,
+   "lfs": {
+    "oid": "a218084c9a4dae8598d9249bad44850cab122dd6f1903a8dffdf3f66002cbf9b",
+    "size": 7988339488,
+    "pointerSize": 135
+   },
+   "xetHash": "36783979d9c100f229922a52775620031ee6e15f4d9b59be0735a47fdc1a7207",
+   "path": "qwen2.5-coder-14b-instruct-q6_k-00001-of-00002.gguf",
+   "lastCommit": {
+    "id": "fbbd41c3299ef596c08a5541a0c4aca9b2c5772f",
+    "title": "Add files using upload-large-folder tool",
+    "date": "2024-11-10T04:26:42.000Z"
+   },
+   "securityFileStatus": {
+    "status": "safe",
+    "protectAiScan": {
+     "status": "safe",
+     "message": "This file is vulnerable to threat(s) PAIT-GGUF-100.",
+     "reportLink": "https://insights-db.paloaltonetworks.com/models/Qwen/Qwen2.5-Coder-14B-Instruct-GGUF/d0a692ef765eefbf2fabb130b3cb2e8917e3d225/files?blob-id=6323041833e2a7a54050d0b6244f194b003fb46a&utm_source=huggingface"
+    },
+    "avScan": {
+     "status": "unscanned",
+     "message": "",
+     "version": "1.5.2/27937"
+    },
+    "pickleImportScan": {
+     "status": "unscanned",
+     "pickleImports": [],
+     "version": "0.0.0"
+    },
+    "virusTotalScan": {
+     "status": "safe",
+     "message": "0/75 engines detect it as malicious.",
+     "reportLink": "https://www.virustotal.com/gui/file/a218084c9a4dae8598d9249bad44850cab122dd6f1903a8dffdf3f66002cbf9b?utm_source=huggingface"
+    },
+    "jFrogScan": {
+     "status": "safe",
+     "message": "Safe GGUF model",
+     "reportLink": "https://research.jfrog.com/model-threats/gguf-ssti?utm_source=huggingface"
+    }
+   }
+  },
+  {
+   "type": "file",
+   "oid": "27969b8f41d647edd5d3c8577d3c8c3113d3d47e",
+   "size": 4136344352,
+   "lfs": {
+    "oid": "9aaddc340eabfc31cac05508c1414bb4dbdba8c346605888d6dbc00ed455be8b",
+    "size": 4136344352,
+    "pointerSize": 135
+   },
+   "xetHash": "6561ab978475b999fc51b4c7d2044c648775c6392efd5b628afc8709867dcb89",
+   "path": "qwen2.5-coder-14b-instruct-q6_k-00002-of-00002.gguf",
+   "lastCommit": {
+    "id": "fbbd41c3299ef596c08a5541a0c4aca9b2c5772f",
+    "title": "Add files using upload-large-folder tool",
+    "date": "2024-11-10T04:26:42.000Z"
+   },
+   "securityFileStatus": {
+    "status": "safe",
+    "protectAiScan": {
+     "status": "safe",
+     "message": "This file has no security findings.",
+     "reportLink": "https://insights-db.paloaltonetworks.com/models/Qwen/Qwen2.5-Coder-14B-Instruct-GGUF/d0a692ef765eefbf2fabb130b3cb2e8917e3d225/files?blob-id=27969b8f41d647edd5d3c8577d3c8c3113d3d47e&utm_source=huggingface"
+    },
+    "avScan": {
+     "status": "unscanned",
+     "message": "",
+     "version": "1.5.2/27937"
+    },
+    "pickleImportScan": {
+     "status": "unscanned",
+     "pickleImports": [],
+     "version": "0.0.0"
+    },
+    "virusTotalScan": {
+     "status": "safe",
+     "message": "0/75 engines detect it as malicious.",
+     "reportLink": "https://www.virustotal.com/gui/file/9aaddc340eabfc31cac05508c1414bb4dbdba8c346605888d6dbc00ed455be8b?utm_source=huggingface"
+    },
+    "jFrogScan": {
+     "status": "safe",
+     "message": "Safe GGUF model",
+     "reportLink": "https://research.jfrog.com/model-threats/gguf-ssti?utm_source=huggingface"
+    }
+   }
+  },
+  {
+   "type": "file",
+   "oid": "a05aeef6d7896f6cf94a8d2b9777c8bed7a21b09",
+   "size": 12124683712,
+   "lfs": {
+    "oid": "302a079369ad8b66c8e8ec1bfa62d109c64d8015e9bfd52d9c6cf4c6c9f36b5f",
+    "size": 12124683712,
+    "pointerSize": 136
+   },
+   "xetHash": "5c1e2c63ea460cf28b80523664ae1489dbd265b3ab20058871fc6ac208de1bc2",
+   "path": "qwen2.5-coder-14b-instruct-q6_k.gguf",
+   "lastCommit": {
+    "id": "d0a692ef765eefbf2fabb130b3cb2e8917e3d225",
+    "title": "upload",
+    "date": "2024-11-12T09:54:27.000Z"
+   },
+   "securityFileStatus": {
+    "status": "safe",
+    "protectAiScan": {
+     "status": "safe",
+     "message": "This file is vulnerable to threat(s) PAIT-GGUF-100.",
+     "reportLink": "https://insights-db.paloaltonetworks.com/models/Qwen/Qwen2.5-Coder-14B-Instruct-GGUF/d0a692ef765eefbf2fabb130b3cb2e8917e3d225/files?blob-id=a05aeef6d7896f6cf94a8d2b9777c8bed7a21b09&utm_source=huggingface"
+    },
+    "avScan": {
+     "status": "unscanned",
+     "message": "",
+     "version": "1.5.2/27937"
+    },
+    "pickleImportScan": {
+     "status": "unscanned",
+     "pickleImports": [],
+     "version": "0.0.0"
+    },
+    "virusTotalScan": {
+     "status": "safe",
+     "message": "0/75 engines detect it as malicious.",
+     "reportLink": "https://www.virustotal.com/gui/file/302a079369ad8b66c8e8ec1bfa62d109c64d8015e9bfd52d9c6cf4c6c9f36b5f?utm_source=huggingface"
+    },
+    "jFrogScan": {
+     "status": "safe",
+     "message": "Safe GGUF model",
+     "reportLink": "https://research.jfrog.com/model-threats/gguf-ssti?utm_source=huggingface"
+    }
+   }
+  },
+  {
+   "type": "file",
+   "oid": "31c84fba82c322f3340e237e2ca2c245168d722d",
+   "size": 8004181408,
+   "lfs": {
+    "oid": "957ba4cf4cbdd5bc1c1c28f7cc7a939f71d1fe2707f1d18e35a028aaf1b7c6cd",
+    "size": 8004181408,
+    "pointerSize": 135
+   },
+   "xetHash": "3169b814e6e0d18f49ef4f6864f7b87584c4fea0cdced7e411e23642d9b8d7b5",
+   "path": "qwen2.5-coder-14b-instruct-q8_0-00001-of-00002.gguf",
+   "lastCommit": {
+    "id": "fbbd41c3299ef596c08a5541a0c4aca9b2c5772f",
+    "title": "Add files using upload-large-folder tool",
+    "date": "2024-11-10T04:26:42.000Z"
+   },
+   "securityFileStatus": {
+    "status": "safe",
+    "protectAiScan": {
+     "status": "safe",
+     "message": "This file is vulnerable to threat(s) PAIT-GGUF-100.",
+     "reportLink": "https://insights-db.paloaltonetworks.com/models/Qwen/Qwen2.5-Coder-14B-Instruct-GGUF/d0a692ef765eefbf2fabb130b3cb2e8917e3d225/files?blob-id=31c84fba82c322f3340e237e2ca2c245168d722d&utm_source=huggingface"
+    },
+    "avScan": {
+     "status": "unscanned",
+     "message": "",
+     "version": "1.5.2/27937"
+    },
+    "pickleImportScan": {
+     "status": "unscanned",
+     "pickleImports": [],
+     "version": "0.0.0"
+    },
+    "virusTotalScan": {
+     "status": "safe",
+     "message": "0/75 engines detect it as malicious.",
+     "reportLink": "https://www.virustotal.com/gui/file/957ba4cf4cbdd5bc1c1c28f7cc7a939f71d1fe2707f1d18e35a028aaf1b7c6cd?utm_source=huggingface"
+    },
+    "jFrogScan": {
+     "status": "safe",
+     "message": "Safe GGUF model",
+     "reportLink": "https://research.jfrog.com/model-threats/gguf-ssti?utm_source=huggingface"
+    }
+   }
+  },
+  {
+   "type": "file",
+   "oid": "8a920df699243e247e72866bb3765f709f107deb",
+   "size": 7697416352,
+   "lfs": {
+    "oid": "5ca3f878a3313f5ef72e7210dc9b03f1e4a4af791674d36f14e8256c8c52ee45",
+    "size": 7697416352,
+    "pointerSize": 135
+   },
+   "xetHash": "92f85ded1b777d8a86d979f16b5068a2ab0e3be9b89a5e9ea89d4f3a1843b92a",
+   "path": "qwen2.5-coder-14b-instruct-q8_0-00002-of-00002.gguf",
+   "lastCommit": {
+    "id": "fbbd41c3299ef596c08a5541a0c4aca9b2c5772f",
+    "title": "Add files using upload-large-folder tool",
+    "date": "2024-11-10T04:26:42.000Z"
+   },
+   "securityFileStatus": {
+    "status": "safe",
+    "protectAiScan": {
+     "status": "safe",
+     "message": "This file has no security findings.",
+     "reportLink": "https://insights-db.paloaltonetworks.com/models/Qwen/Qwen2.5-Coder-14B-Instruct-GGUF/d0a692ef765eefbf2fabb130b3cb2e8917e3d225/files?blob-id=8a920df699243e247e72866bb3765f709f107deb&utm_source=huggingface"
+    },
+    "avScan": {
+     "status": "unscanned",
+     "message": "",
+     "version": "1.5.2/27937"
+    },
+    "pickleImportScan": {
+     "status": "unscanned",
+     "pickleImports": [],
+     "version": "0.0.0"
+    },
+    "virusTotalScan": {
+     "status": "safe",
+     "message": "0/75 engines detect it as malicious.",
+     "reportLink": "https://www.virustotal.com/gui/file/5ca3f878a3313f5ef72e7210dc9b03f1e4a4af791674d36f14e8256c8c52ee45?utm_source=huggingface"
+    },
+    "jFrogScan": {
+     "status": "safe",
+     "message": "Safe GGUF model",
+     "reportLink": "https://research.jfrog.com/model-threats/gguf-ssti?utm_source=huggingface"
+    }
+   }
+  },
+  {
+   "type": "file",
+   "oid": "5149f3523f7836a694d224b0fe41096b6f8a057a",
+   "size": 15701597632,
+   "lfs": {
+    "oid": "8180f66e3458e298830cebe7c9e8a9bde0ae6511d399fd99d3385b64324ac85d",
+    "size": 15701597632,
+    "pointerSize": 136
+   },
+   "xetHash": "cea02ad3a1eb59bc566d380c13b6a3df27181a8ed0feb2f5768ed10ce181027a",
+   "path": "qwen2.5-coder-14b-instruct-q8_0.gguf",
+   "lastCommit": {
+    "id": "d0a692ef765eefbf2fabb130b3cb2e8917e3d225",
+    "title": "upload",
+    "date": "2024-11-12T09:54:27.000Z"
+   },
+   "securityFileStatus": {
+    "status": "safe",
+    "protectAiScan": {
+     "status": "safe",
+     "message": "This file is vulnerable to threat(s) PAIT-GGUF-100.",
+     "reportLink": "https://insights-db.paloaltonetworks.com/models/Qwen/Qwen2.5-Coder-14B-Instruct-GGUF/d0a692ef765eefbf2fabb130b3cb2e8917e3d225/files?blob-id=5149f3523f7836a694d224b0fe41096b6f8a057a&utm_source=huggingface"
+    },
+    "avScan": {
+     "status": "unscanned",
+     "message": "",
+     "version": "1.5.2/27937"
+    },
+    "pickleImportScan": {
+     "status": "unscanned",
+     "pickleImports": [],
+     "version": "0.0.0"
+    },
+    "virusTotalScan": {
+     "status": "safe",
+     "message": "0/75 engines detect it as malicious.",
+     "reportLink": "https://www.virustotal.com/gui/file/8180f66e3458e298830cebe7c9e8a9bde0ae6511d399fd99d3385b64324ac85d?utm_source=huggingface"
+    },
+    "jFrogScan": {
+     "status": "safe",
+     "message": "Safe GGUF model",
+     "reportLink": "https://research.jfrog.com/model-threats/gguf-ssti?utm_source=huggingface"
+    }
+   }
+  }
+ ]
+}

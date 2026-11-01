@@ -1,0 +1,1084 @@
+% IEEE conference format, two columns, <= 12 pages incl. references; \anontrue: double-blind version.
+% Build: make paper  (pdflatex + bibtex + pdflatex x2).  All results come from
+% ../results/macros.tex and ../results/tab_*.tex, written by `python -m phantomdeps analyze`;
+% profile values and configuration facts are macros too (see results/macros.json for provenance).
+\documentclass[conference]{IEEEtran}
+\IEEEoverridecommandlockouts
+
+% ---- switches -------------------------------------------------------------
+\newif\ifanon      \anontrue        % double-blind submission: keep true
+\newif\ifpilot     \pilotfalse      % \pilottrue: numbers from the pilot (red box, pilot wording;
+                                    % make results RUNS="$(PILOT_RUNS)"); the study is the default
+
+\usepackage{cite}
+\usepackage{amsmath,amssymb,amsfonts}
+\usepackage{graphicx}
+\usepackage{booktabs}
+\usepackage{xcolor}
+\usepackage{url}
+\usepackage{tikz}
+\usetikzlibrary{arrows.meta,positioning,calc,fit,backgrounds}
+\usepackage[hidelinks]{hyperref}
+\ifdefined\pdfsuppressptexinfo\pdfsuppressptexinfo=-1\fi   % do not copy the metadata of included figure PDFs
+
+% ---- generated results --------------------------------------------------
+\input{../results/macros.tex}
+\providecommand{\rHasPersist}{0}\providecommand{\rHasFamCmp}{0}\providecommand{\rHasExample}{0}
+\providecommand{\rHasPostHorizon}{0}\providecommand{\rHasValidation}{0}\providecommand{\rHasLookups}{0}\providecommand{\rHasKappa}{0}\providecommand{\rValAllIdentical}{0}\providecommand{\rExMasked}{0}\providecommand{\rSweepSame}{0}\providecommand{\rSqOptEqAge}{0}
+\providecommand{\rHasReplay}{0}\providecommand{\rHasEspBuild}{0}\providecommand{\rRpNetns}{0}\providecommand{\rValByResponse}{0}\providecommand{\rNoPinBelowTheta}{0}\providecommand{\rHasLock}{0}\providecommand{\rHasAudit}{0}\providecommand{\rHasFamEq}{0}\providecommand{\rMainLock}{0}\providecommand{\rRpLockExec}{0}\providecommand{\rMaxAnsCut}{0}\providecommand{\rReqOnlyUrlPio}{0}\providecommand{\rReqPioSpan}{0}\providecommand{\rHistAfterPThreeUAdmit}{0}\providecommand{\rNGgufIsHorizon}{0}\providecommand{\rRemovedModel}{?}\providecommand{\rRemovedAnswers}{?}\providecommand{\rSqAbsRestOwned}{0}\providecommand{\rSqAbsRest}{0}\providecommand{\rNRemovedModels}{0}\providecommand{\rPostHorizonShiftSame}{0}
+\providecommand{\rHasGroups}{0}\providecommand{\rHasHistCost}{0}\providecommand{\rGateEqFilter}{0}
+\providecommand{\rHasExt}{0}\providecommand{\rFamEqualBudget}{0}\providecommand{\rCutText}{0}\providecommand{\rPersistUnasked}{0}
+\providecommand{\rArtifactLink}{\textit{[anonymous link added at submission]}}
+
+% ---- notation -------------------------------------------------------------
+\newcommand{\sres}{\mathsf{res}}
+\newcommand{\sest}{\mathsf{est}}
+\newcommand{\spin}{\mathsf{pin}}
+\newcommand{\sprov}{\mathsf{prov}}
+\newcommand{\dec}[1]{\textsc{#1}}
+\newcommand{\Reg}{\mathcal{R}}
+\newcommand{\Prof}{\mathcal{P}}
+\newcommand{\Dec}{\mathrm{dec}}
+\newtheorem{proposition}{Proposition}
+\newtheorem{definition}{Definition}
+
+\begin{document}
+\bstctlcite{IEEEexample:BSTcontrol}
+
+\title{Phantom Dependencies in AI-Generated Build Manifests for Cyber-Physical Systems: Measurement and Horizon-Anchored Admission}
+
+\ifanon
+\author{\IEEEauthorblockN{Anonymous Author(s)}}
+\else
+\input{authors_camera_ready.tex}
+\fi
+
+\maketitle
+
+\ifpilot
+\noindent\fcolorbox{red}{red!4}{\parbox{\dimexpr\columnwidth-2\fboxsep-2\fboxrule\relax}{\footnotesize\textbf{Draft.}
+All results in this version come from the \emph{pilot} of Table~\ref{tab:models} (\rNModels{} open-weight models
+of \rRunMinParams--\rRunMaxParams B parameters on a 2-vCPU host). They validate the harness end to end and are not the
+study results; the manual validation of extraction (Section~\ref{sec:extraction}) is still to be done.
+Run the study configuration (Section~\ref{sec:models}), set \texttt{\textbackslash pilotfalse} and rebuild before
+submission; every number, table and figure regenerates.}}
+\fi
+
+\begin{abstract}
+Code-generating language models write build manifests for cyber-physical systems (CPS) and declare dependencies
+that do not exist. Whoever registers such a name compromises the next build, and the common check that every
+dependency resolves cannot stop it. We anchor dependency evidence to the producer's knowledge horizon, the date at
+which the model's weights demonstrably existed, and gate admission on three-state evidence. We prove that a name first registered after the horizon is never admitted, for
+any weights, threshold and gating time, given valid record dates. For blocking, the gate equals a record-age filter with
+an explicit unknown state, which asks for evidence where registry dates are missing or one-sided.
+\ifpilot In a pilot over \rNEcos{} CPS ecosystems with \rNTasks{} tasks and \rNModels{} open-weight models,
+\rPhantomDecl{} of \rDeclRegistry{} registry declarations did not resolve, and \rPhantomResp{} of the answers that
+declared registry packages named a nonexistent one\ifnum\rHasGroups=1{} (\rGrpSmallResp{} for \rGrpSmallN{} models of
+\rGrpSmallMinB--\rGrpSmallMaxB B parameters, \rGrpLargeResp{} for \rGrpLargeN{} of \rGrpLargeMinB--\rGrpLargeMaxB
+B)\fi.
+\else Over \rNEcos{} CPS ecosystems, \rNTasks{} tasks and \rNModels{} open-weight models of
+\rRunMinParams--\rRunMaxParams B parameters, \rPhantomResp{} of the answers that declared registry packages named a
+nonexistent one (\rPhantomRespNoTrunc{} of those that finished)\ifnum\rHasPersist=1, and resampled answers repeated a
+phantom of the greedy answer in \rPersist{} of cases\fi.
+\fi If every phantom open to any account holder were registered, a resolves-now check would admit
+\rSqOpenExistsZero{} of the manifests with a phantom at once and the gate none\ifnum\rHasReplay=1; a replay of
+\rRpSquatsBaseN{} squats on real installers\ifnum\rHasEspBuild=1{} and of a stand-in in an ESP-IDF build\fi{} agrees\fi.
+\end{abstract}
+
+\begin{IEEEkeywords}
+software supply chain, package hallucination, slopsquatting, cyber-physical systems, build integrity, admission control, LLM-generated code
+\end{IEEEkeywords}
+
+% =====================================================================
+\section{Introduction}
+\label{sec:intro}
+
+The software of a cyber-physical system (CPS) is assembled from third-party packages. A flight controller pulls
+sensor drivers and protocol stacks from the Arduino Library Manager or the PlatformIO registry, an ESP32 node pulls
+components from the ESP Component Registry, a robot pulls message and navigation packages through the ROS~2
+distribution and \texttt{rosdep}, and the Linux gateway beside a programmable logic controller pulls Modbus, OPC~UA
+and CAN libraries from PyPI or Node-RED nodes from npm. Whatever enters this build is signed and shipped over the air
+to devices that move things. Attacks on open-source supply chains are well catalogued~\cite{ladisa2023sok,ohm2020backstabber,cordey2023},
+and the XZ Utils backdoor showed how far an adversary will go to place code in a dependency that many systems
+trust~\cite{przymus2025wolves}.
+
+Code-generating LLMs add a new supplier to this chain: assistants and coding agents write manifests, run install
+commands and invent package names. Spracklen et~al.\ found that 19.7\% of 2.23~million package references produced by
+16 models were hallucinated, 21.7\% for open-source and 5.2\% for commercial models~\cite{spracklen2025package}; a
+2026 re-evaluation of five frontier models still measured 4.62--6.10\%~\cite{churilov2026range}. Many hallucinated
+names recur across runs~\cite{spracklen2025package}, which makes them worth registering: an empty package under one
+such name drew more than 30{,}000 downloads in three months~\cite{lanyado2024}. The attack, known among practitioners as \emph{slopsquatting}, joins typosquatting and
+dependency confusion in the family of package-confusion attacks~\cite{neupane2023beyond,birsan2021}.
+
+Two gaps motivate this paper. The first is \emph{coverage}. Published measurements target general-purpose registries:
+PyPI and npm~\cite{spracklen2025package,lanyado2024}, and crates.io~\cite{krishna2025phantoms,zheng2026crates}. The
+registries of embedded and robotic software differ in ways that matter for this threat: the Arduino Library Manager
+registers a new library automatically once its checks pass~\cite{arduinoregistry}, PlatformIO resolves owner-less names
+that its own documentation calls a source of conflicts~\cite{piodeps}, the ESP Component Registry maps names without
+a namespace to the vendor namespace~\cite{espcm}, and new ROS packages enter the distribution through pull requests
+checked against formal criteria~\cite{rosdistro}. Whether code models hallucinate in these ecosystems, and whether an
+outsider could exploit the result, is unknown.
+
+The second gap is the \emph{defense}. The common control checks that every dependency resolves. This check is not
+monotone in time: the attack makes the name resolve, so a check that blocked yesterday's phantom admits today's squat,
+and age rules (``block packages younger than $N$ days'') only delay the admission. Checking generated names against a
+list of packages registered before each model's training cut-off has been proposed for PyPI, npm and
+crates.io~\cite{krishna2025phantoms}, but not implemented or evaluated; it relies on the model's stated cut-off, which
+cannot be checked and can differ from what the weights encode~\cite{cheng2024dated}, and is silent on records and
+registries without dates. The installers' date filters hide files or versions published after a
+cut-off~\cite{npmconfig,uvresolution}, while a squat is a new registry record, and two questions stay open: which
+cut-off to use for a change written by a model, and what to do where the date it needs is missing or one-sided. Most CPS registries expose no dates to their installers, and PyPI
+reports only the upload times of files that still exist, which bound the creation of a record from above only. A
+two-valued filter must treat such packages as unavailable.
+
+\ifnum\rHasExample=1
+Consider a manifest from our study. Asked for a \rExTaskEco{} project, \rExModel{} declared
+\rExNDeps{} dependencies, one of which, \rExPhantom\ifnum\rExMasked=1{} (a pseudonym, as for every name an outsider may
+be able to register)\fi, is not in the registry. Today the installation fails. If an
+adversary registers the name, a resolves-now check admits the manifest from that day on (\rExSqPOneDec), and a
+\rAgeDays-day age rule decides \rExSqPTwoDayZeroDec{} on the first day and \rExSqPTwoMonthDec{} \rAgeDays{} days later. The
+question that does not change with time is whether the registry record existed when the model's weights did.
+\fi
+
+We answer the first question with the producer. Every producer of a change has a \emph{knowledge horizon} $h$: not its
+true, unknowable training cut-off, but a verifiable \emph{upper bound} on it --- the date at which the exact weights we
+ran demonstrably existed on the model hub (at or after the real cut-off). A registry record first created after $h$
+cannot be what the producer knew, whatever the producer knew about the project behind it. We answer the second with evidence semantics. We encode establishment as a three-state evidence item in the
+supply-chain integrity index (SCII), an evidence-graph index that separates absent from refuted
+evidence~\cite{anon2026evidence}, and gate admission with a non-compensable rule. Where record dates exist, a squatted
+name is refuted; where they are missing or one-sided, the gate asks for evidence, such as the history of the registry
+repository, instead of guessing.
+\ifnum\rHasExample=1 For the manifest above it decides \rExSqDec{} at any gating time, because the squatted record
+would postdate the model's horizon (\rExHorizon).\fi{} Our contributions are:
+\begin{itemize}
+\item \textbf{Evidence model.} Dependency evidence for AI-originated changes with four items (resolution,
+establishment at a \emph{verifiable} weight-existence horizon rather than a stated cut-off, content pinning,
+publisher provenance) in three states, bounds on registry \emph{records} rather than projects, and four properties:
+non-compensability, horizon soundness, monotone confirmation, and the insufficiency of the graded index alone. The
+cut-off-bounded list is due to~\cite{krishna2025phantoms}; new are the verifiable horizon, the third state that turns
+a missing or one-sided date into a request, record dates recovered from the histories of CPS registries, and their
+evaluation (Sections~\ref{sec:approach} and~\ref{sec:results}).
+\item \textbf{Measurement.} \textsc{PhantomDeps-CPS}, \rNTasks{} tasks over \rNEcos{} CPS ecosystems with
+registry snapshots, and a \ifpilot pilot\else study\fi{} with \rNModels{} models: phantom prevalence by ecosystem, model, task tier and answer
+quality (well-formed, malformed, truncated, checked against the ecosystems' own parsers), recurrence, which phantoms
+outsiders can register, and an audit of post-horizon matches (Sections~\ref{sec:design}--\ref{sec:results}).
+\item \textbf{Gate evaluation.} Nine policies, among them two- and three-valued date filters at the horizon, on the
+generated manifests in the observed state and in simulated squat worlds; what registry histories decide; how
+threshold, weights and change size trade blocking against availability; lock files and provenance from the real
+tools; and a replay of squats against real installers and the ESP-IDF build system.
+\end{itemize}
+
+% =====================================================================
+\section{Background and Related Work}
+\label{sec:related}
+
+\emph{Supply-chain attacks and package confusion.} Ladisa et~al.\ organise 107 attack vectors on open-source supply
+chains into a taxonomy~\cite{ladisa2023sok}; earlier reviews collected malicious packages~\cite{ohm2020backstabber} and
+mapped weak links such as few-maintainer dominance and expired e-mail domains~\cite{zimmermann2019small,zahan2022weak}.
+Package confusion generalises typosquatting~\cite{neupane2023beyond}, and dependency confusion exploits the precedence
+between private and public registries~\cite{birsan2021}. Further work covers vulnerability
+propagation~\cite{shen2025understanding} and practices after SolarWinds, Log4j and XZ
+Utils~\cite{williams2025research,hamer2026closing}.
+
+\emph{LLM-generated code and package hallucination.} Package hallucination was measured for Python and
+JavaScript~\cite{spracklen2025package}, further languages~\cite{krishna2025phantoms,lanyado2024}, Rust
+crates~\cite{zheng2026crates}, by fuzzing~\cite{zhao2025hfuzzer}, and on a 2026 cohort~\cite{churilov2026range}.
+For the cut-off-bounded list of Krishna et~al.~\cite[\S4.6]{krishna2025phantoms} (Section~\ref{sec:intro}), the
+effective cut-off can differ from the stated one~\cite{cheng2024dated}, which is why we bound the horizon by when the
+weights demonstrably existed. PackMonitor
+restricts install commands at decoding time to a current, undated list~\cite{liu2026packmonitor}, which an adversary
+changes by registering a name. To our knowledge no prior work measures package hallucination in the registries of
+embedded and robotic software (Arduino, PlatformIO, ESP-IDF, ROS~2, MicroPython), bounds admission by a verifiable
+horizon, or decides a change whose dates are missing or one-sided; Table~\ref{tab:related} compares the closest work.
+
+\emph{Integrity and admission mechanisms.} TUF~\cite{samuel2010tuf} and its automotive profile Uptane~\cite{kuppusamy2016uptane}
+protect the update channel; in-toto~\cite{torresarias2019intoto} and SLSA~\cite{slsa11} attest the steps and provenance
+of a build; Sigstore lowers the cost of signing~\cite{newman2022sigstore}. Package managers offer date-anchored
+resolution: npm installs only versions available before a date or older than a number of days~\cite{npmconfig}, and uv
+ignores distributions uploaded after a cut-off and treats those without an upload time as unavailable~\cite{uvresolution}. The indices that
+the Arduino, ROS and MicroPython installers read carry no dates at all. Process
+frameworks (NIST SP 800-161r1~\cite{nist800161r1}, SSDF~\cite{nist800218}, IEC~62443-4-1~\cite{iec62443-4-1})
+and the EU Cyber Resilience Act~\cite{eucra2024} require dependency control but do
+not say how to decide on an individual change. The evidence-graph index that
+we extend~\cite{anon2026evidence} distinguishes absent from refuted evidence and combines a graded index with a
+non-compensable gate. The installers filter by calendar date or package age, not by a bound tied to the producer of
+the change, and treat a package without a date as unavailable.
+
+\begin{table}[t]
+\centering
+\caption{Closest work on LLM package hallucination. \emph{Anchor}: the time bound a defense would use. \emph{No-date}:
+handles records/registries without dates. \emph{Impl.}: the time-anchored defense is implemented and evaluated
+(not a different defense such as decoding or RAG). \emph{Inst.}: exercises real installers.}
+\label{tab:related}
+\footnotesize
+\setlength{\tabcolsep}{4pt}
+\begin{tabular}{@{}llccc@{}}
+\toprule
+Work & Registries / anchor & No-date & Impl. & Inst. \\
+\midrule
+Spracklen~\cite{spracklen2025package} & PyPI, npm / fixed date & -- & n/a & -- \\
+Krishna~\cite{krishna2025phantoms} & +crates / stated cut-off & -- & proposed & -- \\
+HFUZZER~\cite{zhao2025hfuzzer} & PyPI / cut-off (labels) & -- & n/a & -- \\
+PackMonitor~\cite{liu2026packmonitor} & PyPI / none & -- & n/a$^\dagger$ & -- \\
+Zheng~\cite{zheng2026crates} & crates / none & -- & n/a & -- \\
+\textbf{This paper} & +5 CPS reg. / verif. horizon & \checkmark & \checkmark & \checkmark \\
+\bottomrule
+\end{tabular}
+{\footnotesize $^\dagger$PackMonitor constrains decoding to a current list (a different, non-temporal defense);
+a name already registered passes.}
+\end{table}
+
+% =====================================================================
+\section{Threat Model and Problem}
+\label{sec:threat}
+
+\emph{Pipeline.} A producer $P$ (developer, LLM assistant or coding agent) emits a change $\Delta$ to a CPS project at
+generation time $t_g$. The change declares a set $D(\Delta)$ of dependencies, each a name in an ecosystem $e$ with
+registry $\Reg_e$. Before the build is signed and released, a gate decides at gating time $t_b\ge t_g$ among
+\dec{admit}; \dec{reject}, for a squat whose registry record postdates the model; \dec{request}, when the pipeline
+must first obtain missing evidence, such as the date of a library in a registry that serves none; and \dec{review},
+when every mandatory check passes but a human must decide, as for an established dependency without a pinned digest.
+Fig.~\ref{fig:pipeline} shows the setting.
+
+\emph{Knowledge horizon.} For a closed-book model, the latest time of information that can ground $P$'s suggestions is
+its training cut-off $c$. Reported cut-offs are not always accurate~\cite{cheng2024dated}, and the creation date of a
+model repository bounds nothing, because a repository can be created before any weights are uploaded. We therefore
+take as the \emph{horizon} $h(P)$ the date at which the weights we ran demonstrably existed: the commit on the model hub
+that last changed the vendor's weight files from which our file was converted, or, if those files changed later, the
+commit that added our file itself, identified by its SHA-256. Weights cannot reflect data published after they
+existed, so $c\le h$. A late bound shifts records created in $(c,h-\delta]$ from refuted to established. A squat
+informed by this model can be registered only after the model was released, hence after $h$; the window matters for
+squats prepared without the model, for example from the phantoms of other models (RQ2 measures how many recur across
+models). A retrieval-augmented agent has a later horizon that must be supported by a logged lookup; we leave such
+agents to future work.
+
+\emph{Adversary.} A \emph{squat} is the registration of a phantom name by the adversary at a time $t_a$. The adversary
+observes or predicts phantom names (for instance by querying the same models) and can register any free name in an
+open registry, at any time after $h$, without provenance. It cannot publish into a namespace it does not control,
+cannot alter the times that a registry records, and does not compromise the registry or the build
+infrastructure. Out of scope are squats registered before $h$: by the time the producer writes they are established
+records, and the horizon cannot tell them from legitimate ones; provenance evidence and registry-side defenses have to
+cover them. Also out of scope are takeover of established packages (the XZ Utils pattern), malicious logic in packages
+that existed before $h$, and re-registration of deleted names (Section~\ref{sec:threats}). Our squat worlds
+(Section~\ref{sec:gateeval}) register every phantom that nobody owns, or every phantom that is open for registration,
+and so bound the adversary from above.
+
+\emph{Three dates.} A package has a \emph{project} (source repository, documentation), a \emph{record} in a registry
+under a name, and \emph{artifacts} (versions, files) published into that record. Installers fetch artifacts of the
+record that the declared name resolves to, so the gate reasons about records: a project older than its record does not
+make the record older, and the record of one name says nothing about another record of the same project.
+
+\begin{definition}[Phantom and post-horizon match]
+A registry declaration $d$ (a manifest entry or install command naming a registry package) is a
+\emph{phantom} at time $t$ if its name, as the installer resolves it, does not resolve in $\Reg_e$ at $t$, is not
+provided by the toolchain (board core, framework, language) and is not declared by the change itself. A declaration
+that resolves to a record first created after $h(P)$ is a \emph{post-horizon match}: the producer may have known the
+project, not this record.
+\end{definition}
+
+\emph{Requirements.} The gate must (S1) never admit a phantom or a post-horizon match under any tuning;
+(S2) make evidence gaps explicit instead of silently admitting or rejecting; and (S3) run in time linear in the change
+size, plus registry lookups.
+
+\begin{figure}[t]
+\centering
+\begin{tikzpicture}[font=\footnotesize, node distance=3mm and 2.4mm,
+  box/.style={draw, rounded corners=1.5pt, align=center, inner sep=2pt, minimum height=6mm, fill=white},
+  arr/.style={-{Stealth[length=1.6mm]}, semithick}]
+\node[box] (p) {producer $P$\\ (LLM, agent)\\ horizon $h$};
+\node[box, right=of p] (m) {change $\Delta$\\ declares $D(\Delta)$};
+\node[box, right=of m] (r) {resolver: lookups\\ in $\Reg_e$, record\\ dates $\tau^-,\tau^+$};
+\node[box, below=6mm of r] (g) {index $[R,R^{+}]$,\\ gate $\Gamma$, rule (\ref{eq:rule})};
+\node[box, left=of g] (o) {\dec{admit}, \dec{review},\\ \dec{request}, \dec{reject}};
+\node[box, left=of o] (b) {build, sign,\\ OTA update};
+\draw[arr] (p) -- (m); \draw[arr] (m) -- (r);
+\draw[arr] (r) -- node[right, font=\scriptsize, align=left] {per $d$: $\sres$, $\sest$,\\ $\spin$, $\sprov$} (g);
+\draw[arr] (g) -- (o); \draw[arr] (o) -- (b);
+\coordinate (L) at ($(b.south west)+(0,-12mm)$);
+\coordinate (Q) at ($(r.east |- L)+(-2mm,0)$);
+\draw[-{Stealth[length=1.6mm]}] (L) -- (Q) node[right] {$t$};
+\foreach \f/\l/\s in {0.10/h/horizon, 0.36/{t_g}/generation, 0.62/{t_a}/{squat registered}, 0.90/{t_b}/gating}{
+  \coordinate (T) at ($(L)!\f!(Q)$);
+  \draw ($(T)+(0,0.08)$) -- ($(T)+(0,-0.08)$); \node[above] at ($(T)+(0,0.04)$) {$\l$};
+  \node[below, font=\scriptsize] at ($(T)+(0,-0.06)$) {\s};}
+\draw[thick, black!55] ($(L)+(0,0.5)$) -- ($($(L)!0.61!(Q)$)+(0,0.5)$) node[midway, above=1pt, font=\scriptsize] {unregistered: $z_{\sres}{=}0$};
+\draw[thick, black!55] ($($(L)!0.63!(Q)$)+(0,0.5)$) -- ($(Q)+(0,0.5)$) node[midway, above=1pt, font=\scriptsize] {record after $h$: $z_{\sest}{\ne}1$};
+\end{tikzpicture}
+\caption{Gating AI-originated dependency declarations. Bottom: whatever the gating time, a phantom is never admitted:
+before the squat it does not resolve; after it, its establishment is refuted where the registry dates record
+creation, and undecided, held for evidence, where it bounds it from above only.}
+\label{fig:pipeline}
+\end{figure}
+
+% =====================================================================
+\section{Horizon-Anchored Evidence for Dependencies}
+\label{sec:approach}
+
+\subsection{Evidence for one dependency}
+For each dependency $d\in D(\Delta)$ that a change declares, the gate collects four evidence items, each in one of
+three states: confirmed ($1$), refuted ($0$) or absent ($\bot$). Absent means that no evidence was obtained (not
+produced, not reachable, or not decidable); refuted means that evidence contradicts the requirement. The first two
+items are mandatory:
+\begin{itemize}
+\item $\sres$ (resolution): $1$ if $d$ resolves in $\Reg_e$ at gating time or is provided by the toolchain; $0$ if the
+registry is authoritative for the name and it does not resolve; $\bot$ if resolution cannot be decided (a VCS URL, a
+path, a legacy numeric identifier, a failed lookup, a package outside the snapshots). A name resolves only as the
+installer resolves it: PyPI names after its normalisation, PlatformIO and ESP names up to case as their APIs match
+them, all other names exactly (Cargo, for one, rejects a crate written with \texttt{\_} for \texttt{-} or in another
+case); a PyPI project without files and a crate whose versions are all yanked do not resolve, because the installer
+finds nothing to install. A registry match takes
+precedence over the toolchain list.
+\item $\sest$ (establishment): with a lower bound $\tau^{-}$ and an upper bound $\tau^{+}$ on the first publication
+time $\tau(d)$, horizon $h$ and margin $\delta\ge 0$,
+\begin{equation}
+z_{\sest}=\begin{cases} 1 & \tau^{+}\le h-\delta,\\ 0 & \tau^{-}>h,\\ \bot & \text{otherwise (including unknown bounds).}\end{cases}
+\label{eq:est}
+\end{equation}
+\item $\spin$ (content pinning): $1$ if the pipeline records a digest of the resolved artifact in a lock file (or the
+declaration pins a full commit hash), $0$ on a digest mismatch, $\bot$ otherwise.
+\item $\sprov$ (publisher provenance): $1$ if provenance is present and valid, $0$ if verification fails,
+$\bot$ if absent.
+\end{itemize}
+The margin $\delta$ keeps records created just before the horizon undecided: a model can hardly have learned a
+package from the last weeks of its training data. The bounds come from the registry and describe the record. Where the
+registry dates the creation of the record (PlatformIO \texttt{added\_at}, ESP \texttt{created\_at}, the crates.io
+\texttt{pubtime} of the first version, npm \texttt{time.created}), both bounds equal that time. PyPI reports only the
+upload times of files that still exist: the earliest bounds the record from above and is no lower bound, because
+earlier files may have been deleted. The Arduino Library Manager and the ROS distribution keep their registries in git,
+and their indices carry no dates; we date a library or a package by the first change on the main line of the registry
+repository that added it (a pull-request merge that GitHub creates, or a maintainer's commit), so the date is set by the
+registry and not by the submitter. Arduino moves are linked where the log shows them, and libraries of the initial
+import get an upper bound only. ROS packages are dated in the distribution file of the release the tasks name
+(Humble). MicroPython packages get an upper bound from the first commit to their manifest in micropython-lib by a
+maintainer; commits by other committers carry dates a contributor chose. An owner-less PlatformIO name may install
+any same-name package, so its bounds span all candidates and stay undecided if one candidate has no date. A pipeline
+that looked a name up and found it unregistered holds a further lower bound, its \emph{absence record}, for any record
+that appears later. Toolchain-provided names inherit the evidence of the platform and are confirmed.
+
+\subsection{From a manifest to a decision}
+The gate $\Gamma$ of a change is $0$ if some item of some declaration is refuted, $\bot$ if none is but a mandatory
+item is absent, and $1$ otherwise. Once the gate passes, a graded index decides between \dec{admit} and \dec{review}:
+it encodes the optional evidence a project demands before a change goes in unreviewed. With item weights
+$\alpha_s\ge 0$ that sum to $1$ and a threshold $\theta\in(0,1]$, the lower and upper labels of a declaration count
+absent items as failed and as confirmed, respectively,
+\begin{equation}
+\ell(d)=\sum_{s}\alpha_s[z_s(d)=1],\qquad \ell^{+}(d)=\sum_{s}\alpha_s[z_s(d)\neq 0],
+\label{eq:labels}
+\end{equation}
+and the index of the change is $R=\prod_{d}\ell(d)$, with $R^{+}=\prod_{d}\ell^{+}(d)$; any completion of the absent
+items yields an index in $[R,R^{+}]$. The decision is
+\begin{equation}
+\Dec(\Delta)=\begin{cases}
+\dec{reject} & \Gamma=0 \ \text{or}\ (\Gamma=1 \wedge R^{+}<\theta),\\
+\dec{request} & \Gamma=\bot,\\
+\dec{admit} & \Gamma=1 \wedge R\ge\theta,\\
+\dec{review} & \text{otherwise}.
+\end{cases}
+\label{eq:rule}
+\end{equation}
+The gate is non-compensable: no weight can offset a refutation, and a missing mandatory item is reported instead of
+being scored. Rejects and requests come from the gate, reviews from the index. With this gate, $\Gamma=1$ implies that
+no item is refuted, hence $R^{+}=1\ge\theta$; the $R^{+}$ clause matters only for the index-only variant below, and we
+keep the rule in the form of~\cite{anon2026evidence}.
+
+\emph{General form.} The index is the supply-chain integrity index (SCII) of~\cite{anon2026evidence} for one release
+step; we restate what this paper uses and prove the properties it relies on, so nothing below depends on that work. A
+profile $\Prof=(V,E,w,S,S^{*},\alpha,\theta)$ fixes a directed acyclic graph of process vertices whose root $\rho$ is
+the release, edge weights $w_{uv}\in[0,1]$ on edges $u\to v$ from a supplying to a consuming vertex, and for each
+vertex $v$ the items $S_v$ it expects, with weights summing to $1$, and the mandatory subset $S^{*}_v\subseteq S_v$.
+Labels (\ref{eq:labels}) are computed per vertex, so $\ell(d)$ is the label of the vertex $v_d$ of declaration $d$,
+with $\ell(v)=\ell^{+}(v)=1$ for a vertex without items, and propagate with a product kernel,
+\begin{equation}
+r(v)=\ell(v)\prod_{(u,v)\in E}\bigl(1-w_{uv}\,(1-r(u))\bigr),
+\label{eq:index}
+\end{equation}
+giving $R=r(\rho)$ and, with $\ell^{+}$ for $\ell$, $R^{+}$. A change instantiates the graph with one vertex $v_d$
+per declaration and an edge of weight $1$ into the dependency-resolution vertex, because a compromised dependency
+compromises the build; that vertex carries no evidence of its own and is the root of the part of the graph that
+changes, so (\ref{eq:index}) reduces to the products above.
+
+\subsection{Properties}
+\begin{proposition}[Non-compensability]
+If $z_{\sres}(d)=0$ for some $d\in D(\Delta)$, then $\Dec(\Delta)=\dec{reject}$ for every $\alpha$ and $\theta$.
+\end{proposition}
+\begin{IEEEproof}
+A refuted item sets $\Gamma=0$, and (\ref{eq:rule}) rejects whenever $\Gamma=0$.
+\end{IEEEproof}
+
+\begin{proposition}[Horizon soundness]
+Let $P$ declare $d$, where $d$ is neither provided by the toolchain nor declared in $\Delta$, and no package of that
+name, as the installer resolves it, was registered in $\Reg_e$ at any time $t\le h(P)$. Assume that every upper
+bound the resolver reports is valid within the margin, $\tau^{+}\ge\tau(d)-\delta$, where $\tau(d)$ is the
+first publication of the package the installer would fetch. Then, with $\sres$ and $\sest$ mandatory, for every gating
+time $t_b$, every registry state at $t_b$, and every $\alpha,\theta$, $\Dec(\Delta)\neq\dec{admit}$.
+\end{proposition}
+\begin{IEEEproof}
+If $d$ does not resolve at $t_b$, then $z_{\sres}=0$, or $z_{\sres}=\bot$ if the lookup fails. Otherwise the package it
+resolves to was first published at $\tau(d)>h$, so $\tau^{+}\ge\tau(d)-\delta>h-\delta$, or $\tau^{+}$ is unknown, and
+(\ref{eq:est}) gives $z_{\sest}\neq 1$. In every case a mandatory item is refuted or absent, so $\Gamma\in\{0,\bot\}$
+and the decision is \dec{reject} or \dec{request}.
+\end{IEEEproof}
+The two baselines behave differently. A resolves-now check admits $d$ from the moment of registration; an age rule with
+threshold $N$ admits it $N$ days later. Proposition~2 holds at every $t_b$ because $h$ does not move, and it covers a
+post-horizon match, whatever the reason the model wrote its name. Its guarantee starts at the horizon the gate uses:
+an upper bound on the true cut-off leaves registrations between the two unprotected (Section~\ref{sec:threat}), a
+further reason to keep the bound tight. The margin also absorbs small offsets between the date a registry records and the time it serves a
+package, such as the delay between a merge and the next index build. Correct lower bounds matter only for
+refutations; an invalid $\tau^{-}$ can turn \dec{request} into \dec{reject}, never into \dec{admit}.
+
+\emph{Scope.} The guarantee is exactly this: a name whose record is first created after $h$ is never admitted, when
+record dates are valid within $\delta$ and the registry is not compromised. It says nothing about a package that
+already existed at $h$ (a classic typosquat or a malicious old package), a new \emph{version} of such a package
+(content pinning and provenance, the optional items, bear on that), or a compromised publisher. It ranges over the
+declarations the model wrote, not over the transitive closure the installer resolves later: the horizon says nothing
+about packages the model never named, which other evidence, such as pins in the lock file, has to cover.
+
+\begin{proposition}[Monotone confirmation]
+Replacing an absent item by a confirmed one never decreases $R$ or $R^{+}$, and never turns \dec{admit} into another
+decision.
+\end{proposition}
+\begin{IEEEproof}
+By (\ref{eq:labels}), $\ell$ grows by $\alpha_s\ge 0$ and $\ell^{+}$ is unchanged. The kernel in (\ref{eq:index}),
+and the product it reduces to, is non-decreasing in every $r(u)$ and in $\ell(v)$, so $R$ does not decrease and $R^{+}$
+is unchanged. \dec{admit} requires
+$\Gamma=1$ and $R\ge\theta$; confirming an item cannot create a refutation or an absent mandatory item, so both conditions
+persist.
+\end{IEEEproof}
+
+\begin{proposition}[Insufficiency of the index alone]
+The index-only rule (``\dec{reject} if $R^{+}<\theta$, \dec{admit} if $R\ge\theta$, else \dec{review}'') admits a
+squatted dependency for some admissible $\alpha,\theta$.
+\end{proposition}
+\begin{IEEEproof}
+Take $\alpha=(0.5,0.05,0.4,0.05)$ for $(\sres,\sest,\spin,\sprov)$ and $\theta=0.85$. A squatted name resolves
+($z_{\sres}=1$), the pipeline pins whatever it resolved ($z_{\spin}=1$), $z_{\sest}=0$ and $z_{\sprov}=\bot$. Then
+$\ell=0.9\ge\theta$ and the index-only rule admits it, while (\ref{eq:rule}) rejects because $\Gamma=0$.
+\end{IEEEproof}
+Exactly: a squat has $z_{\sest}\neq 1$ and $z_{\sprov}=\bot$, so its label is $\alpha_{\sres}+\alpha_{\spin}$ if
+pinned and $\alpha_{\sres}$ if not, and the index-only rule can admit a manifest containing it only if
+$\alpha_{\sest}+\alpha_{\sprov}\le 1-\theta$, or $\alpha_{\sres}\ge\theta$ without a pin; Section~\ref{sec:rq3} samples
+how often profiles satisfy this. A rule that rejects whenever $z_{\sest}\neq 1$ would also be safe, but it rejects
+every change whose record dates are missing or one-sided.
+
+\emph{Relation to date filters.} Consider a filter on the record-creation time at $h$: it admits a record known to
+predate $h$ and hides a later one. Give it a third answer, \emph{unknown}, for a record it cannot place, and let it ask
+for evidence then: this filter (P3$_\bot$ in Section~\ref{sec:gateeval}) is exactly the gate. With
+$\alpha_{\spin}=\alpha_{\sprov}=0$, $\delta=0$ and no optional item refuted (P3$_\bot$ ignores pins and
+provenance), rule~(\ref{eq:rule}) decides every change as P3$_\bot$ does, since $\Gamma=1$ then implies $R=1$; the
+analysis checks this on every manifest and world, and a unit test on random dependency sets. The comparison is to
+this record-age filter, not to the installers' upload- or version-time filters
+(Section~\ref{sec:gateeval}). The graded index adds what blocking does not need: optional evidence (pinning,
+provenance) that decides between \dec{admit} and \dec{review}, and the margin $\delta$.
+
+\emph{Cost.} The index and gate take one pass over the change, $O(|D(\Delta)|)$ here and $O(|V|+|E|)$ in general;
+registry lookups dominate and are cached.
+
+\subsection{Implementation}
+\textsc{PhantomDeps-CPS} (Python) renders prompts, queries OpenAI-compatible endpoints, classifies declarations
+against snapshots and cached registry answers, evaluates the policies and writes every number of this paper with a
+provenance tag. Unit tests check Propositions~1--4 on random
+profiles and through the pipeline, the equivalence with P3$_\bot$ on 4{,}000 random dependency sets, registry-history
+dating and the extraction rules. The analysis aborts if the rule admits a squat, if the classification came from
+other code or snapshots, or if the data contradict one of the statements of Section~\ref{sec:results} that it
+checks, such as that every policy but P0 rejects every manifest with a phantom.
+
+% =====================================================================
+\section{Study Design}
+\label{sec:design}
+
+We ask four research questions.
+\textbf{RQ1} (prevalence): how often do code models declare phantom dependencies when they produce build manifests for
+CPS ecosystems, and how does this vary by ecosystem, model, task tier, prompt family and answer quality?
+\textbf{RQ2} (exposure): do phantoms recur across models and runs, do suggested names already resolve to records
+created after the model's horizon, and which phantoms could an outsider register?
+\textbf{RQ3} (gating): how do baseline policies, date filters and the horizon-anchored rule decide on the generated
+manifests, in the observed registry state and when phantoms are squatted, and what do they cost in availability?
+\textbf{RQ4} (evidence and cost): how often can establishment be decided, what lock files and provenance do the tools
+supply, and what does gating cost?
+The protocol was fixed before the study run; its change log lists every later change and why it was made.
+
+\subsection{Ecosystems and snapshots}
+Table~\ref{tab:registries} lists the eight ecosystems: the firmware layer (Arduino, PlatformIO, ESP-IDF, embedded
+Rust, MicroPython), robotics (ROS~2) and the gateway layer of industrial systems (PyPI, Node-RED nodes on npm). Static
+indices (Arduino and MicroPython indices, the \texttt{humble} and \texttt{jazzy} distribution files, the
+\texttt{rosdep} databases) were downloaded and hashed, and the registry repositories of Arduino, ROS and MicroPython
+cloned at recorded commits; other registries were queried per name, with every answer cached with its retrieval time
+(latest: \rSnapshotDate). Toolchain names come from nine Arduino cores, the ESP-IDF components (v5.5 and master), the
+MicroPython documentation and the Python standard library, matched up to case and separators (which can only
+lower phantom counts).
+
+\begin{table}[t]
+\centering
+\caption{Ecosystems: how a name enters the registry, source of the record-date bounds, digest locking, resolved
+declarations with a decidable $\sest$, and decisions of rule (\ref{eq:rule}) on clean manifests
+(Section~\ref{sec:gateeval}) per task ecosystem (A admit, ? review or request, X reject).}
+\label{tab:registries}
+\footnotesize
+\setlength{\tabcolsep}{2.5pt}
+\input{../results/tab_registries.tex}
+\end{table}
+
+\subsection{Task corpus}
+The corpus has \rNTasks{} tasks, \rTasksPerEco{} per ecosystem (SHA-256 prefix \texttt{\rCorpusSha}). Each task names a board or
+host and a function in one of eleven categories (sensing, actuation, IoT, fieldbus, positioning, security, control,
+data, display, wireless, robotics), but no package, so the dependency names are chosen by the model. In ROS, two
+tasks name a standard message type and thus its package, and a few name the framework that defines the interface.
+Half the tasks of each ecosystem went to a \emph{common} tier (well-documented devices and protocols, such as
+a BME280 sensor or MQTT) and half to a \emph{niche} tier (less common fieldbuses such as J1939, DNP3 or IEC~61850,
+secure-update functions, specific GNSS or IMU parts) before any generation. Two prompt families wrap each task: F1
+asks for the manifest and the source code, F2 for the manifest or install commands only. For example, the F2 prompt of
+task \texttt{platformio-07} reads: \emph{``Create a PlatformIO project for an ESP32-S3 DevKitC using the Arduino
+framework. Task: Poll holding registers of a PLC over Modbus TCP and forward the values to MQTT. Provide only the
+complete platformio.ini, including lib\_deps. Do not write the source code.''} All prompts share one system message
+(in the artifact).
+
+\subsection{Models and generation}
+\label{sec:models}
+\ifpilot
+The study configuration covers \rStudyNModels{} open-weight models from \rStudyNVendors{} vendors, \rStudyMinParams{}
+to \rStudyMaxParams{} billion parameters, whose repositories were created from \rStudyFirstHorizon{} to
+\rStudyLastHorizon{} (horizons will be anchored to the hub files that are run, as in the pilot), served by Ollama one
+request at a time. Each prompt of both families receives one greedy answer (temperature \rStudyGreedyTemp, fixed seed) under
+one token budget for both families. Every (model, prompt) pair whose greedy answer contains a
+phantom is asked \rStudyResampleN{} more times at temperature \rStudyResampleTemp{} to measure persistence. Reasoning
+models get a larger budget and only their final answer is analysed; the runner records the served model digest.
+The pilot reported in this version (Table~\ref{tab:models}) runs \rNModels{} models of \rRunMinParams--\rRunMaxParams B
+parameters through llama.cpp~\cite{llamacpp} on two vCPUs, with greedy decoding (seed \rGenSeed, repeat penalty
+\rRepeatPenalty): three small ones from the Qwen2.5-Coder~\cite{hui2024qwen25coder}, DeepSeek-Coder~\cite{guo2024deepseekcoder}
+and Llama~3~\cite{grattafiori2024llama3} families with a budget of \rBudgetMin{} tokens for F2\ifnum\rHasFamCmp=1{}
+(and \rMaxTokFOne{} for F1, which \rFOneModels{} also answered)\fi, and \rResampleN{} resamples per phantom-producing
+pair\ifnum\rHasGroups=1; and \rGrpLargeN{} larger ones (Llama~3.2 3B and Qwen2.5-Coder 7B of the same families,
+Phi-3-mini 3.8B~\cite{abdin2024phi3} of a fourth vendor) with a budget of \rBudgetMax{} tokens for F2, raised so
+that answers finish\fi.
+\ifnum\rNRemovedModels=1 Another, \rRemovedModel, was stopped by the host's time limit after \rRemovedAnswers{} of
+\rNTasks{} answers and is not analysed. \fi
+\ifnum\rHasFamEq=1 A separate run asks \rFamEqModel{} both families under one budget of \rFamEqBudget{} tokens on
+\rFamEqTasks{} tasks; it enters only the family comparison. \fi
+\else
+The study ran \rNModels{} open-weight models from \rStudyNVendors{} vendors, \rRunMinParams{} to \rRunMaxParams{}
+billion parameters (Table~\ref{tab:models}): Qwen2.5-Coder~\cite{hui2024qwen25coder}, Llama~3.1 and
+3.2~\cite{grattafiori2024llama3}, DeepSeek-Coder~\cite{guo2024deepseekcoder} and its V2~\cite{deepseek2024coderv2},
+Granite~3.3~\cite{granite33}, Gemma~3~\cite{gemmateam2025gemma3}, Phi-4~\cite{abdin2024phi4}, and the reasoning
+models Qwen3~\cite{yang2025qwen3} and gpt-oss~\cite{openai2025gptoss}. Each model is the hub GGUF file we pinned by
+its SHA-256, quantised as the Ollama library's default, and was served by Ollama~\rOllamaVersion{} with the library's
+chat template and default parameters (our system message replaces a library default), one request at a time, with
+an 8{,}192-token context on a laptop GPU with 12~GB (the two largest models partly in system memory). Each prompt of both families received one greedy answer (seed \rGenSeed) under one budget of
+\rBudgetMin{} tokens for both families; the reasoning models got \rBudgetMax{} tokens, and only their final answer is
+analysed. Every (model, prompt) pair whose greedy answer contained a phantom was asked \rResampleN{} more times at
+temperature \rResampleTemp{} to measure persistence\ifnum\rHasExt=1, and every cut answer was generated again with
+\rExtBudget{} tokens as a sensitivity analysis\fi. A pilot with smaller models on a CPU host had validated the harness
+beforehand; the artifact holds it.
+\fi
+Primary metrics use the prompt families answered by every model (\rFamilies), so that every model contributes the same
+prompts. The horizon of each model is the date at which its weights demonstrably existed (Section~\ref{sec:threat}),
+read from the commit history of the model hub; it lies within \rHorizonGapMaxH{} hours of the creation of each
+repository, and the files we ran, identified by SHA-256, were committed \ifnum\rNGgufIsHorizon>0 \rGgufGapLaterMinD{} to
+\rGgufGapMaxD{} days later (for \rNGgufIsHorizon{} model, whose vendor weights changed afterwards, the commit of the
+file we ran is the horizon)\else\rGgufGapMinD{} to \rGgufGapMaxD{} days later\fi.
+
+\begin{table}[t]
+\centering
+\caption{\ifpilot Pilot models (primary family)\else Models (primary families)\fi: horizon $h$, token budget, answers
+cut by it, and yield (answers with an executable declaration); Table~\ref{tab:prevalence} gives their phantom rates.}
+\label{tab:models}
+\footnotesize
+\setlength{\tabcolsep}{4pt}
+\input{../results/tab_models.tex}
+\end{table}
+
+\subsection{Extraction and classification}
+\label{sec:extraction}
+Only executable declarations are extracted: manifest entries (\texttt{lib\_deps}, \texttt{idf\_component.yml},
+\texttt{package.xml}, \texttt{Cargo.toml}, requirement lists, \texttt{package.json}, \texttt{library.properties})
+and install commands (\texttt{arduino-cli}, \texttt{pio}, \texttt{idf.py}, \texttt{cargo add}, \texttt{mip},
+\texttt{pip}, \texttt{npm}, \texttt{apt} for ROS packages) in code context, with arguments ending at the first token
+that reads as prose. ESP-IDF manifests that list dependencies instead of mapping them are extracted and flagged, since
+a developer would fix the syntax and keep the names. Prose recommendations are ignored, so the counts are lower bounds
+on what a reader would try to install. The ecosystem of a declaration follows from its syntax. A declaration is classified as \emph{exists}, \emph{phantom}, \emph{toolchain}, \emph{local} (a ROS
+package of the same workspace), \emph{non-registry} (URL or path), \emph{legacy identifier}, \emph{special} (not a
+package, such as the ESP-IDF version constraint), \emph{unsupported} (a package outside the snapshots, such as one of
+another ROS distribution; gated with undecided resolution) or \emph{unresolved} (lookup failure).
+
+To separate answer quality from hallucination, every manifest file is parsed independently of the extractor with the
+parser of its ecosystem's tooling (\texttt{tomllib}, JSON, \texttt{packaging}, \texttt{configparser},
+\texttt{catkin\_pkg}, the component manager's YAML schema); answers count as well-formed, malformed, commands only or
+cut by the token limit, and on well-formed files the extractor's names are compared with the parsers'.
+\ifnum\rHasValidation=0 The protocol's manual validation, 200 answers labelled by two annotators, is still to be
+done for this version.\fi
+
+\subsection{Gate evaluation}
+\label{sec:gateeval}
+A manifest is the set of non-local, non-special declarations in one response. It is \emph{unsafe} ($U$) if it contains
+a phantom, \emph{post-horizon} ($H$) if it contains a post-horizon match but no phantom, and \emph{clean} ($C$)
+otherwise. \emph{Clean} means only that our lookups found no phantom and no post-horizon match; such a manifest need
+not build (it may name a version that does not exist) and is not certified safe. We compare nine policies:
+P0 admits everything;
+P1 (resolves now) rejects a manifest with a declaration known not to resolve and lets URLs, paths and failed lookups
+pass, as an installation would;
+P2 adds an age rule: every package with a known date must be at least \rAgeDays{} days old;
+P3 counts a registry package only if its registry \emph{record} is known to have been created by $h$, treats a record
+without a date as unavailable, and does not date-filter URLs, paths and failed lookups;
+P3$_\bot$ is P3 with a third answer: it rejects what is known to be newer than $h$, admits what is known to be older,
+and requests evidence for everything else, URLs and paths included;
+I is the index-only rule; T (two-state) reads an absent mandatory item as refuted; O (optimistic) reads every absent
+item as confirmed; and SCII is rule~(\ref{eq:rule}). P3 is an abstract \emph{record-age} policy: it tests what a
+squat changes, a new record under an old-looking name. The installers' filters test something else: uv
+\texttt{--exclude-newer} filters distribution \emph{upload} times and npm \texttt{before} \emph{version} publish
+times, which decide the version that installs (a 2020 package with a 2026 release passes P3 but loses that release
+under the filters). They coincide with P3 only when a name's earliest artifact dates its record, so we use them in
+the replay (Section~\ref{sec:replay}) and P3 in the evaluation.
+The profile is assigned, not fitted:
+$\alpha=(\rAlphaRes,\rAlphaEst,\rAlphaPin,\rAlphaProv)$, $\theta=\rTheta$, $\delta=\rDeltaDays$ days. No publisher
+provenance is evaluated, so $\sprov=\bot$ for every registry package.
+
+We evaluate three worlds. In the \emph{observed} world, registry state is the snapshot and
+\ifnum\rMainLock=1 $\spin=1$ only where the lock file that the ecosystem's own tool wrote for the answer records a
+digest for the declaration (Cargo, npm and uv, Section~\ref{sec:rq4}); other declarations are unpinned. For
+comparison we also decide with the capability alone, $\spin=1$ wherever the tooling can lock digests
+(Table~\ref{tab:registries}). \else $\spin=1$ where the ecosystem's tooling locks digests
+(Table~\ref{tab:registries}). \fi In the \emph{squat} world, every phantom is registered by the adversary one
+day after the snapshot, without provenance but pinned wherever the tooling can lock (the worst case for blocking),
+and the gate runs $L$ days later; registered names without installable files stay with their owners. The evidence of a squat follows the
+resolver of its ecosystem: a refuted $\sest$ where the registry dates the creation of records, absent where it bounds
+them from above only (PyPI, MicroPython); the gate meets the name for the first time after the squat, and a variant
+gives it the absence record of our snapshot lookup. The \emph{open squat} world registers only phantoms that any
+account holder could register. To see what registry histories contribute, we also decide every manifest without the
+dates derived from them (Arduino, ROS, MicroPython), as a filter that reads only the installers' indices would. The
+sweep draws \rSweepN{} profiles with $\alpha\sim\mathrm{Dirichlet}(1,1,1,1)$ and
+$\theta\sim U(\rSweepThetaMin,\rSweepThetaMax)$, and a grid over $\theta$ and $\alpha_{\sprov}$ (the other weights
+keep their ratios) measures availability on clean manifests.
+\ifnum\rHasReplay=1
+Finally, we replay squats against real installers (pip, uv, npm, Cargo) and registries on the local host, and build
+an ESP-IDF application that declares a stand-in for one (Section~\ref{sec:replay}).
+\fi
+
+\subsection{Statistics and ethics}
+Rates come with 95\% percentile bootstrap intervals (\rBootB{} replicates, seed \rSeed) that resample tasks, because
+the answers of all models to one task, and the declarations within one answer, are not
+independent~\cite{field2007bootstrap}; persistence resamples (model, prompt) pairs. Cells with fewer than ten registry
+declarations or from a single task are reported but not interpreted. Nothing was published to a public registry, no
+package code ran outside the replay (local registries, harmless packages), lookups were read-only and cached, and
+lock files were written in resolve-only modes. Names an outsider may be able to register appear as keyed pseudonyms
+and will be reported to the registry operators before publication; a name that is also a real package elsewhere
+stays readable there.
+
+% =====================================================================
+\section{Results}
+\label{sec:results}
+
+The reported configuration produced \rNGen{} responses in the primary families (\rNTrunc{} hit the token limit).
+Of these, \rNRespDecl{} (\rYield) contained at least one executable declaration, for \rNDecl{} declarations in total:
+\rNExists{} exist, \rNPhantom{} are phantoms, \rNToolchain{} are toolchain names, and \rNOtherDecl{} fall in the
+other classes of Section~\ref{sec:extraction}. Of the \rNRespNoDecl{} responses without a declaration, \rNRespNoBlock{} contained no code block at all. The
+answers contained \rNFiles{} manifest files, of which the ecosystems' own parsers rejected \rNFilesMalformed{}
+(\rFilesXmlBad{} of \rFilesXml{} \texttt{package.xml}, \rFilesIdfBad{} of \rFilesIdf{} \texttt{idf\_component.yml},
+\rFilesCargoBad{} of \rFilesCargo{} \texttt{Cargo.toml}, \rFilesPioBad{} of \rFilesPio{} \texttt{platformio.ini},
+\rFilesReqBad{} of \rFilesReq{} requirement lists); \rNMalformed{} registry declarations (\rNMalformedPhantom{} of them
+phantoms) come from malformed ESP-IDF manifests. On the well-formed files, the extractor declared \rOffTp{} of the
+names the official parsers found, missed \rOffFn{} and added \rOffFp{} (precision \rOffPrecision, recall
+\rOffRecall{} against the tools' own reading; both find requirement lists with the same rule, so recall on them is an
+upper bound). \ifpilot The check found one gap, which the extractor now closes: requirement lists in code blocks
+labelled as Python or shell that the text right before them calls requirements.\else The check and \rNPrescreenWord{} LLM
+pre-screens of \rPrescreenEach{} answers each (not counted as validation) found extraction errors that the extractor now
+handles (comments, unfenced requirement lists, MicroPython's \texttt{upip}, irregular ESP-IDF manifests); the manual
+validation uses a fresh sample.\fi
+\ifnum\rHasValidation=1{} \ifnum\rValAllIdentical=1 Two annotators from one university group labelled a stratified
+sample of \rValN{} responses jointly; against their labels\else Two annotators labelled a stratified sample of \rValN{}
+responses; against the first\fi, extraction had a precision of \rValPrecision{} (CI \rValPrecisionCI) and a recall
+of \rValRecall{} (CI \rValRecallCI). \ifnum\rValSpurNonreg=\rValSpur\relax All \rValSpur\else\rValSpurNonreg{} of
+\rValSpur\fi{} spurious and \rValMissNonreg{} missed items are dependencies by URL that the extractor names by package,
+the annotators by URL; \rValMissTop{} of the \rValMissed{} missed items are tables of one \texttt{Cargo.toml} that does
+not parse. The errors cluster in few responses\ifnum\rValByResponse=1, so the intervals resample responses\fi: extraction
+was exact on \rValRespExact{} of \rValN{} (\rValRespExactPct, Wilson CI \rValRespExactCI), with a miss in
+\rValRespMissed{} and a spurious item in \rValRespSpur.\ifnum\rHasKappa=1\ifnum\rValAllIdentical=0{} The two annotators
+agreed on whether extraction was exact with Cohen's $\kappa=\rValKappa$.\fi\fi{} This step validates extraction, not
+the phantom/exists/toolchain classification,
+which rests on the registry lookups and name rules of Section~\ref{sec:extraction}; an independent double annotation of
+both is future work.
+\fi
+
+\subsection{RQ1: prevalence}
+\label{sec:rq1}
+Of \rDeclRegistry{} registry declarations, \rDeclPhantom{} were phantoms (\rPhantomDecl, 95\% CI \rPhantomDeclCI).
+At the response level, \rRespK{} of \rRespN{} responses with a registry declaration contained a phantom
+(\rPhantomResp, CI \rPhantomRespCI). The pooled rate weights models by how much they declare: \rTopModel{} contributed
+\rTopModelShare{} of the registry declarations, and the mean of the per-model rates is \rMacroPhantom.
+\ifnum\rHasGroups=1
+The \rGrpSmallN{} small models (\rGrpSmallMinB--\rGrpSmallMaxB B, budget \rBudgetMin{} tokens) hit the token limit in
+\rGrpSmallTrunc{} of their answers and declared phantoms at \rGrpSmallDecl{} (\rGrpSmallK/\rGrpSmallDeclN, CI
+\rGrpSmallDeclCI); the \rGrpLargeN{} larger ones (\rGrpLargeMinB--\rGrpLargeMaxB B, budget \rBudgetMax) hit it in
+\rGrpLargeTrunc{} and declared phantoms at \rGrpLargeDecl{} (\rGrpLargeK/\rGrpLargeDeclN, CI \rGrpLargeDeclCI).
+Without the cut answers the two rates are \rGrpSmallDeclNoTrunc{} and \rGrpLargeDeclNoTrunc; per answer, a phantom
+appeared in \rGrpSmallResp{} (\rGrpSmallRespK/\rGrpSmallRespN) and \rGrpLargeResp{} (\rGrpLargeRespK/\rGrpLargeRespN) of
+the answers with a registry declaration.
+\fi
+\ifnum\rMaxAnsCut=1 Declaration counts are sensitive to repetition loops: the largest single answer, cut by the limit,
+held \rMaxAnsDecl{} registry declarations, \rMaxAnsPhantom{} of them phantoms (\rMaxAnsModel). \fi
+Table~\ref{tab:prevalence} breaks the rate down.
+\ifnum\rNEcoTen>1
+Among the \rNEcoTen{} ecosystems with at least ten registry declarations, the highest rate was in \rMaxEco{}
+(\rMaxEcoRate) and the lowest in \rMinEco{} (\rMinEcoRate). Common-tier tasks yielded \rPhantomCommon{}
+(\rPhantomCommonK/\rPhantomCommonN, CI \rPhantomCommonCI) and niche tasks \rPhantomNiche{}
+(\rPhantomNicheK/\rPhantomNicheN, CI \rPhantomNicheCI).
+\fi
+Answer quality matters, and the subsets answer different questions (Table~\ref{tab:subset}): the \rPhantomDecl{}
+over all declarations falls to \rPhantomDeclNoTrunc{} on finished answers and to \rRateWellformed{} on finished answers
+whose manifests all parse, so the headline \rPhantomResp{} of answers is not a count of exploitable builds. Repeats do
+not inflate the rates: the extractor counts each name once per answer, and repetition loops produce distinct names.
+By ecosystem the quality effect is uneven (Table~\ref{tab:subset}, bottom): ESP-IDF, highest overall at \rMaxEcoRate,
+is \rWfEspP{} (\rWfEspK/\rWfEspN) on well-formed complete answers, the rest coming from manifests the component manager
+cannot read. Arduino, MicroPython and npm packages were declared only in install commands, so that subset holds none of
+them and its rate covers the other five ecosystems.
+\ifnum\rCutText>0
+
+\emph{Cut answers.} \rNTrunc{} answers (\rTruncPct) reached the budget; of the \rCutText{} with a final text, \rCutLoop{}
+ended in a repetition loop (their last \rLoopChars{} characters compress below \rLoopZlib{} of their size). Without the cut
+answers, \rPhantomRespNoTrunc{} (CI \rPhantomRespNoTruncCI) of the answers with a registry declaration name a phantom.
+\fi
+\ifnum\rHasExt=1
+Generated again with \rExtBudget{} tokens (the larger for the reasoning models), \rExtFinished{} cut answers finished and \rExtStillCut{} reached the larger
+budget; with the extended answers in their place the rates are \rExtAllDecl{} (CI \rExtAllDeclCI) per declaration and
+\rExtAllResp{} per answer, and \rExtFinDecl{} and \rExtFinResp{} over the answers that finish under either budget.
+Greedy decoding did not repeat itself exactly: \rExtUndatedKept{} of \rExtUndatedN{} extended answers start with the
+cut one (the rest part early, and those of \rExtDatedModels, whose chat template dates the prompt, never do); on those,
+the declaration rate moves from \rExtKeptCutDecl{} to \rExtKeptExtDecl.
+\fi
+\ifnum\rHasFamEq=1
+Under one budget of \rFamEqBudget{} tokens for both families, on \rFamEqTasks{} tasks (three common and three niche per
+ecosystem), \rFamEqModel{} declared phantoms at \rFamEqFOneDecl{} in manifests written with source code (F1,
+\rFamEqFOneK/\rFamEqFOneN, CI \rFamEqFOneDeclCI) and at \rFamEqFTwoDecl{} in manifest-only answers (F2,
+\rFamEqFTwoK/\rFamEqFTwoN, CI \rFamEqFTwoDeclCI); \rFamEqFOneTrunc{} F1 and \rFamEqFTwoTrunc{} F2 answers still reached
+the limit. Paired by task (\rFamEqPairs{} tasks with registry declarations in both families), a phantom appeared only
+in the F1 answer for \rFamEqOnlyFOne{} task\ifnum\rFamEqOnlyFOne=1\else s\fi{} and only in the F2 answer for
+\rFamEqOnlyFTwo{} (exact McNemar test,
+\rFamEqMcNemarP).
+\else\ifnum\rHasFamCmp=1
+\ifnum\rFamEqualBudget=1
+Under one budget for both families, manifests written together with source code (F1) had \rFamFOneDecl{} phantom
+declarations (\rFamFOneK/\rFamFOneN, CI \rFamFOneDeclCI) and manifest-only answers (F2) \rFamFTwoDecl{}
+(\rFamFTwoK/\rFamFTwoN, CI \rFamFTwoDeclCI); per answer, \rFamFOneResp{} and \rFamFTwoResp. Paired by model and task
+(\rFamPairs{} pairs with registry declarations in both families), a phantom appeared only in the F1 answer in
+\rFamOnlyFOne{} pairs and only in the F2 answer in \rFamOnlyFTwo{} (exact McNemar test, \rFamMcNemarP).
+\else
+For the model that answered both prompt families (\rFamCmpModels), manifests written together with source code (F1)
+had \rFamFOneDecl{} phantom declarations (\rFamFOneK/\rFamFOneN) and manifest-only answers (F2) \rFamFTwoDecl{}
+(\rFamFTwoK/\rFamFTwoN); the comparison is confounded by unequal budgets (\rMaxTokFOne{} and \rMaxTokFTwo{} tokens)
+and is not interpreted.
+\fi
+\fi\fi
+
+\begin{table*}[t]
+\centering
+\caption{Phantom registry declarations by model and ecosystem (phantoms/registry declarations). Per model: the rate
+over all ecosystems and the share of responses with a phantom among responses with a registry declaration. Per
+ecosystem: the rate with its 95\% task-cluster bootstrap interval (none from a single task) and the share of
+responses with a phantom.}
+\label{tab:prevalence}
+\footnotesize
+\input{../results/tab_prevalence.tex}
+\end{table*}
+
+\begin{table}[t]
+\centering
+\caption{Denominators and phantom rates by subset. Top: the responses and the rates of other subsets; the
+response-level rate counts answers, not builds. Bottom: phantoms/registry declarations per ecosystem, over all
+answers and over finished answers whose manifests all parse (for ESP-IDF, most of the gap is manifests the component
+manager cannot read).}
+\label{tab:subset}\label{tab:wellformed}
+\footnotesize
+\begin{tabular}{@{}lr@{}}
+\toprule
+Greedy responses & \rNGen \\
+\quad with a declaration of any kind & \rNRespDecl \\
+\quad with a manifest (non-local, non-special) & \rNManifest \\
+\quad with a registry declaration & \rRespN \\
+\midrule
+Phantom rate, finished answers & \rPhantomDeclNoTrunc{} (\rDeclRegistryNoTrunc{} decl.) \\
+Responses with $\ge\!1$ phantom & \rPhantomResp{} (\rRespK/\rRespN) \\
+\quad finished answers only & \rPhantomRespNoTrunc{} (\rRespNoTruncK/\rRespNoTruncN) \\
+\bottomrule
+\end{tabular}
+
+\smallskip
+\input{../results/tab_wellformed.tex}
+\end{table}
+
+% Fig. prevalence (results/fig_prevalence.pdf) shows Table prevalence as intervals; left out for space.
+\subsection{RQ2: exposure}
+The responses contained \rNUniquePhantom{} distinct phantom names, of which \rNCrossModel{} came from at least two
+models. By subtype: case or separator variants of a registered name, \rNSepVariant; PlatformIO names that exist under
+a different owner than the one declared, \rNOwnerMismatch; registered PyPI projects without files, \rNNoFiles; crates
+with every version yanked, \rNYanked; names that match no registered name under these checks, \rNInvented. By who
+could register them: any account holder, \rNOpenSquat; only the vendor (Espressif's own ESP namespace, and
+Arduino names that begin with ``Arduino'' in any case~\cite{arduinoregistry,arduinolint}), \rNVendorSquat; only the
+owner of another namespace (PlatformIO owners, npm scopes, other ESP namespaces), \rNNsSquat; only through a reviewed
+pull request, \rNCuratedSquat; only the owner of a registered name without installable files, \rNOwnedSquat; nobody,
+under the registries' rules on characters, length and variants of existing names (npm~\cite{npmnames,npmmoniker},
+crates.io~\cite{cratesiocanon}, PyPI, PlatformIO, ESP-IDF, Arduino~\cite{arduinoregistry,arduinolint}), \rNBlockedSquat; untested, for
+variants in other registries, \rNVariantSquat. Of \rPioAll{} PlatformIO registry
+declarations, \rPioBare{} omitted the owner, the form the PlatformIO documentation advises against because it is
+ambiguous~\cite{piodeps}. The artifact lists the most widely produced names and who could register them.
+
+\ifnum\rHasPostHorizon=1
+\rNPostHorizon{} resolved declarations, with \rNPostHorizonNames{} distinct names, were post-horizon matches: the name
+the model wrote now resolves to a record created after the model's horizon. Table~\ref{tab:posthorizon} audits the
+names with the record and project dates of Section~\ref{sec:threat}. \ifnum\rHasAudit=1\rAuditSummary\fi{} With repository creation dates as horizons there are
+\rNPostHorizonCreated{} matches, with horizons 90 days later \rNPostHorizonLater{} and with horizons a year earlier
+\rNPostHorizonEarlierYear.
+\else
+No resolved declaration was a post-horizon match.
+\fi
+
+\ifnum\rHasPersist=1
+\ifpilot The persistence follow-up re-asked \rPersistPrompts{} phantom-producing (model, prompt) pairs of the small
+models (\rPersistN{} samples at temperature \rResampleTemp).\else The persistence follow-up re-asked
+\rPersistAsked{} phantom-producing (model, prompt) pairs at temperature \rResampleTemp; \rPersistPrompts{} of them
+still have a phantom after the last fix of the extraction (\rPersistN{} samples)\ifnum\rPersistUnasked>0{}, and
+\rPersistUnasked{} pairs that gained one through later fixes were not re-asked\fi.\fi{} At least one phantom of the greedy answer reappeared in
+\rPersistK{} samples (\rPersist, CI \rPersistCI)\ifpilot\else; without cut answers, greedy or resampled, in
+\rPersistNoTrunc{} (CI \rPersistNoTruncCI), and by model from \rPersistMin{} (\rPersistMinModel) to \rPersistMax{}
+(\rPersistMaxModel)\fi. Of \rPersistNames{} (pair, name) combinations, \rPersistAlways{}
+reappeared in every sample and \rPersistNever{} in none. Phantoms that reappear under sampling are the ones an
+adversary can harvest by querying the same model.
+\fi
+
+% Table of the most widely produced phantom names (results/tab_examples.tex) left out for space; the artifact has it.
+
+\ifnum\rHasPostHorizon=1
+\begin{table}[t]
+\centering
+\caption{Post-horizon matches: earliest horizon $h$ of the models that wrote the name, creation of the record it now
+resolves to, and earliest commit of the repository that the record names.}
+\label{tab:posthorizon}
+\scriptsize
+\setlength{\tabcolsep}{2pt}
+\input{../results/tab_posthorizon.tex}
+\end{table}
+\fi
+
+\subsection{RQ3: gating}
+\label{sec:rq3}
+Of \rNManifest{} manifests, \rNManU{} are unsafe, \rNManH{} post-horizon and \rNManC{} clean. Table~\ref{tab:gate}
+gives the decisions. In the observed world every policy except P0 rejects every unsafe manifest: a phantom refutes
+$\sres$, which the gate vetoes and which caps the upper index of I at $1-\alpha_{\sres}<\theta$.
+\ifnum\rNManH>0
+Of the \rNManH{} post-horizon manifests, P1 admits \rGPOneHAdmit{} and P2 \rGPTwoHAdmit, while P3, P3$_\bot$ and
+SCII reject \rGPThreeHReject, \rGPThreeUHReject{} and \rGSciiHReject.
+\fi
+On the \rNManC{} clean manifests, P1 admits \rGPOneCAdmit{}, P3 \rGPThreeCAdmit{} (rejecting \rGPThreeCReject) and
+P3$_\bot$ \rGPThreeUCAdmit{} (requesting evidence for \rGPThreeUCRequest); SCII admits \rGSciiCAdmit, sends
+\rGSciiCReview{} to review and \rGSciiCRequest{} to evidence requests.
+\ifnum\rGSciiCRequest>0
+Requests arise where a mandatory item cannot be decided; here \rReqCauses.
+\fi
+With a gate-only profile ($\alpha_{\spin}=\alpha_{\sprov}=0$) SCII admits \rGoCAdmit{} clean manifests, requests
+evidence for \rGoCRequest{} and still rejects every unsafe one; with $\delta=0$ it decides every manifest exactly as
+P3$_\bot$\ifnum\rGateEqFilter=1{} (checked on all manifests and worlds)\fi.
+
+\emph{Where a date filter stops.} The indices of the Arduino, ROS and MicroPython installers carry no dates. With them
+alone, P3 rejects \rIdxPThreeCReject{} clean manifests (\rIdxPThreeCRejectAdd{} only for want of a date) and SCII sends
+\rIdxSciiCRequestAdd{} more to evidence requests. Of the clean and post-horizon manifests with a dependency dated only
+by registry histories, P3 stops \rHistStopped{}, which SCII sends to requests; with the history dates,
+\rHistAfterReject{} are rejected as post-horizon matches, P3$_\bot$ admits \rHistAfterPThreeUAdmit{} and
+SCII\ifnum\rHistAfterAdmit>0{} admits \rHistAfterAdmit{} and\fi{} sends \rHistAfterReview{} to review\ifnum\rHistAfterRequest>0,
+leaving \rHistAfterRequest{} open\fi\ifnum\rHasHistCost=1{} (reading the histories took \rHistSeconds~s)\fi.
+The request, not the index arithmetic, turns a missing date into evidence.
+
+\emph{Availability.} Reviews come from the graded index, not from the gate: without provenance a resolved registry
+dependency contributes at most $1-\alpha_{\sprov}=\rOneMinusProv$, so the product kernel admits a change with $k$ such
+dependencies only if $(1-\alpha_{\sprov})^{k}\ge\theta$, that is, for $k\le\rKmax$ with the assigned profile. Of the
+clean manifests, \rByKOneAdmit{} of \rByKOneN{} with one registry dependency were admitted and \rByKTwoAdmit{} of
+\rByKTwoN{} with two. The threshold trades availability for review load without touching safety: \rSensAdmitAssigned{}
+of the clean manifests are admitted with the assigned profile, \rSensAdmitThetaSeven{} with $\theta=0.7$,
+\rSensAdmitThetaFive{} with $\theta=0.5$, and \rSensAdmitProvZero{} with $\alpha_{\sprov}=0$; blocking never changes.
+\ifnum\rHasLock=1
+Much of this friction follows from where pins exist. On the \rBuildCleanN{} clean manifests whose crates.io, npm and
+PyPI declarations the tools resolved and locked, SCII auto-admits \rBuildCleanAdmit{} (\rBuildCleanAdmitPct), sends
+\rBuildCleanReview{} to review and requests evidence for \rBuildCleanRequest, against \rSensAdmitAssigned{} over all
+clean manifests\ifnum\rNoPinBelowTheta=1: elsewhere no lock file pins a digest, an unpinned registry dependency scores
+at most $\alpha_{\sres}+\alpha_{\sest}<\theta$, and SCII admits no manifest with a registry dependency there\fi.
+Of the \rActN{} clean manifests SCII does not admit, the lock check covers \rActCovered: \rActDefect{} would not
+install as written (versions that do not exist, unresolvable dependencies, conflicts) and \rActFriction{} are stopped
+by the rule alone; for \rActUncovered{} without a lock check it cannot tell. A review concerns a median
+of \rRevDepsMedian{} registry declarations (at most \rRevDepsMax). With the capability alone instead of the written
+lock files, SCII would admit \rObsPinCAdmit{} clean manifests, and \rProvWhatIfAdmit{} if it verified the attestations
+npm and PyPI already serve.
+\fi
+
+\emph{Squat world.} The resolves-now check admits \rSqExistsZero{} of the unsafe manifests from day one and the age rule
+\rSqAgeMonth{} from day \rAgeDays. If only the phantoms open to any account holder are squatted, resolves-now admits
+\rSqOpenExistsZeroK{} of the \rNManUOpen{} unsafe manifests whose phantoms are all open, \rSqOpenExistsZero{} of all
+\rNManU. The optimistic variant O admits \rSqOptimisticYear{} at every lag
+(squats in registries dated from above only); P3, P3$_\bot$, T and SCII admit none at any lag. Meeting the
+squats for the first time, SCII rejects \rSqFirstReject{} unsafe manifests and requests evidence for
+\rSqFirstRequest{}, whose squats only have an upper bound; with the absence record of the snapshot it rejects
+\rSqAbsReject\ifnum\rSqAbsRestOwned=1{} and requests evidence for the other \rSqAbsRest, whose phantoms are registered
+names without installable files, which no lookup records as absent\fi. With the assigned profile the index-only rule admits \rSqNovetoYear{}, because
+$\alpha_{\sres}+\alpha_{\spin}=\rResPin<\theta$. Over \rSweepN{} random profiles, the condition of
+Section~\ref{sec:approach} for a pinned squat holds in \rSweepCondPinned{} of the profiles; the index-only rule
+admitted at least one squatted manifest under \rSweepNovetoAny{} of all profiles\ifnum\rSweepSame=1, exactly those
+that satisfy the condition\fi, and SCII under none.
+
+\begin{table*}[t]
+\centering
+\caption{Gate decisions. Observed world (\ifnum\rMainLock=1 pins from the lock files the tools wrote\else pins
+where the ecosystem locks digests\fi): A = \dec{admit},
+? = \dec{review} or \dec{request}, X = \dec{reject}, for unsafe ($U$), post-horizon ($H$) and clean ($C$) manifests;
+for clean manifests R = \dec{review} and Q = \dec{request}.
+Squat world: unsafe manifests admitted when the gate runs $L$ days after every phantom was squatted, and on the first
+day when only open names were squatted.}
+\label{tab:gate}
+\footnotesize
+\setlength{\tabcolsep}{4pt}
+\input{../results/tab_gate.tex}
+\end{table*}
+
+\ifnum\rHasReplay=1
+\subsection{Replay on real installers}
+\label{sec:replay}
+We registered \rRpSquatsBaseN{} open phantom names of the pilot's answers (three each in PyPI, npm and crates.io) as
+harmless packages that write a marker file when their build or install code runs, in local registries (a PEP 691/700
+index, Verdaccio~\rRpVerdaccio{} without uplinks, a sparse Cargo registry), with one control package per registry
+dated 180 days before the horizon\ifnum\rRpNetns=1; the replay ran in a network namespace whose only interface is
+loopback\fi. With the defaults of pip~\rRpPip, uv~\rRpUv, npm~\rRpNpm{} and Cargo~\rRpCargo{} (P1),
+\rRpPOneExec{} of the \rRpSquatsBaseN{} squats ran their code; the date filters of uv (\texttt{--exclude-newer}) and
+npm (\texttt{--before}) at the horizon refused \rRpPThreeBlocked{} of \rRpPThreeRuns{} squat installations, and pip
+and Cargo have none. The gate rejected \rRpSciiRejectBase{} squats on first contact and asked for evidence for the
+\rRpSciiRequest{} on PyPI, dated from above only, and rejected \rRpSciiAbsRejectBase{} with the absence record of an
+earlier lookup: no squat reached an installer, and the controls were admitted, locked without running code and
+installed (\rRpCtrlAdmitBase{} of \rRpCtrlBaseN). Served from an index without upload times, as a find-links page or an
+older mirror serves it, a control was refused by uv's date filter, while the gate asked for evidence, read the record
+date from the origin registry (\rRpDlHttp{} request, \rRpDlMs~ms) and admitted it.
+\ifnum\rRpLockExec>0 Locking a squat that ships only a source distribution with uv without \texttt{--no-build} ran its
+build backend (\rRpLockExec{} of \rRpLockExecN), so the gate must decide before any lock step.\fi
+
+\ifnum\rHasEspBuild=1
+\emph{ESP-IDF stand-in.} The pilot's ESP-IDF phantoms lie in Espressif's namespace, closed to outsiders, so we
+replayed a stand-in, not a squat: a harmless component under one phantom's pseudonym in a placeholder namespace of a
+mock ESP Component Registry, declared by a minimal application; it shows what the build does once such a name
+resolves. The component manager~\rRpIdfCm, which has no date filter, downloaded it without running its code (code ran
+in \rRpEspDlExec{} of \rRpEspN); \texttt{idf.py build} of ESP-IDF~\rRpIdf{} (linux host target) then ran its CMake file
+and compiled it (\rRpEspBuildExec{} of \rRpEspN). The gate rejected it before any download (\rRpEspGateReject{} of
+\rRpEspN), and the control was built from the lock the gate measured (\rRpEspCtrlBuilt{} of \rRpEspCtrlN).
+\fi
+\fi
+
+\subsection{RQ4: evidence and cost}
+\label{sec:rq4}
+Establishment could be decided for \rEstDecided{} of resolved declarations; Table~\ref{tab:registries} shows the split
+by ecosystem. Where the registry bounds a record from above only, as PyPI does, a manifest without a refuted item can
+end in \dec{request}: the gate states which evidence is missing rather than guessing.
+\ifnum\rHasLock=1
+\emph{Lock files.} For the \rLockN{} pairs of an answer and an ecosystem with resolved crates.io, npm or PyPI
+declarations, the tools themselves (Cargo \rLockToolCargo, npm \rLockToolNpm, uv \rLockToolUv) wrote a lock file in
+resolve-only mode for \rLockOk{} (CPython 3.13, no source builds).
+\ifnum\rLockEntriesAllDigest=1 Every entry then has a digest (\rLockEntries{} packages, transitive ones included). \fi
+The capability does not imply a lock: \rLockVerFail{} declarations name versions that do not exist, and only
+\rLockDepsDigest{} of \rLockDepsN{} declarations (\rLockDepsPct) end up pinned. The registries serve provenance
+attestations for \rLockProvNpmK{}/\rLockProvNpmN{} locked npm and \rLockProvPypiK{}/\rLockProvPypiN{} PyPI declarations
+(presence only). A lock took \rLockMedianS~s per manifest at the median (at most \rLockMaxS~s).
+\fi
+\ifnum\rHasLookups=1 A cold registry lookup took \rLookupMedianMs{}~ms at the median (95th percentile
+\rLookupPNinetyFiveMs{}~ms; \rNLookups{} lookups, \rNLookupsTop{} for \rLookupsTopEco{} names), evaluating one policy on
+one manifest about \rGateUs{}~$\mu$s.
+\else Evaluating one policy on one manifest took about \rGateUs{}~$\mu$s.\fi
+
+% =====================================================================
+\section{Discussion}
+\label{sec:discussion}
+
+\emph{Anchor to the producer, not to the clock.} A resolves-now check asks a question that the attacker answers; an
+age rule only delays the answer. Whether the record existed when the producer's weights did never changes, and the
+audit shows why the record, not the project, is the unit: an old project can sit behind a new record.
+
+\emph{What the index adds to a date filter.} Where record dates exist, a record-age filter at the horizon blocks squats
+as well as the rule. The case for the rule is therefore narrow:
+the horizon comes from the producer, which no installer knows; dates come from registry histories that installers do
+not read; and an undecidable date becomes a request that names the missing evidence instead of a
+rejection\ifnum\rHasReplay=1{} (Section~\ref{sec:replay})\fi. Reading absent evidence as refuted (T) rejects clean
+manifests; reading it as confirmed (O) admits squats where records are dated from above only. Blocking is the gate's
+job and needs none of the weights; the graded index is an optional layer on top that lets a project demand pins and
+provenance before a change goes in without a human, in the same decision record. Its auto-admission pays off where
+lock files pin digests (\rBuildCleanAdmitPct{} of the clean manifests that lock) and registries serve provenance;
+elsewhere a project can run the gate alone and send clean manifests to review.
+
+\emph{Calibrating friction.} A project that wants changes with up to $K$ dependencies without provenance admitted
+unreviewed must choose $\theta\le(1-\alpha_{\sprov})^{K}$, or set $\alpha_{\sprov}=0$ until its registries offer
+provenance; Propositions~1--3 hold for all weights and thresholds while $\sres$ and $\sest$ stay mandatory. Most requests come
+from URLs and paths (\rReqUrlPath{} of \rGSciiCRequest), which need evidence no registry gives, such as a pinned
+commit's date\ifnum\rReqOnlyUrlPio=1\ifnum\rReqPioSpan>0; the others name a PlatformIO package without its owner and
+disappear once the manifest names it\fi\fi.
+
+\emph{Place in a CPS pipeline.} The gate runs before signing, so only admitted changes reach the images TUF or Uptane
+sign~\cite{samuel2010tuf,kuppusamy2016uptane}; its items can be emitted as in-toto
+attestations~\cite{torresarias2019intoto} and serve as evidence for the dependency control IEC~62443-4-1 and SSDF
+require~\cite{iec62443-4-1,nist800218}. It must also run before any step that can execute package
+code\ifnum\rHasReplay=1{} (\ifnum\rHasEspBuild=1 for ESP-IDF the build itself; \fi Section~\ref{sec:replay})\fi. Code generators should record the model, its weight hash and
+its horizon with every change; for a person the writing time is a natural horizon.
+
+% =====================================================================
+\section{Threats to Validity}
+\label{sec:threats}
+
+\emph{Construct.} Extraction ignores prose and may miss or misparse declarations; its rules are unit-tested, the
+official parsers agree with it on well-formed files, and \ifnum\rHasValidation=1 the manual validation\ifnum
+\rValAllIdentical=1{}, one joint annotation without a measure of agreement,\fi{} found gaps that this version keeps (tables of an
+unparsed \texttt{Cargo.toml}, requirement lists without a fence)\else the manual validation of the protocol is still
+to be done\fi.
+Phantom labels follow lookups that model the installer's name resolution, checked for Cargo (case and separator
+variants) and npm (capital letters); for PlatformIO and ESP we follow their APIs, and \texttt{arduino-cli} adjusts a
+name's case when exactly one library matches it up to case. The
+horizon bounds the training cut-off from above; moving every horizon \rHorizonShiftDays{} days earlier
+\ifnum\rPostHorizonShiftSame=1 leaves the number of post-horizon matches at \rNPostHorizon\else gives
+\rNPostHorizonShift{} post-horizon matches instead of \rNPostHorizon\fi{} and establishment decidable for
+\rEstDecidedShift{} of resolved declarations (\rEstDecided{} with the reported horizons). Dates from registry git
+histories are those of the main line, which the registry sets. A post-horizon match may be a legitimate late
+registration of an older project, as the audit shows; the rule rejects it all the same, because the record the
+installer would fetch is new. The squat worlds ignore what a registry would do about a malicious package once reported.
+
+\emph{Internal.} Registry state changes daily; all answers carry retrieval times. A registry that backdates records or
+lets a deleted name be re-registered with its old history breaks the assumption of Proposition~2; such cases call for
+name-history evidence in $\sprov$. Quantisation, server defaults and chat templates can change outputs; the runner
+records them\ifpilot, and DeepSeek-Coder, whose file carries no template, is served in its own prompt format.\else.
+Greedy answers of the inference server were not reproducible byte for byte (Section~\ref{sec:rq1}); the artifact keeps
+the answers as generated, and every number is computed from them.\fi
+
+\emph{External.}
+\ifpilot
+The reported configuration is a pilot: \rNModels{} models of \rRunMinParams--\rRunMaxParams B parameters with greedy
+decoding on a CPU host, three of them with small token budgets. The rates here are not estimates for the model
+population; they validate the harness and show how answer quality moves them.
+\else
+The models are open-weight models up to \rStudyMaxParams{} billion parameters, quantised to about four bits and
+run with one library's defaults and greedy decoding; commercial models, other decoding settings and agents with
+retrieval may behave differently.
+\fi
+The \rNTasks{} tasks are hand-written; other registries, tasks and retrieval-augmented agents may differ.
+
+% =====================================================================
+\section{Conclusion}
+\label{sec:conclusion}
+In our \ifpilot pilot\else study\fi, LLM-written build manifests for CPS named packages that do not exist, and the common defense admits
+them once an adversary registers the name. Anchoring establishment to the date at which the producer's weights
+existed, and gating on three-state evidence with a non-compensable rule, closes this gap for names registered after
+that horizon, for any weights and gating time, under valid record dates. Its value over a plain date filter lies in the
+producer's horizon, dates recovered from registry histories, and requests instead of rejections where dates are missing
+or one-sided. Next come \ifpilot the full study, \fi\ifnum\rHasValidation=1\ifnum\rValAllIdentical=1 an independent
+annotation of extraction and classification, \fi\else the manual validation, \fi retrieval agents with logged horizons,
+and transitive coverage through the lock file.
+
+\section*{Data Availability}
+The anonymized artifact (\rArtifactLink) holds the prompts, run configurations with model hashes and hub commits,
+the harness and tests, registry snapshots, pseudonymised declarations and answers, the lock-file, audit and replay
+records, and the commands and provenance behind every number. Raw generations and cached registry answers follow,
+with a DOI, once the registries are informed.
+
+\section*{Acknowledgment}
+\ifanon\else\input{acknowledgment_camera_ready.tex}\fi
+In line with IEEE policy on AI-generated content, the authors disclose that an AI assistant (Claude, Anthropic) was used
+to draft text, code and figures under the authors' direction; the authors reviewed and take responsibility for all content.
+
+\bibliographystyle{IEEEtran}
+\bibliography{refs}
+
+\end{document}

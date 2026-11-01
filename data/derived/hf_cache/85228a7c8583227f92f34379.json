@@ -1,0 +1,244 @@
+{
+ "url": "https://huggingface.co/api/models/TheBloke/deepseek-coder-1.3b-instruct-GGUF/tree/main?expand=true",
+ "body": null,
+ "retrieved_at": "2026-10-24T06:35:39Z",
+ "answer": [
+  {
+   "type": "file",
+   "oid": "d933581a2d85165e8644b86f3f9cb06e1ef03348",
+   "size": 2433,
+   "path": ".gitattributes",
+   "lastCommit": {
+    "id": "b07b36c9d6ba9a6306a149774fe12630c1f38452",
+    "title": "GGUF model commit (made with llama.cpp commit 3d48f42)",
+    "date": "2023-11-05T13:28:26.000Z"
+   }
+  },
+  {
+   "type": "file",
+   "oid": "d22049f4210535cc8d574342064766e5ee99783e",
+   "size": 21320,
+   "path": "README.md",
+   "lastCommit": {
+    "id": "f3928c766c3f6889301f2e23e5c806c6116071a9",
+    "title": "Upload README.md",
+    "date": "2023-11-05T13:28:30.000Z"
+   }
+  },
+  {
+   "type": "file",
+   "oid": "a770c44de33628ff769cae6b62f8c84c1e1d2e6a",
+   "size": 32,
+   "path": "config.json",
+   "lastCommit": {
+    "id": "1b6ddcad094e1ef85fff9cf28efa91c7ec7f9a6f",
+    "title": "GGUF model commit (made with llama.cpp commit 3d48f42)",
+    "date": "2023-11-05T13:28:27.000Z"
+   }
+  },
+  {
+   "type": "file",
+   "oid": "80f2d3d91780255a4c34ed8dbcf8129cc5032ba2",
+   "size": 631705632,
+   "lfs": {
+    "oid": "80648071361b5d0d71457bfabf71c40d7475e1792a988bc7c64f5598ab20e4c1",
+    "size": 631705632,
+    "pointerSize": 134
+   },
+   "xetHash": "a2bc5248d5fed6fab9b768301e42ead05243e323534c9e78ab724b8feea1aa73",
+   "path": "deepseek-coder-1.3b-instruct.Q2_K.gguf",
+   "lastCommit": {
+    "id": "ac6a6ce18256d4b28e1a3517f75bd6b0b51c00c9",
+    "title": "GGUF model commit (made with llama.cpp commit bb60fd0)",
+    "date": "2023-11-05T16:37:04.000Z"
+   }
+  },
+  {
+   "type": "file",
+   "oid": "32c6906c59a387ecf5128d316b2d990779e1afee",
+   "size": 744583200,
+   "lfs": {
+    "oid": "a366d9cb896a7dfdd40b246d616a20ba90ef4be26f6cd4b827399f0d8249fbf5",
+    "size": 744583200,
+    "pointerSize": 134
+   },
+   "xetHash": "65bc7ba0c8e30cdec9ddb2abb6cef45048edf32cfba2e1c07355d8a157cc4b61",
+   "path": "deepseek-coder-1.3b-instruct.Q3_K_L.gguf",
+   "lastCommit": {
+    "id": "19ed0e18ab5cdb4b62315ef82b8b13e55a2e50c4",
+    "title": "GGUF model commit (made with llama.cpp commit bb60fd0)",
+    "date": "2023-11-05T16:37:21.000Z"
+   }
+  },
+  {
+   "type": "file",
+   "oid": "7a984efff8e491493ea876f4923430811041647a",
+   "size": 704966688,
+   "lfs": {
+    "oid": "ff02a88557469e4ea95500f7a845562bb8b670f119809ec9e71baaab5ed84db6",
+    "size": 704966688,
+    "pointerSize": 134
+   },
+   "xetHash": "90740b46f08e39d713744932d5bb206022e191b4fc61e81d622e7472ef95a4d3",
+   "path": "deepseek-coder-1.3b-instruct.Q3_K_M.gguf",
+   "lastCommit": {
+    "id": "066046e4ff8f475a5e302a94a694bbfe46ad5d13",
+    "title": "GGUF model commit (made with llama.cpp commit bb60fd0)",
+    "date": "2023-11-05T16:37:16.000Z"
+   }
+  },
+  {
+   "type": "file",
+   "oid": "a09b82a239aa725ba8134c58a6d42a1f9e45376e",
+   "size": 658862112,
+   "lfs": {
+    "oid": "f34a870ebf2a45bff45d3ad228c20519181d2595f21894d7389db4fe4ef5640e",
+    "size": 658862112,
+    "pointerSize": 134
+   },
+   "xetHash": "dcf0685e1d1e959b0462956cfc08ebe112320e8cbf20826d906cc2cc69edc3b5",
+   "path": "deepseek-coder-1.3b-instruct.Q3_K_S.gguf",
+   "lastCommit": {
+    "id": "e4a60c2de1ff3ac019a6b64809d435e9ed2faaf4",
+    "title": "GGUF model commit (made with llama.cpp commit bb60fd0)",
+    "date": "2023-11-05T16:37:10.000Z"
+   }
+  },
+  {
+   "type": "file",
+   "oid": "16427753a05d0441891a06258aaf37606431e3f1",
+   "size": 776065056,
+   "lfs": {
+    "oid": "73f08c11c669b0659a4d8e5d9860576409a1f24d923076361899846dc2970446",
+    "size": 776065056,
+    "pointerSize": 134
+   },
+   "xetHash": "30c531b861d14c14740e0176390ab4cdb34bbdeb83ae1625b41551a6fccd4f23",
+   "path": "deepseek-coder-1.3b-instruct.Q4_0.gguf",
+   "lastCommit": {
+    "id": "5518503ccefe6c8d950f826768dab890d6f08aac",
+    "title": "GGUF model commit (made with llama.cpp commit bb60fd0)",
+    "date": "2023-11-05T16:37:28.000Z"
+   }
+  },
+  {
+   "type": "file",
+   "oid": "e80e98ddd655bd73e9c16e3e6f3112229da02a18",
+   "size": 873582624,
+   "lfs": {
+    "oid": "04cebb6fafa40ae628cf6bfeb76032ec792852f54020c559ad0a56b9f2839118",
+    "size": 873582624,
+    "pointerSize": 134
+   },
+   "xetHash": "ec69f2adeefb961d48a53e8ff2e1373c9c8f626f14cfe5e00706d2f0b09e6866",
+   "path": "deepseek-coder-1.3b-instruct.Q4_K_M.gguf",
+   "lastCommit": {
+    "id": "278897abaf39fb79b77a6b54dce33ce19db68a4f",
+    "title": "GGUF model commit (made with llama.cpp commit bb60fd0)",
+    "date": "2023-11-05T16:37:41.000Z"
+   }
+  },
+  {
+   "type": "file",
+   "oid": "18dbdde10cdc1b3bc7c66a8ae54f56f172ee6ee4",
+   "size": 814796832,
+   "lfs": {
+    "oid": "d29e66f1a3771cddea8e242a426d4de92579b21a4ba0356c4987422ed5b484e8",
+    "size": 814796832,
+    "pointerSize": 134
+   },
+   "xetHash": "9eb02a843f71e3a0c3dff3f4380697fab8808f858ac7fd7ab64c9bc36d2bb12e",
+   "path": "deepseek-coder-1.3b-instruct.Q4_K_S.gguf",
+   "lastCommit": {
+    "id": "3b51f4fd97869f81e912ecad28a0be10d8f07f85",
+    "title": "GGUF model commit (made with llama.cpp commit bb60fd0)",
+    "date": "2023-11-05T16:37:33.000Z"
+   }
+  },
+  {
+   "type": "file",
+   "oid": "6aac437c57e3901f2ef1e56c33ae67b039d3df09",
+   "size": 936103968,
+   "lfs": {
+    "oid": "80d3c4464cf7a77345aa29e926b7ff65ced382ce69e711295599c3e922e50b0f",
+    "size": 936103968,
+    "pointerSize": 134
+   },
+   "xetHash": "8c014b60f17454a20cdbb664fd4bea77883cfee7f887bb1174528cdb23040625",
+   "path": "deepseek-coder-1.3b-instruct.Q5_0.gguf",
+   "lastCommit": {
+    "id": "30ad79d93338fc5704cfe64729714083097f78c7",
+    "title": "GGUF model commit (made with llama.cpp commit bb60fd0)",
+    "date": "2023-11-05T16:37:46.000Z"
+   }
+  },
+  {
+   "type": "file",
+   "oid": "8c4a6b1bb0e3b0f18c5e3a8a564dc7bb7c622757",
+   "size": 1001967648,
+   "lfs": {
+    "oid": "d5dcc2a484498b412b8bf5821b0ef2a7ea2e1984b37d15e14344259068d19a31",
+    "size": 1001967648,
+    "pointerSize": 135
+   },
+   "xetHash": "cbfded74b5757286845c4a6f9e269d23f910aa83124c6d23c05ec2c26ea82cb1",
+   "path": "deepseek-coder-1.3b-instruct.Q5_K_M.gguf",
+   "lastCommit": {
+    "id": "baa90427ae0ce6e583576484d724c3f511d2d2a8",
+    "title": "GGUF model commit (made with llama.cpp commit bb60fd0)",
+    "date": "2023-11-05T16:38:01.000Z"
+   }
+  },
+  {
+   "type": "file",
+   "oid": "a9df9121a2b4b8608ca03ec8a306f55c91912a76",
+   "size": 953012256,
+   "lfs": {
+    "oid": "b352bea6275e29d6c075878d6ae11b08697ed03c6ba978e2be4a362ad050a2c7",
+    "size": 953012256,
+    "pointerSize": 134
+   },
+   "xetHash": "c564de2704e086ba9fc5b35b4bc252e8b3c766370c13542a4edb25d849ac775d",
+   "path": "deepseek-coder-1.3b-instruct.Q5_K_S.gguf",
+   "lastCommit": {
+    "id": "c925b57241ad5465e6f8f90c662b4fae6a9870cb",
+    "title": "GGUF model commit (made with llama.cpp commit bb60fd0)",
+    "date": "2023-11-05T16:37:55.000Z"
+   }
+  },
+  {
+   "type": "file",
+   "oid": "1ae933d464e0ff7d76c1d336d768fd818e806811",
+   "size": 1171664928,
+   "lfs": {
+    "oid": "a2048c5d02d3436719d2f452c3aa19f7f96b29b367ae7bc430a509cd870dcab0",
+    "size": 1171664928,
+    "pointerSize": 135
+   },
+   "xetHash": "2811254af7de9ec799d629bf8313380b432055cf7214ad4053b4e097d485b9ec",
+   "path": "deepseek-coder-1.3b-instruct.Q6_K.gguf",
+   "lastCommit": {
+    "id": "6e780aec928616eaf5d5c9b9c6177c7d109d28ad",
+    "title": "GGUF model commit (made with llama.cpp commit bb60fd0)",
+    "date": "2023-11-05T16:38:09.000Z"
+   }
+  },
+  {
+   "type": "file",
+   "oid": "669018b83039bdc64858c0237bbf79cf2252df7e",
+   "size": 1432219680,
+   "lfs": {
+    "oid": "36eb025121a50ee6d37fe900659393ff8fb5ea34adc0e3c11fc635e07624dcdb",
+    "size": 1432219680,
+    "pointerSize": 135
+   },
+   "xetHash": "0be426b80169ffe98fede6324db9d2d6bcc56c47a45ab61852278da1a67e8456",
+   "path": "deepseek-coder-1.3b-instruct.Q8_0.gguf",
+   "lastCommit": {
+    "id": "8321ce011e60122a9a818340bd4023c7247151a8",
+    "title": "GGUF model commit (made with llama.cpp commit bb60fd0)",
+    "date": "2023-11-05T16:38:18.000Z"
+   }
+  }
+ ]
+}

@@ -1,0 +1,1687 @@
+{
+ "built_at": "2026-10-24T16:58:02Z",
+ "language_names": {
+  "crates": {
+   "alloc": "Rust alloc library",
+   "core": "Rust core library",
+   "proc_macro": "Rust compiler crate",
+   "std": "Rust standard library",
+   "test": "Rust test harness"
+  },
+  "espidf": {
+   "idf": "ESP-IDF version constraint in idf_component.yml"
+  }
+ },
+ "names": {
+  "arduino_core": {
+   "ADCInput": [
+    "earlephilhower_arduino-pico"
+   ],
+   "Adafruit_TinyUSB_Arduino": [
+    "earlephilhower_arduino-pico"
+   ],
+   "AnalogWave": [
+    "arduino_ArduinoCore-renesas"
+   ],
+   "ArduinoOTA": [
+    "espressif_arduino-esp32",
+    "esp8266_Arduino",
+    "earlephilhower_arduino-pico"
+   ],
+   "Arduino_CAN": [
+    "arduino_ArduinoCore-renesas",
+    "arduino_ArduinoCore-mbed"
+   ],
+   "Arduino_FreeRTOS": [
+    "arduino_ArduinoCore-renesas"
+   ],
+   "Arduino_H7_Video": [
+    "arduino_ArduinoCore-mbed"
+   ],
+   "Arduino_LED_Matrix": [
+    "arduino_ArduinoCore-renesas"
+   ],
+   "AsyncUDP": [
+    "espressif_arduino-esp32",
+    "earlephilhower_arduino-pico"
+   ],
+   "AudioBufferManager": [
+    "earlephilhower_arduino-pico"
+   ],
+   "BLE": [
+    "espressif_arduino-esp32",
+    "earlephilhower_arduino-pico"
+   ],
+   "BTstackLib": [
+    "earlephilhower_arduino-pico"
+   ],
+   "BlockDevices": [
+    "arduino_ArduinoCore-renesas"
+   ],
+   "BluetoothAudio": [
+    "earlephilhower_arduino-pico"
+   ],
+   "BluetoothHCI": [
+    "earlephilhower_arduino-pico"
+   ],
+   "BluetoothHIDMaster": [
+    "earlephilhower_arduino-pico"
+   ],
+   "BluetoothSerial": [
+    "espressif_arduino-esp32"
+   ],
+   "CMSIS_DSP": [
+    "stm32duino_Arduino_Core_STM32"
+   ],
+   "Camera": [
+    "arduino_ArduinoCore-mbed"
+   ],
+   "Console": [
+    "espressif_arduino-esp32"
+   ],
+   "DNSServer": [
+    "espressif_arduino-esp32",
+    "esp8266_Arduino",
+    "earlephilhower_arduino-pico"
+   ],
+   "EEPROM": [
+    "espressif_arduino-esp32",
+    "esp8266_Arduino",
+    "arduino_ArduinoCore-avr",
+    "arduino_ArduinoCore-renesas",
+    "arduino_ArduinoCore-megaavr",
+    "earlephilhower_arduino-pico",
+    "stm32duino_Arduino_Core_STM32"
+   ],
+   "ESP32": [
+    "espressif_arduino-esp32"
+   ],
+   "ESP8266AVRISP": [
+    "esp8266_Arduino"
+   ],
+   "ESP8266HTTPClient": [
+    "esp8266_Arduino"
+   ],
+   "ESP8266HTTPUpdateServer": [
+    "esp8266_Arduino"
+   ],
+   "ESP8266LLMNR": [
+    "esp8266_Arduino"
+   ],
+   "ESP8266NetBIOS": [
+    "esp8266_Arduino"
+   ],
+   "ESP8266SSDP": [
+    "esp8266_Arduino"
+   ],
+   "ESP8266SdFat": [
+    "esp8266_Arduino"
+   ],
+   "ESP8266WebServer": [
+    "esp8266_Arduino"
+   ],
+   "ESP8266WiFi": [
+    "esp8266_Arduino"
+   ],
+   "ESP8266WiFiMesh": [
+    "esp8266_Arduino"
+   ],
+   "ESP8266httpUpdate": [
+    "esp8266_Arduino"
+   ],
+   "ESP8266mDNS": [
+    "esp8266_Arduino"
+   ],
+   "ESPHost": [
+    "earlephilhower_arduino-pico"
+   ],
+   "ESP_HostedOTA": [
+    "espressif_arduino-esp32"
+   ],
+   "ESP_I2S": [
+    "espressif_arduino-esp32"
+   ],
+   "ESP_NOW": [
+    "espressif_arduino-esp32"
+   ],
+   "ESP_SR": [
+    "espressif_arduino-esp32"
+   ],
+   "ESP_Video": [
+    "espressif_arduino-esp32"
+   ],
+   "ESPhost": [
+    "arduino_ArduinoCore-renesas"
+   ],
+   "ESPmDNS": [
+    "espressif_arduino-esp32"
+   ],
+   "Ethernet": [
+    "espressif_arduino-esp32",
+    "esp8266_Arduino",
+    "arduino_ArduinoCore-renesas",
+    "arduino_ArduinoCore-mbed"
+   ],
+   "FATFilesystem": [
+    "arduino_ArduinoCore-renesas"
+   ],
+   "FFat": [
+    "espressif_arduino-esp32"
+   ],
+   "FS": [
+    "espressif_arduino-esp32"
+   ],
+   "FSTools": [
+    "esp8266_Arduino"
+   ],
+   "FatFS": [
+    "earlephilhower_arduino-pico"
+   ],
+   "FatFSUSB": [
+    "earlephilhower_arduino-pico"
+   ],
+   "GC2145": [
+    "arduino_ArduinoCore-mbed"
+   ],
+   "GDBStub": [
+    "esp8266_Arduino"
+   ],
+   "GPS": [
+    "arduino_ArduinoCore-mbed"
+   ],
+   "GSM": [
+    "arduino_ArduinoCore-mbed"
+   ],
+   "HID": [
+    "arduino_ArduinoCore-avr",
+    "arduino_ArduinoCore-samd",
+    "arduino_ArduinoCore-renesas"
+   ],
+   "HID_Bluetooth": [
+    "earlephilhower_arduino-pico"
+   ],
+   "HID_Joystick": [
+    "earlephilhower_arduino-pico"
+   ],
+   "HID_Keyboard": [
+    "earlephilhower_arduino-pico"
+   ],
+   "HID_Mouse": [
+    "earlephilhower_arduino-pico"
+   ],
+   "HTTPClient": [
+    "espressif_arduino-esp32",
+    "earlephilhower_arduino-pico"
+   ],
+   "HTTPUpdate": [
+    "espressif_arduino-esp32",
+    "earlephilhower_arduino-pico"
+   ],
+   "HTTPUpdateServer": [
+    "espressif_arduino-esp32",
+    "earlephilhower_arduino-pico"
+   ],
+   "Hash": [
+    "espressif_arduino-esp32",
+    "esp8266_Arduino",
+    "earlephilhower_arduino-pico"
+   ],
+   "Himax_HM01B0": [
+    "arduino_ArduinoCore-mbed"
+   ],
+   "Himax_HM0360": [
+    "arduino_ArduinoCore-mbed"
+   ],
+   "I2S": [
+    "esp8266_Arduino",
+    "arduino_ArduinoCore-samd",
+    "arduino_ArduinoCore-renesas",
+    "earlephilhower_arduino-pico"
+   ],
+   "I3C": [
+    "stm32duino_Arduino_Core_STM32"
+   ],
+   "IWatchdog": [
+    "stm32duino_Arduino_Core_STM32"
+   ],
+   "Insights": [
+    "espressif_arduino-esp32"
+   ],
+   "Joystick": [
+    "earlephilhower_arduino-pico"
+   ],
+   "JoystickBLE": [
+    "earlephilhower_arduino-pico"
+   ],
+   "JoystickBT": [
+    "earlephilhower_arduino-pico"
+   ],
+   "KVStore": [
+    "arduino_ArduinoCore-renesas"
+   ],
+   "KernelDebug": [
+    "arduino_ArduinoCore-mbed"
+   ],
+   "Keyboard": [
+    "earlephilhower_arduino-pico",
+    "stm32duino_Arduino_Core_STM32"
+   ],
+   "KeyboardBLE": [
+    "earlephilhower_arduino-pico"
+   ],
+   "KeyboardBT": [
+    "earlephilhower_arduino-pico"
+   ],
+   "LEAmDNS": [
+    "earlephilhower_arduino-pico"
+   ],
+   "LittleFS": [
+    "espressif_arduino-esp32",
+    "esp8266_Arduino",
+    "earlephilhower_arduino-pico"
+   ],
+   "LittleFilesystem": [
+    "arduino_ArduinoCore-renesas"
+   ],
+   "MCUboot": [
+    "arduino_ArduinoCore-mbed"
+   ],
+   "MD5Builder": [
+    "earlephilhower_arduino-pico"
+   ],
+   "MIDIUSB": [
+    "earlephilhower_arduino-pico"
+   ],
+   "MLC": [
+    "arduino_ArduinoCore-mbed"
+   ],
+   "MRI": [
+    "arduino_ArduinoCore-mbed"
+   ],
+   "Matter": [
+    "espressif_arduino-esp32"
+   ],
+   "Mouse": [
+    "earlephilhower_arduino-pico",
+    "stm32duino_Arduino_Core_STM32"
+   ],
+   "MouseAbsolute": [
+    "earlephilhower_arduino-pico"
+   ],
+   "MouseBLE": [
+    "earlephilhower_arduino-pico"
+   ],
+   "MouseBT": [
+    "earlephilhower_arduino-pico"
+   ],
+   "NDP": [
+    "arduino_ArduinoCore-mbed"
+   ],
+   "Nano33BLE_System": [
+    "arduino_ArduinoCore-mbed"
+   ],
+   "NetBIOS": [
+    "espressif_arduino-esp32",
+    "earlephilhower_arduino-pico"
+   ],
+   "Netdump": [
+    "esp8266_Arduino"
+   ],
+   "Network": [
+    "espressif_arduino-esp32"
+   ],
+   "NetworkClientSecure": [
+    "espressif_arduino-esp32"
+   ],
+   "Nicla_System": [
+    "arduino_ArduinoCore-mbed"
+   ],
+   "OPAMP": [
+    "arduino_ArduinoCore-renesas"
+   ],
+   "OTAUpdate": [
+    "arduino_ArduinoCore-renesas"
+   ],
+   "OV7670": [
+    "arduino_ArduinoCore-mbed"
+   ],
+   "OpenThread": [
+    "espressif_arduino-esp32"
+   ],
+   "PDM": [
+    "arduino_ArduinoCore-mbed",
+    "earlephilhower_arduino-pico"
+   ],
+   "PPP": [
+    "espressif_arduino-esp32"
+   ],
+   "PWMAudio": [
+    "earlephilhower_arduino-pico"
+   ],
+   "PicoCamera": [
+    "earlephilhower_arduino-pico"
+   ],
+   "PicoOTA": [
+    "earlephilhower_arduino-pico"
+   ],
+   "Portenta_Audio": [
+    "arduino_ArduinoCore-mbed"
+   ],
+   "Portenta_SDCARD": [
+    "arduino_ArduinoCore-mbed"
+   ],
+   "Portenta_SDRAM": [
+    "arduino_ArduinoCore-mbed"
+   ],
+   "Preferences": [
+    "espressif_arduino-esp32",
+    "arduino_ArduinoCore-renesas"
+   ],
+   "RGB_LED_TLC59731": [
+    "stm32duino_Arduino_Core_STM32"
+   ],
+   "RPC": [
+    "arduino_ArduinoCore-mbed"
+   ],
+   "RTC": [
+    "arduino_ArduinoCore-renesas"
+   ],
+   "RainMaker": [
+    "espressif_arduino-esp32"
+   ],
+   "SAMD_AnalogCorrection": [
+    "arduino_ArduinoCore-samd"
+   ],
+   "SAMD_BootloaderUpdater": [
+    "arduino_ArduinoCore-samd"
+   ],
+   "SBU": [
+    "arduino_ArduinoCore-samd"
+   ],
+   "SD": [
+    "espressif_arduino-esp32",
+    "esp8266_Arduino",
+    "earlephilhower_arduino-pico"
+   ],
+   "SDFS": [
+    "esp8266_Arduino",
+    "earlephilhower_arduino-pico"
+   ],
+   "SDU": [
+    "arduino_ArduinoCore-samd",
+    "arduino_ArduinoCore-renesas"
+   ],
+   "SD_MMC": [
+    "espressif_arduino-esp32"
+   ],
+   "SFU": [
+    "arduino_ArduinoCore-samd",
+    "arduino_ArduinoCore-renesas",
+    "arduino_ArduinoCore-mbed"
+   ],
+   "SNU": [
+    "arduino_ArduinoCore-samd"
+   ],
+   "SPI": [
+    "espressif_arduino-esp32",
+    "esp8266_Arduino",
+    "arduino_ArduinoCore-avr",
+    "arduino_ArduinoCore-samd",
+    "arduino_ArduinoCore-renesas",
+    "arduino_ArduinoCore-mbed",
+    "arduino_ArduinoCore-megaavr",
+    "earlephilhower_arduino-pico",
+    "stm32duino_Arduino_Core_STM32"
+   ],
+   "SPIFFS": [
+    "espressif_arduino-esp32"
+   ],
+   "SPISlave": [
+    "esp8266_Arduino",
+    "earlephilhower_arduino-pico"
+   ],
+   "SSLClient": [
+    "arduino_ArduinoCore-renesas"
+   ],
+   "SSU": [
+    "arduino_ArduinoCore-samd"
+   ],
+   "STM32H747_System": [
+    "arduino_ArduinoCore-mbed"
+   ],
+   "Scheduler": [
+    "arduino_ArduinoCore-mbed"
+   ],
+   "SdFat": [
+    "earlephilhower_arduino-pico"
+   ],
+   "SerialBT": [
+    "earlephilhower_arduino-pico"
+   ],
+   "Servo": [
+    "esp8266_Arduino",
+    "earlephilhower_arduino-pico",
+    "stm32duino_Arduino_Core_STM32"
+   ],
+   "SimpleBLE": [
+    "espressif_arduino-esp32"
+   ],
+   "SimpleMDNS": [
+    "earlephilhower_arduino-pico"
+   ],
+   "SingleFileDrive": [
+    "earlephilhower_arduino-pico"
+   ],
+   "SocketWrapper": [
+    "arduino_ArduinoCore-mbed"
+   ],
+   "SoftwareATSE": [
+    "arduino_ArduinoCore-renesas"
+   ],
+   "SoftwareSPI": [
+    "earlephilhower_arduino-pico"
+   ],
+   "SoftwareSerial": [
+    "esp8266_Arduino",
+    "arduino_ArduinoCore-avr",
+    "arduino_ArduinoCore-renesas",
+    "arduino_ArduinoCore-megaavr",
+    "stm32duino_Arduino_Core_STM32"
+   ],
+   "SrcWrapper": [
+    "stm32duino_Arduino_Core_STM32"
+   ],
+   "Storage": [
+    "arduino_ArduinoCore-renesas"
+   ],
+   "SubGhz": [
+    "stm32duino_Arduino_Core_STM32"
+   ],
+   "TFT_Touch_Shield_V2": [
+    "esp8266_Arduino"
+   ],
+   "ThreadDebug": [
+    "arduino_ArduinoCore-mbed"
+   ],
+   "Ticker": [
+    "espressif_arduino-esp32",
+    "esp8266_Arduino",
+    "earlephilhower_arduino-pico"
+   ],
+   "USB": [
+    "espressif_arduino-esp32"
+   ],
+   "USBAudio": [
+    "arduino_ArduinoCore-mbed"
+   ],
+   "USBDevice": [
+    "stm32duino_Arduino_Core_STM32"
+   ],
+   "USBHID": [
+    "arduino_ArduinoCore-mbed"
+   ],
+   "USBHOST": [
+    "arduino_ArduinoCore-mbed"
+   ],
+   "USBHost": [
+    "arduino_ArduinoCore-samd"
+   ],
+   "USBMIDI": [
+    "arduino_ArduinoCore-mbed"
+   ],
+   "USBMSD": [
+    "arduino_ArduinoCore-mbed"
+   ],
+   "Update": [
+    "espressif_arduino-esp32"
+   ],
+   "Updater": [
+    "earlephilhower_arduino-pico"
+   ],
+   "UsbHostMsd": [
+    "arduino_ArduinoCore-renesas"
+   ],
+   "UsbMsd": [
+    "arduino_ArduinoCore-renesas"
+   ],
+   "VFS": [
+    "earlephilhower_arduino-pico"
+   ],
+   "VirtIO": [
+    "stm32duino_Arduino_Core_STM32"
+   ],
+   "WDT": [
+    "arduino_ArduinoCore-renesas"
+   ],
+   "WebServer": [
+    "espressif_arduino-esp32",
+    "earlephilhower_arduino-pico"
+   ],
+   "WiFi": [
+    "espressif_arduino-esp32",
+    "arduino_ArduinoCore-renesas",
+    "arduino_ArduinoCore-mbed",
+    "earlephilhower_arduino-pico"
+   ],
+   "WiFiProv": [
+    "espressif_arduino-esp32"
+   ],
+   "WiFiS3": [
+    "arduino_ArduinoCore-renesas"
+   ],
+   "Wire": [
+    "espressif_arduino-esp32",
+    "esp8266_Arduino",
+    "arduino_ArduinoCore-avr",
+    "arduino_ArduinoCore-samd",
+    "arduino_ArduinoCore-renesas",
+    "arduino_ArduinoCore-mbed",
+    "arduino_ArduinoCore-megaavr",
+    "earlephilhower_arduino-pico",
+    "stm32duino_Arduino_Core_STM32"
+   ],
+   "Zigbee": [
+    "espressif_arduino-esp32"
+   ],
+   "doom": [
+    "arduino_ArduinoCore-mbed"
+   ],
+   "ea_malloc": [
+    "arduino_ArduinoCore-mbed"
+   ],
+   "esp8266": [
+    "esp8266_Arduino"
+   ],
+   "http-parser": [
+    "earlephilhower_arduino-pico"
+   ],
+   "iLabs_ESP-NOW": [
+    "earlephilhower_arduino-pico"
+   ],
+   "iLabs_Hearth": [
+    "earlephilhower_arduino-pico"
+   ],
+   "lwIP_CYW43": [
+    "earlephilhower_arduino-pico"
+   ],
+   "lwIP_ESPHost": [
+    "earlephilhower_arduino-pico"
+   ],
+   "lwIP_Ethernet": [
+    "esp8266_Arduino",
+    "earlephilhower_arduino-pico"
+   ],
+   "lwIP_PPP": [
+    "esp8266_Arduino"
+   ],
+   "lwIP_USB_NCM": [
+    "earlephilhower_arduino-pico"
+   ],
+   "lwIP_WINC1500": [
+    "earlephilhower_arduino-pico"
+   ],
+   "lwIP_enc28j60": [
+    "esp8266_Arduino",
+    "earlephilhower_arduino-pico"
+   ],
+   "lwIP_w5100": [
+    "esp8266_Arduino",
+    "earlephilhower_arduino-pico"
+   ],
+   "lwIP_w5500": [
+    "esp8266_Arduino",
+    "earlephilhower_arduino-pico"
+   ],
+   "lwIP_w55rp20": [
+    "earlephilhower_arduino-pico"
+   ],
+   "lwIP_w6100": [
+    "earlephilhower_arduino-pico"
+   ],
+   "lwIP_w6300": [
+    "earlephilhower_arduino-pico"
+   ],
+   "lwIpWrapper": [
+    "arduino_ArduinoCore-renesas"
+   ],
+   "mbed-memory-status": [
+    "arduino_ArduinoCore-mbed"
+   ],
+   "openamp_arduino": [
+    "arduino_ArduinoCore-mbed"
+   ],
+   "rp2040": [
+    "earlephilhower_arduino-pico"
+   ],
+   "rp2350": [
+    "earlephilhower_arduino-pico"
+   ],
+   "rpclib": [
+    "arduino_ArduinoCore-mbed"
+   ],
+   "syntiant_ilib": [
+    "arduino_ArduinoCore-mbed"
+   ],
+   "tusb-hid": [
+    "earlephilhower_arduino-pico"
+   ],
+   "tusb-midi": [
+    "earlephilhower_arduino-pico"
+   ],
+   "tusb-msc": [
+    "earlephilhower_arduino-pico"
+   ],
+   "tusb-ncm": [
+    "earlephilhower_arduino-pico"
+   ]
+  },
+  "espidf_component": {
+   "app_trace": [
+    "espressif_esp-idf",
+    "espressif_esp-idf"
+   ],
+   "app_update": [
+    "espressif_esp-idf",
+    "espressif_esp-idf"
+   ],
+   "bootloader": [
+    "espressif_esp-idf",
+    "espressif_esp-idf"
+   ],
+   "bootloader_support": [
+    "espressif_esp-idf",
+    "espressif_esp-idf"
+   ],
+   "bt": [
+    "espressif_esp-idf",
+    "espressif_esp-idf"
+   ],
+   "cmock": [
+    "espressif_esp-idf",
+    "espressif_esp-idf"
+   ],
+   "console": [
+    "espressif_esp-idf",
+    "espressif_esp-idf"
+   ],
+   "cxx": [
+    "espressif_esp-idf",
+    "espressif_esp-idf"
+   ],
+   "driver": [
+    "espressif_esp-idf",
+    "espressif_esp-idf"
+   ],
+   "efuse": [
+    "espressif_esp-idf",
+    "espressif_esp-idf"
+   ],
+   "esp-tls": [
+    "espressif_esp-idf",
+    "espressif_esp-idf"
+   ],
+   "esp_adc": [
+    "espressif_esp-idf",
+    "espressif_esp-idf"
+   ],
+   "esp_app_format": [
+    "espressif_esp-idf",
+    "espressif_esp-idf"
+   ],
+   "esp_asrc_adapter": [
+    "espressif_esp-idf"
+   ],
+   "esp_blockdev": [
+    "espressif_esp-idf",
+    "espressif_esp-idf"
+   ],
+   "esp_blockdev_util": [
+    "espressif_esp-idf"
+   ],
+   "esp_bootloader_format": [
+    "espressif_esp-idf",
+    "espressif_esp-idf"
+   ],
+   "esp_coex": [
+    "espressif_esp-idf",
+    "espressif_esp-idf"
+   ],
+   "esp_common": [
+    "espressif_esp-idf",
+    "espressif_esp-idf"
+   ],
+   "esp_driver_ana_cmpr": [
+    "espressif_esp-idf",
+    "espressif_esp-idf"
+   ],
+   "esp_driver_bitscrambler": [
+    "espressif_esp-idf",
+    "espressif_esp-idf"
+   ],
+   "esp_driver_cam": [
+    "espressif_esp-idf",
+    "espressif_esp-idf"
+   ],
+   "esp_driver_cordic": [
+    "espressif_esp-idf"
+   ],
+   "esp_driver_dac": [
+    "espressif_esp-idf",
+    "espressif_esp-idf"
+   ],
+   "esp_driver_dma": [
+    "espressif_esp-idf"
+   ],
+   "esp_driver_gpio": [
+    "espressif_esp-idf",
+    "espressif_esp-idf"
+   ],
+   "esp_driver_gptimer": [
+    "espressif_esp-idf",
+    "espressif_esp-idf"
+   ],
+   "esp_driver_i2c": [
+    "espressif_esp-idf",
+    "espressif_esp-idf"
+   ],
+   "esp_driver_i2s": [
+    "espressif_esp-idf",
+    "espressif_esp-idf"
+   ],
+   "esp_driver_i3c": [
+    "espressif_esp-idf"
+   ],
+   "esp_driver_isp": [
+    "espressif_esp-idf",
+    "espressif_esp-idf"
+   ],
+   "esp_driver_jpeg": [
+    "espressif_esp-idf",
+    "espressif_esp-idf"
+   ],
+   "esp_driver_ledc": [
+    "espressif_esp-idf",
+    "espressif_esp-idf"
+   ],
+   "esp_driver_mcpwm": [
+    "espressif_esp-idf",
+    "espressif_esp-idf"
+   ],
+   "esp_driver_parlio": [
+    "espressif_esp-idf",
+    "espressif_esp-idf"
+   ],
+   "esp_driver_pcnt": [
+    "espressif_esp-idf",
+    "espressif_esp-idf"
+   ],
+   "esp_driver_ppa": [
+    "espressif_esp-idf",
+    "espressif_esp-idf"
+   ],
+   "esp_driver_rmt": [
+    "espressif_esp-idf",
+    "espressif_esp-idf"
+   ],
+   "esp_driver_sd_intf": [
+    "espressif_esp-idf"
+   ],
+   "esp_driver_sdio": [
+    "espressif_esp-idf",
+    "espressif_esp-idf"
+   ],
+   "esp_driver_sdm": [
+    "espressif_esp-idf",
+    "espressif_esp-idf"
+   ],
+   "esp_driver_sdmmc": [
+    "espressif_esp-idf",
+    "espressif_esp-idf"
+   ],
+   "esp_driver_sdspi": [
+    "espressif_esp-idf",
+    "espressif_esp-idf"
+   ],
+   "esp_driver_spi": [
+    "espressif_esp-idf",
+    "espressif_esp-idf"
+   ],
+   "esp_driver_touch_sens": [
+    "espressif_esp-idf",
+    "espressif_esp-idf"
+   ],
+   "esp_driver_tsens": [
+    "espressif_esp-idf",
+    "espressif_esp-idf"
+   ],
+   "esp_driver_twai": [
+    "espressif_esp-idf",
+    "espressif_esp-idf"
+   ],
+   "esp_driver_uart": [
+    "espressif_esp-idf",
+    "espressif_esp-idf"
+   ],
+   "esp_driver_usb_serial_jtag": [
+    "espressif_esp-idf",
+    "espressif_esp-idf"
+   ],
+   "esp_eth": [
+    "espressif_esp-idf",
+    "espressif_esp-idf"
+   ],
+   "esp_event": [
+    "espressif_esp-idf",
+    "espressif_esp-idf"
+   ],
+   "esp_gdbstub": [
+    "espressif_esp-idf",
+    "espressif_esp-idf"
+   ],
+   "esp_hal_ana_cmpr": [
+    "espressif_esp-idf"
+   ],
+   "esp_hal_ana_conv": [
+    "espressif_esp-idf"
+   ],
+   "esp_hal_asrc": [
+    "espressif_esp-idf"
+   ],
+   "esp_hal_cache": [
+    "espressif_esp-idf"
+   ],
+   "esp_hal_cam": [
+    "espressif_esp-idf"
+   ],
+   "esp_hal_clock": [
+    "espressif_esp-idf"
+   ],
+   "esp_hal_cordic": [
+    "espressif_esp-idf"
+   ],
+   "esp_hal_debug_assist": [
+    "espressif_esp-idf"
+   ],
+   "esp_hal_dma": [
+    "espressif_esp-idf"
+   ],
+   "esp_hal_emac": [
+    "espressif_esp-idf"
+   ],
+   "esp_hal_gpio": [
+    "espressif_esp-idf"
+   ],
+   "esp_hal_gpspi": [
+    "espressif_esp-idf"
+   ],
+   "esp_hal_i2c": [
+    "espressif_esp-idf"
+   ],
+   "esp_hal_i2s": [
+    "espressif_esp-idf"
+   ],
+   "esp_hal_i3c": [
+    "espressif_esp-idf"
+   ],
+   "esp_hal_ieee802154": [
+    "espressif_esp-idf",
+    "espressif_esp-idf"
+   ],
+   "esp_hal_jpeg": [
+    "espressif_esp-idf"
+   ],
+   "esp_hal_lcd": [
+    "espressif_esp-idf"
+   ],
+   "esp_hal_ledc": [
+    "espressif_esp-idf"
+   ],
+   "esp_hal_mcpwm": [
+    "espressif_esp-idf"
+   ],
+   "esp_hal_mspi": [
+    "espressif_esp-idf"
+   ],
+   "esp_hal_parlio": [
+    "espressif_esp-idf"
+   ],
+   "esp_hal_pcnt": [
+    "espressif_esp-idf"
+   ],
+   "esp_hal_pmu": [
+    "espressif_esp-idf"
+   ],
+   "esp_hal_ppa": [
+    "espressif_esp-idf"
+   ],
+   "esp_hal_regi2c": [
+    "espressif_esp-idf"
+   ],
+   "esp_hal_rmt": [
+    "espressif_esp-idf"
+   ],
+   "esp_hal_rtc_timer": [
+    "espressif_esp-idf"
+   ],
+   "esp_hal_sd": [
+    "espressif_esp-idf"
+   ],
+   "esp_hal_security": [
+    "espressif_esp-idf"
+   ],
+   "esp_hal_systimer": [
+    "espressif_esp-idf"
+   ],
+   "esp_hal_timg": [
+    "espressif_esp-idf"
+   ],
+   "esp_hal_touch_sens": [
+    "espressif_esp-idf"
+   ],
+   "esp_hal_twai": [
+    "espressif_esp-idf"
+   ],
+   "esp_hal_uart": [
+    "espressif_esp-idf"
+   ],
+   "esp_hal_usb": [
+    "espressif_esp-idf"
+   ],
+   "esp_hal_wdt": [
+    "espressif_esp-idf"
+   ],
+   "esp_hid": [
+    "espressif_esp-idf",
+    "espressif_esp-idf"
+   ],
+   "esp_http_client": [
+    "espressif_esp-idf",
+    "espressif_esp-idf"
+   ],
+   "esp_http_server": [
+    "espressif_esp-idf",
+    "espressif_esp-idf"
+   ],
+   "esp_https_ota": [
+    "espressif_esp-idf",
+    "espressif_esp-idf"
+   ],
+   "esp_https_server": [
+    "espressif_esp-idf",
+    "espressif_esp-idf"
+   ],
+   "esp_hw_support": [
+    "espressif_esp-idf",
+    "espressif_esp-idf"
+   ],
+   "esp_image_verify": [
+    "espressif_esp-idf"
+   ],
+   "esp_lcd": [
+    "espressif_esp-idf",
+    "espressif_esp-idf"
+   ],
+   "esp_libc": [
+    "espressif_esp-idf"
+   ],
+   "esp_local_ctrl": [
+    "espressif_esp-idf",
+    "espressif_esp-idf"
+   ],
+   "esp_mm": [
+    "espressif_esp-idf",
+    "espressif_esp-idf"
+   ],
+   "esp_mspi": [
+    "espressif_esp-idf"
+   ],
+   "esp_netif": [
+    "espressif_esp-idf",
+    "espressif_esp-idf"
+   ],
+   "esp_netif_stack": [
+    "espressif_esp-idf",
+    "espressif_esp-idf"
+   ],
+   "esp_partition": [
+    "espressif_esp-idf",
+    "espressif_esp-idf"
+   ],
+   "esp_phy": [
+    "espressif_esp-idf",
+    "espressif_esp-idf"
+   ],
+   "esp_pm": [
+    "espressif_esp-idf",
+    "espressif_esp-idf"
+   ],
+   "esp_psram": [
+    "espressif_esp-idf",
+    "espressif_esp-idf"
+   ],
+   "esp_ringbuf": [
+    "espressif_esp-idf",
+    "espressif_esp-idf"
+   ],
+   "esp_riscv_trace": [
+    "espressif_esp-idf"
+   ],
+   "esp_rom": [
+    "espressif_esp-idf",
+    "espressif_esp-idf"
+   ],
+   "esp_security": [
+    "espressif_esp-idf",
+    "espressif_esp-idf"
+   ],
+   "esp_stdio": [
+    "espressif_esp-idf"
+   ],
+   "esp_system": [
+    "espressif_esp-idf",
+    "espressif_esp-idf"
+   ],
+   "esp_tee": [
+    "espressif_esp-idf",
+    "espressif_esp-idf"
+   ],
+   "esp_timer": [
+    "espressif_esp-idf",
+    "espressif_esp-idf"
+   ],
+   "esp_trace": [
+    "espressif_esp-idf"
+   ],
+   "esp_usb_cdc_rom_console": [
+    "espressif_esp-idf"
+   ],
+   "esp_vfs_console": [
+    "espressif_esp-idf"
+   ],
+   "esp_wifi": [
+    "espressif_esp-idf",
+    "espressif_esp-idf"
+   ],
+   "espcoredump": [
+    "espressif_esp-idf",
+    "espressif_esp-idf"
+   ],
+   "esptool_py": [
+    "espressif_esp-idf",
+    "espressif_esp-idf"
+   ],
+   "fatfs": [
+    "espressif_esp-idf",
+    "espressif_esp-idf"
+   ],
+   "freertos": [
+    "espressif_esp-idf",
+    "espressif_esp-idf"
+   ],
+   "hal": [
+    "espressif_esp-idf",
+    "espressif_esp-idf"
+   ],
+   "heap": [
+    "espressif_esp-idf",
+    "espressif_esp-idf"
+   ],
+   "http_parser": [
+    "espressif_esp-idf",
+    "espressif_esp-idf"
+   ],
+   "idf_test": [
+    "espressif_esp-idf"
+   ],
+   "ieee802154": [
+    "espressif_esp-idf",
+    "espressif_esp-idf"
+   ],
+   "json": [
+    "espressif_esp-idf"
+   ],
+   "linux": [
+    "espressif_esp-idf",
+    "espressif_esp-idf"
+   ],
+   "log": [
+    "espressif_esp-idf",
+    "espressif_esp-idf"
+   ],
+   "lwip": [
+    "espressif_esp-idf",
+    "espressif_esp-idf"
+   ],
+   "mbedtls": [
+    "espressif_esp-idf",
+    "espressif_esp-idf"
+   ],
+   "mqtt": [
+    "espressif_esp-idf"
+   ],
+   "newlib": [
+    "espressif_esp-idf"
+   ],
+   "nvs_flash": [
+    "espressif_esp-idf",
+    "espressif_esp-idf"
+   ],
+   "nvs_sec_provider": [
+    "espressif_esp-idf",
+    "espressif_esp-idf"
+   ],
+   "openthread": [
+    "espressif_esp-idf",
+    "espressif_esp-idf"
+   ],
+   "partition_table": [
+    "espressif_esp-idf",
+    "espressif_esp-idf"
+   ],
+   "perfmon": [
+    "espressif_esp-idf",
+    "espressif_esp-idf"
+   ],
+   "protobuf-c": [
+    "espressif_esp-idf",
+    "espressif_esp-idf"
+   ],
+   "protocomm": [
+    "espressif_esp-idf",
+    "espressif_esp-idf"
+   ],
+   "pthread": [
+    "espressif_esp-idf",
+    "espressif_esp-idf"
+   ],
+   "riscv": [
+    "espressif_esp-idf",
+    "espressif_esp-idf"
+   ],
+   "rt": [
+    "espressif_esp-idf",
+    "espressif_esp-idf"
+   ],
+   "sdmmc": [
+    "espressif_esp-idf",
+    "espressif_esp-idf"
+   ],
+   "soc": [
+    "espressif_esp-idf",
+    "espressif_esp-idf"
+   ],
+   "spi_flash": [
+    "espressif_esp-idf",
+    "espressif_esp-idf"
+   ],
+   "spiffs": [
+    "espressif_esp-idf",
+    "espressif_esp-idf"
+   ],
+   "tcp_transport": [
+    "espressif_esp-idf",
+    "espressif_esp-idf"
+   ],
+   "touch_element": [
+    "espressif_esp-idf"
+   ],
+   "ulp": [
+    "espressif_esp-idf",
+    "espressif_esp-idf"
+   ],
+   "unity": [
+    "espressif_esp-idf",
+    "espressif_esp-idf"
+   ],
+   "usb": [
+    "espressif_esp-idf"
+   ],
+   "vfs": [
+    "espressif_esp-idf",
+    "espressif_esp-idf"
+   ],
+   "wear_levelling": [
+    "espressif_esp-idf",
+    "espressif_esp-idf"
+   ],
+   "wifi_provisioning": [
+    "espressif_esp-idf"
+   ],
+   "wpa_supplicant": [
+    "espressif_esp-idf",
+    "espressif_esp-idf"
+   ],
+   "xtensa": [
+    "espressif_esp-idf",
+    "espressif_esp-idf"
+   ]
+  },
+  "micropython_module": {
+   "_thread": [
+    "micropython_micropython"
+   ],
+   "array": [
+    "micropython_micropython"
+   ],
+   "asyncio": [
+    "micropython_micropython"
+   ],
+   "binascii": [
+    "micropython_micropython"
+   ],
+   "bluetooth": [
+    "micropython_micropython"
+   ],
+   "btree": [
+    "micropython_micropython"
+   ],
+   "builtins": [
+    "micropython_micropython"
+   ],
+   "cmath": [
+    "micropython_micropython"
+   ],
+   "collections": [
+    "micropython_micropython"
+   ],
+   "cryptolib": [
+    "micropython_micropython"
+   ],
+   "deflate": [
+    "micropython_micropython"
+   ],
+   "errno": [
+    "micropython_micropython"
+   ],
+   "esp": [
+    "micropython_micropython"
+   ],
+   "esp32": [
+    "micropython_micropython"
+   ],
+   "espnow": [
+    "micropython_micropython"
+   ],
+   "framebuf": [
+    "micropython_micropython"
+   ],
+   "gc": [
+    "micropython_micropython"
+   ],
+   "gzip": [
+    "micropython_micropython"
+   ],
+   "hashlib": [
+    "micropython_micropython"
+   ],
+   "heapq": [
+    "micropython_micropython"
+   ],
+   "io": [
+    "micropython_micropython"
+   ],
+   "json": [
+    "micropython_micropython"
+   ],
+   "lcd160cr": [
+    "micropython_micropython"
+   ],
+   "machine": [
+    "micropython_micropython"
+   ],
+   "machine.ADC": [
+    "micropython_micropython"
+   ],
+   "machine.ADCBlock": [
+    "micropython_micropython"
+   ],
+   "machine.ADCWiPy": [
+    "micropython_micropython"
+   ],
+   "machine.CAN": [
+    "micropython_micropython"
+   ],
+   "machine.Counter": [
+    "micropython_micropython"
+   ],
+   "machine.DAC": [
+    "micropython_micropython"
+   ],
+   "machine.Encoder": [
+    "micropython_micropython"
+   ],
+   "machine.I2C": [
+    "micropython_micropython"
+   ],
+   "machine.I2CTarget": [
+    "micropython_micropython"
+   ],
+   "machine.I2S": [
+    "micropython_micropython"
+   ],
+   "machine.PWM": [
+    "micropython_micropython"
+   ],
+   "machine.Pin": [
+    "micropython_micropython"
+   ],
+   "machine.RTC": [
+    "micropython_micropython"
+   ],
+   "machine.SD": [
+    "micropython_micropython"
+   ],
+   "machine.SDCard": [
+    "micropython_micropython"
+   ],
+   "machine.SPI": [
+    "micropython_micropython"
+   ],
+   "machine.Signal": [
+    "micropython_micropython"
+   ],
+   "machine.Timer": [
+    "micropython_micropython"
+   ],
+   "machine.TimerWiPy": [
+    "micropython_micropython"
+   ],
+   "machine.UART": [
+    "micropython_micropython"
+   ],
+   "machine.USBDevice": [
+    "micropython_micropython"
+   ],
+   "machine.WDT": [
+    "micropython_micropython"
+   ],
+   "marshal": [
+    "micropython_micropython"
+   ],
+   "math": [
+    "micropython_micropython"
+   ],
+   "micropython": [
+    "micropython_micropython"
+   ],
+   "mimxrt": [
+    "micropython_micropython"
+   ],
+   "mimxrt.Flash": [
+    "micropython_micropython"
+   ],
+   "neopixel": [
+    "micropython_micropython"
+   ],
+   "network": [
+    "micropython_micropython"
+   ],
+   "network.LAN": [
+    "micropython_micropython"
+   ],
+   "network.PPP": [
+    "micropython_micropython"
+   ],
+   "network.USBD_NCM": [
+    "micropython_micropython"
+   ],
+   "network.WIZNET5K": [
+    "micropython_micropython"
+   ],
+   "network.WLAN": [
+    "micropython_micropython"
+   ],
+   "network.WLANWiPy": [
+    "micropython_micropython"
+   ],
+   "openamp": [
+    "micropython_micropython"
+   ],
+   "os": [
+    "micropython_micropython"
+   ],
+   "platform": [
+    "micropython_micropython"
+   ],
+   "pyb": [
+    "micropython_micropython"
+   ],
+   "pyb.ADC": [
+    "micropython_micropython"
+   ],
+   "pyb.Accel": [
+    "micropython_micropython"
+   ],
+   "pyb.CAN": [
+    "micropython_micropython"
+   ],
+   "pyb.DAC": [
+    "micropython_micropython"
+   ],
+   "pyb.ExtInt": [
+    "micropython_micropython"
+   ],
+   "pyb.Flash": [
+    "micropython_micropython"
+   ],
+   "pyb.I2C": [
+    "micropython_micropython"
+   ],
+   "pyb.LCD": [
+    "micropython_micropython"
+   ],
+   "pyb.LED": [
+    "micropython_micropython"
+   ],
+   "pyb.Pin": [
+    "micropython_micropython"
+   ],
+   "pyb.RTC": [
+    "micropython_micropython"
+   ],
+   "pyb.SPI": [
+    "micropython_micropython"
+   ],
+   "pyb.Servo": [
+    "micropython_micropython"
+   ],
+   "pyb.Switch": [
+    "micropython_micropython"
+   ],
+   "pyb.Timer": [
+    "micropython_micropython"
+   ],
+   "pyb.UART": [
+    "micropython_micropython"
+   ],
+   "pyb.USB_HID": [
+    "micropython_micropython"
+   ],
+   "pyb.USB_VCP": [
+    "micropython_micropython"
+   ],
+   "random": [
+    "micropython_micropython"
+   ],
+   "re": [
+    "micropython_micropython"
+   ],
+   "rp2": [
+    "micropython_micropython"
+   ],
+   "rp2.DMA": [
+    "micropython_micropython"
+   ],
+   "rp2.Flash": [
+    "micropython_micropython"
+   ],
+   "rp2.PIO": [
+    "micropython_micropython"
+   ],
+   "rp2.StateMachine": [
+    "micropython_micropython"
+   ],
+   "select": [
+    "micropython_micropython"
+   ],
+   "socket": [
+    "micropython_micropython"
+   ],
+   "ssl": [
+    "micropython_micropython"
+   ],
+   "stm": [
+    "micropython_micropython"
+   ],
+   "string.templatelib": [
+    "micropython_micropython"
+   ],
+   "struct": [
+    "micropython_micropython"
+   ],
+   "sys": [
+    "micropython_micropython"
+   ],
+   "time": [
+    "micropython_micropython"
+   ],
+   "uctypes": [
+    "micropython_micropython"
+   ],
+   "vfs": [
+    "micropython_micropython"
+   ],
+   "weakref": [
+    "micropython_micropython"
+   ],
+   "wipy": [
+    "micropython_micropython"
+   ],
+   "wm8960": [
+    "micropython_micropython"
+   ],
+   "zephyr": [
+    "micropython_micropython"
+   ],
+   "zephyr.DiskAccess": [
+    "micropython_micropython"
+   ],
+   "zephyr.Display": [
+    "micropython_micropython"
+   ],
+   "zephyr.FlashArea": [
+    "micropython_micropython"
+   ],
+   "zephyr.PinCtrl": [
+    "micropython_micropython"
+   ],
+   "zephyr.PinMux": [
+    "micropython_micropython"
+   ],
+   "zephyr.zsensor": [
+    "micropython_micropython"
+   ],
+   "zlib": [
+    "micropython_micropython"
+   ]
+  }
+ },
+ "sources": [
+  {
+   "commit": "6b41cf6f6f272538ee91746f26c5068e2ca692e4",
+   "count": 44,
+   "family": "arduino_core",
+   "ref": "HEAD",
+   "repo": "espressif_arduino-esp32",
+   "subdir": "libraries"
+  },
+  {
+   "commit": "1475ed7d49fef5c5167061ac76abb6eced9abda5",
+   "count": 37,
+   "family": "arduino_core",
+   "ref": "HEAD",
+   "repo": "esp8266_Arduino",
+   "subdir": "libraries"
+  },
+  {
+   "commit": "11b9130371e8447920edb65a75706a6c951e51fc",
+   "count": 5,
+   "family": "arduino_core",
+   "ref": "HEAD",
+   "repo": "arduino_ArduinoCore-avr",
+   "subdir": "libraries"
+  },
+  {
+   "commit": "6cecaad43b1ecab694b9f53048e7fa0f7a8ce84e",
+   "count": 12,
+   "family": "arduino_core",
+   "ref": "HEAD",
+   "repo": "arduino_ArduinoCore-samd",
+   "subdir": "libraries"
+  },
+  {
+   "commit": "424e86eff92d37f72123c2b641dd8bbf06a38b47",
+   "count": 31,
+   "family": "arduino_core",
+   "ref": "HEAD",
+   "repo": "arduino_ArduinoCore-renesas",
+   "subdir": "libraries"
+  },
+  {
+   "commit": "b4ad4e7218a691989acf6c4479112eae183a5a50",
+   "count": 41,
+   "family": "arduino_core",
+   "ref": "HEAD",
+   "repo": "arduino_ArduinoCore-mbed",
+   "subdir": "libraries"
+  },
+  {
+   "commit": "e8edb4ef2e8ab5c98544c3884a653f0b9c1318dc",
+   "count": 4,
+   "family": "arduino_core",
+   "ref": "HEAD",
+   "repo": "arduino_ArduinoCore-megaavr",
+   "subdir": "libraries"
+  },
+  {
+   "commit": "53f1d8ee31a9565a15731c5aad8a6297bdf70144",
+   "count": 79,
+   "family": "arduino_core",
+   "ref": "HEAD",
+   "repo": "earlephilhower_arduino-pico",
+   "subdir": "libraries"
+  },
+  {
+   "commit": "8bc8cc90b23975fb6722ef095780af16e6837f02",
+   "count": 15,
+   "family": "arduino_core",
+   "ref": "HEAD",
+   "repo": "stm32duino_Arduino_Core_STM32",
+   "subdir": "libraries"
+  },
+  {
+   "commit": "383dda6c182e3dabf6355160166fe007df775629",
+   "count": 151,
+   "family": "espidf_component",
+   "ref": "HEAD",
+   "repo": "espressif_esp-idf",
+   "subdir": "components"
+  },
+  {
+   "commit": "3ea97e7591b6a83f5d6f8e0cc7f1b16f27b2b855",
+   "count": 110,
+   "family": "espidf_component",
+   "ref": "refs/remotes/origin/release-v5.5",
+   "repo": "espressif_esp-idf",
+   "subdir": "components"
+  },
+  {
+   "commit": "682e3f1cd71c87a766ffb8fe9799222100283d1c",
+   "count": 109,
+   "family": "micropython_module",
+   "ref": "HEAD",
+   "repo": "micropython_micropython",
+   "subdir": "docs/library"
+  }
+ ]
+}

@@ -1,0 +1,73 @@
+# Pilot extension (revision of 2026-10-24): larger instruction models on the same 2-vCPU host,
+# llama.cpp llama-server, one server per model, greedy decoding.  Three are analysed (two of the
+# pilot's families and Phi-3-mini of a fourth vendor); the Granite run was stopped (see its entry).  Same corpus, system prompt and primary
+# family (F2) as the pilot; the token budget for F2 is raised from 384 to 1024 so that answers
+# finish (PROTOCOL.md, change log).
+# Weights: the GGUF files named below (SHA-256 recorded); the vendor's own GGUF where one
+# exists.  `horizon` keeps the Hugging Face createdAt of the source repository for
+# comparison only; the analysis uses the weight-anchored horizons of
+# data/derived/model_horizons.json (tools/model_horizons.py).
+run_id: pilot-cpu-ext-2026-10
+endpoint: http://127.0.0.1:8081
+families: [F2]
+samples:
+  - {idx: 0, temperature: 0.0, seed: 20240628}
+concurrency: 1               # one request at a time
+params:
+  top_p: 1.0
+  max_tokens: {F1: 1536, F2: 1024}
+  repeat_penalty: 1.1        # as in the pilot
+llama_cpp_commit: 06230cb8775899cceef146c19cd447a947ecac5b
+models:
+  - id: qwen2.5-coder-7b-instruct
+    family_name: Qwen2.5-Coder
+    params_b: 7.6
+    quant: Q4_K_M (GGUF, Qwen/Qwen2.5-Coder-7B-Instruct-GGUF)
+    gguf_repo: Qwen/Qwen2.5-Coder-7B-Instruct-GGUF
+    source_repo: Qwen/Qwen2.5-Coder-7B-Instruct
+    file: /home/claude/models/qwen2.5-coder-7b-instruct-q4_k_m.gguf
+    sha256: 509287f78cb4d4cf6b3843734733b914b2c158e43e22a7f4bf5e963800894d3c
+    horizon: "2024-09-17T13:38:49Z"
+    horizon_source: "Hugging Face createdAt of Qwen/Qwen2.5-Coder-7B-Instruct (superseded, see model_horizons.json)"
+    server_cmd: "/home/claude/tools/llama.cpp/build/bin/llama-server -m {file} --host 127.0.0.1 --port 8081 -t 2 -c 4096 --cache-ram 0 --no-webui"
+  # Stopped: the generation reached the 2-hour limit of the host's background tasks after 34 of 96
+  # answers (about 3.4 min per answer on 2 vCPUs) and was not restarted.  The model is removed from
+  # the analysed configuration by an 'amend' entry in data/runs/pilot-cpu-ext-2026-10/run_meta.json;
+  # its 34 answers are kept in data/runs/pilot-cpu-ext-granite-partial/ and not analysed.
+  - id: granite-3.3-8b-instruct
+    family_name: Granite-3.3
+    params_b: 8.2
+    quant: Q4_K_M (GGUF, ibm-granite/granite-3.3-8b-instruct-GGUF)
+    gguf_repo: ibm-granite/granite-3.3-8b-instruct-GGUF
+    source_repo: ibm-granite/granite-3.3-8b-instruct
+    file: /home/claude/models/granite-3.3-8b-instruct-Q4_K_M.gguf
+    sha256: 77bcee066a76dcdd10d0d123c87e32c8ec2c74e31b6ffd87ebee49c9ac215dca
+    horizon: "2025-04-09T11:41:39Z"
+    horizon_source: "Hugging Face createdAt of ibm-granite/granite-3.3-8b-instruct (superseded, see model_horizons.json)"
+    server_cmd: "/home/claude/tools/llama.cpp/build/bin/llama-server -m {file} --host 127.0.0.1 --port 8081 -t 2 -c 4096 --cache-ram 0 --no-webui"
+  - id: llama-3.2-3b-instruct
+    family_name: Llama-3.2
+    params_b: 3.2
+    quant: Q4_K_M (GGUF, bartowski/Llama-3.2-3B-Instruct-GGUF)
+    gguf_repo: bartowski/Llama-3.2-3B-Instruct-GGUF
+    source_repo: meta-llama/Llama-3.2-3B-Instruct
+    file: /home/claude/models/Llama-3.2-3B-Instruct-Q4_K_M.gguf
+    sha256: 6c1a2b41161032677be168d354123594c0e6e67d2b9227c84f296ad037c728ff
+    horizon: "2024-09-18T15:19:20Z"
+    horizon_source: "Hugging Face createdAt of meta-llama/Llama-3.2-3B-Instruct (superseded, see model_horizons.json)"
+    server_cmd: "/home/claude/tools/llama.cpp/build/bin/llama-server -m {file} --host 127.0.0.1 --port 8081 -t 2 -c 4096 --cache-ram 0 --no-webui"
+  # Added after the Granite run was stopped: a model of a fourth vendor (Microsoft), larger than the
+  # pilot's small models and fast enough for the host.  Its GGUF's own chat template drops system
+  # messages, so llama.cpp's built-in phi3 template is used (legacy, non-Jinja path), which formats
+  # them as the model card does: <|system|> ... <|end|> <|user|> ... <|end|> <|assistant|>.
+  - id: phi-3-mini-3.8b-instruct
+    family_name: Phi-3-mini
+    params_b: 3.8
+    quant: Q4_K_M (GGUF, microsoft/Phi-3-mini-4k-instruct-gguf, file Phi-3-mini-4k-instruct-q4.gguf)
+    gguf_repo: microsoft/Phi-3-mini-4k-instruct-gguf
+    source_repo: microsoft/Phi-3-mini-4k-instruct
+    file: /home/claude/models/Phi-3-mini-4k-instruct-q4.gguf
+    sha256: 8a83c7fb9049a9b2e92266fa7ad04933bb53aa1e85136b7b30f1b8000ff2edef
+    horizon: "2024-04-22T16:18:17Z"
+    horizon_source: "Hugging Face createdAt of microsoft/Phi-3-mini-4k-instruct (superseded, see model_horizons.json)"
+    server_cmd: "/home/claude/tools/llama.cpp/build/bin/llama-server -m {file} --host 127.0.0.1 --port 8081 -t 2 -c 4096 --cache-ram 0 --no-webui --no-jinja --chat-template phi3"

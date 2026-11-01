@@ -1,0 +1,444 @@
+{
+ "generated_at": "2026-10-24T19:10:43Z",
+ "items": [
+  {
+   "eco": "arduino",
+   "name": "LiquidCrystal_I2C",
+   "kind": "post-horizon match",
+   "canonical": "LiquidCrystal_I2C",
+   "model_id": "qwen2.5-coder-1.5b-instruct",
+   "horizon": "2024-09-18T12:38:14Z",
+   "record": {
+    "tau_lo": "2025-07-13T20:20:31Z",
+    "tau_hi": "2025-07-13T20:20:31Z",
+    "source": "arduino:registry_log_first_added"
+   },
+   "registry": {
+    "repository": "https://github.com/markub3327/LiquidCrystal_I2C",
+    "versions": 1,
+    "same_name_up_to_separators": {
+     "LiquidCrystal I2C": {
+      "repository": "https://github.com/johnrickman/LiquidCrystal_I2C.git",
+      "registry_first": "2021-04-08T20:45:49-07:00",
+      "initial_import": true,
+      "versions": 2
+     }
+    }
+   },
+   "project": {
+    "url": "https://github.com/markub3327/LiquidCrystal_I2C",
+    "n_commits": 44,
+    "first_commit": {
+     "sha": "173196c9e68a47addc19da81292839476795ac47",
+     "author_date": "2015-08-20T07:50:42+02:00",
+     "committer_date": "2015-08-20T07:50:42+02:00"
+    },
+    "first_tag": {
+     "tag": "2.0.0",
+     "date": "2025-07-13T22:26:26+02:00"
+    },
+    "earliest_author_date": "2015-08-20T07:50:42+02:00"
+   }
+  },
+  {
+   "eco": "crates",
+   "name": "baremetal",
+   "kind": "post-horizon match",
+   "canonical": "baremetal",
+   "model_id": "deepseek-coder-1.3b-instruct",
+   "horizon": "2023-10-29T14:01:45Z",
+   "record": {
+    "tau_lo": "2026-06-09T19:10:56Z",
+    "tau_hi": "2026-06-09T19:10:56Z",
+    "source": "crates:min_pubtime"
+   },
+   "registry": {
+    "deps_dev": {
+     "n_versions": 1,
+     "earliest_published": "2026-06-09T19:10:56Z",
+     "error": null
+    },
+    "repository": "https://github.com/raphamorim/baremetal"
+   },
+   "project": {
+    "url": "https://github.com/raphamorim/baremetal",
+    "n_commits": 459,
+    "first_commit": {
+     "sha": "7ba887272302f60e7f4a781e97d86fb17d852d7d",
+     "author_date": "2016-02-27T17:48:16+01:00",
+     "committer_date": "2016-02-27T17:48:16+01:00"
+    },
+    "first_tag": null,
+    "earliest_author_date": "2016-02-27T17:48:16+01:00"
+   }
+  },
+  {
+   "eco": "crates",
+   "name": "can-bus",
+   "kind": "post-horizon match",
+   "canonical": "can-bus",
+   "model_id": "llama-3.2-3b-instruct",
+   "horizon": "2024-09-18T15:22:05Z",
+   "record": {
+    "tau_lo": "2025-05-30T17:23:40Z",
+    "tau_hi": "2025-05-30T17:23:40Z",
+    "source": "crates:min_pubtime"
+   },
+   "registry": {
+    "deps_dev": {
+     "n_versions": 1,
+     "earliest_published": "2025-05-30T17:23:40Z",
+     "error": null
+    },
+    "repository": null
+   }
+  },
+  {
+   "eco": "crates",
+   "name": "modbus-rs",
+   "kind": "post-horizon match",
+   "canonical": "modbus-rs",
+   "model_id": "qwen2.5-coder-1.5b-instruct",
+   "horizon": "2024-09-18T12:38:14Z",
+   "record": {
+    "tau_lo": "2026-02-17T07:06:59Z",
+    "tau_hi": "2026-02-17T07:06:59Z",
+    "source": "crates:min_pubtime"
+   },
+   "registry": {
+    "deps_dev": {
+     "n_versions": 16,
+     "earliest_published": "2026-02-17T07:06:59Z",
+     "error": null
+    },
+    "repository": "https://github.com/Raghava-Ch/modbus-rs"
+   },
+   "project": {
+    "url": "https://github.com/Raghava-Ch/modbus-rs",
+    "n_commits": 710,
+    "first_commit": {
+     "sha": "c7353278c87bedd3cb90357c8aa0d698b656197a",
+     "author_date": "2026-02-16T12:18:05+05:30",
+     "committer_date": "2026-02-16T12:18:05+05:30"
+    },
+    "first_tag": {
+     "tag": "v0.2.0",
+     "date": "2026-03-24T22:48:39+05:30"
+    },
+    "earliest_author_date": "2026-02-16T12:18:05+05:30"
+   }
+  },
+  {
+   "eco": "crates",
+   "name": "modbus-rtu",
+   "kind": "post-horizon match",
+   "canonical": "modbus-rtu",
+   "model_id": "deepseek-coder-1.3b-instruct",
+   "horizon": "2023-10-29T14:01:45Z",
+   "record": {
+    "tau_lo": "2024-09-12T07:42:37Z",
+    "tau_hi": "2024-09-12T07:42:37Z",
+    "source": "crates:min_pubtime"
+   },
+   "registry": {
+    "deps_dev": {
+     "n_versions": 24,
+     "earliest_published": "2024-09-12T07:42:37Z",
+     "error": null
+    },
+    "repository": null
+   }
+  },
+  {
+   "eco": "crates",
+   "name": "rmt",
+   "kind": "post-horizon match",
+   "canonical": "rmt",
+   "model_id": "llama-3.2-3b-instruct",
+   "horizon": "2024-09-18T15:22:05Z",
+   "record": {
+    "tau_lo": "2026-01-18T18:10:34Z",
+    "tau_hi": "2026-01-18T18:10:34Z",
+    "source": "crates:min_pubtime"
+   },
+   "registry": {
+    "deps_dev": {
+     "n_versions": 5,
+     "earliest_published": "2026-01-18T18:10:34Z",
+     "error": null
+    },
+    "repository": "https://github.com/arclabs561/rmt"
+   },
+   "project": {
+    "url": "https://github.com/arclabs561/rmt",
+    "n_commits": 51,
+    "first_commit": {
+     "sha": "b140b87aa697648fcd3e892ded6cad346012e65d",
+     "author_date": "2026-01-17T12:41:23-05:00",
+     "committer_date": "2026-01-17T12:41:23-05:00"
+    },
+    "first_tag": {
+     "tag": "v0.1.3",
+     "date": "2026-06-10T10:26:28-04:00"
+    },
+    "earliest_author_date": "2026-01-17T12:41:23-05:00"
+   }
+  },
+  {
+   "eco": "crates",
+   "name": "sx127x",
+   "kind": "post-horizon match",
+   "canonical": "sx127x",
+   "model_id": "qwen2.5-coder-7b-instruct",
+   "horizon": "2024-09-17T16:13:45Z",
+   "record": {
+    "tau_lo": "2026-03-07T14:36:46Z",
+    "tau_hi": "2026-03-07T14:36:46Z",
+    "source": "crates:min_pubtime"
+   },
+   "registry": {
+    "deps_dev": {
+     "n_versions": 1,
+     "earliest_published": "2026-03-07T14:36:46Z",
+     "error": null
+    },
+    "repository": "https://github.com/ardentTech/sx127x"
+   },
+   "project": {
+    "url": "https://github.com/ardentTech/sx127x",
+    "n_commits": 86,
+    "first_commit": {
+     "sha": "e292eda63bc311dcc0df4492907d9d1430620204",
+     "author_date": "2026-05-16T20:24:05-06:00",
+     "committer_date": "2026-05-16T20:24:05-06:00"
+    },
+    "first_tag": {
+     "tag": "common-v0.3.0",
+     "date": "2026-05-17T16:38:02-06:00"
+    },
+    "earliest_author_date": "2026-05-16T20:24:05-06:00"
+   }
+  },
+  {
+   "eco": "crates",
+   "name": "systime",
+   "kind": "post-horizon match",
+   "canonical": "systime",
+   "model_id": "llama-3.2-3b-instruct",
+   "horizon": "2024-09-18T15:22:05Z",
+   "record": {
+    "tau_lo": "2025-10-15T03:49:40Z",
+    "tau_hi": "2025-10-15T03:49:40Z",
+    "source": "crates:min_pubtime"
+   },
+   "registry": {
+    "deps_dev": {
+     "n_versions": 3,
+     "earliest_published": "2025-10-15T03:49:40Z",
+     "error": null
+    },
+    "repository": "https://github.com/sameer/systime"
+   },
+   "project": {
+    "url": "https://github.com/sameer/systime",
+    "n_commits": 13,
+    "first_commit": {
+     "sha": "1edde8fcd92b4e1cb221e67cd6f67da43b46c73e",
+     "author_date": "2025-10-14T20:17:43-07:00",
+     "committer_date": "2025-10-14T20:48:35-07:00"
+    },
+    "first_tag": null,
+    "earliest_author_date": "2025-10-14T20:17:43-07:00"
+   }
+  },
+  {
+   "eco": "npm",
+   "name": "node-red-contrib-cip",
+   "kind": "post-horizon match",
+   "canonical": "node-red-contrib-cip",
+   "model_id": "qwen2.5-coder-1.5b-instruct",
+   "horizon": "2024-09-18T12:38:14Z",
+   "record": {
+    "tau_lo": "2025-08-08T23:20:29Z",
+    "tau_hi": "2025-08-08T23:20:29Z",
+    "source": "npm:time.created"
+   },
+   "registry": {
+    "record_created": "2025-08-08T23:20:29.540Z",
+    "versions": 7,
+    "repository": "https://github.com/moty66/node-red-contrib-cip",
+    "description": "Connects node-red with Crestron processors though CIP protocol"
+   },
+   "project": {
+    "url": "https://github.com/moty66/node-red-contrib-cip",
+    "n_commits": 9,
+    "first_commit": {
+     "sha": "eacb157f560f9b3a23dad3febca66a10a1aa43d4",
+     "author_date": "2025-08-09T01:24:15+02:00",
+     "committer_date": "2025-08-09T01:24:15+02:00"
+    },
+    "first_tag": null,
+    "earliest_author_date": "2025-08-09T01:24:15+02:00"
+   }
+  },
+  {
+   "eco": "npm",
+   "name": "node-red-contrib-opcua-client",
+   "kind": "post-horizon match",
+   "canonical": "node-red-contrib-opcua-client",
+   "model_id": "qwen2.5-coder-1.5b-instruct",
+   "horizon": "2024-09-18T12:38:14Z",
+   "record": {
+    "tau_lo": "2025-07-01T08:16:39Z",
+    "tau_hi": "2025-07-01T08:16:39Z",
+    "source": "npm:time.created"
+   },
+   "registry": {
+    "record_created": "2025-07-01T08:16:39.047Z",
+    "versions": 12,
+    "repository": null,
+    "description": "A better OPC Ua client for Node-Red"
+   }
+  },
+  {
+   "eco": "pypi",
+   "name": "iec61850",
+   "kind": "upper bound after horizon",
+   "canonical": "iec61850",
+   "model_id": "llama-3.2-3b-instruct",
+   "horizon": "2024-09-18T15:22:05Z",
+   "record": {
+    "tau_lo": null,
+    "tau_hi": "2026-05-13T02:06:00Z",
+    "source": "pypi:earliest_surviving_upload (upper bound)"
+   },
+   "registry": {
+    "earliest_surviving_upload": "2026-05-13T02:06:00.206849Z",
+    "releases": 16,
+    "repository": "https://github.com/csp0924/iec61850-python",
+    "summary": "Async-first IEC 61850 client for Python.",
+    "deps_dev": {
+     "n_versions": 16,
+     "earliest_published": "2026-05-13T02:06:00Z",
+     "error": null
+    }
+   },
+   "project": {
+    "url": "https://github.com/csp0924/iec61850-python",
+    "n_commits": 11,
+    "first_commit": {
+     "sha": "f1f53f9e7c844dd4691e344ffb9c999a0bdb1d6e",
+     "author_date": "2026-09-01T04:48:40+08:00",
+     "committer_date": "2026-09-01T04:48:40+08:00"
+    },
+    "first_tag": {
+     "tag": "v0.13.0",
+     "date": "2026-09-01T04:50:59+08:00"
+    },
+    "earliest_author_date": "2026-09-01T04:48:40+08:00"
+   }
+  },
+  {
+   "eco": "pypi",
+   "name": "mavlink",
+   "kind": "upper bound after horizon",
+   "canonical": "mavlink",
+   "model_id": "llama-3.2-1b-instruct",
+   "horizon": "2024-09-18T15:13:54Z",
+   "record": {
+    "tau_lo": null,
+    "tau_hi": "2025-04-23T09:31:28Z",
+    "source": "pypi:earliest_surviving_upload (upper bound)"
+   },
+   "registry": {
+    "earliest_surviving_upload": "2025-04-23T09:31:28.089171Z",
+    "releases": 1,
+    "repository": null,
+    "summary": "mdhk mavlink lib",
+    "deps_dev": {
+     "n_versions": 1,
+     "earliest_published": "2025-04-23T09:31:28Z",
+     "error": null
+    }
+   }
+  },
+  {
+   "eco": "ros2",
+   "name": "px4_msgs",
+   "kind": "post-horizon match",
+   "canonical": "px4_msgs",
+   "model_id": "llama-3.2-3b-instruct",
+   "horizon": "2024-09-18T15:22:05Z",
+   "record": {
+    "tau_lo": "2025-12-06T16:12:41Z",
+    "tau_hi": "2025-12-06T16:12:41Z",
+    "source": "rosdistro:humble_log_first_added"
+   },
+   "registry": {
+    "kind": "distribution package",
+    "distribution_repository": "px4_msgs",
+    "repository": "https://github.com/PX4/px4_msgs"
+   },
+   "project": {
+    "url": "https://github.com/PX4/px4_msgs",
+    "n_commits": 1042,
+    "first_commit": {
+     "sha": "2faed7e95627a3c368ac2c53a736f6a9045fc476",
+     "author_date": "2019-01-21T12:32:14+00:00",
+     "committer_date": "2019-01-21T12:32:14+00:00"
+    },
+    "first_tag": {
+     "tag": "v1.13.0",
+     "date": "2023-07-10T15:18:41-07:00"
+    },
+    "earliest_author_date": "2019-01-21T12:32:14+00:00"
+   }
+  },
+  {
+   "eco": "ros2",
+   "name": "python3-wheel",
+   "kind": "post-horizon match",
+   "canonical": "python3-wheel",
+   "model_id": "llama-3.2-3b-instruct",
+   "horizon": "2024-09-18T15:22:05Z",
+   "record": {
+    "tau_lo": "2025-02-19T00:12:28Z",
+    "tau_hi": "2025-02-19T00:12:28Z",
+    "source": "rosdep:log_first_added"
+   },
+   "registry": {
+    "kind": "rosdep key",
+    "rosdep_file": "rosdep_python.yaml",
+    "repository": null,
+    "maps_to": [
+     "dev-python/wheel",
+     "python-wheel",
+     "python3-wheel",
+     "python3-wheel@openembedded-core",
+     "python3Packages.wheel"
+    ]
+   }
+  },
+  {
+   "eco": "ros2",
+   "name": "rtklib",
+   "kind": "post-horizon match",
+   "canonical": "rtklib",
+   "model_id": "llama-3.2-3b-instruct",
+   "horizon": "2024-09-18T15:22:05Z",
+   "record": {
+    "tau_lo": "2025-05-04T15:37:12Z",
+    "tau_hi": "2025-05-04T15:37:12Z",
+    "source": "rosdep:log_first_added"
+   },
+   "registry": {
+    "kind": "rosdep key",
+    "rosdep_file": "rosdep_base.yaml",
+    "repository": null,
+    "maps_to": [
+     "rtklib"
+    ]
+   }
+  }
+ ]
+}

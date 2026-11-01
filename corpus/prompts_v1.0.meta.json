@@ -1,0 +1,17 @@
+{
+ "ecosystems": {
+  "arduino": 12,
+  "crates": 12,
+  "espidf": 12,
+  "micropython": 12,
+  "npm": 12,
+  "platformio": 12,
+  "pypi": 12,
+  "ros2": 12
+ },
+ "n_prompts": 192,
+ "n_tasks": 96,
+ "prompts_sha256": "90a9e15411f2b4422ed2db1caab238848689b4c66638fbd80a4e40ed3a7abb0e",
+ "tasks_sha256": "d113553800885a887a870abfdd43c5e596a1a368ba98727adf4970eb428eb6cc",
+ "version": "1.0"
+}

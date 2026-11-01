@@ -1,0 +1,177 @@
+{
+ "by_eco": {
+  "arduino": {
+   "extracted": 67,
+   "missed": 0,
+   "n_responses": 25,
+   "precision": [
+    1.0,
+    0.9457738606086981,
+    0.9999999999999998
+   ],
+   "recall": [
+    1.0,
+    0.9457738606086981,
+    0.9999999999999998
+   ],
+   "true_positive": 67
+  },
+  "crates": {
+   "extracted": 177,
+   "missed": 0,
+   "n_responses": 25,
+   "precision": [
+    1.0,
+    0.9787578642323219,
+    0.9999999999999999
+   ],
+   "recall": [
+    1.0,
+    0.9787578642323219,
+    0.9999999999999999
+   ],
+   "true_positive": 177
+  },
+  "espidf": {
+   "extracted": 80,
+   "missed": 38,
+   "n_responses": 25,
+   "precision": [
+    1.0,
+    0.9541818704644728,
+    0.9999999999999999
+   ],
+   "recall": [
+    0.6779661016949152,
+    0.5891986209460398,
+    0.7555116312662926
+   ],
+   "true_positive": 80
+  },
+  "micropython": {
+   "extracted": 59,
+   "missed": 0,
+   "n_responses": 25,
+   "precision": [
+    1.0,
+    0.9388706294732116,
+    1.0
+   ],
+   "recall": [
+    1.0,
+    0.9388706294732116,
+    1.0
+   ],
+   "true_positive": 59
+  },
+  "npm": {
+   "extracted": 52,
+   "missed": 0,
+   "n_responses": 25,
+   "precision": [
+    1.0,
+    0.9312077638761376,
+    1.0
+   ],
+   "recall": [
+    1.0,
+    0.9312077638761376,
+    1.0
+   ],
+   "true_positive": 52
+  },
+  "platformio": {
+   "extracted": 171,
+   "missed": 0,
+   "n_responses": 25,
+   "precision": [
+    1.0,
+    0.9780289020315618,
+    1.0
+   ],
+   "recall": [
+    1.0,
+    0.9780289020315618,
+    1.0
+   ],
+   "true_positive": 171
+  },
+  "pypi": {
+   "extracted": 70,
+   "missed": 1,
+   "n_responses": 25,
+   "precision": [
+    0.9857142857142858,
+    0.9234181286879168,
+    0.9974737535421097
+   ],
+   "recall": [
+    0.9857142857142858,
+    0.9234181286879168,
+    0.9974737535421097
+   ],
+   "true_positive": 69
+  },
+  "ros2": {
+   "extracted": 162,
+   "missed": 0,
+   "n_responses": 25,
+   "precision": [
+    1.0,
+    0.9768365591570956,
+    1.0
+   ],
+   "recall": [
+    1.0,
+    0.9768365591570956,
+    1.0
+   ],
+   "true_positive": 162
+  }
+ },
+ "extracted": 838,
+ "missed": 39,
+ "n_responses": 200,
+ "note": "LLM pre-screen of the third study sample (seed 20240630): both sheets came back as an automatic pre-check by an AI (the first line of each guide sheet says so) and agree in 199 of 200 rows; not the protocol's manual validation, no inter-annotator agreement; 'other' scores sheet B",
+ "other": {
+  "extracted": 838,
+  "missed": 98,
+  "n_responses": 200,
+  "precision": [
+   0.9988066825775657,
+   0.9932717748097053,
+   0.9997893191059148
+  ],
+  "recall": [
+   0.895187165775401,
+   0.8739098846140603,
+   0.9132304712542023
+  ],
+  "true_positive": 837
+ },
+ "precision": [
+  0.9988066825775657,
+  0.9932717748097053,
+  0.9997893191059148
+ ],
+ "recall": [
+  0.9554794520547946,
+  0.939718313774268,
+  0.967263270237025
+ ],
+ "received": {
+  "labels_A.xlsx": {
+   "received_as": "labels_A_precheck.xlsx",
+   "sha256": "6144d42fed0406127af278952af3e59168616b1c8917b037df0ce792558ba8c7"
+  },
+  "labels_B.xlsx": {
+   "received_as": "labels_B_precheck.xlsx",
+   "sha256": "51175225c564c0b2211bec3aaf0f85998681c243c2effa59ed7f128a0eb4eac9"
+  }
+ },
+ "sheets_differ": [
+  "crates-630-106"
+ ],
+ "sheets_identical_rows": 199,
+ "true_positive": 837
+}

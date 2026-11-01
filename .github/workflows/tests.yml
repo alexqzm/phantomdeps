@@ -1,0 +1,28 @@
+# What a reviewer would run: the unit tests, then every number and table of the paper recomputed
+# from the pseudonymised data and compared with results/ (make check-masked; only the gate's
+# microseconds per decision may differ between hosts).
+name: tests
+
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  reproduce:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.13"
+      - name: Install the analysis dependencies
+        run: python3 -m pip install -r requirements.txt
+      - name: Unit tests
+        run: make test
+      - name: Reproduce the paper's numbers from the pseudonymised data
+        run: make check-masked

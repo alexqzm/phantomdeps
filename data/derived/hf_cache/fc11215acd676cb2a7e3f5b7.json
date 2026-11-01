@@ -1,0 +1,583 @@
+{
+ "url": "https://huggingface.co/api/models/ibm-granite/granite-3.3-8b-instruct/tree/main?expand=true",
+ "body": null,
+ "retrieved_at": "2026-10-24T06:35:42Z",
+ "answer": [
+  {
+   "type": "file",
+   "oid": "a6344aac8c09253b3b630fb776ae94478aa0275b",
+   "size": 1519,
+   "path": ".gitattributes",
+   "lastCommit": {
+    "id": "4c2903676072fd4c778ac4151c63493a6b712958",
+    "title": "initial commit",
+    "date": "2025-04-09T11:41:40.000Z"
+   },
+   "securityFileStatus": {
+    "status": "safe",
+    "protectAiScan": {
+     "status": "safe",
+     "message": "This file has no security findings.",
+     "reportLink": "https://insights-db.paloaltonetworks.com/models/ibm-granite/granite-3.3-8b-instruct/51dd4bc2ade4059a6bd87649d68aa11e4fb2529b/files?blob-id=a6344aac8c09253b3b630fb776ae94478aa0275b&utm_source=huggingface"
+    },
+    "avScan": {
+     "status": "safe",
+     "message": "No security issues detected",
+     "reportLink": "https://fdtn.ai/ai-supply-chain/hugging-face?utm_source=huggingface"
+    },
+    "pickleImportScan": {
+     "status": "unscanned",
+     "pickleImports": [],
+     "version": "0.0.0"
+    },
+    "virusTotalScan": {
+     "status": "unscanned"
+    },
+    "jFrogScan": {
+     "status": "unscanned",
+     "message": "Not a machine-learning model"
+    }
+   }
+  },
+  {
+   "type": "file",
+   "oid": "85c98fcfd137350310cfc4ffc3b548841764110c",
+   "size": 27608,
+   "path": "README.md",
+   "lastCommit": {
+    "id": "51dd4bc2ade4059a6bd87649d68aa11e4fb2529b",
+    "title": "Fix typo (#7)",
+    "date": "2025-05-12T06:39:42.000Z"
+   },
+   "securityFileStatus": {
+    "status": "safe",
+    "protectAiScan": {
+     "status": "safe",
+     "message": "This file has no security findings.",
+     "reportLink": "https://insights-db.paloaltonetworks.com/models/ibm-granite/granite-3.3-8b-instruct/51dd4bc2ade4059a6bd87649d68aa11e4fb2529b/files?blob-id=85c98fcfd137350310cfc4ffc3b548841764110c&utm_source=huggingface"
+    },
+    "avScan": {
+     "status": "safe",
+     "message": "No security issues detected",
+     "reportLink": "https://fdtn.ai/ai-supply-chain/hugging-face?utm_source=huggingface"
+    },
+    "pickleImportScan": {
+     "status": "unscanned",
+     "pickleImports": [],
+     "version": "0.0.0"
+    },
+    "virusTotalScan": {
+     "status": "unscanned"
+    },
+    "jFrogScan": {
+     "status": "unscanned",
+     "message": "Not a machine-learning model"
+    }
+   }
+  },
+  {
+   "type": "file",
+   "oid": "944f7a55b05d9c0ce245208d27cb11b67b986d6b",
+   "size": 207,
+   "path": "added_tokens.json",
+   "lastCommit": {
+    "id": "3efd179a48ad7cb28ccf46568985af8cf38cbba9",
+    "title": "3.3-8b-instruct model weights upload",
+    "date": "2025-04-09T12:37:17.000Z"
+   },
+   "securityFileStatus": {
+    "status": "safe",
+    "protectAiScan": {
+     "status": "safe",
+     "message": "This file has no security findings.",
+     "reportLink": "https://insights-db.paloaltonetworks.com/models/ibm-granite/granite-3.3-8b-instruct/51dd4bc2ade4059a6bd87649d68aa11e4fb2529b/files?blob-id=944f7a55b05d9c0ce245208d27cb11b67b986d6b&utm_source=huggingface"
+    },
+    "avScan": {
+     "status": "safe",
+     "message": "No security issues detected",
+     "reportLink": "https://fdtn.ai/ai-supply-chain/hugging-face?utm_source=huggingface"
+    },
+    "pickleImportScan": {
+     "status": "unscanned",
+     "pickleImports": [],
+     "version": "0.0.0"
+    },
+    "virusTotalScan": {
+     "status": "unscanned"
+    },
+    "jFrogScan": {
+     "status": "unscanned",
+     "message": "Not a machine-learning model"
+    }
+   }
+  },
+  {
+   "type": "file",
+   "oid": "f731a4bb85cf7b086c16f012773e68c7b9349b37",
+   "size": 790,
+   "path": "config.json",
+   "lastCommit": {
+    "id": "de4d3920884ea7b8f8f276d8aa286f8d82afbb83",
+    "title": "Fix use_cache to true (#2)",
+    "date": "2025-04-14T20:59:50.000Z"
+   },
+   "securityFileStatus": {
+    "status": "safe",
+    "protectAiScan": {
+     "status": "safe",
+     "message": "This file has no security findings.",
+     "reportLink": "https://insights-db.paloaltonetworks.com/models/ibm-granite/granite-3.3-8b-instruct/51dd4bc2ade4059a6bd87649d68aa11e4fb2529b/files?blob-id=f731a4bb85cf7b086c16f012773e68c7b9349b37&utm_source=huggingface"
+    },
+    "avScan": {
+     "status": "safe",
+     "message": "No security issues detected",
+     "reportLink": "https://fdtn.ai/ai-supply-chain/hugging-face?utm_source=huggingface"
+    },
+    "pickleImportScan": {
+     "status": "unscanned",
+     "pickleImports": [],
+     "version": "0.0.0"
+    },
+    "virusTotalScan": {
+     "status": "unscanned"
+    },
+    "jFrogScan": {
+     "status": "unscanned",
+     "message": "Not a machine-learning model"
+    }
+   }
+  },
+  {
+   "type": "file",
+   "oid": "7bafee951796bccef681ff2072a248dc679d0b0b",
+   "size": 132,
+   "path": "generation_config.json",
+   "lastCommit": {
+    "id": "3efd179a48ad7cb28ccf46568985af8cf38cbba9",
+    "title": "3.3-8b-instruct model weights upload",
+    "date": "2025-04-09T12:37:17.000Z"
+   },
+   "securityFileStatus": {
+    "status": "safe",
+    "protectAiScan": {
+     "status": "safe",
+     "message": "This file has no security findings.",
+     "reportLink": "https://insights-db.paloaltonetworks.com/models/ibm-granite/granite-3.3-8b-instruct/51dd4bc2ade4059a6bd87649d68aa11e4fb2529b/files?blob-id=7bafee951796bccef681ff2072a248dc679d0b0b&utm_source=huggingface"
+    },
+    "avScan": {
+     "status": "safe",
+     "message": "No security issues detected",
+     "reportLink": "https://fdtn.ai/ai-supply-chain/hugging-face?utm_source=huggingface"
+    },
+    "pickleImportScan": {
+     "status": "unscanned",
+     "pickleImports": [],
+     "version": "0.0.0"
+    },
+    "virusTotalScan": {
+     "status": "unscanned"
+    },
+    "jFrogScan": {
+     "status": "unscanned",
+     "message": "Not a machine-learning model"
+    }
+   }
+  },
+  {
+   "type": "file",
+   "oid": "f8479fb696fe07332c55300a6accf8cc191acc6a",
+   "size": 441810,
+   "path": "merges.txt",
+   "lastCommit": {
+    "id": "3efd179a48ad7cb28ccf46568985af8cf38cbba9",
+    "title": "3.3-8b-instruct model weights upload",
+    "date": "2025-04-09T12:37:17.000Z"
+   },
+   "securityFileStatus": {
+    "status": "safe",
+    "protectAiScan": {
+     "status": "safe",
+     "message": "This file has no security findings.",
+     "reportLink": "https://insights-db.paloaltonetworks.com/models/ibm-granite/granite-3.3-8b-instruct/51dd4bc2ade4059a6bd87649d68aa11e4fb2529b/files?blob-id=f8479fb696fe07332c55300a6accf8cc191acc6a&utm_source=huggingface"
+    },
+    "avScan": {
+     "status": "safe",
+     "message": "No security issues detected",
+     "reportLink": "https://fdtn.ai/ai-supply-chain/hugging-face?utm_source=huggingface"
+    },
+    "pickleImportScan": {
+     "status": "unscanned",
+     "pickleImports": [],
+     "version": "0.0.0"
+    },
+    "virusTotalScan": {
+     "status": "unscanned"
+    },
+    "jFrogScan": {
+     "status": "unscanned",
+     "message": "Not a machine-learning model"
+    }
+   }
+  },
+  {
+   "type": "file",
+   "oid": "f14c62459d90617615dc5f84030afc7de896da76",
+   "size": 4974694288,
+   "lfs": {
+    "oid": "b309f7b9e116fafc27c1100629bfcccbcebdab18a4bf7df7accfa728260dc57e",
+    "size": 4974694288,
+    "pointerSize": 135
+   },
+   "xetHash": "7560c4bad75df6dd4cdb512a955768784954e7333f0f3e79f279b5ee8790bb90",
+   "path": "model-00001-of-00004.safetensors",
+   "lastCommit": {
+    "id": "3efd179a48ad7cb28ccf46568985af8cf38cbba9",
+    "title": "3.3-8b-instruct model weights upload",
+    "date": "2025-04-09T12:37:17.000Z"
+   },
+   "securityFileStatus": {
+    "status": "safe",
+    "protectAiScan": {
+     "status": "safe",
+     "message": "This file has no security findings.",
+     "reportLink": "https://insights-db.paloaltonetworks.com/models/ibm-granite/granite-3.3-8b-instruct/51dd4bc2ade4059a6bd87649d68aa11e4fb2529b/files?blob-id=f14c62459d90617615dc5f84030afc7de896da76&utm_source=huggingface"
+    },
+    "avScan": {
+     "status": "unscanned",
+     "message": "",
+     "version": "1.5.1/27923"
+    },
+    "pickleImportScan": {
+     "status": "unscanned",
+     "pickleImports": [],
+     "version": "0.0.0"
+    },
+    "virusTotalScan": {
+     "status": "safe",
+     "message": "0/75 engines detect it as malicious.",
+     "reportLink": "https://www.virustotal.com/gui/file/b309f7b9e116fafc27c1100629bfcccbcebdab18a4bf7df7accfa728260dc57e?utm_source=huggingface"
+    },
+    "jFrogScan": {
+     "status": "safe",
+     "message": "Safe model, does not support code execution on load.",
+     "reportLink": "https://research.jfrog.com/model-threats/noautoload-suscode?utm_source=huggingface"
+    }
+   }
+  },
+  {
+   "type": "file",
+   "oid": "56eafe014440f800d17ec845d588466b1a9bb751",
+   "size": 4991447808,
+   "lfs": {
+    "oid": "f2e40f157f0139e4b67bbaa4b10efa351162c062771cb543b143c6916a687266",
+    "size": 4991447808,
+    "pointerSize": 135
+   },
+   "xetHash": "70969157b9512b0974c533a375a98e4b537aae4e7541f047a0560a3c331e7899",
+   "path": "model-00002-of-00004.safetensors",
+   "lastCommit": {
+    "id": "3efd179a48ad7cb28ccf46568985af8cf38cbba9",
+    "title": "3.3-8b-instruct model weights upload",
+    "date": "2025-04-09T12:37:17.000Z"
+   },
+   "securityFileStatus": {
+    "status": "safe",
+    "protectAiScan": {
+     "status": "safe",
+     "message": "This file has no security findings.",
+     "reportLink": "https://insights-db.paloaltonetworks.com/models/ibm-granite/granite-3.3-8b-instruct/51dd4bc2ade4059a6bd87649d68aa11e4fb2529b/files?blob-id=56eafe014440f800d17ec845d588466b1a9bb751&utm_source=huggingface"
+    },
+    "avScan": {
+     "status": "unscanned",
+     "message": "",
+     "version": "1.5.1/27923"
+    },
+    "pickleImportScan": {
+     "status": "unscanned",
+     "pickleImports": [],
+     "version": "0.0.0"
+    },
+    "virusTotalScan": {
+     "status": "safe",
+     "message": "0/75 engines detect it as malicious.",
+     "reportLink": "https://www.virustotal.com/gui/file/f2e40f157f0139e4b67bbaa4b10efa351162c062771cb543b143c6916a687266?utm_source=huggingface"
+    },
+    "jFrogScan": {
+     "status": "safe",
+     "message": "Safe model, does not support code execution on load.",
+     "reportLink": "https://research.jfrog.com/model-threats/noautoload-suscode?utm_source=huggingface"
+    }
+   }
+  },
+  {
+   "type": "file",
+   "oid": "1fb7e364ab61636372315ef3adce09a290050da9",
+   "size": 4970460032,
+   "lfs": {
+    "oid": "5cf5203a027b7055c995a9d4bdb3a4c9dd44849ae6c9eefa6a16852a816bea76",
+    "size": 4970460032,
+    "pointerSize": 135
+   },
+   "xetHash": "2c9825e16ab09ee248f401deecaa9313a0532f99c46aeb09db23199a53f9b158",
+   "path": "model-00003-of-00004.safetensors",
+   "lastCommit": {
+    "id": "3efd179a48ad7cb28ccf46568985af8cf38cbba9",
+    "title": "3.3-8b-instruct model weights upload",
+    "date": "2025-04-09T12:37:17.000Z"
+   },
+   "securityFileStatus": {
+    "status": "safe",
+    "protectAiScan": {
+     "status": "safe",
+     "message": "This file has no security findings.",
+     "reportLink": "https://insights-db.paloaltonetworks.com/models/ibm-granite/granite-3.3-8b-instruct/51dd4bc2ade4059a6bd87649d68aa11e4fb2529b/files?blob-id=1fb7e364ab61636372315ef3adce09a290050da9&utm_source=huggingface"
+    },
+    "avScan": {
+     "status": "unscanned",
+     "message": "",
+     "version": "1.5.1/27923"
+    },
+    "pickleImportScan": {
+     "status": "unscanned",
+     "pickleImports": [],
+     "version": "0.0.0"
+    },
+    "virusTotalScan": {
+     "status": "safe",
+     "message": "0/75 engines detect it as malicious.",
+     "reportLink": "https://www.virustotal.com/gui/file/5cf5203a027b7055c995a9d4bdb3a4c9dd44849ae6c9eefa6a16852a816bea76?utm_source=huggingface"
+    },
+    "jFrogScan": {
+     "status": "safe",
+     "message": "Safe model, does not support code execution on load.",
+     "reportLink": "https://research.jfrog.com/model-threats/noautoload-suscode?utm_source=huggingface"
+    }
+   }
+  },
+  {
+   "type": "file",
+   "oid": "a33ee1a94a22f22a64a21f4bbafd964422ccaf58",
+   "size": 1405169256,
+   "lfs": {
+    "oid": "76ac0c0dbd790a1e003d2fc098a297bfe82a422c129046e9d4e67e6ed3d820f0",
+    "size": 1405169256,
+    "pointerSize": 135
+   },
+   "xetHash": "845de94be52bbaff1c9c7c641797175ca68bc52c20294781fbf68197817eb3ab",
+   "path": "model-00004-of-00004.safetensors",
+   "lastCommit": {
+    "id": "3efd179a48ad7cb28ccf46568985af8cf38cbba9",
+    "title": "3.3-8b-instruct model weights upload",
+    "date": "2025-04-09T12:37:17.000Z"
+   },
+   "securityFileStatus": {
+    "status": "safe",
+    "protectAiScan": {
+     "status": "safe",
+     "message": "This file has no security findings.",
+     "reportLink": "https://insights-db.paloaltonetworks.com/models/ibm-granite/granite-3.3-8b-instruct/51dd4bc2ade4059a6bd87649d68aa11e4fb2529b/files?blob-id=a33ee1a94a22f22a64a21f4bbafd964422ccaf58&utm_source=huggingface"
+    },
+    "avScan": {
+     "status": "safe",
+     "message": "No security issues detected",
+     "reportLink": "https://fdtn.ai/ai-supply-chain/hugging-face?utm_source=huggingface"
+    },
+    "pickleImportScan": {
+     "status": "unscanned",
+     "pickleImports": [],
+     "version": "0.0.0"
+    },
+    "virusTotalScan": {
+     "status": "safe",
+     "message": "0/75 engines detect it as malicious.",
+     "reportLink": "https://www.virustotal.com/gui/file/76ac0c0dbd790a1e003d2fc098a297bfe82a422c129046e9d4e67e6ed3d820f0?utm_source=huggingface"
+    },
+    "jFrogScan": {
+     "status": "safe",
+     "message": "Safe model, does not support code execution on load.",
+     "reportLink": "https://research.jfrog.com/model-threats/noautoload-suscode?utm_source=huggingface"
+    }
+   }
+  },
+  {
+   "type": "file",
+   "oid": "0a44141ea4f7cc08815fc8fee6542e4c3bcf0508",
+   "size": 29836,
+   "path": "model.safetensors.index.json",
+   "lastCommit": {
+    "id": "3efd179a48ad7cb28ccf46568985af8cf38cbba9",
+    "title": "3.3-8b-instruct model weights upload",
+    "date": "2025-04-09T12:37:17.000Z"
+   },
+   "securityFileStatus": {
+    "status": "safe",
+    "protectAiScan": {
+     "status": "safe",
+     "message": "This file has no security findings.",
+     "reportLink": "https://insights-db.paloaltonetworks.com/models/ibm-granite/granite-3.3-8b-instruct/51dd4bc2ade4059a6bd87649d68aa11e4fb2529b/files?blob-id=0a44141ea4f7cc08815fc8fee6542e4c3bcf0508&utm_source=huggingface"
+    },
+    "avScan": {
+     "status": "safe",
+     "message": "No security issues detected",
+     "reportLink": "https://fdtn.ai/ai-supply-chain/hugging-face?utm_source=huggingface"
+    },
+    "pickleImportScan": {
+     "status": "unscanned",
+     "pickleImports": [],
+     "version": "0.0.0"
+    },
+    "virusTotalScan": {
+     "status": "unscanned"
+    },
+    "jFrogScan": {
+     "status": "unscanned",
+     "message": "Not a machine-learning model"
+    }
+   }
+  },
+  {
+   "type": "file",
+   "oid": "4ccaca4ecb4010d47211e47ab421192ad7923c30",
+   "size": 801,
+   "path": "special_tokens_map.json",
+   "lastCommit": {
+    "id": "3efd179a48ad7cb28ccf46568985af8cf38cbba9",
+    "title": "3.3-8b-instruct model weights upload",
+    "date": "2025-04-09T12:37:17.000Z"
+   },
+   "securityFileStatus": {
+    "status": "safe",
+    "protectAiScan": {
+     "status": "safe",
+     "message": "This file has no security findings.",
+     "reportLink": "https://insights-db.paloaltonetworks.com/models/ibm-granite/granite-3.3-8b-instruct/51dd4bc2ade4059a6bd87649d68aa11e4fb2529b/files?blob-id=4ccaca4ecb4010d47211e47ab421192ad7923c30&utm_source=huggingface"
+    },
+    "avScan": {
+     "status": "safe",
+     "message": "No security issues detected",
+     "reportLink": "https://fdtn.ai/ai-supply-chain/hugging-face?utm_source=huggingface"
+    },
+    "pickleImportScan": {
+     "status": "unscanned",
+     "pickleImports": [],
+     "version": "0.0.0"
+    },
+    "virusTotalScan": {
+     "status": "unscanned"
+    },
+    "jFrogScan": {
+     "status": "unscanned",
+     "message": "Not a machine-learning model"
+    }
+   }
+  },
+  {
+   "type": "file",
+   "oid": "4dbede017f0aa7bd21a51925fefd87fe788eb6d1",
+   "size": 3476578,
+   "path": "tokenizer.json",
+   "lastCommit": {
+    "id": "3efd179a48ad7cb28ccf46568985af8cf38cbba9",
+    "title": "3.3-8b-instruct model weights upload",
+    "date": "2025-04-09T12:37:17.000Z"
+   },
+   "securityFileStatus": {
+    "status": "safe",
+    "protectAiScan": {
+     "status": "safe",
+     "message": "This file has no security findings.",
+     "reportLink": "https://insights-db.paloaltonetworks.com/models/ibm-granite/granite-3.3-8b-instruct/51dd4bc2ade4059a6bd87649d68aa11e4fb2529b/files?blob-id=4dbede017f0aa7bd21a51925fefd87fe788eb6d1&utm_source=huggingface"
+    },
+    "avScan": {
+     "status": "safe",
+     "message": "No security issues detected",
+     "reportLink": "https://fdtn.ai/ai-supply-chain/hugging-face?utm_source=huggingface"
+    },
+    "pickleImportScan": {
+     "status": "unscanned",
+     "pickleImports": [],
+     "version": "0.0.0"
+    },
+    "virusTotalScan": {
+     "status": "unscanned"
+    },
+    "jFrogScan": {
+     "status": "unscanned",
+     "message": "Not a machine-learning model"
+    }
+   }
+  },
+  {
+   "type": "file",
+   "oid": "1ad83527e5d46456be211e7391ecae541401fda6",
+   "size": 9930,
+   "path": "tokenizer_config.json",
+   "lastCommit": {
+    "id": "838cee30ab44b5d8011a2ed5c6851bacc2af9c15",
+    "title": "Removed extra space and added a new line to chat template (#5)",
+    "date": "2025-04-24T21:37:39.000Z"
+   },
+   "securityFileStatus": {
+    "status": "safe",
+    "protectAiScan": {
+     "status": "safe",
+     "message": "This file has no security findings.",
+     "reportLink": "https://insights-db.paloaltonetworks.com/models/ibm-granite/granite-3.3-8b-instruct/51dd4bc2ade4059a6bd87649d68aa11e4fb2529b/files?blob-id=1ad83527e5d46456be211e7391ecae541401fda6&utm_source=huggingface"
+    },
+    "avScan": {
+     "status": "safe",
+     "message": "No security issues detected",
+     "reportLink": "https://fdtn.ai/ai-supply-chain/hugging-face?utm_source=huggingface"
+    },
+    "pickleImportScan": {
+     "status": "unscanned",
+     "pickleImports": [],
+     "version": "0.0.0"
+    },
+    "virusTotalScan": {
+     "status": "unscanned"
+    },
+    "jFrogScan": {
+     "status": "unscanned",
+     "message": "Not a machine-learning model"
+    }
+   }
+  },
+  {
+   "type": "file",
+   "oid": "0a11f2016e660fd490f7bf168e6d1f9c86a8f744",
+   "size": 776995,
+   "path": "vocab.json",
+   "lastCommit": {
+    "id": "3efd179a48ad7cb28ccf46568985af8cf38cbba9",
+    "title": "3.3-8b-instruct model weights upload",
+    "date": "2025-04-09T12:37:17.000Z"
+   },
+   "securityFileStatus": {
+    "status": "safe",
+    "protectAiScan": {
+     "status": "safe",
+     "message": "This file has no security findings.",
+     "reportLink": "https://insights-db.paloaltonetworks.com/models/ibm-granite/granite-3.3-8b-instruct/51dd4bc2ade4059a6bd87649d68aa11e4fb2529b/files?blob-id=0a11f2016e660fd490f7bf168e6d1f9c86a8f744&utm_source=huggingface"
+    },
+    "avScan": {
+     "status": "safe",
+     "message": "No security issues detected",
+     "reportLink": "https://fdtn.ai/ai-supply-chain/hugging-face?utm_source=huggingface"
+    },
+    "pickleImportScan": {
+     "status": "unscanned",
+     "pickleImports": [],
+     "version": "0.0.0"
+    },
+    "virusTotalScan": {
+     "status": "unscanned"
+    },
+    "jFrogScan": {
+     "status": "unscanned",
+     "message": "Not a machine-learning model"
+    }
+   }
+  }
+ ]
+}

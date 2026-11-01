@@ -1,0 +1,6 @@
+{
+ "run_id": "pilot-cpu-ext-granite-partial",
+ "note": "Granite 3.3 8B answers of pilot-cpu-ext-2026-10 before the generation was stopped (34 of 96). Kept for transparency; not analysed.",
+ "answers": 34,
+ "moved_at": "2026-10-24T11:46:52Z"
+}

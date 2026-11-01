@@ -1,0 +1,71 @@
+{
+ "arduino": {
+  "names": 10257,
+  "registry_head": "c36ba5b17aa95aa13fbe56032e99509e769c618b",
+  "registry_initial_commit": [
+   "c2fd5e2d0f57a69e2b74385a578b15f4b1a45d04",
+   "2021-04-08T20:45:49-07:00"
+  ]
+ },
+ "built_at": "2026-10-24T16:57:39Z",
+ "fetched_at": {
+  "arduino_library_index.json": "2026-10-23T18:49:11Z",
+  "micropython_index_v2.json": "2026-10-23T18:49:11Z",
+  "ros_humble_distribution.yaml": "2026-10-23T18:49:12Z",
+  "ros_jazzy_distribution.yaml": "2026-10-23T18:49:12Z",
+  "rosdep_base.yaml": "2026-10-23T18:49:12Z",
+  "rosdep_python.yaml": "2026-10-23T18:49:12Z",
+  "rosdep_ruby.yaml": "2026-10-23T18:49:12Z"
+ },
+ "files": {
+  "arduino_library_index.json": {
+   "bytes": 59628735,
+   "sha256": "a977067e6df3001e803c5a390fc26194445814a0009ae107b9fef9f3dc535c24",
+   "source": "https://downloads.arduino.cc/libraries/library_index.json"
+  },
+  "micropython_index_v2.json": {
+   "bytes": 46152,
+   "sha256": "84d833e49d33bcdae23ab62927b0caf7cf149ad63de18f87fc32d4f95968a575",
+   "source": "https://micropython.org/pi/v2/index.json"
+  },
+  "ros_humble_distribution.yaml": {
+   "bytes": 420761,
+   "sha256": "e28bb120937a9a9751cb4163af99c870b9393bf47a8c2e75abd11b44ac8dd325",
+   "source": "https://raw.githubusercontent.com/ros/rosdistro/master/humble/distribution.yaml"
+  },
+  "ros_jazzy_distribution.yaml": {
+   "bytes": 406844,
+   "sha256": "eb3d31e3b27f31c512a88cb0eaa857d16e814056806215c0aa46476e7b47418d",
+   "source": "https://raw.githubusercontent.com/ros/rosdistro/master/jazzy/distribution.yaml"
+  },
+  "rosdep_base.yaml": {
+   "bytes": 277531,
+   "sha256": "1975f867f262b8f946c173e2f80d248be68fa96f278de32654b86f67b4b5267d",
+   "source": "https://raw.githubusercontent.com/ros/rosdistro/master/rosdep/base.yaml"
+  },
+  "rosdep_python.yaml": {
+   "bytes": 175047,
+   "sha256": "e3294759603a7430323b6717e23913c945832aa1a00ed93856cb21f641a845f3",
+   "source": "https://raw.githubusercontent.com/ros/rosdistro/master/rosdep/python.yaml"
+  },
+  "rosdep_ruby.yaml": {
+   "bytes": 2233,
+   "sha256": "0beda9b7528c4d88d2a4acead61dd019075f76f052dd7b4d978f94561341c65a",
+   "source": "https://raw.githubusercontent.com/ros/rosdistro/master/rosdep/ruby.yaml"
+  }
+ },
+ "history_seconds": {
+  "arduino": 5.29,
+  "micropython": 3.65,
+  "ros2": 9.7
+ },
+ "micropython": {
+  "lib_head": "90028be0829c6e988b5e239b28f39fb91b6b20e2",
+  "names": 129
+ },
+ "ros2": {
+  "packages": 2962,
+  "registry_head": "cb8cf5e304f1e5ab1323e45a55a84e11bf23b9e3",
+  "rosdep_keys": 2156
+ }
+}

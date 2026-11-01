@@ -1,0 +1,8 @@
+# Analysis, tests and the reproduction check (make test, make check-masked), at the versions the
+# paper's numbers were produced with. Word version and replay: see README.md, "Requirements".
+PyYAML==6.0.3
+numpy==2.5.3
+matplotlib==3.11.2
+packaging==26.3
+catkin_pkg==1.1.1
+openpyxl==3.1.5

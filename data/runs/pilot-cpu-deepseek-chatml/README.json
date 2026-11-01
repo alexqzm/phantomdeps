@@ -1,0 +1,7 @@
+{
+ "run_id": "pilot-cpu-deepseek-chatml",
+ "note": "DeepSeek-Coder 1.3B answers of pilot-cpu-2026-10 generated with llama.cpp's ChatML fallback (the GGUF carries no chat template); replaced by answers in the model's own format (built-in 'deepseek' template). Kept for transparency; not analysed.",
+ "answers": 126,
+ "greedy_answers": 96,
+ "moved_at": "2026-10-24T18:05:44Z"
+}

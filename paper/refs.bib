@@ -1,0 +1,509 @@
+% Every entry below was checked against an authority on 2026-10-23:
+% Crossref (DOI), arXiv API, the publisher page (USENIX), the PDF in the
+% project library, or the official web page (grey literature).
+% The lookup results are kept in refs_verification.json and
+% refs_crossref_search.json; see VERIFICATION.md.
+
+
+% IEEE reference style: more than six authors -> first author et al.
+@IEEEtranBSTCTL{IEEEexample:BSTcontrol,
+  CTLuse_forced_etal       = "yes",
+  CTLmax_names_forced_etal = "6",
+  CTLnames_show_etal       = "1"
+}
+
+@inproceedings{ladisa2023sok,
+  author    = {Piergiorgio Ladisa and Henrik Plate and Matias Martinez and Olivier Barais},
+  title     = {{SoK}: Taxonomy of Attacks on Open-Source Software Supply Chains},
+  booktitle = {Proc. IEEE Symposium on Security and Privacy (SP)},
+  pages     = {1509--1526},
+  year      = {2023},
+  doi       = {10.1109/SP46215.2023.10179304}
+}
+
+@article{williams2025research,
+  author  = {Laurie Williams and Giacomo Benedetti and Sivana Hamer and Ranindya Paramitha and Imranur Rahman and Mahzabin Tamanna and Greg Tystahl and Nusrat Zahan and Patrick Morrison and Yasemin Acar and Michel Cukier and Christian K{\"a}stner and others},
+  title   = {Research Directions in Software Supply Chain Security},
+  journal = {ACM Transactions on Software Engineering and Methodology},
+  volume  = {34},
+  number  = {5},
+  pages   = {1--38},
+  year    = {2025},
+  doi     = {10.1145/3714464}
+}
+
+@inproceedings{zahan2022weak,
+  author    = {Nusrat Zahan and Thomas Zimmermann and Patrice Godefroid and Brendan Murphy and Chandra Maddila and Laurie Williams},
+  title     = {What are Weak Links in the {npm} Supply Chain?},
+  booktitle = {Proc. 44th Int. Conf. on Software Engineering: Software Engineering in Practice (ICSE-SEIP)},
+  pages     = {331--340},
+  year      = {2022},
+  doi       = {10.1145/3510457.3513044}
+}
+
+@inproceedings{okafor2022sok,
+  author    = {Chinenye Okafor and Taylor R. Schorlemmer and Santiago Torres-Arias and James C. Davis},
+  title     = {{SoK}: Analysis of Software Supply Chain Security by Establishing Secure Design Properties},
+  booktitle = {Proc. ACM Workshop on Software Supply Chain Offensive Research and Ecosystem Defenses (SCORED)},
+  pages     = {15--24},
+  year      = {2022},
+  doi       = {10.1145/3560835.3564556}
+}
+
+@inproceedings{ohm2023sok,
+  author    = {Marc Ohm and Charlene Stuke},
+  title     = {{SoK}: Practical Detection of Software Supply Chain Attacks},
+  booktitle = {Proc. 18th Int. Conf. on Availability, Reliability and Security (ARES)},
+  pages     = {1--11},
+  year      = {2023},
+  doi       = {10.1145/3600160.3600162}
+}
+
+@inproceedings{ohm2020backstabber,
+  author    = {Marc Ohm and Henrik Plate and Arnold Sykosch and Michael Meier},
+  title     = {Backstabber's Knife Collection: A Review of Open Source Software Supply Chain Attacks},
+  booktitle = {Detection of Intrusions and Malware, and Vulnerability Assessment (DIMVA)},
+  series    = {LNCS},
+  pages     = {23--43},
+  year      = {2020},
+  doi       = {10.1007/978-3-030-52683-2_2}
+}
+
+@article{shen2025understanding,
+  author  = {Yijun Shen and Xiang Gao and Hailong Sun and Yu Guo},
+  title   = {Understanding Vulnerabilities in Software Supply Chains},
+  journal = {Empirical Software Engineering},
+  volume  = {30},
+  number  = {1},
+  note    = {Art. no. 20},
+  year    = {2025},
+  doi     = {10.1007/s10664-024-10581-2}
+}
+
+@inproceedings{przymus2025wolves,
+  author    = {Piotr Przymus and Thomas Durieux},
+  title     = {Wolves in the Repository: A Software Engineering Analysis of the {XZ} {Utils} Supply Chain Attack},
+  booktitle = {Proc. IEEE/ACM 22nd Int. Conf. on Mining Software Repositories (MSR)},
+  pages     = {91--102},
+  year      = {2025},
+  doi       = {10.1109/MSR66628.2025.00026}
+}
+
+@inproceedings{hamer2026closing,
+  author    = {Sivana Hamer and Jacob Bowen and Md Nazmul Haque and Robert Hines and Chris Madden and Laurie Williams},
+  title     = {Closing the Chain: How to Reduce Your Risk of Being {SolarWinds}, {Log4j}, or {XZ} {Utils}},
+  booktitle = {Proc. IEEE/ACM 48th Int. Conf. on Software Engineering (ICSE)},
+  pages     = {1841--1853},
+  year      = {2026},
+  doi       = {10.1145/3744916.3773194}
+}
+
+@inproceedings{zimmermann2019small,
+  author    = {Markus Zimmermann and Cristian-Alexandru Staicu and Cam Tenny and Michael Pradel},
+  title     = {Small World with High Risks: A Study of Security Threats in the {npm} Ecosystem},
+  booktitle = {Proc. 28th USENIX Security Symposium},
+  pages     = {995--1010},
+  year      = {2019}
+}
+
+@inproceedings{neupane2023beyond,
+  author    = {Shradha Neupane and Grant Holmes and Elizabeth Wyss and Drew Davidson and Lorenzo {De Carli}},
+  title     = {Beyond Typosquatting: An In-depth Look at Package Confusion},
+  booktitle = {Proc. 32nd USENIX Security Symposium},
+  pages     = {3439--3456},
+  year      = {2023}
+}
+
+@misc{birsan2021,
+  author       = {Alex Birsan},
+  title        = {Dependency Confusion: How {I} Hacked Into {Apple}, {Microsoft} and Dozens of Other Companies},
+  howpublished = {Blog post, \url{https://medium.com/@alex.birsan/dependency-confusion-4a5d60fec610}},
+  month        = feb,
+  year         = {2021}
+}
+
+@inproceedings{pearce2022asleep,
+  author    = {Hammond Pearce and Baleegh Ahmad and Benjamin Tan and Brendan Dolan-Gavitt and Ramesh Karri},
+  title     = {Asleep at the Keyboard? {A}ssessing the Security of {GitHub} {Copilot}'s Code Contributions},
+  booktitle = {Proc. IEEE Symposium on Security and Privacy (SP)},
+  pages     = {754--768},
+  year      = {2022},
+  doi       = {10.1109/SP46214.2022.9833571}
+}
+
+@misc{liu2024hallucination,
+  author       = {Fang Liu and Yang Liu and Lin Shi and Zhen Yang and Li Zhang and Xiaoli Lian and Zhongqi Li and Yuchi Ma},
+  title        = {Beyond Functional Correctness: Exploring Hallucinations in {LLM}-Generated Code},
+  howpublished = {arXiv:2404.00971},
+  year         = {2024}
+}
+
+@inproceedings{spracklen2025package,
+  author    = {Joseph Spracklen and Raveen Wijewickrama and A. H. M. Nazmus Sakib and Anindya Maiti and Bimal Viswanath and Murtuza Jadliwala},
+  title     = {We Have a Package for You! {A} Comprehensive Analysis of Package Hallucinations by Code Generating {LLMs}},
+  booktitle = {Proc. 34th USENIX Security Symposium},
+  pages     = {3687--3706},
+  year      = {2025}
+}
+
+@misc{krishna2025phantoms,
+  author       = {Arjun Krishna and Erick Galinkin and Leon Derczynski and Jeffrey Martin},
+  title        = {Importing Phantoms: Measuring {LLM} Package Hallucination Vulnerabilities},
+  howpublished = {arXiv:2501.19012},
+  year         = {2025}
+}
+
+@misc{churilov2026range,
+  author       = {Aleksandr Churilov},
+  title        = {The Range Shrinks, the Threat Remains: Re-evaluating {LLM} Package Hallucinations on the 2026 Frontier-Model Cohort},
+  howpublished = {arXiv:2605.17062},
+  year         = {2026}
+}
+
+@inproceedings{zhao2025hfuzzer,
+  author    = {Yukai Zhao and Menghan Wu and Xing Hu and Xin Xia},
+  title     = {{HFUZZER}: Testing Large Language Models for Package Hallucinations via Phrase-based Fuzzing},
+  booktitle = {Proc. 40th IEEE/ACM Int. Conf. on Automated Software Engineering (ASE)},
+  year      = {2025}
+}
+
+@misc{lanyado2024,
+  author       = {Bar Lanyado},
+  title        = {Diving into {AI} Package Hallucinations},
+  howpublished = {Lasso Security research blog, \url{https://www.lasso.security/blog/ai-package-hallucinations}},
+  month        = mar,
+  year         = {2024}
+}
+
+@inproceedings{hu2025llmsc,
+  author    = {Qiang Hu and Xiaofei Xie and Sen Chen and Lili Quan and Lei Ma},
+  title     = {Large Language Model Supply Chain: Open Problems from the Security Perspective},
+  booktitle = {Proc. 34th ACM SIGSOFT Int. Symp. on Software Testing and Analysis (ISSTA Companion)},
+  pages     = {169--173},
+  year      = {2025},
+  doi       = {10.1145/3713081.3731747}
+}
+
+@misc{cheng2024dated,
+  author       = {Jeffrey Cheng and Marc Marone and Orion Weller and Dawn Lawrie and Daniel Khashabi and Benjamin {Van Durme}},
+  title        = {Dated Data: Tracing Knowledge Cutoffs in Large Language Models},
+  howpublished = {arXiv:2403.12958},
+  year         = {2024}
+}
+
+@misc{hui2024qwen25coder,
+  author       = {Binyuan Hui and Jian Yang and Zeyu Cui and Jiaxi Yang and Dayiheng Liu and Lei Zhang and Tianyu Liu and Jiajun Zhang and Bowen Yu and Keming Lu and others},
+  title        = {{Qwen2.5-Coder} Technical Report},
+  howpublished = {arXiv:2409.12186},
+  year         = {2024}
+}
+
+@misc{granite33,
+  author       = {{IBM Granite Team}},
+  title        = {{Granite-3.3-8B-Instruct} Model Card},
+  howpublished = {\url{https://huggingface.co/ibm-granite/granite-3.3-8b-instruct}},
+  year         = {2025}
+}
+
+@misc{guo2024deepseekcoder,
+  author       = {Daya Guo and Qihao Zhu and Dejian Yang and Zhenda Xie and Kai Dong and Wentao Zhang and Guanting Chen and Xiao Bi and Y. Wu and Y. K. Li and others},
+  title        = {{DeepSeek-Coder}: When the Large Language Model Meets Programming -- The Rise of Code Intelligence},
+  howpublished = {arXiv:2401.14196},
+  year         = {2024}
+}
+
+@misc{abdin2024phi3,
+  author       = {Marah Abdin and Jyoti Aneja and Hany Awadalla and Ahmed Awadallah and Ammar Ahmad Awan and others},
+  title        = {{Phi-3} Technical Report: A Highly Capable Language Model Locally on Your Phone},
+  howpublished = {arXiv:2404.14219},
+  year         = {2024}
+}
+
+@misc{grattafiori2024llama3,
+  author       = {Aaron Grattafiori and others},
+  title        = {The {Llama} 3 Herd of Models},
+  howpublished = {arXiv:2407.21783},
+  year         = {2024}
+}
+
+@inproceedings{samuel2010tuf,
+  author    = {Justin Samuel and Nick Mathewson and Justin Cappos and Roger Dingledine},
+  title     = {Survivable Key Compromise in Software Update Systems},
+  booktitle = {Proc. 17th ACM Conf. on Computer and Communications Security (CCS)},
+  pages     = {61--72},
+  year      = {2010},
+  doi       = {10.1145/1866307.1866315}
+}
+
+@inproceedings{kuppusamy2016uptane,
+  author    = {Trishank Karthik Kuppusamy and Akan Brown and Sebastien Awwad and Damon McCoy and Russ Bielawski and Cameron Mott and Sam Lauzon and Andr{\'e} Weimerskirch and Justin Cappos},
+  title     = {Uptane: Securing Software Updates for Automobiles},
+  booktitle = {Proc. 14th escar Europe},
+  year      = {2016}
+}
+
+@inproceedings{torresarias2019intoto,
+  author    = {Santiago Torres-Arias and Hammad Afzali and Trishank Karthik Kuppusamy and Reza Curtmola and Justin Cappos},
+  title     = {in-toto: Providing Farm-to-Table Guarantees for Bits and Bytes},
+  booktitle = {Proc. 28th USENIX Security Symposium},
+  pages     = {1393--1410},
+  year      = {2019}
+}
+
+@inproceedings{newman2022sigstore,
+  author    = {Zachary Newman and John Speed Meyers and Santiago Torres-Arias},
+  title     = {Sigstore: Software Signing for Everybody},
+  booktitle = {Proc. ACM SIGSAC Conf. on Computer and Communications Security (CCS)},
+  pages     = {2353--2367},
+  year      = {2022},
+  doi       = {10.1145/3548606.3560596}
+}
+
+@inproceedings{kalu2025signing,
+  author    = {Kelechi G. Kalu and Tanmay Singla and Chinenye Okafor and Santiago Torres-Arias and James C. Davis},
+  title     = {An Industry Interview Study of Software Signing for Supply Chain Security},
+  booktitle = {Proc. 34th USENIX Security Symposium},
+  pages     = {81--100},
+  year      = {2025}
+}
+
+@inproceedings{amusuo2025ztd,
+  author    = {Paschal C. Amusuo and Kyle A. Robinson and Tanmay Singla and Huiyun Peng and Aravind Machiry and Santiago Torres-Arias and Laurent Simon and James C. Davis},
+  title     = {{ZTD$_{\mathit{JAVA}}$}: Mitigating Software Supply Chain Vulnerabilities via Zero-Trust Dependencies},
+  booktitle = {Proc. IEEE/ACM 47th Int. Conf. on Software Engineering (ICSE)},
+  pages     = {1294--1306},
+  year      = {2025},
+  doi       = {10.1109/ICSE55347.2025.00148}
+}
+
+@inproceedings{yeboah2019bbn,
+  author    = {Abel Yeboah-Ofori and Shareeful Islam and Allan Brimicombe},
+  title     = {Detecting Cyber Supply Chain Attacks on Cyber Physical Systems Using {Bayesian} Belief Network},
+  booktitle = {Proc. Int. Conf. on Cyber Security and Internet of Things (ICSIoT)},
+  pages     = {37--42},
+  year      = {2019},
+  doi       = {10.1109/ICSIoT47925.2019.00014}
+}
+
+@inproceedings{frigault2008,
+  author    = {Marcel Frigault and Lingyu Wang and Anoop Singhal and Sushil Jajodia},
+  title     = {Measuring Network Security Using Dynamic {Bayesian} Network},
+  booktitle = {Proc. 4th ACM Workshop on Quality of Protection (QoP)},
+  pages     = {23--30},
+  year      = {2008},
+  doi       = {10.1145/1456362.1456368}
+}
+
+@misc{anon2026evidence,
+  author       = {{Anonymous}},
+  title        = {Under submission. {Details} omitted for double-blind reviewing},
+  year         = {2026}
+}
+
+@misc{cordey2023,
+  author       = {Sean Cordey},
+  title        = {Software Supply Chain Attacks: An Illustrated Typological Review},
+  howpublished = {CSS Cyberdefense Reports, Center for Security Studies, ETH Z{\"u}rich},
+  year         = {2023},
+  doi          = {10.3929/ethz-b-000584947}
+}
+
+@techreport{nist800161r1,
+  author      = {Jon Boyens and others},
+  title       = {Cybersecurity Supply Chain Risk Management Practices for Systems and Organizations},
+  institution = {National Institute of Standards and Technology},
+  type        = {NIST Special Publication},
+  number      = {800-161r1-upd1},
+  month       = nov,
+  year        = {2024},
+  doi         = {10.6028/NIST.SP.800-161r1-upd1}
+}
+
+@techreport{nist800218,
+  author      = {Murugiah Souppaya and Karen Scarfone and Donna Dodson},
+  title       = {Secure Software Development Framework ({SSDF}) Version 1.1},
+  institution = {National Institute of Standards and Technology},
+  type        = {NIST Special Publication},
+  number      = {800-218},
+  year        = {2022},
+  doi         = {10.6028/NIST.SP.800-218}
+}
+
+@misc{iec62443-4-1,
+  author       = {{International Electrotechnical Commission}},
+  title        = {{IEC 62443-4-1:2018 Security for Industrial Automation and Control Systems -- Part 4-1: Secure Product Development Lifecycle Requirements}},
+  howpublished = {International Standard},
+  year         = {2018}
+}
+
+@misc{eucra2024,
+  author       = {{European Parliament and Council of the European Union}},
+  title        = {Regulation ({EU}) 2024/2847 on Horizontal Cybersecurity Requirements for Products with Digital Elements ({Cyber Resilience Act})},
+  howpublished = {Official Journal of the European Union},
+  month        = nov,
+  year         = {2024}
+}
+
+@misc{slsa11,
+  author       = {{OpenSSF}},
+  title        = {{SLSA} Specification v1.1},
+  howpublished = {\url{https://slsa.dev/spec/v1.1/}},
+  month        = apr,
+  year         = {2025}
+}
+
+@misc{arduinoregistry,
+  author       = {{Arduino}},
+  title        = {{Arduino Library Manager Registry: Submission Process}},
+  howpublished = {\url{https://github.com/arduino/library-registry}},
+  year         = {2026}
+}
+
+@misc{arduinolint,
+  author       = {{Arduino}},
+  title        = {{Arduino Lint}: Library Rules},
+  howpublished = {\url{https://arduino.github.io/arduino-lint/1.3/rules/library}},
+  year         = {2026}
+}
+
+@misc{arduinolibspec,
+  author       = {{Arduino}},
+  title        = {{Library Specification}},
+  howpublished = {\url{https://docs.arduino.cc/arduino-cli/library-specification/}},
+  year         = {2026}
+}
+
+@misc{piodeps,
+  author       = {{PlatformIO}},
+  title        = {{PlatformIO Library Manager: Dependency Management}},
+  howpublished = {\url{https://docs.platformio.org/en/latest/librarymanager/dependencies.html}},
+  year         = {2026}
+}
+
+@misc{espcm,
+  author       = {{Espressif Systems}},
+  title        = {{IDF Component Manager: Manifest File Reference}},
+  howpublished = {\url{https://docs.espressif.com/projects/idf-component-manager/}},
+  year         = {2026}
+}
+
+@misc{rosdistro,
+  author       = {{Open Robotics}},
+  title        = {{rosdistro: Review Guidelines}},
+  howpublished = {\url{https://github.com/ros/rosdistro/blob/master/REVIEW_GUIDELINES.md}},
+  year         = {2026}
+}
+
+@misc{llamacpp,
+  author       = {{ggml-org}},
+  title        = {llama.cpp: {LLM} Inference in {C/C++}},
+  howpublished = {\url{https://github.com/ggml-org/llama.cpp}, commit 06230cb},
+  year         = {2026}
+}
+
+@article{wilson1927,
+  author  = {Edwin B. Wilson},
+  title   = {Probable Inference, the Law of Succession, and Statistical Inference},
+  journal = {Journal of the American Statistical Association},
+  volume  = {22},
+  number  = {158},
+  pages   = {209--212},
+  year    = {1927},
+  doi     = {10.1080/01621459.1927.10502953}
+}
+
+@article{field2007bootstrap,
+  author  = {C. A. Field and A. H. Welsh},
+  title   = {Bootstrapping Clustered Data},
+  journal = {Journal of the Royal Statistical Society: Series B (Statistical Methodology)},
+  volume  = {69},
+  number  = {3},
+  pages   = {369--390},
+  year    = {2007},
+  doi     = {10.1111/j.1467-9868.2007.00593.x}
+}
+
+@misc{zheng2026crates,
+  author       = {Jieming Zheng and Hao Guan and Yepang Liu},
+  title        = {When {LLMs} Invent {Rust} Crates: An Empirical Study of Hallucination Patterns and Mitigation},
+  howpublished = {arXiv:2606.08444},
+  year         = {2026}
+}
+
+@misc{liu2026packmonitor,
+  author       = {Xiting Liu and Yuetong Liu and Yitong Zhang and Jia Li and Shi-Min Hu},
+  title        = {{PackMonitor}: Enabling Zero Package Hallucinations Through Decoding-Time Monitoring},
+  howpublished = {arXiv:2602.20717},
+  year         = {2026}
+}
+
+@misc{npmconfig,
+  author       = {{npm, Inc.}},
+  title        = {{npm docs: options \texttt{before} and \texttt{min-release-age}}},
+  howpublished = {\url{https://docs.npmjs.com/cli/v11/using-npm/config}},
+  year         = {2026}
+}
+
+@misc{uvresolution,
+  author       = {{Astral}},
+  title        = {{uv docs: resolution, \texttt{--exclude-newer}}},
+  howpublished = {\url{https://docs.astral.sh/uv/concepts/resolution/}},
+  year         = {2026}
+}
+
+@misc{cratesiocanon,
+  author       = {{crates.io}},
+  title        = {{Source code: canonical-name index and crate-name validation}},
+  howpublished = {\url{https://github.com/rust-lang/crates.io}, commit 554bc83},
+  year         = {2026}
+}
+
+@misc{npmnames,
+  author       = {{npm, Inc.}},
+  title        = {{npm docs: the \texttt{name} field of \texttt{package.json}}},
+  howpublished = {\url{https://docs.npmjs.com/cli/v11/configuring-npm/package-json}},
+  year         = {2026}
+}
+
+@misc{npmmoniker,
+  author       = {{npm, Inc.}},
+  title        = {{New package moniker rules}},
+  howpublished = {npm blog, \url{https://blog.npmjs.org/post/168978377570/new-package-moniker-rules}},
+  month        = dec,
+  year         = {2017}
+}
+
+@misc{yang2025qwen3,
+  author       = {An Yang and others},
+  title        = {{Qwen3} Technical Report},
+  howpublished = {arXiv:2505.09388},
+  year         = {2025}
+}
+
+@misc{gemmateam2025gemma3,
+  author       = {{Gemma Team}},
+  title        = {{Gemma} 3 Technical Report},
+  howpublished = {arXiv:2503.19786},
+  year         = {2025}
+}
+
+@misc{abdin2024phi4,
+  author       = {Marah Abdin and others},
+  title        = {{Phi-4} Technical Report},
+  howpublished = {arXiv:2412.08905},
+  year         = {2024}
+}
+
+@misc{deepseek2024coderv2,
+  author       = {{DeepSeek-AI} and others},
+  title        = {{DeepSeek-Coder-V2}: Breaking the Barrier of Closed-Source Models in Code Intelligence},
+  howpublished = {arXiv:2406.11931},
+  year         = {2024}
+}
+
+@misc{openai2025gptoss,
+  author       = {{OpenAI}},
+  title        = {{gpt-oss-120b} \& {gpt-oss-20b} Model Card},
+  howpublished = {arXiv:2508.10925},
+  year         = {2025}
+}

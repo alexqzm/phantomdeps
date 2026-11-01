@@ -1,0 +1,1027 @@
+{
+ "generated_at": "2026-10-28T09:56:22Z",
+ "run_ids": [
+  "study-ollama-2027"
+ ],
+ "items": [
+  {
+   "eco": "arduino",
+   "name": "A4988",
+   "kind": "post-horizon match",
+   "canonical": "A4988",
+   "model_id": "deepseek-coder-6.7b",
+   "horizon": "2023-10-29T11:30:13Z",
+   "record": {
+    "tau_lo": "2025-07-02T16:53:30Z",
+    "tau_hi": "2025-07-02T16:53:30Z",
+    "source": "arduino:registry_log_first_added"
+   },
+   "registry": {
+    "repository": "https://github.com/k-off/A4988",
+    "versions": 1,
+    "same_name_up_to_separators": {}
+   },
+   "project": {
+    "url": "https://github.com/k-off/A4988",
+    "n_commits": 10,
+    "first_commit": {
+     "sha": "ad28a48bca7d46bac059b545adcd6c4dc67829b6",
+     "author_date": "2025-07-02T14:06:45+02:00",
+     "committer_date": "2025-07-02T14:06:45+02:00"
+    },
+    "first_tag": {
+     "tag": "v1.0.0",
+     "date": "2025-07-02T18:04:48+02:00"
+    },
+    "earliest_author_date": "2025-07-02T14:06:45+02:00"
+   }
+  },
+  {
+   "eco": "arduino",
+   "name": "LiquidCrystal_I2C",
+   "kind": "post-horizon match",
+   "canonical": "LiquidCrystal_I2C",
+   "model_id": "deepseek-coder-6.7b",
+   "horizon": "2023-10-29T11:30:13Z",
+   "record": {
+    "tau_lo": "2025-07-13T20:20:31Z",
+    "tau_hi": "2025-07-13T20:20:31Z",
+    "source": "arduino:registry_log_first_added"
+   },
+   "registry": {
+    "repository": "https://github.com/markub3327/LiquidCrystal_I2C",
+    "versions": 1,
+    "same_name_up_to_separators": {
+     "LiquidCrystal I2C": {
+      "repository": "https://github.com/johnrickman/LiquidCrystal_I2C.git",
+      "registry_first": "2021-04-08T20:45:49-07:00",
+      "initial_import": true,
+      "versions": 2
+     }
+    }
+   },
+   "project": {
+    "url": "https://github.com/markub3327/LiquidCrystal_I2C",
+    "n_commits": 44,
+    "first_commit": {
+     "sha": "173196c9e68a47addc19da81292839476795ac47",
+     "author_date": "2015-08-20T07:50:42+02:00",
+     "committer_date": "2015-08-20T07:50:42+02:00"
+    },
+    "first_tag": {
+     "tag": "2.0.0",
+     "date": "2025-07-13T22:26:26+02:00"
+    },
+    "earliest_author_date": "2015-08-20T07:50:42+02:00"
+   }
+  },
+  {
+   "eco": "arduino",
+   "name": "ModbusRTU",
+   "kind": "post-horizon match",
+   "canonical": "ModbusRTU",
+   "model_id": "qwen2.5-coder-32b",
+   "horizon": "2024-11-10T09:35:03Z",
+   "record": {
+    "tau_lo": "2025-05-22T15:47:23Z",
+    "tau_hi": "2025-05-22T15:47:23Z",
+    "source": "arduino:registry_log_first_added"
+   },
+   "registry": {
+    "repository": "https://github.com/peto-3210/ModbusRTU",
+    "versions": 6,
+    "same_name_up_to_separators": {
+     "modbusrtu": {
+      "repository": "https://github.com/zimbora/esp32-ModbusRTU.git",
+      "registry_first": "2023-10-23T16:54:56+00:00",
+      "initial_import": false,
+      "versions": 2
+     }
+    }
+   },
+   "project": {
+    "url": "https://github.com/peto-3210/ModbusRTU",
+    "n_commits": 12,
+    "first_commit": {
+     "sha": "0418d78b549310da805f8aeaa3e69bbe9e98b0df",
+     "author_date": "2025-05-22T16:50:50+02:00",
+     "committer_date": "2025-05-22T16:50:50+02:00"
+    },
+    "first_tag": {
+     "tag": "1.0.0",
+     "date": "2025-05-22T17:38:59+02:00"
+    },
+    "earliest_author_date": "2025-05-22T16:50:50+02:00"
+   }
+  },
+  {
+   "eco": "arduino",
+   "name": "SSD1306",
+   "kind": "post-horizon match",
+   "canonical": "SSD1306",
+   "model_id": "deepseek-coder-6.7b",
+   "horizon": "2023-10-29T11:30:13Z",
+   "record": {
+    "tau_lo": "2025-10-04T12:28:51Z",
+    "tau_hi": "2025-10-04T12:28:51Z",
+    "source": "arduino:registry_log_first_added"
+   },
+   "registry": {
+    "repository": "https://github.com/vkumpan/SSD1306",
+    "versions": 6,
+    "same_name_up_to_separators": {
+     "ssd1306": {
+      "repository": "https://github.com/lexus2k/ssd1306.git",
+      "registry_first": "2021-04-08T20:45:49-07:00",
+      "initial_import": true,
+      "versions": 51
+     }
+    }
+   },
+   "project": {
+    "url": "https://github.com/vkumpan/SSD1306",
+    "n_commits": 13,
+    "first_commit": {
+     "sha": "367be9d577f740dacb6a51a5a5ab2e5a6dc7e614",
+     "author_date": "2025-10-04T14:27:54+03:00",
+     "committer_date": "2025-10-04T14:27:54+03:00"
+    },
+    "first_tag": {
+     "tag": "v1.0.0",
+     "date": "2025-10-04T14:27:54+03:00"
+    },
+    "earliest_author_date": "2025-10-04T14:27:54+03:00"
+   }
+  },
+  {
+   "eco": "crates",
+   "name": "can-bus",
+   "kind": "post-horizon match",
+   "canonical": "can-bus",
+   "model_id": "qwen2.5-coder-1.5b",
+   "horizon": "2024-09-18T12:38:14Z",
+   "record": {
+    "tau_lo": "2025-05-30T17:23:40Z",
+    "tau_hi": "2025-05-30T17:23:40Z",
+    "source": "crates:min_pubtime"
+   },
+   "registry": {
+    "deps_dev": {
+     "n_versions": 1,
+     "earliest_published": "2025-05-30T17:23:40Z",
+     "error": null
+    },
+    "repository": null
+   }
+  },
+  {
+   "eco": "crates",
+   "name": "embedded-hal-sdmmc",
+   "kind": "post-horizon match",
+   "canonical": "embedded-hal-sdmmc",
+   "model_id": "qwen2.5-coder-1.5b",
+   "horizon": "2024-09-18T12:38:14Z",
+   "record": {
+    "tau_lo": "2025-06-04T01:04:48Z",
+    "tau_hi": "2025-06-04T01:04:48Z",
+    "source": "crates:min_pubtime"
+   },
+   "registry": {
+    "deps_dev": {
+     "n_versions": 3,
+     "earliest_published": "2025-06-04T01:04:48Z",
+     "error": null
+    },
+    "repository": null
+   }
+  },
+  {
+   "eco": "crates",
+   "name": "flash",
+   "kind": "post-horizon match",
+   "canonical": "flash",
+   "model_id": "qwen3-8b",
+   "horizon": "2025-04-28T06:31:52Z",
+   "record": {
+    "tau_lo": "2025-05-21T10:25:38Z",
+    "tau_hi": "2025-05-21T10:25:38Z",
+    "source": "crates:min_pubtime"
+   },
+   "registry": {
+    "deps_dev": {
+     "n_versions": 6,
+     "earliest_published": "2025-05-21T10:25:38Z",
+     "error": null
+    },
+    "repository": null
+   }
+  },
+  {
+   "eco": "crates",
+   "name": "modbus-rs",
+   "kind": "post-horizon match",
+   "canonical": "modbus-rs",
+   "model_id": "qwen2.5-coder-1.5b",
+   "horizon": "2024-09-18T12:38:14Z",
+   "record": {
+    "tau_lo": "2026-02-17T07:06:59Z",
+    "tau_hi": "2026-02-17T07:06:59Z",
+    "source": "crates:min_pubtime"
+   },
+   "registry": {
+    "deps_dev": {
+     "n_versions": 16,
+     "earliest_published": "2026-02-17T07:06:59Z",
+     "error": null
+    },
+    "repository": "https://github.com/Raghava-Ch/modbus-rs"
+   },
+   "project": {
+    "url": "https://github.com/Raghava-Ch/modbus-rs",
+    "n_commits": 710,
+    "first_commit": {
+     "sha": "c7353278c87bedd3cb90357c8aa0d698b656197a",
+     "author_date": "2026-02-16T12:18:05+05:30",
+     "committer_date": "2026-02-16T12:18:05+05:30"
+    },
+    "first_tag": {
+     "tag": "v0.2.0",
+     "date": "2026-03-24T22:48:39+05:30"
+    },
+    "earliest_author_date": "2026-02-16T12:18:05+05:30"
+   }
+  },
+  {
+   "eco": "crates",
+   "name": "modbus-rtu",
+   "kind": "post-horizon match",
+   "canonical": "modbus-rtu",
+   "model_id": "llama3.1-8b",
+   "horizon": "2024-07-18T08:58:51Z",
+   "record": {
+    "tau_lo": "2024-09-12T07:42:37Z",
+    "tau_hi": "2024-09-12T07:42:37Z",
+    "source": "crates:min_pubtime"
+   },
+   "registry": {
+    "deps_dev": {
+     "n_versions": 24,
+     "earliest_published": "2024-09-12T07:42:37Z",
+     "error": null
+    },
+    "repository": null
+   }
+  },
+  {
+   "eco": "crates",
+   "name": "name",
+   "kind": "post-horizon match",
+   "canonical": "name",
+   "model_id": "granite3.3-8b",
+   "horizon": "2025-04-09T12:37:17Z",
+   "record": {
+    "tau_lo": "2025-12-08T05:12:09Z",
+    "tau_hi": "2025-12-08T05:12:09Z",
+    "source": "crates:min_pubtime"
+   },
+   "registry": {
+    "deps_dev": {
+     "n_versions": 2,
+     "earliest_published": "2025-12-08T05:12:09Z",
+     "error": null
+    },
+    "repository": "https://github.com/factordynamics/name"
+   },
+   "project": {
+    "url": "https://github.com/factordynamics/name",
+    "n_commits": 17,
+    "first_commit": {
+     "sha": "a839568ad023ac5bc35fa03180b0ad19f38b1c5f",
+     "author_date": "2025-12-07T17:06:09-05:00",
+     "committer_date": "2025-12-07T17:06:09-05:00"
+    },
+    "first_tag": null,
+    "earliest_author_date": "2025-12-07T17:06:09-05:00"
+   }
+  },
+  {
+   "eco": "crates",
+   "name": "rpp",
+   "kind": "post-horizon match",
+   "canonical": "rpp",
+   "model_id": "llama3.2-3b",
+   "horizon": "2024-09-18T15:22:05Z",
+   "record": {
+    "tau_lo": "2026-09-16T20:10:26Z",
+    "tau_hi": "2026-09-16T20:10:26Z",
+    "source": "crates:min_pubtime"
+   },
+   "registry": {
+    "deps_dev": {
+     "n_versions": 4,
+     "earliest_published": "2026-09-16T20:10:26Z",
+     "error": null
+    },
+    "repository": null
+   }
+  },
+  {
+   "eco": "crates",
+   "name": "stm32f1-hal",
+   "kind": "post-horizon match",
+   "canonical": "stm32f1-hal",
+   "model_id": "granite3.3-8b",
+   "horizon": "2025-04-09T12:37:17Z",
+   "record": {
+    "tau_lo": "2025-08-24T21:12:36Z",
+    "tau_hi": "2025-08-24T21:12:36Z",
+    "source": "crates:min_pubtime"
+   },
+   "registry": {
+    "deps_dev": {
+     "n_versions": 34,
+     "earliest_published": "2025-08-24T21:12:36Z",
+     "error": null
+    },
+    "repository": "https://github.com/mcu-rust/stm32f1-hal"
+   },
+   "project": {
+    "url": "https://github.com/mcu-rust/stm32f1-hal",
+    "n_commits": 202,
+    "first_commit": {
+     "sha": "f044c7e6a14139a96120430428469a4a340df57c",
+     "author_date": "2025-08-13T23:19:17-05:00",
+     "committer_date": "2025-08-13T23:21:20-05:00"
+    },
+    "first_tag": {
+     "tag": "v0.0.2",
+     "date": "2025-08-24T16:38:24-05:00"
+    },
+    "earliest_author_date": "2025-08-13T23:19:17-05:00"
+   }
+  },
+  {
+   "eco": "crates",
+   "name": "sx127x",
+   "kind": "post-horizon match",
+   "canonical": "sx127x",
+   "model_id": "qwen2.5-coder-7b",
+   "horizon": "2024-09-17T16:13:45Z",
+   "record": {
+    "tau_lo": "2026-03-07T14:36:46Z",
+    "tau_hi": "2026-03-07T14:36:46Z",
+    "source": "crates:min_pubtime"
+   },
+   "registry": {
+    "deps_dev": {
+     "n_versions": 1,
+     "earliest_published": "2026-03-07T14:36:46Z",
+     "error": null
+    },
+    "repository": "https://github.com/ardentTech/sx127x"
+   },
+   "project": {
+    "url": "https://github.com/ardentTech/sx127x",
+    "n_commits": 86,
+    "first_commit": {
+     "sha": "e292eda63bc311dcc0df4492907d9d1430620204",
+     "author_date": "2026-05-16T20:24:05-06:00",
+     "committer_date": "2026-05-16T20:24:05-06:00"
+    },
+    "first_tag": {
+     "tag": "common-v0.3.0",
+     "date": "2026-05-17T16:38:02-06:00"
+    },
+    "earliest_author_date": "2026-05-16T20:24:05-06:00"
+   }
+  },
+  {
+   "eco": "crates",
+   "name": "systime",
+   "kind": "post-horizon match",
+   "canonical": "systime",
+   "model_id": "llama3.2-3b",
+   "horizon": "2024-09-18T15:22:05Z",
+   "record": {
+    "tau_lo": "2025-10-15T03:49:40Z",
+    "tau_hi": "2025-10-15T03:49:40Z",
+    "source": "crates:min_pubtime"
+   },
+   "registry": {
+    "deps_dev": {
+     "n_versions": 3,
+     "earliest_published": "2025-10-15T03:49:40Z",
+     "error": null
+    },
+    "repository": "https://github.com/sameer/systime"
+   },
+   "project": {
+    "url": "https://github.com/sameer/systime",
+    "n_commits": 13,
+    "first_commit": {
+     "sha": "1edde8fcd92b4e1cb221e67cd6f67da43b46c73e",
+     "author_date": "2025-10-14T20:17:43-07:00",
+     "committer_date": "2025-10-14T20:48:35-07:00"
+    },
+    "first_tag": null,
+    "earliest_author_date": "2025-10-14T20:17:43-07:00"
+   }
+  },
+  {
+   "eco": "crates",
+   "name": "usb-serial",
+   "kind": "post-horizon match",
+   "canonical": "usb-serial",
+   "model_id": "llama3.1-8b",
+   "horizon": "2024-07-18T08:58:51Z",
+   "record": {
+    "tau_lo": "2026-06-26T06:41:47Z",
+    "tau_hi": "2026-06-26T06:41:47Z",
+    "source": "crates:min_pubtime"
+   },
+   "registry": {
+    "deps_dev": {
+     "n_versions": 5,
+     "earliest_published": "2026-06-26T06:41:47Z",
+     "error": null
+    },
+    "repository": "https://github.com/rcore-os/tgoskits"
+   },
+   "project": {
+    "url": "https://github.com/rcore-os/tgoskits",
+    "n_commits": 9274,
+    "first_commit": {
+     "sha": "bc8b038fd16ad1522749ba724f7be1e6ac7251c4",
+     "author_date": "2016-12-10T09:23:40+00:00",
+     "committer_date": "2016-12-10T09:55:45+00:00"
+    },
+    "first_tag": {
+     "tag": "container-test-20260313-01",
+     "date": "2026-03-13T13:11:58+08:00"
+    },
+    "earliest_author_date": "2016-12-10T09:23:40+00:00"
+   }
+  },
+  {
+   "eco": "espidf",
+   "name": "BME280",
+   "kind": "post-horizon match",
+   "canonical": "espressif/bme280",
+   "model_id": "deepseek-coder-6.7b",
+   "horizon": "2023-10-29T11:30:13Z",
+   "record": {
+    "tau_lo": "2024-11-07T09:09:44Z",
+    "tau_hi": "2024-11-07T09:09:44Z",
+    "source": "espidf:created_at"
+   },
+   "registry": {}
+  },
+  {
+   "eco": "espidf",
+   "name": "bme280",
+   "kind": "post-horizon match",
+   "canonical": "espressif/bme280",
+   "model_id": "qwen2.5-coder-14b",
+   "horizon": "2024-11-06T09:43:39Z",
+   "record": {
+    "tau_lo": "2024-11-07T09:09:44Z",
+    "tau_hi": "2024-11-07T09:09:44Z",
+    "source": "espidf:created_at"
+   },
+   "registry": {}
+  },
+  {
+   "eco": "espidf",
+   "name": "cJSON",
+   "kind": "post-horizon match",
+   "canonical": "espressif/cjson",
+   "model_id": "deepseek-coder-6.7b",
+   "horizon": "2023-10-29T11:30:13Z",
+   "record": {
+    "tau_lo": "2025-10-06T08:03:13Z",
+    "tau_hi": "2025-10-06T08:03:13Z",
+    "source": "espidf:created_at"
+   },
+   "registry": {}
+  },
+  {
+   "eco": "espidf",
+   "name": "cjson",
+   "kind": "post-horizon match",
+   "canonical": "espressif/cjson",
+   "model_id": "qwen2.5-coder-32b",
+   "horizon": "2024-11-10T09:35:03Z",
+   "record": {
+    "tau_lo": "2025-10-06T08:03:13Z",
+    "tau_hi": "2025-10-06T08:03:13Z",
+    "source": "espidf:created_at"
+   },
+   "registry": {}
+  },
+  {
+   "eco": "espidf",
+   "name": "mqtt",
+   "kind": "post-horizon match",
+   "canonical": "espressif/mqtt",
+   "model_id": "qwen2.5-coder-14b",
+   "horizon": "2024-11-06T09:43:39Z",
+   "record": {
+    "tau_lo": "2025-09-25T06:34:55Z",
+    "tau_hi": "2025-09-25T06:34:55Z",
+    "source": "espidf:created_at"
+   },
+   "registry": {}
+  },
+  {
+   "eco": "espidf",
+   "name": "usb",
+   "kind": "post-horizon match",
+   "canonical": "espressif/usb",
+   "model_id": "qwen2.5-coder-32b",
+   "horizon": "2024-11-10T09:35:03Z",
+   "record": {
+    "tau_lo": "2025-09-02T10:00:42Z",
+    "tau_hi": "2025-09-02T10:00:42Z",
+    "source": "espidf:created_at"
+   },
+   "registry": {}
+  },
+  {
+   "eco": "espidf",
+   "name": "w5500",
+   "kind": "post-horizon match",
+   "canonical": "espressif/w5500",
+   "model_id": "qwen2.5-coder-32b",
+   "horizon": "2024-11-10T09:35:03Z",
+   "record": {
+    "tau_lo": "2025-09-24T11:51:23Z",
+    "tau_hi": "2025-09-24T11:51:23Z",
+    "source": "espidf:created_at"
+   },
+   "registry": {}
+  },
+  {
+   "eco": "npm",
+   "name": "node-red-contrib-hmac",
+   "kind": "post-horizon match",
+   "canonical": "node-red-contrib-hmac",
+   "model_id": "llama3.2-3b",
+   "horizon": "2024-09-18T15:22:05Z",
+   "record": {
+    "tau_lo": "2026-06-26T21:20:34Z",
+    "tau_hi": "2026-06-26T21:20:34Z",
+    "source": "npm:time.created"
+   },
+   "registry": {
+    "record_created": "2026-06-26T21:20:34.610Z",
+    "versions": 2,
+    "repository": "https://github.com/konceptnet/node-red-contrib-hmac",
+    "description": "Node-RED node to verify HMAC signatures of incoming webhooks (constant-time, sha1/sha256/sha512)."
+   },
+   "project": {
+    "url": "https://github.com/konceptnet/node-red-contrib-hmac",
+    "n_commits": 13,
+    "first_commit": {
+     "sha": "435034b8d231367c9222eed00ed583b1ccc19fcb",
+     "author_date": "2026-06-26T16:31:55-04:00",
+     "committer_date": "2026-06-26T16:31:55-04:00"
+    },
+    "first_tag": {
+     "tag": "v0.1.0",
+     "date": "2026-06-26T16:58:39-04:00"
+    },
+    "earliest_author_date": "2026-06-26T16:31:55-04:00"
+   }
+  },
+  {
+   "eco": "platformio",
+   "name": "LittleFS",
+   "kind": "post-horizon match",
+   "canonical": "rw0402/littlefs",
+   "model_id": "llama3.1-8b",
+   "horizon": "2024-07-18T08:58:51Z",
+   "record": {
+    "tau_lo": "2025-01-30T07:34:33Z",
+    "tau_hi": "2026-06-09T04:38:09Z",
+    "source": "platformio:added_at"
+   },
+   "registry": {}
+  },
+  {
+   "eco": "platformio",
+   "name": "MAVLink",
+   "kind": "post-horizon match",
+   "canonical": "okalachev/MAVLink",
+   "model_id": "deepseek-coder-6.7b",
+   "horizon": "2023-10-29T11:30:13Z",
+   "record": {
+    "tau_lo": "2024-01-04T05:16:40Z",
+    "tau_hi": "2024-01-04T05:16:40Z",
+    "source": "platformio:added_at"
+   },
+   "registry": {}
+  },
+  {
+   "eco": "pypi",
+   "name": "dnp3-outstation",
+   "kind": "upper bound after horizon",
+   "canonical": "dnp3-outstation",
+   "model_id": "phi4-14b",
+   "horizon": "2024-12-11T11:53:55Z",
+   "record": {
+    "tau_lo": null,
+    "tau_hi": "2026-05-17T18:47:47Z",
+    "source": "pypi:earliest_surviving_upload (upper bound)"
+   },
+   "registry": {
+    "earliest_surviving_upload": "2026-05-17T18:47:47.247051Z",
+    "releases": 2,
+    "repository": null,
+    "summary": "Pure-Python DNP3 outstation (IEEE 1815-2012, Level 1 subset) -- aarch64-compatible",
+    "deps_dev": {
+     "n_versions": 2,
+     "earliest_published": "2026-05-17T18:47:48Z",
+     "error": null
+    }
+   }
+  },
+  {
+   "eco": "pypi",
+   "name": "dnpy",
+   "kind": "upper bound after horizon",
+   "canonical": "dnpy",
+   "model_id": "gemma3-12b",
+   "horizon": "2025-03-12T05:28:48Z",
+   "record": {
+    "tau_lo": null,
+    "tau_hi": "2025-08-30T15:42:28Z",
+    "source": "pypi:earliest_surviving_upload (upper bound)"
+   },
+   "registry": {
+    "earliest_surviving_upload": "2025-08-30T15:42:28.892314Z",
+    "releases": 2,
+    "repository": "https://github.com/rhotav/dnpy",
+    "summary": "A library for reading .NET modules",
+    "deps_dev": {
+     "n_versions": 2,
+     "earliest_published": "2025-08-30T15:42:28Z",
+     "error": null
+    }
+   },
+   "project": {
+    "url": "https://github.com/rhotav/dnpy",
+    "n_commits": 5,
+    "first_commit": {
+     "sha": "a3e1a4cb733d2f14e08441d7bc97c146474c99b6",
+     "author_date": "2025-08-25T03:31:54+03:00",
+     "committer_date": "2025-08-25T03:31:54+03:00"
+    },
+    "first_tag": {
+     "tag": "1.0.0",
+     "date": "2026-05-10T01:03:00+03:00"
+    },
+    "earliest_author_date": "2025-08-25T03:31:54+03:00"
+   }
+  },
+  {
+   "eco": "pypi",
+   "name": "epics",
+   "kind": "upper bound after horizon",
+   "canonical": "epics",
+   "model_id": "granite3.3-8b",
+   "horizon": "2025-04-09T12:37:17Z",
+   "record": {
+    "tau_lo": null,
+    "tau_hi": "2026-02-16T20:31:04Z",
+    "source": "pypi:earliest_surviving_upload (upper bound)"
+   },
+   "registry": {
+    "earliest_surviving_upload": "2026-02-16T20:31:04.807867Z",
+    "releases": 1,
+    "repository": "https://github.com/melekderman/PyEPICS",
+    "summary": "Python library for reading and converting EPICS (Electron Photon Interaction Cross Sections) nuclear data",
+    "deps_dev": {
+     "n_versions": 1,
+     "earliest_published": "2026-02-16T20:31:04Z",
+     "error": null
+    }
+   },
+   "project": {
+    "url": "https://github.com/melekderman/PyEPICS",
+    "n_commits": 52,
+    "first_commit": {
+     "sha": "a2e15cf96c4fbd5f5c1d2ae83c026c99b663a85e",
+     "author_date": "2026-02-12T23:20:28-08:00",
+     "committer_date": "2026-02-12T23:20:28-08:00"
+    },
+    "first_tag": {
+     "tag": "v1.0.0",
+     "date": "2026-02-15T02:57:29-08:00"
+    },
+    "earliest_author_date": "2026-02-12T23:20:28-08:00"
+   }
+  },
+  {
+   "eco": "pypi",
+   "name": "iec61850",
+   "kind": "upper bound after horizon",
+   "canonical": "iec61850",
+   "model_id": "llama3.2-3b",
+   "horizon": "2024-09-18T15:22:05Z",
+   "record": {
+    "tau_lo": null,
+    "tau_hi": "2026-05-13T02:06:00Z",
+    "source": "pypi:earliest_surviving_upload (upper bound)"
+   },
+   "registry": {
+    "earliest_surviving_upload": "2026-05-13T02:06:00.206849Z",
+    "releases": 16,
+    "repository": "https://github.com/csp0924/iec61850-python",
+    "summary": "Async-first IEC 61850 client for Python.",
+    "deps_dev": {
+     "n_versions": 16,
+     "earliest_published": "2026-05-13T02:06:00Z",
+     "error": null
+    }
+   },
+   "project": {
+    "url": "https://github.com/csp0924/iec61850-python",
+    "n_commits": 11,
+    "first_commit": {
+     "sha": "f1f53f9e7c844dd4691e344ffb9c999a0bdb1d6e",
+     "author_date": "2026-09-01T04:48:40+08:00",
+     "committer_date": "2026-09-01T04:48:40+08:00"
+    },
+    "first_tag": {
+     "tag": "v0.13.0",
+     "date": "2026-09-01T04:50:59+08:00"
+    },
+    "earliest_author_date": "2026-09-01T04:48:40+08:00"
+   }
+  },
+  {
+   "eco": "pypi",
+   "name": "mavlink",
+   "kind": "upper bound after horizon",
+   "canonical": "mavlink",
+   "model_id": "deepseek-coder-v2-16b",
+   "horizon": "2024-06-14T07:32:05Z",
+   "record": {
+    "tau_lo": null,
+    "tau_hi": "2025-04-23T09:31:28Z",
+    "source": "pypi:earliest_surviving_upload (upper bound)"
+   },
+   "registry": {
+    "earliest_surviving_upload": "2025-04-23T09:31:28.089171Z",
+    "releases": 1,
+    "repository": null,
+    "summary": "mdhk mavlink lib",
+    "deps_dev": {
+     "n_versions": 1,
+     "earliest_published": "2025-04-23T09:31:28Z",
+     "error": null
+    }
+   }
+  },
+  {
+   "eco": "pypi",
+   "name": "py2cpp",
+   "kind": "upper bound after horizon",
+   "canonical": "py2cpp",
+   "model_id": "llama3.1-8b",
+   "horizon": "2024-07-18T08:58:51Z",
+   "record": {
+    "tau_lo": null,
+    "tau_hi": "2025-12-07T04:26:17Z",
+    "source": "pypi:earliest_surviving_upload (upper bound)"
+   },
+   "registry": {
+    "earliest_surviving_upload": "2025-12-07T04:26:17.806326Z",
+    "releases": 8,
+    "repository": null,
+    "summary": "A Python-to-C++ translator.",
+    "deps_dev": {
+     "n_versions": 8,
+     "earliest_published": "2025-12-07T04:26:17Z",
+     "error": null
+    }
+   }
+  },
+  {
+   "eco": "pypi",
+   "name": "py61850",
+   "kind": "upper bound after horizon",
+   "canonical": "py61850",
+   "model_id": "qwen2.5-coder-32b",
+   "horizon": "2024-11-10T09:35:03Z",
+   "record": {
+    "tau_lo": null,
+    "tau_hi": "2026-08-27T13:04:56Z",
+    "source": "pypi:earliest_surviving_upload (upper bound)"
+   },
+   "registry": {
+    "earliest_surviving_upload": "2026-08-27T13:04:56.128146Z",
+    "releases": 8,
+    "repository": "https://github.com/GuilhermeMarini/py61850",
+    "summary": "Pure-Python IEC 61850 toolkit \u2014 an MMS (ISO 9506) client, and an SCL reader/writer/editor with a byte-faithful round tri",
+    "deps_dev": {
+     "n_versions": 8,
+     "earliest_published": "2026-08-27T13:04:56Z",
+     "error": null
+    }
+   },
+   "project": {
+    "url": "https://github.com/GuilhermeMarini/py61850",
+    "n_commits": 90,
+    "first_commit": {
+     "sha": "8d5ef460f6286ef1ec28ba29fb681882ab12e31c",
+     "author_date": "2026-08-28T22:58:15-03:00",
+     "committer_date": "2026-08-28T23:09:59-03:00"
+    },
+    "first_tag": {
+     "tag": "v0.2.0.dev1",
+     "date": "2026-08-31T11:49:17-03:00"
+    },
+    "earliest_author_date": "2026-08-28T22:58:15-03:00"
+   }
+  },
+  {
+   "eco": "pypi",
+   "name": "pyS7",
+   "kind": "upper bound after horizon",
+   "canonical": "pys7",
+   "model_id": "llama3.2-3b",
+   "horizon": "2024-09-18T15:22:05Z",
+   "record": {
+    "tau_lo": null,
+    "tau_hi": "2025-09-01T16:12:52Z",
+    "source": "pypi:earliest_surviving_upload (upper bound)"
+   },
+   "registry": {
+    "earliest_surviving_upload": "2025-09-01T16:12:52.116838Z",
+    "releases": 24,
+    "repository": "https://github.com/xtimmy86x/pyS7",
+    "summary": "Lightweight Python library for Siemens S7 over ISO-on-TCP (RFC1006).",
+    "deps_dev": {
+     "n_versions": 24,
+     "earliest_published": "2025-09-01T16:12:52Z",
+     "error": null
+    }
+   },
+   "project": {
+    "url": "https://github.com/xtimmy86x/pyS7",
+    "n_commits": 267,
+    "first_commit": {
+     "sha": "ae30203b564b8479f22135ee44f965b92ba9b0ad",
+     "author_date": "2023-07-14T16:47:34-04:00",
+     "committer_date": "2023-07-14T16:47:34-04:00"
+    },
+    "first_tag": {
+     "tag": "0.2.0",
+     "date": "2025-09-01T18:03:46+02:00"
+    },
+    "earliest_author_date": "2023-07-14T16:47:34-04:00"
+   }
+  },
+  {
+   "eco": "pypi",
+   "name": "pymss",
+   "kind": "upper bound after horizon",
+   "canonical": "pymss",
+   "model_id": "deepseek-coder-v2-16b",
+   "horizon": "2024-06-14T07:32:05Z",
+   "record": {
+    "tau_lo": null,
+    "tau_hi": "2025-01-28T06:30:28Z",
+    "source": "pypi:earliest_surviving_upload (upper bound)"
+   },
+   "registry": {
+    "earliest_surviving_upload": "2025-01-28T06:30:28.628757Z",
+    "releases": 31,
+    "repository": "https://github.com/pymss-project/pymss",
+    "summary": "Python package for music source separation.",
+    "deps_dev": {
+     "n_versions": 31,
+     "earliest_published": "2025-01-28T06:30:28Z",
+     "error": null
+    }
+   },
+   "project": {
+    "url": "https://github.com/pymss-project/pymss",
+    "n_commits": 233,
+    "first_commit": {
+     "sha": "9c465e6c5fff5ffc4d71be391db825a376efcd3a",
+     "author_date": "2025-01-24T20:04:12+08:00",
+     "committer_date": "2025-01-24T20:04:12+08:00"
+    },
+    "first_tag": {
+     "tag": "v2.0.0",
+     "date": "2026-05-26T00:18:38+08:00"
+    },
+    "earliest_author_date": "2025-01-24T20:04:12+08:00"
+   }
+  },
+  {
+   "eco": "ros2",
+   "name": "px4_msgs",
+   "kind": "post-horizon match",
+   "canonical": "px4_msgs",
+   "model_id": "deepseek-coder-v2-16b",
+   "horizon": "2024-06-14T07:32:05Z",
+   "record": {
+    "tau_lo": "2025-12-06T16:12:41Z",
+    "tau_hi": "2025-12-06T16:12:41Z",
+    "source": "rosdistro:humble_log_first_added"
+   },
+   "registry": {
+    "kind": "distribution package",
+    "distribution_repository": "px4_msgs",
+    "repository": "https://github.com/PX4/px4_msgs"
+   },
+   "project": {
+    "url": "https://github.com/PX4/px4_msgs",
+    "n_commits": 1042,
+    "first_commit": {
+     "sha": "2faed7e95627a3c368ac2c53a736f6a9045fc476",
+     "author_date": "2019-01-21T12:32:14+00:00",
+     "committer_date": "2019-01-21T12:32:14+00:00"
+    },
+    "first_tag": {
+     "tag": "v1.13.0",
+     "date": "2023-07-10T15:18:41-07:00"
+    },
+    "earliest_author_date": "2019-01-21T12:32:14+00:00"
+   }
+  },
+  {
+   "eco": "ros2",
+   "name": "python3-regex",
+   "kind": "post-horizon match",
+   "canonical": "python3-regex",
+   "model_id": "gemma3-12b",
+   "horizon": "2025-03-12T05:28:48Z",
+   "record": {
+    "tau_lo": "2025-04-29T13:57:48Z",
+    "tau_hi": "2025-04-29T13:57:48Z",
+    "source": "rosdep:log_first_added"
+   },
+   "registry": {
+    "kind": "rosdep key",
+    "rosdep_file": "rosdep_python.yaml",
+    "repository": null,
+    "maps_to": [
+     "dev-python/regex",
+     "python-regex",
+     "python3-regex",
+     "python3Packages.regex"
+    ]
+   }
+  },
+  {
+   "eco": "ros2",
+   "name": "python3-wheel",
+   "kind": "post-horizon match",
+   "canonical": "python3-wheel",
+   "model_id": "llama3.2-3b",
+   "horizon": "2024-09-18T15:22:05Z",
+   "record": {
+    "tau_lo": "2025-02-19T00:12:28Z",
+    "tau_hi": "2025-02-19T00:12:28Z",
+    "source": "rosdep:log_first_added"
+   },
+   "registry": {
+    "kind": "rosdep key",
+    "rosdep_file": "rosdep_python.yaml",
+    "repository": null,
+    "maps_to": [
+     "dev-python/wheel",
+     "python-wheel",
+     "python3-wheel",
+     "python3-wheel@openembedded-core",
+     "python3Packages.wheel"
+    ]
+   }
+  },
+  {
+   "eco": "ros2",
+   "name": "rtklib",
+   "kind": "post-horizon match",
+   "canonical": "rtklib",
+   "model_id": "llama3.1-8b",
+   "horizon": "2024-07-18T08:58:51Z",
+   "record": {
+    "tau_lo": "2025-05-04T15:37:12Z",
+    "tau_hi": "2025-05-04T15:37:12Z",
+    "source": "rosdep:log_first_added"
+   },
+   "registry": {
+    "kind": "rosdep key",
+    "rosdep_file": "rosdep_base.yaml",
+    "repository": null,
+    "maps_to": [
+     "rtklib"
+    ]
+   }
+  }
+ ]
+}

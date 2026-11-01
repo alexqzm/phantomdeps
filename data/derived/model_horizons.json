@@ -1,0 +1,1335 @@
+{
+ "generated_at": "2026-10-24T20:45:06Z",
+ "rule": "the GGUF, documented as a conversion of the vendor repository, was made from weight\nfiles that existed when it was committed.  If some source weight files were already in their\ncurrent state at the GGUF date, horizon = the latest commit date among them (the source weights\ncomplete at that point); otherwise horizon = the GGUF date.  Both are dates at which the weights\ndemonstrably existed; the GGUF date is also byte-verified against the file we ran.",
+ "models": {
+  "qwen2.5-coder-1.5b-instruct": {
+   "model_id": "qwen2.5-coder-1.5b-instruct",
+   "source_repo": "Qwen/Qwen2.5-Coder-1.5B-Instruct",
+   "source_revision": "2e1fd397ee46e1388853d2af2c993145b0f1098a",
+   "source_created_at": "2024-09-18T09:41:47.000Z",
+   "gguf_repo": "Qwen/Qwen2.5-Coder-1.5B-Instruct-GGUF",
+   "gguf_file": "qwen2.5-coder-1.5b-instruct-q4_k_m.gguf",
+   "gguf_sha256_recorded": "cc324af070c2ecbfd324a30884d2f951a7ff756aba85cb811a6ec436933bb046",
+   "gguf_lfs_oid": "cc324af070c2ecbfd324a30884d2f951a7ff756aba85cb811a6ec436933bb046",
+   "gguf_oid_matches": true,
+   "gguf_commit": {
+    "id": "2ab9f8f42af02fc212effaef7c4850c885e965f4",
+    "title": "upload weights",
+    "date": "2024-09-18T14:05:01.000Z"
+   },
+   "source_weights": [
+    {
+     "path": "model.safetensors",
+     "lfs_oid": "c1b9b30e907950516ba3c646bdf570d8084c25a6410a0cdca80cf04b11bc13a8",
+     "size": 3087467144,
+     "commit": {
+      "id": "e3b23484d3a9a85090a66068cd8396cc015c3637",
+      "title": "Upload folder using huggingface_hub",
+      "date": "2024-09-18T12:38:14.000Z"
+     }
+    }
+   ],
+   "gguf_date": "2024-09-18T14:05:01.000Z",
+   "source_weights_date": "2024-09-18T12:38:14.000Z",
+   "source_files_changed_after_gguf": [],
+   "horizon": "2024-09-18T12:38:14Z",
+   "horizon_rule": "source weights present when the GGUF was made",
+   "created_to_horizon_days": 0.12,
+   "configs": [
+    "run_pilot_cpu.yaml",
+    "run_pilot_cpu_famcmp.yaml"
+   ]
+  },
+  "deepseek-coder-1.3b-instruct": {
+   "model_id": "deepseek-coder-1.3b-instruct",
+   "source_repo": "deepseek-ai/deepseek-coder-1.3b-instruct",
+   "source_revision": "e063262dac8366fc1f28a4da0ff3c50ea66259ca",
+   "source_created_at": "2023-10-29T12:43:40.000Z",
+   "gguf_repo": "TheBloke/deepseek-coder-1.3b-instruct-GGUF",
+   "gguf_file": "deepseek-coder-1.3b-instruct.Q4_K_M.gguf",
+   "gguf_sha256_recorded": "04cebb6fafa40ae628cf6bfeb76032ec792852f54020c559ad0a56b9f2839118",
+   "gguf_lfs_oid": "04cebb6fafa40ae628cf6bfeb76032ec792852f54020c559ad0a56b9f2839118",
+   "gguf_oid_matches": true,
+   "gguf_commit": {
+    "id": "278897abaf39fb79b77a6b54dce33ce19db68a4f",
+    "title": "GGUF model commit (made with llama.cpp commit bb60fd0)",
+    "date": "2023-11-05T16:37:41.000Z"
+   },
+   "source_weights": [
+    {
+     "path": "model.safetensors",
+     "lfs_oid": "4ff570bf9a558d23c5cb4171bad00daf663be8282150cdb5769e0f6975b0007a",
+     "size": 2692969128,
+     "commit": {
+      "id": "e063262dac8366fc1f28a4da0ff3c50ea66259ca",
+      "title": "Adding `safetensors` variant of this model (#2)",
+      "date": "2024-03-07T13:23:21.000Z"
+     }
+    },
+    {
+     "path": "pytorch_model.bin",
+     "lfs_oid": "0f3cee31dbcc5e416a7cc54361675717bf1ac2cce9e651f767b2fc60cba12ff5",
+     "size": 2693014393,
+     "commit": {
+      "id": "d4c4181dd0d85afd45fec2945b1f69f1fd58097a",
+      "title": "upload models",
+      "date": "2023-10-29T14:01:45.000Z"
+     }
+    }
+   ],
+   "gguf_date": "2023-11-05T16:37:41.000Z",
+   "source_weights_date": "2023-10-29T14:01:45.000Z",
+   "source_files_changed_after_gguf": [
+    "model.safetensors"
+   ],
+   "horizon": "2023-10-29T14:01:45Z",
+   "horizon_rule": "source weights present when the GGUF was made",
+   "created_to_horizon_days": 0.05,
+   "configs": [
+    "run_pilot_cpu.yaml"
+   ]
+  },
+  "llama-3.2-1b-instruct": {
+   "model_id": "llama-3.2-1b-instruct",
+   "source_repo": "meta-llama/Llama-3.2-1B-Instruct",
+   "source_revision": "9213176726f574b556790deb65791e0c5aa438b6",
+   "source_created_at": "2024-09-18T15:12:47.000Z",
+   "gguf_repo": "bartowski/Llama-3.2-1B-Instruct-GGUF",
+   "gguf_file": "Llama-3.2-1B-Instruct-Q4_K_M.gguf",
+   "gguf_sha256_recorded": "6f85a640a97cf2bf5b8e764087b1e83da0fdb51d7c9fab7d0fece9385611df83",
+   "gguf_lfs_oid": "6f85a640a97cf2bf5b8e764087b1e83da0fdb51d7c9fab7d0fece9385611df83",
+   "gguf_oid_matches": true,
+   "gguf_commit": {
+    "id": "9971ce1bbba2f8b55de026a783323a808b3eeedb",
+    "title": "Upload Llama-3.2-1B-Instruct-Q4_K_M.gguf with huggingface_hub",
+    "date": "2024-09-25T18:39:32.000Z"
+   },
+   "source_weights": [
+    {
+     "path": "model.safetensors",
+     "lfs_oid": "****************************************************************",
+     "size": 2471645608,
+     "commit": {
+      "id": "898999bd25b40516fce5a5b8f0948f4c81c650bc",
+      "title": "Upload folder using huggingface_hub",
+      "date": "2024-09-18T15:13:54.000Z"
+     }
+    }
+   ],
+   "gguf_date": "2024-09-25T18:39:32.000Z",
+   "source_weights_date": "2024-09-18T15:13:54.000Z",
+   "source_files_changed_after_gguf": [],
+   "horizon": "2024-09-18T15:13:54Z",
+   "horizon_rule": "source weights present when the GGUF was made",
+   "created_to_horizon_days": 0.0,
+   "configs": [
+    "run_pilot_cpu.yaml"
+   ]
+  },
+  "qwen2.5-coder-7b-instruct": {
+   "model_id": "qwen2.5-coder-7b-instruct",
+   "source_repo": "Qwen/Qwen2.5-Coder-7B-Instruct",
+   "source_revision": "c03e6d358207e414f1eca0bb1891e29f1db0e242",
+   "source_created_at": "2024-09-17T13:38:49.000Z",
+   "gguf_repo": "Qwen/Qwen2.5-Coder-7B-Instruct-GGUF",
+   "gguf_file": "qwen2.5-coder-7b-instruct-q4_k_m.gguf",
+   "gguf_sha256_recorded": "509287f78cb4d4cf6b3843734733b914b2c158e43e22a7f4bf5e963800894d3c",
+   "gguf_lfs_oid": "509287f78cb4d4cf6b3843734733b914b2c158e43e22a7f4bf5e963800894d3c",
+   "gguf_oid_matches": true,
+   "gguf_commit": {
+    "id": "13fb94bfda8c8cf22497dc57b78f391a9acb426a",
+    "title": "upload merged GGUF",
+    "date": "2024-11-12T07:59:32.000Z"
+   },
+   "source_weights": [
+    {
+     "path": "model-00001-of-00004.safetensors",
+     "lfs_oid": "0b6f069918b07c064cbba8ae4f00f529aa9bbf84b7cdfcb7fc2694a40f6aa8ef",
+     "size": 4877660776,
+     "commit": {
+      "id": "6ab006b7202ec68b6df47693b5c3003998dc3124",
+      "title": "Upload folder using huggingface_hub",
+      "date": "2024-09-17T16:13:45.000Z"
+     }
+    },
+    {
+     "path": "model-00002-of-00004.safetensors",
+     "lfs_oid": "c3d46733e7aa054ea7b063fbccd0a5a08446e7bd1814bef26936c5aa1331da62",
+     "size": 4932751008,
+     "commit": {
+      "id": "6ab006b7202ec68b6df47693b5c3003998dc3124",
+      "title": "Upload folder using huggingface_hub",
+      "date": "2024-09-17T16:13:45.000Z"
+     }
+    },
+    {
+     "path": "model-00003-of-00004.safetensors",
+     "lfs_oid": "9fe45dacee087385b3d2d6dd27a7413a8a56d95f145772facc148fa86fc73446",
+     "size": 4330865200,
+     "commit": {
+      "id": "6ab006b7202ec68b6df47693b5c3003998dc3124",
+      "title": "Upload folder using huggingface_hub",
+      "date": "2024-09-17T16:13:45.000Z"
+     }
+    },
+    {
+     "path": "model-00004-of-00004.safetensors",
+     "lfs_oid": "5aa6e5cbe642377fd441fb4e60e83cca96b2bcd9820e245b9ea06d94653f17f2",
+     "size": 1089994880,
+     "commit": {
+      "id": "6ab006b7202ec68b6df47693b5c3003998dc3124",
+      "title": "Upload folder using huggingface_hub",
+      "date": "2024-09-17T16:13:45.000Z"
+     }
+    }
+   ],
+   "gguf_date": "2024-11-12T07:59:32.000Z",
+   "source_weights_date": "2024-09-17T16:13:45.000Z",
+   "source_files_changed_after_gguf": [],
+   "horizon": "2024-09-17T16:13:45Z",
+   "horizon_rule": "source weights present when the GGUF was made",
+   "created_to_horizon_days": 0.11,
+   "configs": [
+    "run_pilot_cpu_ext.yaml"
+   ]
+  },
+  "granite-3.3-8b-instruct": {
+   "model_id": "granite-3.3-8b-instruct",
+   "source_repo": "ibm-granite/granite-3.3-8b-instruct",
+   "source_revision": "51dd4bc2ade4059a6bd87649d68aa11e4fb2529b",
+   "source_created_at": "2025-04-09T11:41:39.000Z",
+   "gguf_repo": "ibm-granite/granite-3.3-8b-instruct-GGUF",
+   "gguf_file": "granite-3.3-8b-instruct-Q4_K_M.gguf",
+   "gguf_sha256_recorded": "77bcee066a76dcdd10d0d123c87e32c8ec2c74e31b6ffd87ebee49c9ac215dca",
+   "gguf_lfs_oid": "77bcee066a76dcdd10d0d123c87e32c8ec2c74e31b6ffd87ebee49c9ac215dca",
+   "gguf_oid_matches": true,
+   "gguf_commit": {
+    "id": "4f452297c19f8385d7b0acf77573860b39ca2998",
+    "title": "Uploading model: run_id: 14406385444, workflow_ref: IBM/gguf/.github/workflows/granite-3.3-release-preview-ibm-granite.yml@refs/tags/preview-v3.3-rc.0",
+    "date": "2025-04-11T15:57:18.000Z"
+   },
+   "source_weights": [
+    {
+     "path": "model-00001-of-00004.safetensors",
+     "lfs_oid": "b309f7b9e116fafc27c1100629bfcccbcebdab18a4bf7df7accfa728260dc57e",
+     "size": 4974694288,
+     "commit": {
+      "id": "3efd179a48ad7cb28ccf46568985af8cf38cbba9",
+      "title": "3.3-8b-instruct model weights upload",
+      "date": "2025-04-09T12:37:17.000Z"
+     }
+    },
+    {
+     "path": "model-00002-of-00004.safetensors",
+     "lfs_oid": "f2e40f157f0139e4b67bbaa4b10efa351162c062771cb543b143c6916a687266",
+     "size": 4991447808,
+     "commit": {
+      "id": "3efd179a48ad7cb28ccf46568985af8cf38cbba9",
+      "title": "3.3-8b-instruct model weights upload",
+      "date": "2025-04-09T12:37:17.000Z"
+     }
+    },
+    {
+     "path": "model-00003-of-00004.safetensors",
+     "lfs_oid": "5cf5203a027b7055c995a9d4bdb3a4c9dd44849ae6c9eefa6a16852a816bea76",
+     "size": 4970460032,
+     "commit": {
+      "id": "3efd179a48ad7cb28ccf46568985af8cf38cbba9",
+      "title": "3.3-8b-instruct model weights upload",
+      "date": "2025-04-09T12:37:17.000Z"
+     }
+    },
+    {
+     "path": "model-00004-of-00004.safetensors",
+     "lfs_oid": "76ac0c0dbd790a1e003d2fc098a297bfe82a422c129046e9d4e67e6ed3d820f0",
+     "size": 1405169256,
+     "commit": {
+      "id": "3efd179a48ad7cb28ccf46568985af8cf38cbba9",
+      "title": "3.3-8b-instruct model weights upload",
+      "date": "2025-04-09T12:37:17.000Z"
+     }
+    }
+   ],
+   "gguf_date": "2025-04-11T15:57:18.000Z",
+   "source_weights_date": "2025-04-09T12:37:17.000Z",
+   "source_files_changed_after_gguf": [],
+   "horizon": "2025-04-09T12:37:17Z",
+   "horizon_rule": "source weights present when the GGUF was made",
+   "created_to_horizon_days": 0.04,
+   "configs": [
+    "run_pilot_cpu_ext.yaml"
+   ]
+  },
+  "llama-3.2-3b-instruct": {
+   "model_id": "llama-3.2-3b-instruct",
+   "source_repo": "meta-llama/Llama-3.2-3B-Instruct",
+   "source_revision": "0cb88a4f764b7a12671c53f0838cd831a0843b95",
+   "source_created_at": "2024-09-18T15:19:20.000Z",
+   "gguf_repo": "bartowski/Llama-3.2-3B-Instruct-GGUF",
+   "gguf_file": "Llama-3.2-3B-Instruct-Q4_K_M.gguf",
+   "gguf_sha256_recorded": "6c1a2b41161032677be168d354123594c0e6e67d2b9227c84f296ad037c728ff",
+   "gguf_lfs_oid": "6c1a2b41161032677be168d354123594c0e6e67d2b9227c84f296ad037c728ff",
+   "gguf_oid_matches": true,
+   "gguf_commit": {
+    "id": "c1f82a567baf4622ef1be9094a208511846e60df",
+    "title": "Upload Llama-3.2-3B-Instruct-Q4_K_M.gguf with huggingface_hub",
+    "date": "2024-09-25T18:44:46.000Z"
+   },
+   "source_weights": [
+    {
+     "path": "model-00001-of-00002.safetensors",
+     "lfs_oid": "****************************************************************",
+     "size": 4965799096,
+     "commit": {
+      "id": "e6c23ae5e6e92a9076abdd4818ac0404cd03af9b",
+      "title": "Upload folder using huggingface_hub",
+      "date": "2024-09-18T15:22:05.000Z"
+     }
+    },
+    {
+     "path": "model-00002-of-00002.safetensors",
+     "lfs_oid": "****************************************************************",
+     "size": 1459729952,
+     "commit": {
+      "id": "e6c23ae5e6e92a9076abdd4818ac0404cd03af9b",
+      "title": "Upload folder using huggingface_hub",
+      "date": "2024-09-18T15:22:05.000Z"
+     }
+    }
+   ],
+   "gguf_date": "2024-09-25T18:44:46.000Z",
+   "source_weights_date": "2024-09-18T15:22:05.000Z",
+   "source_files_changed_after_gguf": [],
+   "horizon": "2024-09-18T15:22:05Z",
+   "horizon_rule": "source weights present when the GGUF was made",
+   "created_to_horizon_days": 0.0,
+   "configs": [
+    "run_pilot_cpu_ext.yaml"
+   ]
+  },
+  "phi-3-mini-3.8b-instruct": {
+   "model_id": "phi-3-mini-3.8b-instruct",
+   "source_repo": "microsoft/Phi-3-mini-4k-instruct",
+   "source_revision": "f39ac1d28e925b323eae81227eaba4464caced4e",
+   "source_created_at": "2024-04-22T16:18:17.000Z",
+   "gguf_repo": "microsoft/Phi-3-mini-4k-instruct-gguf",
+   "gguf_file": "Phi-3-mini-4k-instruct-q4.gguf",
+   "gguf_sha256_recorded": "8a83c7fb9049a9b2e92266fa7ad04933bb53aa1e85136b7b30f1b8000ff2edef",
+   "gguf_lfs_oid": "8a83c7fb9049a9b2e92266fa7ad04933bb53aa1e85136b7b30f1b8000ff2edef",
+   "gguf_oid_matches": true,
+   "gguf_commit": {
+    "id": "c80d904a71b99a3eaeb8d3dbf164166384c09dc3",
+    "title": "chore(root): Initial documentation upload.",
+    "date": "2024-04-22T17:27:11.000Z"
+   },
+   "source_weights": [
+    {
+     "path": "model-00001-of-00002.safetensors",
+     "lfs_oid": "b7492726c01287bf6e13c3d74c65ade3d436d50da1cf5bb6925bc962419d6610",
+     "size": 4972489328,
+     "commit": {
+      "id": "4f818b18e097c9ae8f93a29a57027cad54b75304",
+      "title": "Update model (#77)",
+      "date": "2024-07-01T20:40:14.000Z"
+     }
+    },
+    {
+     "path": "model-00002-of-00002.safetensors",
+     "lfs_oid": "3f311787aa136e858556caa8543015161edcad85ba81b6a36072443d7fa73c87",
+     "size": 2669692552,
+     "commit": {
+      "id": "4f818b18e097c9ae8f93a29a57027cad54b75304",
+      "title": "Update model (#77)",
+      "date": "2024-07-01T20:40:14.000Z"
+     }
+    }
+   ],
+   "gguf_date": "2024-04-22T17:27:11.000Z",
+   "source_weights_date": null,
+   "source_files_changed_after_gguf": [
+    "model-00001-of-00002.safetensors",
+    "model-00002-of-00002.safetensors"
+   ],
+   "horizon": "2024-04-22T17:27:11Z",
+   "horizon_rule": "GGUF bytes (no source weights in their current state then)",
+   "created_to_horizon_days": 0.05,
+   "configs": [
+    "run_pilot_cpu_ext.yaml"
+   ]
+  },
+  "qwen2.5-coder-1.5b": {
+   "model_id": "qwen2.5-coder-1.5b",
+   "source_repo": "Qwen/Qwen2.5-Coder-1.5B-Instruct",
+   "source_revision": "2e1fd397ee46e1388853d2af2c993145b0f1098a",
+   "source_created_at": "2024-09-18T09:41:47.000Z",
+   "gguf_repo": "Qwen/Qwen2.5-Coder-1.5B-Instruct-GGUF",
+   "gguf_file": "qwen2.5-coder-1.5b-instruct-q4_k_m.gguf",
+   "gguf_sha256_recorded": "cc324af070c2ecbfd324a30884d2f951a7ff756aba85cb811a6ec436933bb046",
+   "gguf_lfs_oid": "cc324af070c2ecbfd324a30884d2f951a7ff756aba85cb811a6ec436933bb046",
+   "gguf_oid_matches": true,
+   "gguf_commit": {
+    "id": "2ab9f8f42af02fc212effaef7c4850c885e965f4",
+    "title": "upload weights",
+    "date": "2024-09-18T14:05:01.000Z"
+   },
+   "source_weights": [
+    {
+     "path": "model.safetensors",
+     "lfs_oid": "c1b9b30e907950516ba3c646bdf570d8084c25a6410a0cdca80cf04b11bc13a8",
+     "size": 3087467144,
+     "commit": {
+      "id": "e3b23484d3a9a85090a66068cd8396cc015c3637",
+      "title": "Upload folder using huggingface_hub",
+      "date": "2024-09-18T12:38:14.000Z"
+     }
+    }
+   ],
+   "gguf_date": "2024-09-18T14:05:01.000Z",
+   "source_weights_date": "2024-09-18T12:38:14.000Z",
+   "source_files_changed_after_gguf": [],
+   "horizon": "2024-09-18T12:38:14Z",
+   "horizon_rule": "source weights present when the GGUF was made",
+   "created_to_horizon_days": 0.12,
+   "configs": [
+    "run_study_ollama.yaml"
+   ]
+  },
+  "llama3.2-3b": {
+   "model_id": "llama3.2-3b",
+   "source_repo": "meta-llama/Llama-3.2-3B-Instruct",
+   "source_revision": "0cb88a4f764b7a12671c53f0838cd831a0843b95",
+   "source_created_at": "2024-09-18T15:19:20.000Z",
+   "gguf_repo": "bartowski/Llama-3.2-3B-Instruct-GGUF",
+   "gguf_file": "Llama-3.2-3B-Instruct-Q4_K_M.gguf",
+   "gguf_sha256_recorded": "6c1a2b41161032677be168d354123594c0e6e67d2b9227c84f296ad037c728ff",
+   "gguf_lfs_oid": "6c1a2b41161032677be168d354123594c0e6e67d2b9227c84f296ad037c728ff",
+   "gguf_oid_matches": true,
+   "gguf_commit": {
+    "id": "c1f82a567baf4622ef1be9094a208511846e60df",
+    "title": "Upload Llama-3.2-3B-Instruct-Q4_K_M.gguf with huggingface_hub",
+    "date": "2024-09-25T18:44:46.000Z"
+   },
+   "source_weights": [
+    {
+     "path": "model-00001-of-00002.safetensors",
+     "lfs_oid": "****************************************************************",
+     "size": 4965799096,
+     "commit": {
+      "id": "e6c23ae5e6e92a9076abdd4818ac0404cd03af9b",
+      "title": "Upload folder using huggingface_hub",
+      "date": "2024-09-18T15:22:05.000Z"
+     }
+    },
+    {
+     "path": "model-00002-of-00002.safetensors",
+     "lfs_oid": "****************************************************************",
+     "size": 1459729952,
+     "commit": {
+      "id": "e6c23ae5e6e92a9076abdd4818ac0404cd03af9b",
+      "title": "Upload folder using huggingface_hub",
+      "date": "2024-09-18T15:22:05.000Z"
+     }
+    }
+   ],
+   "gguf_date": "2024-09-25T18:44:46.000Z",
+   "source_weights_date": "2024-09-18T15:22:05.000Z",
+   "source_files_changed_after_gguf": [],
+   "horizon": "2024-09-18T15:22:05Z",
+   "horizon_rule": "source weights present when the GGUF was made",
+   "created_to_horizon_days": 0.0,
+   "configs": [
+    "run_study_ollama.yaml"
+   ]
+  },
+  "qwen2.5-coder-7b": {
+   "model_id": "qwen2.5-coder-7b",
+   "source_repo": "Qwen/Qwen2.5-Coder-7B-Instruct",
+   "source_revision": "c03e6d358207e414f1eca0bb1891e29f1db0e242",
+   "source_created_at": "2024-09-17T13:38:49.000Z",
+   "gguf_repo": "Qwen/Qwen2.5-Coder-7B-Instruct-GGUF",
+   "gguf_file": "qwen2.5-coder-7b-instruct-q4_k_m.gguf",
+   "gguf_sha256_recorded": "509287f78cb4d4cf6b3843734733b914b2c158e43e22a7f4bf5e963800894d3c",
+   "gguf_lfs_oid": "509287f78cb4d4cf6b3843734733b914b2c158e43e22a7f4bf5e963800894d3c",
+   "gguf_oid_matches": true,
+   "gguf_commit": {
+    "id": "13fb94bfda8c8cf22497dc57b78f391a9acb426a",
+    "title": "upload merged GGUF",
+    "date": "2024-11-12T07:59:32.000Z"
+   },
+   "source_weights": [
+    {
+     "path": "model-00001-of-00004.safetensors",
+     "lfs_oid": "0b6f069918b07c064cbba8ae4f00f529aa9bbf84b7cdfcb7fc2694a40f6aa8ef",
+     "size": 4877660776,
+     "commit": {
+      "id": "6ab006b7202ec68b6df47693b5c3003998dc3124",
+      "title": "Upload folder using huggingface_hub",
+      "date": "2024-09-17T16:13:45.000Z"
+     }
+    },
+    {
+     "path": "model-00002-of-00004.safetensors",
+     "lfs_oid": "c3d46733e7aa054ea7b063fbccd0a5a08446e7bd1814bef26936c5aa1331da62",
+     "size": 4932751008,
+     "commit": {
+      "id": "6ab006b7202ec68b6df47693b5c3003998dc3124",
+      "title": "Upload folder using huggingface_hub",
+      "date": "2024-09-17T16:13:45.000Z"
+     }
+    },
+    {
+     "path": "model-00003-of-00004.safetensors",
+     "lfs_oid": "9fe45dacee087385b3d2d6dd27a7413a8a56d95f145772facc148fa86fc73446",
+     "size": 4330865200,
+     "commit": {
+      "id": "6ab006b7202ec68b6df47693b5c3003998dc3124",
+      "title": "Upload folder using huggingface_hub",
+      "date": "2024-09-17T16:13:45.000Z"
+     }
+    },
+    {
+     "path": "model-00004-of-00004.safetensors",
+     "lfs_oid": "5aa6e5cbe642377fd441fb4e60e83cca96b2bcd9820e245b9ea06d94653f17f2",
+     "size": 1089994880,
+     "commit": {
+      "id": "6ab006b7202ec68b6df47693b5c3003998dc3124",
+      "title": "Upload folder using huggingface_hub",
+      "date": "2024-09-17T16:13:45.000Z"
+     }
+    }
+   ],
+   "gguf_date": "2024-11-12T07:59:32.000Z",
+   "source_weights_date": "2024-09-17T16:13:45.000Z",
+   "source_files_changed_after_gguf": [],
+   "horizon": "2024-09-17T16:13:45Z",
+   "horizon_rule": "source weights present when the GGUF was made",
+   "created_to_horizon_days": 0.11,
+   "configs": [
+    "run_study_ollama.yaml"
+   ]
+  },
+  "deepseek-coder-6.7b": {
+   "model_id": "deepseek-coder-6.7b",
+   "source_repo": "deepseek-ai/deepseek-coder-6.7b-instruct",
+   "source_revision": "e5d64addd26a6a1db0f9b863abf6ee3141936807",
+   "source_created_at": "2023-10-29T11:01:36.000Z",
+   "gguf_repo": "TheBloke/deepseek-coder-6.7B-instruct-GGUF",
+   "gguf_file": "deepseek-coder-6.7b-instruct.Q4_0.gguf",
+   "gguf_sha256_recorded": "0c7cf89d9b2dc8671bfade603181aaa18b3dfd93e1b6a2c569a9807c65d4d438",
+   "gguf_lfs_oid": "0c7cf89d9b2dc8671bfade603181aaa18b3dfd93e1b6a2c569a9807c65d4d438",
+   "gguf_oid_matches": true,
+   "gguf_commit": {
+    "id": "7c2bd3e83e5ba280cafea0d71e892b8874841efc",
+    "title": "GGUF model commit (made with llama.cpp commit bb60fd0)",
+    "date": "2023-11-05T16:40:23.000Z"
+   },
+   "source_weights": [
+    {
+     "path": "model-00001-of-00002.safetensors",
+     "lfs_oid": "ef55ffa04c8de3943c858cbcf7143b9803b3aa608337352ca5cd329f8a208bb6",
+     "size": 9978667672,
+     "commit": {
+      "id": "d7720c2ae4ac71d1aefecace2194490fa2689515",
+      "title": "Adding `safetensors` variant of this model (#6)",
+      "date": "2023-12-03T12:53:09.000Z"
+     }
+    },
+    {
+     "path": "model-00002-of-00002.safetensors",
+     "lfs_oid": "d4d48eb2dce70933437b29d3f39b10a8820d629f936554209578e8119d5f5b2f",
+     "size": 3502391696,
+     "commit": {
+      "id": "d7720c2ae4ac71d1aefecace2194490fa2689515",
+      "title": "Adding `safetensors` variant of this model (#6)",
+      "date": "2023-12-03T12:53:09.000Z"
+     }
+    },
+    {
+     "path": "pytorch_model-00001-of-00002.bin",
+     "lfs_oid": "c2d75c419c6a86602710e347ac09bdc899299c1f1c6b06e542c7588ca69bf603",
+     "size": 9978720282,
+     "commit": {
+      "id": "4a6c861c9028ef2df6a93517e034bec682081d87",
+      "title": "upload models",
+      "date": "2023-10-29T11:30:13.000Z"
+     }
+    },
+    {
+     "path": "pytorch_model-00002-of-00002.bin",
+     "lfs_oid": "7544ec56f13952b201d7dc1e438093fc555b441bad520b1fb2e3a87b46fad7be",
+     "size": 3502408963,
+     "commit": {
+      "id": "4a6c861c9028ef2df6a93517e034bec682081d87",
+      "title": "upload models",
+      "date": "2023-10-29T11:30:13.000Z"
+     }
+    }
+   ],
+   "gguf_date": "2023-11-05T16:40:23.000Z",
+   "source_weights_date": "2023-10-29T11:30:13.000Z",
+   "source_files_changed_after_gguf": [
+    "model-00001-of-00002.safetensors",
+    "model-00002-of-00002.safetensors"
+   ],
+   "horizon": "2023-10-29T11:30:13Z",
+   "horizon_rule": "source weights present when the GGUF was made",
+   "created_to_horizon_days": 0.02,
+   "configs": [
+    "run_study_ollama.yaml"
+   ]
+  },
+  "llama3.1-8b": {
+   "model_id": "llama3.1-8b",
+   "source_repo": "meta-llama/Llama-3.1-8B-Instruct",
+   "source_revision": "0e9e39f249a16976918f6564b8830bc894c89659",
+   "source_created_at": "2024-07-18T08:56:00.000Z",
+   "gguf_repo": "bartowski/Meta-Llama-3.1-8B-Instruct-GGUF",
+   "gguf_file": "Meta-Llama-3.1-8B-Instruct-Q4_K_M.gguf",
+   "gguf_sha256_recorded": "7b064f5842bf9532c91456deda288a1b672397a54fa729aa665952863033557c",
+   "gguf_lfs_oid": "7b064f5842bf9532c91456deda288a1b672397a54fa729aa665952863033557c",
+   "gguf_oid_matches": true,
+   "gguf_commit": {
+    "id": "4f0c246f125fc7594238ebe7beb1435a8335f519",
+    "title": "Upload Meta-Llama-3.1-8B-Instruct-Q4_K_M.gguf with huggingface_hub",
+    "date": "2024-07-30T15:11:41.000Z"
+   },
+   "source_weights": [
+    {
+     "path": "model-00001-of-00004.safetensors",
+     "lfs_oid": "****************************************************************",
+     "size": 4976698672,
+     "commit": {
+      "id": "27a2933fb533a76b333e9d1db52f3e73d27687ab",
+      "title": "Add files using large-upload tool",
+      "date": "2024-07-18T08:58:51.000Z"
+     }
+    },
+    {
+     "path": "model-00002-of-00004.safetensors",
+     "lfs_oid": "****************************************************************",
+     "size": 4999802720,
+     "commit": {
+      "id": "4f1d3ed3d2a0508618dd725c187350034e3f5c9c",
+      "title": "Add files using large-upload tool",
+      "date": "2024-07-18T08:58:43.000Z"
+     }
+    },
+    {
+     "path": "model-00003-of-00004.safetensors",
+     "lfs_oid": "****************************************************************",
+     "size": 4915916176,
+     "commit": {
+      "id": "b0777c15de33d4c072c2038e5cae54c35f42bf09",
+      "title": "Add files using large-upload tool",
+      "date": "2024-07-18T08:58:42.000Z"
+     }
+    },
+    {
+     "path": "model-00004-of-00004.safetensors",
+     "lfs_oid": "****************************************************************",
+     "size": 1168138808,
+     "commit": {
+      "id": "594e0ef724dd2c0de535f7260cb189278a4297da",
+      "title": "Add files using large-upload tool",
+      "date": "2024-07-18T08:57:22.000Z"
+     }
+    }
+   ],
+   "gguf_date": "2024-07-30T15:11:41.000Z",
+   "source_weights_date": "2024-07-18T08:58:51.000Z",
+   "source_files_changed_after_gguf": [],
+   "horizon": "2024-07-18T08:58:51Z",
+   "horizon_rule": "source weights present when the GGUF was made",
+   "created_to_horizon_days": 0.0,
+   "configs": [
+    "run_study_ollama.yaml"
+   ]
+  },
+  "qwen3-8b": {
+   "model_id": "qwen3-8b",
+   "source_repo": "Qwen/Qwen3-8B",
+   "source_revision": "b968826d9c46dd6066d109eabc6255188de91218",
+   "source_created_at": "2025-04-27T03:42:21.000Z",
+   "gguf_repo": "Qwen/Qwen3-8B-GGUF",
+   "gguf_file": "Qwen3-8B-Q4_K_M.gguf",
+   "gguf_sha256_recorded": "d98cdcbd03e17ce47681435b5150e34c1417f50b5c0019dd560e4882c5745785",
+   "gguf_lfs_oid": "d98cdcbd03e17ce47681435b5150e34c1417f50b5c0019dd560e4882c5745785",
+   "gguf_oid_matches": true,
+   "gguf_commit": {
+    "id": "6a569868d07d3bd59e8b97fb001bf8c0b254bb20",
+    "title": "Upload folder using huggingface_hub",
+    "date": "2025-05-03T07:13:02.000Z"
+   },
+   "source_weights": [
+    {
+     "path": "model-00001-of-00005.safetensors",
+     "lfs_oid": "31d6a825ae35f11fb85b195b4c42c146c051e446433125a215336abdf95cbf5f",
+     "size": 3996250744,
+     "commit": {
+      "id": "47719a242beab8f9aecc40ce3928b034dd5dd559",
+      "title": "Upload folder using huggingface_hub",
+      "date": "2025-04-28T06:31:52.000Z"
+     }
+    },
+    {
+     "path": "model-00002-of-00005.safetensors",
+     "lfs_oid": "5991236cea6fe21f3d43cab0f0e84448734fbbe0789816202989f2ddc9d18282",
+     "size": 3993160032,
+     "commit": {
+      "id": "47719a242beab8f9aecc40ce3928b034dd5dd559",
+      "title": "Upload folder using huggingface_hub",
+      "date": "2025-04-28T06:31:52.000Z"
+     }
+    },
+    {
+     "path": "model-00003-of-00005.safetensors",
+     "lfs_oid": "c5185c4794be2d8a9784d5753c9922db38df478ce11f9ed0b415b7304d896836",
+     "size": 3959604768,
+     "commit": {
+      "id": "47719a242beab8f9aecc40ce3928b034dd5dd559",
+      "title": "Upload folder using huggingface_hub",
+      "date": "2025-04-28T06:31:52.000Z"
+     }
+    },
+    {
+     "path": "model-00004-of-00005.safetensors",
+     "lfs_oid": "b5ee7de71fbf17db3d5704e0c8f2bc7d005ca9e1d7ca2aeb19827b0cfcaa917a",
+     "size": 3187841392,
+     "commit": {
+      "id": "47719a242beab8f9aecc40ce3928b034dd5dd559",
+      "title": "Upload folder using huggingface_hub",
+      "date": "2025-04-28T06:31:52.000Z"
+     }
+    },
+    {
+     "path": "model-00005-of-00005.safetensors",
+     "lfs_oid": "20c2d6366ab85c90786ccdd829cd2b9e7d30ef3b2ebbb998280e7e4014b542ff",
+     "size": 1244659840,
+     "commit": {
+      "id": "47719a242beab8f9aecc40ce3928b034dd5dd559",
+      "title": "Upload folder using huggingface_hub",
+      "date": "2025-04-28T06:31:52.000Z"
+     }
+    }
+   ],
+   "gguf_date": "2025-05-03T07:13:02.000Z",
+   "source_weights_date": "2025-04-28T06:31:52.000Z",
+   "source_files_changed_after_gguf": [],
+   "horizon": "2025-04-28T06:31:52Z",
+   "horizon_rule": "source weights present when the GGUF was made",
+   "created_to_horizon_days": 1.12,
+   "configs": [
+    "run_study_ollama.yaml"
+   ]
+  },
+  "granite3.3-8b": {
+   "model_id": "granite3.3-8b",
+   "source_repo": "ibm-granite/granite-3.3-8b-instruct",
+   "source_revision": "51dd4bc2ade4059a6bd87649d68aa11e4fb2529b",
+   "source_created_at": "2025-04-09T11:41:39.000Z",
+   "gguf_repo": "ibm-granite/granite-3.3-8b-instruct-GGUF",
+   "gguf_file": "granite-3.3-8b-instruct-Q4_K_M.gguf",
+   "gguf_sha256_recorded": "77bcee066a76dcdd10d0d123c87e32c8ec2c74e31b6ffd87ebee49c9ac215dca",
+   "gguf_lfs_oid": "77bcee066a76dcdd10d0d123c87e32c8ec2c74e31b6ffd87ebee49c9ac215dca",
+   "gguf_oid_matches": true,
+   "gguf_commit": {
+    "id": "4f452297c19f8385d7b0acf77573860b39ca2998",
+    "title": "Uploading model: run_id: 14406385444, workflow_ref: IBM/gguf/.github/workflows/granite-3.3-release-preview-ibm-granite.yml@refs/tags/preview-v3.3-rc.0",
+    "date": "2025-04-11T15:57:18.000Z"
+   },
+   "source_weights": [
+    {
+     "path": "model-00001-of-00004.safetensors",
+     "lfs_oid": "b309f7b9e116fafc27c1100629bfcccbcebdab18a4bf7df7accfa728260dc57e",
+     "size": 4974694288,
+     "commit": {
+      "id": "3efd179a48ad7cb28ccf46568985af8cf38cbba9",
+      "title": "3.3-8b-instruct model weights upload",
+      "date": "2025-04-09T12:37:17.000Z"
+     }
+    },
+    {
+     "path": "model-00002-of-00004.safetensors",
+     "lfs_oid": "f2e40f157f0139e4b67bbaa4b10efa351162c062771cb543b143c6916a687266",
+     "size": 4991447808,
+     "commit": {
+      "id": "3efd179a48ad7cb28ccf46568985af8cf38cbba9",
+      "title": "3.3-8b-instruct model weights upload",
+      "date": "2025-04-09T12:37:17.000Z"
+     }
+    },
+    {
+     "path": "model-00003-of-00004.safetensors",
+     "lfs_oid": "5cf5203a027b7055c995a9d4bdb3a4c9dd44849ae6c9eefa6a16852a816bea76",
+     "size": 4970460032,
+     "commit": {
+      "id": "3efd179a48ad7cb28ccf46568985af8cf38cbba9",
+      "title": "3.3-8b-instruct model weights upload",
+      "date": "2025-04-09T12:37:17.000Z"
+     }
+    },
+    {
+     "path": "model-00004-of-00004.safetensors",
+     "lfs_oid": "76ac0c0dbd790a1e003d2fc098a297bfe82a422c129046e9d4e67e6ed3d820f0",
+     "size": 1405169256,
+     "commit": {
+      "id": "3efd179a48ad7cb28ccf46568985af8cf38cbba9",
+      "title": "3.3-8b-instruct model weights upload",
+      "date": "2025-04-09T12:37:17.000Z"
+     }
+    }
+   ],
+   "gguf_date": "2025-04-11T15:57:18.000Z",
+   "source_weights_date": "2025-04-09T12:37:17.000Z",
+   "source_files_changed_after_gguf": [],
+   "horizon": "2025-04-09T12:37:17Z",
+   "horizon_rule": "source weights present when the GGUF was made",
+   "created_to_horizon_days": 0.04,
+   "configs": [
+    "run_study_ollama.yaml"
+   ]
+  },
+  "gemma3-12b": {
+   "model_id": "gemma3-12b",
+   "source_repo": "google/gemma-3-12b-it",
+   "source_revision": "96b6f1eccf38110c56df3a15bffe176da04bfd80",
+   "source_created_at": "2025-03-01T19:11:34.000Z",
+   "gguf_repo": "ggml-org/gemma-3-12b-it-GGUF",
+   "gguf_file": "gemma-3-12b-it-Q4_K_M.gguf",
+   "gguf_sha256_recorded": "7bb69bff3f48a7b642355d64a90e481182a7794707b3133890646b1efa778ff5",
+   "gguf_lfs_oid": "7bb69bff3f48a7b642355d64a90e481182a7794707b3133890646b1efa778ff5",
+   "gguf_oid_matches": true,
+   "gguf_commit": {
+    "id": "1f36e7e20445fa79c97638eddb29ebffd975ab2f",
+    "title": "Super-squash branch 'main' using huggingface_hub",
+    "date": "2025-03-12T09:08:54.000Z"
+   },
+   "source_weights": [
+    {
+     "path": "model-00001-of-00005.safetensors",
+     "lfs_oid": "****************************************************************",
+     "size": 4979902192,
+     "commit": {
+      "id": "3aa32c4736f797ef44063d373d5964b603f93be2",
+      "title": "Super-squash branch 'main' using huggingface_hub",
+      "date": "2025-03-12T05:28:48.000Z"
+     }
+    },
+    {
+     "path": "model-00002-of-00005.safetensors",
+     "lfs_oid": "****************************************************************",
+     "size": 4931296592,
+     "commit": {
+      "id": "3aa32c4736f797ef44063d373d5964b603f93be2",
+      "title": "Super-squash branch 'main' using huggingface_hub",
+      "date": "2025-03-12T05:28:48.000Z"
+     }
+    },
+    {
+     "path": "model-00003-of-00005.safetensors",
+     "lfs_oid": "****************************************************************",
+     "size": 4931296656,
+     "commit": {
+      "id": "3aa32c4736f797ef44063d373d5964b603f93be2",
+      "title": "Super-squash branch 'main' using huggingface_hub",
+      "date": "2025-03-12T05:28:48.000Z"
+     }
+    },
+    {
+     "path": "model-00004-of-00005.safetensors",
+     "lfs_oid": "****************************************************************",
+     "size": 4931296656,
+     "commit": {
+      "id": "3aa32c4736f797ef44063d373d5964b603f93be2",
+      "title": "Super-squash branch 'main' using huggingface_hub",
+      "date": "2025-03-12T05:28:48.000Z"
+     }
+    },
+    {
+     "path": "model-00005-of-00005.safetensors",
+     "lfs_oid": "****************************************************************",
+     "size": 4601000928,
+     "commit": {
+      "id": "3aa32c4736f797ef44063d373d5964b603f93be2",
+      "title": "Super-squash branch 'main' using huggingface_hub",
+      "date": "2025-03-12T05:28:48.000Z"
+     }
+    }
+   ],
+   "gguf_date": "2025-03-12T09:08:54.000Z",
+   "source_weights_date": "2025-03-12T05:28:48.000Z",
+   "source_files_changed_after_gguf": [],
+   "horizon": "2025-03-12T05:28:48Z",
+   "horizon_rule": "source weights present when the GGUF was made",
+   "created_to_horizon_days": 10.43,
+   "configs": [
+    "run_study_ollama.yaml"
+   ]
+  },
+  "qwen2.5-coder-14b": {
+   "model_id": "qwen2.5-coder-14b",
+   "source_repo": "Qwen/Qwen2.5-Coder-14B-Instruct",
+   "source_revision": "aedcc2d42b622764e023cf882b6652e646b95671",
+   "source_created_at": "2024-11-06T07:49:46.000Z",
+   "gguf_repo": "Qwen/Qwen2.5-Coder-14B-Instruct-GGUF",
+   "gguf_file": "qwen2.5-coder-14b-instruct-q4_k_m.gguf",
+   "gguf_sha256_recorded": "c1e659736d89ac1065fb495330fb824d94001974a4bfa78e7270e43476a8d940",
+   "gguf_lfs_oid": "c1e659736d89ac1065fb495330fb824d94001974a4bfa78e7270e43476a8d940",
+   "gguf_oid_matches": true,
+   "gguf_commit": {
+    "id": "d0a692ef765eefbf2fabb130b3cb2e8917e3d225",
+    "title": "upload",
+    "date": "2024-11-12T09:54:27.000Z"
+   },
+   "source_weights": [
+    {
+     "path": "model-00001-of-00006.safetensors",
+     "lfs_oid": "b14a60aa35c07e58da61cbe6c8b2819e60a043dd98001f14736045c6062e79a0",
+     "size": 4986211280,
+     "commit": {
+      "id": "215507574115bc17fc170a0dc20b86bd7d675d59",
+      "title": "Upload folder using huggingface_hub",
+      "date": "2024-11-06T09:43:39.000Z"
+     }
+    },
+    {
+     "path": "model-00002-of-00006.safetensors",
+     "lfs_oid": "03b8de22c48a523646ac0a38aa36471529e22cdd1238ce43b44bf5014d64098a",
+     "size": 4954847344,
+     "commit": {
+      "id": "215507574115bc17fc170a0dc20b86bd7d675d59",
+      "title": "Upload folder using huggingface_hub",
+      "date": "2024-11-06T09:43:39.000Z"
+     }
+    },
+    {
+     "path": "model-00003-of-00006.safetensors",
+     "lfs_oid": "97587f9d511af15bce6295a15b10c43f504b16fcddf22db9c87356df17ffff3f",
+     "size": 4954847392,
+     "commit": {
+      "id": "215507574115bc17fc170a0dc20b86bd7d675d59",
+      "title": "Upload folder using huggingface_hub",
+      "date": "2024-11-06T09:43:39.000Z"
+     }
+    },
+    {
+     "path": "model-00004-of-00006.safetensors",
+     "lfs_oid": "ed34a72606341f8774d21661ad8ec9e59deffad8c63ceebd2f6db86f163bee7d",
+     "size": 4954847392,
+     "commit": {
+      "id": "215507574115bc17fc170a0dc20b86bd7d675d59",
+      "title": "Upload folder using huggingface_hub",
+      "date": "2024-11-06T09:43:39.000Z"
+     }
+    },
+    {
+     "path": "model-00005-of-00006.safetensors",
+     "lfs_oid": "657a6388cfe547498159dfb6507b9c1ead09a6fbab154c22942bbf963aef4208",
+     "size": 4954847392,
+     "commit": {
+      "id": "215507574115bc17fc170a0dc20b86bd7d675d59",
+      "title": "Upload folder using huggingface_hub",
+      "date": "2024-11-06T09:43:39.000Z"
+     }
+    },
+    {
+     "path": "model-00006-of-00006.safetensors",
+     "lfs_oid": "3dbbc07addfc989662fd6bf88798970b278c98630f88eed5d23256fc99365dae",
+     "size": 4734533160,
+     "commit": {
+      "id": "215507574115bc17fc170a0dc20b86bd7d675d59",
+      "title": "Upload folder using huggingface_hub",
+      "date": "2024-11-06T09:43:39.000Z"
+     }
+    }
+   ],
+   "gguf_date": "2024-11-12T09:54:27.000Z",
+   "source_weights_date": "2024-11-06T09:43:39.000Z",
+   "source_files_changed_after_gguf": [],
+   "horizon": "2024-11-06T09:43:39Z",
+   "horizon_rule": "source weights present when the GGUF was made",
+   "created_to_horizon_days": 0.08,
+   "configs": [
+    "run_study_ollama.yaml"
+   ]
+  },
+  "phi4-14b": {
+   "model_id": "phi4-14b",
+   "source_repo": "microsoft/phi-4",
+   "source_revision": "2db69c1c3e91a05d2c64a3185acfbaf36f744e25",
+   "source_created_at": "2024-12-11T11:47:29.000Z",
+   "gguf_repo": "microsoft/phi-4-gguf",
+   "gguf_file": "phi-4-Q4_K.gguf",
+   "gguf_sha256_recorded": "5652b9be0ea4ae2842130d04fe31bc869fcb99a2b7106c53b4e754a343fd688f",
+   "gguf_lfs_oid": "5652b9be0ea4ae2842130d04fe31bc869fcb99a2b7106c53b4e754a343fd688f",
+   "gguf_oid_matches": true,
+   "gguf_commit": {
+    "id": "18ece485b98ae22388ffad82ad468cc2d774f6d4",
+    "title": "chore(root): Re-convert and re-quantize files.",
+    "date": "2025-05-08T14:05:08.000Z"
+   },
+   "source_weights": [
+    {
+     "path": "model-00001-of-00006.safetensors",
+     "lfs_oid": "cafbe72210c39b19270cbfce27996afc4383c8a487087bcb91a6290d5ceb8f18",
+     "size": 4933656472,
+     "commit": {
+      "id": "8ee52dc636b27b99caf046e717a87fb37ad9f33e",
+      "title": "chore(root): Initial files upload.",
+      "date": "2024-12-11T11:53:55.000Z"
+     }
+    },
+    {
+     "path": "model-00002-of-00006.safetensors",
+     "lfs_oid": "9f87a5897162ed988cfb0fac13879634b4bab3da5a756b4f9dd2437ef8145e20",
+     "size": 4954690712,
+     "commit": {
+      "id": "8ee52dc636b27b99caf046e717a87fb37ad9f33e",
+      "title": "chore(root): Initial files upload.",
+      "date": "2024-12-11T11:53:55.000Z"
+     }
+    },
+    {
+     "path": "model-00003-of-00006.safetensors",
+     "lfs_oid": "19537df78a263aa0c0b2dc12dbce5908021e30a25e528699b08642c3999eeb05",
+     "size": 4902241352,
+     "commit": {
+      "id": "8ee52dc636b27b99caf046e717a87fb37ad9f33e",
+      "title": "chore(root): Initial files upload.",
+      "date": "2024-12-11T11:53:55.000Z"
+     }
+    },
+    {
+     "path": "model-00004-of-00006.safetensors",
+     "lfs_oid": "d4f17100a39c19d352f2e8108eef6fb975afb86808e50d78a075e162f1edfc93",
+     "size": 4771169120,
+     "commit": {
+      "id": "8ee52dc636b27b99caf046e717a87fb37ad9f33e",
+      "title": "chore(root): Initial files upload.",
+      "date": "2024-12-11T11:53:55.000Z"
+     }
+    },
+    {
+     "path": "model-00005-of-00006.safetensors",
+     "lfs_oid": "a72666b6001d76e7a9dc3ebe0d05a2c3316f546a8c6779c87343f296bdf82e50",
+     "size": 4771169120,
+     "commit": {
+      "id": "8ee52dc636b27b99caf046e717a87fb37ad9f33e",
+      "title": "chore(root): Initial files upload.",
+      "date": "2024-12-11T11:53:55.000Z"
+     }
+    },
+    {
+     "path": "model-00006-of-00006.safetensors",
+     "lfs_oid": "a9bfeeea354e31503d09a864e6cd5bd0f1230664065b6a2988b05e22b3228d77",
+     "size": 4986116216,
+     "commit": {
+      "id": "8ee52dc636b27b99caf046e717a87fb37ad9f33e",
+      "title": "chore(root): Initial files upload.",
+      "date": "2024-12-11T11:53:55.000Z"
+     }
+    }
+   ],
+   "gguf_date": "2025-05-08T14:05:08.000Z",
+   "source_weights_date": "2024-12-11T11:53:55.000Z",
+   "source_files_changed_after_gguf": [],
+   "horizon": "2024-12-11T11:53:55Z",
+   "horizon_rule": "source weights present when the GGUF was made",
+   "created_to_horizon_days": 0.0,
+   "configs": [
+    "run_study_ollama.yaml"
+   ]
+  },
+  "deepseek-coder-v2-16b": {
+   "model_id": "deepseek-coder-v2-16b",
+   "source_repo": "deepseek-ai/DeepSeek-Coder-V2-Lite-Instruct",
+   "source_revision": "e434a23f91ba5b4923cf6c9d9a238eb4a08e3a11",
+   "source_created_at": "2024-06-14T06:23:33.000Z",
+   "gguf_repo": "second-state/DeepSeek-Coder-V2-Lite-Instruct-GGUF",
+   "gguf_file": "DeepSeek-Coder-V2-Lite-Instruct-Q4_0.gguf",
+   "gguf_sha256_recorded": "7d932d742f5e09b66cf017bb0e27bf5acf1d0a12d0e65bcc4561528020c4b56c",
+   "gguf_lfs_oid": "7d932d742f5e09b66cf017bb0e27bf5acf1d0a12d0e65bcc4561528020c4b56c",
+   "gguf_oid_matches": true,
+   "gguf_commit": {
+    "id": "7d0d798e03e8a41fb1a4e270482823c4e50f80a4",
+    "title": "Update models",
+    "date": "2024-06-25T05:26:42.000Z"
+   },
+   "source_weights": [
+    {
+     "path": "model-00001-of-000004.safetensors",
+     "lfs_oid": "75d08ddaf92b68f751c95e1b4a51dbf5c011d5692f97cc0d71bd32587a3ea8d9",
+     "size": 8594887410,
+     "commit": {
+      "id": "34397f99b3aa319e6b7313c75cff0f5374f9220b",
+      "title": "Upload folder using huggingface_hub",
+      "date": "2024-06-14T07:32:05.000Z"
+     }
+    },
+    {
+     "path": "model-00002-of-000004.safetensors",
+     "lfs_oid": "7bf22dfa271527f7a0b8dbd56592722cd8fdcfeb6aad32ebb1110d21882eb1d8",
+     "size": 8591757456,
+     "commit": {
+      "id": "34397f99b3aa319e6b7313c75cff0f5374f9220b",
+      "title": "Upload folder using huggingface_hub",
+      "date": "2024-06-14T07:32:05.000Z"
+     }
+    },
+    {
+     "path": "model-00003-of-000004.safetensors",
+     "lfs_oid": "18f5a20f4d737b496e03ff8761834dfa9754ceedd56f54a336d0eab5e0e20968",
+     "size": 8590718535,
+     "commit": {
+      "id": "34397f99b3aa319e6b7313c75cff0f5374f9220b",
+      "title": "Upload folder using huggingface_hub",
+      "date": "2024-06-14T07:32:05.000Z"
+     }
+    },
+    {
+     "path": "model-00004-of-000004.safetensors",
+     "lfs_oid": "1365ca25494e6592b6cb11f62f4a63cbdcdd9853e01d67f274d0b282732cc5cd",
+     "size": 5636263208,
+     "commit": {
+      "id": "34397f99b3aa319e6b7313c75cff0f5374f9220b",
+      "title": "Upload folder using huggingface_hub",
+      "date": "2024-06-14T07:32:05.000Z"
+     }
+    }
+   ],
+   "gguf_date": "2024-06-25T05:26:42.000Z",
+   "source_weights_date": "2024-06-14T07:32:05.000Z",
+   "source_files_changed_after_gguf": [],
+   "horizon": "2024-06-14T07:32:05Z",
+   "horizon_rule": "source weights present when the GGUF was made",
+   "created_to_horizon_days": 0.05,
+   "configs": [
+    "run_study_ollama.yaml"
+   ]
+  },
+  "gpt-oss-20b": {
+   "model_id": "gpt-oss-20b",
+   "source_repo": "openai/gpt-oss-20b",
+   "source_revision": "6cee5e81ee83917806bbde320786a8fb61efebee",
+   "source_created_at": "2025-08-04T22:33:29.000Z",
+   "gguf_repo": "ggml-org/gpt-oss-20b-GGUF",
+   "gguf_file": "gpt-oss-20b-MXFP4.gguf",
+   "gguf_sha256_recorded": "27cd6c432c7672cb812a92f611cf3ba7bbc35928262bb1e1253ff4ee6ae35901",
+   "gguf_lfs_oid": "27cd6c432c7672cb812a92f611cf3ba7bbc35928262bb1e1253ff4ee6ae35901",
+   "gguf_oid_matches": true,
+   "gguf_commit": {
+    "id": "b97cbb20d1995efd41dce8c4dd1ddf86e8db375b",
+    "title": "Upload folder using huggingface_hub",
+    "date": "2026-07-16T15:08:00.000Z"
+   },
+   "source_weights": [
+    {
+     "path": "model-00000-of-00002.safetensors",
+     "lfs_oid": "16d0f997dcfc4462089d536bffe51b4bcea2f872f5c430be09ef8ed392312427",
+     "size": 4792272488,
+     "commit": {
+      "id": "f81fef1ddd90d214968e951a76834f1ded130a18",
+      "title": "Upload folder using huggingface_hub",
+      "date": "2025-08-04T23:37:24.000Z"
+     }
+    },
+    {
+     "path": "model-00001-of-00002.safetensors",
+     "lfs_oid": "4fbe328ab445455d6f58dc73852b85873bd626986310abd91cd4d2ce3245eaea",
+     "size": 4798702184,
+     "commit": {
+      "id": "f81fef1ddd90d214968e951a76834f1ded130a18",
+      "title": "Upload folder using huggingface_hub",
+      "date": "2025-08-04T23:37:24.000Z"
+     }
+    },
+    {
+     "path": "model-00002-of-00002.safetensors",
+     "lfs_oid": "a18106b209e9ab35c3406db4f6f12a927364a058b21e9d1373d682e20674b303",
+     "size": 4170342232,
+     "commit": {
+      "id": "f81fef1ddd90d214968e951a76834f1ded130a18",
+      "title": "Upload folder using huggingface_hub",
+      "date": "2025-08-04T23:37:24.000Z"
+     }
+    }
+   ],
+   "gguf_date": "2026-07-16T15:08:00.000Z",
+   "source_weights_date": "2025-08-04T23:37:24.000Z",
+   "source_files_changed_after_gguf": [],
+   "horizon": "2025-08-04T23:37:24Z",
+   "horizon_rule": "source weights present when the GGUF was made",
+   "created_to_horizon_days": 0.04,
+   "configs": [
+    "run_study_ollama.yaml"
+   ]
+  },
+  "qwen2.5-coder-32b": {
+   "model_id": "qwen2.5-coder-32b",
+   "source_repo": "Qwen/Qwen2.5-Coder-32B-Instruct",
+   "source_revision": "381fc969f78efac66bc87ff7ddeadb7e73c218a7",
+   "source_created_at": "2024-11-06T07:49:50.000Z",
+   "gguf_repo": "Qwen/Qwen2.5-Coder-32B-Instruct-GGUF",
+   "gguf_file": "qwen2.5-coder-32b-instruct-q4_k_m.gguf",
+   "gguf_sha256_recorded": "4d64b316b5e6319d9613e0d97935d9ebd631fc7e334da400d00085eca749d085",
+   "gguf_lfs_oid": "4d64b316b5e6319d9613e0d97935d9ebd631fc7e334da400d00085eca749d085",
+   "gguf_oid_matches": true,
+   "gguf_commit": {
+    "id": "6ad0cdf97c9a3cfd154faf15a973c93044ba5c7e",
+    "title": "upload",
+    "date": "2024-11-12T12:58:12.000Z"
+   },
+   "source_weights": [
+    {
+     "path": "model-00001-of-00014.safetensors",
+     "lfs_oid": "5746929d771eb06ba0105671a2018dca3c648d4664ca5a5ce2077df82fabad92",
+     "size": 4891730992,
+     "commit": {
+      "id": "90705b890e1dc8070c3267b72c2d8dd0ab99cc3b",
+      "title": "Upload folder using huggingface_hub",
+      "date": "2024-11-10T09:35:03.000Z"
+     }
+    },
+    {
+     "path": "model-00002-of-00014.safetensors",
+     "lfs_oid": "12aaad653a85d7212a9cc7722937fff7b2bd060ab8522399b4a74d2bf736df8d",
+     "size": 4876059352,
+     "commit": {
+      "id": "90705b890e1dc8070c3267b72c2d8dd0ab99cc3b",
+      "title": "Upload folder using huggingface_hub",
+      "date": "2024-11-10T09:35:03.000Z"
+     }
+    },
+    {
+     "path": "model-00003-of-00014.safetensors",
+     "lfs_oid": "9bac433064b2c29f3e2a891539993b74b7a1da5b0a78c900b2e22fc20fe66059",
+     "size": 4876059384,
+     "commit": {
+      "id": "90705b890e1dc8070c3267b72c2d8dd0ab99cc3b",
+      "title": "Upload folder using huggingface_hub",
+      "date": "2024-11-10T09:35:03.000Z"
+     }
+    },
+    {
+     "path": "model-00004-of-00014.safetensors",
+     "lfs_oid": "4e859e864a61c45dc2e38650359540e5f35f09d4a6993ef66d7274760e7d1905",
+     "size": 4876059416,
+     "commit": {
+      "id": "90705b890e1dc8070c3267b72c2d8dd0ab99cc3b",
+      "title": "Upload folder using huggingface_hub",
+      "date": "2024-11-10T09:35:03.000Z"
+     }
+    },
+    {
+     "path": "model-00005-of-00014.safetensors",
+     "lfs_oid": "57000579cf2e87cd575333288c25588a45816fc406ace74a52efed1e7bc910d5",
+     "size": 4876059416,
+     "commit": {
+      "id": "90705b890e1dc8070c3267b72c2d8dd0ab99cc3b",
+      "title": "Upload folder using huggingface_hub",
+      "date": "2024-11-10T09:35:03.000Z"
+     }
+    },
+    {
+     "path": "model-00006-of-00014.safetensors",
+     "lfs_oid": "72dd80465092fad2665c9705332efa99c20b9fb22ad1944e7fe7429a222ede42",
+     "size": 4876059416,
+     "commit": {
+      "id": "90705b890e1dc8070c3267b72c2d8dd0ab99cc3b",
+      "title": "Upload folder using huggingface_hub",
+      "date": "2024-11-10T09:35:03.000Z"
+     }
+    },
+    {
+     "path": "model-00007-of-00014.safetensors",
+     "lfs_oid": "b91130f8049d3446221000a1d44cdf7bd344f01a2b5843f9bb81ac8193beeae8",
+     "size": 4876059416,
+     "commit": {
+      "id": "90705b890e1dc8070c3267b72c2d8dd0ab99cc3b",
+      "title": "Upload folder using huggingface_hub",
+      "date": "2024-11-10T09:35:03.000Z"
+     }
+    },
+    {
+     "path": "model-00008-of-00014.safetensors",
+     "lfs_oid": "522db6c67390557f2964a4a0094a463a067c91992be164b6e141aa1267a225e5",
+     "size": 4876059416,
+     "commit": {
+      "id": "90705b890e1dc8070c3267b72c2d8dd0ab99cc3b",
+      "title": "Upload folder using huggingface_hub",
+      "date": "2024-11-10T09:35:03.000Z"
+     }
+    },
+    {
+     "path": "model-00009-of-00014.safetensors",
+     "lfs_oid": "7c03b072b4aad4da68016b75b78c6eb3ea6b35e18ac0dae4906146603fa32e23",
+     "size": 4876059416,
+     "commit": {
+      "id": "90705b890e1dc8070c3267b72c2d8dd0ab99cc3b",
+      "title": "Upload folder using huggingface_hub",
+      "date": "2024-11-10T09:35:03.000Z"
+     }
+    },
+    {
+     "path": "model-00010-of-00014.safetensors",
+     "lfs_oid": "c5ee9a4665ae7d5c9e6d37f77d93c47244a80ee41284060efde69d223472a87a",
+     "size": 4876059416,
+     "commit": {
+      "id": "90705b890e1dc8070c3267b72c2d8dd0ab99cc3b",
+      "title": "Upload folder using huggingface_hub",
+      "date": "2024-11-10T09:35:03.000Z"
+     }
+    },
+    {
+     "path": "model-00011-of-00014.safetensors",
+     "lfs_oid": "49f60205e190369145352de972e3510bcfeef6b5a26041573032edbe132c1e06",
+     "size": 4876059416,
+     "commit": {
+      "id": "90705b890e1dc8070c3267b72c2d8dd0ab99cc3b",
+      "title": "Upload folder using huggingface_hub",
+      "date": "2024-11-10T09:35:03.000Z"
+     }
+    },
+    {
+     "path": "model-00012-of-00014.safetensors",
+     "lfs_oid": "9a53a0d4a02dcb5f036da4fcd50e408107144ff4c4b09357cf1829be2ef382f9",
+     "size": 4876059416,
+     "commit": {
+      "id": "90705b890e1dc8070c3267b72c2d8dd0ab99cc3b",
+      "title": "Upload folder using huggingface_hub",
+      "date": "2024-11-10T09:35:03.000Z"
+     }
+    },
+    {
+     "path": "model-00013-of-00014.safetensors",
+     "lfs_oid": "8b26127defc68bff2e0744ae9afc9c8ab1730fee071e0400b4bfe8f07fadda5b",
+     "size": 4876059416,
+     "commit": {
+      "id": "90705b890e1dc8070c3267b72c2d8dd0ab99cc3b",
+      "title": "Upload folder using huggingface_hub",
+      "date": "2024-11-10T09:35:03.000Z"
+     }
+    },
+    {
+     "path": "model-00014-of-00014.safetensors",
+     "lfs_oid": "983ebbded19c19264d08845710c9993714d60e17f81c62e1e15c8f174af79847",
+     "size": 2123397800,
+     "commit": {
+      "id": "90705b890e1dc8070c3267b72c2d8dd0ab99cc3b",
+      "title": "Upload folder using huggingface_hub",
+      "date": "2024-11-10T09:35:03.000Z"
+     }
+    }
+   ],
+   "gguf_date": "2024-11-12T12:58:12.000Z",
+   "source_weights_date": "2024-11-10T09:35:03.000Z",
+   "source_files_changed_after_gguf": [],
+   "horizon": "2024-11-10T09:35:03Z",
+   "horizon_rule": "source weights present when the GGUF was made",
+   "created_to_horizon_days": 4.07,
+   "configs": [
+    "run_study_ollama.yaml"
+   ]
+  }
+ }
+}

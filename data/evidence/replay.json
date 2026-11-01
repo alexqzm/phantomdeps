@@ -1,0 +1,3153 @@
+{
+ "control_backdate_days": 180,
+ "ecosystems": [
+  "pypi",
+  "npm",
+  "crates",
+  "espidf"
+ ],
+ "generated_at": "2026-10-29T21:05:34Z",
+ "lock_execution": {
+  "crates": [
+   {
+    "eco": "crates",
+    "lock": {
+     "argv": [
+      "/root/.cargo/bin/cargo",
+      "generate-lockfile",
+      "--manifest-path",
+      "/tmp/replay_run_tgz57u8i/crates/lockexec/lx_crates_0/consumer/Cargo.toml"
+     ],
+     "code_ran_during_lock": false,
+     "digest_found": true,
+     "elapsed_s": 0.126,
+     "exit": 0,
+     "mode": "generate-lockfile"
+    },
+    "name": "ph-d6f5646ec2"
+   },
+   {
+    "eco": "crates",
+    "lock": {
+     "argv": [
+      "/root/.cargo/bin/cargo",
+      "generate-lockfile",
+      "--manifest-path",
+      "/tmp/replay_run_tgz57u8i/crates/lockexec/lx_crates_1/consumer/Cargo.toml"
+     ],
+     "code_ran_during_lock": false,
+     "digest_found": true,
+     "elapsed_s": 0.139,
+     "exit": 0,
+     "mode": "generate-lockfile"
+    },
+    "name": "ph-c923ba45c7"
+   },
+   {
+    "eco": "crates",
+    "lock": {
+     "argv": [
+      "/root/.cargo/bin/cargo",
+      "generate-lockfile",
+      "--manifest-path",
+      "/tmp/replay_run_tgz57u8i/crates/lockexec/lx_crates_2/consumer/Cargo.toml"
+     ],
+     "code_ran_during_lock": false,
+     "digest_found": true,
+     "elapsed_s": 0.127,
+     "exit": 0,
+     "mode": "generate-lockfile"
+    },
+    "name": "ph-192c362d35"
+   }
+  ],
+  "espidf": [
+   {
+    "eco": "espidf",
+    "lock": {
+     "argv": [
+      "/usr/bin/python3",
+      "-I",
+      "/tmp/replay_run_tgz57u8i/espidf/lockexec/lx_esp_0/lockproj/driver/esp_driver.py",
+      "lock",
+      "/tmp/replay_run_tgz57u8i/espidf/lockexec/lx_esp_0/lockproj/spec_lock.json"
+     ],
+     "code_ran_during_lock": false,
+     "digest_found": true,
+     "elapsed_s": 0.595,
+     "exit": 0,
+     "mode": "version-solver + lock dump (no download)"
+    },
+    "name": "ph-133890f6f7"
+   }
+  ],
+  "npm": [
+   {
+    "eco": "npm",
+    "lock": {
+     "argv": [
+      "/opt/node22/bin/npm",
+      "install",
+      "ph-e68cbcd11f",
+      "--package-lock-only",
+      "--ignore-scripts",
+      "--no-audit",
+      "--no-fund",
+      "--registry",
+      "http://127.0.0.1:44803/",
+      "--userconfig",
+      "/tmp/replay_run_tgz57u8i/npm/verdaccio/.npmrc"
+     ],
+     "code_ran_during_lock": false,
+     "digest_found": true,
+     "elapsed_s": 0.342,
+     "exit": 0,
+     "mode": "package-lock-only"
+    },
+    "name": "ph-e68cbcd11f"
+   },
+   {
+    "eco": "npm",
+    "lock": {
+     "argv": [
+      "/opt/node22/bin/npm",
+      "install",
+      "ph-e644314611",
+      "--package-lock-only",
+      "--ignore-scripts",
+      "--no-audit",
+      "--no-fund",
+      "--registry",
+      "http://127.0.0.1:44803/",
+      "--userconfig",
+      "/tmp/replay_run_tgz57u8i/npm/verdaccio/.npmrc"
+     ],
+     "code_ran_during_lock": false,
+     "digest_found": true,
+     "elapsed_s": 0.306,
+     "exit": 0,
+     "mode": "package-lock-only"
+    },
+    "name": "ph-e644314611"
+   },
+   {
+    "eco": "npm",
+    "lock": {
+     "argv": [
+      "/opt/node22/bin/npm",
+      "install",
+      "ph-6196925e92",
+      "--package-lock-only",
+      "--ignore-scripts",
+      "--no-audit",
+      "--no-fund",
+      "--registry",
+      "http://127.0.0.1:44803/",
+      "--userconfig",
+      "/tmp/replay_run_tgz57u8i/npm/verdaccio/.npmrc"
+     ],
+     "code_ran_during_lock": false,
+     "digest_found": true,
+     "elapsed_s": 0.327,
+     "exit": 0,
+     "mode": "package-lock-only"
+    },
+    "name": "ph-6196925e92"
+   }
+  ],
+  "pypi": [
+   {
+    "eco": "pypi",
+    "name": "ph-7be9af36b9",
+    "with_no_build": {
+     "argv": [
+      "/root/.local/bin/uv",
+      "pip",
+      "compile",
+      "--generate-hashes",
+      "--no-build",
+      "--index-url",
+      "http://127.0.0.1:47811/simple/",
+      "/tmp/replay_run_tgz57u8i/pypi/lockexec/lx_pypi_0/r.in"
+     ],
+     "code_ran_during_lock": false,
+     "digest_found": false,
+     "elapsed_s": 0.102,
+     "exit": 1,
+     "install_marker_appeared": false,
+     "mode": "uv pip compile --no-build",
+     "refused": true
+    },
+    "without_no_build": {
+     "argv": [
+      "/root/.local/bin/uv",
+      "pip",
+      "compile",
+      "--generate-hashes",
+      "--index-url",
+      "http://127.0.0.1:47811/simple/",
+      "/tmp/replay_run_tgz57u8i/pypi/lockexec/lx_pypi_0/r.in"
+     ],
+     "code_ran_during_lock": true,
+     "digest_found": true,
+     "elapsed_s": 0.238,
+     "exit": 0,
+     "install_marker_appeared": false,
+     "mode": "uv pip compile"
+    }
+   },
+   {
+    "eco": "pypi",
+    "name": "ph-a35d79efd8",
+    "with_no_build": {
+     "argv": [
+      "/root/.local/bin/uv",
+      "pip",
+      "compile",
+      "--generate-hashes",
+      "--no-build",
+      "--index-url",
+      "http://127.0.0.1:47811/simple/",
+      "/tmp/replay_run_tgz57u8i/pypi/lockexec/lx_pypi_1/r.in"
+     ],
+     "code_ran_during_lock": false,
+     "digest_found": false,
+     "elapsed_s": 0.094,
+     "exit": 1,
+     "install_marker_appeared": false,
+     "mode": "uv pip compile --no-build",
+     "refused": true
+    },
+    "without_no_build": {
+     "argv": [
+      "/root/.local/bin/uv",
+      "pip",
+      "compile",
+      "--generate-hashes",
+      "--index-url",
+      "http://127.0.0.1:47811/simple/",
+      "/tmp/replay_run_tgz57u8i/pypi/lockexec/lx_pypi_1/r.in"
+     ],
+     "code_ran_during_lock": true,
+     "digest_found": true,
+     "elapsed_s": 0.216,
+     "exit": 0,
+     "install_marker_appeared": false,
+     "mode": "uv pip compile"
+    }
+   },
+   {
+    "eco": "pypi",
+    "name": "ph-80a684cfd5",
+    "with_no_build": {
+     "argv": [
+      "/root/.local/bin/uv",
+      "pip",
+      "compile",
+      "--generate-hashes",
+      "--no-build",
+      "--index-url",
+      "http://127.0.0.1:47811/simple/",
+      "/tmp/replay_run_tgz57u8i/pypi/lockexec/lx_pypi_2/r.in"
+     ],
+     "code_ran_during_lock": false,
+     "digest_found": false,
+     "elapsed_s": 0.095,
+     "exit": 1,
+     "install_marker_appeared": false,
+     "mode": "uv pip compile --no-build",
+     "refused": true
+    },
+    "without_no_build": {
+     "argv": [
+      "/root/.local/bin/uv",
+      "pip",
+      "compile",
+      "--generate-hashes",
+      "--index-url",
+      "http://127.0.0.1:47811/simple/",
+      "/tmp/replay_run_tgz57u8i/pypi/lockexec/lx_pypi_2/r.in"
+     ],
+     "code_ran_during_lock": true,
+     "digest_found": true,
+     "elapsed_s": 0.235,
+     "exit": 0,
+     "install_marker_appeared": false,
+     "mode": "uv pip compile"
+    }
+   }
+  ]
+ },
+ "masking": "phantom and control names are pseudonyms from phantomdeps.util.mask_key(eco, None, name), which normalises the name as the registry compares it (PEP 503 for PyPI, lower-case elsewhere) so each equals the paper's per-declaration pseudonym in data/runs/*/deps_masked.jsonl; stdout/stderr tails are omitted; the file is verified to contain no real name",
+ "network_isolation": {
+  "interfaces": [
+   "lo"
+  ],
+  "isolated": true,
+  "routes_off_loopback": 0
+ },
+ "notes": [
+  "All registries listen on 127.0.0.1 only; no package is published to any real registry.",
+  "With --netns (as for the recorded run) the whole replay runs in a fresh network namespace whose only interface is loopback (network_isolation, read from /proc/self/net before any server starts), so no installer or build step can reach anything but the local registries, whatever it tries.",
+  "Packages are harmless: they only write the fixed marker text to $REPLAY_MARKER_DIR.",
+  "P1 = installer default (resolves-now). P3 here = the installers' own as-of-h date filters (uv --exclude-newer, npm --before); pip, cargo and the ESP-IDF component manager have no such option (recorded not_available). The paper's P3 is the record-age policy, which these filters match only when a name's earliest artifact dates its record (PROTOCOL.md, section 7).",
+  "SCII pipeline ORDER: decide the gate items (res, est) first from what the registry reports; run the pin lock step ONLY if the gate passes (G==1); then decide with the measured pin; then install only on admit. A squat (G==0 or None) never reaches the lock step, so no unvetted package code is run to collect evidence.",
+  "Pin evidence is CODE-FREE: npm install --package-lock-only --ignore-scripts (integrity); cargo generate-lockfile (checksum); uv pip compile --generate-hashes --no-build (sha256). The controls are published as an inert wheel + sdist so --no-build reads the wheel without building; squats are sdist-only. marker_after_lock is recorded for every lock step (false throughout). scii.no_pin keeps the pin=None decision for comparison.",
+  "Resolving an sdist-only package with uv WITHOUT --no-build runs its build backend (get_requires_for_build_wheel / prepare_metadata_for_build_wheel) -- package-authored code. The top-level lock_execution section measures this directly on each squat with a distinct metadata-hook marker (code_ran_during_lock), which is exactly why the gate runs before any lock step and the pin comes from code-free locking.",
+  "Bound models: npm time.created and crates pubtime bound the record from both sides; PyPI upload times bound it only from above (tau_lo=None on first contact) unless a real pre-publish absence lookup supplies tau_lo (the 'with_absence' variant).",
+  "cargo has no stable publication-date install filter, so P3 is not available for crates.",
+  "Controls are NOT pre-existing packages: they are published DURING the replay with a record date the harness set control_backdate_days (180) before the horizon (record_date_set_by_harness=true). They are not 'published before the horizon'.",
+  "dateless_control (PyPI): such a control served from an HTML-only index with no PEP 700 upload-time; the date filter stops it, first contact yields 'request', and one lookup of the record date at the PEP 691 origin index answers the request so the build can complete.",
+  "Ordering is made real per squat and asserted (ordering_check): absence lookup first, then build+publish (the registry stamps the publish instant), so absence_time < publication_time; t_gate is taken after an ecosystem's squats are published, so publication_time <= t_gate and P2 age >= 0.",
+  "espidf (CPS stand-in): the REAL idf-component-manager 3.1.2 resolves+downloads one harmless marker component from a local static-storage mock on 127.0.0.1 (GET /components/<ns>/<name>.json, then the .tgz and CHECKSUMS.json), driven via its download_project_dependencies/version-solver API. P1 ('resolves now') admits the squat: its payload is unpacked into managed_components/ and the packed marker file is MATERIALISED into the build tree (marker=1). Unlike pip/npm/cargo, downloading a component runs NO component code: the component's CMake file writes a second marker when it is evaluated, and it is absent after the download (P1_download_code_ran=0).",
+  "espidf build: the REAL ESP-IDF build system (esp_idf in tool_versions; a shallow release checkout without git submodules, IDF_SKIP_CHECK_SUBMODULES=1) runs 'idf.py --preview build' for the linux host target (host gcc, no cross toolchain) on a minimal application whose main/idf_component.yml declares the component. The build calls the component manager at configure time, which downloads the component from the mock; CMake evaluates its CMakeLists.txt (cmake_marker: component code ran during the build) and compiles its source into the component library (component_lib). Under P1 the squat is built; under SCII the squat is rejected before any download or build, and the admitted control is built from the lock file the gate measured (pin_matches_build: the hash in the build's lock equals the measured pin). The application is not flashed or run.",
+  "espidf is REC_LOWER+REC_UPPER (like crates): the component record date (created_at) bounds the gate from both sides. The squat's record date is stamped at publish (after h), so est is refuted (G=0) and the SCII gate REJECTS it at first contact and with-absence, never reaching the lock step or installer. The backdated control (record date control_backdate_days before h) is established (est=1) and admitted.",
+  "espidf pin is CODE-FREE: the version solver + lock-file dump (no download, no unpack) records the component_hash the static storage serves; the lock step creates no managed_components and runs no component code (code_ran_during_lock=0). idf-component-manager has no publication-date install filter, so P3 is not available for espidf (like cargo).",
+  "The espidf scenario with role 'squat' is a stand-in, not a squat (the paper says so): every ESP-IDF phantom of the pilot's greedy pass lies in Espressif's own namespace, which no outsider can publish into. Its name is a classified ESP phantom's keyed pseudonym (mask_key('espidf', owner, name), which embeds the namespace), used verbatim as the operational component name under a placeholder local namespace. It is a harmless ph-<hex> placeholder that never resolves on the real registry, and mask_key is idempotent on it, so it equals the paper's per-declaration pseudonym and cross-checks."
+ ],
+ "ordering_check": {
+  "all_absence_lt_publication_le_tgate": true,
+  "controls_publication_le_tgate": true,
+  "squats_checked": 10
+ },
+ "profile": {
+  "age_heuristic_days": 30,
+  "alpha": {
+   "est": 0.3,
+   "pin": 0.2,
+   "prov": 0.1,
+   "res": 0.4
+  },
+  "delta_est_days": 30,
+  "mandatory": [
+   "res",
+   "est"
+  ],
+  "theta": 0.85
+ },
+ "pseudonym_crosscheck": {
+  "all_found": true,
+  "checked_runs": [
+   "pilot-cpu-2026-10",
+   "pilot-cpu-ext-2026-10"
+  ],
+  "missing": [],
+  "n_squat_pseudonyms": 10,
+  "skipped_runs": []
+ },
+ "scenarios": [
+  {
+   "absence_lookup": {
+    "method": "GET /simple/<name>/ on local index",
+    "resolved_before_publish": false,
+    "time": "2026-10-29T21:04:31.827376Z"
+   },
+   "eco": "pypi",
+   "gate_time_s": 0.0,
+   "horizon": "2024-09-18T15:13:54Z",
+   "install_time_s": 0.357,
+   "masked": true,
+   "name": "ph-7be9af36b9",
+   "policies": {
+    "P1": {
+     "installers": [
+      {
+       "argv": [
+        "/tmp/replay_run_tgz57u8i/pypi/pypi_0/P1_pip/venv_pip/bin/python",
+        "-m",
+        "pip",
+        "install",
+        "--no-cache-dir",
+        "--index-url",
+        "http://127.0.0.1:47811/simple/",
+        "ph-7be9af36b9"
+       ],
+       "elapsed_s": 0.726,
+       "exit": 0,
+       "installed": true,
+       "marker": true,
+       "timed_out": false,
+       "tool": "pip"
+      },
+      {
+       "argv": [
+        "/root/.local/bin/uv",
+        "pip",
+        "install",
+        "--index-url",
+        "http://127.0.0.1:47811/simple/",
+        "--no-cache",
+        "ph-7be9af36b9"
+       ],
+       "elapsed_s": 0.357,
+       "exit": 0,
+       "installed": true,
+       "marker": true,
+       "timed_out": false,
+       "tool": "uv"
+      }
+     ]
+    },
+    "P2": {
+     "age_days": 0,
+     "age_heuristic_days": 30,
+     "basis": "reported publication time; t_gate - pub_time",
+     "decision": "reject",
+     "pub_time": "2026-10-29T21:04:31.828060Z"
+    },
+    "P3": {
+     "installers": [
+      {
+       "reason": "pip has no as-of / publication-date install option",
+       "status": "not_available",
+       "tool": "pip"
+      },
+      {
+       "argv": [
+        "/root/.local/bin/uv",
+        "pip",
+        "install",
+        "--index-url",
+        "http://127.0.0.1:47811/simple/",
+        "--no-cache",
+        "--exclude-newer",
+        "2024-09-18T15:13:54Z",
+        "ph-7be9af36b9"
+       ],
+       "elapsed_s": 0.113,
+       "exit": 1,
+       "installed": false,
+       "marker": false,
+       "timed_out": false,
+       "tool": "uv"
+      }
+     ]
+    },
+    "SCII": {
+     "first_contact": {
+      "G": null,
+      "R": 0.4,
+      "Rp": 1.0,
+      "decision": "request",
+      "evidence": {
+       "est": null,
+       "pin": null,
+       "prov": null,
+       "res": 1
+      },
+      "horizon": "2024-09-18T15:13:54Z",
+      "tau_hi": "2026-10-29T21:04:31.828060Z",
+      "tau_lo": null
+     },
+     "gate_G_before_lock": null,
+     "gate_time_s": 0.0,
+     "install": {
+      "reason": "SCII first-contact decision was 'request', not 'admit'",
+      "status": "not_invoked"
+     },
+     "installer_invoked": false,
+     "lock": [],
+     "lock_step_run": false,
+     "no_pin": {
+      "first_contact": {
+       "G": null,
+       "R": 0.4,
+       "Rp": 1.0,
+       "decision": "request",
+       "evidence": {
+        "est": null,
+        "pin": null,
+        "prov": null,
+        "res": 1
+       },
+       "horizon": "2024-09-18T15:13:54Z",
+       "tau_hi": "2026-10-29T21:04:31.828060Z",
+       "tau_lo": null
+      },
+      "with_absence": {
+       "G": 0,
+       "R": 0.4,
+       "Rp": 0.7000000000000001,
+       "decision": "reject",
+       "evidence": {
+        "est": 0,
+        "pin": null,
+        "prov": null,
+        "res": 1
+       },
+       "horizon": "2024-09-18T15:13:54Z",
+       "tau_hi": "2026-10-29T21:04:31.828060Z",
+       "tau_lo": "2026-10-29T21:04:31.827376Z"
+      }
+     },
+     "pin_measured": null,
+     "pipeline_order": "gate items (res, est) -> lock for pin iff G==1 -> decide with pin -> install iff admit",
+     "with_absence": {
+      "G": 0,
+      "R": 0.4,
+      "Rp": 0.7000000000000001,
+      "decision": "reject",
+      "evidence": {
+       "est": 0,
+       "pin": null,
+       "prov": null,
+       "res": 1
+      },
+      "horizon": "2024-09-18T15:13:54Z",
+      "tau_hi": "2026-10-29T21:04:31.828060Z",
+      "tau_lo": "2026-10-29T21:04:31.827376Z"
+     }
+    }
+   },
+   "registry_meta": {
+    "dists": [
+     "sdist"
+    ],
+    "filename": "ph-7be9af36b9-0.0.1.tar.gz",
+    "publication_time": "2026-10-29T21:04:31.828060Z",
+    "resolves": true,
+    "sha256": "183fe12feb70e267797459889dfbc17007bbdd23882bdc0fb72cde6ef48aee4f"
+   },
+   "role": "squat",
+   "t_gate": "2026-10-29T21:04:31.829519Z"
+  },
+  {
+   "absence_lookup": {
+    "method": "GET /simple/<name>/ on local index",
+    "resolved_before_publish": false,
+    "time": "2026-10-29T21:04:31.828102Z"
+   },
+   "eco": "pypi",
+   "gate_time_s": 0.0,
+   "horizon": "2024-09-18T12:38:14Z",
+   "install_time_s": 0.338,
+   "masked": true,
+   "name": "ph-a35d79efd8",
+   "policies": {
+    "P1": {
+     "installers": [
+      {
+       "argv": [
+        "/tmp/replay_run_tgz57u8i/pypi/pypi_1/P1_pip/venv_pip/bin/python",
+        "-m",
+        "pip",
+        "install",
+        "--no-cache-dir",
+        "--index-url",
+        "http://127.0.0.1:47811/simple/",
+        "ph-a35d79efd8"
+       ],
+       "elapsed_s": 0.649,
+       "exit": 0,
+       "installed": true,
+       "marker": true,
+       "timed_out": false,
+       "tool": "pip"
+      },
+      {
+       "argv": [
+        "/root/.local/bin/uv",
+        "pip",
+        "install",
+        "--index-url",
+        "http://127.0.0.1:47811/simple/",
+        "--no-cache",
+        "ph-a35d79efd8"
+       ],
+       "elapsed_s": 0.338,
+       "exit": 0,
+       "installed": true,
+       "marker": true,
+       "timed_out": false,
+       "tool": "uv"
+      }
+     ]
+    },
+    "P2": {
+     "age_days": 0,
+     "age_heuristic_days": 30,
+     "basis": "reported publication time; t_gate - pub_time",
+     "decision": "reject",
+     "pub_time": "2026-10-29T21:04:31.828445Z"
+    },
+    "P3": {
+     "installers": [
+      {
+       "reason": "pip has no as-of / publication-date install option",
+       "status": "not_available",
+       "tool": "pip"
+      },
+      {
+       "argv": [
+        "/root/.local/bin/uv",
+        "pip",
+        "install",
+        "--index-url",
+        "http://127.0.0.1:47811/simple/",
+        "--no-cache",
+        "--exclude-newer",
+        "2024-09-18T12:38:14Z",
+        "ph-a35d79efd8"
+       ],
+       "elapsed_s": 0.08,
+       "exit": 1,
+       "installed": false,
+       "marker": false,
+       "timed_out": false,
+       "tool": "uv"
+      }
+     ]
+    },
+    "SCII": {
+     "first_contact": {
+      "G": null,
+      "R": 0.4,
+      "Rp": 1.0,
+      "decision": "request",
+      "evidence": {
+       "est": null,
+       "pin": null,
+       "prov": null,
+       "res": 1
+      },
+      "horizon": "2024-09-18T12:38:14Z",
+      "tau_hi": "2026-10-29T21:04:31.828445Z",
+      "tau_lo": null
+     },
+     "gate_G_before_lock": null,
+     "gate_time_s": 0.0,
+     "install": {
+      "reason": "SCII first-contact decision was 'request', not 'admit'",
+      "status": "not_invoked"
+     },
+     "installer_invoked": false,
+     "lock": [],
+     "lock_step_run": false,
+     "no_pin": {
+      "first_contact": {
+       "G": null,
+       "R": 0.4,
+       "Rp": 1.0,
+       "decision": "request",
+       "evidence": {
+        "est": null,
+        "pin": null,
+        "prov": null,
+        "res": 1
+       },
+       "horizon": "2024-09-18T12:38:14Z",
+       "tau_hi": "2026-10-29T21:04:31.828445Z",
+       "tau_lo": null
+      },
+      "with_absence": {
+       "G": 0,
+       "R": 0.4,
+       "Rp": 0.7000000000000001,
+       "decision": "reject",
+       "evidence": {
+        "est": 0,
+        "pin": null,
+        "prov": null,
+        "res": 1
+       },
+       "horizon": "2024-09-18T12:38:14Z",
+       "tau_hi": "2026-10-29T21:04:31.828445Z",
+       "tau_lo": "2026-10-29T21:04:31.828102Z"
+      }
+     },
+     "pin_measured": null,
+     "pipeline_order": "gate items (res, est) -> lock for pin iff G==1 -> decide with pin -> install iff admit",
+     "with_absence": {
+      "G": 0,
+      "R": 0.4,
+      "Rp": 0.7000000000000001,
+      "decision": "reject",
+      "evidence": {
+       "est": 0,
+       "pin": null,
+       "prov": null,
+       "res": 1
+      },
+      "horizon": "2024-09-18T12:38:14Z",
+      "tau_hi": "2026-10-29T21:04:31.828445Z",
+      "tau_lo": "2026-10-29T21:04:31.828102Z"
+     }
+    }
+   },
+   "registry_meta": {
+    "dists": [
+     "sdist"
+    ],
+    "filename": "ph-a35d79efd8-0.0.1.tar.gz",
+    "publication_time": "2026-10-29T21:04:31.828445Z",
+    "resolves": true,
+    "sha256": "85d8dbd6a561faf5f20434c2e0cc8dcab3762be543ec312625b2163d39dae5b4"
+   },
+   "role": "squat",
+   "t_gate": "2026-10-29T21:04:31.829519Z"
+  },
+  {
+   "absence_lookup": {
+    "method": "GET /simple/<name>/ on local index",
+    "resolved_before_publish": false,
+    "time": "2026-10-29T21:04:31.828467Z"
+   },
+   "eco": "pypi",
+   "gate_time_s": 0.0,
+   "horizon": "2024-09-18T15:13:54Z",
+   "install_time_s": 0.356,
+   "masked": true,
+   "name": "ph-80a684cfd5",
+   "policies": {
+    "P1": {
+     "installers": [
+      {
+       "argv": [
+        "/tmp/replay_run_tgz57u8i/pypi/pypi_2/P1_pip/venv_pip/bin/python",
+        "-m",
+        "pip",
+        "install",
+        "--no-cache-dir",
+        "--index-url",
+        "http://127.0.0.1:47811/simple/",
+        "ph-80a684cfd5"
+       ],
+       "elapsed_s": 0.706,
+       "exit": 0,
+       "installed": true,
+       "marker": true,
+       "timed_out": false,
+       "tool": "pip"
+      },
+      {
+       "argv": [
+        "/root/.local/bin/uv",
+        "pip",
+        "install",
+        "--index-url",
+        "http://127.0.0.1:47811/simple/",
+        "--no-cache",
+        "ph-80a684cfd5"
+       ],
+       "elapsed_s": 0.356,
+       "exit": 0,
+       "installed": true,
+       "marker": true,
+       "timed_out": false,
+       "tool": "uv"
+      }
+     ]
+    },
+    "P2": {
+     "age_days": 0,
+     "age_heuristic_days": 30,
+     "basis": "reported publication time; t_gate - pub_time",
+     "decision": "reject",
+     "pub_time": "2026-10-29T21:04:31.828804Z"
+    },
+    "P3": {
+     "installers": [
+      {
+       "reason": "pip has no as-of / publication-date install option",
+       "status": "not_available",
+       "tool": "pip"
+      },
+      {
+       "argv": [
+        "/root/.local/bin/uv",
+        "pip",
+        "install",
+        "--index-url",
+        "http://127.0.0.1:47811/simple/",
+        "--no-cache",
+        "--exclude-newer",
+        "2024-09-18T15:13:54Z",
+        "ph-80a684cfd5"
+       ],
+       "elapsed_s": 0.092,
+       "exit": 1,
+       "installed": false,
+       "marker": false,
+       "timed_out": false,
+       "tool": "uv"
+      }
+     ]
+    },
+    "SCII": {
+     "first_contact": {
+      "G": null,
+      "R": 0.4,
+      "Rp": 1.0,
+      "decision": "request",
+      "evidence": {
+       "est": null,
+       "pin": null,
+       "prov": null,
+       "res": 1
+      },
+      "horizon": "2024-09-18T15:13:54Z",
+      "tau_hi": "2026-10-29T21:04:31.828804Z",
+      "tau_lo": null
+     },
+     "gate_G_before_lock": null,
+     "gate_time_s": 0.0,
+     "install": {
+      "reason": "SCII first-contact decision was 'request', not 'admit'",
+      "status": "not_invoked"
+     },
+     "installer_invoked": false,
+     "lock": [],
+     "lock_step_run": false,
+     "no_pin": {
+      "first_contact": {
+       "G": null,
+       "R": 0.4,
+       "Rp": 1.0,
+       "decision": "request",
+       "evidence": {
+        "est": null,
+        "pin": null,
+        "prov": null,
+        "res": 1
+       },
+       "horizon": "2024-09-18T15:13:54Z",
+       "tau_hi": "2026-10-29T21:04:31.828804Z",
+       "tau_lo": null
+      },
+      "with_absence": {
+       "G": 0,
+       "R": 0.4,
+       "Rp": 0.7000000000000001,
+       "decision": "reject",
+       "evidence": {
+        "est": 0,
+        "pin": null,
+        "prov": null,
+        "res": 1
+       },
+       "horizon": "2024-09-18T15:13:54Z",
+       "tau_hi": "2026-10-29T21:04:31.828804Z",
+       "tau_lo": "2026-10-29T21:04:31.828467Z"
+      }
+     },
+     "pin_measured": null,
+     "pipeline_order": "gate items (res, est) -> lock for pin iff G==1 -> decide with pin -> install iff admit",
+     "with_absence": {
+      "G": 0,
+      "R": 0.4,
+      "Rp": 0.7000000000000001,
+      "decision": "reject",
+      "evidence": {
+       "est": 0,
+       "pin": null,
+       "prov": null,
+       "res": 1
+      },
+      "horizon": "2024-09-18T15:13:54Z",
+      "tau_hi": "2026-10-29T21:04:31.828804Z",
+      "tau_lo": "2026-10-29T21:04:31.828467Z"
+     }
+    }
+   },
+   "registry_meta": {
+    "dists": [
+     "sdist"
+    ],
+    "filename": "ph-80a684cfd5-0.0.1.tar.gz",
+    "publication_time": "2026-10-29T21:04:31.828804Z",
+    "resolves": true,
+    "sha256": "5bdfbf23c60e8afcfeee0ec3c52888a4f01653bf5e83d4c524f602d511b44eb9"
+   },
+   "role": "squat",
+   "t_gate": "2026-10-29T21:04:31.829519Z"
+  },
+  {
+   "absence_lookup": {
+    "method": "GET /simple/<name>/ on local index",
+    "resolved_before_publish": false,
+    "time": "2026-10-29T21:04:31.828833Z"
+   },
+   "eco": "pypi",
+   "gate_time_s": 0.131,
+   "horizon": "2024-09-18T12:38:14Z",
+   "install_time_s": 0.179,
+   "masked": true,
+   "name": "ph-8655d3a5f8",
+   "policies": {
+    "P1": {
+     "installers": [
+      {
+       "argv": [
+        "/tmp/replay_run_tgz57u8i/pypi/pypi_3/P1_pip/venv_pip/bin/python",
+        "-m",
+        "pip",
+        "install",
+        "--no-cache-dir",
+        "--index-url",
+        "http://127.0.0.1:47811/simple/",
+        "ph-8655d3a5f8"
+       ],
+       "elapsed_s": 0.563,
+       "exit": 0,
+       "installed": true,
+       "marker": false,
+       "timed_out": false,
+       "tool": "pip"
+      },
+      {
+       "argv": [
+        "/root/.local/bin/uv",
+        "pip",
+        "install",
+        "--index-url",
+        "http://127.0.0.1:47811/simple/",
+        "--no-cache",
+        "ph-8655d3a5f8"
+       ],
+       "elapsed_s": 0.179,
+       "exit": 0,
+       "installed": true,
+       "marker": false,
+       "timed_out": false,
+       "tool": "uv"
+      }
+     ]
+    },
+    "P2": {
+     "age_days": 951,
+     "age_heuristic_days": 30,
+     "basis": "reported publication time; t_gate - pub_time",
+     "decision": "admit",
+     "pub_time": "2024-03-22T12:38:14Z"
+    },
+    "P3": {
+     "installers": [
+      {
+       "reason": "pip has no as-of / publication-date install option",
+       "status": "not_available",
+       "tool": "pip"
+      },
+      {
+       "argv": [
+        "/root/.local/bin/uv",
+        "pip",
+        "install",
+        "--index-url",
+        "http://127.0.0.1:47811/simple/",
+        "--no-cache",
+        "--exclude-newer",
+        "2024-09-18T12:38:14Z",
+        "ph-8655d3a5f8"
+       ],
+       "elapsed_s": 0.166,
+       "exit": 0,
+       "installed": true,
+       "marker": false,
+       "timed_out": false,
+       "tool": "uv"
+      }
+     ]
+    },
+    "SCII": {
+     "first_contact": {
+      "G": 1,
+      "R": 0.9,
+      "Rp": 1.0,
+      "decision": "admit",
+      "evidence": {
+       "est": 1,
+       "pin": 1,
+       "prov": null,
+       "res": 1
+      },
+      "horizon": "2024-09-18T12:38:14Z",
+      "tau_hi": "2024-03-22T12:38:14Z",
+      "tau_lo": null
+     },
+     "gate_G_before_lock": 1,
+     "gate_time_s": 0.131,
+     "install": {
+      "argv": [
+       "/tmp/replay_run_tgz57u8i/pypi/pypi_3/SCII_pip/venv_pip/bin/python",
+       "-m",
+       "pip",
+       "install",
+       "--no-cache-dir",
+       "--index-url",
+       "http://127.0.0.1:47811/simple/",
+       "ph-8655d3a5f8"
+      ],
+      "elapsed_s": 0.575,
+      "exit": 0,
+      "installed": true,
+      "marker": false,
+      "timed_out": false,
+      "tool": "pip"
+     },
+     "installer_invoked": true,
+     "lock": [
+      {
+       "argv": [
+        "/root/.local/bin/uv",
+        "pip",
+        "compile",
+        "--generate-hashes",
+        "--no-build",
+        "--index-url",
+        "http://127.0.0.1:47811/simple/",
+        "/tmp/replay_run_tgz57u8i/pypi/pypi_3/lock/requirements.in"
+       ],
+       "digest_found": true,
+       "elapsed_s": 0.13,
+       "exit": 0,
+       "marker_after_lock": false,
+       "meta_marker_after_lock": false,
+       "mode": "pip compile --no-build",
+       "timed_out": false,
+       "tool": "uv"
+      }
+     ],
+     "lock_step_run": true,
+     "no_pin": {
+      "first_contact": {
+       "G": 1,
+       "R": 0.7,
+       "Rp": 1.0,
+       "decision": "review",
+       "evidence": {
+        "est": 1,
+        "pin": null,
+        "prov": null,
+        "res": 1
+       },
+       "horizon": "2024-09-18T12:38:14Z",
+       "tau_hi": "2024-03-22T12:38:14Z",
+       "tau_lo": null
+      },
+      "with_absence": {
+       "not_applicable": true,
+       "reason": "control predates h; no genuine pre-h absence observation exists, so no tau_lo from a real lookup (not faked)"
+      }
+     },
+     "pin_measured": 1,
+     "pipeline_order": "gate items (res, est) -> lock for pin iff G==1 -> decide with pin -> install iff admit",
+     "with_absence": {
+      "not_applicable": true,
+      "reason": "control predates h; no genuine pre-h absence observation exists, so no tau_lo from a real lookup (not faked)"
+     }
+    }
+   },
+   "registry_meta": {
+    "dists": [
+     "sdist",
+     "wheel"
+    ],
+    "filename": "ph-8655d3a5f8-0.0.1.tar.gz",
+    "publication_time": "2024-03-22T12:38:14Z",
+    "record_date": "2024-03-22T12:38:14Z",
+    "record_date_set_by_harness": true,
+    "resolves": true,
+    "sha256": "131221188d5ca9ef4d766f55cde1e28c9840e4f5867ffc6e6d35ff3cb0f35b06"
+   },
+   "role": "control",
+   "t_gate": "2026-10-29T21:04:31.829519Z"
+  },
+  {
+   "absence_lookup": {
+    "method": "GET /simple/<name>/ on the dateless index",
+    "resolved_before_publish": false,
+    "time": "2026-10-29T21:04:49.786739Z"
+   },
+   "eco": "pypi",
+   "gate_time_s": 0.162,
+   "horizon": "2024-09-18T12:38:14Z",
+   "install_time_s": 0.195,
+   "masked": true,
+   "name": "ph-e5a6a35fc6",
+   "policies": {
+    "P1": {
+     "installers": [
+      {
+       "argv": [
+        "/tmp/replay_run_tgz57u8i/pypi/pypi_dateless/P1_pip/venv_pip/bin/python",
+        "-m",
+        "pip",
+        "install",
+        "--no-cache-dir",
+        "--index-url",
+        "http://127.0.0.1:49535/simple/",
+        "ph-e5a6a35fc6"
+       ],
+       "elapsed_s": 0.612,
+       "exit": 0,
+       "installed": true,
+       "marker": false,
+       "timed_out": false,
+       "tool": "pip"
+      },
+      {
+       "argv": [
+        "/root/.local/bin/uv",
+        "pip",
+        "install",
+        "--index-url",
+        "http://127.0.0.1:49535/simple/",
+        "--no-cache",
+        "ph-e5a6a35fc6"
+       ],
+       "elapsed_s": 0.195,
+       "exit": 0,
+       "installed": true,
+       "marker": false,
+       "timed_out": false,
+       "tool": "uv"
+      }
+     ]
+    },
+    "P2": {
+     "age_days": 951,
+     "age_heuristic_days": 30,
+     "basis": "reported publication time; t_gate - pub_time (harness-set origin record date; the dateless index carries no date)",
+     "decision": "admit",
+     "pub_time": "2024-03-22T12:38:14Z"
+    },
+    "P3": {
+     "installers": [
+      {
+       "reason": "pip has no as-of / publication-date install option",
+       "status": "not_available",
+       "tool": "pip"
+      },
+      {
+       "argv": [
+        "/root/.local/bin/uv",
+        "pip",
+        "install",
+        "--index-url",
+        "http://127.0.0.1:49535/simple/",
+        "--no-cache",
+        "--exclude-newer",
+        "2024-09-18T12:38:14Z",
+        "ph-e5a6a35fc6"
+       ],
+       "elapsed_s": 0.104,
+       "exit": 1,
+       "installed": false,
+       "marker": false,
+       "timed_out": false,
+       "tool": "uv"
+      }
+     ]
+    },
+    "SCII": {
+     "evidence_cost": {
+      "evidence_elapsed_s": 0.022,
+      "extra_http_requests": 1,
+      "lock_elapsed_s": 0.139,
+      "total_gate_time_s": 0.162
+     },
+     "evidence_step": {
+      "G_after_evidence": 1,
+      "decision": {
+       "G": 1,
+       "R": 0.9,
+       "Rp": 1.0,
+       "decision": "admit",
+       "evidence": {
+        "est": 1,
+        "pin": 1,
+        "prov": null,
+        "res": 1
+       },
+       "horizon": "2024-09-18T12:38:14Z",
+       "tau_hi": "2024-03-22T12:38:14Z",
+       "tau_lo": null
+      },
+      "origin_lookup": {
+       "elapsed_s": 0.022,
+       "http_requests": 1,
+       "upload_time": "2024-03-22T12:38:14Z",
+       "url": "http://127.0.0.1:47811/simple/ph-e5a6a35fc6/"
+      },
+      "trigger": "first-contact decision == request"
+     },
+     "first_contact": {
+      "G": null,
+      "R": 0.4,
+      "Rp": 1.0,
+      "decision": "request",
+      "evidence": {
+       "est": null,
+       "pin": null,
+       "prov": null,
+       "res": 1
+      },
+      "horizon": "2024-09-18T12:38:14Z",
+      "tau_hi": null,
+      "tau_lo": null
+     },
+     "gate_time_s": 0.162,
+     "install": {
+      "argv": [
+       "/tmp/replay_run_tgz57u8i/pypi/pypi_dateless/SCII_pip/venv_pip/bin/python",
+       "-m",
+       "pip",
+       "install",
+       "--no-cache-dir",
+       "--index-url",
+       "http://127.0.0.1:49535/simple/",
+       "ph-e5a6a35fc6"
+      ],
+      "elapsed_s": 0.493,
+      "exit": 0,
+      "installed": true,
+      "marker": false,
+      "timed_out": false,
+      "tool": "pip"
+     },
+     "installer_invoked": true,
+     "lock": [
+      {
+       "argv": [
+        "/root/.local/bin/uv",
+        "pip",
+        "compile",
+        "--generate-hashes",
+        "--no-build",
+        "--index-url",
+        "http://127.0.0.1:49535/simple/",
+        "/tmp/replay_run_tgz57u8i/pypi/pypi_dateless/lock/requirements.in"
+       ],
+       "digest_found": true,
+       "elapsed_s": 0.139,
+       "exit": 0,
+       "marker_after_lock": false,
+       "meta_marker_after_lock": false,
+       "mode": "pip compile --no-build",
+       "timed_out": false,
+       "tool": "uv"
+      }
+     ],
+     "lock_step_run": true,
+     "pin_measured": 1,
+     "pipeline_order": "first contact (request) -> origin date lookup -> lock for pin iff G==1 -> decide -> install iff admit"
+    }
+   },
+   "registry_meta": {
+    "dateless_index": "http://127.0.0.1:49535/simple/",
+    "dists": [
+     "sdist",
+     "wheel"
+    ],
+    "filename": "ph-e5a6a35fc6-0.0.1-py3-none-any.whl",
+    "origin_index": "http://127.0.0.1:47811/simple/",
+    "origin_record_date": "2024-03-22T12:38:14Z",
+    "record_date_set_by_harness": true,
+    "resolves_dateless": true,
+    "resolves_origin": true,
+    "served_upload_time": null
+   },
+   "role": "dateless_control",
+   "t_gate": "2026-10-29T21:04:49.788364Z"
+  },
+  {
+   "absence_lookup": {
+    "method": "GET /<name> on local Verdaccio",
+    "status_before_publish": 404,
+    "time": "2026-10-29T21:04:59.250676Z"
+   },
+   "eco": "npm",
+   "gate_time_s": 0.0,
+   "horizon": "2024-09-18T12:38:14Z",
+   "install_time_s": 0.392,
+   "masked": true,
+   "name": "ph-e68cbcd11f",
+   "policies": {
+    "P1": {
+     "installers": [
+      {
+       "argv": [
+        "/opt/node22/bin/npm",
+        "install",
+        "ph-e68cbcd11f",
+        "--no-audit",
+        "--no-fund",
+        "--registry",
+        "http://127.0.0.1:44803/",
+        "--userconfig",
+        "/tmp/replay_run_tgz57u8i/npm/verdaccio/.npmrc"
+       ],
+       "elapsed_s": 0.392,
+       "exit": 0,
+       "installed": true,
+       "marker": true,
+       "timed_out": false,
+       "tool": "npm"
+      }
+     ]
+    },
+    "P2": {
+     "age_days": 0,
+     "age_heuristic_days": 30,
+     "basis": "reported publication time; t_gate - pub_time",
+     "decision": "reject",
+     "pub_time": "2026-10-29T21:04:59.744Z"
+    },
+    "P3": {
+     "installers": [
+      {
+       "argv": [
+        "/opt/node22/bin/npm",
+        "install",
+        "ph-e68cbcd11f",
+        "--no-audit",
+        "--no-fund",
+        "--before",
+        "2024-09-18T12:38:14Z",
+        "--registry",
+        "http://127.0.0.1:44803/",
+        "--userconfig",
+        "/tmp/replay_run_tgz57u8i/npm/verdaccio/.npmrc"
+       ],
+       "elapsed_s": 0.314,
+       "exit": 1,
+       "installed": false,
+       "marker": false,
+       "timed_out": false,
+       "tool": "npm"
+      }
+     ]
+    },
+    "SCII": {
+     "first_contact": {
+      "G": 0,
+      "R": 0.4,
+      "Rp": 0.7000000000000001,
+      "decision": "reject",
+      "evidence": {
+       "est": 0,
+       "pin": null,
+       "prov": null,
+       "res": 1
+      },
+      "horizon": "2024-09-18T12:38:14Z",
+      "tau_hi": "2026-10-29T21:04:59.744Z",
+      "tau_lo": "2026-10-29T21:04:59.744Z"
+     },
+     "gate_G_before_lock": 0,
+     "gate_time_s": 0.0,
+     "install": {
+      "reason": "SCII first-contact decision was 'reject', not 'admit'",
+      "status": "not_invoked"
+     },
+     "installer_invoked": false,
+     "lock": [],
+     "lock_step_run": false,
+     "no_pin": {
+      "first_contact": {
+       "G": 0,
+       "R": 0.4,
+       "Rp": 0.7000000000000001,
+       "decision": "reject",
+       "evidence": {
+        "est": 0,
+        "pin": null,
+        "prov": null,
+        "res": 1
+       },
+       "horizon": "2024-09-18T12:38:14Z",
+       "tau_hi": "2026-10-29T21:04:59.744Z",
+       "tau_lo": "2026-10-29T21:04:59.744Z"
+      },
+      "with_absence": {
+       "G": 0,
+       "R": 0.4,
+       "Rp": 0.7000000000000001,
+       "decision": "reject",
+       "evidence": {
+        "est": 0,
+        "pin": null,
+        "prov": null,
+        "res": 1
+       },
+       "horizon": "2024-09-18T12:38:14Z",
+       "tau_hi": "2026-10-29T21:04:59.744Z",
+       "tau_lo": "2026-10-29T21:04:59.250676Z"
+      }
+     },
+     "pin_measured": null,
+     "pipeline_order": "gate items (res, est) -> lock for pin iff G==1 -> decide with pin -> install iff admit",
+     "with_absence": {
+      "G": 0,
+      "R": 0.4,
+      "Rp": 0.7000000000000001,
+      "decision": "reject",
+      "evidence": {
+       "est": 0,
+       "pin": null,
+       "prov": null,
+       "res": 1
+      },
+      "horizon": "2024-09-18T12:38:14Z",
+      "tau_hi": "2026-10-29T21:04:59.744Z",
+      "tau_lo": "2026-10-29T21:04:59.250676Z"
+     }
+    }
+   },
+   "registry_meta": {
+    "publication_time": "2026-10-29T21:04:59.744Z",
+    "publish_exit": 0,
+    "resolves": true,
+    "time_created": "2026-10-29T21:04:59.744Z"
+   },
+   "role": "squat",
+   "t_gate": "2026-10-29T21:05:01.722884Z"
+  },
+  {
+   "absence_lookup": {
+    "method": "GET /<name> on local Verdaccio",
+    "status_before_publish": 404,
+    "time": "2026-10-29T21:04:59.763465Z"
+   },
+   "eco": "npm",
+   "gate_time_s": 0.0,
+   "horizon": "2024-09-18T12:38:14Z",
+   "install_time_s": 0.379,
+   "masked": true,
+   "name": "ph-e644314611",
+   "policies": {
+    "P1": {
+     "installers": [
+      {
+       "argv": [
+        "/opt/node22/bin/npm",
+        "install",
+        "ph-e644314611",
+        "--no-audit",
+        "--no-fund",
+        "--registry",
+        "http://127.0.0.1:44803/",
+        "--userconfig",
+        "/tmp/replay_run_tgz57u8i/npm/verdaccio/.npmrc"
+       ],
+       "elapsed_s": 0.379,
+       "exit": 0,
+       "installed": true,
+       "marker": true,
+       "timed_out": false,
+       "tool": "npm"
+      }
+     ]
+    },
+    "P2": {
+     "age_days": 0,
+     "age_heuristic_days": 30,
+     "basis": "reported publication time; t_gate - pub_time",
+     "decision": "reject",
+     "pub_time": "2026-10-29T21:05:00.102Z"
+    },
+    "P3": {
+     "installers": [
+      {
+       "argv": [
+        "/opt/node22/bin/npm",
+        "install",
+        "ph-e644314611",
+        "--no-audit",
+        "--no-fund",
+        "--before",
+        "2024-09-18T12:38:14Z",
+        "--registry",
+        "http://127.0.0.1:44803/",
+        "--userconfig",
+        "/tmp/replay_run_tgz57u8i/npm/verdaccio/.npmrc"
+       ],
+       "elapsed_s": 0.389,
+       "exit": 1,
+       "installed": false,
+       "marker": false,
+       "timed_out": false,
+       "tool": "npm"
+      }
+     ]
+    },
+    "SCII": {
+     "first_contact": {
+      "G": 0,
+      "R": 0.4,
+      "Rp": 0.7000000000000001,
+      "decision": "reject",
+      "evidence": {
+       "est": 0,
+       "pin": null,
+       "prov": null,
+       "res": 1
+      },
+      "horizon": "2024-09-18T12:38:14Z",
+      "tau_hi": "2026-10-29T21:05:00.102Z",
+      "tau_lo": "2026-10-29T21:05:00.102Z"
+     },
+     "gate_G_before_lock": 0,
+     "gate_time_s": 0.0,
+     "install": {
+      "reason": "SCII first-contact decision was 'reject', not 'admit'",
+      "status": "not_invoked"
+     },
+     "installer_invoked": false,
+     "lock": [],
+     "lock_step_run": false,
+     "no_pin": {
+      "first_contact": {
+       "G": 0,
+       "R": 0.4,
+       "Rp": 0.7000000000000001,
+       "decision": "reject",
+       "evidence": {
+        "est": 0,
+        "pin": null,
+        "prov": null,
+        "res": 1
+       },
+       "horizon": "2024-09-18T12:38:14Z",
+       "tau_hi": "2026-10-29T21:05:00.102Z",
+       "tau_lo": "2026-10-29T21:05:00.102Z"
+      },
+      "with_absence": {
+       "G": 0,
+       "R": 0.4,
+       "Rp": 0.7000000000000001,
+       "decision": "reject",
+       "evidence": {
+        "est": 0,
+        "pin": null,
+        "prov": null,
+        "res": 1
+       },
+       "horizon": "2024-09-18T12:38:14Z",
+       "tau_hi": "2026-10-29T21:05:00.102Z",
+       "tau_lo": "2026-10-29T21:04:59.763465Z"
+      }
+     },
+     "pin_measured": null,
+     "pipeline_order": "gate items (res, est) -> lock for pin iff G==1 -> decide with pin -> install iff admit",
+     "with_absence": {
+      "G": 0,
+      "R": 0.4,
+      "Rp": 0.7000000000000001,
+      "decision": "reject",
+      "evidence": {
+       "est": 0,
+       "pin": null,
+       "prov": null,
+       "res": 1
+      },
+      "horizon": "2024-09-18T12:38:14Z",
+      "tau_hi": "2026-10-29T21:05:00.102Z",
+      "tau_lo": "2026-10-29T21:04:59.763465Z"
+     }
+    }
+   },
+   "registry_meta": {
+    "publication_time": "2026-10-29T21:05:00.102Z",
+    "publish_exit": 0,
+    "resolves": true,
+    "time_created": "2026-10-29T21:05:00.102Z"
+   },
+   "role": "squat",
+   "t_gate": "2026-10-29T21:05:01.722884Z"
+  },
+  {
+   "absence_lookup": {
+    "method": "GET /<name> on local Verdaccio",
+    "status_before_publish": 404,
+    "time": "2026-10-29T21:05:00.122728Z"
+   },
+   "eco": "npm",
+   "gate_time_s": 0.0,
+   "horizon": "2024-09-18T12:38:14Z",
+   "install_time_s": 0.377,
+   "masked": true,
+   "name": "ph-6196925e92",
+   "policies": {
+    "P1": {
+     "installers": [
+      {
+       "argv": [
+        "/opt/node22/bin/npm",
+        "install",
+        "ph-6196925e92",
+        "--no-audit",
+        "--no-fund",
+        "--registry",
+        "http://127.0.0.1:44803/",
+        "--userconfig",
+        "/tmp/replay_run_tgz57u8i/npm/verdaccio/.npmrc"
+       ],
+       "elapsed_s": 0.377,
+       "exit": 0,
+       "installed": true,
+       "marker": true,
+       "timed_out": false,
+       "tool": "npm"
+      }
+     ]
+    },
+    "P2": {
+     "age_days": 0,
+     "age_heuristic_days": 30,
+     "basis": "reported publication time; t_gate - pub_time",
+     "decision": "reject",
+     "pub_time": "2026-10-29T21:05:00.447Z"
+    },
+    "P3": {
+     "installers": [
+      {
+       "argv": [
+        "/opt/node22/bin/npm",
+        "install",
+        "ph-6196925e92",
+        "--no-audit",
+        "--no-fund",
+        "--before",
+        "2024-09-18T12:38:14Z",
+        "--registry",
+        "http://127.0.0.1:44803/",
+        "--userconfig",
+        "/tmp/replay_run_tgz57u8i/npm/verdaccio/.npmrc"
+       ],
+       "elapsed_s": 0.386,
+       "exit": 1,
+       "installed": false,
+       "marker": false,
+       "timed_out": false,
+       "tool": "npm"
+      }
+     ]
+    },
+    "SCII": {
+     "first_contact": {
+      "G": 0,
+      "R": 0.4,
+      "Rp": 0.7000000000000001,
+      "decision": "reject",
+      "evidence": {
+       "est": 0,
+       "pin": null,
+       "prov": null,
+       "res": 1
+      },
+      "horizon": "2024-09-18T12:38:14Z",
+      "tau_hi": "2026-10-29T21:05:00.447Z",
+      "tau_lo": "2026-10-29T21:05:00.447Z"
+     },
+     "gate_G_before_lock": 0,
+     "gate_time_s": 0.0,
+     "install": {
+      "reason": "SCII first-contact decision was 'reject', not 'admit'",
+      "status": "not_invoked"
+     },
+     "installer_invoked": false,
+     "lock": [],
+     "lock_step_run": false,
+     "no_pin": {
+      "first_contact": {
+       "G": 0,
+       "R": 0.4,
+       "Rp": 0.7000000000000001,
+       "decision": "reject",
+       "evidence": {
+        "est": 0,
+        "pin": null,
+        "prov": null,
+        "res": 1
+       },
+       "horizon": "2024-09-18T12:38:14Z",
+       "tau_hi": "2026-10-29T21:05:00.447Z",
+       "tau_lo": "2026-10-29T21:05:00.447Z"
+      },
+      "with_absence": {
+       "G": 0,
+       "R": 0.4,
+       "Rp": 0.7000000000000001,
+       "decision": "reject",
+       "evidence": {
+        "est": 0,
+        "pin": null,
+        "prov": null,
+        "res": 1
+       },
+       "horizon": "2024-09-18T12:38:14Z",
+       "tau_hi": "2026-10-29T21:05:00.447Z",
+       "tau_lo": "2026-10-29T21:05:00.122728Z"
+      }
+     },
+     "pin_measured": null,
+     "pipeline_order": "gate items (res, est) -> lock for pin iff G==1 -> decide with pin -> install iff admit",
+     "with_absence": {
+      "G": 0,
+      "R": 0.4,
+      "Rp": 0.7000000000000001,
+      "decision": "reject",
+      "evidence": {
+       "est": 0,
+       "pin": null,
+       "prov": null,
+       "res": 1
+      },
+      "horizon": "2024-09-18T12:38:14Z",
+      "tau_hi": "2026-10-29T21:05:00.447Z",
+      "tau_lo": "2026-10-29T21:05:00.122728Z"
+     }
+    }
+   },
+   "registry_meta": {
+    "publication_time": "2026-10-29T21:05:00.447Z",
+    "publish_exit": 0,
+    "resolves": true,
+    "time_created": "2026-10-29T21:05:00.447Z"
+   },
+   "role": "squat",
+   "t_gate": "2026-10-29T21:05:01.722884Z"
+  },
+  {
+   "absence_lookup": {
+    "method": "GET /<name> on local Verdaccio",
+    "status_before_publish": 404,
+    "time": "2026-10-29T21:05:00.464682Z"
+   },
+   "eco": "npm",
+   "gate_time_s": 0.378,
+   "horizon": "2024-09-18T12:38:14Z",
+   "install_time_s": 0.36,
+   "masked": true,
+   "name": "ph-d16a48af2f",
+   "policies": {
+    "P1": {
+     "installers": [
+      {
+       "argv": [
+        "/opt/node22/bin/npm",
+        "install",
+        "ph-d16a48af2f",
+        "--no-audit",
+        "--no-fund",
+        "--registry",
+        "http://127.0.0.1:44803/",
+        "--userconfig",
+        "/tmp/replay_run_tgz57u8i/npm/verdaccio/.npmrc"
+       ],
+       "elapsed_s": 0.36,
+       "exit": 0,
+       "installed": true,
+       "marker": true,
+       "timed_out": false,
+       "tool": "npm"
+      }
+     ]
+    },
+    "P2": {
+     "age_days": 951,
+     "age_heuristic_days": 30,
+     "basis": "reported publication time; t_gate - pub_time",
+     "decision": "admit",
+     "pub_time": "2024-03-22T12:38:14Z"
+    },
+    "P3": {
+     "installers": [
+      {
+       "argv": [
+        "/opt/node22/bin/npm",
+        "install",
+        "ph-d16a48af2f",
+        "--no-audit",
+        "--no-fund",
+        "--before",
+        "2024-09-18T12:38:14Z",
+        "--registry",
+        "http://127.0.0.1:44803/",
+        "--userconfig",
+        "/tmp/replay_run_tgz57u8i/npm/verdaccio/.npmrc"
+       ],
+       "elapsed_s": 0.385,
+       "exit": 0,
+       "installed": true,
+       "marker": true,
+       "timed_out": false,
+       "tool": "npm"
+      }
+     ]
+    },
+    "SCII": {
+     "first_contact": {
+      "G": 1,
+      "R": 0.9,
+      "Rp": 1.0,
+      "decision": "admit",
+      "evidence": {
+       "est": 1,
+       "pin": 1,
+       "prov": null,
+       "res": 1
+      },
+      "horizon": "2024-09-18T12:38:14Z",
+      "tau_hi": "2024-03-22T12:38:14Z",
+      "tau_lo": "2024-03-22T12:38:14Z"
+     },
+     "gate_G_before_lock": 1,
+     "gate_time_s": 0.378,
+     "install": {
+      "argv": [
+       "/opt/node22/bin/npm",
+       "install",
+       "ph-d16a48af2f",
+       "--no-audit",
+       "--no-fund",
+       "--registry",
+       "http://127.0.0.1:44803/",
+       "--userconfig",
+       "/tmp/replay_run_tgz57u8i/npm/verdaccio/.npmrc"
+      ],
+      "elapsed_s": 0.484,
+      "exit": 0,
+      "installed": true,
+      "marker": true,
+      "timed_out": false,
+      "tool": "npm"
+     },
+     "installer_invoked": true,
+     "lock": [
+      {
+       "argv": [
+        "/opt/node22/bin/npm",
+        "install",
+        "ph-d16a48af2f",
+        "--package-lock-only",
+        "--ignore-scripts",
+        "--no-audit",
+        "--no-fund",
+        "--registry",
+        "http://127.0.0.1:44803/",
+        "--userconfig",
+        "/tmp/replay_run_tgz57u8i/npm/verdaccio/.npmrc"
+       ],
+       "digest_found": true,
+       "elapsed_s": 0.377,
+       "exit": 0,
+       "marker_after_lock": false,
+       "mode": "package-lock-only",
+       "timed_out": false,
+       "tool": "npm"
+      }
+     ],
+     "lock_step_run": true,
+     "no_pin": {
+      "first_contact": {
+       "G": 1,
+       "R": 0.7,
+       "Rp": 1.0,
+       "decision": "review",
+       "evidence": {
+        "est": 1,
+        "pin": null,
+        "prov": null,
+        "res": 1
+       },
+       "horizon": "2024-09-18T12:38:14Z",
+       "tau_hi": "2024-03-22T12:38:14Z",
+       "tau_lo": "2024-03-22T12:38:14Z"
+      },
+      "with_absence": {
+       "not_applicable": true,
+       "reason": "control predates h; no genuine pre-h absence observation exists, so no tau_lo from a real lookup (not faked)"
+      }
+     },
+     "pin_measured": 1,
+     "pipeline_order": "gate items (res, est) -> lock for pin iff G==1 -> decide with pin -> install iff admit",
+     "with_absence": {
+      "not_applicable": true,
+      "reason": "control predates h; no genuine pre-h absence observation exists, so no tau_lo from a real lookup (not faked)"
+     }
+    }
+   },
+   "registry_meta": {
+    "backdate_supported": true,
+    "publication_time": "2024-03-22T12:38:14Z",
+    "publish_exit": 0,
+    "record_date": "2024-03-22T12:38:14Z",
+    "record_date_set_by_harness": true,
+    "resolves": true,
+    "time_created": "2024-03-22T12:38:14Z"
+   },
+   "role": "control",
+   "t_gate": "2026-10-29T21:05:01.722884Z"
+  },
+  {
+   "absence_lookup": {
+    "method": "sparse index path lookup on local registry",
+    "resolved_before_publish": false,
+    "time": "2026-10-29T21:05:06.578214Z"
+   },
+   "eco": "crates",
+   "gate_time_s": 0.0,
+   "horizon": "2024-09-18T12:38:14Z",
+   "install_time_s": 0.669,
+   "masked": true,
+   "name": "ph-d6f5646ec2",
+   "policies": {
+    "P1": {
+     "installers": [
+      {
+       "argv": [
+        "/root/.cargo/bin/cargo",
+        "build",
+        "-j1",
+        "--manifest-path",
+        "/tmp/replay_run_tgz57u8i/crates/crates_0/P1/consumer/Cargo.toml",
+        "--target-dir",
+        "/tmp/replay_run_tgz57u8i/crates/crates_0/P1/target"
+       ],
+       "elapsed_s": 0.669,
+       "exit": 0,
+       "installed": true,
+       "marker": true,
+       "timed_out": false,
+       "tool": "cargo"
+      }
+     ]
+    },
+    "P2": {
+     "age_days": 0,
+     "age_heuristic_days": 30,
+     "basis": "reported publication time; t_gate - pub_time",
+     "decision": "reject",
+     "pub_time": "2026-10-29T21:05:06.578693Z"
+    },
+    "P3": {
+     "installers": [
+      {
+       "reason": "cargo has no stable publication-date install filter",
+       "status": "not_available",
+       "tool": "cargo"
+      }
+     ]
+    },
+    "SCII": {
+     "first_contact": {
+      "G": 0,
+      "R": 0.4,
+      "Rp": 0.7000000000000001,
+      "decision": "reject",
+      "evidence": {
+       "est": 0,
+       "pin": null,
+       "prov": null,
+       "res": 1
+      },
+      "horizon": "2024-09-18T12:38:14Z",
+      "tau_hi": "2026-10-29T21:05:06.578693Z",
+      "tau_lo": "2026-10-29T21:05:06.578693Z"
+     },
+     "gate_G_before_lock": 0,
+     "gate_time_s": 0.0,
+     "install": {
+      "reason": "SCII first-contact decision was 'reject', not 'admit'",
+      "status": "not_invoked"
+     },
+     "installer_invoked": false,
+     "lock": [],
+     "lock_step_run": false,
+     "no_pin": {
+      "first_contact": {
+       "G": 0,
+       "R": 0.4,
+       "Rp": 0.7000000000000001,
+       "decision": "reject",
+       "evidence": {
+        "est": 0,
+        "pin": null,
+        "prov": null,
+        "res": 1
+       },
+       "horizon": "2024-09-18T12:38:14Z",
+       "tau_hi": "2026-10-29T21:05:06.578693Z",
+       "tau_lo": "2026-10-29T21:05:06.578693Z"
+      },
+      "with_absence": {
+       "G": 0,
+       "R": 0.4,
+       "Rp": 0.7000000000000001,
+       "decision": "reject",
+       "evidence": {
+        "est": 0,
+        "pin": null,
+        "prov": null,
+        "res": 1
+       },
+       "horizon": "2024-09-18T12:38:14Z",
+       "tau_hi": "2026-10-29T21:05:06.578693Z",
+       "tau_lo": "2026-10-29T21:05:06.578214Z"
+      }
+     },
+     "pin_measured": null,
+     "pipeline_order": "gate items (res, est) -> lock for pin iff G==1 -> decide with pin -> install iff admit",
+     "with_absence": {
+      "G": 0,
+      "R": 0.4,
+      "Rp": 0.7000000000000001,
+      "decision": "reject",
+      "evidence": {
+       "est": 0,
+       "pin": null,
+       "prov": null,
+       "res": 1
+      },
+      "horizon": "2024-09-18T12:38:14Z",
+      "tau_hi": "2026-10-29T21:05:06.578693Z",
+      "tau_lo": "2026-10-29T21:05:06.578214Z"
+     }
+    }
+   },
+   "registry_meta": {
+    "cksum": "66e42c810fb0a859038a42d5f6753e3fd442e44ad4bc88b364bab45bf814f738",
+    "index_path": "es/p3/ph-d6f5646ec2",
+    "publication_time": "2026-10-29T21:05:06.578693Z",
+    "resolves": true,
+    "version": "0.1.0"
+   },
+   "role": "squat",
+   "t_gate": "2026-10-29T21:05:06.579587Z"
+  },
+  {
+   "absence_lookup": {
+    "method": "sparse index path lookup on local registry",
+    "resolved_before_publish": false,
+    "time": "2026-10-29T21:05:06.578714Z"
+   },
+   "eco": "crates",
+   "gate_time_s": 0.0,
+   "horizon": "2024-09-18T12:38:14Z",
+   "install_time_s": 0.392,
+   "masked": true,
+   "name": "ph-c923ba45c7",
+   "policies": {
+    "P1": {
+     "installers": [
+      {
+       "argv": [
+        "/root/.cargo/bin/cargo",
+        "build",
+        "-j1",
+        "--manifest-path",
+        "/tmp/replay_run_tgz57u8i/crates/crates_1/P1/consumer/Cargo.toml",
+        "--target-dir",
+        "/tmp/replay_run_tgz57u8i/crates/crates_1/P1/target"
+       ],
+       "elapsed_s": 0.392,
+       "exit": 0,
+       "installed": true,
+       "marker": true,
+       "timed_out": false,
+       "tool": "cargo"
+      }
+     ]
+    },
+    "P2": {
+     "age_days": 0,
+     "age_heuristic_days": 30,
+     "basis": "reported publication time; t_gate - pub_time",
+     "decision": "reject",
+     "pub_time": "2026-10-29T21:05:06.578996Z"
+    },
+    "P3": {
+     "installers": [
+      {
+       "reason": "cargo has no stable publication-date install filter",
+       "status": "not_available",
+       "tool": "cargo"
+      }
+     ]
+    },
+    "SCII": {
+     "first_contact": {
+      "G": 0,
+      "R": 0.4,
+      "Rp": 0.7000000000000001,
+      "decision": "reject",
+      "evidence": {
+       "est": 0,
+       "pin": null,
+       "prov": null,
+       "res": 1
+      },
+      "horizon": "2024-09-18T12:38:14Z",
+      "tau_hi": "2026-10-29T21:05:06.578996Z",
+      "tau_lo": "2026-10-29T21:05:06.578996Z"
+     },
+     "gate_G_before_lock": 0,
+     "gate_time_s": 0.0,
+     "install": {
+      "reason": "SCII first-contact decision was 'reject', not 'admit'",
+      "status": "not_invoked"
+     },
+     "installer_invoked": false,
+     "lock": [],
+     "lock_step_run": false,
+     "no_pin": {
+      "first_contact": {
+       "G": 0,
+       "R": 0.4,
+       "Rp": 0.7000000000000001,
+       "decision": "reject",
+       "evidence": {
+        "est": 0,
+        "pin": null,
+        "prov": null,
+        "res": 1
+       },
+       "horizon": "2024-09-18T12:38:14Z",
+       "tau_hi": "2026-10-29T21:05:06.578996Z",
+       "tau_lo": "2026-10-29T21:05:06.578996Z"
+      },
+      "with_absence": {
+       "G": 0,
+       "R": 0.4,
+       "Rp": 0.7000000000000001,
+       "decision": "reject",
+       "evidence": {
+        "est": 0,
+        "pin": null,
+        "prov": null,
+        "res": 1
+       },
+       "horizon": "2024-09-18T12:38:14Z",
+       "tau_hi": "2026-10-29T21:05:06.578996Z",
+       "tau_lo": "2026-10-29T21:05:06.578714Z"
+      }
+     },
+     "pin_measured": null,
+     "pipeline_order": "gate items (res, est) -> lock for pin iff G==1 -> decide with pin -> install iff admit",
+     "with_absence": {
+      "G": 0,
+      "R": 0.4,
+      "Rp": 0.7000000000000001,
+      "decision": "reject",
+      "evidence": {
+       "est": 0,
+       "pin": null,
+       "prov": null,
+       "res": 1
+      },
+      "horizon": "2024-09-18T12:38:14Z",
+      "tau_hi": "2026-10-29T21:05:06.578996Z",
+      "tau_lo": "2026-10-29T21:05:06.578714Z"
+     }
+    }
+   },
+   "registry_meta": {
+    "cksum": "69e172db8999d2b6166006f7e3da9b06cd525176ae8b3254cc81a920211c28bb",
+    "index_path": "em/be/ph-c923ba45c7",
+    "publication_time": "2026-10-29T21:05:06.578996Z",
+    "resolves": true,
+    "version": "0.1.0"
+   },
+   "role": "squat",
+   "t_gate": "2026-10-29T21:05:06.579587Z"
+  },
+  {
+   "absence_lookup": {
+    "method": "sparse index path lookup on local registry",
+    "resolved_before_publish": false,
+    "time": "2026-10-29T21:05:06.579007Z"
+   },
+   "eco": "crates",
+   "gate_time_s": 0.0,
+   "horizon": "2024-09-18T15:13:54Z",
+   "install_time_s": 0.458,
+   "masked": true,
+   "name": "ph-192c362d35",
+   "policies": {
+    "P1": {
+     "installers": [
+      {
+       "argv": [
+        "/root/.cargo/bin/cargo",
+        "build",
+        "-j1",
+        "--manifest-path",
+        "/tmp/replay_run_tgz57u8i/crates/crates_2/P1/consumer/Cargo.toml",
+        "--target-dir",
+        "/tmp/replay_run_tgz57u8i/crates/crates_2/P1/target"
+       ],
+       "elapsed_s": 0.458,
+       "exit": 0,
+       "installed": true,
+       "marker": true,
+       "timed_out": false,
+       "tool": "cargo"
+      }
+     ]
+    },
+    "P2": {
+     "age_days": 0,
+     "age_heuristic_days": 30,
+     "basis": "reported publication time; t_gate - pub_time",
+     "decision": "reject",
+     "pub_time": "2026-10-29T21:05:06.579300Z"
+    },
+    "P3": {
+     "installers": [
+      {
+       "reason": "cargo has no stable publication-date install filter",
+       "status": "not_available",
+       "tool": "cargo"
+      }
+     ]
+    },
+    "SCII": {
+     "first_contact": {
+      "G": 0,
+      "R": 0.4,
+      "Rp": 0.7000000000000001,
+      "decision": "reject",
+      "evidence": {
+       "est": 0,
+       "pin": null,
+       "prov": null,
+       "res": 1
+      },
+      "horizon": "2024-09-18T15:13:54Z",
+      "tau_hi": "2026-10-29T21:05:06.579300Z",
+      "tau_lo": "2026-10-29T21:05:06.579300Z"
+     },
+     "gate_G_before_lock": 0,
+     "gate_time_s": 0.0,
+     "install": {
+      "reason": "SCII first-contact decision was 'reject', not 'admit'",
+      "status": "not_invoked"
+     },
+     "installer_invoked": false,
+     "lock": [],
+     "lock_step_run": false,
+     "no_pin": {
+      "first_contact": {
+       "G": 0,
+       "R": 0.4,
+       "Rp": 0.7000000000000001,
+       "decision": "reject",
+       "evidence": {
+        "est": 0,
+        "pin": null,
+        "prov": null,
+        "res": 1
+       },
+       "horizon": "2024-09-18T15:13:54Z",
+       "tau_hi": "2026-10-29T21:05:06.579300Z",
+       "tau_lo": "2026-10-29T21:05:06.579300Z"
+      },
+      "with_absence": {
+       "G": 0,
+       "R": 0.4,
+       "Rp": 0.7000000000000001,
+       "decision": "reject",
+       "evidence": {
+        "est": 0,
+        "pin": null,
+        "prov": null,
+        "res": 1
+       },
+       "horizon": "2024-09-18T15:13:54Z",
+       "tau_hi": "2026-10-29T21:05:06.579300Z",
+       "tau_lo": "2026-10-29T21:05:06.579007Z"
+      }
+     },
+     "pin_measured": null,
+     "pipeline_order": "gate items (res, est) -> lock for pin iff G==1 -> decide with pin -> install iff admit",
+     "with_absence": {
+      "G": 0,
+      "R": 0.4,
+      "Rp": 0.7000000000000001,
+      "decision": "reject",
+      "evidence": {
+       "est": 0,
+       "pin": null,
+       "prov": null,
+       "res": 1
+      },
+      "horizon": "2024-09-18T15:13:54Z",
+      "tau_hi": "2026-10-29T21:05:06.579300Z",
+      "tau_lo": "2026-10-29T21:05:06.579007Z"
+     }
+    }
+   },
+   "registry_meta": {
+    "cksum": "8f49eb2c640b19f15549e5825f13d683ddc52fd65aca84f0b0f45ee1c856b2a1",
+    "index_path": "ca/rg/ph-192c362d35",
+    "publication_time": "2026-10-29T21:05:06.579300Z",
+    "resolves": true,
+    "version": "0.1.0"
+   },
+   "role": "squat",
+   "t_gate": "2026-10-29T21:05:06.579587Z"
+  },
+  {
+   "absence_lookup": {
+    "method": "sparse index path lookup on local registry",
+    "resolved_before_publish": false,
+    "time": "2026-10-29T21:05:06.579312Z"
+   },
+   "eco": "crates",
+   "gate_time_s": 0.116,
+   "horizon": "2024-09-18T12:38:14Z",
+   "install_time_s": 0.418,
+   "masked": true,
+   "name": "ph-03b5c4fb8e",
+   "policies": {
+    "P1": {
+     "installers": [
+      {
+       "argv": [
+        "/root/.cargo/bin/cargo",
+        "build",
+        "-j1",
+        "--manifest-path",
+        "/tmp/replay_run_tgz57u8i/crates/crates_3/P1/consumer/Cargo.toml",
+        "--target-dir",
+        "/tmp/replay_run_tgz57u8i/crates/crates_3/P1/target"
+       ],
+       "elapsed_s": 0.418,
+       "exit": 0,
+       "installed": true,
+       "marker": true,
+       "timed_out": false,
+       "tool": "cargo"
+      }
+     ]
+    },
+    "P2": {
+     "age_days": 951,
+     "age_heuristic_days": 30,
+     "basis": "reported publication time; t_gate - pub_time",
+     "decision": "admit",
+     "pub_time": "2024-03-22T12:38:14Z"
+    },
+    "P3": {
+     "installers": [
+      {
+       "reason": "cargo has no stable publication-date install filter",
+       "status": "not_available",
+       "tool": "cargo"
+      }
+     ]
+    },
+    "SCII": {
+     "first_contact": {
+      "G": 1,
+      "R": 0.9,
+      "Rp": 1.0,
+      "decision": "admit",
+      "evidence": {
+       "est": 1,
+       "pin": 1,
+       "prov": null,
+       "res": 1
+      },
+      "horizon": "2024-09-18T12:38:14Z",
+      "tau_hi": "2024-03-22T12:38:14Z",
+      "tau_lo": "2024-03-22T12:38:14Z"
+     },
+     "gate_G_before_lock": 1,
+     "gate_time_s": 0.116,
+     "install": {
+      "argv": [
+       "/root/.cargo/bin/cargo",
+       "build",
+       "-j1",
+       "--manifest-path",
+       "/tmp/replay_run_tgz57u8i/crates/crates_3/SCII/consumer/Cargo.toml",
+       "--target-dir",
+       "/tmp/replay_run_tgz57u8i/crates/crates_3/SCII/target"
+      ],
+      "elapsed_s": 0.413,
+      "exit": 0,
+      "installed": true,
+      "marker": true,
+      "timed_out": false,
+      "tool": "cargo"
+     },
+     "installer_invoked": true,
+     "lock": [
+      {
+       "argv": [
+        "/root/.cargo/bin/cargo",
+        "generate-lockfile",
+        "--manifest-path",
+        "/tmp/replay_run_tgz57u8i/crates/crates_3/lock/consumer/Cargo.toml"
+       ],
+       "digest_found": true,
+       "elapsed_s": 0.115,
+       "exit": 0,
+       "marker_after_lock": false,
+       "mode": "generate-lockfile",
+       "timed_out": false,
+       "tool": "cargo"
+      }
+     ],
+     "lock_step_run": true,
+     "no_pin": {
+      "first_contact": {
+       "G": 1,
+       "R": 0.7,
+       "Rp": 1.0,
+       "decision": "review",
+       "evidence": {
+        "est": 1,
+        "pin": null,
+        "prov": null,
+        "res": 1
+       },
+       "horizon": "2024-09-18T12:38:14Z",
+       "tau_hi": "2024-03-22T12:38:14Z",
+       "tau_lo": "2024-03-22T12:38:14Z"
+      },
+      "with_absence": {
+       "not_applicable": true,
+       "reason": "control predates h; no genuine pre-h absence observation exists, so no tau_lo from a real lookup (not faked)"
+      }
+     },
+     "pin_measured": 1,
+     "pipeline_order": "gate items (res, est) -> lock for pin iff G==1 -> decide with pin -> install iff admit",
+     "with_absence": {
+      "not_applicable": true,
+      "reason": "control predates h; no genuine pre-h absence observation exists, so no tau_lo from a real lookup (not faked)"
+     }
+    }
+   },
+   "registry_meta": {
+    "cksum": "67ed0bcd532475827423c9500f8010081e068995ef5a7618f71d394e01a62af3",
+    "index_path": "ph/an/ph-03b5c4fb8e",
+    "publication_time": "2024-03-22T12:38:14Z",
+    "record_date": "2024-03-22T12:38:14Z",
+    "record_date_set_by_harness": true,
+    "resolves": true,
+    "version": "0.1.0"
+   },
+   "role": "control",
+   "t_gate": "2026-10-29T21:05:06.579587Z"
+  },
+  {
+   "absence_lookup": {
+    "method": "GET /components/<ns>/<name>.json on local static storage",
+    "resolved_before_publish": false,
+    "time": "2026-10-29T21:05:09.886480Z"
+   },
+   "eco": "espidf",
+   "gate_time_s": 0.0,
+   "horizon": "2024-09-18T12:38:14Z",
+   "install_time_s": 0.654,
+   "masked": true,
+   "name": "ph-133890f6f7",
+   "policies": {
+    "P1": {
+     "build": {
+      "built": true,
+      "cmake_marker": true,
+      "command": "idf.py --preview build",
+      "component_lib": true,
+      "elapsed_s": 7.255,
+      "esp_idf": "6.0.3",
+      "exit": 0,
+      "lock_component_hash": "8d4bfbde507f41dddccd543de84b88fe757361d6bc640c6a6e24e4f89f452ae4",
+      "lock_handed_in": false,
+      "materialized": true,
+      "requests_localhost_only": true,
+      "target": "linux",
+      "timed_out": false,
+      "tool": "idf.py"
+     },
+     "installers": [
+      {
+       "argv": [
+        "/usr/bin/python3",
+        "-I",
+        "/tmp/replay_run_tgz57u8i/espidf/espidf_0/P1/driver/esp_driver.py",
+        "resolve",
+        "/tmp/replay_run_tgz57u8i/espidf/espidf_0/P1/spec_resolve.json"
+       ],
+       "code_ran": false,
+       "downloaded_from": "http://127.0.0.1:56231/",
+       "driver_ok": true,
+       "elapsed_s": 0.654,
+       "exit": 0,
+       "installed": true,
+       "managed_component": "replaylocal__ph-133890f6f7",
+       "marker": true,
+       "requests_localhost_only": true,
+       "timed_out": false,
+       "tool": "idf-cm"
+      }
+     ]
+    },
+    "P2": {
+     "age_days": 0,
+     "age_heuristic_days": 30,
+     "basis": "reported publication time; t_gate - pub_time",
+     "decision": "reject",
+     "pub_time": "2026-10-29T21:05:10.061001Z"
+    },
+    "P3": {
+     "installers": [
+      {
+       "reason": "idf-component-manager has no publication-date / as-of install filter",
+       "status": "not_available",
+       "tool": "idf-cm"
+      }
+     ]
+    },
+    "SCII": {
+     "build": {
+      "reason": "the gate did not admit the component",
+      "status": "not_invoked"
+     },
+     "first_contact": {
+      "G": 0,
+      "R": 0.4,
+      "Rp": 0.7000000000000001,
+      "decision": "reject",
+      "evidence": {
+       "est": 0,
+       "pin": null,
+       "prov": null,
+       "res": 1
+      },
+      "horizon": "2024-09-18T12:38:14Z",
+      "tau_hi": "2026-10-29T21:05:10.061001Z",
+      "tau_lo": "2026-10-29T21:05:10.061001Z"
+     },
+     "gate_G_before_lock": 0,
+     "gate_time_s": 0.0,
+     "install": {
+      "reason": "SCII first-contact decision was 'reject', not 'admit'",
+      "status": "not_invoked"
+     },
+     "installer_invoked": false,
+     "lock": [],
+     "lock_step_run": false,
+     "no_pin": {
+      "first_contact": {
+       "G": 0,
+       "R": 0.4,
+       "Rp": 0.7000000000000001,
+       "decision": "reject",
+       "evidence": {
+        "est": 0,
+        "pin": null,
+        "prov": null,
+        "res": 1
+       },
+       "horizon": "2024-09-18T12:38:14Z",
+       "tau_hi": "2026-10-29T21:05:10.061001Z",
+       "tau_lo": "2026-10-29T21:05:10.061001Z"
+      },
+      "with_absence": {
+       "G": 0,
+       "R": 0.4,
+       "Rp": 0.7000000000000001,
+       "decision": "reject",
+       "evidence": {
+        "est": 0,
+        "pin": null,
+        "prov": null,
+        "res": 1
+       },
+       "horizon": "2024-09-18T12:38:14Z",
+       "tau_hi": "2026-10-29T21:05:10.061001Z",
+       "tau_lo": "2026-10-29T21:05:09.886480Z"
+      }
+     },
+     "pin_measured": null,
+     "pipeline_order": "gate items (res, est) -> lock for pin iff G==1 -> decide with pin -> install iff admit",
+     "with_absence": {
+      "G": 0,
+      "R": 0.4,
+      "Rp": 0.7000000000000001,
+      "decision": "reject",
+      "evidence": {
+       "est": 0,
+       "pin": null,
+       "prov": null,
+       "res": 1
+      },
+      "horizon": "2024-09-18T12:38:14Z",
+      "tau_hi": "2026-10-29T21:05:10.061001Z",
+      "tau_lo": "2026-10-29T21:05:09.886480Z"
+     }
+    }
+   },
+   "registry_meta": {
+    "component": "replaylocal/ph-133890f6f7",
+    "component_hash": "8d4bfbde507f41dddccd543de84b88fe757361d6bc640c6a6e24e4f89f452ae4",
+    "namespace": "replaylocal",
+    "publication_time": "2026-10-29T21:05:10.061001Z",
+    "resolves": true,
+    "version": "1.0.0"
+   },
+   "role": "squat",
+   "t_gate": "2026-10-29T21:05:10.064745Z"
+  },
+  {
+   "absence_lookup": {
+    "method": "GET /components/<ns>/<name>.json on local static storage",
+    "resolved_before_publish": false,
+    "time": "2026-10-29T21:05:10.061080Z"
+   },
+   "eco": "espidf",
+   "gate_time_s": 0.551,
+   "horizon": "2024-09-18T12:38:14Z",
+   "install_time_s": 0.684,
+   "masked": true,
+   "name": "ph-59e803761f",
+   "policies": {
+    "P1": {
+     "build": {
+      "built": true,
+      "cmake_marker": true,
+      "command": "idf.py --preview build",
+      "component_lib": true,
+      "elapsed_s": 6.842,
+      "esp_idf": "6.0.3",
+      "exit": 0,
+      "lock_component_hash": "8d4bfbde507f41dddccd543de84b88fe757361d6bc640c6a6e24e4f89f452ae4",
+      "lock_handed_in": false,
+      "materialized": true,
+      "requests_localhost_only": true,
+      "target": "linux",
+      "timed_out": false,
+      "tool": "idf.py"
+     },
+     "installers": [
+      {
+       "argv": [
+        "/usr/bin/python3",
+        "-I",
+        "/tmp/replay_run_tgz57u8i/espidf/espidf_1/P1/driver/esp_driver.py",
+        "resolve",
+        "/tmp/replay_run_tgz57u8i/espidf/espidf_1/P1/spec_resolve.json"
+       ],
+       "code_ran": false,
+       "downloaded_from": "http://127.0.0.1:56231/",
+       "driver_ok": true,
+       "elapsed_s": 0.684,
+       "exit": 0,
+       "installed": true,
+       "managed_component": "replaylocal__ph-59e803761f",
+       "marker": true,
+       "requests_localhost_only": true,
+       "timed_out": false,
+       "tool": "idf-cm"
+      }
+     ]
+    },
+    "P2": {
+     "age_days": 951,
+     "age_heuristic_days": 30,
+     "basis": "reported publication time; t_gate - pub_time",
+     "decision": "admit",
+     "pub_time": "2024-03-22T12:38:14Z"
+    },
+    "P3": {
+     "installers": [
+      {
+       "reason": "idf-component-manager has no publication-date / as-of install filter",
+       "status": "not_available",
+       "tool": "idf-cm"
+      }
+     ]
+    },
+    "SCII": {
+     "first_contact": {
+      "G": 1,
+      "R": 0.9,
+      "Rp": 1.0,
+      "decision": "admit",
+      "evidence": {
+       "est": 1,
+       "pin": 1,
+       "prov": null,
+       "res": 1
+      },
+      "horizon": "2024-09-18T12:38:14Z",
+      "tau_hi": "2024-03-22T12:38:14Z",
+      "tau_lo": "2024-03-22T12:38:14Z"
+     },
+     "gate_G_before_lock": 1,
+     "gate_time_s": 0.551,
+     "install": {
+      "argv": [
+       "/usr/bin/python3",
+       "-I",
+       "/tmp/replay_run_tgz57u8i/espidf/espidf_1/SCII/driver/esp_driver.py",
+       "resolve",
+       "/tmp/replay_run_tgz57u8i/espidf/espidf_1/SCII/spec_resolve.json"
+      ],
+      "build": {
+       "built": true,
+       "cmake_marker": true,
+       "command": "idf.py --preview build",
+       "component_lib": true,
+       "elapsed_s": 6.737,
+       "esp_idf": "6.0.3",
+       "exit": 0,
+       "lock_component_hash": "8d4bfbde507f41dddccd543de84b88fe757361d6bc640c6a6e24e4f89f452ae4",
+       "lock_handed_in": true,
+       "materialized": true,
+       "pin_matches_build": true,
+       "requests_localhost_only": true,
+       "target": "linux",
+       "timed_out": false,
+       "tool": "idf.py"
+      },
+      "code_ran": false,
+      "downloaded_from": "http://127.0.0.1:56231/",
+      "driver_ok": true,
+      "elapsed_s": 0.684,
+      "exit": 0,
+      "installed": true,
+      "managed_component": "replaylocal__ph-59e803761f",
+      "marker": true,
+      "requests_localhost_only": true,
+      "timed_out": false,
+      "tool": "idf-cm"
+     },
+     "installer_invoked": true,
+     "lock": [
+      {
+       "argv": [
+        "/usr/bin/python3",
+        "-I",
+        "/tmp/replay_run_tgz57u8i/espidf/espidf_1/lock/lockproj/driver/esp_driver.py",
+        "lock",
+        "/tmp/replay_run_tgz57u8i/espidf/espidf_1/lock/lockproj/spec_lock.json"
+       ],
+       "code_ran": false,
+       "digest": "8d4bfbde507f41dddccd543de84b88fe757361d6bc640c6a6e24e4f89f452ae4",
+       "digest_found": true,
+       "elapsed_s": 0.55,
+       "exit": 0,
+       "lock_path": "/tmp/replay_run_tgz57u8i/espidf/espidf_1/lock/lockproj/proj/dependencies.lock",
+       "managed_components_created": false,
+       "marker_after_lock": false,
+       "mode": "version-solver + lock dump (no download)",
+       "requests_localhost_only": true,
+       "tool": "idf-cm"
+      }
+     ],
+     "lock_step_run": true,
+     "no_pin": {
+      "first_contact": {
+       "G": 1,
+       "R": 0.7,
+       "Rp": 1.0,
+       "decision": "review",
+       "evidence": {
+        "est": 1,
+        "pin": null,
+        "prov": null,
+        "res": 1
+       },
+       "horizon": "2024-09-18T12:38:14Z",
+       "tau_hi": "2024-03-22T12:38:14Z",
+       "tau_lo": "2024-03-22T12:38:14Z"
+      },
+      "with_absence": {
+       "not_applicable": true,
+       "reason": "control predates h; no genuine pre-h absence observation exists, so no tau_lo from a real lookup (not faked)"
+      }
+     },
+     "pin_measured": 1,
+     "pipeline_order": "gate items (res, est) -> lock for pin iff G==1 -> decide with pin -> install iff admit",
+     "with_absence": {
+      "not_applicable": true,
+      "reason": "control predates h; no genuine pre-h absence observation exists, so no tau_lo from a real lookup (not faked)"
+     }
+    }
+   },
+   "registry_meta": {
+    "component": "replaylocal/ph-59e803761f",
+    "component_hash": "8d4bfbde507f41dddccd543de84b88fe757361d6bc640c6a6e24e4f89f452ae4",
+    "namespace": "replaylocal",
+    "publication_time": "2024-03-22T12:38:14Z",
+    "record_date": "2024-03-22T12:38:14Z",
+    "record_date_set_by_harness": true,
+    "resolves": true,
+    "version": "1.0.0"
+   },
+   "role": "control",
+   "t_gate": "2026-10-29T21:05:10.064745Z"
+  }
+ ],
+ "source_run": "pilot-cpu-2026-10",
+ "summary": {
+  "crates": {
+   "control": {
+    "P1": {
+     "cargo": {
+      "installed": "1/1",
+      "marker": "1/1"
+     }
+    },
+    "P2_reject": "0/1",
+    "P3": {
+     "cargo": {
+      "not_available": true
+     }
+    },
+    "SCII_first_contact": {
+     "admit": 1
+    },
+    "SCII_installs_executed": 1,
+    "SCII_no_pin_first_contact": {
+     "review": 1
+    },
+    "SCII_with_absence": {},
+    "median_gate_time_s": 0.116,
+    "median_install_time_s": 0.418,
+    "n": 1
+   },
+   "squat": {
+    "P1": {
+     "cargo": {
+      "installed": "3/3",
+      "marker": "3/3"
+     }
+    },
+    "P2_reject": "3/3",
+    "P3": {
+     "cargo": {
+      "not_available": true
+     }
+    },
+    "SCII_first_contact": {
+     "reject": 3
+    },
+    "SCII_installs_executed": 0,
+    "SCII_no_pin_first_contact": {
+     "reject": 3
+    },
+    "SCII_with_absence": {
+     "reject": 3
+    },
+    "median_gate_time_s": 0.0,
+    "median_install_time_s": 0.458,
+    "n": 3
+   }
+  },
+  "espidf": {
+   "control": {
+    "P1": {
+     "idf-cm": {
+      "installed": "1/1",
+      "marker": "1/1"
+     }
+    },
+    "P1_build": {
+     "built": "1/1",
+     "cmake_marker": "1/1",
+     "component_lib": "1/1",
+     "invoked": "1/1",
+     "pin_matches_build": "0/1"
+    },
+    "P1_download_code_ran": "0/1",
+    "P2_reject": "0/1",
+    "P3": {
+     "idf-cm": {
+      "not_available": true
+     }
+    },
+    "SCII_build": {
+     "built": "1/1",
+     "cmake_marker": "1/1",
+     "component_lib": "1/1",
+     "invoked": "1/1",
+     "pin_matches_build": "1/1"
+    },
+    "SCII_first_contact": {
+     "admit": 1
+    },
+    "SCII_installs_executed": 1,
+    "SCII_no_pin_first_contact": {
+     "review": 1
+    },
+    "SCII_with_absence": {},
+    "median_gate_time_s": 0.551,
+    "median_install_time_s": 0.684,
+    "n": 1
+   },
+   "squat": {
+    "P1": {
+     "idf-cm": {
+      "installed": "1/1",
+      "marker": "1/1"
+     }
+    },
+    "P1_build": {
+     "built": "1/1",
+     "cmake_marker": "1/1",
+     "component_lib": "1/1",
+     "invoked": "1/1",
+     "pin_matches_build": "0/1"
+    },
+    "P1_download_code_ran": "0/1",
+    "P2_reject": "1/1",
+    "P3": {
+     "idf-cm": {
+      "not_available": true
+     }
+    },
+    "SCII_build": {
+     "built": "0/1",
+     "cmake_marker": "0/1",
+     "component_lib": "0/1",
+     "invoked": "0/1",
+     "pin_matches_build": "0/1"
+    },
+    "SCII_first_contact": {
+     "reject": 1
+    },
+    "SCII_installs_executed": 0,
+    "SCII_no_pin_first_contact": {
+     "reject": 1
+    },
+    "SCII_with_absence": {
+     "reject": 1
+    },
+    "median_gate_time_s": 0.0,
+    "median_install_time_s": 0.654,
+    "n": 1
+   }
+  },
+  "lock_execution": {
+   "crates": {
+    "code_ran_during_lock": "0/3",
+    "digest": "3/3",
+    "n": 3
+   },
+   "espidf": {
+    "code_ran_during_lock": "0/1",
+    "digest": "1/1",
+    "n": 1
+   },
+   "npm": {
+    "code_ran_during_lock": "0/3",
+    "digest": "3/3",
+    "n": 3
+   },
+   "pypi": {
+    "n": 3,
+    "with_no_build": {
+     "code_ran_during_lock": "0/3",
+     "refused": "3/3"
+    },
+    "without_no_build": {
+     "code_ran_during_lock": "3/3",
+     "digest": "3/3",
+     "install_marker": "0/3"
+    }
+   }
+  },
+  "npm": {
+   "control": {
+    "P1": {
+     "npm": {
+      "installed": "1/1",
+      "marker": "1/1"
+     }
+    },
+    "P2_reject": "0/1",
+    "P3": {
+     "npm": {
+      "blocked": "0/1",
+      "installed": "1/1"
+     }
+    },
+    "SCII_first_contact": {
+     "admit": 1
+    },
+    "SCII_installs_executed": 1,
+    "SCII_no_pin_first_contact": {
+     "review": 1
+    },
+    "SCII_with_absence": {},
+    "backdate_supported": true,
+    "median_gate_time_s": 0.378,
+    "median_install_time_s": 0.36,
+    "n": 1
+   },
+   "squat": {
+    "P1": {
+     "npm": {
+      "installed": "3/3",
+      "marker": "3/3"
+     }
+    },
+    "P2_reject": "3/3",
+    "P3": {
+     "npm": {
+      "blocked": "3/3",
+      "installed": "0/3"
+     }
+    },
+    "SCII_first_contact": {
+     "reject": 3
+    },
+    "SCII_installs_executed": 0,
+    "SCII_no_pin_first_contact": {
+     "reject": 3
+    },
+    "SCII_with_absence": {
+     "reject": 3
+    },
+    "median_gate_time_s": 0.0,
+    "median_install_time_s": 0.379,
+    "n": 3
+   }
+  },
+  "pypi": {
+   "control": {
+    "P1": {
+     "pip": {
+      "installed": "1/1",
+      "marker": "0/1"
+     },
+     "uv": {
+      "installed": "1/1",
+      "marker": "0/1"
+     }
+    },
+    "P2_reject": "0/1",
+    "P3": {
+     "pip": {
+      "not_available": true
+     },
+     "uv": {
+      "blocked": "0/1",
+      "installed": "1/1"
+     }
+    },
+    "SCII_first_contact": {
+     "admit": 1
+    },
+    "SCII_installs_executed": 1,
+    "SCII_no_pin_first_contact": {
+     "review": 1
+    },
+    "SCII_with_absence": {},
+    "median_gate_time_s": 0.131,
+    "median_install_time_s": 0.179,
+    "n": 1
+   },
+   "dateless_control": {
+    "P1": {
+     "pip": {
+      "installed": "1/1",
+      "marker": "0/1"
+     },
+     "uv": {
+      "installed": "1/1",
+      "marker": "0/1"
+     }
+    },
+    "P2_reject": "0/1",
+    "P3": {
+     "pip": {
+      "not_available": true
+     },
+     "uv": {
+      "blocked": "1/1",
+      "installed": "0/1"
+     }
+    },
+    "SCII_first_contact": {
+     "request": 1
+    },
+    "SCII_installs_executed": 1,
+    "SCII_no_pin_first_contact": {},
+    "SCII_post_evidence": {
+     "admit": 1
+    },
+    "SCII_with_absence": {},
+    "evidence_cost": {
+     "evidence_elapsed_s": 0.022,
+     "extra_http_requests": 1,
+     "lock_elapsed_s": 0.139,
+     "total_gate_time_s": 0.162
+    },
+    "median_gate_time_s": 0.162,
+    "median_install_time_s": 0.195,
+    "n": 1
+   },
+   "squat": {
+    "P1": {
+     "pip": {
+      "installed": "3/3",
+      "marker": "3/3"
+     },
+     "uv": {
+      "installed": "3/3",
+      "marker": "3/3"
+     }
+    },
+    "P2_reject": "3/3",
+    "P3": {
+     "pip": {
+      "not_available": true
+     },
+     "uv": {
+      "blocked": "3/3",
+      "installed": "0/3"
+     }
+    },
+    "SCII_first_contact": {
+     "request": 3
+    },
+    "SCII_installs_executed": 0,
+    "SCII_no_pin_first_contact": {
+     "request": 3
+    },
+    "SCII_with_absence": {
+     "reject": 3
+    },
+    "median_gate_time_s": 0.0,
+    "median_install_time_s": 0.356,
+    "n": 3
+   }
+  },
+  "tool_versions": {
+   "cargo": "cargo 1.97.0 (c980f4866 2026-06-30)",
+   "esp_idf": "v6.0.3 (76f5dedd99; target linux)",
+   "idf_component_manager": "3.1.2",
+   "node": "v22.22.0",
+   "npm": "10.9.4",
+   "pip": "pip 24.0 from /usr/lib/python3/dist-packages/pip (python 3.13)",
+   "python": "3.13.17",
+   "uv": "uv 0.11.32 (x86_64-unknown-linux-gnu)",
+   "verdaccio": "v6.10.7"
+  }
+ },
+ "t_gate_per_ecosystem": {
+  "crates": "2026-10-29T21:05:06.579587Z",
+  "espidf": "2026-10-29T21:05:10.064745Z",
+  "npm": "2026-10-29T21:05:01.722884Z",
+  "pypi": "2026-10-29T21:04:49.788364Z"
+ },
+ "tool_versions": {
+  "cargo": "cargo 1.97.0 (c980f4866 2026-06-30)",
+  "esp_idf": "v6.0.3 (76f5dedd99; target linux)",
+  "idf_component_manager": "3.1.2",
+  "node": "v22.22.0",
+  "npm": "10.9.4",
+  "pip": "pip 24.0 from /usr/lib/python3/dist-packages/pip (python 3.13)",
+  "python": "3.13.17",
+  "uv": "uv 0.11.32 (x86_64-unknown-linux-gnu)",
+  "verdaccio": "v6.10.7"
+ }
+}

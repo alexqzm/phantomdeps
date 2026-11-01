@@ -1,0 +1,464 @@
+{
+ "url": "https://huggingface.co/api/models/microsoft/phi-4-gguf/tree/main?expand=true",
+ "body": null,
+ "retrieved_at": "2026-10-24T20:45:11Z",
+ "answer": [
+  {
+   "type": "file",
+   "oid": "c1ccb78a8f76e4f1f6b04013d8d4f1fbf6475323",
+   "size": 1562,
+   "path": ".gitattributes",
+   "lastCommit": {
+    "id": "b1e764cfdbdd0a3ed824d6a8424129eb0a2232ff",
+    "title": "chore(root): Initial files upload.",
+    "date": "2025-01-08T20:19:08.000Z"
+   }
+  },
+  {
+   "type": "file",
+   "oid": "c72a5749c52ac97bca71c672ef5295d303d22b05",
+   "size": 453,
+   "path": "CODE_OF_CONDUCT.md",
+   "lastCommit": {
+    "id": "b1e764cfdbdd0a3ed824d6a8424129eb0a2232ff",
+    "title": "chore(root): Initial files upload.",
+    "date": "2025-01-08T20:19:08.000Z"
+   }
+  },
+  {
+   "type": "file",
+   "oid": "700edcc5f42c4816520bc554926ad7e0d9e613d7",
+   "size": 1105,
+   "path": "LICENSE",
+   "lastCommit": {
+    "id": "b1e764cfdbdd0a3ed824d6a8424129eb0a2232ff",
+    "title": "chore(root): Initial files upload.",
+    "date": "2025-01-08T20:19:08.000Z"
+   }
+  },
+  {
+   "type": "file",
+   "oid": "fe3aabe00d663e86197a8f4eb7933db90284cde2",
+   "size": 13614,
+   "path": "README.md",
+   "lastCommit": {
+    "id": "6edc2ef6664b739a8e11e62f2672ff6afe0c15ac",
+    "title": "Update README.md (#8)",
+    "date": "2025-11-24T16:58:52.000Z"
+   }
+  },
+  {
+   "type": "file",
+   "oid": "6b906d43bc2057e6a832c3236897b2e514d6e1e7",
+   "size": 2697,
+   "path": "SECURITY.md",
+   "lastCommit": {
+    "id": "b1e764cfdbdd0a3ed824d6a8424129eb0a2232ff",
+    "title": "chore(root): Initial files upload.",
+    "date": "2025-01-08T20:19:08.000Z"
+   }
+  },
+  {
+   "type": "file",
+   "oid": "baf3116c76b06e5e01745c26ba6ff44e628e4755",
+   "size": 4781,
+   "path": "data_summary_card.md",
+   "lastCommit": {
+    "id": "daa3910273fc8789e8cfa4c1cafe3a94f894ea4e",
+    "title": "Upload data_summary_card.md (#7)",
+    "date": "2025-11-24T16:58:48.000Z"
+   }
+  },
+  {
+   "type": "file",
+   "oid": "52b94f1fb74a707b0dbef74eabb122574cee5dee",
+   "size": 6913835200,
+   "lfs": {
+    "oid": "c9298fa6c9e927b257845a8057c74f2f4bd6bb7fbce35a0db933debdd777ae9a",
+    "size": 6913835200,
+    "pointerSize": 135
+   },
+   "xetHash": "26d12b5f92d0a0aed90d1a9b994c5a7eafc071967f3d11695b1524b2cdef0f7d",
+   "path": "phi-4-IQ3_M.gguf",
+   "lastCommit": {
+    "id": "18ece485b98ae22388ffad82ad468cc2d774f6d4",
+    "title": "chore(root): Re-convert and re-quantize files.",
+    "date": "2025-05-08T14:05:08.000Z"
+   }
+  },
+  {
+   "type": "file",
+   "oid": "a20e0c8933ca7608be0d4ea2af4d57d05bf79015",
+   "size": 6504747200,
+   "lfs": {
+    "oid": "3f165ed951be668c9297e0721dc8a8fdab4916a8da7a6b83a3b47a2a174a9c0e",
+    "size": 6504747200,
+    "pointerSize": 135
+   },
+   "xetHash": "d9b36015c37b3118a78e0fa245927f8aff994b029a9828df7bfb905d862d81a5",
+   "path": "phi-4-IQ3_S.gguf",
+   "lastCommit": {
+    "id": "18ece485b98ae22388ffad82ad468cc2d774f6d4",
+    "title": "chore(root): Re-convert and re-quantize files.",
+    "date": "2025-05-08T14:05:08.000Z"
+   }
+  },
+  {
+   "type": "file",
+   "oid": "b836bbbbe9ae1b7823ccf0f9d57ac4b3992d3724",
+   "size": 6246699200,
+   "lfs": {
+    "oid": "2bd63e342a7d5801f45cab2fb15522812e9c1f4731f92b5a349474743876121c",
+    "size": 6246699200,
+    "pointerSize": 135
+   },
+   "xetHash": "e7fbdfaad79154e0ddddda66457c915fd2ae9d351de207cf0950ca7af283d009",
+   "path": "phi-4-IQ3_XS.gguf",
+   "lastCommit": {
+    "id": "18ece485b98ae22388ffad82ad468cc2d774f6d4",
+    "title": "chore(root): Re-convert and re-quantize files.",
+    "date": "2025-05-08T14:05:08.000Z"
+   }
+  },
+  {
+   "type": "file",
+   "oid": "9a437abc56ecfc7aa6c690eb01cd4d2d5290c198",
+   "size": 6079643840,
+   "lfs": {
+    "oid": "b65f01aab058dc26f8f1d0a4fe84b68df58d29ea2f21c87972620a9869e57bc5",
+    "size": 6079643840,
+    "pointerSize": 135
+   },
+   "xetHash": "e8b146c1f13f3e0438e5ecb40d0e0579553ae180109c83e549622634a75b79b0",
+   "path": "phi-4-IQ3_XXS.gguf",
+   "lastCommit": {
+    "id": "18ece485b98ae22388ffad82ad468cc2d774f6d4",
+    "title": "chore(root): Re-convert and re-quantize files.",
+    "date": "2025-05-08T14:05:08.000Z"
+   }
+  },
+  {
+   "type": "file",
+   "oid": "68fb9ea9aebe674d0ea6b5dbf2c0be77cec51ad3",
+   "size": 8440762560,
+   "lfs": {
+    "oid": "53aa11369a090f667dabf6b5877baa9f9947071bf7e7244a737b2d7b1d5c0379",
+    "size": 8440762560,
+    "pointerSize": 135
+   },
+   "xetHash": "fc94ba02df2a5a7244128e08095377f6e1d726d8da6d245d38b6f2a1a2fdcf3d",
+   "path": "phi-4-IQ4_NL.gguf",
+   "lastCommit": {
+    "id": "18ece485b98ae22388ffad82ad468cc2d774f6d4",
+    "title": "chore(root): Re-convert and re-quantize files.",
+    "date": "2025-05-08T14:05:08.000Z"
+   }
+  },
+  {
+   "type": "file",
+   "oid": "1ad707a7aa59c7a7dec4c3efccc64af37debb10b",
+   "size": 8013058240,
+   "lfs": {
+    "oid": "f5c151b6e5ea5e5bfd699b40e4c6797d08a4c6c0136cad201fb03e1d3e6e5511",
+    "size": 8013058240,
+    "pointerSize": 135
+   },
+   "xetHash": "2bbd5f6aaa2de1861227ac832b3e505f36502c6e16ae8a0014afd37a33d91ef9",
+   "path": "phi-4-IQ4_XS.gguf",
+   "lastCommit": {
+    "id": "18ece485b98ae22388ffad82ad468cc2d774f6d4",
+    "title": "chore(root): Re-convert and re-quantize files.",
+    "date": "2025-05-08T14:05:08.000Z"
+   }
+  },
+  {
+   "type": "file",
+   "oid": "0d5566ebfeebc6cdf1c200aa756dd00e781fd323",
+   "size": 5547348160,
+   "lfs": {
+    "oid": "7ff048b61e9d6fc49bdd11affdb5e0d3365c08e55eb17ffd0f159f6e0de6f53e",
+    "size": 5547348160,
+    "pointerSize": 135
+   },
+   "xetHash": "0dd82f37ffac33aa64e40953d9ef5ffe8b555b04dbb37b11d81aeda6534d2ba1",
+   "path": "phi-4-Q2_K.gguf",
+   "lastCommit": {
+    "id": "18ece485b98ae22388ffad82ad468cc2d774f6d4",
+    "title": "chore(root): Re-convert and re-quantize files.",
+    "date": "2025-05-08T14:05:08.000Z"
+   }
+  },
+  {
+   "type": "file",
+   "oid": "88fcc2ce6e2388ba1b792b2f01c46027681e37ab",
+   "size": 7363268800,
+   "lfs": {
+    "oid": "570a44b43fd7bd87637586ac8d7fc47f5a2fde0376d4f58c22854960c43eb365",
+    "size": 7363268800,
+    "pointerSize": 135
+   },
+   "xetHash": "a31659154f3a0fbe31c4427008bc4b043c91eb4f5b2161c09959ef50a6bf5f2c",
+   "path": "phi-4-Q3_K.gguf",
+   "lastCommit": {
+    "id": "18ece485b98ae22388ffad82ad468cc2d774f6d4",
+    "title": "chore(root): Re-convert and re-quantize files.",
+    "date": "2025-05-08T14:05:08.000Z"
+   }
+  },
+  {
+   "type": "file",
+   "oid": "ce86f05ca83cb7a3de087caa99fb0b96619ffbf8",
+   "size": 7930155200,
+   "lfs": {
+    "oid": "8fe8deaa431f877d7c9c3caf49f0e149c396b526c50558991ad87040cd43111e",
+    "size": 7930155200,
+    "pointerSize": 135
+   },
+   "xetHash": "9eccfe4281a9ebd9a9925f8ee82c4209b58d93fa7bcc08efeef11859c94ad765",
+   "path": "phi-4-Q3_K_L.gguf",
+   "lastCommit": {
+    "id": "18ece485b98ae22388ffad82ad468cc2d774f6d4",
+    "title": "chore(root): Re-convert and re-quantize files.",
+    "date": "2025-05-08T14:05:08.000Z"
+   }
+  },
+  {
+   "type": "file",
+   "oid": "2c2a4c820b3f123555be22191f3ba9f76cd7256f",
+   "size": 6504747200,
+   "lfs": {
+    "oid": "df1d679cf9c8f73471b661168310f736886a3dad01eb4be04a127b899f65a745",
+    "size": 6504747200,
+    "pointerSize": 135
+   },
+   "xetHash": "a9e24a40df085ab8ec00856b0be68dedaf28dcf2a2996e675c7ede941a9892d1",
+   "path": "phi-4-Q3_K_S.gguf",
+   "lastCommit": {
+    "id": "18ece485b98ae22388ffad82ad468cc2d774f6d4",
+    "title": "chore(root): Re-convert and re-quantize files.",
+    "date": "2025-05-08T14:05:08.000Z"
+   }
+  },
+  {
+   "type": "file",
+   "oid": "eba6bffc5f6fe505d3bbd0aff96e0c6203f8a917",
+   "size": 8383418560,
+   "lfs": {
+    "oid": "367a3576b66530fac1cee6c3f47b52e7bbfb003de6cc18e2e2c9a2cc2ad89fe6",
+    "size": 8383418560,
+    "pointerSize": 135
+   },
+   "xetHash": "d72d2538bc316fc36f68ed191b05743af4da72bda70e91c050fdb65f66ff8413",
+   "path": "phi-4-Q4_0.gguf",
+   "lastCommit": {
+    "id": "18ece485b98ae22388ffad82ad468cc2d774f6d4",
+    "title": "chore(root): Re-convert and re-quantize files.",
+    "date": "2025-05-08T14:05:08.000Z"
+   }
+  },
+  {
+   "type": "file",
+   "oid": "1e03dc48f3a4d2954747172dc6d5405e82eeb938",
+   "size": 9267499200,
+   "lfs": {
+    "oid": "312aeab892aa958c06188775125a011164990e9c07acef75c6bd5208bd9bbaaf",
+    "size": 9267499200,
+    "pointerSize": 135
+   },
+   "xetHash": "65901de8e0722a85a96422b5e27e81fbb764743db29dc6b086ca6784520c659b",
+   "path": "phi-4-Q4_1.gguf",
+   "lastCommit": {
+    "id": "18ece485b98ae22388ffad82ad468cc2d774f6d4",
+    "title": "chore(root): Re-convert and re-quantize files.",
+    "date": "2025-05-08T14:05:08.000Z"
+   }
+  },
+  {
+   "type": "file",
+   "oid": "f8fcec29443bb0f043195da004e0e90dc94d3af4",
+   "size": 9053114560,
+   "lfs": {
+    "oid": "5652b9be0ea4ae2842130d04fe31bc869fcb99a2b7106c53b4e754a343fd688f",
+    "size": 9053114560,
+    "pointerSize": 135
+   },
+   "xetHash": "5484b3ddc691cab7578fcbf8f45a12b4d5ba7faf4782d7910203a58def20068a",
+   "path": "phi-4-Q4_K.gguf",
+   "lastCommit": {
+    "id": "18ece485b98ae22388ffad82ad468cc2d774f6d4",
+    "title": "chore(root): Re-convert and re-quantize files.",
+    "date": "2025-05-08T14:05:08.000Z"
+   }
+  },
+  {
+   "type": "file",
+   "oid": "4d0c28bbd4b2c4233309d4927dda89ab217d2c8e",
+   "size": 8440762560,
+   "lfs": {
+    "oid": "8a8189132ef70cd737e136d38b706e8cb832f9cdf3c744547694769e9313550e",
+    "size": 8440762560,
+    "pointerSize": 135
+   },
+   "xetHash": "7dc43974753ba69607ec8e3623fae8f423aa58fc0b9bcd5b8bec7364543c6d8a",
+   "path": "phi-4-Q4_K_S.gguf",
+   "lastCommit": {
+    "id": "18ece485b98ae22388ffad82ad468cc2d774f6d4",
+    "title": "chore(root): Re-convert and re-quantize files.",
+    "date": "2025-05-08T14:05:08.000Z"
+   }
+  },
+  {
+   "type": "file",
+   "oid": "6c881f003669131ea6e85f8420b697fa97fd7fc6",
+   "size": 10151579840,
+   "lfs": {
+    "oid": "b935eaeceeb165ac8c4786a6da44bcb713a8a253abccf01658bfb64acd4b8815",
+    "size": 10151579840,
+    "pointerSize": 136
+   },
+   "xetHash": "fbd8f3980310800c62c4fe00968220193b8c2326e4dde4bf366099492e3963f2",
+   "path": "phi-4-Q5_0.gguf",
+   "lastCommit": {
+    "id": "18ece485b98ae22388ffad82ad468cc2d774f6d4",
+    "title": "chore(root): Re-convert and re-quantize files.",
+    "date": "2025-05-08T14:05:08.000Z"
+   }
+  },
+  {
+   "type": "file",
+   "oid": "3e92071f7bf956c200557a7871e170911e4b62e6",
+   "size": 11035660480,
+   "lfs": {
+    "oid": "1bc2d63bd2fa376f510850365e6826247d211270fbbbde08629a4c52c0c7aad4",
+    "size": 11035660480,
+    "pointerSize": 136
+   },
+   "xetHash": "331521795764307695f7ed4687200915b914ed4573921b7fd6e64b8a55247273",
+   "path": "phi-4-Q5_1.gguf",
+   "lastCommit": {
+    "id": "18ece485b98ae22388ffad82ad468cc2d774f6d4",
+    "title": "chore(root): Re-convert and re-quantize files.",
+    "date": "2025-05-08T14:05:08.000Z"
+   }
+  },
+  {
+   "type": "file",
+   "oid": "79117408a4ee453b2184cce82bd62b0e4674d292",
+   "size": 10604187840,
+   "lfs": {
+    "oid": "1cf76820e5b9b7ae11dafe82e0769e5564754616384c08fc3d1372eb06683aec",
+    "size": 10604187840,
+    "pointerSize": 136
+   },
+   "xetHash": "53a17f1f538fe3161b227c1ad5f7421c72075fc2b054c9157e0dd6e5ff2f5caf",
+   "path": "phi-4-Q5_K.gguf",
+   "lastCommit": {
+    "id": "18ece485b98ae22388ffad82ad468cc2d774f6d4",
+    "title": "chore(root): Re-convert and re-quantize files.",
+    "date": "2025-05-08T14:05:08.000Z"
+   }
+  },
+  {
+   "type": "file",
+   "oid": "2a5b5861a8447bf0ecb48c78eed0bf4e06cc0cf9",
+   "size": 10151579840,
+   "lfs": {
+    "oid": "83bb97146ecfd800ad948da1578e01c40d5704011d6deebb15db6069327d24a5",
+    "size": 10151579840,
+    "pointerSize": 136
+   },
+   "xetHash": "aff148c2d35bcb514c8a8a4ce5e99f5b3c1afc3be22f599b307c95642d49a425",
+   "path": "phi-4-Q5_K_S.gguf",
+   "lastCommit": {
+    "id": "18ece485b98ae22388ffad82ad468cc2d774f6d4",
+    "title": "chore(root): Re-convert and re-quantize files.",
+    "date": "2025-05-08T14:05:08.000Z"
+   }
+  },
+  {
+   "type": "file",
+   "oid": "15aa863c2ef7bb4ac7175833134cc2e3c61b59f0",
+   "size": 12030251200,
+   "lfs": {
+    "oid": "a70147a8a8adb24d62a28e5038aca78c4c145a1c3043a38e8634738a9e6bbd93",
+    "size": 12030251200,
+    "pointerSize": 136
+   },
+   "xetHash": "7d69e7a5f70cbbb21fc07fc0e839bf7e5341e1943d59a80cd99ad4821a7c07a0",
+   "path": "phi-4-Q6_K.gguf",
+   "lastCommit": {
+    "id": "18ece485b98ae22388ffad82ad468cc2d774f6d4",
+    "title": "chore(root): Re-convert and re-quantize files.",
+    "date": "2025-05-08T14:05:08.000Z"
+   }
+  },
+  {
+   "type": "file",
+   "oid": "0ea6fd7344842d4f2a8f86dc66ac5a62eadea580",
+   "size": 15580500160,
+   "lfs": {
+    "oid": "f68df5d3a22a01ea9ec547741f42ee7fedbf949bf42ef526fb1944fa0cfaa110",
+    "size": 15580500160,
+    "pointerSize": 136
+   },
+   "xetHash": "bec2bdaceaa639a734709535aa239bc5ce9f6c121c4cc06325894939bc30de21",
+   "path": "phi-4-Q8_0.gguf",
+   "lastCommit": {
+    "id": "18ece485b98ae22388ffad82ad468cc2d774f6d4",
+    "title": "chore(root): Re-convert and re-quantize files.",
+    "date": "2025-05-08T14:05:08.000Z"
+   }
+  },
+  {
+   "type": "file",
+   "oid": "388d006b377d94883a7cd268512026471b01eec7",
+   "size": 3591098560,
+   "lfs": {
+    "oid": "ae08aeb1cb5da565300176b90c047d27d89dfe7d5f87a359ff95565c04a14102",
+    "size": 3591098560,
+    "pointerSize": 135
+   },
+   "xetHash": "9bb978855f9b3c20a9583498b6c3f0c85b7b511ee034b2649fcf9360b12a0ef1",
+   "path": "phi-4-TQ1_0.gguf",
+   "lastCommit": {
+    "id": "18ece485b98ae22388ffad82ad468cc2d774f6d4",
+    "title": "chore(root): Re-convert and re-quantize files.",
+    "date": "2025-05-08T14:05:08.000Z"
+   }
+  },
+  {
+   "type": "file",
+   "oid": "85b9602fd761dd5404d1e7908c6f00065c0a63f5",
+   "size": 4230074560,
+   "lfs": {
+    "oid": "c3ed993354f92e1bd4bd1c64e879bb14c085811c817ca1aa9ffac4cc7f6fa665",
+    "size": 4230074560,
+    "pointerSize": 135
+   },
+   "xetHash": "42264180ac3ca9fd2e6b58c65cbe4e1ad415ef1cdf1ab4299f4ad12b52f04934",
+   "path": "phi-4-TQ2_0.gguf",
+   "lastCommit": {
+    "id": "18ece485b98ae22388ffad82ad468cc2d774f6d4",
+    "title": "chore(root): Re-convert and re-quantize files.",
+    "date": "2025-05-08T14:05:08.000Z"
+   }
+  },
+  {
+   "type": "file",
+   "oid": "a2a98c9626f8314db14a4cb73b5002d47b73af22",
+   "size": 29323399360,
+   "lfs": {
+    "oid": "c0cdb8adae6864ae0b29cbd38dad2ea5952fee36321924d694a29e7f2eea0650",
+    "size": 29323399360,
+    "pointerSize": 136
+   },
+   "xetHash": "1737709006db84b40ab916dfb5a6627d3fbca92d994d45a4aa3b5465a7a4cc97",
+   "path": "phi-4-bf16.gguf",
+   "lastCommit": {
+    "id": "18ece485b98ae22388ffad82ad468cc2d774f6d4",
+    "title": "chore(root): Re-convert and re-quantize files.",
+    "date": "2025-05-08T14:05:08.000Z"
+   }
+  }
+ ]
+}

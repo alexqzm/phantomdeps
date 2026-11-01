@@ -1,0 +1,276 @@
+{
+ "url": "https://huggingface.co/api/models/microsoft/phi-4",
+ "body": null,
+ "retrieved_at": "2026-10-24T20:45:10Z",
+ "answer": {
+  "_id": "67597bd1b9cdca50cb621f94",
+  "id": "microsoft/phi-4",
+  "private": false,
+  "pipeline_tag": "text-generation",
+  "library_name": "transformers",
+  "tags": [
+   "transformers",
+   "safetensors",
+   "phi3",
+   "text-generation",
+   "phi",
+   "nlp",
+   "math",
+   "code",
+   "chat",
+   "conversational",
+   "en",
+   "arxiv:2412.08905",
+   "license:mit",
+   "eval-results",
+   "text-generation-inference",
+   "endpoints_compatible",
+   "deploy:azure",
+   "region:us"
+  ],
+  "downloads": 364764,
+  "likes": 2329,
+  "modelId": "microsoft/phi-4",
+  "author": "microsoft",
+  "sha": "2db69c1c3e91a05d2c64a3185acfbaf36f744e25",
+  "lastModified": "2026-07-14T14:22:25.000Z",
+  "gated": false,
+  "disabled": false,
+  "widgetData": [
+   {
+    "messages": [
+     {
+      "role": "user",
+      "content": "How should I explain the Internet?"
+     }
+    ]
+   }
+  ],
+  "model-index": null,
+  "config": {
+   "architectures": [
+    "Phi3ForCausalLM"
+   ],
+   "model_type": "phi3",
+   "tokenizer_config": {
+    "bos_token": "<|endoftext|>",
+    "chat_template": "{% for message in messages %}{% if (message['role'] == 'system') %}{{'<|im_start|>system<|im_sep|>' + message['content'] + '<|im_end|>'}}{% elif (message['role'] == 'user') %}{{'<|im_start|>user<|im_sep|>' + message['content'] + '<|im_end|>'}}{% elif (message['role'] == 'assistant') %}{{'<|im_start|>assistant<|im_sep|>' + message['content'] + '<|im_end|>'}}{% endif %}{% endfor %}{% if add_generation_prompt %}{{ '<|im_start|>assistant<|im_sep|>' }}{% endif %}",
+    "eos_token": "<|im_end|>",
+    "pad_token": "<|dummy_85|>"
+   }
+  },
+  "cardData": {
+   "license": "mit",
+   "license_link": "https://huggingface.co/microsoft/phi-4/resolve/main/LICENSE",
+   "language": [
+    "en"
+   ],
+   "pipeline_tag": "text-generation",
+   "tags": [
+    "phi",
+    "nlp",
+    "math",
+    "code",
+    "chat",
+    "conversational"
+   ],
+   "inference": {
+    "parameters": {
+     "temperature": 0
+    }
+   },
+   "widget": [
+    {
+     "messages": [
+      {
+       "role": "user",
+       "content": "How should I explain the Internet?"
+      }
+     ]
+    }
+   ],
+   "library_name": "transformers"
+  },
+  "transformersInfo": {
+   "auto_model": "AutoModelForCausalLM",
+   "pipeline_tag": "text-generation",
+   "processor": "AutoTokenizer"
+  },
+  "siblings": [
+   {
+    "rfilename": ".gitattributes"
+   },
+   {
+    "rfilename": "CODE_OF_CONDUCT.md"
+   },
+   {
+    "rfilename": "LICENSE"
+   },
+   {
+    "rfilename": "README.md"
+   },
+   {
+    "rfilename": "SECURITY.md"
+   },
+   {
+    "rfilename": "added_tokens.json"
+   },
+   {
+    "rfilename": "config.json"
+   },
+   {
+    "rfilename": "data_summary_card.md"
+   },
+   {
+    "rfilename": "generation_config.json"
+   },
+   {
+    "rfilename": "merges.txt"
+   },
+   {
+    "rfilename": "model-00001-of-00006.safetensors"
+   },
+   {
+    "rfilename": "model-00002-of-00006.safetensors"
+   },
+   {
+    "rfilename": "model-00003-of-00006.safetensors"
+   },
+   {
+    "rfilename": "model-00004-of-00006.safetensors"
+   },
+   {
+    "rfilename": "model-00005-of-00006.safetensors"
+   },
+   {
+    "rfilename": "model-00006-of-00006.safetensors"
+   },
+   {
+    "rfilename": "model.safetensors.index.json"
+   },
+   {
+    "rfilename": "special_tokens_map.json"
+   },
+   {
+    "rfilename": "tokenizer.json"
+   },
+   {
+    "rfilename": "tokenizer_config.json"
+   },
+   {
+    "rfilename": "vocab.json"
+   }
+  ],
+  "spaces": [
+   "pliny-the-prompter/obliteratus",
+   "alienet/BookWorld",
+   "Genrius-AI/llm-vram-calculator",
+   "reach-vb/2024-ai-timeline",
+   "eswardivi/phi-4",
+   "FINAL-Bench/all-bench-leaderboard",
+   "flowers-team/StickToYourRoleLeaderboard",
+   "Agents-MCP-Hackathon/ShallowCodeResearch",
+   "VIDraft/global-llm-leaderboard",
+   "ginigen-ai/open-router-leaderboard",
+   "fair-forward/languagebench",
+   "newmindai/Mezura",
+   "2025-ai-timeline/2025-ai-timeline",
+   "bethgelab/lm-similarity",
+   "merterbak/phi-4",
+   "artificialguybr/CanIRunThisLLM",
+   "poetrychor/microsoft-phi-4",
+   "kalashshah040/SwitchAI",
+   "arudradey/all-bench-leaderboard",
+   "HAIA-Group3/Capstone-project-NEW",
+   "abuelzoz33/vram-calculator",
+   "leonard-dls/benchmark_data_contamination",
+   "TejAndrewsACC/PhilosBeta",
+   "wambugu71/phi4",
+   "dumbordumber/obliteratus",
+   "Kodacoda/obliteratus",
+   "bluemoonsoldout/llm-cal",
+   "Canstralian/codedllama",
+   "hashirehtisham/Emotional-Support-chat",
+   "Kevinlidk/2024-ai-timeline",
+   "Nymbo/2024-ai-timeline",
+   "jiocreators/microsoft-phi-4",
+   "Operon/microsoft-phi-4",
+   "Canstralian/microsoft-phi-4",
+   "Surjdav8/microsoft-phi-4",
+   "readomni/literate",
+   "hackergeek/microsoft-phi-4",
+   "Suuzart/chatbot-pff-n2",
+   "PubHealthBot/Public_Health_Bot",
+   "Lyiosvf/first-chatbot",
+   "unesco-data-ai/mcp-unesco-server",
+   "dromero14521/obliteratus",
+   "rbinrs/obliteratus",
+   "kicfk/obliteratus",
+   "aaahmet/obliteratus",
+   "Deadmon/obliteratus",
+   "Ngixdev/obliteratus",
+   "F-Red/SEM-project-2063",
+   "supreme-lab/AgentSkillBench",
+   "sathyadexter10/dexter-index",
+   "Harshit-2425/Indian-Judgemental",
+   "gokhanturhan/CLINAMEN-Chat",
+   "RavichandranJ/obliteratus",
+   "S-Dreamer/obliteratus",
+   "AlanaSky/asgaard",
+   "marchkamal51/obliteratus",
+   "gokhanturhan/CLINAMEN-Farsight",
+   "patrickleenyc/fucc-boi-bench",
+   "rvguha/HFNLWebDemo",
+   "maufadel/wattgpu",
+   "jkorstad/daggr-studio",
+   "alienet/EasyTranslator",
+   "Dakshith/sadlife",
+   "ivxxdegen/new_mibera_train",
+   "moonlion/microsoft-phi-4",
+   "Discodis/microsoft-phi-4",
+   "adididwhat/microsoft-phi-4-test",
+   "toantt293/microsoft-phi-4",
+   "bfhaha/microsoft-phi-4",
+   "fallsnow/microsoft-phi-4",
+   "as2221asdas/microsoft-phi-4",
+   "bukeng/microsoft-phi-4",
+   "yanofai/microsoft-phi-4",
+   "moh1tomgx5/microsoft-phi-4",
+   "TomKlaus/microsoft-phi-4",
+   "hasankara14/microsoft-phi-4",
+   "Guldmundur/microsoft-phi-4",
+   "Rkemmi/microsoft-phi-4",
+   "Anupam251272/microsoft-phi-4",
+   "Minorutanaka14052005/microsoft-phi-4",
+   "richardperkins/microsoft-phi-4",
+   "anticlimacus/microsoft-phi-4",
+   "mmshaban/microsoft-phi-4",
+   "ZHZ1024/microsoft-phi-4",
+   "ZHZ1024/phi-4",
+   "Sedarkstian/microsoft-phi-4",
+   "DJC1885/microsoft-phi-4",
+   "dragonarab/microsoft-phi-4",
+   "madmix/microsoft-phi-4",
+   "ysamide/microsoft-phi-4",
+   "Analiviaweb/ohi4",
+   "ASamantDataiku/microsoft-phi-4",
+   "MohMehrnia/microsoft-phi-4",
+   "seosoft/microsoft-phi-4",
+   "sysy007uuu/microsoft-phi-4",
+   "himxg/microsoft-phi-4",
+   "EmilioMoreau/microsoft-phi-4",
+   "Zerouscn/microsoft-phi-4",
+   "pfinal/microsoft-phi-4",
+   "lfitokyo/microsoft-phi-4"
+  ],
+  "createdAt": "2024-12-11T11:47:29.000Z",
+  "safetensors": {
+   "parameters": {
+    "BF16": 14659507200
+   },
+   "total": 14659507200
+  },
+  "inference": "warm",
+  "usedStorage": 29319042992
+ }
+}
